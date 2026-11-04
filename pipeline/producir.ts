@@ -40,18 +40,19 @@ const env = (n: string) => {
 
 async function voz(g: Guion): Promise<{ timing: Timing; audio: string | null }> {
   if (flag("sin-voz")) return { timing: estimarTiming(g), audio: null };
-  const rel = `audio/${g.id}.mp3`;
-  const cache = path.join(PUBLIC, `audio/${g.id}.json`);
+  const narrador = (flag("narrador") ?? process.env.NARRADOR ?? "sebas").toLowerCase();
+  const rel = `audio/${g.id}-${narrador}.mp3`;
+  const cache = path.join(PUBLIC, `audio/${g.id}-${narrador}.json`);
   const texto = textoNarracion(g);
   if (!flag("rehacer-voz") && (await existe(cache))) {
     const c = JSON.parse(await readFile(cache, "utf8"));
     if (c.texto === texto) { console.log("  voz en caché (usa --rehacer-voz para regenerar)"); return { timing: c.timing, audio: rel }; }
   }
-  const narrador = (flag("narrador") ?? process.env.NARRADOR ?? "sebas").toUpperCase();
-  console.log(`  narrador: ${narrador.toLowerCase()}`);
-  const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${env(`ELEVENLABS_VOICE_ID_${narrador}`)}/with-timestamps`, {
+  const N = narrador.toUpperCase();
+  console.log(`  narrador: ${narrador}`);
+  const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${env(`ELEVENLABS_VOICE_ID_${N}`)}/with-timestamps`, {
     method: "POST",
-    headers: { "xi-api-key": env(`ELEVENLABS_API_KEY_${narrador}`), "Content-Type": "application/json" },
+    headers: { "xi-api-key": env(`ELEVENLABS_API_KEY_${N}`), "Content-Type": "application/json" },
     body: JSON.stringify({
       text: texto,
       model_id: process.env.ELEVENLABS_MODEL || "eleven_multilingual_v2",
@@ -152,7 +153,8 @@ async function main() {
   if (timing.duracion > 90) console.warn("  ⚠ más de 90 s: recorta el guion");
 
   console.log("→ render");
-  const video = path.join(OUT, `${guion.id}.mp4`);
+  const sufijo = flag("sin-voz") ? "sin-voz" : (flag("narrador") ?? process.env.NARRADOR ?? "sebas").toLowerCase();
+  const video = path.join(OUT, `${guion.id}-${sufijo}.mp4`);
   const musica = (await existe(path.join(PUBLIC, "musica.mp3"))) ? "musica.mp3" : null;
   await render({ guion, timing, audio, musica }, video);
 
