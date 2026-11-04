@@ -28,7 +28,7 @@ async function buscarCommons(q: string, usadas: Set<string>): Promise<Candidato 
     gsrsearch: `${q} filetype:bitmap`, gsrlimit: "15",
     prop: "imageinfo", iiprop: "url|extmetadata|mime|size", iiurlwidth: "1600",
   }).forEach(([k, v]) => u.searchParams.set(k, v));
-  const r = await fetch(u, { headers: { "User-Agent": UA } });
+  const r = await pedir(u);
   if (!r.ok) throw new Error(`Commons ${r.status}`);
   const pages = Object.values((await r.json()).query?.pages ?? {}) as any[];
   pages.sort((a, b) => a.index - b.index);
@@ -66,8 +66,18 @@ async function buscarPexels(q: string, usadas: Set<string>): Promise<Candidato |
 }
 
 const existe = (f: string) => access(f).then(() => true, () => false);
+const esperar = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-export async function resolverImagenes(g: Guion, rehacer = false): Promise<Guion> {
+/** fetch con reintentos: Commons responde 429 si se le pide muy rápido. */
+async function pedir(url: string | URL, init: RequestInit = {}, intentos = 4): Promise<Response> {
+  for (let i = 0; ; i++) {
+    const r = await fetch(url, { ...init, headers: { "User-Agent": UA, ...(init.headers ?? {}) } });
+    if ((r.status === 429 || r.status >= 500) && i < intentos - 1) { await esperar(1500 * (i + 1)); continue; }
+    return r;
+  }
+}
+
+export async function resolverImagenes(g: Guion, rehacer = false, guardar?: () => Promise<void>): Promise<Guion> {
   const dir = path.join(RAIZ, "public", "img", g.id);
   await mkdir(dir, { recursive: true });
   const usadas = new Set(g.escenas.flatMap((e) => e.imagenes.map((i) => i.url).filter(Boolean) as string[]));
@@ -75,6 +85,7 @@ export async function resolverImagenes(g: Guion, rehacer = false): Promise<Guion
     for (const [j, img] of e.imagenes.entries()) {
       const rel = `img/${g.id}/${i + 1}-${j + 1}.jpg`;
       if (!rehacer && img.archivo && (await existe(path.join(RAIZ, "public", img.archivo)))) continue;
+      try {
       if (rehacer || !img.url) {
         const c = img.fuente === "pexels"
           ? (await buscarPexels(img.busqueda, usadas)) ?? (await buscarCommons(img.busqueda, usadas))
@@ -83,11 +94,16 @@ export async function resolverImagenes(g: Guion, rehacer = false): Promise<Guion
         Object.assign(img, c);
         usadas.add(c.url);
       }
-      const r = await fetch(img.url!, { headers: { "User-Agent": UA } });
+      const r = await pedir(img.url!);
       if (!r.ok) { console.warn(`  ⚠ escena ${i + 1}.${j + 1}: descarga ${r.status}`); continue; }
       await writeFile(path.join(RAIZ, "public", rel), Buffer.from(await r.arrayBuffer()));
       img.archivo = rel;
       console.log(`  ${i + 1}.${j + 1} ${img.busqueda} → ${img.pagina}`);
+      await guardar?.();
+      await esperar(400);
+      } catch (err) {
+        console.warn(`  ⚠ escena ${i + 1}.${j + 1} (${img.busqueda}): ${(err as Error).message}`);
+      }
     }
   }
   return g;
@@ -97,8 +113,11 @@ if (require.main === module) {
   (async () => {
     const archivo = process.argv[2];
     const g = guionSchema.parse(JSON.parse(await readFile(archivo, "utf8")));
-    await resolverImagenes(g, process.argv.includes("--rehacer"));
-    await writeFile(archivo, JSON.stringify(g, null, 2) + "\n");
+    const guardar = () => writeFile(archivo, JSON.stringify(g, null, 2) + "\n");
+    await resolverImagenes(g, process.argv.includes("--rehacer"), guardar);
+    await guardar();
+    const faltan = g.escenas.flatMap((e, i) => e.imagenes.map((im, j) => (im.archivo ? null : `${i + 1}.${j + 1} "${im.busqueda}"`))).filter(Boolean);
+    if (faltan.length) console.warn(`⚠ sin imagen: ${faltan.join(", ")}. Cambia la búsqueda o pega una url y vuelve a correr.`);
     console.log(`✓ imágenes resueltas en ${archivo}`);
   })().catch((e) => { console.error(e); process.exit(1); });
 }

@@ -138,8 +138,11 @@ async function main() {
 
   if (!flag("sin-imagenes")) {
     console.log(`→ ${guion.id}: imágenes`);
-    await resolverImagenes(guion, Boolean(flag("rehacer-imagenes")));
-    await writeFile(ruta, JSON.stringify(guion, null, 2) + "\n");
+    const guardar = () => writeFile(ruta, JSON.stringify(guion, null, 2) + "\n");
+    await resolverImagenes(guion, Boolean(flag("rehacer-imagenes")), guardar);
+    await guardar();
+    const faltan = guion.escenas.some((e) => e.imagenes.some((im) => !im.archivo));
+    if (faltan) throw new Error("Hay escenas sin imagen. Corre pipeline/imagenes.ts y revisa las búsquedas.");
   }
 
   console.log("→ voz");
