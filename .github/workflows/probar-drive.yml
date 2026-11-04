@@ -1,0 +1,29 @@
+name: Probar Drive
+
+# Prueba rápida (≈30 s) de que el token y la carpeta de Drive funcionan. Sube un .txt a "_pruebas/".
+on: workflow_dispatch
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Instalar rclone
+        run: curl -fsSL https://rclone.org/install.sh | sudo bash && rclone version
+      - name: Revisar secretos
+        env:
+          TOKEN: ${{ secrets.RCLONE_DRIVE_TOKEN }}
+          CARPETA: ${{ vars.DRIVE_FOLDER_ID }}
+        run: |
+          [ -n "$CARPETA" ] && echo "✓ DRIVE_FOLDER_ID = $CARPETA" || echo "::error::Falta la variable DRIVE_FOLDER_ID"
+          [ -n "$TOKEN" ] && echo "✓ RCLONE_DRIVE_TOKEN tiene ${#TOKEN} caracteres" || echo "::error::Falta el secreto RCLONE_DRIVE_TOKEN"
+          echo "$TOKEN" | jq -e '.refresh_token and .access_token' >/dev/null && echo "✓ El token es JSON válido con refresh_token" || echo "::error::RCLONE_DRIVE_TOKEN no es el JSON completo de rclone authorize"
+      - name: Subir archivo de prueba
+        env:
+          RCLONE_CONFIG_DRIVE_TYPE: drive
+          RCLONE_CONFIG_DRIVE_SCOPE: drive
+          RCLONE_CONFIG_DRIVE_TOKEN: ${{ secrets.RCLONE_DRIVE_TOKEN }}
+          RCLONE_CONFIG_DRIVE_ROOT_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID }}
+        run: |
+          echo "Prueba desde GitHub Actions $(date -u)" > prueba.txt
+          rclone copy prueba.txt drive:_pruebas/ -vv 2>&1 | grep -viE "bearer|access_token"
+          rclone ls drive:_pruebas/
