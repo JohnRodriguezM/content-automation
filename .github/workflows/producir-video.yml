@@ -1,0 +1,64 @@
+name: producir video
+
+# Se dispara cuando entra un guion nuevo o modificado, o a mano desde la pestaña Actions.
+on:
+  push:
+    branches: [main]
+    paths: ["guiones/*.json"]
+  workflow_dispatch:
+    inputs:
+      guion:
+        description: "Ruta del guion (ej. guiones/2026-11-04-crecer-sin-caja.json)"
+        required: true
+      publicar:
+        description: "borrador | programar | no"
+        default: "borrador"
+
+concurrency: { group: producir-video, cancel-in-progress: false }
+
+jobs:
+  producir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: package-lock.json }
+
+      - run: npm ci
+      - run: npx remotion browser ensure
+
+      - name: Guiones a producir
+        id: guiones
+        run: |
+          if [ -n "${{ inputs.guion }}" ]; then
+            echo "lista=${{ inputs.guion }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "lista=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- guiones/ | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Voz, render y Zernio
+        env:
+          NARRADOR: ${{ vars.NARRADOR || 'sebas' }}
+          ELEVENLABS_API_KEY_SEBAS: ${{ secrets.ELEVENLABS_API_KEY_SEBAS }}
+          ELEVENLABS_VOICE_ID_SEBAS: ${{ secrets.ELEVENLABS_VOICE_ID_SEBAS }}
+          ELEVENLABS_API_KEY_JOHN: ${{ secrets.ELEVENLABS_API_KEY_JOHN }}
+          ELEVENLABS_VOICE_ID_JOHN: ${{ secrets.ELEVENLABS_VOICE_ID_JOHN }}
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+          ZERNIO_TIKTOK_ID: ${{ vars.ZERNIO_TIKTOK_ID }}
+          ZERNIO_INSTAGRAM_ID: ${{ vars.ZERNIO_INSTAGRAM_ID }}
+          MODO: ${{ inputs.publicar || vars.MODO_PUBLICACION || 'borrador' }}
+          HORA: ${{ vars.HORA_PUBLICACION || '19:30' }}
+        run: |
+          for g in ${{ steps.guiones.outputs.lista }}; do
+            npx tsx pipeline/producir.ts "$g" --publicar="$MODO" --hora="$HORA"
+          done
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: videos
+          path: out/*.mp4
+          retention-days: 14
