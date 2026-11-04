@@ -53,6 +53,21 @@ Música opcional: pon un archivo con licencia en `public/musica.mp3` y se mezcla
 
 Cada hecho sobre una empresa o persona real va con su fuente en `fuentes`.
 
-## Automatizar en GitHub (después)
+## Ciclo diario automático
 
-`.github/workflows/producir-video.yml` produce cada guion nuevo que entra a `main`. Necesita como Secrets las mismas variables del `.env` (`ELEVENLABS_API_KEY_SEBAS`, `ELEVENLABS_VOICE_ID_SEBAS`, `..._JOHN`, `ZERNIO_API_KEY`) y como Variables `ZERNIO_TIKTOK_ID`, `ZERNIO_INSTAGRAM_ID`, `NARRADOR`, `MODO_PUBLICACION` (`borrador` | `programar`) y `HORA_PUBLICACION`.
+1. **11 pm (Bogotá):** una tarea programada de Claude escribe 4 guiones para el día siguiente siguiendo [`GUIA-GUIONES.md`](GUIA-GUIONES.md) (2 negocios, 1 biografías, 1 tecnología; 2 con voz de sebas y 2 con voz de john), los valida y hace push a `main`.
+2. **Push → GitHub Actions** (`.github/workflows/producir-video.yml`): produce los 4 en paralelo (imágenes, voz, render en formato mixto).
+3. **Google Drive:** cada video y su `descripcion.txt` (caption listo para pegar, fuentes y créditos) quedan en `Content Automation · Videos/<fecha>/`.
+4. Revisas y publicas.
+
+Para producir a mano uno o varios guiones ya subidos: pestaña Actions → "Producir videos" → Run workflow.
+
+### Configuración en GitHub (Settings → Secrets and variables → Actions)
+
+| Tipo | Nombre | Valor |
+|---|---|---|
+| Secret | `ELEVENLABS_API_KEY_SEBAS`, `ELEVENLABS_VOICE_ID_SEBAS` | cuenta de sebas |
+| Secret | `ELEVENLABS_API_KEY_JOHN`, `ELEVENLABS_VOICE_ID_JOHN` | cuenta de john |
+| Secret | `RCLONE_DRIVE_TOKEN` | salida de `rclone authorize "drive"` (el JSON entre llaves) |
+| Secret | `PEXELS_API_KEY` | opcional |
+| Variable | `DRIVE_FOLDER_ID` | `1CMcoqrH_jSRsCHvyk3Gg-4L4ZuYvfL_P` (carpeta "Content Automation · Videos") |

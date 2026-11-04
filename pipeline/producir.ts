@@ -39,9 +39,33 @@ const env = (n: string) => {
   return v;
 };
 
+const narradorDe = (g: Guion) => (flag("narrador") ?? g.narrador ?? process.env.NARRADOR ?? "sebas").toLowerCase();
+
+/** Texto listo para pegar en TikTok/Instagram + fuentes y créditos para revisar. */
+export function descripcion(g: Guion) {
+  const creditos = [...new Set(g.escenas.flatMap((e) => e.imagenes.map((i) => i.credito).filter(Boolean)))];
+  const caption = `${g.caption}\n\nFotos: Wikimedia Commons (créditos en el video).\n\n${g.hashtags.join(" ")}`;
+  return [
+    `TEMA: ${g.tema}`,
+    `PILAR: ${g.pilar} · NARRADOR: ${narradorDe(g)}`,
+    "",
+    "===== CAPTION (TikTok e Instagram) =====",
+    caption,
+    "",
+    `(${caption.length} caracteres · Instagram admite 2.200, TikTok 4.000)`,
+    "",
+    "===== FUENTES (para revisar, no publicar) =====",
+    ...g.fuentes.map((f) => `- ${f.afirmacion}\n  ${f.url}`),
+    "",
+    "===== CRÉDITOS DE IMÁGENES =====",
+    ...creditos.map((c) => `- ${c}`),
+    ...g.escenas.flatMap((e) => e.imagenes.map((i) => i.pagina).filter(Boolean)).map((u) => `  ${u}`),
+  ].join("\n");
+}
+
 async function voz(g: Guion): Promise<{ timing: Timing; audio: string | null }> {
   if (flag("sin-voz")) return { timing: estimarTiming(g), audio: null };
-  const narrador = (flag("narrador") ?? process.env.NARRADOR ?? "sebas").toLowerCase();
+  const narrador = narradorDe(g);
   const rel = `audio/${g.id}-${narrador}.mp3`;
   const cache = path.join(PUBLIC, `audio/${g.id}-${narrador}.json`);
   const texto = textoNarracion(g);
@@ -108,7 +132,7 @@ async function publicar(g: Guion, video: string, modo: "borrador" | "programar")
   if (!put.ok) throw new Error(`Subida del video ${put.status}`);
 
   const body: Record<string, unknown> = {
-    content: `${g.caption}\n\n${g.hashtags.join(" ")}`,
+    content: `${g.caption}\n\nFotos: Wikimedia Commons (créditos en el video).\n\n${g.hashtags.join(" ")}`,
     mediaItems: [{ type: "video", url: publicUrl }],
     platforms: [
       { platform: "tiktok", accountId: env("ZERNIO_TIKTOK_ID") },
@@ -155,8 +179,9 @@ async function main() {
   if (timing.duracion > 90) console.warn("  ⚠ más de 90 s: recorta el guion");
 
   console.log("→ render");
-  const sufijo = flag("sin-voz") ? "sin-voz" : (flag("narrador") ?? process.env.NARRADOR ?? "sebas").toLowerCase();
+  const sufijo = flag("sin-voz") ? "sin-voz" : narradorDe(guion);
   const video = path.join(OUT, `${guion.id}-${sufijo}-${estilo}.mp4`);
+  await writeFile(path.join(OUT, `${guion.id}-${sufijo}.descripcion.txt`), descripcion(guion) + "\n");
   const musica = (await existe(path.join(PUBLIC, "musica.mp3"))) ? "musica.mp3" : null;
   await render({ guion, timing, audio, musica }, video, { mixto: "Mixto", documental: "Video", motion: "Motion" }[estilo] as "Mixto" | "Video" | "Motion");
 

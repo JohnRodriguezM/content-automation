@@ -55,10 +55,12 @@ export const escenaSchema = z.object({
 export const guionSchema = z.object({
   id: z.string().regex(/^\d{4}-\d{2}-\d{2}-[a-z0-9-]+$/),
   pilar: z.enum(["negocios", "biografias", "tecnologia"]),
+  // Cuenta de ElevenLabs que pone la voz; --narrador o NARRADOR la reemplazan
+  narrador: z.enum(["sebas", "john"]).optional(),
   tema: z.string(),
   pregunta_principal: z.string(),
   escenas: z.array(escenaSchema).min(5).max(12),
-  caption: z.string().max(2200),
+  caption: z.string().max(1800), // + crédito + hashtags debe quedar bajo 2.200 (Instagram)
   hashtags: z.array(z.string().regex(/^#\S+$/)).min(3).max(10),
   fuentes: z.array(z.object({ afirmacion: z.string(), url: z.string().url() })),
 });

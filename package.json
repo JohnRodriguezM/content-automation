@@ -5,7 +5,8 @@
   "scripts": {
     "studio": "remotion studio src/Root.tsx",
     "producir": "tsx pipeline/producir.ts",
-    "typecheck": "tsc -p ."
+    "typecheck": "tsc -p .",
+    "validar": "tsx pipeline/validar.ts"
   },
   "keywords": [],
   "author": "",

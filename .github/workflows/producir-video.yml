@@ -1,64 +1,83 @@
-name: producir video
+name: Producir videos
 
-# Se dispara cuando entra un guion nuevo o modificado, o a mano desde la pestaña Actions.
+# Cada guion nuevo que entra a main se produce en paralelo (imágenes → voz → render)
+# y el video + su descripción se suben a Google Drive, en una carpeta por fecha.
 on:
   push:
     branches: [main]
     paths: ["guiones/*.json"]
   workflow_dispatch:
     inputs:
-      guion:
-        description: "Ruta del guion (ej. guiones/2026-11-05-kodak-camara-digital.json)"
-        required: true
-      publicar:
-        description: "borrador | programar | no"
-        default: "borrador"
-
-concurrency: { group: producir-video, cancel-in-progress: false }
+      guiones:
+        description: "Guiones separados por espacio (ej. guiones/2026-11-06-netflix-dvd.json). Vacío = los del último commit"
+        required: false
 
 jobs:
-  producir:
+  listar:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    outputs:
+      matriz: ${{ steps.lista.outputs.matriz }}
     steps:
       - uses: actions/checkout@v4
         with: { fetch-depth: 2 }
+      - id: lista
+        run: |
+          if [ -n "${{ inputs.guiones }}" ]; then
+            archivos="${{ inputs.guiones }}"
+          else
+            archivos=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'guiones/*.json' 2>/dev/null | tr '\n' ' ' || true)
+          fi
+          echo "matriz=$(printf '%s\n' $archivos | jq -R . | jq -sc 'map(select(length>0))')" >> "$GITHUB_OUTPUT"
+
+  producir:
+    needs: listar
+    if: needs.listar.outputs.matriz != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        guion: ${{ fromJson(needs.listar.outputs.matriz) }}
+    steps:
+      - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4
-        with: { node-version: 22, cache: npm, cache-dependency-path: package-lock.json }
+        with: { node-version: 22, cache: npm }
 
       - run: npm ci
       - run: npx remotion browser ensure
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq rclone
 
-      - name: Guiones a producir
-        id: guiones
-        run: |
-          if [ -n "${{ inputs.guion }}" ]; then
-            echo "lista=${{ inputs.guion }}" >> "$GITHUB_OUTPUT"
-          else
-            echo "lista=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- guiones/ | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
-          fi
+      - name: Validar
+        run: npx tsx pipeline/validar.ts "${{ matrix.guion }}"
 
-      - name: Voz, render y Zernio
+      - name: Imágenes, voz y render
         env:
-          NARRADOR: ${{ vars.NARRADOR || 'sebas' }}
           ELEVENLABS_API_KEY_SEBAS: ${{ secrets.ELEVENLABS_API_KEY_SEBAS }}
           ELEVENLABS_VOICE_ID_SEBAS: ${{ secrets.ELEVENLABS_VOICE_ID_SEBAS }}
           ELEVENLABS_API_KEY_JOHN: ${{ secrets.ELEVENLABS_API_KEY_JOHN }}
           ELEVENLABS_VOICE_ID_JOHN: ${{ secrets.ELEVENLABS_VOICE_ID_JOHN }}
-          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
-          ZERNIO_TIKTOK_ID: ${{ vars.ZERNIO_TIKTOK_ID }}
-          ZERNIO_INSTAGRAM_ID: ${{ vars.ZERNIO_INSTAGRAM_ID }}
-          MODO: ${{ inputs.publicar || vars.MODO_PUBLICACION || 'borrador' }}
-          HORA: ${{ vars.HORA_PUBLICACION || '19:30' }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: npx tsx pipeline/producir.ts "${{ matrix.guion }}"
+
+      - name: Subir a Google Drive
+        env:
+          RCLONE_CONFIG_DRIVE_TYPE: drive
+          RCLONE_CONFIG_DRIVE_SCOPE: drive
+          RCLONE_CONFIG_DRIVE_TOKEN: ${{ secrets.RCLONE_DRIVE_TOKEN }}
+          RCLONE_CONFIG_DRIVE_ROOT_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID }}
         run: |
-          for g in ${{ steps.guiones.outputs.lista }}; do
-            npx tsx pipeline/producir.ts "$g" --publicar="$MODO" --hora="$HORA"
-          done
+          id=$(basename "${{ matrix.guion }}" .json)
+          fecha=${id:0:10}
+          rclone copy out/ "drive:$fecha/" --include "$id-*.mp4" --include "$id-*.descripcion.txt" -v
 
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: videos
-          path: out/*.mp4
-          retention-days: 14
+          name: ${{ hashFiles(matrix.guion) }}
+          path: |
+            out/*.mp4
+            out/*.descripcion.txt
+            guiones/*.json
+          retention-days: 7
