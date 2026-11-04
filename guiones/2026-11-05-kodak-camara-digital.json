@@ -7,118 +7,298 @@
     {
       "bloque": "gancho",
       "narracion": "En 1975, un ingeniero de Kodak inventó la cámara digital. Treinta y siete años después, Kodak se declaró en bancarrota.",
-      "titulo": "Kodak inventó lo que la quebró",
+      "imagenes": [
+        {
+          "busqueda": "Kodak Tower Rochester",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Kodak_Tower_Morrie_Silver_Way.JPG/1920px-Kodak_Tower_Morrie_Silver_Way.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "archivo": "img/2026-11-05-kodak-camara-digital/1-1.jpg",
+          "credito": "Foto: Larry · CC BY-SA 3.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 3.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Kodak_Tower_Morrie_Silver_Way.JPG"
+        },
+        {
+          "busqueda": "Kodak first digital camera prototype 1975",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Kodak_Sasson_BL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "archivo": "img/2026-11-05-kodak-camara-digital/1-2.jpg",
+          "credito": "Foto: Bertrand Labévue · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Kodak_Sasson_BL.jpg"
+        }
+      ],
       "destacar": [
         "1975",
         "bancarrota"
       ],
-      "imagenes": [
+      "titulo": "Kodak inventó lo que la quebró",
+      "motion": [
         {
-          "busqueda": "Kodak Tower Rochester",
-          "modo": "completa"
-        },
-        {
-          "busqueda": "Kodak first digital camera prototype 1975",
-          "modo": "relleno"
+          "tipo": "contraste",
+          "antes": {
+            "valor": "1975",
+            "texto": "Kodak inventa la cámara digital",
+            "icono": "camara_digital"
+          },
+          "despues": {
+            "valor": "2012",
+            "texto": "Kodak se declara en bancarrota",
+            "icono": "grafica_baja"
+          }
         }
       ]
     },
     {
       "bloque": "contexto",
       "narracion": "Para entender por qué, mira dónde estaba Kodak. En 1976 vendía el noventa por ciento del rollo fotográfico en Estados Unidos. Y su gran negocio no era la cámara. Era el rollo, y cada foto que se revelaba.",
-      "rotulo": "Eastman Kodak",
+      "imagenes": [
+        {
+          "busqueda": "Kodak film roll vintage",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Vintage_Kodak_Kodaflex_II_620_Roll_Film_Pseudo_TLR_Camera%2C_Kodet_Lens%2C_Made_In_USA%2C_Produced_From_1950_-_1954_%2820656164703%29.jpg/1920px-Vintage_Kodak_Kodaflex_II_620_Roll_Film_Pseudo_TLR_Camera%2C_Kodet_Lens%2C_Made_In_USA%2C_Produced_From_1950_-_1954_%2820656164703%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "archivo": "img/2026-11-05-kodak-camara-digital/2-1.jpg",
+          "credito": "Foto: Joe Haupt from USA · CC BY-SA 2.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 2.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Vintage_Kodak_Kodaflex_II_620_Roll_Film_Pseudo_TLR_Camera,_Kodet_Lens,_Made_In_USA,_Produced_From_1950_-_1954_(20656164703).jpg"
+        },
+        {
+          "busqueda": "Kodak Brownie camera",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Kodak_Brownie_127.jpg/1920px-Kodak_Brownie_127.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "archivo": "img/2026-11-05-kodak-camara-digital/2-2.jpg",
+          "credito": "Foto: 多多123 · CC BY 4.0 · Wikimedia Commons",
+          "licencia": "CC BY 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Kodak_Brownie_127.jpg"
+        },
+        {
+          "busqueda": "photographic film negatives",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "bn",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Used_135_film_cartridges.jpg/1920px-Used_135_film_cartridges.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "archivo": "img/2026-11-05-kodak-camara-digital/2-3.jpg",
+          "credito": "Foto: Petar Milošević · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Used_135_film_cartridges.jpg"
+        }
+      ],
       "destacar": [
         "noventa",
         "rollo"
       ],
-      "imagenes": [
+      "rotulo": "Eastman Kodak",
+      "motion": [
         {
-          "busqueda": "Kodak film roll vintage",
-          "modo": "relleno"
+          "tipo": "dato",
+          "valor": "90%",
+          "etiqueta": "del rollo vendido en EE. UU. en 1976",
+          "progreso": 0.9
         },
         {
-          "busqueda": "Kodak Brownie camera",
-          "modo": "relleno"
-        },
-        {
-          "busqueda": "photographic film negatives",
-          "modo": "completa",
-          "filtro": "bn"
+          "tipo": "titulo",
+          "texto": "El negocio era el [[rollo]]",
+          "icono": "rollo"
         }
       ]
     },
     {
       "bloque": "decision",
       "narracion": "Steven Sasson armó un prototipo que tardaba veintitrés segundos en guardar una foto en blanco y negro. Se lo mostró a sus jefes. Según contó después, estaban convencidos de que nadie querría ver sus fotos en un televisor. Ahora ponte en su lugar. ¿Para qué apostar por algo que compite con tu producto más rentable?",
-      "rotulo": "Steven Sasson",
+      "imagenes": [
+        {
+          "busqueda": "Steven Sasson",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Steve_sasson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "archivo": "img/2026-11-05-kodak-camara-digital/3-1.jpg",
+          "credito": "Foto: Aljawad · CC BY 3.0 · Wikimedia Commons",
+          "licencia": "CC BY 3.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Steve_sasson.jpg"
+        },
+        {
+          "busqueda": "compact cassette tape",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Photoelasticity_-_TDK_Head_Cleaner_-_Black_background.jpg/1920px-Photoelasticity_-_TDK_Head_Cleaner_-_Black_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "archivo": "img/2026-11-05-kodak-camara-digital/3-2.jpg",
+          "credito": "Foto: Colin · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Photoelasticity_-_TDK_Head_Cleaner_-_Black_background.jpg"
+        },
+        {
+          "busqueda": "Kodak Park Rochester aerial",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "bn",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Rochester_aerial_aug_17_2007.jpg/1920px-Rochester_aerial_aug_17_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "archivo": "img/2026-11-05-kodak-camara-digital/3-3.jpg",
+          "credito": "Foto: Self-made image submitted by Chris Tomkins-Tinch (en:User:To · CC BY-SA 3.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 3.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Rochester_aerial_aug_17_2007.jpg"
+        }
+      ],
       "destacar": [
         "veintitrés",
         "televisor",
         "rentable"
       ],
-      "imagenes": [
+      "rotulo": "Steven Sasson",
+      "motion": [
         {
-          "busqueda": "Steven Sasson",
-          "modo": "relleno"
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "camara_digital",
+              "texto": "Un prototipo"
+            },
+            {
+              "icono": "reloj",
+              "texto": "23 segundos por foto"
+            },
+            {
+              "icono": "tv",
+              "texto": "¿Fotos en un televisor?"
+            }
+          ]
         },
         {
-          "busqueda": "Kodak digital camera prototype Sasson",
-          "modo": "relleno"
-        },
-        {
-          "busqueda": "Kodak Park Rochester aerial",
-          "modo": "completa",
-          "filtro": "bn"
+          "tipo": "titulo",
+          "texto": "¿Apostar contra tu [[producto estrella]]?",
+          "icono": "dinero"
         }
       ]
     },
     {
       "bloque": "consecuencia",
       "narracion": "Kodak llegó a tener más de mil patentes de imagen digital. No le faltó la idea. Le faltó decidir a tiempo. En enero de 2012 se declaró en bancarrota, y ni siquiera logró vender esas patentes para salvarse.",
+      "imagenes": [
+        {
+          "busqueda": "Eastman Kodak headquarters Rochester",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Kodak_Building%2C_State_Street%2C_Brown_Square%2C_Rochester%2C_NY_%2854419901541%29.jpg/1920px-Kodak_Building%2C_State_Street%2C_Brown_Square%2C_Rochester%2C_NY_%2854419901541%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "archivo": "img/2026-11-05-kodak-camara-digital/4-1.jpg",
+          "credito": "Foto: Warren LeMay from Chicago, IL, United States · CC BY-SA 2.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 2.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Kodak_Building,_State_Street,_Brown_Square,_Rochester,_NY_(54419901541).jpg"
+        },
+        {
+          "busqueda": "abandoned factory interior",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "bn",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Flooded_interior_of_abandoned_factory.jpg/1920px-Flooded_interior_of_abandoned_factory.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "archivo": "img/2026-11-05-kodak-camara-digital/4-2.jpg",
+          "credito": "Foto: saskialisette · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Flooded_interior_of_abandoned_factory.jpg"
+        }
+      ],
       "destacar": [
         "patentes",
         "2012"
       ],
-      "imagenes": [
+      "motion": [
         {
-          "busqueda": "Eastman Kodak headquarters Rochester",
-          "modo": "completa"
+          "tipo": "dato",
+          "valor": "+1.000",
+          "etiqueta": "patentes de imagen digital",
+          "icono": "documentos"
         },
         {
-          "busqueda": "Kodak Park Rochester",
-          "modo": "relleno"
+          "tipo": "titulo",
+          "texto": "Le faltó decidir [[a tiempo]]",
+          "icono": "grafica_baja"
         }
       ]
     },
     {
       "bloque": "aprendizaje",
       "narracion": "La lección es esta. Si una tecnología nueva amenaza tu producto más rentable, alguien la va a lanzar. La pregunta no es si va a pasar. Es si vas a ser tú. Úsala cada vez que descartes una idea porque le quita ventas a lo que ya vendes.",
+      "imagenes": [
+        {
+          "busqueda": "digital camera",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Sony_Cybershot_DSC_W210.jpg/1920px-Sony_Cybershot_DSC_W210.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "archivo": "img/2026-11-05-kodak-camara-digital/5-1.jpg",
+          "credito": "Foto: Joydeep · CC BY-SA 3.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 3.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Sony_Cybershot_DSC_W210.jpg"
+        },
+        {
+          "busqueda": "smartphone camera photography",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Smartphone_photography.jpg/1920px-Smartphone_photography.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "archivo": "img/2026-11-05-kodak-camara-digital/5-2.jpg",
+          "credito": "Foto: Kskhh · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Smartphone_photography.jpg"
+        }
+      ],
       "destacar": [
         "alguien",
         "tú"
       ],
-      "imagenes": [
+      "motion": [
         {
-          "busqueda": "digital camera",
-          "modo": "relleno"
+          "tipo": "titulo",
+          "texto": "Si no lo lanzas tú, lo lanzará [[alguien más]]",
+          "icono": "bombilla"
         },
         {
-          "busqueda": "smartphone camera photography",
-          "modo": "relleno"
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "celular",
+              "texto": "Lo nuevo"
+            },
+            {
+              "icono": "rollo",
+              "texto": "vs. lo que ya vendes"
+            }
+          ]
         }
       ]
     },
     {
       "bloque": "cierre",
       "narracion": "¿Tú habrías lanzado la cámara digital, sabiendo que iba a acabar con tu negocio del rollo?",
-      "destacar": [
-        "rollo"
-      ],
       "imagenes": [
         {
           "busqueda": "Kodak film camera vintage",
+          "fuente": "commons",
           "modo": "relleno",
-          "filtro": "sepia"
+          "filtro": "sepia",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Vintage_Kodak_Junior_Six-20_Series_II_Folding_Film_Camera_%2815869618824%29.jpg/1920px-Vintage_Kodak_Junior_Six-20_Series_II_Folding_Film_Camera_%2815869618824%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "archivo": "img/2026-11-05-kodak-camara-digital/6-1.jpg",
+          "credito": "Foto: Joe Haupt from USA · CC BY-SA 2.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 2.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Vintage_Kodak_Junior_Six-20_Series_II_Folding_Film_Camera_(15869618824).jpg"
+        }
+      ],
+      "destacar": [
+        "rollo"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Tú la habrías [[lanzado]]?",
+          "icono": "pregunta"
         }
       ]
     }

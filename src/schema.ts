@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { NOMBRES_ICONOS } from "./iconos";
 
 /**
  * Una imagen de la escena. Se escribe `busqueda` (y opcionalmente `fuente`);
@@ -19,6 +20,23 @@ export const imagenSchema = z.object({
   pagina: z.string().url().optional(),
 });
 
+/** Visual de la versión motion 2D (opcional; si falta, se usa la narración como título). */
+const iconoSchema = z.enum(NOMBRES_ICONOS);
+export const motionSchema = z.discriminatedUnion("tipo", [
+  // Frase grande con [[palabra]] resaltada; ícono opcional encima
+  z.object({ tipo: z.literal("titulo"), texto: z.string().max(70), icono: iconoSchema.optional() }),
+  // Número que cuenta hasta su valor. `progreso` (0-1) dibuja un anillo.
+  z.object({ tipo: z.literal("dato"), valor: z.string().max(10), etiqueta: z.string().max(50), icono: iconoSchema.optional(), progreso: z.number().min(0).max(1).optional() }),
+  // 1-3 íconos con texto, aparecen uno tras otro
+  z.object({ tipo: z.literal("iconos"), items: z.array(z.object({ icono: iconoSchema, texto: z.string().max(36) })).min(1).max(3) }),
+  // Antes → después
+  z.object({
+    tipo: z.literal("contraste"),
+    antes: z.object({ valor: z.string().max(10), texto: z.string().max(40), icono: iconoSchema }),
+    despues: z.object({ valor: z.string().max(10), texto: z.string().max(40), icono: iconoSchema }),
+  }),
+]);
+
 export const escenaSchema = z.object({
   bloque: z.enum(["gancho", "contexto", "decision", "consecuencia", "aprendizaje", "cierre"]),
   narracion: z.string().min(1),
@@ -30,6 +48,8 @@ export const escenaSchema = z.object({
   titulo: z.string().max(60).optional(),
   // Rótulo con el nombre de la persona/empresa en pantalla
   rotulo: z.string().max(40).optional(),
+  // Versión motion: 1-3 visuales que se reparten la escena
+  motion: z.array(motionSchema).min(1).max(3).optional(),
 });
 
 export const guionSchema = z.object({
@@ -44,6 +64,7 @@ export const guionSchema = z.object({
 });
 
 export type Imagen = z.infer<typeof imagenSchema>;
+export type Motion = z.infer<typeof motionSchema>;
 export type Escena = z.infer<typeof escenaSchema>;
 export type Guion = z.infer<typeof guionSchema>;
 export type GuionEntrada = z.input<typeof guionSchema>;

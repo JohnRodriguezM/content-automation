@@ -26,6 +26,9 @@ npm run studio
 # 3. producir con voz (usa NARRADOR del .env, o --narrador=john). La voz queda en caché.
 npx tsx pipeline/producir.ts guiones/2026-11-05-kodak-camara-digital.json
 
+# versión motion 2D (íconos y tipografía cinética, no usa fotos; reutiliza la voz en caché)
+npx tsx pipeline/producir.ts guiones/2026-11-05-kodak-camara-digital.json --estilo=motion
+
 # con voz y subida a Zernio
 npx tsx pipeline/producir.ts guiones/<id>.json --publicar=borrador
 npx tsx pipeline/producir.ts guiones/<id>.json --publicar=programar --hora=19:30
@@ -40,6 +43,8 @@ Esquema en `src/schema.ts`. Escenas en orden gancho → contexto → decisión �
 Cada imagen se escribe solo con `busqueda`; `imagenes.ts` completa `url`, `archivo`, `credito`, `licencia` y `pagina`. Para cambiar una imagen: borra su `url` y `archivo` y cambia la `busqueda`, o pega la `url` directa de Commons. `modo`: `relleno` (foto centrada sobre fondo desenfocado, para fotos horizontales o de archivo) o `completa`. `filtro`: `bn` o `sepia` para material de archivo.
 
 Imágenes: solo Wikimedia Commons (dominio público, CC0, CC BY, CC BY-SA) y Pexels (requiere `PEXELS_API_KEY` en `.env`). El crédito sale en pantalla. Nada de imágenes de Google.
+
+Versión motion: cada escena puede llevar `motion` con 1-3 visuales: `titulo` (texto con `[[marcador]]` e ícono), `dato` (contador, con `progreso` 0-1 para un anillo o con `icono`), `iconos` (1-3 íconos con texto) y `contraste` (antes → después). Íconos disponibles en `src/iconos.tsx`: camara_digital, rollo, edificio, grafica_baja, tv, dinero, documentos, bombilla, pregunta, celular, cassette, reloj.
 
 Música opcional: pon un archivo con licencia en `public/musica.mp3` y se mezcla al 10 % bajo la voz.
 
