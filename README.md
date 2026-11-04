@@ -26,7 +26,8 @@ npm run studio
 # 3. producir con voz (usa NARRADOR del .env, o --narrador=john). La voz queda en caché.
 npx tsx pipeline/producir.ts guiones/2026-11-05-kodak-camara-digital.json
 
-# versión motion 2D (íconos y tipografía cinética, no usa fotos; reutiliza la voz en caché)
+# estilos: mixto (por defecto: fotos + gráficos encima), documental (solo fotos), motion (solo gráficos 2D)
+npx tsx pipeline/producir.ts guiones/2026-11-05-kodak-camara-digital.json --estilo=documental
 npx tsx pipeline/producir.ts guiones/2026-11-05-kodak-camara-digital.json --estilo=motion
 
 # con voz y subida a Zernio
@@ -44,7 +45,9 @@ Cada imagen se escribe solo con `busqueda`; `imagenes.ts` completa `url`, `archi
 
 Imágenes: solo Wikimedia Commons (dominio público, CC0, CC BY, CC BY-SA) y Pexels (requiere `PEXELS_API_KEY` en `.env`). El crédito sale en pantalla. Nada de imágenes de Google.
 
-Versión motion: cada escena puede llevar `motion` con 1-3 visuales: `titulo` (texto con `[[marcador]]` e ícono), `dato` (contador, con `progreso` 0-1 para un anillo o con `icono`), `iconos` (1-3 íconos con texto) y `contraste` (antes → después). Íconos disponibles en `src/iconos.tsx`: camara_digital, rollo, edificio, grafica_baja, tv, dinero, documentos, bombilla, pregunta, celular, cassette, reloj.
+Formato mixto (el principal): cada escena abre con la foto limpia (~40 % del tiempo, con título o rótulo) y después la foto se oscurece y entran los gráficos de `motion`. Una escena sin `motion` queda solo con fotos.
+
+Gráficos: cada escena puede llevar `motion` con 1-3 visuales: `titulo` (texto con `[[marcador]]` e ícono), `dato` (contador, con `progreso` 0-1 para un anillo o con `icono`), `iconos` (1-3 íconos con texto) y `contraste` (antes → después). Íconos disponibles en `src/iconos.tsx`: camara_digital, rollo, edificio, grafica_baja, tv, dinero, documentos, bombilla, pregunta, celular, cassette, reloj.
 
 Música opcional: pon un archivo con licencia en `public/musica.mp3` y se mezcla al 10 % bajo la voz.
 

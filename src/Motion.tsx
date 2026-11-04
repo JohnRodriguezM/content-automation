@@ -10,6 +10,9 @@ import { Icono, M } from "./iconos";
 import type { Escena, Motion as MotionV, Palabra, VideoProps } from "./schema";
 
 const FONT = "Inter, sans-serif";
+
+/** Tema del texto: oscuro sobre crema (motion puro) o blanco sobre foto (mixto). */
+export const TemaCtx = React.createContext({ texto: M.ink, sombra: "none" });
 const src = (s: string) => (s.startsWith("http") ? s : staticFile(s));
 const ACENTOS = [M.red, M.blue, M.yellow, M.green];
 
@@ -23,10 +26,11 @@ const useResorte = (delay = 0, dur = 18) => {
 const TextoCinetico: React.FC<{ texto: string; size: number; delay?: number; acento: string; centrado?: boolean }> = ({ texto, size, delay = 0, acento, centrado = true }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
+  const tema = React.useContext(TemaCtx);
   const tokens = texto.split(/(\[\[.+?\]\][?!.,:]*)|\s+/).filter(Boolean);
   let k = 0;
   return (
-    <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: size, lineHeight: 1.04, letterSpacing: -2, color: M.ink, textAlign: centrado ? "center" : "left" }}>
+    <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: size, lineHeight: 1.04, letterSpacing: -2, color: tema.texto, textShadow: tema.sombra, textAlign: centrado ? "center" : "left" }}>
       {tokens.map((tk, i) => {
         const marcado = tk.startsWith("[[");
         const cierre = marcado ? tk.slice(tk.indexOf("]]") + 2) : "";
@@ -79,8 +83,9 @@ const Anillo: React.FC<{ progreso: number; color: string; delay?: number }> = ({
   );
 };
 
-const VisualMotion: React.FC<{ v: MotionV; acento: string }> = ({ v, acento }) => {
+export const VisualMotion: React.FC<{ v: MotionV; acento: string }> = ({ v, acento }) => {
   const f = useCurrentFrame();
+  const tema = React.useContext(TemaCtx);
   const { durationInFrames } = useVideoConfig();
   const t = useResorte(0, 20);
   switch (v.tipo) {
@@ -96,9 +101,9 @@ const VisualMotion: React.FC<{ v: MotionV; acento: string }> = ({ v, acento }) =
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 30 }}>
           <div style={{ position: "relative", width: 600, height: 600, display: "flex", alignItems: "center", justifyContent: "center" }}>
             {v.progreso !== undefined && <Anillo progreso={v.progreso} color={acento} delay={4} />}
-            {v.icono && v.progreso === undefined ? <Icono nombre={v.icono} t={t} f={f} size={460} fondo={acento} /> : <Contador valor={v.valor} delay={4} size={v.valor.length > 5 ? 150 : 200} color={M.ink} />}
+            {v.icono && v.progreso === undefined ? <Icono nombre={v.icono} t={t} f={f} size={460} fondo={acento} /> : <Contador valor={v.valor} delay={4} size={v.valor.length > 5 ? 150 : 200} color={tema.texto} />}
           </div>
-          {v.icono && v.progreso === undefined && <Contador valor={v.valor} delay={8} size={v.valor.length > 5 ? 150 : 190} color={M.ink} />}
+          {v.icono && v.progreso === undefined && <Contador valor={v.valor} delay={8} size={v.valor.length > 5 ? 150 : 190} color={tema.texto} />}
           <TextoCinetico texto={v.etiqueta} size={60} delay={14} acento={acento} />
         </div>
       );
@@ -115,7 +120,7 @@ const VisualMotion: React.FC<{ v: MotionV; acento: string }> = ({ v, acento }) =
                 <div style={{ width: 250, height: 250, borderRadius: 40, background: ACENTOS[i % ACENTOS.length], border: `6px solid ${M.ink}`, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
                   <Icono nombre={it.icono} t={s} f={f} size={210} />
                 </div>
-                <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 64, lineHeight: 1.05, color: M.ink, letterSpacing: -1 }}>{it.texto}</div>
+                <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 64, lineHeight: 1.05, color: tema.texto, textShadow: tema.sombra, letterSpacing: -1 }}>{it.texto}</div>
               </div>
             );
           })}
@@ -137,7 +142,7 @@ const VisualMotion: React.FC<{ v: MotionV; acento: string }> = ({ v, acento }) =
       return (
         <div style={{ display: "flex", flexDirection: "column", gap: 60, width: "100%" }}>
           <Bloque x={v.antes} s={t} color={M.blue} d={0} fondoIcono={M.blue} />
-          <div style={{ alignSelf: "center", fontFamily: FONT, fontWeight: 900, fontSize: 90, color: M.ink, opacity: s2, transform: `rotate(${90 * s2}deg)` }}>→</div>
+          <div style={{ alignSelf: "center", fontFamily: FONT, fontWeight: 900, fontSize: 90, color: tema.texto, opacity: s2, transform: `rotate(${90 * s2}deg)` }}>→</div>
           <Bloque x={v.despues} s={s2} color={M.red} d={mitad} fondoIcono={M.yellow} />
         </div>
       );

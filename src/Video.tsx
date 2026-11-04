@@ -16,11 +16,12 @@ const FADE = 6; // frames de fundido entre planos
 
 const src = (s: string) => (s.startsWith("http") ? s : staticFile(s));
 
+// Cadena vacía (no "none") cuando no hay filtro, para poder concatenar blur/brightness sin invalidar el CSS.
 const filtroCss = (f: Imagen["filtro"]) =>
-  f === "bn" ? "grayscale(1) contrast(1.08)" : f === "sepia" ? "sepia(0.55) contrast(1.05)" : "none";
+  f === "bn" ? "grayscale(1) contrast(1.08)" : f === "sepia" ? "sepia(0.55) contrast(1.05)" : "";
 
 /** Un plano: foto con zoom lento (Ken Burns) y fundido de entrada. */
-const Plano: React.FC<{ img: Imagen; dur: number; seed: string }> = ({ img, dur, seed }) => {
+export const Plano: React.FC<{ img: Imagen; dur: number; seed: string }> = ({ img, dur, seed }) => {
   const frame = useCurrentFrame();
   const p = frame / Math.max(1, dur);
   // Dirección del movimiento distinta en cada plano, pero determinista
@@ -43,7 +44,10 @@ const Plano: React.FC<{ img: Imagen; dur: number; seed: string }> = ({ img, dur,
   }
   return (
     <AbsoluteFill style={{ opacity, overflow: "hidden", background: "#000" }}>
-      <Img src={s} style={{ width: "100%", height: "100%", objectFit: "cover", transform: "scale(1.3)", filter: `${filter} blur(38px) brightness(0.45)` }} />
+      {/* Fondo desenfocado calculado a 1/10 de resolución y ampliado: mismo look, mucho más rápido de renderizar */}
+      <div style={{ position: "absolute", left: -162, top: -288, width: 108, height: 192, transform: "scale(13)", transformOrigin: "0 0", filter: `${filter} blur(3px) brightness(0.45)`.trim(), willChange: "transform" }}>
+        <Img src={s} style={{ width: 108, height: 192, objectFit: "cover", display: "block" }} />
+      </div>
       <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
         <div style={{ width: "100%", height: 1180, overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
           <Img src={s} style={{ width: "100%", height: "100%", objectFit: "contain", transform: mover, filter }} />
@@ -54,14 +58,14 @@ const Plano: React.FC<{ img: Imagen; dur: number; seed: string }> = ({ img, dur,
 };
 
 /** Crédito de la foto, pequeño y discreto (obligatorio con licencias CC). */
-const Credito: React.FC<{ texto?: string }> = ({ texto }) =>
+export const Credito: React.FC<{ texto?: string }> = ({ texto }) =>
   texto ? (
     <div style={{ position: "absolute", left: 48, bottom: 330, right: 200, fontFamily: SANS, fontSize: 22, fontWeight: 500, color: "rgba(255,255,255,0.72)", textShadow: C.shadow }}>
       {texto}
     </div>
   ) : null;
 
-const Titulo: React.FC<{ texto: string }> = ({ texto }) => {
+export const Titulo: React.FC<{ texto: string }> = ({ texto }) => {
   const frame = useCurrentFrame();
   const o = interpolate(frame, [4, 12], [0, 1], { extrapolateRight: "clamp", extrapolateLeft: "clamp" });
   const y = interpolate(frame, [4, 12], [24, 0], { extrapolateRight: "clamp", extrapolateLeft: "clamp" });
@@ -74,7 +78,7 @@ const Titulo: React.FC<{ texto: string }> = ({ texto }) => {
   );
 };
 
-const Rotulo: React.FC<{ texto: string }> = ({ texto }) => {
+export const Rotulo: React.FC<{ texto: string }> = ({ texto }) => {
   const frame = useCurrentFrame();
   const w = interpolate(frame, [8, 20], [0, 1], { extrapolateRight: "clamp", extrapolateLeft: "clamp" });
   return (
@@ -86,7 +90,7 @@ const Rotulo: React.FC<{ texto: string }> = ({ texto }) => {
   );
 };
 
-const norm = (s: string) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^\p{L}\p{N}]/gu, "");
+export const norm = (s: string) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^\p{L}\p{N}]/gu, "");
 
 /** Frases cortas (≤4 palabras o hasta un signo de puntuación). */
 const agrupar = (palabras: Palabra[]) => {
@@ -100,7 +104,7 @@ const agrupar = (palabras: Palabra[]) => {
   return grupos;
 };
 
-const Subtitulos: React.FC<{ palabras: Palabra[]; destacar: Set<string> }> = ({ palabras, destacar }) => {
+export const Subtitulos: React.FC<{ palabras: Palabra[]; destacar: Set<string>; top?: number }> = ({ palabras, destacar, top = 1180 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
@@ -108,7 +112,7 @@ const Subtitulos: React.FC<{ palabras: Palabra[]; destacar: Set<string> }> = ({ 
   const g = grupos.find((g) => t >= g[0].inicio - 0.05 && t < g[g.length - 1].fin + 0.12);
   if (!g) return null;
   return (
-    <div style={{ position: "absolute", left: 70, right: 150, top: 1180, textAlign: "center", lineHeight: 1.12 }}>
+    <div style={{ position: "absolute", left: 70, right: 150, top, textAlign: "center", lineHeight: 1.12 }}>
       {g.map((p, i) => {
         const dicha = t >= p.inicio - 0.02;
         const clave = destacar.has(norm(p.texto));
@@ -133,7 +137,7 @@ const Subtitulos: React.FC<{ palabras: Palabra[]; destacar: Set<string> }> = ({ 
 };
 
 /** Grano de película + viñeta: da textura "documental" y unifica fotos de distintas fuentes. */
-const Textura: React.FC = () => {
+export const Textura: React.FC = () => {
   const frame = useCurrentFrame();
   return (
     <>
@@ -148,7 +152,7 @@ const Textura: React.FC = () => {
   );
 };
 
-const EscenaView: React.FC<{ e: Escena; dur: number; idx: number }> = ({ e, dur, idx }) => {
+export const EscenaView: React.FC<{ e: Escena; dur: number; idx: number }> = ({ e, dur, idx }) => {
   const n = e.imagenes.length;
   const tramo = Math.floor(dur / n);
   return (

@@ -87,7 +87,7 @@ Reglas de escritura para la voz sintética:
 
 ## Visual
 
-Edición documental sobre fotos reales (referencia: reels de historia de negocios con material de archivo), no motion graphics.
+Formato mixto: edición documental sobre fotos reales, con gráficos animados encima en los momentos clave (datos, comparaciones, listas, la lección). Cada escena abre con la foto limpia y luego entra el gráfico sobre la foto oscurecida.
 
 - Base: fotos reales de las personas, lugares, productos y épocas de la historia. Fuentes: Wikimedia Commons (dominio público, CC0, CC BY, CC BY-SA) y Pexels para b-roll genérico. Nunca imágenes de Google ni de medios sin licencia.
 - El crédito de cada foto sale en pantalla (lo exige CC BY).

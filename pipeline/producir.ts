@@ -7,7 +7,7 @@
  *     --rehacer-imagenes   volver a buscar todas las imágenes
  *     --rehacer-voz        regenerar la voz aunque haya caché
  *     --narrador=sebas|john
- *     --estilo=documental|motion   (motion: íconos y tipografía 2D, no usa fotos)
+ *     --estilo=mixto|documental|motion   (por defecto mixto: fotos + gráficos encima)
  *     --publicar=borrador|programar|no   --hora=19:30
  *
  * Variables de entorno (en local: archivo .env; en GitHub: Secrets):
@@ -69,7 +69,7 @@ async function voz(g: Guion): Promise<{ timing: Timing; audio: string | null }> 
   return { timing, audio: rel };
 }
 
-async function render(props: VideoProps, salida: string, id: "Video" | "Motion") {
+async function render(props: VideoProps, salida: string, id: "Video" | "Motion" | "Mixto") {
   const serveUrl = await bundle({ entryPoint: path.join(RAIZ, "src/Root.tsx"), publicDir: PUBLIC });
   const browserExecutable = process.env.REMOTION_BROWSER || null;
   const composition = await selectComposition({ serveUrl, id, inputProps: props, browserExecutable });
@@ -138,8 +138,8 @@ async function main() {
   const guion = guionSchema.parse(JSON.parse(await readFile(ruta, "utf8")));
   await mkdir(OUT, { recursive: true });
 
-  const estilo = flag("estilo") === "motion" ? "motion" : "documental";
-  if (estilo === "documental" && !flag("sin-imagenes")) {
+  const estilo = (flag("estilo") ?? "mixto") as "mixto" | "documental" | "motion";
+  if (estilo !== "motion" && !flag("sin-imagenes")) {
     console.log(`→ ${guion.id}: imágenes`);
     const guardar = () => writeFile(ruta, JSON.stringify(guion, null, 2) + "\n");
     await resolverImagenes(guion, Boolean(flag("rehacer-imagenes")), guardar);
@@ -156,9 +156,9 @@ async function main() {
 
   console.log("→ render");
   const sufijo = flag("sin-voz") ? "sin-voz" : (flag("narrador") ?? process.env.NARRADOR ?? "sebas").toLowerCase();
-  const video = path.join(OUT, `${guion.id}-${sufijo}${estilo === "motion" ? "-motion" : ""}.mp4`);
+  const video = path.join(OUT, `${guion.id}-${sufijo}-${estilo}.mp4`);
   const musica = (await existe(path.join(PUBLIC, "musica.mp3"))) ? "musica.mp3" : null;
-  await render({ guion, timing, audio, musica }, video, estilo === "motion" ? "Motion" : "Video");
+  await render({ guion, timing, audio, musica }, video, { mixto: "Mixto", documental: "Video", motion: "Motion" }[estilo] as "Mixto" | "Video" | "Motion");
 
   const modo = (flag("publicar") ?? "no") as "borrador" | "programar" | "no";
   if (modo !== "no") {

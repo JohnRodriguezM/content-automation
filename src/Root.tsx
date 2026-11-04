@@ -2,6 +2,7 @@ import React from "react";
 import { Composition, registerRoot } from "remotion";
 import { Video } from "./Video";
 import { MotionVideo } from "./Motion";
+import { MixtoVideo } from "./Mixto";
 import { guionSchema, type VideoProps } from "./schema";
 import ejemplo from "../guiones/2026-11-05-kodak-camara-digital.json";
 import { estimarTiming } from "./timing";
@@ -26,6 +27,8 @@ const Root: React.FC = () => {
       <Composition id="Video" component={Video} {...comun} />
       {/* Motion 2D: íconos planos y tipografía cinética */}
       <Composition id="Motion" component={MotionVideo} {...comun} />
+      {/* Mixto: fotos reales con gráficos animados encima (formato principal) */}
+      <Composition id="Mixto" component={MixtoVideo} {...comun} />
     </>
   );
 };
