@@ -1,27 +1,35 @@
 import { z } from "zod";
 
-/** Visual de cada escena. El texto en pantalla es corto; la narración lleva el detalle. */
-export const visualSchema = z.discriminatedUnion("tipo", [
-  // Frase grande. Usa [[palabra]] para resaltarla en el color de acento.
-  z.object({ tipo: z.literal("titulo"), texto: z.string().max(80), kicker: z.string().max(40).optional() }),
-  // Un número protagonista con su etiqueta.
-  z.object({ tipo: z.literal("dato"), valor: z.string().max(14), etiqueta: z.string().max(60) }),
-  // 2-4 ítems que aparecen uno por uno.
-  z.object({ tipo: z.literal("lista"), titulo: z.string().max(50).optional(), items: z.array(z.string().max(48)).min(2).max(4) }),
-  // Antes / después o A vs B.
-  z.object({
-    tipo: z.literal("comparacion"),
-    izquierda: z.object({ titulo: z.string().max(24), texto: z.string().max(60) }),
-    derecha: z.object({ titulo: z.string().max(24), texto: z.string().max(60) }),
-  }),
-  // Línea de tiempo con 2-4 hitos.
-  z.object({ tipo: z.literal("linea_tiempo"), hitos: z.array(z.object({ fecha: z.string().max(12), texto: z.string().max(40) })).min(2).max(4) }),
-]);
+/**
+ * Una imagen de la escena. Se escribe `busqueda` (y opcionalmente `fuente`);
+ * pipeline/imagenes.ts la resuelve y completa `archivo`, `credito` y `licencia`.
+ */
+export const imagenSchema = z.object({
+  busqueda: z.string().describe("Qué buscar, en inglés si es un tema internacional"),
+  fuente: z.enum(["commons", "pexels"]).default("commons"),
+  // relleno: foto centrada sobre su propia versión desenfocada (fotos horizontales o de archivo)
+  // completa: la foto cubre toda la pantalla (fotos verticales o b-roll)
+  modo: z.enum(["relleno", "completa"]).default("relleno"),
+  filtro: z.enum(["ninguno", "bn", "sepia"]).default("ninguno"),
+  // Se completan solos al resolver:
+  url: z.string().url().optional(),
+  archivo: z.string().optional(),
+  credito: z.string().optional(),
+  licencia: z.string().optional(),
+  pagina: z.string().url().optional(),
+});
 
 export const escenaSchema = z.object({
   bloque: z.enum(["gancho", "contexto", "decision", "consecuencia", "aprendizaje", "cierre"]),
   narracion: z.string().min(1),
-  visual: visualSchema,
+  // 1-3 imágenes; la escena se reparte entre ellas (cortes cada ~3 s)
+  imagenes: z.array(imagenSchema).min(1).max(3),
+  // Palabras de la narración que salen en serif dorada en los subtítulos
+  destacar: z.array(z.string()).default([]),
+  // Título grande sobre la imagen (solo en el gancho, normalmente)
+  titulo: z.string().max(60).optional(),
+  // Rótulo con el nombre de la persona/empresa en pantalla
+  rotulo: z.string().max(40).optional(),
 });
 
 export const guionSchema = z.object({
@@ -29,22 +37,22 @@ export const guionSchema = z.object({
   pilar: z.enum(["negocios", "biografias", "tecnologia"]),
   tema: z.string(),
   pregunta_principal: z.string(),
-  escenas: z.array(escenaSchema).min(5).max(10),
+  escenas: z.array(escenaSchema).min(5).max(12),
   caption: z.string().max(2200),
   hashtags: z.array(z.string().regex(/^#\S+$/)).min(3).max(10),
   fuentes: z.array(z.object({ afirmacion: z.string(), url: z.string().url() })),
 });
 
-export type Visual = z.infer<typeof visualSchema>;
+export type Imagen = z.infer<typeof imagenSchema>;
 export type Escena = z.infer<typeof escenaSchema>;
 export type Guion = z.infer<typeof guionSchema>;
+export type GuionEntrada = z.input<typeof guionSchema>;
 
-/** Lo que produce el paso de voz y consume Remotion. */
 export type Palabra = { texto: string; inicio: number; fin: number };
 export type Timing = {
-  duracion: number; // segundos
+  duracion: number;
   escenas: { inicio: number; fin: number }[];
   palabras: Palabra[];
 };
 
-export type VideoProps = { guion: Guion; timing: Timing; audio: string | null };
+export type VideoProps = { guion: Guion; timing: Timing; audio: string | null; musica: string | null };

@@ -1,7 +1,13 @@
 /**
  * Guion JSON → voz (ElevenLabs) → video (Remotion) → post en Zernio.
  *
- *   npx tsx pipeline/producir.ts guiones/<id>.json [--sin-voz] [--narrador=sebas|john] [--publicar=borrador|programar|no] [--hora=19:30]
+ *   npx tsx pipeline/producir.ts guiones/<id>.json [opciones]
+ *     --sin-voz            render con tiempos estimados, sin gastar créditos
+ *     --sin-imagenes       no buscar/descargar imágenes
+ *     --rehacer-imagenes   volver a buscar todas las imágenes
+ *     --rehacer-voz        regenerar la voz aunque haya caché
+ *     --narrador=sebas|john
+ *     --publicar=borrador|programar|no   --hora=19:30
  *
  * Variables de entorno (en local: archivo .env; en GitHub: Secrets):
  *   NARRADOR (sebas | john) → usa ELEVENLABS_API_KEY_<NARRADOR> y ELEVENLABS_VOICE_ID_<NARRADOR>
@@ -9,12 +15,13 @@
  *   ZERNIO_API_KEY, ZERNIO_TIKTOK_ID, ZERNIO_INSTAGRAM_ID
  *   REMOTION_BROWSER (opcional: ruta a un Chrome/Chromium ya instalado)
  */
-import { mkdir, readFile, writeFile, stat } from "node:fs/promises";
+import { access, mkdir, readFile, writeFile, stat } from "node:fs/promises";
 import path from "node:path";
 import { randomUUID } from "node:crypto";
 import { bundle } from "@remotion/bundler";
 import { renderMedia, selectComposition } from "@remotion/renderer";
 import { guionSchema, type Guion, type Timing, type VideoProps } from "../src/schema";
+import { resolverImagenes } from "./imagenes";
 import { estimarTiming, textoNarracion, timingDesdeAlineacion, type Alineacion } from "../src/timing";
 
 const RAIZ = path.resolve(__dirname, "..");
@@ -24,6 +31,7 @@ const PUBLIC = path.join(RAIZ, "public");
 
 const args = process.argv.slice(2);
 const flag = (n: string) => args.find((a) => a.startsWith(`--${n}`))?.split("=")[1] ?? (args.includes(`--${n}`) ? "true" : undefined);
+const existe = (f: string) => access(f).then(() => true, () => false);
 const env = (n: string) => {
   const v = process.env[n];
   if (!v) throw new Error(`Falta la variable de entorno ${n}`);
@@ -32,23 +40,31 @@ const env = (n: string) => {
 
 async function voz(g: Guion): Promise<{ timing: Timing; audio: string | null }> {
   if (flag("sin-voz")) return { timing: estimarTiming(g), audio: null };
+  const rel = `audio/${g.id}.mp3`;
+  const cache = path.join(PUBLIC, `audio/${g.id}.json`);
+  const texto = textoNarracion(g);
+  if (!flag("rehacer-voz") && (await existe(cache))) {
+    const c = JSON.parse(await readFile(cache, "utf8"));
+    if (c.texto === texto) { console.log("  voz en caché (usa --rehacer-voz para regenerar)"); return { timing: c.timing, audio: rel }; }
+  }
   const narrador = (flag("narrador") ?? process.env.NARRADOR ?? "sebas").toUpperCase();
   console.log(`  narrador: ${narrador.toLowerCase()}`);
   const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${env(`ELEVENLABS_VOICE_ID_${narrador}`)}/with-timestamps`, {
     method: "POST",
     headers: { "xi-api-key": env(`ELEVENLABS_API_KEY_${narrador}`), "Content-Type": "application/json" },
     body: JSON.stringify({
-      text: textoNarracion(g),
+      text: texto,
       model_id: process.env.ELEVENLABS_MODEL || "eleven_multilingual_v2",
       language_code: "es",
     }),
   });
   if (!res.ok) throw new Error(`ElevenLabs ${res.status}: ${await res.text()}`);
   const data = (await res.json()) as { audio_base64: string; alignment: Alineacion };
-  const rel = `audio/${g.id}.mp3`;
   await mkdir(path.join(PUBLIC, "audio"), { recursive: true });
   await writeFile(path.join(PUBLIC, rel), Buffer.from(data.audio_base64, "base64"));
-  return { timing: timingDesdeAlineacion(g, data.alignment), audio: rel };
+  const timing = timingDesdeAlineacion(g, data.alignment);
+  await writeFile(cache, JSON.stringify({ texto, timing }));
+  return { timing, audio: rel };
 }
 
 async function render(props: VideoProps, salida: string) {
@@ -116,10 +132,17 @@ async function publicar(g: Guion, video: string, modo: "borrador" | "programar")
 async function main() {
   const archivo = args.find((a) => !a.startsWith("--"));
   if (!archivo) throw new Error("Uso: producir.ts guiones/<id>.json");
-  const guion = guionSchema.parse(JSON.parse(await readFile(path.resolve(archivo), "utf8")));
+  const ruta = path.resolve(archivo);
+  const guion = guionSchema.parse(JSON.parse(await readFile(ruta, "utf8")));
   await mkdir(OUT, { recursive: true });
 
-  console.log(`→ ${guion.id}: voz`);
+  if (!flag("sin-imagenes")) {
+    console.log(`→ ${guion.id}: imágenes`);
+    await resolverImagenes(guion, Boolean(flag("rehacer-imagenes")));
+    await writeFile(ruta, JSON.stringify(guion, null, 2) + "\n");
+  }
+
+  console.log("→ voz");
   const { timing, audio } = await voz(guion);
   await writeFile(path.join(OUT, `${guion.id}.timing.json`), JSON.stringify(timing, null, 2));
   console.log(`  ${timing.duracion.toFixed(1)} s, ${timing.palabras.length} palabras`);
@@ -127,7 +150,8 @@ async function main() {
 
   console.log("→ render");
   const video = path.join(OUT, `${guion.id}.mp4`);
-  await render({ guion, timing, audio }, video);
+  const musica = (await existe(path.join(PUBLIC, "musica.mp3"))) ? "musica.mp3" : null;
+  await render({ guion, timing, audio, musica }, video);
 
   const modo = (flag("publicar") ?? "no") as "borrador" | "programar" | "no";
   if (modo !== "no") {

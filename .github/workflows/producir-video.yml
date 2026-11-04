@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       guion:
-        description: "Ruta del guion (ej. guiones/2026-11-04-crecer-sin-caja.json)"
+        description: "Ruta del guion (ej. guiones/2026-11-05-kodak-camara-digital.json)"
         required: true
       publicar:
         description: "borrador | programar | no"

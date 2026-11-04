@@ -87,7 +87,13 @@ Reglas de escritura para la voz sintética:
 
 ## Visual
 
-- Nunca fotos de personas reales ni logos de marcas. El nombre de la empresa o persona va en tipografía.
-- Escenas tipográficas: texto grande, dato numérico grande, listas cortas, comparaciones.
-- Subtítulos palabra por palabra siempre visibles.
-- Paleta: fondo casi negro, texto marfil, acento ámbar. Una sola fuente sans gruesa.
+Edición documental sobre fotos reales (referencia: reels de historia de negocios con material de archivo), no motion graphics.
+
+- Base: fotos reales de las personas, lugares, productos y épocas de la historia. Fuentes: Wikimedia Commons (dominio público, CC0, CC BY, CC BY-SA) y Pexels para b-roll genérico. Nunca imágenes de Google ni de medios sin licencia.
+- El crédito de cada foto sale en pantalla (lo exige CC BY).
+- Fotos horizontales o de archivo: centradas sobre su versión desenfocada. Fotos verticales: pantalla completa. Siempre con zoom lento.
+- Material antiguo en blanco y negro o sepia; grano y viñeta suaves para unificar fuentes.
+- Corte cada ~3 s (1-3 fotos por escena).
+- Título grande en el gancho; rótulo con el nombre cuando aparece una persona o empresa.
+- Subtítulos palabra por palabra: sans blanca, con la palabra clave en serif itálica dorada.
+- Logos de marcas solo cuando aparecen de forma incidental en la foto (un edificio, un producto), nunca como gráfico propio.

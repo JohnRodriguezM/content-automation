@@ -1,140 +1,130 @@
-import "@fontsource/archivo/500.css";
-import "@fontsource/archivo/800.css";
+import "@fontsource/inter/500.css";
+import "@fontsource/inter/800.css";
+import "@fontsource/playfair-display/800.css";
+import "@fontsource/playfair-display/800-italic.css";
 import React from "react";
 import {
-  AbsoluteFill, Audio, Sequence, interpolate, spring, staticFile,
+  AbsoluteFill, Audio, Img, Sequence, interpolate, random, staticFile,
   useCurrentFrame, useVideoConfig,
 } from "remotion";
-import type { Escena, Palabra, Visual, VideoProps } from "./schema";
+import type { Escena, Imagen, Palabra, VideoProps } from "./schema";
 
-export const C = {
-  bg: "#0E0E0C",
-  panel: "#1A1916",
-  text: "#F3EFE6",
-  muted: "#9C978B",
-  accent: "#F2A93B",
-  line: "#2C2A25",
-};
-const FONT = "Archivo, sans-serif";
+const C = { text: "#FFFFFF", gold: "#E8B64C", shadow: "0 3px 14px rgba(0,0,0,0.85)" };
+const SANS = "Inter, sans-serif";
+const SERIF = "'Playfair Display', serif";
+const FADE = 6; // frames de fundido entre planos
 
-const BLOQUE_LABEL: Record<Escena["bloque"], string> = {
-  gancho: "", contexto: "El contexto", decision: "La decisión",
-  consecuencia: "Lo que pasó", aprendizaje: "La lección", cierre: "",
-};
+const src = (s: string) => (s.startsWith("http") ? s : staticFile(s));
 
-/** "Vender el doble y [[quebrar]]" → resalta lo que va entre [[ ]] */
-const Resaltado: React.FC<{ texto: string }> = ({ texto }) => (
-  <>
-    {texto.split(/(\[\[.+?\]\])/g).map((p, i) =>
-      p.startsWith("[[") ? <span key={i} style={{ color: C.accent }}>{p.slice(2, -2)}</span> : <span key={i}>{p}</span>,
-    )}
-  </>
-);
+const filtroCss = (f: Imagen["filtro"]) =>
+  f === "bn" ? "grayscale(1) contrast(1.08)" : f === "sepia" ? "sepia(0.55) contrast(1.05)" : "none";
 
-const useEntrada = (delay = 0) => {
+/** Un plano: foto con zoom lento (Ken Burns) y fundido de entrada. */
+const Plano: React.FC<{ img: Imagen; dur: number; seed: string }> = ({ img, dur, seed }) => {
   const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  const s = spring({ frame: frame - delay, fps, config: { damping: 200 }, durationInFrames: 14 });
-  return { opacity: s, transform: `translateY(${interpolate(s, [0, 1], [40, 0])}px)` };
-};
+  const p = frame / Math.max(1, dur);
+  // Dirección del movimiento distinta en cada plano, pero determinista
+  const dx = (random(seed + "x") - 0.5) * 60;
+  const dy = (random(seed + "y") - 0.5) * 40;
+  const acercar = random(seed + "z") > 0.35;
+  const escala = acercar ? interpolate(p, [0, 1], [1.04, 1.16]) : interpolate(p, [0, 1], [1.16, 1.04]);
+  const mover = `translate(${dx * p}px, ${dy * p}px) scale(${escala})`;
+  const opacity = interpolate(frame, [0, FADE], [0, 1], { extrapolateRight: "clamp" });
+  const filter = filtroCss(img.filtro);
+  if (!img.archivo && !img.url) return <AbsoluteFill style={{ background: "#111", opacity }} />;
+  const s = src(img.archivo ?? img.url!);
 
-const VisualView: React.FC<{ v: Visual }> = ({ v }) => {
-  const a = useEntrada(0);
-  const { fps } = useVideoConfig();
-  switch (v.tipo) {
-    case "titulo":
-      return (
-        <div style={a}>
-          {v.kicker && <div style={{ fontSize: 34, fontWeight: 500, color: C.accent, letterSpacing: 2, textTransform: "uppercase", marginBottom: 28 }}>{v.kicker}</div>}
-          <div style={{ fontSize: 104, fontWeight: 800, lineHeight: 1.02, color: C.text, letterSpacing: -2 }}><Resaltado texto={v.texto} /></div>
-        </div>
-      );
-    case "dato":
-      return (
-        <div style={a}>
-          <div style={{ fontSize: 210, fontWeight: 800, lineHeight: 0.95, color: C.accent, letterSpacing: -6 }}>{v.valor}</div>
-          <div style={{ fontSize: 50, fontWeight: 500, color: C.text, marginTop: 30, lineHeight: 1.2 }}>{v.etiqueta}</div>
-        </div>
-      );
-    case "lista":
-      return (
-        <div>
-          {v.titulo && <div style={{ ...a, fontSize: 40, fontWeight: 500, color: C.muted, marginBottom: 36 }}>{v.titulo}</div>}
-          {v.items.map((it, i) => <ItemLista key={i} n={i} texto={it} delay={Math.round(fps * 0.55 * i)} />)}
-        </div>
-      );
-    case "comparacion":
-      return (
-        <div style={{ display: "flex", flexDirection: "column", gap: 28 }}>
-          <Tarjeta {...v.izquierda} delay={0} />
-          <Tarjeta {...v.derecha} delay={Math.round(fps * 0.8)} acento />
-        </div>
-      );
-    case "linea_tiempo":
-      return (
-        <div style={{ borderLeft: `4px solid ${C.line}`, paddingLeft: 44 }}>
-          {v.hitos.map((h, i) => <Hito key={i} {...h} delay={Math.round(fps * 0.6 * i)} />)}
-        </div>
-      );
+  if (img.modo === "completa") {
+    return (
+      <AbsoluteFill style={{ opacity, overflow: "hidden" }}>
+        <Img src={s} style={{ width: "100%", height: "100%", objectFit: "cover", transform: mover, filter }} />
+      </AbsoluteFill>
+    );
   }
+  return (
+    <AbsoluteFill style={{ opacity, overflow: "hidden", background: "#000" }}>
+      <Img src={s} style={{ width: "100%", height: "100%", objectFit: "cover", transform: "scale(1.3)", filter: `${filter} blur(38px) brightness(0.45)` }} />
+      <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
+        <div style={{ width: "100%", height: 1180, overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <Img src={s} style={{ width: "100%", height: "100%", objectFit: "contain", transform: mover, filter }} />
+        </div>
+      </AbsoluteFill>
+    </AbsoluteFill>
+  );
 };
 
-const ItemLista: React.FC<{ n: number; texto: string; delay: number }> = ({ n, texto, delay }) => {
-  const a = useEntrada(delay);
+/** Crédito de la foto, pequeño y discreto (obligatorio con licencias CC). */
+const Credito: React.FC<{ texto?: string }> = ({ texto }) =>
+  texto ? (
+    <div style={{ position: "absolute", left: 48, bottom: 330, right: 200, fontFamily: SANS, fontSize: 22, fontWeight: 500, color: "rgba(255,255,255,0.72)", textShadow: C.shadow }}>
+      {texto}
+    </div>
+  ) : null;
+
+const Titulo: React.FC<{ texto: string }> = ({ texto }) => {
+  const frame = useCurrentFrame();
+  const o = interpolate(frame, [4, 12], [0, 1], { extrapolateRight: "clamp", extrapolateLeft: "clamp" });
+  const y = interpolate(frame, [4, 12], [24, 0], { extrapolateRight: "clamp", extrapolateLeft: "clamp" });
   return (
-    <div style={{ ...a, display: "flex", alignItems: "center", gap: 30, marginBottom: 30 }}>
-      <div style={{ width: 72, height: 72, borderRadius: 14, background: C.panel, border: `2px solid ${C.line}`, color: C.accent, fontSize: 38, fontWeight: 800, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>{n + 1}</div>
-      <div style={{ fontSize: 60, fontWeight: 800, color: C.text, lineHeight: 1.1 }}>{texto}</div>
+    <div style={{ position: "absolute", top: 300, left: 70, right: 70, textAlign: "center", opacity: o, transform: `translateY(${y}px)` }}>
+      <span style={{ fontFamily: SANS, fontWeight: 800, fontSize: 92, lineHeight: 1.08, color: C.text, textTransform: "uppercase", letterSpacing: -1, background: "rgba(0,0,0,0.55)", padding: "6px 22px", boxDecorationBreak: "clone", WebkitBoxDecorationBreak: "clone" }}>
+        {texto}
+      </span>
     </div>
   );
 };
 
-const Tarjeta: React.FC<{ titulo: string; texto: string; delay: number; acento?: boolean }> = ({ titulo, texto, delay, acento }) => {
-  const a = useEntrada(delay);
+const Rotulo: React.FC<{ texto: string }> = ({ texto }) => {
+  const frame = useCurrentFrame();
+  const w = interpolate(frame, [8, 20], [0, 1], { extrapolateRight: "clamp", extrapolateLeft: "clamp" });
   return (
-    <div style={{ ...a, background: C.panel, border: `2px solid ${acento ? C.accent : C.line}`, borderRadius: 24, padding: "40px 44px" }}>
-      <div style={{ fontSize: 34, fontWeight: 500, color: acento ? C.accent : C.muted, textTransform: "uppercase", letterSpacing: 2 }}>{titulo}</div>
-      <div style={{ fontSize: 62, fontWeight: 800, color: C.text, marginTop: 14, lineHeight: 1.08 }}>{texto}</div>
+    <div style={{ position: "absolute", top: 420, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
+      <div style={{ background: "rgba(10,10,10,0.82)", padding: "14px 30px", borderLeft: `6px solid ${C.gold}`, clipPath: `inset(0 ${100 - w * 100}% 0 0)` }}>
+        <span style={{ fontFamily: SERIF, fontWeight: 800, fontSize: 46, color: C.text }}>{texto}</span>
+      </div>
     </div>
   );
 };
 
-const Hito: React.FC<{ fecha: string; texto: string; delay: number }> = ({ fecha, texto, delay }) => {
-  const a = useEntrada(delay);
-  return (
-    <div style={{ ...a, marginBottom: 46 }}>
-      <div style={{ fontSize: 40, fontWeight: 800, color: C.accent }}>{fecha}</div>
-      <div style={{ fontSize: 56, fontWeight: 800, color: C.text, lineHeight: 1.1 }}>{texto}</div>
-    </div>
-  );
-};
+const norm = (s: string) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^\p{L}\p{N}]/gu, "");
 
-/** Agrupa palabras en frases cortas (≤5 palabras o hasta un signo de puntuación). */
+/** Frases cortas (≤4 palabras o hasta un signo de puntuación). */
 const agrupar = (palabras: Palabra[]) => {
   const grupos: Palabra[][] = [];
-  let actual: Palabra[] = [];
+  let g: Palabra[] = [];
   for (const p of palabras) {
-    actual.push(p);
-    if (actual.length >= 5 || /[.,;:?!]$/.test(p.texto)) { grupos.push(actual); actual = []; }
+    g.push(p);
+    if (g.length >= 4 || /[.,;:?!]$/.test(p.texto)) { grupos.push(g); g = []; }
   }
-  if (actual.length) grupos.push(actual);
+  if (g.length) grupos.push(g);
   return grupos;
 };
 
-const Subtitulos: React.FC<{ palabras: Palabra[] }> = ({ palabras }) => {
+const Subtitulos: React.FC<{ palabras: Palabra[]; destacar: Set<string> }> = ({ palabras, destacar }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
   const grupos = React.useMemo(() => agrupar(palabras), [palabras]);
-  const g = grupos.find((g) => t >= g[0].inicio && t < g[g.length - 1].fin + 0.15);
+  const g = grupos.find((g) => t >= g[0].inicio - 0.05 && t < g[g.length - 1].fin + 0.12);
   if (!g) return null;
   return (
-    <div style={{ position: "absolute", left: 80, right: 160, top: 1260, textAlign: "center", fontSize: 64, fontWeight: 800, lineHeight: 1.15 }}>
+    <div style={{ position: "absolute", left: 70, right: 150, top: 1180, textAlign: "center", lineHeight: 1.12 }}>
       {g.map((p, i) => {
-        const activa = t >= p.inicio && t < p.fin + 0.05;
+        const dicha = t >= p.inicio - 0.02;
+        const clave = destacar.has(norm(p.texto));
+        const pop = clave ? interpolate(t - p.inicio, [0, 0.12], [0.8, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) : 1;
         return (
-          <span key={i} style={{ color: activa ? C.accent : C.text, textShadow: "0 4px 18px rgba(0,0,0,0.9)" }}>
-            {p.texto.replace(/[.,;:]$/, "")}{i < g.length - 1 ? " " : ""}
+          <span key={i} style={{
+            display: "inline-block", marginRight: 16, transform: `scale(${pop})`,
+            fontFamily: clave ? SERIF : SANS,
+            fontStyle: clave ? "italic" : "normal",
+            fontWeight: 800,
+            fontSize: clave ? 84 : 60,
+            color: clave ? C.gold : C.text,
+            opacity: dicha ? 1 : 0.35,
+            textShadow: C.shadow,
+          }}>
+            {p.texto.replace(/[.,;:]$/, "")}
           </span>
         );
       })}
@@ -142,37 +132,73 @@ const Subtitulos: React.FC<{ palabras: Palabra[] }> = ({ palabras }) => {
   );
 };
 
-const Progreso: React.FC = () => {
+/** Grano de película + viñeta: da textura "documental" y unifica fotos de distintas fuentes. */
+const Textura: React.FC = () => {
   const frame = useCurrentFrame();
-  const { durationInFrames } = useVideoConfig();
   return (
-    <div style={{ position: "absolute", top: 0, left: 0, height: 8, width: `${(frame / durationInFrames) * 100}%`, background: C.accent }} />
+    <>
+      <AbsoluteFill style={{ background: "radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.6) 100%)" }} />
+      <AbsoluteFill style={{ background: "linear-gradient(to bottom, rgba(0,0,0,0) 55%, rgba(0,0,0,0.55) 100%)" }} />
+      <AbsoluteFill style={{
+        opacity: 0.07, mixBlendMode: "overlay",
+        backgroundImage: "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>\")",
+        backgroundPosition: `${(frame * 37) % 240}px ${(frame * 53) % 240}px`,
+      }} />
+    </>
   );
 };
 
-export const Video: React.FC<VideoProps> = ({ guion, timing, audio }) => {
-  const { fps } = useVideoConfig();
+const EscenaView: React.FC<{ e: Escena; dur: number; idx: number }> = ({ e, dur, idx }) => {
+  const n = e.imagenes.length;
+  const tramo = Math.floor(dur / n);
   return (
-    <AbsoluteFill style={{ background: C.bg, fontFamily: FONT }}>
-      {audio && <Audio src={audio.startsWith("http") ? audio : staticFile(audio)} />}
+    <AbsoluteFill>
+      {e.imagenes.map((img, j) => {
+        const from = j * tramo;
+        const d = j === n - 1 ? dur - from : tramo + FADE;
+        return (
+          <Sequence key={j} from={from} durationInFrames={d}>
+            <Plano img={img} dur={d} seed={`${idx}-${j}`} />
+            <Credito texto={img.credito} />
+          </Sequence>
+        );
+      })}
+    </AbsoluteFill>
+  );
+};
+
+export const Video: React.FC<VideoProps> = ({ guion, timing, audio, musica }) => {
+  const { fps } = useVideoConfig();
+  const destacar = React.useMemo(
+    () => new Set(guion.escenas.flatMap((e) => e.destacar.flatMap((d) => d.split(/\s+/).map(norm)))),
+    [guion],
+  );
+  return (
+    <AbsoluteFill style={{ background: "#000" }}>
+      {audio && <Audio src={src(audio)} />}
+      {musica && <Audio src={src(musica)} volume={0.1} loop />}
       {guion.escenas.map((e, i) => {
         const { inicio, fin } = timing.escenas[i];
         const from = Math.round(inicio * fps);
         const dur = Math.max(1, Math.round(fin * fps) - from);
-        const label = BLOQUE_LABEL[e.bloque];
         return (
-          <Sequence key={i} from={from} durationInFrames={dur}>
-            <AbsoluteFill style={{ padding: "0 80px", paddingRight: 140 }}>
-              {label && <div style={{ position: "absolute", top: 200, left: 80, fontSize: 32, fontWeight: 500, color: C.muted, letterSpacing: 3, textTransform: "uppercase" }}>{label}</div>}
-              <div style={{ position: "absolute", top: 280, bottom: 720, left: 80, right: 140, display: "flex", flexDirection: "column", justifyContent: "center" }}>
-                <VisualView v={e.visual} />
-              </div>
-            </AbsoluteFill>
+          <Sequence key={i} from={from} durationInFrames={dur + (i < guion.escenas.length - 1 ? FADE : 0)}>
+            <EscenaView e={e} dur={dur} idx={i} />
           </Sequence>
         );
       })}
-      <Subtitulos palabras={timing.palabras} />
-      <Progreso />
+      <Textura />
+      {guion.escenas.map((e, i) => {
+        const from = Math.round(timing.escenas[i].inicio * fps);
+        const dur = Math.max(1, Math.round(timing.escenas[i].fin * fps) - from);
+        return (
+          <Sequence key={`o${i}`} from={from} durationInFrames={dur}>
+            {e.titulo && <Titulo texto={e.titulo} />}
+            {e.rotulo && <Rotulo texto={e.rotulo} />}
+          </Sequence>
+        );
+      })}
+      <Subtitulos palabras={timing.palabras} destacar={destacar} />
     </AbsoluteFill>
   );
 };

@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-05-kodak-camara-digital",
+  "pilar": "negocios",
+  "tema": "Kodak inventó la cámara digital y aun así quebró",
+  "pregunta_principal": "¿Por qué una empresa que inventa el futuro no lo aprovecha?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "En 1975, un ingeniero de Kodak inventó la cámara digital. Treinta y siete años después, Kodak se declaró en bancarrota.",
+      "titulo": "Kodak inventó lo que la quebró",
+      "destacar": ["1975", "bancarrota"],
+      "imagenes": [
+        { "busqueda": "Kodak Tower Rochester", "modo": "completa" },
+        { "busqueda": "Kodak first digital camera prototype 1975", "modo": "relleno" }
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Para entender por qué, mira dónde estaba Kodak. En 1976 vendía el noventa por ciento del rollo fotográfico en Estados Unidos. Y su gran negocio no era la cámara. Era el rollo, y cada foto que se revelaba.",
+      "rotulo": "Eastman Kodak",
+      "destacar": ["noventa", "rollo"],
+      "imagenes": [
+        { "busqueda": "Kodak film roll vintage", "modo": "relleno" },
+        { "busqueda": "Kodak Brownie camera", "modo": "relleno" },
+        { "busqueda": "photographic film negatives", "modo": "completa", "filtro": "bn" }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Steven Sasson armó un prototipo que tardaba veintitrés segundos en guardar una foto en blanco y negro. Se lo mostró a sus jefes. Según contó después, estaban convencidos de que nadie querría ver sus fotos en un televisor. Ahora ponte en su lugar. ¿Para qué apostar por algo que compite con tu producto más rentable?",
+      "rotulo": "Steven Sasson",
+      "destacar": ["veintitrés", "televisor", "rentable"],
+      "imagenes": [
+        { "busqueda": "Steven Sasson", "modo": "relleno" },
+        { "busqueda": "Kodak digital camera prototype Sasson", "modo": "relleno" },
+        { "busqueda": "1970s office meeting", "modo": "completa", "filtro": "bn" }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Kodak llegó a tener más de mil patentes de imagen digital. No le faltó la idea. Le faltó decidir a tiempo. En enero de 2012 se declaró en bancarrota, y ni siquiera logró vender esas patentes para salvarse.",
+      "destacar": ["patentes", "2012"],
+      "imagenes": [
+        { "busqueda": "Eastman Kodak headquarters Rochester", "modo": "completa" },
+        { "busqueda": "Kodak Park Rochester demolition", "modo": "relleno" }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. Si una tecnología nueva amenaza tu producto más rentable, alguien la va a lanzar. La pregunta no es si va a pasar. Es si vas a ser tú. Úsala cada vez que descartes una idea porque le quita ventas a lo que ya vendes.",
+      "destacar": ["alguien", "tú"],
+      "imagenes": [
+        { "busqueda": "digital camera", "modo": "completa", "fuente": "pexels" },
+        { "busqueda": "smartphone taking photo", "modo": "completa", "fuente": "pexels" }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú habrías lanzado la cámara digital, sabiendo que iba a acabar con tu negocio del rollo?",
+      "destacar": ["rollo"],
+      "imagenes": [
+        { "busqueda": "old film camera", "modo": "completa", "fuente": "pexels" }
+      ]
+    }
+  ],
+  "caption": "En 1975 un ingeniero de Kodak inventó la cámara digital. En 2012 Kodak quebró.\n\nNo le faltó la idea: llegó a tener más de mil patentes de imagen digital. Le faltó decidir a tiempo, porque lo nuevo competía con su negocio más rentable: el rollo.\n\n¿Tú la habrías lanzado?",
+  "hashtags": ["#negocios", "#kodak", "#emprendimiento", "#innovacion", "#historiasdenegocios", "#estrategia"],
+  "fuentes": [
+    { "afirmacion": "Sasson mostró su prototipo en 1975; 100x100 px en blanco y negro; 23 s para grabar la foto; los jefes creían que nadie querría ver fotos en un televisor", "url": "https://www.businessinsider.in/This-man-invented-the-digital-camera-in-1975-and-his-bosses-at-Kodak-never-let-it-see-the-light-of-day/articleshow/48520882.cms" },
+    { "afirmacion": "En 1976 Kodak tenía el 90 % de las ventas de rollo y el 85 % de las cámaras en EE. UU.", "url": "https://petapixel.com/2018/06/14/a-brief-history-of-kodak-the-camera-giants-rise-and-fall" },
+    { "afirmacion": "Kodak se declaró en bancarrota (Chapter 11) el 19 de enero de 2012; no logró vender 1.100 patentes de imagen digital que podían salvarla", "url": "https://abcnews.com/Business/kodak-files-chapter-11-bankruptcy/story?id=15392485" }
+  ]
+}
