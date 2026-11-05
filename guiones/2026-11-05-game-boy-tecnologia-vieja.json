@@ -2,6 +2,7 @@
   "id": "2026-11-05-game-boy-tecnologia-vieja",
   "pilar": "tecnologia",
   "narrador": "john",
+  "modelo_voz": "eleven_v4",
   "tema": "El Game Boy ganó con tecnología vieja: pantalla en blanco y negro y 30 horas de batería",
   "pregunta_principal": "¿La mejor tecnología es siempre la más nueva?",
   "escenas": [

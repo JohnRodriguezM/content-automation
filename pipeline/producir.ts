@@ -71,21 +71,21 @@ async function voz(g: Guion): Promise<{ timing: Timing; audio: string | null }> 
   const texto = textoNarracion(g);
   if (!flag("rehacer-voz") && (await existe(cache))) {
     const c = JSON.parse(await readFile(cache, "utf8"));
-    if (c.texto === texto) { console.log("  voz en caché (usa --rehacer-voz para regenerar)"); return { timing: c.timing, audio: rel }; }
+    if (c.texto === texto && (c.modelo ?? "") === (process.env.ELEVENLABS_MODEL || g.modelo_voz || "eleven_v4")) { console.log("  voz en caché (usa --rehacer-voz para regenerar)"); return { timing: c.timing, audio: rel }; }
   }
   const N = narrador.toUpperCase();
   const voiceId = env(`ELEVENLABS_VOICE_ID_${N}`);
   const key = env(`ELEVENLABS_API_KEY_${N}`);
-  const modelo = process.env.ELEVENLABS_MODEL || "eleven_v3";
+  const modelo = process.env.ELEVENLABS_MODEL || g.modelo_voz || "eleven_v4";
   const plano = sinEtiquetas(texto);
   console.log(`  narrador: ${narrador} · modelo: ${modelo}`);
   const api = "https://api.elevenlabs.io/v1";
   const json = { "xi-api-key": key, "Content-Type": "application/json" };
-  // v3/v4 interpretan las etiquetas ([sighs], [laughs]...). Estabilidad 0.5 = "natural".
+  // v3/v4 interpretan las etiquetas ([sighs], [laughs]...). Estabilidad 0.5 = "natural"; similitud alta para no alejarse de la voz clonada.
   const cuerpo = (model_id: string, text: string) =>
     JSON.stringify(model_id.startsWith("eleven_multilingual") || model_id.startsWith("eleven_turbo") || model_id.startsWith("eleven_flash")
       ? { text, model_id, language_code: "es" }
-      : { text, model_id, voice_settings: { stability: 0.5, similarity_boost: 0.8 } });
+      : { text, model_id, voice_settings: { stability: 0.5, similarity_boost: 0.95, use_speaker_boost: true } });
 
   let audio: Buffer | null = null;
   let alineacion: Alineacion | null = null;
@@ -133,7 +133,7 @@ async function voz(g: Guion): Promise<{ timing: Timing; audio: string | null }> 
   await mkdir(path.join(PUBLIC, "audio"), { recursive: true });
   await writeFile(path.join(PUBLIC, rel), audio);
   const timing = timingDesdeAlineacion(g, alineacion);
-  await writeFile(cache, JSON.stringify({ texto, timing }));
+  await writeFile(cache, JSON.stringify({ texto, timing, modelo }));
   return { timing, audio: rel };
 }
 

@@ -2,6 +2,7 @@
   "id": "2026-11-05-new-coke",
   "pilar": "negocios",
   "narrador": "sebas",
+  "modelo_voz": "eleven_v4",
   "tema": "Coca-Cola cambió su fórmula en 1985 y tuvo que devolverla 79 días después",
   "pregunta_principal": "¿Qué no mide una prueba de sabor?",
   "escenas": [

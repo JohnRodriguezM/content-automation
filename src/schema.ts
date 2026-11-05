@@ -57,6 +57,8 @@ export const guionSchema = z.object({
   pilar: z.enum(["negocios", "biografias", "tecnologia"]),
   // Cuenta de ElevenLabs que pone la voz; --narrador o NARRADOR la reemplazan
   narrador: z.enum(["sebas", "john"]).optional(),
+  // Modelo de ElevenLabs para este guion (por defecto eleven_v4); ELEVENLABS_MODEL lo reemplaza
+  modelo_voz: z.string().optional(),
   tema: z.string(),
   pregunta_principal: z.string(),
   escenas: z.array(escenaSchema).min(5).max(12),

@@ -2,6 +2,7 @@
   "id": "2026-11-05-nubank-sin-oficinas",
   "pilar": "negocios",
   "narrador": "john",
+  "modelo_voz": "eleven_v4",
   "tema": "Un colombiano creó Nubank después de una mala experiencia con un banco en Brasil",
   "pregunta_principal": "¿Qué oportunidad se esconde en lo que todos aceptan como normal?",
   "escenas": [
