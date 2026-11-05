@@ -1,0 +1,207 @@
+{
+  "id": "2026-11-05-zara-producir-poco",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "tema": "Zara fabrica poco a propósito y vende casi todo a precio completo",
+  "pregunta_principal": "¿Qué pasa si dejas de adivinar lo que quiere tu cliente?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Zara fabrica poco a propósito. Y esa escasez es parte de por qué vende tanto.",
+      "imagenes": [
+        {
+          "busqueda": "Zara store",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Zara shop window",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "poco",
+        "escasez"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Fabrica poco [[a propósito]]",
+          "icono": "pregunta"
+        }
+      ],
+      "titulo": "Fabricar poco, a propósito"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Amancio Ortega y Rosalía Mera abrieron la primera tienda en 1975, en A Coruña. Las marcas de ropa tradicionales decidían sus colecciones con meses de anticipación.",
+      "imagenes": [
+        {
+          "busqueda": "A Coruña",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Inditex Arteixo headquarters",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1975",
+        "meses"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "1975",
+          "etiqueta": "primera tienda en A Coruña",
+          "icono": "edificio"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Zara hizo lo contrario. Solo fabrica por adelantado entre el quince y el veinticinco por ciento de la temporada. El resto lo diseña sobre la marcha, en pequeños lotes, y lo lleva de la idea a la tienda en unas dos o tres semanas.",
+      "imagenes": [
+        {
+          "busqueda": "clothing factory sewing",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Zara clothing rack",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "contrario",
+        "semanas"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "15-25%",
+          "etiqueta": "de la temporada se fabrica antes",
+          "icono": "documentos"
+        },
+        {
+          "tipo": "dato",
+          "valor": "2-3",
+          "etiqueta": "semanas de la idea a la tienda",
+          "icono": "reloj"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Las tiendas reciben ropa nueva dos veces por semana. [pause] Resultado: Zara vende cerca del ochenta y cinco por ciento a precio completo. En la industria, lo normal ronda el sesenta.",
+      "imagenes": [
+        {
+          "busqueda": "Zara store interior",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Zara store Madrid",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ochenta",
+        "sesenta"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "60%",
+            "texto": "a precio completo en la industria",
+            "icono": "grafica_baja"
+          },
+          "despues": {
+            "valor": "85%",
+            "texto": "a precio completo en Zara",
+            "icono": "dinero"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. Si te cuesta adivinar qué quiere tu cliente, no adivines tanto. Produce poco, mira qué se vende y reacciona rápido.",
+      "imagenes": [
+        {
+          "busqueda": "clothing store shopping",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "adivines",
+        "reacciona"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Produce poco, mira y [[reacciona]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú produces por adelantado o según lo que vendes? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Zara logo store front",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "vendes",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Adelantado o según lo que [[vendes]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Zara solo fabrica por adelantado entre el 15 y el 25% de cada temporada. El resto lo diseña sobre la marcha, en lotes pequeños, y lo lleva a tienda en dos o tres semanas.\n\nResultado: vende cerca del 85% a precio completo, cuando en la industria lo normal ronda el 60%.\n\n¿Tú produces por adelantado o según lo que vendes?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#zara",
+    "#inditex",
+    "#moda",
+    "#emprendimiento",
+    "#historiasdenegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Ortega y Rosalía Mera abrieron la primera tienda en 1975 en A Coruña; del concepto a la tienda en unos 15 días; solo 15-25% de la temporada se hace por adelantado; vende cerca del 85% a precio completo frente a un 60% en la industria",
+      "url": "https://thinkinsights.net/strategy/zaras-fast-fashion-machine"
+    },
+    {
+      "afirmacion": "De la idea al mercado en poco menos de tres semanas; envíos en lotes pequeños dos veces por semana; las marcas tradicionales deciden meses antes",
+      "url": "https://d3.harvard.edu/platform-rctom/submission/inditex-and-zara-delivering-fast-and-more-profitable-fashion/index.html"
+    }
+  ]
+}

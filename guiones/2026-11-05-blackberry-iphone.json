@@ -1,0 +1,212 @@
+{
+  "id": "2026-11-05-blackberry-iphone",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "tema": "BlackBerry pensó que la gente se cansaría de la pantalla táctil del iPhone",
+  "pregunta_principal": "¿Qué pasa cuando un competidor cambia la forma de usar el producto?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] En 2007, la acción de BlackBerry rondaba los ciento cuarenta dólares. En 2013, un comprador ofrecía nueve.",
+      "imagenes": [
+        {
+          "busqueda": "BlackBerry Bold 9000",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Research In Motion headquarters Waterloo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ciento",
+        "nueve"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$140",
+            "texto": "por acción en 2007",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "$9",
+            "texto": "oferta por acción en 2013",
+            "icono": "grafica_baja"
+          }
+        }
+      ],
+      "titulo": "De 140 a 9 dólares"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "BlackBerry apostaba por el teclado físico, la batería y la seguridad. Y entonces Apple presentó el iPhone.",
+      "imagenes": [
+        {
+          "busqueda": "BlackBerry Curve keyboard",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "original iPhone 2007",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "teclado",
+        "iPhone"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Teclado físico"
+            },
+            {
+              "icono": "reloj",
+              "texto": "Batería"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Seguridad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Según el Wall Street Journal, uno de sus directivos le dijo al equipo que iban a estar bien. Creían que la gente se cansaría de escribir en una pantalla táctil y de cargar la batería todos los días.",
+      "imagenes": [
+        {
+          "busqueda": "BlackBerry Bold smartphone",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "iPhone 2G",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "bien",
+        "cansaría"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Vamos a estar [[bien]]",
+          "icono": "pregunta"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[sighs] No se cansaron. A finales de 2008, BlackBerry lanzó a la carrera un teléfono táctil que sabía que tenía fallas. Y su participación de mercado terminó en un solo dígito.",
+      "imagenes": [
+        {
+          "busqueda": "BlackBerry Storm",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "BlackBerry smartphone old",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cansaron",
+        "dígito"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "<10%",
+          "etiqueta": "participación de mercado",
+          "icono": "grafica_baja"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. Lo que tus clientes valoran hoy no es lo que van a valorar siempre. Cuando un competidor cambia la forma de usar el producto, tus fortalezas pueden volverse irrelevantes.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone touchscreen",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "siempre",
+        "irrelevantes"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Tus fortalezas pueden volverse [[irrelevantes]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué fortaleza de tu negocio podría dejar de importar? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "BlackBerry logo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "importar",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué fortaleza podría [[dejar de importar]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "En 2007, la acción de BlackBerry rondaba los 140 dólares. En 2013, un comprador ofrecía 9.\n\nCuando salió el iPhone, sus directivos creyeron que la gente se cansaría de la pantalla táctil y de cargar la batería todos los días. No se cansó.\n\n¿Qué fortaleza de tu negocio podría dejar de importar?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#tecnologia",
+    "#blackberry",
+    "#iphone",
+    "#negocios",
+    "#innovacion",
+    "#emprendimiento"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Directivos de BlackBerry esperaban que la gente se cansara del teclado táctil, la batería y la menor seguridad del iPhone; Balsillie dijo que estarían bien; Storm lanzado a finales de 2008 a sabiendas de sus fallas; participación de mercado cayó a un dígito",
+      "url": "https://www.cnbc.com/amp/2015/05/24/iphones-entrance-caught-blackberry-unawares-then-it-was-too-late-wsj.html"
+    },
+    {
+      "afirmacion": "La acción rondaba los 140 dólares hacia 2007; en 2013 Fairfax ofreció 9 dólares por acción",
+      "url": "https://bgr.com/2013/09/30/blackberry-downfall-analysis-iphone"
+    }
+  ]
+}

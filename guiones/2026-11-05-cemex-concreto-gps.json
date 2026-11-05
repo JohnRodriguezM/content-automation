@@ -1,0 +1,220 @@
+{
+  "id": "2026-11-05-cemex-concreto-gps",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "Cemex puso GPS en sus camiones y bajó la entrega de concreto de tres horas a treinta minutos",
+  "pregunta_principal": "¿Puede la entrega ser tu ventaja cuando el producto es igual?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Una cementera mexicana empezó a entregar concreto como si fuera una pizza. Y pasó de tardar tres horas a tardar media hora.",
+      "imagenes": [
+        {
+          "busqueda": "Cemex concrete mixer truck",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Cemex",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "pizza",
+        "media"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "3 h",
+            "texto": "tardaba una entrega",
+            "icono": "reloj"
+          },
+          "despues": {
+            "valor": "30 min",
+            "texto": "con GPS en los camiones",
+            "icono": "celular"
+          }
+        }
+      ],
+      "titulo": "Concreto entregado como pizza"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Cemex nació en Monterrey. Y su producto tiene un problema: el concreto premezclado no puede esperar mucho en un camión. Con el tráfico de Ciudad de México, las entregas tardaban hasta tres horas.",
+      "imagenes": [
+        {
+          "busqueda": "Monterrey Cerro de la Silla",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Mexico City traffic Periférico",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "esperar",
+        "tres"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "El concreto [[no puede esperar]]",
+          "icono": "reloj"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Bajo la dirección de Lorenzo Zambrano, decidió tratar sus camiones como una red. Les puso computadores y GPS para saber dónde estaba cada uno y coordinar las entregas en tiempo real.",
+      "imagenes": [
+        {
+          "busqueda": "Lorenzo Zambrano",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "concrete mixer truck",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "red",
+        "GPS"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "celular",
+              "texto": "GPS en cada camión"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Computador a bordo"
+            },
+            {
+              "icono": "reloj",
+              "texto": "Entregas en tiempo real"
+            }
+          ]
+        }
+      ],
+      "rotulo": "Lorenzo Zambrano"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "El tiempo de entrega bajó de tres horas a treinta minutos. [excited] Y Cemex pasó de ser una empresa del norte de México a una de las grandes del mundo en materiales de construcción.",
+      "imagenes": [
+        {
+          "busqueda": "Cemex cement plant",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Cemex headquarters Monterrey",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "treinta",
+        "mundo"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "Regional",
+            "texto": "empresa del norte de México",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "Global",
+            "texto": "de las grandes del mundo",
+            "icono": "dinero"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. A veces tu producto no se puede mejorar mucho. El concreto es concreto. [laughs softly] Pero la forma de entregarlo sí, y ahí puede estar tu ventaja.",
+      "imagenes": [
+        {
+          "busqueda": "ready-mix concrete pouring",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "entregarlo",
+        "ventaja"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Tu ventaja puede estar en la [[entrega]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿En qué parte de tu negocio, que no es el producto, podrías ser el mejor? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Cemex logo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mejor",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Dónde podrías ser [[el mejor]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Cemex, nacida en Monterrey, le puso computadores y GPS a sus camiones mezcladores. El tiempo de entrega de concreto bajó de tres horas a 30 minutos.\n\nEl concreto es concreto: la ventaja estuvo en cómo lo entregaba.\n\n¿En qué parte de tu negocio, que no es el producto, podrías ser el mejor?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#cemex",
+    "#mexico",
+    "#logistica",
+    "#emprendimiento",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Cemex equipó sus camiones mezcladores con computadores y receptores GPS; redujo el tiempo de entrega de tres horas a 30 minutos, incluso en el tráfico de Ciudad de México",
+      "url": "https://wirednews.pages.dev/2002/07/cemex"
+    },
+    {
+      "afirmacion": "Lorenzo Zambrano, CEO desde 1985, llevó a Cemex de empresa local del norte de México a líder global en materiales de construcción; origen en Monterrey",
+      "url": "https://en.wikipedia.org/wiki/Lorenzo_Zambrano"
+    }
+  ]
+}

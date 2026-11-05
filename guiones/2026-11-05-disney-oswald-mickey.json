@@ -1,0 +1,211 @@
+{
+  "id": "2026-11-05-disney-oswald-mickey",
+  "pilar": "biografias",
+  "narrador": "john",
+  "tema": "Walt Disney perdió a Oswald porque no era suyo, y creó a Mickey Mouse",
+  "pregunta_principal": "¿Es tuyo lo que estás construyendo?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Antes de Mickey Mouse, Walt Disney tuvo otro personaje. Y se lo quitaron.",
+      "imagenes": [
+        {
+          "busqueda": "Walt Disney",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Oswald the Lucky Rabbit 1927",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "bn"
+        }
+      ],
+      "destacar": [
+        "Mickey",
+        "quitaron"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Antes de Mickey hubo un [[conejo]]",
+          "icono": "pregunta"
+        }
+      ],
+      "titulo": "Antes de Mickey",
+      "rotulo": "Walt Disney"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Era Oswald, el conejo de la suerte. Disney hizo veintiséis cortos entre 1927 y 1928 para el productor Charles Mintz, que los distribuía con Universal.",
+      "imagenes": [
+        {
+          "busqueda": "Trolley Troubles 1927",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "bn"
+        },
+        {
+          "busqueda": "Universal Pictures 1920s",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "Oswald",
+        "veintiséis"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "26",
+          "etiqueta": "cortos de Oswald entre 1927 y 1928",
+          "icono": "tv"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 1928, Disney pidió más presupuesto. Mintz, en cambio, quería recortarlo. Disney se negó. [sighs] Y descubrió que los derechos de Oswald no eran suyos. Además, Mintz se llevó a casi todos sus animadores.",
+      "imagenes": [
+        {
+          "busqueda": "animation drawing desk vintage",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "sepia"
+        },
+        {
+          "busqueda": "Walt Disney 1920s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "derechos",
+        "animadores"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "dinero",
+              "texto": "Pidió más presupuesto"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Los derechos no eran suyos"
+            },
+            {
+              "icono": "pregunta",
+              "texto": "Se llevaron a su equipo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Disney se quedó sin personaje y casi sin equipo. Con los pocos que le quedaron, creó uno nuevo: Mickey Mouse. [laughs softly] Y a Oswald lo recuperó apenas en 2006, a cambio de liberar a un comentarista deportivo de su contrato.",
+      "imagenes": [
+        {
+          "busqueda": "Steamboat Willie",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "bn"
+        },
+        {
+          "busqueda": "Walt Disney 1930s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "Mickey",
+        "2006"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Nace [[Mickey Mouse]]",
+          "icono": "bombilla"
+        },
+        {
+          "tipo": "dato",
+          "valor": "2006",
+          "etiqueta": "Disney recupera a Oswald",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [serious] Si construyes algo valioso sobre algo que no es tuyo, en cualquier momento te lo pueden quitar. Antes de crecer, revisa de quién es lo que estás construyendo.",
+      "imagenes": [
+        {
+          "busqueda": "Walt Disney Studios Burbank",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tuyo",
+        "quitar"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿De quién es lo que [[construyes]]?",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Lo más valioso de tu negocio es realmente tuyo? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Steamboat Willie 1928",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "bn"
+        }
+      ],
+      "destacar": [
+        "tuyo",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Lo más valioso es [[tuyo]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Antes de Mickey, Walt Disney hizo 26 cortos de Oswald, el conejo de la suerte. En 1928 pidió más presupuesto, se negó a un recorte y descubrió que los derechos no eran suyos. También se quedó casi sin animadores.\n\nCon los pocos que le quedaron creó a Mickey Mouse. A Oswald lo recuperó apenas en 2006.\n\n¿Lo más valioso de tu negocio es realmente tuyo?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#emprendimiento",
+    "#disney",
+    "#waltdisney",
+    "#negocios",
+    "#propiedadintelectual",
+    "#historiasdenegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Oswald (1927-1928) para Charles Mintz, distribuido por Universal; en 1928 Disney pidió más presupuesto, Mintz quería recortarlo y Disney se negó; Mintz conservaba los derechos y se llevó a casi todos sus animadores; Disney creó a Mickey; en 2006 Iger recuperó a Oswald liberando a Al Michaels de su contrato",
+      "url": "https://www.smithsonianmag.com/smart-news/missing-disney-cartoon-1928-discovered-japan-180970842/"
+    },
+    {
+      "afirmacion": "26 cortos mudos de Oswald entre 1927 y 1928 para Charles Mintz con distribución de Universal; tras perder los derechos, Walt creó a Mickey; Disney recuperó a Oswald en 2006",
+      "url": "https://d23.com/?p=7474"
+    }
+  ]
+}

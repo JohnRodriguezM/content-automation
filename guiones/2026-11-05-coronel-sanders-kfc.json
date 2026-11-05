@@ -1,0 +1,213 @@
+{
+  "id": "2026-11-05-coronel-sanders-kfc",
+  "pilar": "biografias",
+  "narrador": "sebas",
+  "tema": "El coronel Sanders empezó a vender su receta pasados los 65 años",
+  "pregunta_principal": "¿Qué haces cuando tu negocio pierde el lugar donde estaba?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[thoughtful] Con más de sesenta y cinco años y un cheque de la seguridad social de ciento cinco dólares, un hombre salió a vender una receta de pollo.",
+      "imagenes": [
+        {
+          "busqueda": "Harland Sanders",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Harland Sanders Café Corbin",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "sesenta",
+        "receta"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "65+",
+            "texto": "años y un cheque de $105",
+            "icono": "reloj"
+          },
+          "despues": {
+            "valor": "1.800",
+            "texto": "franquicias en menos de 10 años",
+            "icono": "edificio"
+          }
+        }
+      ],
+      "titulo": "Empezó pasados los 65",
+      "rotulo": "Harland Sanders"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Harland Sanders tenía un restaurante de carretera. Funcionaba bien, hasta que cambiaron las vías y los clientes dejaron de pasar por ahí. Sus ventas se desplomaron.",
+      "imagenes": [
+        {
+          "busqueda": "Harland Sanders Café and Museum",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "US highway 1950s",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "bn"
+        }
+      ],
+      "destacar": [
+        "vías",
+        "desplomaron"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Cambiaron las vías y se fueron los [[clientes]]",
+          "icono": "grafica_baja"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En vez de retirarse, metió una olla a presión en el carro y se fue de restaurante en restaurante ofreciendo su receta. No abrió más locales. Le vendió su receta a otros.",
+      "imagenes": [
+        {
+          "busqueda": "pressure cooker",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Harland Sanders 1970s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "olla",
+        "receta"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Una receta"
+            },
+            {
+              "icono": "reloj",
+              "texto": "Una olla a presión"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Restaurante tras restaurante"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En menos de diez años ya había vendido mil ochocientas franquicias. [excited] En 1964 vendió la empresa por dos millones de dólares y siguió siendo la cara de la marca.",
+      "imagenes": [
+        {
+          "busqueda": "Kentucky Fried Chicken restaurant 1960s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        },
+        {
+          "busqueda": "KFC restaurant",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mil",
+        "1964"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$2M",
+          "etiqueta": "vendió la empresa en 1964",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [serious] Cuando tu negocio pierde el lugar donde estaba, no siempre tienes que empezar de cero. A veces lo que vale no es el local, sino lo que sabes hacer, y eso se puede llevar a otra parte.",
+      "imagenes": [
+        {
+          "busqueda": "fried chicken",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "local",
+        "sabes"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Lo que vale es lo que [[sabes hacer]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué sabes hacer que podrías vender sin tu local? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Kentucky Fried Chicken sign vintage",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "local",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué podrías vender sin tu [[local]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Con más de 65 años y un cheque de la seguridad social de 105 dólares, Harland Sanders salió a vender su receta de pollo, restaurante por restaurante.\n\nEn menos de diez años había vendido 1.800 franquicias. En 1964 vendió la empresa por 2 millones de dólares.\n\n¿Qué sabes hacer que podrías vender sin tu local?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#emprendimiento",
+    "#kfc",
+    "#coronelsanders",
+    "#negocios",
+    "#franquicias",
+    "#historiasdenegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "A los 66, la construcción de la carretera dejó obsoleto su café; salió con un cheque de la seguridad social de 105 dólares y una olla a presión a vender su receta; en menos de una década vendió 1.800 franquicias; en 1964 vendió la empresa por 2 millones y siguió como imagen",
+      "url": "https://www.csmonitor.com/1980/1217/121729.html"
+    },
+    {
+      "afirmacion": "Tenía 65 años y vivía de un cheque de 105 dólares al mes cuando constituyó Kentucky Fried Chicken; los cambios en las vías redujeron las ventas de su café; venta por 2 millones en 1964",
+      "url": "https://www.audacy.com/national/news/colonel-sanders-history-facts"
+    }
+  ]
+}

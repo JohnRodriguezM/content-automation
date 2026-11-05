@@ -1,0 +1,219 @@
+{
+  "id": "2026-11-05-southwest-un-solo-avion",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "tema": "Southwest Airlines voló con un solo modelo de avión y ganó dinero 45 años seguidos",
+  "pregunta_principal": "¿Puede una limitación volverse una ventaja?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Una aerolínea decidió volar con un solo modelo de avión. Y esa limitación le permitió ganar dinero cuarenta y cinco años seguidos.",
+      "imagenes": [
+        {
+          "busqueda": "Southwest Airlines Boeing 737",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Southwest Airlines 737 takeoff",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "solo",
+        "cuarenta"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "1",
+            "texto": "solo modelo de avión",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "45",
+            "texto": "años seguidos con ganancias",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "titulo": "Un solo modelo de avión"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Southwest despegó en 1971 con una idea: tarifas bajas. El problema es que un avión solo gana dinero cuando está volando.",
+      "imagenes": [
+        {
+          "busqueda": "Southwest Airlines 1970s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        },
+        {
+          "busqueda": "Southwest Airlines Boeing 737-200",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1971",
+        "volando"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Un avión solo gana [[volando]]",
+          "icono": "reloj"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Así que solo compró Boeing 737. Los pilotos y mecánicos se entrenaban en un solo modelo, los repuestos eran los mismos y cualquier avión podía reemplazar a otro.",
+      "imagenes": [
+        {
+          "busqueda": "Boeing 737 cockpit",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Boeing 737 engine maintenance",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "737",
+        "reemplazar"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Un solo entrenamiento"
+            },
+            {
+              "icono": "reloj",
+              "texto": "Los mismos repuestos"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Cualquier avión reemplaza a otro"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Sus aviones pasaban unos veinticinco minutos en la puerta entre vuelos, cuando lo normal en la industria era entre cuarenta y cinco minutos y una hora. [excited] Más vuelos al día con los mismos aviones.",
+      "imagenes": [
+        {
+          "busqueda": "Southwest Airlines gate airport",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Southwest Airlines boarding",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "veinticinco",
+        "más"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "45-60",
+            "texto": "minutos en tierra en la industria",
+            "icono": "reloj"
+          },
+          "despues": {
+            "valor": "25",
+            "texto": "minutos en tierra en Southwest",
+            "icono": "dinero"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Decir que no a la variedad también es una estrategia. Cada opción que agregas cuesta en entrenamiento, inventario y errores. A veces, lo más rentable es hacer una sola cosa muy bien.",
+      "imagenes": [
+        {
+          "busqueda": "Southwest Airlines Boeing 737-800",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "variedad",
+        "bien"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Hacer una sola cosa muy [[bien]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué estás haciendo de más en tu negocio? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Southwest Airlines tail",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "más",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué haces [[de más]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Southwest Airlines decidió volar solo con Boeing 737. Un solo entrenamiento, los mismos repuestos y cualquier avión podía reemplazar a otro.\n\nSus aviones pasaban unos 25 minutos en tierra entre vuelos, frente a 45-60 en la industria. Ganó dinero 45 años seguidos.\n\n¿Qué estás haciendo de más en tu negocio?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#southwest",
+    "#aerolineas",
+    "#estrategia",
+    "#emprendimiento",
+    "#historiasdenegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Un solo modelo reduce entrenamiento, inventario, repuestos y mantenimiento; cualquier avión puede sustituir a otro; unos 25 minutos en la puerta frente a 45 minutos a una hora en la industria",
+      "url": "https://boeing.mediaroom.com/2002-06-14-The-Secret-Behind-High-Profits-at-Low-Fare-Airlines?asPDF=1"
+    },
+    {
+      "afirmacion": "Southwest despegó en 1971; vuela solo Boeing 737; tarifas bajas; ganancias 45 años consecutivos",
+      "url": "https://www.netsuite.com/portal/resource/articles/business-strategy/herb-kelleher.shtml"
+    }
+  ]
+}

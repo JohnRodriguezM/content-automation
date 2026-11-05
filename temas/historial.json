@@ -128,5 +128,65 @@
       "Game Boy",
       "Gunpei Yokoi"
     ]
+  },
+  {
+    "id": "2026-11-05-southwest-un-solo-avion",
+    "tema": "Southwest Airlines voló con un solo modelo de avión y ganó dinero 45 años seguidos",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Southwest Airlines"
+    ]
+  },
+  {
+    "id": "2026-11-05-zara-producir-poco",
+    "tema": "Zara fabrica poco a propósito y vende casi todo a precio completo",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Zara",
+      "Inditex",
+      "Amancio Ortega"
+    ]
+  },
+  {
+    "id": "2026-11-05-coronel-sanders-kfc",
+    "tema": "El coronel Sanders empezó a vender su receta pasados los 65 años",
+    "pilar": "biografias",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Harland Sanders",
+      "KFC"
+    ]
+  },
+  {
+    "id": "2026-11-05-cemex-concreto-gps",
+    "tema": "Cemex puso GPS en sus camiones y bajó la entrega de concreto de tres horas a treinta minutos",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Cemex",
+      "Lorenzo Zambrano"
+    ]
+  },
+  {
+    "id": "2026-11-05-disney-oswald-mickey",
+    "tema": "Walt Disney perdió a Oswald porque no era suyo, y creó a Mickey Mouse",
+    "pilar": "biografias",
+    "narrador": "john",
+    "protagonistas": [
+      "Walt Disney",
+      "Oswald"
+    ]
+  },
+  {
+    "id": "2026-11-05-blackberry-iphone",
+    "tema": "BlackBerry pensó que la gente se cansaría de la pantalla táctil del iPhone",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "BlackBerry",
+      "Apple"
+    ]
   }
 ]
