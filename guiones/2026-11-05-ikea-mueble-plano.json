@@ -1,0 +1,221 @@
+{
+  "id": "2026-11-05-ikea-mueble-plano",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "tema": "IKEA convirtió una mesa que no cabía en un carro en su modelo de negocio",
+  "pregunta_principal": "¿Cómo se bajan costos pasándole trabajo al cliente?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "IKEA convirtió su peor problema en su modelo de negocio. Todo empezó con una mesa que no cabía en un carro.",
+      "imagenes": [
+        {
+          "busqueda": "IKEA store",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "IKEA flat pack box",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mesa",
+        "carro"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Su peor problema se volvió su [[modelo]]",
+          "icono": "bombilla"
+        }
+      ],
+      "titulo": "La mesa que no cabía en un carro"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Ingvar Kamprad fundó IKEA en Suecia en 1943, con apenas diecisiete años. Vendía por catálogo, a precios tan bajos que la gente dudaba de la calidad. Y tenía una obsesión: bajar costos.",
+      "imagenes": [
+        {
+          "busqueda": "Ingvar Kamprad",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "IKEA Museum Älmhult",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "IKEA catalogue 1950s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "1943",
+        "diecisiete",
+        "costos"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "1943",
+          "etiqueta": "nace IKEA en Suecia",
+          "icono": "edificio"
+        },
+        {
+          "tipo": "titulo",
+          "texto": "Una obsesión: bajar [[costos]]",
+          "icono": "dinero"
+        }
+      ],
+      "rotulo": "Ingvar Kamprad"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 1956, según cuenta la historia de la marca, el diseñador Gillis Lundgren no logró meter una mesa en su carro para una sesión de fotos. Le quitó las patas. Kamprad vio ahí una idea: que el mueble viajara plano y lo armara el cliente.",
+      "imagenes": [
+        {
+          "busqueda": "Gillis Lundgren",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "IKEA Museum Älmhult exhibition",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1956",
+        "patas",
+        "plano"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Una mesa que no cabía"
+            },
+            {
+              "icono": "bombilla",
+              "texto": "Le quitó las patas"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Que la arme el cliente"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Así nació el mueble plano: cajas planas, una llave pequeña y el cliente terminando el trabajo en su casa.",
+      "imagenes": [
+        {
+          "busqueda": "IKEA flat pack furniture",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Allen key hex key set",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "plano"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Así nació el mueble [[plano]]",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. A veces, la forma de bajar costos no es hacer más barato tu producto. Es pasarle una parte del trabajo al cliente, siempre que él sienta que gana algo.",
+      "imagenes": [
+        {
+          "busqueda": "IKEA warehouse self-serve",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cliente",
+        "gana"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Pasa parte del trabajo al [[cliente]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú armarías tus muebles a cambio de pagar menos? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "IKEA store exterior Sweden",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "menos",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Armarías tus muebles por [[pagar menos]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "IKEA convirtió una mesa que no cabía en un carro en su modelo de negocio.\n\nEn 1956, según la historia de la marca, a un diseñador le tocó quitarle las patas a una mesa para llevarla a una sesión de fotos. Así nació el mueble plano: el cliente termina el trabajo y paga menos.\n\n¿Tú armarías tus muebles a cambio de pagar menos?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#ikea",
+    "#emprendimiento",
+    "#costos",
+    "#estrategia",
+    "#historiasdenegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "IKEA fundada en 1943 por Ingvar Kamprad a los 17 años; catálogo desde 1951 con precios tan bajos que la gente dudaba de la calidad; en 1956 le quitaron las patas a la mesa LÖVET, origen del autoensamble y el empaque plano",
+      "url": "https://www.ikea.com/us/en/this-is-ikea/about-us/our-heritage-pubde78e100"
+    },
+    {
+      "afirmacion": "Según la leyenda, Gillis Lundgren le cortó las patas a la mesa para que cupiera en su carro rumbo a una sesión de fotos; Kamprad buscaba reducir costos y vendía muebles planos para que el cliente los armara",
+      "url": "https://www.dezeen.com/2018/01/29/five-key-furniture-designs-ikea-founder-ingvar-kamprad-launched/"
+    },
+    {
+      "afirmacion": "La mesa Lövet (1956) fue el primer mueble plano de IKEA",
+      "url": "https://www.wallpaper.com/design-interiors/ikea-leaf-table"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "2026-11-05-ray-kroc-mcdonalds",
+  "pilar": "biografias",
+  "narrador": "sebas",
+  "tema": "Ray Kroc vendía batidoras y terminó comprando McDonald's",
+  "pregunta_principal": "¿Qué pasa cuando le preguntas a un cliente por qué te compra?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "A los cincuenta y dos años, un vendedor de batidoras encontró el negocio de su vida gracias a un pedido de ocho máquinas.",
+      "imagenes": [
+        {
+          "busqueda": "Ray Kroc",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Prince Castle Multimixer",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cincuenta",
+        "ocho"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "52",
+            "texto": "años: vendedor de batidoras",
+            "icono": "reloj"
+          },
+          "despues": {
+            "valor": "7.500",
+            "texto": "locales al morir",
+            "icono": "edificio"
+          }
+        }
+      ],
+      "titulo": "El vendedor de batidoras",
+      "rotulo": "Ray Kroc"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Ray Kroc vendía batidoras para malteadas por todo Estados Unidos. En 1954, un restaurante de San Bernardino, California, le pidió ocho. Le pareció rarísimo: ¿quién necesita hacer tantas malteadas a la vez?",
+      "imagenes": [
+        {
+          "busqueda": "Multimixer milkshake machine",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "San Bernardino California",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1954",
+        "ocho"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Un pedido de 8 batidoras"
+            },
+            {
+              "icono": "pregunta",
+              "texto": "¿Para qué tantas?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Fue a verlo. Era de los hermanos Dick y Mac McDonald. Kroc no vio un restaurante: vio un sistema que se podía copiar. Se encargó de vender sus franquicias y en 1961 les compró la empresa por dos coma siete millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "McDonald's original San Bernardino museum",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "McDonald's Des Plaines museum",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "sistema",
+        "1961"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "No vio un restaurante. Vio un [[sistema]]",
+          "icono": "bombilla"
+        },
+        {
+          "tipo": "dato",
+          "valor": "$2,7M",
+          "etiqueta": "pagó por McDonald's en 1961",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Cuando murió, McDonald's tenía siete mil quinientos locales en Estados Unidos y en otros treinta y un países. Pero la historia tiene su lado oscuro: tras comprarla, abrió un McDonald's propio en la misma cuadra que el de los hermanos.",
+      "imagenes": [
+        {
+          "busqueda": "McDonald's restaurant 1960s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        },
+        {
+          "busqueda": "McDonald's sign",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "siete",
+        "oscuro"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "7.500",
+          "etiqueta": "locales al morir Kroc",
+          "icono": "edificio"
+        },
+        {
+          "tipo": "titulo",
+          "texto": "El lado [[oscuro]] de la historia",
+          "icono": "pregunta"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. Las oportunidades no siempre llegan como una idea nueva. A veces llegan como un pedido raro. Cuando algo no cuadra, pregunta por qué.",
+      "imagenes": [
+        {
+          "busqueda": "milkshake",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "pedido",
+        "por qué"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Cuando algo no cuadra, pregunta [[por qué]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú habrías ido a ver a ese cliente? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "McDonald's Store Museum Des Plaines Illinois",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "cliente",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Habrías ido a ver a ese [[cliente]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "En 1954, un restaurante de California le pidió ocho batidoras a un vendedor de 52 años. Le pareció tan raro que fue a verlo.\n\nEra el de los hermanos McDonald. En 1961, Ray Kroc les compró la empresa por 2,7 millones de dólares. La historia también tiene su lado oscuro.\n\n¿Tú habrías ido a ver a ese cliente?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#emprendimiento",
+    "#raykroc",
+    "#mcdonalds",
+    "#negocios",
+    "#franquicias",
+    "#historiasdenegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Kroc vendía batidoras Multimixer; en 1954 visitó a los hermanos McDonald en San Bernardino, que le habían comprado ocho; compró McDonald's en 1961 por 2,7 millones; al morir había 7.500 locales en EE. UU. y otros 31 países y territorios",
+      "url": "https://webcf.waybackmachine.org/web/20220402193538/https://en.wikipedia.org/wiki/Ray_Kroc"
+    },
+    {
+      "afirmacion": "Tenía 52 años en 1954; la compra por 2,7 millones; tras comprar la empresa ordenó abrir un McDonald's propio en la misma cuadra que el de los hermanos",
+      "url": "https://www.thetakeout.com/2049210/mcdonalds-ray-kroc-shady-founder/"
+    }
+  ]
+}

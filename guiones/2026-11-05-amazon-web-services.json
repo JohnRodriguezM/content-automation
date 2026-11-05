@@ -1,0 +1,209 @@
+{
+  "id": "2026-11-05-amazon-web-services",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "tema": "Amazon convirtió su propia infraestructura en el negocio de AWS",
+  "pregunta_principal": "¿Qué construiste para ti que otros te pagarían por usar?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "Cerca de la mitad de la ganancia operativa de Amazon a finales de 2024 no vino de vender productos. Vino de alquilar sus computadores.",
+      "imagenes": [
+        {
+          "busqueda": "Amazon Spheres Seattle",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Amazon Web Services logo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mitad",
+        "alquilar"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "~50%",
+          "etiqueta": "de la ganancia operativa de Amazon, fin de 2024",
+          "progreso": 0.5
+        }
+      ],
+      "titulo": "Amazon gana alquilando computadores"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Hacia el año 2000, los equipos de Amazon perdían meses construyendo cada vez su propia infraestructura: bases de datos, almacenamiento, servidores. Nadie reutilizaba nada.",
+      "imagenes": [
+        {
+          "busqueda": "server room",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "data center servers",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "meses",
+        "nada"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "reloj",
+              "texto": "Meses montando servidores"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Cada equipo desde cero"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Ordenaron todo como servicios internos. Y en 2003, en una reunión de directivos, notaron algo: eran muy buenos operando centros de datos baratos y confiables. ¿Y si se lo alquilaban a cualquier empresa?",
+      "imagenes": [
+        {
+          "busqueda": "Amazon Day 1 building Seattle",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Amazon headquarters Seattle",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2003",
+        "alquilaban"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Y si se lo [[alquilamos]] a otros?",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 2006 lanzaron su servicio de computación en la nube. En 2024, Amazon Web Services facturó más de ciento siete mil millones de dólares, con casi cuarenta mil millones de ganancia operativa.",
+      "imagenes": [
+        {
+          "busqueda": "Amazon Web Services re:Invent",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "AWS data center",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2006",
+        "ciento"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "2006",
+            "texto": "Lanzan su nube",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "$107.600M",
+            "texto": "facturó AWS en 2024",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "rotulo": "Amazon Web Services"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. Mira lo que tu empresa tuvo que aprender a hacer muy bien para funcionar. Eso que construiste para ti puede ser exactamente lo que otros necesitan comprar.",
+      "imagenes": [
+        {
+          "busqueda": "laptop code screen",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "construiste",
+        "comprar"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Lo que construiste para ti puede ser tu [[producto]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué hace tu empresa tan bien que otros te pagarían por ello? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Amazon Spheres interior",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "pagarían",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué haces tan bien que [[te pagarían]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Cerca de la mitad de la ganancia operativa de Amazon a finales de 2024 vino de AWS: alquilar su infraestructura a otras empresas.\n\nTodo empezó porque sus propios equipos perdían meses montando servidores. En 2024, AWS facturó más de 107.000 millones de dólares.\n\n¿Qué hace tu empresa tan bien que otros te pagarían por ello?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#tecnologia",
+    "#aws",
+    "#amazon",
+    "#negocios",
+    "#nube",
+    "#emprendimiento"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Hacia el 2000 los equipos de Amazon construían su propia infraestructura para cada proyecto; ordenaron todo en servicios con APIs; en un retiro de directivos en 2003 notaron que eran buenos operando centros de datos confiables y de bajo costo; EC2 se lanzó en agosto de 2006",
+      "url": "https://techcrunch.com/2016/07/02/andy-jassys-brief-history-of-the-genesis-of-aws/"
+    },
+    {
+      "afirmacion": "AWS facturó 107.600 millones en 2024 con 39.800 millones de ganancia operativa; en el cuarto trimestre de 2024 aportó 10.600 de los 21.200 millones de ganancia operativa de Amazon (cerca del 50 %)",
+      "url": "https://www.datacenterdynamics.com/en/news/amazon-2025-capex-to-reach-100bn-aws-revenue-hit-100bn-in-2024"
+    }
+  ]
+}

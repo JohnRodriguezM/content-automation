@@ -1,0 +1,208 @@
+{
+  "id": "2026-11-05-juan-valdez-marca",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "Los cafeteros colombianos inventaron a Juan Valdez para vender un origen",
+  "pregunta_principal": "¿Qué haces cuando tu producto se confunde con el de los demás?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "El café colombiano tenía un problema: afuera se confundía con el de otros países. La solución fue inventar a un hombre.",
+      "imagenes": [
+        {
+          "busqueda": "Colombian coffee plantation",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Juan Valdez Café",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "confundía",
+        "hombre"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Inventaron a un [[hombre]] para vender café",
+          "icono": "pregunta"
+        }
+      ],
+      "titulo": "El hombre que vendió un país"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Desde 1927, los caficultores colombianos están agrupados en una federación. Pero afuera, el comprador no distinguía el café cien por ciento colombiano de las mezclas con granos de otros países.",
+      "imagenes": [
+        {
+          "busqueda": "Valle de Cocora",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "coffee beans roasted",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1927",
+        "mezclas"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "1927",
+          "etiqueta": "se agrupan los caficultores",
+          "icono": "edificio"
+        },
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "pregunta",
+              "texto": "¿100% colombiano o mezcla?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 1958, la federación y la agencia DDB crearon a Juan Valdez, un caficultor que representaba a quinientos mil productores. No vendían una empresa. Vendían un origen.",
+      "imagenes": [
+        {
+          "busqueda": "Juan Valdez",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "coffee cherries harvest",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1958",
+        "origen"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "500.000",
+          "etiqueta": "productores detrás de un personaje",
+          "icono": "documentos"
+        },
+        {
+          "tipo": "titulo",
+          "texto": "No vendían una empresa. Vendían un [[origen]]"
+        }
+      ],
+      "rotulo": "Juan Valdez"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "El personaje lleva más de sesenta años en la publicidad. Y terminó dando nombre a una cadena de tiendas de café que, en 2022, tenía cerca de quinientos locales.",
+      "imagenes": [
+        {
+          "busqueda": "Juan Valdez Café store",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Juan Valdez Café Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "sesenta",
+        "quinientos"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "~500",
+          "etiqueta": "tiendas Juan Valdez en 2022",
+          "icono": "edificio"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. Si tu producto se confunde con el de los demás, no siempre necesitas otro producto. A veces necesitas una historia y una cara que expliquen de dónde viene y por qué vale más.",
+      "imagenes": [
+        {
+          "busqueda": "cup of coffee latte",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "historia",
+        "cara"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Una [[historia]] que explique tu valor",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué hace diferente a lo que tú vendes? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Juan Valdez Café logo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "diferente",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué hace [[diferente]] lo que vendes?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "El café colombiano se confundía con mezclas de otros países. En 1958, la Federación de Cafeteros y la agencia DDB crearon a Juan Valdez para representar a medio millón de productores.\n\nNo vendían una empresa. Vendían un origen. Hoy el nombre también es una cadena de unas 500 tiendas.\n\n¿Qué hace diferente a lo que tú vendes?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#juanvaldez",
+    "#cafedecolombia",
+    "#marca",
+    "#emprendimiento",
+    "#colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Juan Valdez aparece en publicidad desde 1958, creado por DDB para la Federación Nacional de Cafeteros, para distinguir el café 100% colombiano de las mezclas; cerca de 500 tiendas en 2022",
+      "url": "https://en.wikipedia.org/wiki/Juan_Valdez"
+    },
+    {
+      "afirmacion": "La FNC se creó en 1927; el personaje representaba a quinientos mil agricultores de café y fue materializado por DDB",
+      "url": "https://www.portafolio.co/opinion/analisis/97-anos-fnc-65-juan-valdez-606265"
+    }
+  ]
+}

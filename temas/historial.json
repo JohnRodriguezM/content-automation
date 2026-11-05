@@ -48,5 +48,45 @@
       "WhatsApp",
       "Facebook"
     ]
+  },
+  {
+    "id": "2026-11-05-ikea-mueble-plano",
+    "tema": "IKEA convirtió una mesa que no cabía en un carro en su modelo de negocio",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "IKEA",
+      "Ingvar Kamprad"
+    ]
+  },
+  {
+    "id": "2026-11-05-juan-valdez-marca",
+    "tema": "Los cafeteros colombianos inventaron a Juan Valdez para vender un origen",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Juan Valdez",
+      "Federación Nacional de Cafeteros"
+    ]
+  },
+  {
+    "id": "2026-11-05-ray-kroc-mcdonalds",
+    "tema": "Ray Kroc vendía batidoras y terminó comprando McDonald's",
+    "pilar": "biografias",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Ray Kroc",
+      "McDonald's"
+    ]
+  },
+  {
+    "id": "2026-11-05-amazon-web-services",
+    "tema": "Amazon convirtió su propia infraestructura en el negocio de AWS",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "Amazon",
+      "AWS"
+    ]
   }
 ]

@@ -21,7 +21,7 @@
 3. **Decisión:** qué hizo y qué estaba en juego.
 4. **Consecuencia:** qué ocurrió y por qué.
 5. **Aprendizaje:** una idea concreta y en qué situaciones sirve.
-6. **Cierre:** una pregunta sobre esa decisión, para comentarios.
+6. **Cierre:** una pregunta sobre esa decisión, invitación a comentar y a seguir la cuenta ("Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.").
 
 Duración objetivo: 45–75 s (≈ 120–190 palabras de narración).
 

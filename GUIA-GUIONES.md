@@ -32,7 +32,8 @@ Un buen tema tiene: una **decisión concreta** de una persona o empresa real, un
 
 - Escenas en orden: gancho → contexto → decisión → consecuencia → aprendizaje → cierre (puede haber 2 escenas del mismo bloque seguidas).
 - **120 a 190 palabras** de narración en total (≈45-70 s). `npm run validar` lo revisa.
-- Gancho: la primera frase tiene que funcionar sola. Cierre: una pregunta que obligue a tomar posición.
+- Gancho: la primera frase tiene que funcionar sola.
+- **Cierre (fijo):** una pregunta sobre la decisión del video, seguida de: "Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa." El `caption` termina con la misma pregunta y la línea "Síguenos: cada día contamos una decisión que cambió una empresa." Sin @ ni tarjeta final por ahora.
 
 ## Imágenes (`imagenes`, 1-3 por escena)
 
