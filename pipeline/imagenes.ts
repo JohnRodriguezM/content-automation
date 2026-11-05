@@ -19,6 +19,13 @@ const UA = "content-automation/0.1 (video pipeline; contact via GitHub JohnRodri
 const LIBRE = /^(public domain|pd|cc0|cc[- ]by(-sa)?( \d\.\d)?)/i;
 const limpiarHtml = (s = "") => s.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 
+/** Nombre de autor corto y limpio: sin "(en:User:...)", sin "Self-made image submitted by", máx. 50 caracteres. */
+const acortarAutor = (a: string) => {
+  let x = a.replace(/\([^)]*\)?/g, "").replace(/^(self-made image )?(submitted |uploaded )?by /i, "").replace(/\s+/g, " ").trim();
+  if (x.length > 50) x = x.slice(0, 50).replace(/\s+\S*$/, "") + "…";
+  return x || "Autor desconocido";
+};
+
 type Candidato = Required<Pick<Imagen, "url" | "credito" | "licencia" | "pagina">>;
 
 async function buscarCommons(q: string, usadas: Set<string>): Promise<Candidato | null> {
@@ -43,7 +50,7 @@ async function buscarCommons(q: string, usadas: Set<string>): Promise<Candidato 
     const autor = limpiarHtml(m.Artist?.value) || "Autor desconocido";
     return {
       url,
-      credito: `Foto: ${autor.slice(0, 60)} · ${lic} · Wikimedia Commons`,
+      credito: `Foto: ${acortarAutor(autor)} · ${lic} · Wikimedia Commons`,
       licencia: lic,
       pagina: ii.descriptionurl,
     };
