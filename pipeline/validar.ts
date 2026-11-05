@@ -6,6 +6,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { guionSchema } from "../src/schema";
+import { sinEtiquetas } from "../src/timing";
 
 const RAIZ = path.resolve(__dirname, "..");
 
@@ -23,7 +24,11 @@ async function main() {
     if (r?.success) {
       const g = r.data;
       if (path.basename(a, ".json") !== g.id) errores.push(`el archivo debe llamarse ${g.id}.json`);
-      const palabras = g.escenas.map((e) => e.narracion).join(" ").split(/\s+/).length;
+      const palabras = sinEtiquetas(g.escenas.map((e) => e.narracion).join(" ")).split(/\s+/).length;
+      const etiquetas = g.escenas.flatMap((e) => e.narracion.match(/\[[^\]]*\]/g) ?? []);
+      if (etiquetas.length > 10) avisos.push(`${etiquetas.length} etiquetas de voz: más de 10 suele sonar sobreactuado`);
+      const malas = etiquetas.filter((t) => !/^\[[a-z ]{2,30}\]$/.test(t));
+      if (malas.length) errores.push(`etiquetas de voz mal escritas (deben ir en inglés, minúsculas, entre corchetes): ${malas.join(" ")}`);
       if (palabras < 110 || palabras > 200) errores.push(`${palabras} palabras de narración (objetivo 120-190, ≈45-75 s)`);
       const orden = ["gancho", "contexto", "decision", "consecuencia", "aprendizaje", "cierre"];
       const bloques: string[] = [...new Set(g.escenas.map((e) => e.bloque as string))];

@@ -1,0 +1,217 @@
+{
+  "id": "2026-11-05-nubank-sin-oficinas",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "Un colombiano creó Nubank después de una mala experiencia con un banco en Brasil",
+  "pregunta_principal": "¿Qué oportunidad se esconde en lo que todos aceptan como normal?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Un colombiano fue a abrir una cuenta en un banco de Brasil. Esa mala experiencia terminó en uno de los bancos digitales más grandes del mundo.",
+      "imagenes": [
+        {
+          "busqueda": "Nubank",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "São Paulo skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "colombiano",
+        "digitales"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Una mala experiencia en un [[banco]]",
+          "icono": "pregunta"
+        }
+      ],
+      "titulo": "Un trámite que creó un banco"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "David Vélez, antioqueño, vivía en São Paulo. Abrir una cuenta fue una pesadilla, y una tarjeta podía cobrarle intereses de cuatrocientos por ciento al año. Además, más de sesenta millones de brasileños no tenían cuenta.",
+      "imagenes": [
+        {
+          "busqueda": "Avenida Paulista São Paulo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "bank branch Brazil",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "pesadilla",
+        "cuatrocientos"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "400%",
+          "etiqueta": "de interés al año en una tarjeta",
+          "icono": "dinero"
+        },
+        {
+          "tipo": "dato",
+          "valor": "60M",
+          "etiqueta": "brasileños sin cuenta bancaria",
+          "icono": "celular"
+        }
+      ],
+      "rotulo": "David Vélez"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2013 decidió crear un banco sin oficinas, todo desde el celular. Su producto estrella: una tarjeta de crédito sin cuota de manejo. [pause] Muchos le dijeron que la idea era una locura.",
+      "imagenes": [
+        {
+          "busqueda": "Nubank credit card",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Nubank app smartphone",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2013",
+        "locura"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Sin oficinas"
+            },
+            {
+              "icono": "celular",
+              "texto": "Todo desde la app"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Tarjeta sin cuota de manejo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Arrancó en 2014 con doce empleados. [excited] Hoy Nubank supera los ochenta millones de clientes.",
+      "imagenes": [
+        {
+          "busqueda": "Nubank headquarters São Paulo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "doce",
+        "ochenta"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "12",
+            "texto": "empleados en 2014",
+            "icono": "documentos"
+          },
+          "despues": {
+            "valor": "+80M",
+            "texto": "clientes hoy",
+            "icono": "celular"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. Las mejores oportunidades suelen estar en lo que todo el mundo acepta como normal, aunque le moleste. Si un trámite te desespera a ti, probablemente desespera a millones.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone payment",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "normal",
+        "millones"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Lo que todos aceptan como [[normal]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué trámite te desespera a ti? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Nubank logo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "trámite",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué trámite te [[desespera]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "David Vélez, antioqueño, tuvo una pesadilla abriendo una cuenta en un banco de São Paulo. En 2013 creó Nubank: un banco sin oficinas y una tarjeta sin cuota de manejo.\n\nMuchos le dijeron que era una locura. Arrancó con 12 empleados y hoy supera los 80 millones de clientes.\n\n¿Qué trámite te desespera a ti?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#nubank",
+    "#fintech",
+    "#emprendimiento",
+    "#colombia",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Vélez, nacido en Medellín, fundó Nubank en 2013 tras una mala experiencia al abrir una cuenta en São Paulo; una tarjeta le cobraría 400% de interés al año; más de 60 millones de brasileños sin cuenta; lanzamiento en 2014 con doce empleados; más de 84 millones de clientes",
+      "url": "https://www.valoraanalitik.com/david-velez-la-historia-del-hombre-que-cofundo-nubank/"
+    },
+    {
+      "afirmacion": "Vélez es antioqueño; fundó Nubank en São Paulo; tarjeta morada sin cuota de manejo; sin sucursales físicas; muchos le dijeron que la idea era una locura",
+      "url": "https://forbes.co/2020/11/09/editors-picks/desafiando-a-los-bancos-david-velez-podria-ser-el-proximo-magnate-colombiano/"
+    },
+    {
+      "afirmacion": "Nubank, el banco digital más grande del mundo, llega a Colombia",
+      "url": "https://www.semana.com/empresas/articulo/nubank-colombia-el-banco-digital-mas-grande-del-mundo-llega-al-pais--noticias/301707/"
+    }
+  ]
+}

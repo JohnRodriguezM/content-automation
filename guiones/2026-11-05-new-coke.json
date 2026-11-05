@@ -1,0 +1,212 @@
+{
+  "id": "2026-11-05-new-coke",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "tema": "Coca-Cola cambió su fórmula en 1985 y tuvo que devolverla 79 días después",
+  "pregunta_principal": "¿Qué no mide una prueba de sabor?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] En 1985, Coca-Cola cambió la fórmula de su bebida más famosa. [pause] Setenta y nueve días después tuvo que devolverla.",
+      "imagenes": [
+        {
+          "busqueda": "New Coke can",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "World of Coca-Cola Atlanta",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1985",
+        "setenta"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "1985",
+            "texto": "Nueva fórmula",
+            "icono": "documentos"
+          },
+          "despues": {
+            "valor": "79",
+            "texto": "días después vuelve la original",
+            "icono": "reloj"
+          }
+        }
+      ],
+      "titulo": "79 días con otra fórmula"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Llevaba quince años seguidos perdiendo ventaja frente a su principal competidor en Estados Unidos. Y las pruebas eran claras: casi doscientas mil personas preferían el sabor nuevo.",
+      "imagenes": [
+        {
+          "busqueda": "Coca-Cola bottles vintage",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Pepsi and Coca-Cola cans",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "quince",
+        "doscientas"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "15",
+          "etiqueta": "años seguidos perdiendo ventaja",
+          "icono": "grafica_baja"
+        },
+        {
+          "tipo": "dato",
+          "valor": "200.000",
+          "etiqueta": "personas en pruebas de sabor",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El 23 de abril de 1985 lanzaron la nueva fórmula y retiraron la original. En el papel, era la decisión correcta. [sighs] En la calle, fue otra historia.",
+      "imagenes": [
+        {
+          "busqueda": "New Coke",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Coca-Cola headquarters Atlanta",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "papel",
+        "calle"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "En el papel, era [[correcta]]",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Para junio, la línea de atención recibía mil quinientas llamadas al día. Hubo protestas y gente guardando cajas de la vieja. [laughs softly] Alguien le escribió al presidente de la empresa como el jefe dodo. El 11 de julio, la original volvió como Coca-Cola Classic.",
+      "imagenes": [
+        {
+          "busqueda": "Coca-Cola Classic can 1980s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        },
+        {
+          "busqueda": "rotary telephone",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mil",
+        "Classic"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "1.500",
+          "etiqueta": "llamadas al día en junio",
+          "icono": "celular"
+        },
+        {
+          "tipo": "titulo",
+          "texto": "Vuelve como [[Coca-Cola Classic]]",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [serious] Una prueba de sabor mide el sabor. No mide lo que la gente siente por tu marca. Antes de cambiar algo que tus clientes quieren, pregúntales qué perderían.",
+      "imagenes": [
+        {
+          "busqueda": "Coca-Cola glass bottle",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "siente",
+        "perderían"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Una prueba de sabor no mide el [[cariño]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú habrías cambiado la fórmula? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Coca-Cola sign vintage",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "fórmula",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Habrías cambiado la [[fórmula]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "En 1985, Coca-Cola cambió su fórmula. Casi 200.000 personas habían preferido el sabor nuevo en pruebas.\n\nAun así, la gente protestó, la línea de atención llegó a 1.500 llamadas al día y 79 días después la original volvió como Coca-Cola Classic. Una prueba de sabor no mide lo que la gente siente por una marca.\n\n¿Tú habrías cambiado la fórmula?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#cocacola",
+    "#marketing",
+    "#marca",
+    "#emprendimiento",
+    "#historiasdenegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "La ventaja frente a su principal competidor llevaba 15 años cayendo; casi 200.000 consumidores prefirieron la nueva fórmula; anuncio el 23 de abril de 1985; 1.500 llamadas al día en junio; carta al 'Chief Dodo'; regreso el 11 de julio de 1985 como Coca-Cola Classic",
+      "url": "https://www.coca-colacompany.com/about-us/history/new-coke-the-most-memorable-marketing-blunder-ever"
+    },
+    {
+      "afirmacion": "Lanzamiento el 23 de abril de 1985; casi 200.000 personas preferían la nueva fórmula; regreso el 11 de julio de 1985; '79 días'",
+      "url": "https://abc7news.com/new-coke-ii-coca-cola-classic-history-of/5266029/"
+    }
+  ]
+}

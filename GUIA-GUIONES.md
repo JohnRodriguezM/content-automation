@@ -35,6 +35,13 @@ Un buen tema tiene: una **decisión concreta** de una persona o empresa real, un
 - Gancho: la primera frase tiene que funcionar sola.
 - **Cierre (fijo):** una pregunta sobre la decisión del video, seguida de: "Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa." El `caption` termina con la misma pregunta y la línea "Síguenos: cada día contamos una decisión que cambió una empresa." Sin @ ni tarjeta final por ahora.
 
+## Etiquetas de voz (expresividad)
+
+La voz usa Eleven v3, que interpreta etiquetas entre corchetes dentro de `narracion`. No salen en los subtítulos ni cuentan como palabras.
+- En inglés, minúsculas: `[curious]`, `[thoughtful]`, `[serious]`, `[excited]`, `[sighs]`, `[laughs softly]`, `[pause]`, `[whispers]`.
+- 3 a 6 por guion. Donde cambia la emoción: curiosidad en el gancho, un suspiro antes del giro, emoción en el resultado, tono serio en la lección.
+- Nunca en el cierre fijo. Nunca dos seguidas. La risa solo cuando el hecho es de verdad irónico o gracioso.
+
 ## Imágenes (`imagenes`, 1-3 por escena)
 
 Se buscan solas en Wikimedia Commons. La búsqueda decide si la foto sale bien:

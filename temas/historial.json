@@ -88,5 +88,45 @@
       "Amazon",
       "AWS"
     ]
+  },
+  {
+    "id": "2026-11-05-new-coke",
+    "tema": "Coca-Cola cambió su fórmula en 1985 y tuvo que devolverla 79 días después",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Coca-Cola"
+    ]
+  },
+  {
+    "id": "2026-11-05-nubank-sin-oficinas",
+    "tema": "Un colombiano creó Nubank después de una mala experiencia con un banco en Brasil",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Nubank",
+      "David Vélez"
+    ]
+  },
+  {
+    "id": "2026-11-05-howard-schultz-milan",
+    "tema": "Howard Schultz trabajaba en Starbucks, sus jefes rechazaron su idea y terminó comprando la empresa",
+    "pilar": "biografias",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Howard Schultz",
+      "Starbucks"
+    ]
+  },
+  {
+    "id": "2026-11-05-game-boy-tecnologia-vieja",
+    "tema": "El Game Boy ganó con tecnología vieja: pantalla en blanco y negro y 30 horas de batería",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "Nintendo",
+      "Game Boy",
+      "Gunpei Yokoi"
+    ]
   }
 ]

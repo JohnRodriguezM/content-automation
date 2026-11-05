@@ -23,7 +23,7 @@ import { bundle } from "@remotion/bundler";
 import { renderMedia, selectComposition } from "@remotion/renderer";
 import { guionSchema, type Guion, type Timing, type VideoProps } from "../src/schema";
 import { resolverImagenes } from "./imagenes";
-import { estimarTiming, textoNarracion, timingDesdeAlineacion, type Alineacion } from "../src/timing";
+import { estimarTiming, sinEtiquetas, textoNarracion, timingDesdeAlineacion, type Alineacion } from "../src/timing";
 
 const RAIZ = path.resolve(__dirname, "..");
 try { process.loadEnvFile(path.join(RAIZ, ".env")); } catch { /* sin .env: se usan las variables del entorno */ }
@@ -74,21 +74,65 @@ async function voz(g: Guion): Promise<{ timing: Timing; audio: string | null }> 
     if (c.texto === texto) { console.log("  voz en caché (usa --rehacer-voz para regenerar)"); return { timing: c.timing, audio: rel }; }
   }
   const N = narrador.toUpperCase();
-  console.log(`  narrador: ${narrador}`);
-  const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${env(`ELEVENLABS_VOICE_ID_${N}`)}/with-timestamps`, {
-    method: "POST",
-    headers: { "xi-api-key": env(`ELEVENLABS_API_KEY_${N}`), "Content-Type": "application/json" },
-    body: JSON.stringify({
-      text: texto,
-      model_id: process.env.ELEVENLABS_MODEL || "eleven_multilingual_v2",
-      language_code: "es",
-    }),
-  });
-  if (!res.ok) throw new Error(`ElevenLabs ${res.status}: ${await res.text()}`);
-  const data = (await res.json()) as { audio_base64: string; alignment: Alineacion };
+  const voiceId = env(`ELEVENLABS_VOICE_ID_${N}`);
+  const key = env(`ELEVENLABS_API_KEY_${N}`);
+  const modelo = process.env.ELEVENLABS_MODEL || "eleven_v3";
+  const plano = sinEtiquetas(texto);
+  console.log(`  narrador: ${narrador} · modelo: ${modelo}`);
+  const api = "https://api.elevenlabs.io/v1";
+  const json = { "xi-api-key": key, "Content-Type": "application/json" };
+  // v3/v4 interpretan las etiquetas ([sighs], [laughs]...). Estabilidad 0.5 = "natural".
+  const cuerpo = (model_id: string, text: string) =>
+    JSON.stringify(model_id.startsWith("eleven_multilingual") || model_id.startsWith("eleven_turbo") || model_id.startsWith("eleven_flash")
+      ? { text, model_id, language_code: "es" }
+      : { text, model_id, voice_settings: { stability: 0.5, similarity_boost: 0.8 } });
+
+  let audio: Buffer | null = null;
+  let alineacion: Alineacion | null = null;
+
+  // 1) Modelo expresivo con timestamps
+  const r1 = await fetch(`${api}/text-to-speech/${voiceId}/with-timestamps`, { method: "POST", headers: json, body: cuerpo(modelo, texto) });
+  if (r1.ok) {
+    const d = (await r1.json()) as { audio_base64: string; alignment?: Alineacion };
+    audio = Buffer.from(d.audio_base64, "base64");
+    if (d.alignment?.characters?.length) { alineacion = d.alignment; console.log("  voz: modelo expresivo con timestamps"); }
+  } else console.warn(`  ⚠ ${modelo} con timestamps: ${r1.status} ${(await r1.text()).slice(0, 200)}`);
+
+  // 2) Modelo expresivo sin timestamps + alineación forzada sobre el texto sin etiquetas
+  if (!audio) {
+    const r2 = await fetch(`${api}/text-to-speech/${voiceId}?output_format=mp3_44100_128`, { method: "POST", headers: json, body: cuerpo(modelo, texto) });
+    if (r2.ok) audio = Buffer.from(await r2.arrayBuffer());
+    else console.warn(`  ⚠ ${modelo}: ${r2.status} ${(await r2.text()).slice(0, 200)}`);
+  }
+  if (audio && !alineacion) {
+    const form = new FormData();
+    form.append("file", new Blob([audio], { type: "audio/mpeg" }), "voz.mp3");
+    form.append("text", plano);
+    const r3 = await fetch(`${api}/forced-alignment`, { method: "POST", headers: { "xi-api-key": key }, body: form });
+    if (r3.ok) {
+      const d = (await r3.json()) as { characters: { text: string; start: number; end: number }[] };
+      alineacion = {
+        characters: d.characters.map((c) => c.text),
+        character_start_times_seconds: d.characters.map((c) => c.start),
+        character_end_times_seconds: d.characters.map((c) => c.end),
+      };
+      console.log("  voz: modelo expresivo + alineación forzada");
+    } else { console.warn(`  ⚠ alineación forzada: ${r3.status} ${(await r3.text()).slice(0, 200)}`); audio = null; }
+  }
+
+  // 3) Respaldo: modelo multilingüe sin etiquetas
+  if (!audio || !alineacion) {
+    console.warn("  ⚠ usando respaldo eleven_multilingual_v2 sin etiquetas");
+    const r4 = await fetch(`${api}/text-to-speech/${voiceId}/with-timestamps`, { method: "POST", headers: json, body: cuerpo("eleven_multilingual_v2", plano) });
+    if (!r4.ok) throw new Error(`ElevenLabs ${r4.status}: ${await r4.text()}`);
+    const d = (await r4.json()) as { audio_base64: string; alignment: Alineacion };
+    audio = Buffer.from(d.audio_base64, "base64");
+    alineacion = d.alignment;
+  }
+
   await mkdir(path.join(PUBLIC, "audio"), { recursive: true });
-  await writeFile(path.join(PUBLIC, rel), Buffer.from(data.audio_base64, "base64"));
-  const timing = timingDesdeAlineacion(g, data.alignment);
+  await writeFile(path.join(PUBLIC, rel), audio);
+  const timing = timingDesdeAlineacion(g, alineacion);
   await writeFile(cache, JSON.stringify({ texto, timing }));
   return { timing, audio: rel };
 }

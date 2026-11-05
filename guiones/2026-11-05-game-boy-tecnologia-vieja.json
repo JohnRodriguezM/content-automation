@@ -1,0 +1,207 @@
+{
+  "id": "2026-11-05-game-boy-tecnologia-vieja",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "tema": "El Game Boy ganó con tecnología vieja: pantalla en blanco y negro y 30 horas de batería",
+  "pregunta_principal": "¿La mejor tecnología es siempre la más nueva?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Una de las consolas más vendidas de la historia tenía pantalla en blanco y negro. Y no fue por falta de tecnología.",
+      "imagenes": [
+        {
+          "busqueda": "Nintendo Game Boy",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Game Boy original DMG",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "blanco",
+        "falta"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Blanco y negro, [[a propósito]]",
+          "icono": "pregunta"
+        }
+      ],
+      "titulo": "En blanco y negro, a propósito"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 1989, Nintendo preparaba el Game Boy. Una pantalla a color ya era posible, pero gastaba más batería y subía el precio.",
+      "imagenes": [
+        {
+          "busqueda": "Atari Lynx",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Sega Game Gear",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1989",
+        "batería"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "tv",
+              "texto": "Color: más batería"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Color: más precio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El ingeniero Gunpei Yokoi tenía una filosofía: usar tecnología vieja y probada, de formas nuevas. Así que eligieron una pantalla monocromática. [pause] Con cuatro pilas AA, el Game Boy aguantaba hasta treinta horas.",
+      "imagenes": [
+        {
+          "busqueda": "Gunpei Yokoi",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "AA batteries",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "vieja",
+        "treinta"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Tecnología vieja, [[ideas nuevas]]",
+          "icono": "bombilla"
+        },
+        {
+          "tipo": "dato",
+          "valor": "30 h",
+          "etiqueta": "con cuatro pilas AA",
+          "icono": "reloj"
+        }
+      ],
+      "rotulo": "Gunpei Yokoi"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Sus rivales eran más potentes, pero se comían las baterías demasiado rápido. [laughs softly] El Game Boy, más sencillo, ganó. Junto con su versión a color vendió más de ciento dieciocho millones de unidades.",
+      "imagenes": [
+        {
+          "busqueda": "Game Boy Color",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Game Boy Tetris",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "sencillo",
+        "ciento"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "118M",
+          "etiqueta": "unidades, con su versión a color",
+          "icono": "celular"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. La mejor tecnología no siempre es la más nueva. Es la que resuelve lo que más le importa a tu cliente: aquí, jugar horas sin cambiar pilas, a un precio que podía pagar.",
+      "imagenes": [
+        {
+          "busqueda": "Game Boy Pocket",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "nueva",
+        "importa"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "La mejor tecnología no siempre es la más [[nueva]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú habrías elegido el blanco y negro? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Nintendo Game Boy screen",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "blanco",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Habrías elegido el [[blanco y negro]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "En 1989, Nintendo pudo poner pantalla a color en el Game Boy. No lo hizo: gastaba más batería y subía el precio.\n\nCon tecnología vieja y probada, aguantaba hasta 30 horas con cuatro pilas AA. Sus rivales eran más potentes, pero el Game Boy y su versión a color vendieron más de 118 millones de unidades.\n\n¿Tú habrías elegido el blanco y negro?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#tecnologia",
+    "#nintendo",
+    "#gameboy",
+    "#negocios",
+    "#innovacion",
+    "#emprendimiento"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Lanzado en 1989; Gunpei Yokoi y la filosofía de 'lateral thinking with withered technology'; se rechazó el color por mayor consumo y costo; hasta 30 horas con cuatro pilas AA; Game Boy y Game Boy Color vendieron 118,69 millones",
+      "url": "https://en.wikipedia.org/wiki/Game_Boy"
+    },
+    {
+      "afirmacion": "Yokoi eligió una pantalla monocromática que gastaba menos; Atari Lynx y Sega Game Gear eran más potentes pero agotaban las baterías muy rápido; 118,69 millones de unidades",
+      "url": "https://www.timeextension.com/news/2024/04/anniversary-the-game-boy-is-35-years-old-today"
+    }
+  ]
+}

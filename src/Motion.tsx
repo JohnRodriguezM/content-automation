@@ -207,7 +207,7 @@ const Subtitulos: React.FC<{ palabras: Palabra[]; destacar: Set<string> }> = ({ 
 
 const EscenaMotion: React.FC<{ e: Escena; dur: number; idx: number }> = ({ e, dur, idx }) => {
   const acento = ACENTOS[idx % ACENTOS.length];
-  const visuales: MotionV[] = e.motion ?? [{ tipo: "titulo", texto: e.titulo ?? e.narracion.split(/[.?!]/)[0].slice(0, 60) }];
+  const visuales: MotionV[] = e.motion ?? [{ tipo: "titulo", texto: e.titulo ?? e.narracion.replace(/\[[^\]]*\]/g, "").trim().split(/[.?!]/)[0].slice(0, 60) }];
   const tramo = Math.floor(dur / visuales.length);
   return (
     <AbsoluteFill>

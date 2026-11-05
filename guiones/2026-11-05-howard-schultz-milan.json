@@ -1,0 +1,214 @@
+{
+  "id": "2026-11-05-howard-schultz-milan",
+  "pilar": "biografias",
+  "narrador": "sebas",
+  "tema": "Howard Schultz trabajaba en Starbucks, sus jefes rechazaron su idea y terminó comprando la empresa",
+  "pregunta_principal": "¿Qué haces cuando tu jefe no cree en tu idea?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[thoughtful] Howard Schultz no fundó Starbucks. Trabajaba ahí. Y sus jefes le dijeron que no a la idea que la convirtió en lo que es hoy.",
+      "imagenes": [
+        {
+          "busqueda": "Howard Schultz",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Original Starbucks Pike Place",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "fundó",
+        "no"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "1982",
+            "texto": "entra a trabajar a Starbucks",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "1987",
+            "texto": "compra Starbucks",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "titulo": "Le dijeron que no",
+      "rotulo": "Howard Schultz"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 1983 viajó a Milán y descubrió los bares de café italianos: el ritual, la conversación, el espresso. Starbucks, en cambio, vendía granos de café para preparar en casa.",
+      "imagenes": [
+        {
+          "busqueda": "Galleria Vittorio Emanuele II",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "espresso bar Italy",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "coffee beans bags",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Milán",
+        "granos"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "bombilla",
+              "texto": "Milán: el ritual del espresso"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Starbucks: granos para la casa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Probó servir espresso y los resultados fueron buenos. Pero los dueños lo vieron como una distracción. [sighs] Así que en 1985 renunció y abrió su propio café: Il Giornale.",
+      "imagenes": [
+        {
+          "busqueda": "espresso machine",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "distracción",
+        "renunció"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Para los dueños, una [[distracción]]",
+          "icono": "pregunta"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Dos años después, los dueños decidieron vender Starbucks: el nombre, la tostadora y seis tiendas en Seattle. Schultz reunió tres coma ocho millones de dólares y la compró. [excited] Su pequeño café pasó a llamarse Starbucks.",
+      "imagenes": [
+        {
+          "busqueda": "Starbucks Pike Place Market",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Seattle skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "seis",
+        "Starbucks"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$3,8M",
+          "etiqueta": "para comprar Starbucks en 1987",
+          "icono": "dinero"
+        },
+        {
+          "tipo": "dato",
+          "valor": "6",
+          "etiqueta": "tiendas en Seattle",
+          "icono": "edificio"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. Si crees en una idea y tu jefe no, no siempre tienes que rendirte ni pelear. A veces tienes que demostrarla por tu cuenta.",
+      "imagenes": [
+        {
+          "busqueda": "Starbucks coffee cup",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "demostrarla"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "A veces tienes que [[demostrarla]] tú",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú habrías renunciado para probar tu idea? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Starbucks Reserve Roastery Milan",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "renunciado",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Renunciarías para probar tu [[idea]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Howard Schultz no fundó Starbucks: trabajaba ahí. En 1983 conoció los bares de café de Milán, pero los dueños vieron el espresso como una distracción.\n\nRenunció, abrió su propio café y en 1987 reunió 3,8 millones de dólares para quedarse con Starbucks.\n\n¿Tú habrías renunciado para probar tu idea?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#emprendimiento",
+    "#starbucks",
+    "#howardschultz",
+    "#negocios",
+    "#liderazgo",
+    "#historiasdenegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Inspirado por los bares de café de Milán; experimento con espresso en 1984 con buenos resultados; los fundadores lo vieron como distracción de la venta de granos; salió en 1985 y fundó Il Giornale; en 1987 los fundadores vendieron el nombre, la tostadora y seis tiendas de Seattle; Schultz reunió 3,8 millones; Il Giornale adoptó el nombre Starbucks",
+      "url": "https://about.starbucks.com/history/il-giornale/"
+    },
+    {
+      "afirmacion": "Schultz entró a Starbucks en 1982 y viajó a Milán un año después; los fundadores veían las bebidas como distracción; Il Giornale compró Starbucks y conservó el nombre",
+      "url": "https://www.tastingtable.com/1177875/why-howard-schultz-left-starbucks-in-1985-for-another-company"
+    }
+  ]
+}
