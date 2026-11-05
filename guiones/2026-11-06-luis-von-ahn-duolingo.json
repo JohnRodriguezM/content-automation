@@ -1,0 +1,216 @@
+{
+  "id": "2026-11-06-luis-von-ahn-duolingo",
+  "pilar": "biografias",
+  "narrador": "sebas",
+  "tema": "Luis von Ahn, de Guatemala: puso a millones a trabajar gratis con reCAPTCHA y luego les enseñó idiomas gratis",
+  "pregunta_principal": "¿Puedes convertir algo que la gente ya hace en algo útil?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Cada vez que escribías esas letras torcidas para demostrar que no eras un robot, estabas trabajando para un guatemalteco.",
+      "imagenes": [
+        {
+          "busqueda": "Luis von Ahn",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "reCAPTCHA",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "robot",
+        "guatemalteco"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "No soy un [[robot]]",
+          "icono": "pregunta"
+        }
+      ],
+      "titulo": "Las letras torcidas",
+      "rotulo": "Luis von Ahn"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Luis von Ahn nació en Ciudad de Guatemala en 1978. Su mamá era médica y le regaló un computador cuando tenía ocho años. Luego se doctoró en Carnegie Mellon, donde ayudó a crear el CAPTCHA.",
+      "imagenes": [
+        {
+          "busqueda": "Guatemala City",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Carnegie Mellon University",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Guatemala",
+        "CAPTCHA"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Ciudad de Guatemala, 1978"
+            },
+            {
+              "icono": "celular",
+              "texto": "Un computador a los 8 años"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Doctorado en Carnegie Mellon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Pero vio un desperdicio: millones de personas resolviendo CAPTCHAs cada día. [pause] Con reCAPTCHA, esas palabras ayudaban a digitalizar libros. En 2009 se lo vendió a Google.",
+      "imagenes": [
+        {
+          "busqueda": "reCAPTCHA example",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "old book scanning",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "desperdicio",
+        "Google"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "Antes",
+            "texto": "esfuerzo desperdiciado",
+            "icono": "reloj"
+          },
+          "despues": {
+            "valor": "Después",
+            "texto": "libros digitalizados",
+            "icono": "documentos"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Después quiso dar acceso igual a la educación. Con su estudiante Severin Hacker creó Duolingo, una app gratis para aprender idiomas. [excited] Hoy es una de las apps de educación más usadas del mundo.",
+      "imagenes": [
+        {
+          "busqueda": "Duolingo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Severin Hacker",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "gratis",
+        "mundo"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Aprender idiomas [[gratis]]",
+          "icono": "celular"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] A veces la oportunidad no es pedirle a la gente algo nuevo, sino aprovechar mejor lo que ya está haciendo.",
+      "imagenes": [
+        {
+          "busqueda": "Duolingo app",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "oportunidad",
+        "haciendo"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Aprovecha lo que la gente [[ya hace]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué hacen tus clientes todos los días que podrías volver útil? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Duolingo logo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "útil",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué podrías volver [[útil]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Cada vez que escribías letras torcidas para demostrar que no eras un robot, trabajabas para Luis von Ahn, un guatemalteco que ayudó a crear el CAPTCHA.\n\nCon reCAPTCHA convirtió ese esfuerzo en libros digitalizados y en 2009 se lo vendió a Google. Después creó Duolingo con Severin Hacker: idiomas gratis para todos.\n\n¿Qué hacen tus clientes todos los días que podrías volver útil?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#emprendimiento",
+    "#duolingo",
+    "#guatemala",
+    "#tecnologia",
+    "#latam",
+    "#historiasdenegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Nacido en 1978 en Ciudad de Guatemala; madre médica; PhD en Carnegie Mellon; CAPTCHA con Manuel Blum; reCAPTCHA vendido a Google en 2009; Duolingo con Severin Hacker",
+      "url": "https://en.wikipedia.org/wiki/Luis_von_Ahn"
+    },
+    {
+      "afirmacion": "CAPTCHA en CMU; venta de reCAPTCHA a Google en 2009; cofundador de Duolingo con Severin Hacker",
+      "url": "https://lemelson.mit.edu/resources/luis-von-ahn"
+    },
+    {
+      "afirmacion": "Computador a los 8 años regalado por su madre médica; reCAPTCHA para digitalizar libros; quería dar acceso igual a la educación",
+      "url": "https://goodmorningamerica.com/news/story/meet-luis-von-ahn-guatemalan-immigrant-worlds-popular-93122372"
+    }
+  ]
+}

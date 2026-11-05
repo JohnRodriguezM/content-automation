@@ -1,0 +1,217 @@
+{
+  "id": "2026-11-06-dyson-5127-prototipos",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "James Dyson hizo 5.127 prototipos y nadie le compró la idea, así que fabricó él mismo",
+  "pregunta_principal": "¿Qué haces cuando la industria no quiere tu idea?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] James Dyson hizo cinco mil ciento veintisiete prototipos de una aspiradora. Él mismo dice que cinco mil ciento veintiséis fueron fracasos.",
+      "imagenes": [
+        {
+          "busqueda": "James Dyson",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Dyson DC01",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "prototipos",
+        "fracasos"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "5.127",
+          "etiqueta": "prototipos de una aspiradora",
+          "icono": "documentos"
+        }
+      ],
+      "titulo": "5.127 prototipos",
+      "rotulo": "James Dyson"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Todo empezó a finales de los setenta, con una aspiradora Hoover que perdía succión porque la bolsa se tapaba. Su idea: quitar la bolsa y usar un ciclón, como el que había visto en un aserradero.",
+      "imagenes": [
+        {
+          "busqueda": "Hoover Junior vacuum cleaner",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "cyclone dust collector",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "bolsa",
+        "ciclón"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "Bolsa",
+            "texto": "se tapa y pierde succión",
+            "icono": "grafica_baja"
+          },
+          "despues": {
+            "valor": "Ciclón",
+            "texto": "sin bolsa",
+            "icono": "bombilla"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[sighs] Los grandes fabricantes le dijeron que no: buena parte de su negocio era vender bolsas de repuesto. Así que vendió su aspiradora en Japón, se endeudó por más de un millón de dólares y en 1993 abrió su propia fábrica.",
+      "imagenes": [
+        {
+          "busqueda": "Dyson G-Force",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Dyson Malmesbury",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no",
+        "fábrica"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "pregunta",
+              "texto": "Los fabricantes dijeron que no"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Deuda de más de $1 millón"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Fábrica propia en 1993"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Su DC01 se volvió la aspiradora de venta más rápida en la historia del Reino Unido. [laughs softly] Y cuando Hoover sacó una aspiradora de ciclón, Dyson la demandó y ganó.",
+      "imagenes": [
+        {
+          "busqueda": "Dyson DC01 vacuum cleaner",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Dyson vacuum cleaner",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "DC01",
+        "ganó"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "La de venta más rápida del [[Reino Unido]]",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [serious] Si tu idea amenaza el negocio de los grandes, no esperes que te la compren. A veces tienes que fabricarla tú.",
+      "imagenes": [
+        {
+          "busqueda": "Dyson cyclone",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "grandes",
+        "tú"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "A veces tienes que [[fabricarla tú]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué idea tuya está esperando a que alguien más la apruebe? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Dyson vacuum cleaners",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "apruebe",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Esperando a que [[alguien la apruebe]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "James Dyson hizo 5.127 prototipos de una aspiradora sin bolsa. Los grandes fabricantes le dijeron que no: vivían en buena parte de vender bolsas de repuesto.\n\nSe endeudó por más de un millón de dólares, abrió su propia fábrica en 1993 y su DC01 se volvió la aspiradora de venta más rápida del Reino Unido.\n\n¿Qué idea tuya está esperando a que alguien más la apruebe?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#emprendimiento",
+    "#dyson",
+    "#innovacion",
+    "#negocios",
+    "#perseverancia",
+    "#historiasdenegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Hoover Junior que perdía succión; idea del ciclón de un aserradero; 5.127 prototipos y 5.126 fracasos; rechazo de los fabricantes; G-Force vendido en Japón; fábrica en 1993; la aspiradora de venta más rápida del Reino Unido; demanda a Hoover ganada",
+      "url": "https://en.wikipedia.org/wiki/James_Dyson"
+    },
+    {
+      "afirmacion": "5.127 prototipos; deuda de más de un millón de dólares; DC01 en 1993",
+      "url": "https://www.entrepreneur.com/business-news/james-dyson-created-his-mad-vacuum-idea-while-1m-in-debt/495139"
+    },
+    {
+      "afirmacion": "5.127 prototipos; DC01 en 1993",
+      "url": "https://gizmodo.com/praising-failure-james-dyson-talks-vacuums-5-127-proto-5790556"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "id": "2026-11-06-codigo-qr-patente-gratis",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "tema": "El código QR nació en una fábrica de autopartes y se volvió universal porque no cobraron la patente",
+  "pregunta_principal": "¿Cuándo conviene regalar lo que inventaste?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] El código QR que escaneas para ver el menú no se inventó para restaurantes. Se inventó para rastrear piezas de carros.",
+      "imagenes": [
+        {
+          "busqueda": "QR code",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "car parts factory",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "restaurantes",
+        "carros"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "El QR nació para [[carros]]",
+          "icono": "celular"
+        }
+      ],
+      "titulo": "El QR nació en una fábrica"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Denso, una empresa del grupo Toyota, necesitaba leer etiquetas de piezas más rápido. El código de barras normal guardaba unos veinte caracteres. Se quedaba corto.",
+      "imagenes": [
+        {
+          "busqueda": "Denso headquarters",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "barcode",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Denso",
+        "veinte"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "20",
+          "etiqueta": "caracteres en un código de barras",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El ingeniero Masahiro Hara encontró la idea jugando Go: un tablero de piedras blancas y negras. En 1994 nació el QR, de Quick Response, que guarda más de siete mil caracteres.",
+      "imagenes": [
+        {
+          "busqueda": "Masahiro Hara",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Go board stones",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Go",
+        "siete"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "20",
+            "texto": "caracteres en el código de barras",
+            "icono": "documentos"
+          },
+          "despues": {
+            "valor": "7.000+",
+            "texto": "caracteres en el QR",
+            "icono": "celular"
+          }
+        }
+      ],
+      "rotulo": "Masahiro Hara"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y aquí está la jugada. [pause] Denso Wave tenía la patente, pero decidió no cobrarla. Cualquiera podía usar el QR gratis. [excited] Por eso hoy está en todas partes.",
+      "imagenes": [
+        {
+          "busqueda": "QR code payment",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "QR code sign",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "gratis",
+        "todas"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Patente sí, cobro [[no]]",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Si lo que creaste vale más cuando todos lo usan, cobrarlo puede ser lo que lo detenga. A veces regalarlo es la forma de ganar.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone scanning QR code",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "todos",
+        "ganar"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "A veces regalarlo es [[ganar]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué podrías regalar para que más gente te use? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "QR code poster",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "regalar",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué podrías [[regalar]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "El código QR no se inventó para menús: lo creó Denso, del grupo Toyota, en 1994 para rastrear piezas de carros. El ingeniero Masahiro Hara se inspiró en un tablero de Go.\n\nDenso Wave tenía la patente, pero decidió no cobrarla. Por eso hoy está en todas partes.\n\n¿Qué podrías regalar para que más gente te use?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#tecnologia",
+    "#codigoqr",
+    "#innovacion",
+    "#negocios",
+    "#japon",
+    "#emprendimiento"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Masahiro Hara en Denso, filial del grupo Toyota; presentado en 1994; inspirado en el Go",
+      "url": "https://en.wikipedia.org/wiki/Masahiro_Hara"
+    },
+    {
+      "afirmacion": "Lanzado en 1994 por DENSO WAVE; significa Quick Response; uso en autopartes; la empresa mantuvo la patente sin ejercerla",
+      "url": "https://www.denso-am.eu/news/deneur20_32_qr_code_ieee_milestone"
+    },
+    {
+      "afirmacion": "Código de barras de unos 20 caracteres frente a más de 7.000 en el QR; Denso no ejerce sus derechos",
+      "url": "https://open.prodir.com/en/2021/06/bars-cars-and-go-the-story-of-the-qr-code/"
+    }
+  ]
+}

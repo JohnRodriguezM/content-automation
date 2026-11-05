@@ -188,5 +188,55 @@
       "BlackBerry",
       "Apple"
     ]
+  },
+  {
+    "id": "2026-11-06-lego-recortar-para-crecer",
+    "tema": "LEGO casi quiebra por querer hacer de todo y se salvó recortando",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "LEGO",
+      "Jørgen Vig Knudstorp"
+    ]
+  },
+  {
+    "id": "2026-11-06-dyson-5127-prototipos",
+    "tema": "James Dyson hizo 5.127 prototipos y nadie le compró la idea, así que fabricó él mismo",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Dyson",
+      "James Dyson"
+    ]
+  },
+  {
+    "id": "2026-11-06-codigo-qr-patente-gratis",
+    "tema": "El código QR nació en una fábrica de autopartes y se volvió universal porque no cobraron la patente",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "Denso",
+      "Masahiro Hara"
+    ]
+  },
+  {
+    "id": "2026-11-06-bimbo-pan-celofan",
+    "tema": "Bimbo envolvió el pan en celofán y armó su propia flota hasta volverse la panificadora más grande del mundo",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Bimbo",
+      "Lorenzo Servitje"
+    ]
+  },
+  {
+    "id": "2026-11-06-luis-von-ahn-duolingo",
+    "tema": "Luis von Ahn, de Guatemala: puso a millones a trabajar gratis con reCAPTCHA y luego les enseñó idiomas gratis",
+    "pilar": "biografias",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Luis von Ahn",
+      "Duolingo"
+    ]
   }
 ]

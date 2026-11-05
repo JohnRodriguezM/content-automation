@@ -1,0 +1,225 @@
+{
+  "id": "2026-11-06-bimbo-pan-celofan",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "tema": "Bimbo envolvió el pan en celofán y armó su propia flota hasta volverse la panificadora más grande del mundo",
+  "pregunta_principal": "¿Qué problema de tu cliente nadie está resolviendo?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] La panificadora más grande del mundo empezó en México con treinta y cuatro trabajadores y una idea muy simple: que el pan llegara fresco.",
+      "imagenes": [
+        {
+          "busqueda": "Grupo Bimbo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "sliced bread",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "grande",
+        "fresco"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "34",
+            "texto": "trabajadores en 1945",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "33",
+            "texto": "países hoy",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "titulo": "Que el pan llegara fresco"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Bimbo nació en 1945, en Ciudad de México. Lorenzo Servitje y sus socios veían un problema: la gente sentía que el pan de caja no se conservaba bien y llegaba en mal estado.",
+      "imagenes": [
+        {
+          "busqueda": "Lorenzo Servitje",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Mexico City 1940s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "1945",
+        "mal"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "1945",
+          "etiqueta": "nace Bimbo en Ciudad de México",
+          "icono": "reloj"
+        }
+      ],
+      "rotulo": "Lorenzo Servitje"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Así que cambiaron el cartón parafinado por celofán: el pan se conservaba mejor y el cliente podía verlo. [pause] Y en vez de depender de otros, armaron su propia flota de camiones para llevarlo a las tiendas.",
+      "imagenes": [
+        {
+          "busqueda": "Bimbo bread package",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Bimbo truck",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "celofán",
+        "camiones"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Pan en celofán"
+            },
+            {
+              "icono": "bombilla",
+              "texto": "El cliente lo ve"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Flota propia a las tiendas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Empezaron con diez camiones. Diez años después tenían ciento cuarenta. [excited] Hoy Bimbo está en treinta y tres países y es la panificadora más grande del mundo.",
+      "imagenes": [
+        {
+          "busqueda": "Bimbo delivery truck",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Bimbo bakery plant",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ciento",
+        "mundo"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "10",
+            "texto": "camiones al empezar",
+            "icono": "reloj"
+          },
+          "despues": {
+            "valor": "140",
+            "texto": "camiones diez años después",
+            "icono": "dinero"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] No siempre necesitas un producto nuevo. A veces basta con resolver lo que el cliente ya odia del producto de siempre, y asegurarte de que llegue bien.",
+      "imagenes": [
+        {
+          "busqueda": "bread loaf",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "odia",
+        "llegue"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Resuelve lo que el cliente ya [[odia]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué le molesta a tu cliente que nadie está resolviendo? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Bimbo bread",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "molesta",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué le [[molesta]] a tu cliente?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Bimbo nació en 1945 en Ciudad de México con 34 trabajadores. La gente sentía que el pan de caja llegaba en mal estado, así que lo envolvieron en celofán y armaron su propia flota de camiones.\n\nEmpezaron con 10 camiones; diez años después tenían 140. Hoy están en 33 países y son la panificadora más grande del mundo.\n\n¿Qué le molesta a tu cliente que nadie está resolviendo?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#bimbo",
+    "#mexico",
+    "#emprendimiento",
+    "#latam",
+    "#historiasdenegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "El público consideraba que el pan de caja no se conservaba bien y llegaba en mal estado; reemplazaron el cartón parafinado por celofán; 34 trabajadores y 10 camiones; en 1955, 700 trabajadores y 140 camiones; panificadora más grande del mundo en 33 países",
+      "url": "https://ekosnegocios.com/articulo/bimbo-la-historia-de-la-panificadora-1-en-el-mundo-que-revoluciono-la-industria-en-america"
+    },
+    {
+      "afirmacion": "Fundada el 2 de diciembre de 1945 en Ciudad de México con 34 personas; flota de vehículos para distribuir; presencia en 33 países; panificadora más grande del mundo",
+      "url": "https://elceo.com/negocios/cual-es-la-historia-de-bimbo-asi-nacio-la-empresa-del-osito/"
+    },
+    {
+      "afirmacion": "Panificación Bimbo inició operaciones el 2 de diciembre de 1945; fundadores Lorenzo Servitje y socios; pan fresco para cada hogar de México",
+      "url": "https://grupobimbo.com/en/about-us/history/1945-1950/story-starts-here"
+    }
+  ]
+}

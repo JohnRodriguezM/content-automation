@@ -1,0 +1,217 @@
+{
+  "id": "2026-11-06-lego-recortar-para-crecer",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "LEGO casi quiebra por querer hacer de todo y se salvó recortando",
+  "pregunta_principal": "¿Qué deberías dejar de hacer para crecer?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] En 2004, LEGO perdió más de trescientos millones de dólares. La empresa de juguetes más querida del mundo se estaba hundiendo.",
+      "imagenes": [
+        {
+          "busqueda": "Lego bricks",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Legoland Billund",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "trescientos",
+        "hundiendo"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "-$300M",
+          "etiqueta": "pérdida de LEGO en 2004",
+          "icono": "grafica_baja"
+        }
+      ],
+      "titulo": "LEGO casi quiebra"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "¿El problema? Quiso ser todo: parques, videojuegos, ropa, series. Y descuidó lo que mejor hacía: el ladrillo.",
+      "imagenes": [
+        {
+          "busqueda": "Legoland Windsor",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Lego brick 2x4",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "todo",
+        "ladrillo"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Parques"
+            },
+            {
+              "icono": "tv",
+              "texto": "Videojuegos y series"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Ropa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Entonces llegó Jørgen Vig Knudstorp, un exconsultor de McKinsey de treinta y seis años, el primer jefe de fuera de la familia fundadora. [pause] Y recortó. Cerró fábricas, eliminó empleos y en 2005 vendió los parques Legoland.",
+      "imagenes": [
+        {
+          "busqueda": "Jørgen Vig Knudstorp",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Legoland Deutschland",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "recortó",
+        "parques"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Hizo lo que nadie quería: [[recortar]]",
+          "icono": "documentos"
+        }
+      ],
+      "rotulo": "Jørgen Vig Knudstorp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Ese mismo año, LEGO volvió a ganar dinero. [excited] Y diez años después ya vendía más que Mattel, el fabricante de Barbie.",
+      "imagenes": [
+        {
+          "busqueda": "Lego store",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Lego House Billund",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ganar",
+        "Mattel"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "2004",
+            "texto": "pérdidas récord",
+            "icono": "grafica_baja"
+          },
+          "despues": {
+            "valor": "2015",
+            "texto": "vende más que Mattel",
+            "icono": "dinero"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Crecer en todas las direcciones puede ser la forma más rápida de desaparecer. A veces, para crecer, primero hay que recortar.",
+      "imagenes": [
+        {
+          "busqueda": "Lego minifigures",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "desaparecer",
+        "recortar"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Para crecer, primero [[recorta]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué deberías dejar de hacer en tu negocio? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Lego bricks pile",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "dejar",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué deberías [[dejar de hacer]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "En 2004, LEGO perdió más de 300 millones de dólares. Había querido ser todo: parques, videojuegos, ropa, series.\n\nJørgen Vig Knudstorp, el primer jefe de fuera de la familia, recortó: cerró fábricas y vendió los parques Legoland. En 2005 volvió a ganar dinero y en 2015 ya vendía más que Mattel.\n\n¿Qué deberías dejar de hacer en tu negocio?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#lego",
+    "#estrategia",
+    "#emprendimiento",
+    "#liderazgo",
+    "#historiasdenegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Pérdida de más de USD 300 millones en 2004; Knudstorp, exconsultor de McKinsey, primer líder de fuera de la familia; venta de los parques; regreso a utilidades",
+      "url": "https://money.cnn.com/magazines/fortune/fortune_archive/2006/06/12/8379252/index.htm"
+    },
+    {
+      "afirmacion": "Knudstorp CEO en 2004 con 36 años, primer externo; recortes; parques vendidos",
+      "url": "https://www.irishtimes.com/business/another-brick-in-the-wall-1.643471"
+    },
+    {
+      "afirmacion": "Venta de los cuatro parques Legoland en 2005; utilidad en 2005; en 2015 superó a Mattel en ingresos",
+      "url": "https://www.wikiwand.com/en/articles/LEGO_GROUP"
+    }
+  ]
+}
