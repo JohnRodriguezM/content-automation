@@ -78,16 +78,24 @@
       "narracion": "Ordenaron todo como servicios internos. Y en 2003, en una reunión de directivos, notaron algo: eran muy buenos operando centros de datos baratos y confiables. ¿Y si se lo alquilaban a cualquier empresa?",
       "imagenes": [
         {
-          "busqueda": "Amazon Day 1 building Seattle",
+          "busqueda": "Day 1 Tower Seattle WA Jan 17",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Day_1_Tower_Seattle_WA_Jan_17.jpg?width=1600",
+          "credito": "Foto: Adamajreynolds · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Day_1_Tower_Seattle_WA_Jan_17.jpg"
         },
         {
-          "busqueda": "Amazon headquarters Seattle",
+          "busqueda": "Amazon Spheres 2018",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Amazon_Spheres_2018.jpg?width=1600",
+          "credito": "Foto: Andy Li · CC0 · Wikimedia Commons",
+          "licencia": "CC0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Amazon_Spheres_2018.jpg"
         }
       ],
       "destacar": [
@@ -107,16 +115,24 @@
       "narracion": "En 2006 lanzaron su servicio de computación en la nube. En 2024, Amazon Web Services facturó más de ciento siete mil millones de dólares, con casi cuarenta mil millones de ganancia operativa.",
       "imagenes": [
         {
-          "busqueda": "Amazon Web Services re:Invent",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "AWS data center",
+          "busqueda": "AWS servers in Ashburn, group 1, 2020-10-09 4",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AWS_servers_in_Ashburn,_group_1,_2020-10-09_4.jpg?width=1600",
+          "credito": "Foto: Vahurzpu · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:AWS_servers_in_Ashburn,_group_1,_2020-10-09_4.jpg"
+        },
+        {
+          "busqueda": "BalticServers data center",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BalticServers_data_center.jpg?width=1600",
+          "credito": "Foto: BalticServers.com · CC BY-SA 3.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 3.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg"
         }
       ],
       "destacar": [

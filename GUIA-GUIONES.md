@@ -40,6 +40,7 @@ Un buen tema tiene: una **decisión concreta** de una persona o empresa real, un
 Se buscan solas en Wikimedia Commons. La búsqueda decide si la foto sale bien:
 - **Específica y en inglés:** nombre de la persona, edificio, producto o lugar real ("Steve Jobs 2007", "Blockbuster store", "Avianca Boeing 787"). Commons tiene muy buen material de empresas, sedes, productos y fundadores.
 - **Cuidado con nombres que son palabras comunes:** "Mercado Pago" trajo un mercado de abastos en Cádiz. Para marcas así, busca algo inequívoco ("MercadoLibre logo", "Mercadolibre edificio") o fija la imagen con `url` (formato `https://commons.wikimedia.org/wiki/Special:FilePath/<Archivo>?width=1600`) más `credito`, `licencia` y `pagina`.
+- **"Amazon" a secas trae loros y la selva:** para empresas cuyo nombre es también un animal, lugar o palabra común, fija la imagen.
 - **Nunca búsquedas de una persona + otra palabra** ("Sara Blakely Spanx" trajo la foto de otra mujer): busca solo el nombre.
 - **Nunca b-roll genérico de apps** ("messaging app" trajo el logo de Threema, competidor de WhatsApp): usa la app real o un objeto.
 - **Nunca búsquedas genéricas de personas** ("businessmen meeting", "office 1970s"): devuelven gente real identificable que no tiene nada que ver (pasó con Gerald Ford).
