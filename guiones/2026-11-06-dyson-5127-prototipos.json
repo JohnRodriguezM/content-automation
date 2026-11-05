@@ -79,12 +79,6 @@
       "narracion": "[sighs] Los grandes fabricantes le dijeron que no: buena parte de su negocio era vender bolsas de repuesto. Así que vendió su aspiradora en Japón, se endeudó por más de un millón de dólares y en 1993 abrió su propia fábrica.",
       "imagenes": [
         {
-          "busqueda": "Dyson G-Force",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "Dyson Malmesbury",
           "fuente": "commons",
           "modo": "completa",
@@ -121,12 +115,6 @@
       "imagenes": [
         {
           "busqueda": "Dyson DC01 vacuum cleaner",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Dyson vacuum cleaner",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"

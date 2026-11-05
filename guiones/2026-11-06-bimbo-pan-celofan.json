@@ -14,12 +14,6 @@
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "sliced bread",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -48,12 +42,6 @@
       "narracion": "Bimbo nació en 1945, en Ciudad de México. Lorenzo Servitje y sus socios veían un problema: la gente sentía que el pan de caja no se conservaba bien y llegaba en mal estado.",
       "imagenes": [
         {
-          "busqueda": "Lorenzo Servitje",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "Mexico City 1940s",
           "fuente": "commons",
           "modo": "relleno",
@@ -71,8 +59,7 @@
           "etiqueta": "nace Bimbo en Ciudad de México",
           "icono": "reloj"
         }
-      ],
-      "rotulo": "Lorenzo Servitje"
+      ]
     },
     {
       "bloque": "decision",
@@ -124,12 +111,6 @@
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Bimbo bakery plant",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -157,10 +138,14 @@
       "narracion": "La lección es esta. [thoughtful] No siempre necesitas un producto nuevo. A veces basta con resolver lo que el cliente ya odia del producto de siempre, y asegurarte de que llegue bien.",
       "imagenes": [
         {
-          "busqueda": "bread loaf",
+          "busqueda": "Fresh made bread 05",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fresh_made_bread_05.jpg?width=1600",
+          "credito": "Foto: FranHogan · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Fresh_made_bread_05.jpg"
         }
       ],
       "destacar": [

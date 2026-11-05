@@ -119,16 +119,14 @@
       "narracion": "Después quiso dar acceso igual a la educación. Con su estudiante Severin Hacker creó Duolingo, una app gratis para aprender idiomas. [excited] Hoy es una de las apps de educación más usadas del mundo.",
       "imagenes": [
         {
-          "busqueda": "Duolingo",
+          "busqueda": "Homepage of DUOLINGO Website magnified on logo with magnifying glass (53147449323)",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Severin Hacker",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Homepage_of_DUOLINGO_Website_magnified_on_logo_with_magnifying_glass_(53147449323).jpg?width=1600",
+          "credito": "Foto: Jernej Furman · CC BY 2.0 · Wikimedia Commons",
+          "licencia": "CC BY 2.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Homepage_of_DUOLINGO_Website_magnified_on_logo_with_magnifying_glass_(53147449323).jpg"
         }
       ],
       "destacar": [
@@ -148,10 +146,14 @@
       "narracion": "La lección es esta. [thoughtful] A veces la oportunidad no es pedirle a la gente algo nuevo, sino aprovechar mejor lo que ya está haciendo.",
       "imagenes": [
         {
-          "busqueda": "Duolingo app",
+          "busqueda": "7LuisVonAhn MGB",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/7LuisVonAhn_MGB.JPG?width=1600",
+          "credito": "Foto: Mayita · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:7LuisVonAhn_MGB.JPG"
         }
       ],
       "destacar": [
@@ -171,10 +173,14 @@
       "narracion": "¿Qué hacen tus clientes todos los días que podrías volver útil? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "Duolingo logo",
+          "busqueda": "Wikimania 2015 - Luis von Ahn - 1",
           "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wikimania_2015_-_Luis_von_Ahn_-_1.JPG?width=1600",
+          "credito": "Foto: Jarek Tuszyński · CC BY 4.0 · Wikimedia Commons",
+          "licencia": "CC BY 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Wikimania_2015_-_Luis_von_Ahn_-_1.JPG"
         }
       ],
       "destacar": [

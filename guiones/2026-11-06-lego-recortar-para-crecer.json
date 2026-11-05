@@ -14,12 +14,6 @@
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Legoland Billund",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -42,12 +36,6 @@
       "imagenes": [
         {
           "busqueda": "Legoland Windsor",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Lego brick 2x4",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
@@ -82,12 +70,6 @@
       "narracion": "Entonces llegó Jørgen Vig Knudstorp, un exconsultor de McKinsey de treinta y seis años, el primer jefe de fuera de la familia fundadora. [pause] Y recortó. Cerró fábricas, eliminó empleos y en 2005 vendió los parques Legoland.",
       "imagenes": [
         {
-          "busqueda": "Jørgen Vig Knudstorp",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "Legoland Deutschland",
           "fuente": "commons",
           "modo": "completa",
@@ -104,8 +86,7 @@
           "texto": "Hizo lo que nadie quería: [[recortar]]",
           "icono": "documentos"
         }
-      ],
-      "rotulo": "Jørgen Vig Knudstorp"
+      ]
     },
     {
       "bloque": "consecuencia",
@@ -113,12 +94,6 @@
       "imagenes": [
         {
           "busqueda": "Lego store",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Lego House Billund",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
@@ -149,10 +124,14 @@
       "narracion": "La lección es esta. [thoughtful] Crecer en todas las direcciones puede ser la forma más rápida de desaparecer. A veces, para crecer, primero hay que recortar.",
       "imagenes": [
         {
-          "busqueda": "Lego minifigures",
+          "busqueda": "Legoland Billund, 1977 (06)",
           "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Legoland_Billund,_1977_(06).jpg?width=1600",
+          "credito": "Foto: Bahnfrend · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Legoland_Billund,_1977_(06).jpg"
         }
       ],
       "destacar": [
@@ -172,10 +151,14 @@
       "narracion": "¿Qué deberías dejar de hacer en tu negocio? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "Lego bricks pile",
+          "busqueda": "Lego 2x4 brick",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lego_2x4_brick.jpg?width=1600",
+          "credito": "Foto: Ziongarage · CC0 · Wikimedia Commons",
+          "licencia": "CC0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Lego_2x4_brick.jpg"
         }
       ],
       "destacar": [
