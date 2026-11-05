@@ -14,12 +14,6 @@
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Research In Motion headquarters Waterloo",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -48,16 +42,14 @@
       "narracion": "BlackBerry apostaba por el teclado físico, la batería y la seguridad. Y entonces Apple presentó el iPhone.",
       "imagenes": [
         {
-          "busqueda": "BlackBerry Curve keyboard",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "original iPhone 2007",
+          "busqueda": "BlackBerry Bold 9790",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BlackBerry_Bold_9790.jpg?width=1600",
+          "credito": "Foto: Infev · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:BlackBerry_Bold_9790.jpg"
         }
       ],
       "destacar": [
@@ -122,12 +114,6 @@
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "BlackBerry smartphone old",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -148,10 +134,14 @@
       "narracion": "La lección es esta. Lo que tus clientes valoran hoy no es lo que van a valorar siempre. Cuando un competidor cambia la forma de usar el producto, tus fortalezas pueden volverse irrelevantes.",
       "imagenes": [
         {
-          "busqueda": "smartphone touchscreen",
+          "busqueda": "First iPhone Macworld 2007 DSCF1286.agr",
           "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/First_iPhone_Macworld_2007_DSCF1286.agr.jpg?width=1600",
+          "credito": "Foto: ArnoldReinhold · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:First_iPhone_Macworld_2007_DSCF1286.agr.jpg"
         }
       ],
       "destacar": [
@@ -171,10 +161,14 @@
       "narracion": "¿Qué fortaleza de tu negocio podría dejar de importar? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "BlackBerry logo",
+          "busqueda": "RIM hq",
           "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
+          "modo": "completa",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RIM_hq.jpg?width=1600",
+          "credito": "Foto: Flickr user 'gloom' · CC BY-SA 2.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 2.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:RIM_hq.jpg"
         }
       ],
       "destacar": [

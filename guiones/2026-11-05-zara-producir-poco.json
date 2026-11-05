@@ -10,16 +10,14 @@
       "narracion": "[curious] Zara fabrica poco a propósito. Y esa escasez es parte de por qué vende tanto.",
       "imagenes": [
         {
-          "busqueda": "Zara store",
+          "busqueda": "Zara (Princesa 58, Madrid) 01",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Zara shop window",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zara_(Princesa_58,_Madrid)_01.jpg?width=1600",
+          "credito": "Foto: Luis García · CC BY-SA 3.0 es · Wikimedia Commons",
+          "licencia": "CC BY-SA 3.0 es",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Zara_(Princesa_58,_Madrid)_01.jpg"
         }
       ],
       "destacar": [
@@ -44,12 +42,6 @@
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Inditex Arteixo headquarters",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -70,13 +62,13 @@
       "narracion": "Zara hizo lo contrario. Solo fabrica por adelantado entre el quince y el veinticinco por ciento de la temporada. El resto lo diseña sobre la marcha, en pequeños lotes, y lo lleva de la idea a la tienda en unas dos o tres semanas.",
       "imagenes": [
         {
-          "busqueda": "clothing factory sewing",
+          "busqueda": "industrial sewing machine",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
         },
         {
-          "busqueda": "Zara clothing rack",
+          "busqueda": "clothes hanging on rack",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
@@ -110,12 +102,6 @@
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Zara store Madrid",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -143,7 +129,7 @@
       "narracion": "La lección es esta. Si te cuesta adivinar qué quiere tu cliente, no adivines tanto. Produce poco, mira qué se vende y reacciona rápido.",
       "imagenes": [
         {
-          "busqueda": "clothing store shopping",
+          "busqueda": "clothes on hangers",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
@@ -166,10 +152,14 @@
       "narracion": "¿Tú produces por adelantado o según lo que vendes? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "Zara logo store front",
+          "busqueda": "ZARA window, Aug 2019, Padua",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ZARA_window,_Aug_2019,_Padua.jpg?width=1600",
+          "credito": "Foto: Armin Kleiner · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:ZARA_window,_Aug_2019,_Padua.jpg"
         }
       ],
       "destacar": [

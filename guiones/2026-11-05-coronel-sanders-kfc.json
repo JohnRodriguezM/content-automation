@@ -10,16 +10,24 @@
       "narracion": "[thoughtful] Con más de sesenta y cinco años y un cheque de la seguridad social de ciento cinco dólares, un hombre salió a vender una receta de pollo.",
       "imagenes": [
         {
-          "busqueda": "Harland Sanders",
+          "busqueda": "Colonel Sanders in Tehran, 1970s - 02",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Colonel_Sanders_in_Tehran,_1970s_-_02.jpg?width=1600",
+          "credito": "Foto: Unclear, likely Kabooky Fried Chicken · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Colonel_Sanders_in_Tehran,_1970s_-_02.jpg"
         },
         {
-          "busqueda": "Harland Sanders Café Corbin",
+          "busqueda": "Harland Sanders Cafe in Corbin, Kentucky (25552587963)",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Harland_Sanders_Cafe_in_Corbin,_Kentucky_(25552587963).png?width=1600",
+          "credito": "Foto: Ka!zen · CC BY-SA 2.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 2.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Harland_Sanders_Cafe_in_Corbin,_Kentucky_(25552587963).png"
         }
       ],
       "destacar": [
@@ -53,12 +61,6 @@
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "US highway 1950s",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "bn"
         }
       ],
       "destacar": [
@@ -81,12 +83,6 @@
           "busqueda": "pressure cooker",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Harland Sanders 1970s",
-          "fuente": "commons",
-          "modo": "relleno",
           "filtro": "ninguno"
         }
       ],
@@ -118,12 +114,6 @@
       "bloque": "consecuencia",
       "narracion": "En menos de diez años ya había vendido mil ochocientas franquicias. [excited] En 1964 vendió la empresa por dos millones de dólares y siguió siendo la cara de la marca.",
       "imagenes": [
-        {
-          "busqueda": "Kentucky Fried Chicken restaurant 1960s",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "sepia"
-        },
         {
           "busqueda": "KFC restaurant",
           "fuente": "commons",

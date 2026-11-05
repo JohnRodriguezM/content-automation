@@ -48,12 +48,6 @@
       "narracion": "Southwest despegó en 1971 con una idea: tarifas bajas. El problema es que un avión solo gana dinero cuando está volando.",
       "imagenes": [
         {
-          "busqueda": "Southwest Airlines 1970s",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "sepia"
-        },
-        {
           "busqueda": "Southwest Airlines Boeing 737-200",
           "fuente": "commons",
           "modo": "completa",

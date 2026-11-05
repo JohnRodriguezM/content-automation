@@ -10,16 +10,14 @@
       "narracion": "[curious] Una cementera mexicana empezó a entregar concreto como si fuera una pizza. Y pasó de tardar tres horas a tardar media hora.",
       "imagenes": [
         {
-          "busqueda": "Cemex concrete mixer truck",
+          "busqueda": "CEMEX cement mixer",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Cemex",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CEMEX_cement_mixer.jpg?width=1600",
+          "credito": "Foto: Eric Polk · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:CEMEX_cement_mixer.jpg"
         }
       ],
       "destacar": [
@@ -52,12 +50,6 @@
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Mexico City traffic Periférico",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -76,12 +68,6 @@
       "bloque": "decision",
       "narracion": "Bajo la dirección de Lorenzo Zambrano, decidió tratar sus camiones como una red. Les puso computadores y GPS para saber dónde estaba cada uno y coordinar las entregas en tiempo real.",
       "imagenes": [
-        {
-          "busqueda": "Lorenzo Zambrano",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
         {
           "busqueda": "concrete mixer truck",
           "fuente": "commons",
@@ -111,8 +97,7 @@
             }
           ]
         }
-      ],
-      "rotulo": "Lorenzo Zambrano"
+      ]
     },
     {
       "bloque": "consecuencia",
@@ -120,12 +105,6 @@
       "imagenes": [
         {
           "busqueda": "Cemex cement plant",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Cemex headquarters Monterrey",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
@@ -156,10 +135,14 @@
       "narracion": "La lección es esta. A veces tu producto no se puede mejorar mucho. El concreto es concreto. [laughs softly] Pero la forma de entregarlo sí, y ahí puede estar tu ventaja.",
       "imagenes": [
         {
-          "busqueda": "ready-mix concrete pouring",
+          "busqueda": "88a082 Holloway Ready-Mix plant and Riverway Louisville Terminal on River Road (9767258394)",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/88a082_Holloway_Ready-Mix_plant_and_Riverway_Louisville_Terminal_on_River_Road_(9767258394).jpg?width=1600",
+          "credito": "Foto: William Alden · CC BY-SA 2.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 2.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:88a082_Holloway_Ready-Mix_plant_and_Riverway_Louisville_Terminal_on_River_Road_(9767258394).jpg"
         }
       ],
       "destacar": [
@@ -179,9 +162,9 @@
       "narracion": "¿En qué parte de tu negocio, que no es el producto, podrías ser el mejor? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "Cemex logo",
+          "busqueda": "cement mixer truck",
           "fuente": "commons",
-          "modo": "relleno",
+          "modo": "completa",
           "filtro": "ninguno"
         }
       ],
