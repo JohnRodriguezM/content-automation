@@ -4,6 +4,49 @@
     "tema": "Kodak inventó la cámara digital y aun así quebró",
     "pilar": "negocios",
     "narrador": "sebas",
-    "protagonistas": ["Kodak", "Steven Sasson"]
+    "protagonistas": [
+      "Kodak",
+      "Steven Sasson"
+    ]
+  },
+  {
+    "id": "2026-11-05-blockbuster-netflix",
+    "tema": "Blockbuster pudo comprar Netflix por 50 millones de dólares y dijo que no",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Blockbuster",
+      "Netflix"
+    ]
+  },
+  {
+    "id": "2026-11-05-mercado-pago-confianza",
+    "tema": "Mercado Pago nació para resolver la desconfianza de pagarle a un desconocido",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Mercado Libre",
+      "Mercado Pago"
+    ]
+  },
+  {
+    "id": "2026-11-05-sara-blakely-spanx",
+    "tema": "Sara Blakely creó Spanx con 5.000 dólares y escribió ella misma su patente",
+    "pilar": "biografias",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Sara Blakely",
+      "Spanx"
+    ]
+  },
+  {
+    "id": "2026-11-05-whatsapp-55-empleados",
+    "tema": "Facebook pagó 19.000 millones por WhatsApp, una empresa de 55 personas",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "WhatsApp",
+      "Facebook"
+    ]
   }
 ]

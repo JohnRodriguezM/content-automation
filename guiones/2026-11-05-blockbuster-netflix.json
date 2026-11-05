@@ -1,0 +1,227 @@
+{
+  "id": "2026-11-05-blockbuster-netflix",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "tema": "Blockbuster pudo comprar Netflix por 50 millones de dólares y dijo que no",
+  "pregunta_principal": "¿Por qué un gigante rechaza al competidor que lo va a reemplazar?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "En el año 2000, Netflix se ofreció en venta por cincuenta millones de dólares. El comprador dijo que no. Era Blockbuster.",
+      "imagenes": [
+        {
+          "busqueda": "Blockbuster Video store",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Netflix DVD envelope",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2000",
+        "Blockbuster"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$50M",
+            "texto": "Netflix se ofrece en venta",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "No",
+            "texto": "Blockbuster no la compra",
+            "icono": "pregunta"
+          }
+        }
+      ],
+      "titulo": "Blockbuster dijo que no"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Blockbuster llegó a tener nueve mil tiendas y seis mil millones de dólares en ventas al año. Netflix era un pequeño servicio que enviaba DVD por correo.",
+      "imagenes": [
+        {
+          "busqueda": "Blockbuster store",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "VHS tapes rental shelf",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Netflix DVD mail",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "nueve",
+        "correo"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "9.000",
+          "etiqueta": "tiendas de Blockbuster en su mejor momento",
+          "icono": "edificio"
+        },
+        {
+          "tipo": "titulo",
+          "texto": "Netflix: DVD por [[correo]]",
+          "icono": "tv"
+        }
+      ],
+      "rotulo": "Blockbuster"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Los fundadores de Netflix se reunieron con la gente de Blockbuster. Para su director, aquello era un negocio de nicho muy pequeño. Y la conversación terminó ahí.",
+      "imagenes": [
+        {
+          "busqueda": "Reed Hastings",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Blockbuster Video sign",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "nicho"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Un negocio de [[nicho]]?",
+          "icono": "pregunta"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y aquí está el detalle. Ese mismo año, Blockbuster cobró ochocientos millones de dólares en multas por entregas tardías. Ganaba dinero justo con lo que más molestaba a sus clientes. En 2010 se declaró en bancarrota.",
+      "imagenes": [
+        {
+          "busqueda": "Blockbuster closing store",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "bn"
+        },
+        {
+          "busqueda": "last Blockbuster store Bend Oregon",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ochocientos",
+        "molestaba",
+        "2010"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$800M",
+          "etiqueta": "en multas por retraso en el año 2000",
+          "icono": "dinero"
+        },
+        {
+          "tipo": "titulo",
+          "texto": "Bancarrota en [[2010]]",
+          "icono": "grafica_baja"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. Si una parte importante de tus ingresos sale de una molestia del cliente, no es una fortaleza. Es la puerta por la que va a entrar tu competencia. Pregúntate cuál es la tuya.",
+      "imagenes": [
+        {
+          "busqueda": "DVD discs",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "streaming television remote",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "molestia",
+        "puerta"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Tu ingreso más cómodo puede ser tu [[punto débil]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú habrías comprado Netflix por cincuenta millones?",
+      "imagenes": [
+        {
+          "busqueda": "Blockbuster Video logo storefront",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "Netflix"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Habrías comprado [[Netflix]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "En el año 2000, Netflix se ofreció en venta por 50 millones de dólares. Blockbuster dijo que no.\n\nEse mismo año, Blockbuster cobró 800 millones en multas por retraso: ganaba dinero justo con lo que más molestaba a sus clientes. En 2010 se declaró en bancarrota.\n\n¿Tú habrías comprado Netflix?",
+  "hashtags": [
+    "#negocios",
+    "#netflix",
+    "#blockbuster",
+    "#emprendimiento",
+    "#estrategia",
+    "#historiasdenegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "En 2000 Blockbuster rechazó comprar Netflix por 50 millones de dólares (verificado: cierto)",
+      "url": "https://newsweek.com/fact-check-did-blockbuster-turn-downchance-buy-netflix-50-million-1575557"
+    },
+    {
+      "afirmacion": "El director de Blockbuster lo vio como un negocio de nicho muy pequeño; Netflix era un servicio de DVD por correo",
+      "url": "https://www.businessinsider.in/Blockbusters-CEO-once-passed-up-a-chance-to-buy-Netflix-for-only-50-million/articleshow/48119293.cms"
+    },
+    {
+      "afirmacion": "Blockbuster: 9.000 tiendas y 6.000 millones de ingresos anuales en su apogeo; 800 millones en multas por retraso en 2000; bancarrota en 2010",
+      "url": "https://www.nbcsandiego.com/news/business/money-report/netflix-didnt-kill-blockbuster-how-netflix-almost-lost-the-movie-rental-wars/2493680/?amp=1"
+    }
+  ]
+}

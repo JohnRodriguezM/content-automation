@@ -1,0 +1,234 @@
+{
+  "id": "2026-11-05-mercado-pago-confianza",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "Mercado Pago nació para resolver la desconfianza de pagarle a un desconocido",
+  "pregunta_principal": "¿Cómo se convierte un miedo del cliente en un negocio?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "Mercado Pago no nació como un banco. Nació para resolver un solo problema: nadie confiaba en pagarle a un desconocido por internet.",
+      "imagenes": [
+        {
+          "busqueda": "Mercado Pago",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Mercado Libre office",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "desconocido"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Nadie confiaba en pagarle a un [[desconocido]]",
+          "icono": "pregunta"
+        }
+      ],
+      "titulo": "El miedo que se volvió negocio"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Mercado Libre arrancó en 1999 en Buenos Aires, inspirado en eBay. Tenía compradores y vendedores. Pero comprar era un acto de fe: pagabas y esperabas que el producto llegara.",
+      "imagenes": [
+        {
+          "busqueda": "Mercado Libre office Buenos Aires",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Buenos Aires skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Marcos Galperin",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1999",
+        "fe"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "1999",
+          "etiqueta": "nace Mercado Libre en Buenos Aires",
+          "icono": "edificio"
+        },
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "dinero",
+              "texto": "Pagas"
+            },
+            {
+              "icono": "reloj",
+              "texto": "Esperas"
+            },
+            {
+              "icono": "pregunta",
+              "texto": "¿Llegará?"
+            }
+          ]
+        }
+      ],
+      "rotulo": "Mercado Libre"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2003 decidieron meterse en el medio. El comprador pagaba, Mercado Pago guardaba el dinero y solo se lo entregaba al vendedor cuando el producto llegaba. Al principio, parte de los pagos se procesaban a mano, por fax.",
+      "imagenes": [
+        {
+          "busqueda": "Mercado Libre logo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "fax machine",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "2003",
+        "medio",
+        "fax"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "dinero",
+              "texto": "El comprador paga"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Mercado Pago guarda el dinero"
+            },
+            {
+              "icono": "celular",
+              "texto": "El vendedor cobra al entregar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Esa decisión convirtió la desconfianza en un servicio. Hoy Mercado Pago ofrece créditos, tarjetas y cuentas, y en 2024 reportaba cincuenta y dos millones de usuarios activos en siete países.",
+      "imagenes": [
+        {
+          "busqueda": "Mercado Libre distribution center",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Mercado Pago QR payment",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "servicio",
+        "cincuenta"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "52M",
+          "etiqueta": "usuarios activos en 2024",
+          "icono": "celular"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. Antes de buscar más clientes, busca el miedo que les impide comprarte. Si lo resuelves tú, ese miedo deja de ser una barrera y se vuelve tu negocio.",
+      "imagenes": [
+        {
+          "busqueda": "online shopping package delivery",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "credit card payment terminal",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "miedo",
+        "negocio"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Busca el [[miedo]] que frena la compra",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Cuál es el miedo que frena a los clientes de tu negocio?",
+      "imagenes": [
+        {
+          "busqueda": "Mercado Libre truck",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "miedo"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Cuál es el miedo de [[tus clientes]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Mercado Pago no nació como un banco. Nació en 2003 para resolver un miedo: pagarle a un desconocido por internet.\n\nLa solución fue meterse en el medio: guardar el dinero y entregárselo al vendedor solo cuando el producto llegaba. Hoy tiene más de 50 millones de usuarios activos.\n\n¿Cuál es el miedo que frena a tus clientes?",
+  "hashtags": [
+    "#negocios",
+    "#mercadolibre",
+    "#mercadopago",
+    "#fintech",
+    "#emprendimiento",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Mercado Libre nació en 1999 en Buenos Aires inspirado en eBay; Mercado Pago nació en 2003 para resolver el miedo a estafas, liberando el pago al confirmar la entrega; los primeros pagos llegaban por fax y se procesaban a mano; 52 millones de usuarios activos (Q1 2024) en 7 países",
+      "url": "https://marketing4ecommerce.net/asi-es-mercado-libre-historia-y-evolucion-de-un-lider-del-ecommerce-en-latinoamerica/"
+    },
+    {
+      "afirmacion": "Mercado Pago fue fundado en 2003 como medio de pago seguro de Mercado Libre; hoy ofrece créditos, tarjetas y otros servicios financieros",
+      "url": "https://elceo.com/negocios/como-surgio-mercado-pago-esta-es-su-historia/"
+    }
+  ]
+}

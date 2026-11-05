@@ -168,8 +168,20 @@ async function main() {
     const guardar = () => writeFile(ruta, JSON.stringify(guion, null, 2) + "\n");
     await resolverImagenes(guion, Boolean(flag("rehacer-imagenes")), guardar);
     await guardar();
-    const faltan = guion.escenas.some((e) => e.imagenes.some((im) => !im.archivo));
-    if (faltan) throw new Error("Hay escenas sin imagen. Corre pipeline/imagenes.ts y revisa las búsquedas.");
+    // Imágenes sin resultado: se quitan de su escena; si una escena queda vacía, toma la última imagen de la escena anterior (o la siguiente).
+    const sinImagen: string[] = [];
+    guion.escenas.forEach((e, i) => {
+      const buenas = e.imagenes.filter((im) => im.archivo);
+      e.imagenes.filter((im) => !im.archivo).forEach((im) => sinImagen.push(`${i + 1}: "${im.busqueda}"`));
+      e.imagenes = buenas;
+    });
+    guion.escenas.forEach((e, i) => {
+      if (e.imagenes.length) return;
+      const vecina = [...guion.escenas.slice(0, i)].reverse().find((x) => x.imagenes.length) ?? guion.escenas.slice(i + 1).find((x) => x.imagenes.length);
+      if (vecina) e.imagenes = [{ ...vecina.imagenes[vecina.imagenes.length - 1] }];
+    });
+    if (guion.escenas.some((e) => !e.imagenes.length)) throw new Error("Ninguna imagen se pudo resolver. Revisa las búsquedas del guion.");
+    if (sinImagen.length) console.warn(`  ⚠ sin imagen (se reemplazaron): ${sinImagen.join(", ")}`);
   }
 
   console.log("→ voz");

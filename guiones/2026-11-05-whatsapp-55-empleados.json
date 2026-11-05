@@ -1,0 +1,226 @@
+{
+  "id": "2026-11-05-whatsapp-55-empleados",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "tema": "Facebook pagó 19.000 millones por WhatsApp, una empresa de 55 personas",
+  "pregunta_principal": "¿Qué cambia cuando sumar un cliente casi no cuesta nada?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "En 2014, Facebook pagó diecinueve mil millones de dólares por una empresa de cincuenta y cinco personas.",
+      "imagenes": [
+        {
+          "busqueda": "WhatsApp",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Facebook headquarters Menlo Park",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "diecinueve",
+        "cincuenta"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "55",
+            "texto": "personas en WhatsApp",
+            "icono": "celular"
+          },
+          "despues": {
+            "valor": "$19.000M",
+            "texto": "lo que pagó Facebook",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "titulo": "19.000 millones por 55 personas"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Era WhatsApp. La habían creado dos exempleados de Yahoo. Tenía más de cuatrocientos cincuenta millones de usuarios al mes, y cobraba noventa y nueve centavos al año después del primer año.",
+      "imagenes": [
+        {
+          "busqueda": "Jan Koum",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "WhatsApp smartphone",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Yahoo headquarters Sunnyvale",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Yahoo",
+        "cuatrocientos"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "450M",
+          "etiqueta": "usuarios al mes",
+          "icono": "celular"
+        },
+        {
+          "tipo": "titulo",
+          "texto": "Cobraba [[0,99 dólares]] al año",
+          "icono": "dinero"
+        }
+      ],
+      "rotulo": "WhatsApp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Su decisión fue crecer en software, no en personas. Mientras una operadora necesitaba antenas, oficinas y miles de empleados para mover mensajes, WhatsApp usaba el internet que ya existía.",
+      "imagenes": [
+        {
+          "busqueda": "cell tower antenna",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "data center servers",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "software",
+        "personas"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Operadora: antenas y oficinas"
+            },
+            {
+              "icono": "celular",
+              "texto": "WhatsApp: internet que ya existía"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Con muy poca gente movía un volumen de mensajes cercano al de todos los SMS del mundo. Facebook pagó unos cuarenta y dos dólares por cada usuario.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone messaging app",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Facebook logo Menlo Park sign",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "SMS",
+        "cuarenta"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$42",
+          "etiqueta": "pagados por cada usuario",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. La tecnología cambia la relación entre costos y clientes. Cuando sumar un cliente casi no te cuesta nada, el tamaño de tu equipo deja de limitar el tamaño de tu negocio.",
+      "imagenes": [
+        {
+          "busqueda": "laptop code screen",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "server room",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "costos",
+        "nada"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Cuando un cliente más cuesta casi [[cero]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué parte de tu negocio crece solo si contratas más gente?",
+      "imagenes": [
+        {
+          "busqueda": "WhatsApp logo smartphone",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "contratas"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Tu negocio crece solo si [[contratas]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "En 2014, Facebook pagó 19.000 millones de dólares por WhatsApp: 55 personas y más de 450 millones de usuarios al mes.\n\nLa clave no fue el tamaño del equipo, sino que sumar un usuario casi no le costaba nada. Facebook pagó unos 42 dólares por cada uno.\n\n¿Qué parte de tu negocio crece solo si contratas más gente?",
+  "hashtags": [
+    "#tecnologia",
+    "#whatsapp",
+    "#negocios",
+    "#emprendimiento",
+    "#startups",
+    "#software"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Facebook compró WhatsApp por 19.000 millones en 2014; 55 empleados; más de 450 millones de usuarios mensuales; fundada por dos veteranos de Yahoo; 99 centavos al año tras el primer año; volumen cercano al de todos los SMS del mundo",
+      "url": "https://www.npr.org/sections/thetwo-way/2014/02/19/279763675/facebook-will-buy-whatsapp-message-service-for-19-billion"
+    },
+    {
+      "afirmacion": "Total de 19.000 millones; fundadores y empleados, 55 en total; unos 42 dólares por usuario",
+      "url": "https://www.cbsnews.com/texas/news/facebook-buying-whatsapp-for-19-billion"
+    }
+  ]
+}

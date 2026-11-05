@@ -1,0 +1,237 @@
+{
+  "id": "2026-11-05-sara-blakely-spanx",
+  "pilar": "biografias",
+  "narrador": "sebas",
+  "tema": "Sara Blakely creó Spanx con 5.000 dólares y escribió ella misma su patente",
+  "pregunta_principal": "¿Qué haces cuando no tienes dinero para lo que tu idea necesita?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "Con cinco mil dólares de ahorros y unas tijeras, Sara Blakely construyó una empresa que la hizo multimillonaria.",
+      "imagenes": [
+        {
+          "busqueda": "Sara Blakely",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Spanx store",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cinco",
+        "tijeras"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$5.000",
+            "texto": "ahorros y unas tijeras",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "$1.000M",
+            "texto": "valor de su empresa en 2012",
+            "icono": "edificio"
+          }
+        }
+      ],
+      "titulo": "5.000 dólares y unas tijeras",
+      "rotulo": "Sara Blakely"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Durante siete años vendió máquinas de fax, a punta de llamadas en frío. Un día le cortó los pies a unas medias veladas para verse mejor con un pantalón. Funcionó, pero las medias se le subían por las piernas.",
+      "imagenes": [
+        {
+          "busqueda": "fax machine",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        },
+        {
+          "busqueda": "pantyhose",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "scissors",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "siete",
+        "medias"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "reloj",
+              "texto": "7 años vendiendo fax"
+            },
+            {
+              "icono": "bombilla",
+              "texto": "Una idea: medias sin pies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Ahí vio un producto. Pero no tenía dinero para abogados. Entonces compró un libro sobre patentes y escribió ella misma la solicitud. Cada dólar que ahorró fue al producto.",
+      "imagenes": [
+        {
+          "busqueda": "patent application document",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "law books library",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "patentes",
+        "ella misma"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Un libro de patentes"
+            },
+            {
+              "icono": "bombilla",
+              "texto": "Escribió su propia solicitud"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Todo el ahorro al producto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Meses después, el equipo de Oprah Winfrey incluyó su marca, Spanx, entre sus productos favoritos. Y en 2012, Forbes la reconoció como la mujer más joven en volverse multimillonaria sin herencia.",
+      "imagenes": [
+        {
+          "busqueda": "Spanx products",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Sara Blakely Spanx",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Spanx",
+        "2012"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Spanx, entre los [[favoritos]] de Oprah",
+          "icono": "tv"
+        },
+        {
+          "tipo": "dato",
+          "valor": "2012",
+          "etiqueta": "la multimillonaria más joven sin herencia",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. Cuando el dinero no alcanza, aprende a hacer tú lo que no puedes pagar. No para siempre. Solo hasta que el producto demuestre que vale la pena.",
+      "imagenes": [
+        {
+          "busqueda": "notebook and pen on desk",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "sewing pattern fabric",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "aprende",
+        "demuestre"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Haz tú lo que [[aún no puedes pagar]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué estás esperando a poder pagar, que podrías aprender a hacer tú?",
+      "imagenes": [
+        {
+          "busqueda": "Sara Blakely 2012",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "aprender"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué podrías [[aprender a hacer tú]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Sara Blakely empezó Spanx con 5.000 dólares de ahorros. No tenía para abogados, así que compró un libro y escribió ella misma su solicitud de patente.\n\nEn 2012, Forbes la reconoció como la mujer más joven en volverse multimillonaria sin herencia.\n\n¿Qué estás esperando a poder pagar, que podrías aprender a hacer tú?",
+  "hashtags": [
+    "#emprendimiento",
+    "#sarablakely",
+    "#spanx",
+    "#negocios",
+    "#mujeresemprendedoras",
+    "#historiasdenegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Invirtió sus ahorros de 5.000 dólares a los 29 años; vendió máquinas de fax durante siete años; cortó los pies a unas medias; escribió ella misma la patente; el equipo de Oprah la incluyó en sus favoritos seis meses después de crear la empresa; bancos valoraron la empresa en 1.000 millones; la más joven multimillonaria hecha a sí misma (2012)",
+      "url": "https://uk.finance.yahoo.com/news/sara-blakely--how-one-woman-made-a-billion-from-big-pants.html"
+    },
+    {
+      "afirmacion": "Aprendió las llamadas en frío en una empresa de suministros de oficina; escribió su propia solicitud de patente con un libro de Barnes & Noble; según Forbes, la mujer más joven en entrar a la lista de multimillonarios sin dinero de herencia o esposo",
+      "url": "https://www.abajournal.com/news/article/billionaire_spanx_inventor_gave_up_idea_of_law_school_after_doing_poorly_on"
+    }
+  ]
+}
