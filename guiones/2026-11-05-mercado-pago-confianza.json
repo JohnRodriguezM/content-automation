@@ -10,16 +10,24 @@
       "narracion": "Mercado Pago no nació como un banco. Nació para resolver un solo problema: nadie confiaba en pagarle a un desconocido por internet.",
       "imagenes": [
         {
-          "busqueda": "Mercado Pago",
+          "busqueda": "Mercadolibre edificio saavedra",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercadolibre_edificio_saavedra.jpg?width=1600",
+          "credito": "Foto: Fernando Martello · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Mercadolibre_edificio_saavedra.jpg"
         },
         {
-          "busqueda": "Mercado Libre office",
+          "busqueda": "MercadoLibre logo",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MercadoLibre_logo.PNG?width=1600",
+          "credito": "Foto: MercadoLibre · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:MercadoLibre_logo.PNG"
         }
       ],
       "destacar": [
@@ -39,22 +47,24 @@
       "narracion": "Mercado Libre arrancó en 1999 en Buenos Aires, inspirado en eBay. Tenía compradores y vendedores. Pero comprar era un acto de fe: pagabas y esperabas que el producto llegara.",
       "imagenes": [
         {
-          "busqueda": "Mercado Libre office Buenos Aires",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Buenos Aires skyline",
+          "busqueda": "193 - Buenos Aires - Puerto Madero - Janvier 2010",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/193_-_Buenos_Aires_-_Puerto_Madero_-_Janvier_2010.jpg?width=1600",
+          "credito": "Foto: Martin St-Amant · CC BY-SA 3.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 3.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:193_-_Buenos_Aires_-_Puerto_Madero_-_Janvier_2010.jpg"
         },
         {
-          "busqueda": "Marcos Galperin",
+          "busqueda": "Marcos Galperin (cropped)",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marcos_Galperin_(cropped).jpg?width=1600",
+          "credito": "Foto: Edans · CC BY 2.0 · Wikimedia Commons",
+          "licencia": "CC BY 2.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Marcos_Galperin_(cropped).jpg"
         }
       ],
       "destacar": [
@@ -93,16 +103,24 @@
       "narracion": "En 2003 decidieron meterse en el medio. El comprador pagaba, Mercado Pago guardaba el dinero y solo se lo entregaba al vendedor cuando el producto llegaba. Al principio, parte de los pagos se procesaban a mano, por fax.",
       "imagenes": [
         {
-          "busqueda": "Mercado Libre logo",
+          "busqueda": "MercadoLibre logo",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MercadoLibre_logo.PNG?width=1600",
+          "credito": "Foto: MercadoLibre · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:MercadoLibre_logo.PNG"
         },
         {
-          "busqueda": "fax machine",
+          "busqueda": "Samsung SF-370 fax with inkjet printing",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "sepia"
+          "filtro": "sepia",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung_SF-370_fax_with_inkjet_printing.jpg?width=1600",
+          "credito": "Foto: Pittigrilli · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Samsung_SF-370_fax_with_inkjet_printing.jpg"
         }
       ],
       "destacar": [
@@ -135,16 +153,14 @@
       "narracion": "Esa decisión convirtió la desconfianza en un servicio. Hoy Mercado Pago ofrece créditos, tarjetas y cuentas, y en 2024 reportaba cincuenta y dos millones de usuarios activos en siete países.",
       "imagenes": [
         {
-          "busqueda": "Mercado Libre distribution center",
+          "busqueda": "Mercadolibre edificio saavedra",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Mercado Pago QR payment",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercadolibre_edificio_saavedra.jpg?width=1600",
+          "credito": "Foto: Fernando Martello · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Mercadolibre_edificio_saavedra.jpg"
         }
       ],
       "destacar": [
@@ -165,16 +181,14 @@
       "narracion": "La lección es esta. Antes de buscar más clientes, busca el miedo que les impide comprarte. Si lo resuelves tú, ese miedo deja de ser una barrera y se vuelve tu negocio.",
       "imagenes": [
         {
-          "busqueda": "online shopping package delivery",
+          "busqueda": "193 - Buenos Aires - Puerto Madero - Janvier 2010",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "credit card payment terminal",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/193_-_Buenos_Aires_-_Puerto_Madero_-_Janvier_2010.jpg?width=1600",
+          "credito": "Foto: Martin St-Amant · CC BY-SA 3.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 3.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:193_-_Buenos_Aires_-_Puerto_Madero_-_Janvier_2010.jpg"
         }
       ],
       "destacar": [
@@ -194,10 +208,14 @@
       "narracion": "¿Cuál es el miedo que frena a los clientes de tu negocio?",
       "imagenes": [
         {
-          "busqueda": "Mercado Libre truck",
+          "busqueda": "MercadoLibre logo",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MercadoLibre_logo.PNG?width=1600",
+          "credito": "Foto: MercadoLibre · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:MercadoLibre_logo.PNG"
         }
       ],
       "destacar": [

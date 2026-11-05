@@ -133,16 +133,24 @@
       "narracion": "Meses después, el equipo de Oprah Winfrey incluyó su marca, Spanx, entre sus productos favoritos. Y en 2012, Forbes la reconoció como la mujer más joven en volverse multimillonaria sin herencia.",
       "imagenes": [
         {
-          "busqueda": "Spanx products",
+          "busqueda": "Spanx Store (16156619968)",
           "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
+          "modo": "completa",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Spanx_Store_(16156619968).jpg?width=1600",
+          "credito": "Foto: Mike Mozart · CC BY 2.0 · Wikimedia Commons",
+          "licencia": "CC BY 2.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Spanx_Store_(16156619968).jpg"
         },
         {
-          "busqueda": "Sara Blakely Spanx",
+          "busqueda": "Sara Blakely 2012 Shankbone",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sara_Blakely_2012_Shankbone.JPG?width=1600",
+          "credito": "Foto: David Shankbone · CC BY 3.0 · Wikimedia Commons",
+          "licencia": "CC BY 3.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Sara_Blakely_2012_Shankbone.JPG"
         }
       ],
       "destacar": [

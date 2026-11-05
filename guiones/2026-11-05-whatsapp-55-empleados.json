@@ -54,10 +54,14 @@
           "filtro": "ninguno"
         },
         {
-          "busqueda": "WhatsApp smartphone",
+          "busqueda": "Online N'ko classroom via WhatsApp (cropped)",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Online_N'ko_classroom_via_WhatsApp_(cropped).jpg?width=1600",
+          "credito": "Foto: Coleman Donaldson · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Online_N'ko_classroom_via_WhatsApp_(cropped).jpg"
         },
         {
           "busqueda": "Yahoo headquarters Sunnyvale",
@@ -127,16 +131,24 @@
       "narracion": "Con muy poca gente movía un volumen de mensajes cercano al de todos los SMS del mundo. Facebook pagó unos cuarenta y dos dólares por cada usuario.",
       "imagenes": [
         {
-          "busqueda": "smartphone messaging app",
+          "busqueda": "Bienvenidos a WhatsApp",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bienvenidos_a_WhatsApp.jpg?width=1600",
+          "credito": "Foto: Indrajit Das · CC BY-SA 3.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 3.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Bienvenidos_a_WhatsApp.jpg"
         },
         {
-          "busqueda": "Facebook logo Menlo Park sign",
+          "busqueda": "Facebook Offices Menlo Park California (34183281176)",
           "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
+          "modo": "completa",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Facebook_Offices_Menlo_Park_California_(34183281176).jpg?width=1600",
+          "credito": "Foto: Anthony Quintano · CC BY 2.0 · Wikimedia Commons",
+          "licencia": "CC BY 2.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Facebook_Offices_Menlo_Park_California_(34183281176).jpg"
         }
       ],
       "destacar": [
@@ -186,10 +198,14 @@
       "narracion": "¿Qué parte de tu negocio crece solo si contratas más gente?",
       "imagenes": [
         {
-          "busqueda": "WhatsApp logo smartphone",
+          "busqueda": "WhatsApp - 27476653873",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/WhatsApp_-_27476653873.jpg?width=1600",
+          "credito": "Foto: microsiervos · CC BY 2.0 · Wikimedia Commons",
+          "licencia": "CC BY 2.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:WhatsApp_-_27476653873.jpg"
         }
       ],
       "destacar": [
