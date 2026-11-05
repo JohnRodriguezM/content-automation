@@ -10,16 +10,24 @@
       "narracion": "[curious] En 1985, Coca-Cola cambió la fórmula de su bebida más famosa. [pause] Setenta y nueve días después tuvo que devolverla.",
       "imagenes": [
         {
-          "busqueda": "New Coke can",
+          "busqueda": "New Coke Can Design (487626420)",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/New_Coke_Can_Design_(487626420).jpg?width=1600",
+          "credito": "Foto: Mack Male · CC BY-SA 2.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 2.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:New_Coke_Can_Design_(487626420).jpg"
         },
         {
-          "busqueda": "World of Coca-Cola Atlanta",
+          "busqueda": "World of Coca-Cola, May 18, 2009",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/World_of_Coca-Cola,_May_18,_2009.jpg?width=1600",
+          "credito": "Foto: Chuck Grimmett · CC0 · Wikimedia Commons",
+          "licencia": "CC0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:World_of_Coca-Cola,_May_18,_2009.jpg"
         }
       ],
       "destacar": [
@@ -48,16 +56,24 @@
       "narracion": "Llevaba quince años seguidos perdiendo ventaja frente a su principal competidor en Estados Unidos. Y las pruebas eran claras: casi doscientas mil personas preferían el sabor nuevo.",
       "imagenes": [
         {
-          "busqueda": "Coca-Cola bottles vintage",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Pepsi and Coca-Cola cans",
+          "busqueda": "Coca-Cola ad 1924-04",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "sepia",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coca-Cola_ad_1924-04.png?width=1600",
+          "credito": "Foto: Various · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Coca-Cola_ad_1924-04.png"
+        },
+        {
+          "busqueda": "COCA-COLA CAN & PEPSI-COLA CAN CHINESE VERSION",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/COCA-COLA_CAN_%26_PEPSI-COLA_CAN_CHINESE_VERSION.jpg?width=1600",
+          "credito": "Foto: Dinkun Chen · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:COCA-COLA_CAN_%26_PEPSI-COLA_CAN_CHINESE_VERSION.jpg"
         }
       ],
       "destacar": [
@@ -84,16 +100,14 @@
       "narracion": "El 23 de abril de 1985 lanzaron la nueva fórmula y retiraron la original. En el papel, era la decisión correcta. [sighs] En la calle, fue otra historia.",
       "imagenes": [
         {
-          "busqueda": "New Coke",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Coca-Cola headquarters Atlanta",
+          "busqueda": "Coca-Cola Tower and Guggenheim Building, Atlanta, Northeast view 20160717 1",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coca-Cola_Tower_and_Guggenheim_Building,_Atlanta,_Northeast_view_20160717_1.jpg?width=1600",
+          "credito": "Foto: DXR · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Coca-Cola_Tower_and_Guggenheim_Building,_Atlanta,_Northeast_view_20160717_1.jpg"
         }
       ],
       "destacar": [
@@ -113,16 +127,24 @@
       "narracion": "Para junio, la línea de atención recibía mil quinientas llamadas al día. Hubo protestas y gente guardando cajas de la vieja. [laughs softly] Alguien le escribió al presidente de la empresa como el jefe dodo. El 11 de julio, la original volvió como Coca-Cola Classic.",
       "imagenes": [
         {
-          "busqueda": "Coca-Cola Classic can 1980s",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "sepia"
-        },
-        {
-          "busqueda": "rotary telephone",
+          "busqueda": "Telefon BW 2012-02-18 13-44-32",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Telefon_BW_2012-02-18_13-44-32.JPG?width=1600",
+          "credito": "Foto: Berthold Werner · CC BY-SA 3.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 3.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Telefon_BW_2012-02-18_13-44-32.JPG"
+        },
+        {
+          "busqueda": "Coca Cola ghost sign, Sasser",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coca_Cola_ghost_sign,_Sasser.jpg?width=1600",
+          "credito": "Foto: Michael Rivera · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Coca_Cola_ghost_sign,_Sasser.jpg"
         }
       ],
       "destacar": [
@@ -148,10 +170,14 @@
       "narracion": "La lección es esta. [serious] Una prueba de sabor mide el sabor. No mide lo que la gente siente por tu marca. Antes de cambiar algo que tus clientes quieren, pregúntales qué perderían.",
       "imagenes": [
         {
-          "busqueda": "Coca-Cola glass bottle",
+          "busqueda": "World of Coca-Cola, May 18, 2009",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/World_of_Coca-Cola,_May_18,_2009.jpg?width=1600",
+          "credito": "Foto: Chuck Grimmett · CC0 · Wikimedia Commons",
+          "licencia": "CC0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:World_of_Coca-Cola,_May_18,_2009.jpg"
         }
       ],
       "destacar": [
@@ -171,10 +197,14 @@
       "narracion": "¿Tú habrías cambiado la fórmula? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "Coca-Cola sign vintage",
+          "busqueda": "Coca Cola ghost sign, Sasser",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "sepia"
+          "filtro": "sepia",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coca_Cola_ghost_sign,_Sasser.jpg?width=1600",
+          "credito": "Foto: Michael Rivera · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Coca_Cola_ghost_sign,_Sasser.jpg"
         }
       ],
       "destacar": [

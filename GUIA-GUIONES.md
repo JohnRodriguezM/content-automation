@@ -47,6 +47,7 @@ La voz usa Eleven v3, que interpreta etiquetas entre corchetes dentro de `narrac
 Se buscan solas en Wikimedia Commons. La búsqueda decide si la foto sale bien:
 - **Específica y en inglés:** nombre de la persona, edificio, producto o lugar real ("Steve Jobs 2007", "Blockbuster store", "Avianca Boeing 787"). Commons tiene muy buen material de empresas, sedes, productos y fundadores.
 - **Cuidado con nombres que son palabras comunes:** "Mercado Pago" trajo un mercado de abastos en Cádiz. Para marcas así, busca algo inequívoco ("MercadoLibre logo", "Mercadolibre edificio") o fija la imagen con `url` (formato `https://commons.wikimedia.org/wiki/Special:FilePath/<Archivo>?width=1600`) más `credito`, `licencia` y `pagina`.
+- **Errores reales de búsqueda:** "Coke" trajo una planta de coque y la foto de un actor; "Nubank card" trajo guacamayas; "Atari Lynx" trajo un lince; "Avenida Paulista" trajo una protesta política. Para marcas, productos y lugares con gente, fija la imagen.
 - **"Amazon" a secas trae loros y la selva:** para empresas cuyo nombre es también un animal, lugar o palabra común, fija la imagen.
 - **Nunca búsquedas de una persona + otra palabra** ("Sara Blakely Spanx" trajo la foto de otra mujer): busca solo el nombre.
 - **Nunca b-roll genérico de apps** ("messaging app" trajo el logo de Threema, competidor de WhatsApp): usa la app real o un objeto.

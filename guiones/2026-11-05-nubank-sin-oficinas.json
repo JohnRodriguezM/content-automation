@@ -10,16 +10,24 @@
       "narracion": "[curious] Un colombiano fue a abrir una cuenta en un banco de Brasil. Esa mala experiencia terminó en uno de los bancos digitales más grandes del mundo.",
       "imagenes": [
         {
-          "busqueda": "Nubank",
+          "busqueda": "Nubank App Area Pix Dec 2023",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nubank_App_Area_Pix_Dec_2023.jpg?width=1600",
+          "credito": "Foto: Nubank · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Nubank_App_Area_Pix_Dec_2023.jpg"
         },
         {
-          "busqueda": "São Paulo skyline",
+          "busqueda": "Panorama of Sao Paulo from Avenida Santa Catarina",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panorama_of_Sao_Paulo_from_Avenida_Santa_Catarina.jpg?width=1600",
+          "credito": "Foto: Wilfredor · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Panorama_of_Sao_Paulo_from_Avenida_Santa_Catarina.jpg"
         }
       ],
       "destacar": [
@@ -40,16 +48,14 @@
       "narracion": "David Vélez, antioqueño, vivía en São Paulo. Abrir una cuenta fue una pesadilla, y una tarjeta podía cobrarle intereses de cuatrocientos por ciento al año. Además, más de sesenta millones de brasileños no tenían cuenta.",
       "imagenes": [
         {
-          "busqueda": "Avenida Paulista São Paulo",
+          "busqueda": "Panorama of Sao Paulo from Avenida Santa Catarina",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "bank branch Brazil",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panorama_of_Sao_Paulo_from_Avenida_Santa_Catarina.jpg?width=1600",
+          "credito": "Foto: Wilfredor · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Panorama_of_Sao_Paulo_from_Avenida_Santa_Catarina.jpg"
         }
       ],
       "destacar": [
@@ -77,16 +83,24 @@
       "narracion": "En 2013 decidió crear un banco sin oficinas, todo desde el celular. Su producto estrella: una tarjeta de crédito sin cuota de manejo. [pause] Muchos le dijeron que la idea era una locura.",
       "imagenes": [
         {
-          "busqueda": "Nubank credit card",
+          "busqueda": "Nubank App Area Pix Dec 2023",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nubank_App_Area_Pix_Dec_2023.jpg?width=1600",
+          "credito": "Foto: Nubank · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Nubank_App_Area_Pix_Dec_2023.jpg"
         },
         {
-          "busqueda": "Nubank app smartphone",
+          "busqueda": "Mobile Payment",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mobile_Payment.jpg?width=1600",
+          "credito": "Foto: Richard Tanzer Fotografie / VeroPay · CC BY-SA 3.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 3.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Mobile_Payment.jpg"
         }
       ],
       "destacar": [
@@ -118,10 +132,14 @@
       "narracion": "Arrancó en 2014 con doce empleados. [excited] Hoy Nubank supera los ochenta millones de clientes.",
       "imagenes": [
         {
-          "busqueda": "Nubank headquarters São Paulo",
+          "busqueda": "Nubank App Area Pix Dec 2023",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nubank_App_Area_Pix_Dec_2023.jpg?width=1600",
+          "credito": "Foto: Nubank · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Nubank_App_Area_Pix_Dec_2023.jpg"
         }
       ],
       "destacar": [
@@ -149,10 +167,14 @@
       "narracion": "La lección es esta. Las mejores oportunidades suelen estar en lo que todo el mundo acepta como normal, aunque le moleste. Si un trámite te desespera a ti, probablemente desespera a millones.",
       "imagenes": [
         {
-          "busqueda": "smartphone payment",
+          "busqueda": "Mobile Payment",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mobile_Payment.jpg?width=1600",
+          "credito": "Foto: Richard Tanzer Fotografie / VeroPay · CC BY-SA 3.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 3.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Mobile_Payment.jpg"
         }
       ],
       "destacar": [
@@ -172,10 +194,14 @@
       "narracion": "¿Qué trámite te desespera a ti? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "Nubank logo",
+          "busqueda": "Nubank App Area Pix Dec 2023",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nubank_App_Area_Pix_Dec_2023.jpg?width=1600",
+          "credito": "Foto: Nubank · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Nubank_App_Area_Pix_Dec_2023.jpg"
         }
       ],
       "destacar": [

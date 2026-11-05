@@ -10,16 +10,24 @@
       "narracion": "[curious] Una de las consolas más vendidas de la historia tenía pantalla en blanco y negro. Y no fue por falta de tecnología.",
       "imagenes": [
         {
-          "busqueda": "Nintendo Game Boy",
+          "busqueda": "Game-Boy-Original",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Game-Boy-Original.jpg?width=1600",
+          "credito": "Foto: Evan-Amos · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Game-Boy-Original.jpg"
         },
         {
-          "busqueda": "Game Boy original DMG",
+          "busqueda": "Game Boy and Tetris",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Game_Boy_and_Tetris.jpg?width=1600",
+          "credito": "Foto: Sammlung der Medien und Wissenschaft · CC BY 4.0 · Wikimedia Commons",
+          "licencia": "CC BY 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Game_Boy_and_Tetris.jpg"
         }
       ],
       "destacar": [
@@ -40,16 +48,24 @@
       "narracion": "En 1989, Nintendo preparaba el Game Boy. Una pantalla a color ya era posible, pero gastaba más batería y subía el precio.",
       "imagenes": [
         {
-          "busqueda": "Atari Lynx",
+          "busqueda": "Game-Gear-Handheld",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Game-Gear-Handheld.jpg?width=1600",
+          "credito": "Foto: Evan-Amos · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Game-Gear-Handheld.jpg"
         },
         {
-          "busqueda": "Sega Game Gear",
+          "busqueda": "AA VARTA battery-side PNr°0782",
           "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
+          "modo": "completa",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AA_VARTA_battery-side_PNr%C2%B00782.jpg?width=1600",
+          "credito": "Foto: D-Kuru · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:AA_VARTA_battery-side_PNr%C2%B00782.jpg"
         }
       ],
       "destacar": [
@@ -77,16 +93,24 @@
       "narracion": "El ingeniero Gunpei Yokoi tenía una filosofía: usar tecnología vieja y probada, de formas nuevas. Así que eligieron una pantalla monocromática. [pause] Con cuatro pilas AA, el Game Boy aguantaba hasta treinta horas.",
       "imagenes": [
         {
-          "busqueda": "Gunpei Yokoi",
+          "busqueda": "Game-Boy-Original",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Game-Boy-Original.jpg?width=1600",
+          "credito": "Foto: Evan-Amos · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Game-Boy-Original.jpg"
         },
         {
-          "busqueda": "AA batteries",
+          "busqueda": "Game-Boy-Pocket-FL",
           "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Game-Boy-Pocket-FL.jpg?width=1600",
+          "credito": "Foto: Evan-Amos · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Game-Boy-Pocket-FL.jpg"
         }
       ],
       "destacar": [
@@ -105,24 +129,31 @@
           "etiqueta": "con cuatro pilas AA",
           "icono": "reloj"
         }
-      ],
-      "rotulo": "Gunpei Yokoi"
+      ]
     },
     {
       "bloque": "consecuencia",
       "narracion": "Sus rivales eran más potentes, pero se comían las baterías demasiado rápido. [laughs softly] El Game Boy, más sencillo, ganó. Junto con su versión a color vendió más de ciento dieciocho millones de unidades.",
       "imagenes": [
         {
-          "busqueda": "Game Boy Color",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Game Boy Tetris",
+          "busqueda": "Game Boy and Tetris",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Game_Boy_and_Tetris.jpg?width=1600",
+          "credito": "Foto: Sammlung der Medien und Wissenschaft · CC BY 4.0 · Wikimedia Commons",
+          "licencia": "CC BY 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Game_Boy_and_Tetris.jpg"
+        },
+        {
+          "busqueda": "Game-Boy-Original",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Game-Boy-Original.jpg?width=1600",
+          "credito": "Foto: Evan-Amos · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Game-Boy-Original.jpg"
         }
       ],
       "destacar": [
@@ -143,10 +174,14 @@
       "narracion": "La lección es esta. La mejor tecnología no siempre es la más nueva. Es la que resuelve lo que más le importa a tu cliente: aquí, jugar horas sin cambiar pilas, a un precio que podía pagar.",
       "imagenes": [
         {
-          "busqueda": "Game Boy Pocket",
+          "busqueda": "Game-Boy-Pocket-FL",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Game-Boy-Pocket-FL.jpg?width=1600",
+          "credito": "Foto: Evan-Amos · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Game-Boy-Pocket-FL.jpg"
         }
       ],
       "destacar": [
@@ -166,10 +201,14 @@
       "narracion": "¿Tú habrías elegido el blanco y negro? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "Nintendo Game Boy screen",
+          "busqueda": "Game-Boy-Original",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Game-Boy-Original.jpg?width=1600",
+          "credito": "Foto: Evan-Amos · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Game-Boy-Original.jpg"
         }
       ],
       "destacar": [
