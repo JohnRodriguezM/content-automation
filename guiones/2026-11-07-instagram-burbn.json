@@ -120,12 +120,6 @@
       "narracion": "Instagram salió en octubre de 2010. Veinticinco mil personas se registraron el primer día. [excited] En 2012, con cerca de una docena de empleados, Facebook la compró por mil millones de dólares.",
       "imagenes": [
         {
-          "busqueda": "Instagram app",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "Facebook headquarters",
           "fuente": "commons",
           "modo": "completa",
@@ -179,10 +173,14 @@
       "narracion": "¿Qué parte de tu producto es la que de verdad usan? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "Instagram",
+          "busqueda": "Instagram screenshot",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Instagram_screenshot.png?width=1600",
+          "credito": "Foto: Instagram · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Instagram_screenshot.png"
         }
       ],
       "destacar": [

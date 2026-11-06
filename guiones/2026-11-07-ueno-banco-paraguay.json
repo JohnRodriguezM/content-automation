@@ -86,12 +86,6 @@
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "financial documents",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -112,12 +106,6 @@
       "imagenes": [
         {
           "busqueda": "Banco Central del Paraguay building",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Paraguayan guaraní banknotes",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
@@ -148,10 +136,14 @@
       "narracion": "La lección es esta. [thoughtful] Crecer rápido no sirve de nada si el dinero no está bien respaldado. Y cuando el dinero de tus clientes termina financiando a tus propios socios, la confianza puede romperse en un día.",
       "imagenes": [
         {
-          "busqueda": "Asunción Paraguay",
+          "busqueda": "Banco Central del Paraguay by Felipe Méndez",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Banco_Central_del_Paraguay_by_Felipe_M%C3%A9ndez.jpg?width=1600",
+          "credito": "Foto: FF MM · CC BY-SA 3.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 3.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Banco_Central_del_Paraguay_by_Felipe_M%C3%A9ndez.jpg"
         }
       ],
       "destacar": [
@@ -171,10 +163,14 @@
       "narracion": "¿Tú preferirías crecer más rápido o crecer más seguro? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "Paraguay flag",
+          "busqueda": "Asunción skyline from Chaco'i",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Asunci%C3%B3n_skyline_from_Chaco'i.jpg?width=1600",
+          "credito": "Foto: P. S. F. Freitas · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Asunci%C3%B3n_skyline_from_Chaco'i.jpg"
         }
       ],
       "destacar": [

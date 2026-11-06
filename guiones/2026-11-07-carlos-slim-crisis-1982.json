@@ -94,12 +94,6 @@
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Sanborns Mexico",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -125,12 +119,6 @@
       "bloque": "consecuencia",
       "narracion": "Cuando la economía se recuperó, esas empresas valían mucho más. [excited] Y en 1990, un consorcio liderado por Slim ganó el control de Telmex, la telefónica del Estado, por cerca de mil ochocientos millones de dólares.",
       "imagenes": [
-        {
-          "busqueda": "Torre Telmex",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
         {
           "busqueda": "Telmex",
           "fuente": "commons",
