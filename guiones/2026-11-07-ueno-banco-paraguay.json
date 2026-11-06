@@ -1,0 +1,216 @@
+{
+  "id": "2026-11-07-ueno-banco-paraguay",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "ueno, el banco digital más grande de Paraguay, fue intervenido por falta de capital en noviembre de 2026",
+  "pregunta_principal": "¿Crecer rápido vale la pena si no tienes con qué respaldarlo?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Uno de cada tres paraguayos tenía cuenta en ueno, el banco digital más grande del país. El tres de noviembre, el Banco Central tomó el control.",
+      "imagenes": [
+        {
+          "busqueda": "Asunción Paraguay skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Banco Central del Paraguay",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tres",
+        "control"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "1 de 3",
+          "etiqueta": "paraguayos tenía cuenta en ueno",
+          "icono": "celular"
+        }
+      ],
+      "titulo": "El banco de 1 de cada 3"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "ueno creció rapidísimo. Se volvió el mayor emisor de tarjetas de crédito del país y en marzo de 2026 hizo la mayor emisión de bonos corporativos en la historia de Paraguay.",
+      "imagenes": [
+        {
+          "busqueda": "credit cards",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "smartphone banking app",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "rapidísimo",
+        "bonos"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "celular",
+              "texto": "Banco 100% digital"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Mayor emisor de tarjetas"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Bonos récord en 2026"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Pero según el Banco Central, el banco prestaba demasiado a empresas ligadas a sus propios dueños. [pause] En junio le advirtió. Y en octubre, Fitch puso su perspectiva en negativo por el rápido crecimiento de su balance.",
+      "imagenes": [
+        {
+          "busqueda": "bank vault door",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "financial documents",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "dueños",
+        "negativo"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Préstamos a empresas de sus [[dueños]]",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[sighs] Su capital cayó por debajo de la mitad del mínimo legal y el Banco Central lo intervino. La fiscalía abrió una investigación y el presidente del Banco Central renunció.",
+      "imagenes": [
+        {
+          "busqueda": "Banco Central del Paraguay building",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Paraguayan guaraní banknotes",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mitad",
+        "renunció"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "Mínimo",
+            "texto": "capital exigido por ley",
+            "icono": "documentos"
+          },
+          "despues": {
+            "valor": "<50%",
+            "texto": "lo que tenía ueno",
+            "icono": "grafica_baja"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Crecer rápido no sirve de nada si el dinero no está bien respaldado. Y cuando el dinero de tus clientes termina financiando a tus propios socios, la confianza puede romperse en un día.",
+      "imagenes": [
+        {
+          "busqueda": "Asunción Paraguay",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "respaldado",
+        "confianza"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Sin respaldo, la confianza se rompe en [[un día]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú preferirías crecer más rápido o crecer más seguro? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Paraguay flag",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "seguro",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Más rápido o más [[seguro]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Uno de cada tres paraguayos tenía cuenta en ueno, el banco digital más grande del país. El 3 de noviembre de 2026, el Banco Central lo intervino: su capital cayó por debajo de la mitad del mínimo legal.\n\nSegún el regulador, el banco prestaba demasiado a empresas ligadas a sus dueños. La fiscalía investiga. Los depósitos están garantizados hasta 228 millones de guaraníes por persona.\n\n¿Tú preferirías crecer más rápido o crecer más seguro?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#paraguay",
+    "#ueno",
+    "#bancos",
+    "#finanzas",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Intervención del 3 de noviembre de 2026; solvencia por debajo del 50% del mínimo; unos 2,6 millones de clientes, uno de cada tres paraguayos; mayor emisor de tarjetas de crédito; mayor emisión de bonos corporativos de la historia de Paraguay en marzo de 2026; investigación fiscal; renuncia del presidente del Banco Central; garantía de 228 millones de guaraníes",
+      "url": "https://www.bloomberglinea.com/latinoamerica/paraguay-interviene-el-banco-ueno-por-falta-de-capital-y-renuncia-el-presidente-del-banco-central/"
+    },
+    {
+      "afirmacion": "El Banco Central le advirtió en junio que prestaba demasiado a empresas ligadas a sus dueños; Fitch cambió la perspectiva a negativa por el rápido crecimiento del balance; solvencia por debajo de la mitad del mínimo legal; renuncia de Carvallo; garantía de unos 38.000 dólares por persona",
+      "url": "https://www.ksat.com/business/2026/11/03/paraguay-seizes-major-digital-bank-tied-to-president-leaving-millions-of-customers-in-limbo/"
+    },
+    {
+      "afirmacion": "Documentos del Banco Central señalaron un exceso de préstamos a empresas vinculadas al Grupo Vázquez; caída de los bonos 2031",
+      "url": "https://www.larepublica.co/globoeconomia/banco-paraguayo-ueno-busca-reforzar-capital-ante-caida-de-sus-bonos-4515873"
+    }
+  ]
+}
