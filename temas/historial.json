@@ -238,5 +238,45 @@
       "Luis von Ahn",
       "Duolingo"
     ]
+  },
+  {
+    "id": "2026-11-07-airbnb-cajas-de-cereal",
+    "tema": "Los fundadores de Airbnb vendieron cajas de cereal para no cerrar",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Airbnb",
+      "Brian Chesky"
+    ]
+  },
+  {
+    "id": "2026-11-07-carlos-slim-crisis-1982",
+    "tema": "Carlos Slim compró empresas en la crisis de 1982, cuando todos sacaban su dinero de México",
+    "pilar": "biografias",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Carlos Slim",
+      "Telmex"
+    ]
+  },
+  {
+    "id": "2026-11-07-costco-perro-caliente",
+    "tema": "Costco mantiene su combo de perro caliente a 1,50 dólares desde 1985",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Costco",
+      "Jim Sinegal"
+    ]
+  },
+  {
+    "id": "2026-11-07-instagram-burbn",
+    "tema": "Instagram nació de cortar casi todo de Burbn, una app de check-ins que no funcionaba",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "Instagram",
+      "Kevin Systrom"
+    ]
   }
 ]

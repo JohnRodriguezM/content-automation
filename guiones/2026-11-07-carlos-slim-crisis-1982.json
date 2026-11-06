@@ -1,0 +1,220 @@
+{
+  "id": "2026-11-07-carlos-slim-crisis-1982",
+  "pilar": "biografias",
+  "narrador": "sebas",
+  "tema": "Carlos Slim compró empresas en la crisis de 1982, cuando todos sacaban su dinero de México",
+  "pregunta_principal": "¿Qué haces cuando todos están huyendo?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] En 1982, México estaba en crisis y muchos inversionistas sacaban su dinero del país. Un hombre hizo lo contrario: se puso a comprar.",
+      "imagenes": [
+        {
+          "busqueda": "Carlos Slim",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Mexico City 1980s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "crisis",
+        "comprar"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "Todos",
+            "texto": "sacaban su dinero",
+            "icono": "grafica_baja"
+          },
+          "despues": {
+            "valor": "Slim",
+            "texto": "se puso a comprar",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "titulo": "Comprar cuando todos huyen",
+      "rotulo": "Carlos Slim"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Había devaluación, inflación y tasas de interés altísimas. Muchas empresas necesitaban dinero urgente y se vendían muy por debajo de lo que valían.",
+      "imagenes": [
+        {
+          "busqueda": "Mexican peso coins",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Bolsa Mexicana de Valores",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "devaluación",
+        "debajo"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "grafica_baja",
+              "texto": "Devaluación"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Inflación"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Empresas en venta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Carlos Slim compró. [pause] Seguros de México por unos trece millones de dólares, la cadena Sanborns por unos treinta millones y participaciones en otras empresas golpeadas por la crisis.",
+      "imagenes": [
+        {
+          "busqueda": "Casa de los Azulejos",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Sanborns Mexico",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "compró",
+        "Sanborns"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$13M",
+          "etiqueta": "Seguros de México, 1984",
+          "icono": "documentos"
+        },
+        {
+          "tipo": "dato",
+          "valor": "$30M",
+          "etiqueta": "Sanborns, 1985",
+          "icono": "edificio"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Cuando la economía se recuperó, esas empresas valían mucho más. [excited] Y en 1990, un consorcio liderado por Slim ganó el control de Telmex, la telefónica del Estado, por cerca de mil ochocientos millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "Torre Telmex",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Telmex",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "recuperó",
+        "Telmex"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "1990",
+          "etiqueta": "gana el control de Telmex",
+          "icono": "celular"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] En una crisis, el miedo baja los precios de todo, también de lo que sigue teniendo valor. La pregunta no es si hay crisis, sino qué sigue valiendo cuando pase.",
+      "imagenes": [
+        {
+          "busqueda": "Mexico City skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "miedo",
+        "valiendo"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué sigue [[valiendo]] cuando pase?",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú qué haces cuando todos están huyendo? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Paseo de la Reforma",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "huyendo",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué haces cuando todos [[huyen]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "En la crisis de 1982, muchos inversionistas sacaban su dinero de México. Carlos Slim hizo lo contrario: compró Seguros de México, la cadena Sanborns y participaciones en empresas golpeadas por la crisis.\n\nCuando la economía se recuperó, valían mucho más. En 1990, un consorcio liderado por Slim ganó el control de Telmex.\n\n¿Tú qué haces cuando todos están huyendo?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#emprendimiento",
+    "#carlosslim",
+    "#mexico",
+    "#negocios",
+    "#latam",
+    "#historiasdenegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Crisis de 1982 con inflación, tasas altas y devaluación; muchos inversionistas sacaban su dinero; Slim compró Seguros de México en 1984 por 13 millones de dólares y Sanborns en 1985 por unos 30 millones; en 1990 un consorcio liderado por Slim ganó el 51% de Telmex por unos 1.800 millones",
+      "url": "https://www.iprofesional.com/negocios/463351-compraron-empresas-en-crisis-cuando-nadie-las-queria-y-terminaron-haciendo-fortunas"
+    },
+    {
+      "afirmacion": "Tras la crisis de 1982 adquirió más de una docena de empresas en problemas vendidas a precios muy bajos (Cigatam, Sanborns, Nanocobre); a finales de 1990 ganó la licitación de Telmex por casi 1.800 millones de dólares",
+      "url": "https://www.revistaeyn.com/empresasymanagement/como-tejio-su-fortuna-carlos-slim-MUEN1346381"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": "2026-11-07-costco-perro-caliente",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "Costco mantiene su combo de perro caliente a 1,50 dólares desde 1985",
+  "pregunta_principal": "¿Qué promesa de tu negocio nunca romperías?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Desde 1985, el combo de perro caliente y gaseosa de Costco cuesta lo mismo: un dólar con cincuenta. Y uno de sus fundadores amenazó a su propio jefe para que no lo cambiara.",
+      "imagenes": [
+        {
+          "busqueda": "Costco hot dog",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Costco food court",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mismo",
+        "amenazó"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "1985",
+            "texto": "$1,50 el combo",
+            "icono": "reloj"
+          },
+          "despues": {
+            "valor": "Hoy",
+            "texto": "$1,50 el combo",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "titulo": "El combo que no sube"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Con los años, todo subió: la carne, el pan, los salarios. En 2012, el director ejecutivo, Craig Jelinek, le dijo al cofundador Jim Sinegal que estaban perdiendo dinero con cada combo.",
+      "imagenes": [
+        {
+          "busqueda": "Costco warehouse",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Jim Sinegal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "subió",
+        "perdiendo"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "grafica_baja",
+              "texto": "Sube la carne"
+            },
+            {
+              "icono": "grafica_baja",
+              "texto": "Sube el pan"
+            },
+            {
+              "icono": "dinero",
+              "texto": "El precio no se mueve"
+            }
+          ]
+        }
+      ],
+      "rotulo": "Jim Sinegal"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Según contó Jelinek, Sinegal le respondió: [laughs softly] si le subes el precio al perro caliente, te mato. Arréglatelas. [pause] Y se las arreglaron: Costco construyó sus propias plantas de perros calientes.",
+      "imagenes": [
+        {
+          "busqueda": "Costco hot dog combo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "hot dog",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mato",
+        "plantas"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Si subes el precio, te [[mato]]",
+          "icono": "pregunta"
+        },
+        {
+          "tipo": "titulo",
+          "texto": "Plantas [[propias]]",
+          "icono": "edificio"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Sin intermediarios, el combo volvió a dar un rendimiento razonable. [excited] Y el precio sigue en un dólar con cincuenta. Su director financiero llegó a decir que podría quedarse así para siempre.",
+      "imagenes": [
+        {
+          "busqueda": "Costco store",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Costco entrance",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cincuenta",
+        "siempre"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$1,50",
+          "etiqueta": "desde 1985",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Algunos precios no son precios, son promesas. Cuando una promesa se vuelve parte de tu marca, la solución no es romperla, sino cambiar cómo la cumples.",
+      "imagenes": [
+        {
+          "busqueda": "Costco shopping cart",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "promesas",
+        "cumples"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Algunos precios son [[promesas]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué promesa de tu negocio nunca romperías? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Costco sign",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "nunca",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué promesa [[nunca romperías]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Desde 1985, el combo de perro caliente y gaseosa de Costco cuesta 1,50 dólares. En 2012, su CEO le dijo al cofundador Jim Sinegal que estaban perdiendo dinero. Según contó, la respuesta fue: si le subes el precio, te mato. Arréglatelas.\n\nCostco construyó sus propias plantas de perros calientes y el precio no se movió.\n\n¿Qué promesa de tu negocio nunca romperías?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#costco",
+    "#precios",
+    "#estrategia",
+    "#emprendimiento",
+    "#historiasdenegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Combo a 1,50 dólares desde 1985; Jelinek le dijo a Sinegal que perdían dinero; Sinegal le advirtió que no subiera el precio; Costco construyó plantas propias en Los Ángeles y Chicago para obtener un rendimiento justo; el CFO Galanti dijo en 2022 que podría mantenerse para siempre",
+      "url": "https://www.foxbusiness.com/lifestyle/why-costco-hot-dogs-have-kept-1-50-price-tag-since-1985"
+    },
+    {
+      "afirmacion": "Sinegal: \"If you raise the effing hot dog, I will kill you. Figure it out\", dicho en 2012 según Jelinek; combo a 1,50 desde 1985",
+      "url": "https://www.entrepreneur.com/article/436132"
+    }
+  ]
+}

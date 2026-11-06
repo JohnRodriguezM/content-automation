@@ -1,0 +1,213 @@
+{
+  "id": "2026-11-07-airbnb-cajas-de-cereal",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "tema": "Los fundadores de Airbnb vendieron cajas de cereal para no cerrar",
+  "pregunta_principal": "¿Hasta dónde llegarías para mantener vivo tu negocio?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Antes de ser una de las empresas de viajes más grandes del mundo, Airbnb sobrevivió vendiendo cereal. A cuarenta dólares la caja.",
+      "imagenes": [
+        {
+          "busqueda": "Airbnb logo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "breakfast cereal",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cereal",
+        "cuarenta"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$4",
+            "texto": "lo que costaba el cereal",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "$40",
+            "texto": "lo que cobraban por caja",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "titulo": "Salvados por el cereal"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Era 2008. Brian Chesky y sus socios alquilaban colchones inflables en su apartamento de San Francisco. Nadie quería invertir y estaban llenos de deudas en tarjetas de crédito.",
+      "imagenes": [
+        {
+          "busqueda": "Brian Chesky",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "air mattress",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "colchones",
+        "deudas"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Colchones inflables"
+            },
+            {
+              "icono": "pregunta",
+              "texto": "Nadie quería invertir"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Deudas en tarjetas"
+            }
+          ]
+        }
+      ],
+      "rotulo": "Brian Chesky"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Así que aprovecharon las elecciones de Estados Unidos. [laughs softly] Diseñaron dos cereales de edición limitada, Obama O's y Cap'n McCain's, numeraron cada caja y las vendieron a cuarenta dólares.",
+      "imagenes": [
+        {
+          "busqueda": "cereal box",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "cereal bowl",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "elecciones",
+        "cuarenta"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Cereal de [[edición limitada]]",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Recogieron unos treinta mil dólares y mantuvieron viva la empresa. [excited] Y Paul Graham, de Y Combinator, terminó invitándolos a su aceleradora a comienzos de 2009.",
+      "imagenes": [
+        {
+          "busqueda": "Paul Graham",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Y Combinator",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "treinta",
+        "Combinator"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$30.000",
+          "etiqueta": "recogidos vendiendo cereal",
+          "icono": "dinero"
+        }
+      ],
+      "rotulo": "Paul Graham"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] El cereal no tenía nada que ver con alquilar cuartos. Pero demostró algo que ningún inversionista podía ignorar: que no se iban a rendir.",
+      "imagenes": [
+        {
+          "busqueda": "San Francisco apartments",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "rendir"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Demuestra que [[no te vas a rendir]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué harías tú para no cerrar tu negocio? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Airbnb headquarters San Francisco",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cerrar",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué harías para [[no cerrar]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "En 2008, Airbnb estaba quebrado y nadie quería invertir. Sus fundadores diseñaron dos cereales de edición limitada, Obama O's y Cap'n McCain's, y vendieron cada caja a 40 dólares.\n\nRecogieron unos 30.000 dólares y mantuvieron viva la empresa. A comienzos de 2009 entraron a Y Combinator.\n\n¿Qué harías tú para no cerrar tu negocio?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#emprendimiento",
+    "#airbnb",
+    "#startups",
+    "#negocios",
+    "#perseverancia",
+    "#historiasdenegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "En 2008, endeudados, crearon Obama O's y Cap'n McCain's, cajas numeradas de edición limitada a 40 dólares; recogieron 30.000 dólares; Paul Graham los invitó a Y Combinator, donde pasaron los primeros meses de 2009",
+      "url": "https://www.businessinsider.in/tech/how-3-guys-turned-renting-an-air-mattress-in-their-apartment-into-a-25-billion-company/slidelist/51114239.cms"
+    },
+    {
+      "afirmacion": "Chesky acumuló deudas en tarjetas de crédito; cereal Obama O's y Cap'n McCain a 40 dólares; cereal de unos 4 dólares vendido a 40; inversionistas que no quisieron entrar",
+      "url": "https://learn.microsoft.com/en-us/archive/blogs/startup/in-the-struggle-is-the-product-brian-chesky-survived-on-dry-cereal-and-maxed-out-credit-cards-until-someone-got-it"
+    }
+  ]
+}

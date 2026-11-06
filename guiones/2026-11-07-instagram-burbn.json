@@ -1,0 +1,220 @@
+{
+  "id": "2026-11-07-instagram-burbn",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "tema": "Instagram nació de cortar casi todo de Burbn, una app de check-ins que no funcionaba",
+  "pregunta_principal": "¿Qué parte de tu producto es la que de verdad usan?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Instagram empezó como otra app que casi nadie usaba. Y se salvó cuando sus fundadores borraron casi todo.",
+      "imagenes": [
+        {
+          "busqueda": "Instagram logo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Kevin Systrom",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "nadie",
+        "borraron"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Se salvó [[borrando]] casi todo",
+          "icono": "celular"
+        }
+      ],
+      "titulo": "Borrar casi todo",
+      "rotulo": "Kevin Systrom"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Se llamaba Burbn. Servía para hacer check-in en lugares, hacer planes y compartir fotos. Tenía demasiadas funciones y la gente no la entendía.",
+      "imagenes": [
+        {
+          "busqueda": "iPhone 4",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "San Francisco",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Burbn",
+        "demasiadas"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Check-in en lugares"
+            },
+            {
+              "icono": "reloj",
+              "texto": "Planes"
+            },
+            {
+              "icono": "celular",
+              "texto": "Fotos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Pero Kevin Systrom y Mike Krieger notaron algo: lo único que la gente usaba de verdad eran las fotos. [pause] Así que tiraron Burbn y empezaron de nuevo, solo con fotos y filtros.",
+      "imagenes": [
+        {
+          "busqueda": "Mike Krieger",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "smartphone photo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "fotos",
+        "nuevo"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "Burbn",
+            "texto": "muchas funciones",
+            "icono": "documentos"
+          },
+          "despues": {
+            "valor": "Instagram",
+            "texto": "solo fotos",
+            "icono": "camara_digital"
+          }
+        }
+      ],
+      "rotulo": "Mike Krieger"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Instagram salió en octubre de 2010. Veinticinco mil personas se registraron el primer día. [excited] En 2012, con cerca de una docena de empleados, Facebook la compró por mil millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "Instagram app",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Facebook headquarters",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Veinticinco",
+        "mil"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "25.000",
+          "etiqueta": "usuarios el primer día",
+          "icono": "celular"
+        },
+        {
+          "tipo": "dato",
+          "valor": "$1.000M",
+          "etiqueta": "la compra de Facebook en 2012",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] A veces tu producto no necesita más funciones, necesita menos. Mira qué usa la gente de verdad y quédate solo con eso.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone camera",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "menos",
+        "eso"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "No más funciones: [[menos]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué parte de tu producto es la que de verdad usan? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Instagram",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "usan",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué parte usan [[de verdad]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Instagram empezó como Burbn, una app para hacer check-in, planes y compartir fotos. La gente solo usaba las fotos.\n\nKevin Systrom y Mike Krieger tiraron Burbn y empezaron de nuevo solo con fotos. El primer día se registraron 25.000 personas. En 2012, con cerca de una docena de empleados, Facebook la compró por 1.000 millones de dólares.\n\n¿Qué parte de tu producto es la que de verdad usan?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#tecnologia",
+    "#instagram",
+    "#startups",
+    "#producto",
+    "#emprendimiento",
+    "#historiasdenegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Burbn tenía check-in, planes y fotos; los usuarios compartían fotos y los fundadores la descartaron para empezar de nuevo; lanzamiento el 6 de octubre de 2010; 25.000 usuarios el primer día; cerca de una docena de empleados; compra de Facebook por 1.000 millones",
+      "url": "https://techcrunch.com/2012/04/09/instagram-story-facebook-acquisition/amp/"
+    },
+    {
+      "afirmacion": "Instagram nació de Burbn, una app de check-ins; Systrom y Krieger la redujeron a fotos",
+      "url": "https://en.eloutput.com/social-media/Instagram/instagram-origin-app-burbn/"
+    }
+  ]
+}
