@@ -10,16 +10,14 @@
       "narracion": "[curious] A los veinticuatro años, Mark Hughes empezó a vender productos para bajar de peso desde el baúl de su carro. Ese negocio se convirtió en Herbalife.",
       "imagenes": [
         {
-          "busqueda": "Herbalife",
+          "busqueda": "Herbalife Nutrition Products (cropped)",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "car trunk",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Herbalife_Nutrition_Products_(cropped).jpg?width=1600",
+          "credito": "Foto: Sandstein · CC BY 3.0 · Wikimedia Commons",
+          "licencia": "CC BY 3.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Herbalife_Nutrition_Products_(cropped).jpg"
         }
       ],
       "destacar": [
@@ -52,12 +50,6 @@
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "sepia"
-        },
-        {
-          "busqueda": "Herbalife products",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -79,12 +71,6 @@
       "imagenes": [
         {
           "busqueda": "protein shake",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Herbalife shake",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
@@ -119,12 +105,6 @@
       "narracion": "Creció muy rápido, pero el modelo trajo problemas. En 1985, California lo demandó y las ventas se frenaron. [sighs] Hughes murió en 2000, a los cuarenta y cuatro. Y en 2016 Herbalife pagó doscientos millones de dólares en un acuerdo con la FTC, que la obligó a basar sus pagos en ventas reales a clientes.",
       "imagenes": [
         {
-          "busqueda": "Herbalife headquarters",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "Federal Trade Commission building",
           "fuente": "commons",
           "modo": "completa",
@@ -149,7 +129,7 @@
       "narracion": "La lección es esta. [thoughtful] Si tu negocio gana más por sumar vendedores que por venderle a clientes reales, su crecimiento puede ser frágil. Lo que lo sostiene es que alguien de verdad quiera comprar.",
       "imagenes": [
         {
-          "busqueda": "shopping bag",
+          "busqueda": "Los Angeles skyline",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
@@ -172,10 +152,14 @@
       "narracion": "¿Tu negocio gana por vender o por sumar vendedores? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "Herbalife logo",
+          "busqueda": "Herbalife Nutrition Logo 2016",
           "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Herbalife_Nutrition_Logo_2016.png?width=1600",
+          "credito": "Foto: Herbalife International of America, Inc. · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Herbalife_Nutrition_Logo_2016.png"
         }
       ],
       "destacar": [
