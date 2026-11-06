@@ -1,0 +1,217 @@
+{
+  "id": "2026-11-07-herbalife-mark-hughes",
+  "pilar": "biografias",
+  "narrador": "sebas",
+  "tema": "Mark Hughes fundó Herbalife vendiendo desde el baúl de su carro y la hizo crecer con distribuidores que reclutan a otros",
+  "pregunta_principal": "¿Tu negocio gana por vender o por sumar vendedores?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] A los veinticuatro años, Mark Hughes empezó a vender productos para bajar de peso desde el baúl de su carro. Ese negocio se convirtió en Herbalife.",
+      "imagenes": [
+        {
+          "busqueda": "Herbalife",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "car trunk",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "baúl",
+        "Herbalife"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "1 carro",
+            "texto": "ventas desde el baúl",
+            "icono": "reloj"
+          },
+          "despues": {
+            "valor": "50",
+            "texto": "países hacia 2001",
+            "icono": "edificio"
+          }
+        }
+      ],
+      "titulo": "Desde el baúl de un carro"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Fue en 1980, en Los Ángeles. En el primer año ya había vendido unos dos millones de dólares. Pero no abrió tiendas.",
+      "imagenes": [
+        {
+          "busqueda": "Los Angeles 1980s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        },
+        {
+          "busqueda": "Herbalife products",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1980",
+        "tiendas"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$2M",
+          "etiqueta": "ventas en el primer año",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Su apuesta fue otra: distribuidores independientes que compraban con descuento, revendían y además ganaban un porcentaje por las ventas de las personas que reclutaban. [pause] Cada vendedor buscaba más vendedores.",
+      "imagenes": [
+        {
+          "busqueda": "protein shake",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Herbalife shake",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "reclutaban",
+        "vendedores"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "dinero",
+              "texto": "Compran con descuento"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Revenden el producto"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Ganan por reclutar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Creció muy rápido, pero el modelo trajo problemas. En 1985, California lo demandó y las ventas se frenaron. [sighs] Hughes murió en 2000, a los cuarenta y cuatro. Y en 2016 Herbalife pagó doscientos millones de dólares en un acuerdo con la FTC, que la obligó a basar sus pagos en ventas reales a clientes.",
+      "imagenes": [
+        {
+          "busqueda": "Herbalife headquarters",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Federal Trade Commission building",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1985",
+        "doscientos"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$200M",
+          "etiqueta": "acuerdo con la FTC en 2016",
+          "icono": "grafica_baja"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Si tu negocio gana más por sumar vendedores que por venderle a clientes reales, su crecimiento puede ser frágil. Lo que lo sostiene es que alguien de verdad quiera comprar.",
+      "imagenes": [
+        {
+          "busqueda": "shopping bag",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "clientes",
+        "comprar"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Lo que sostiene es que alguien [[quiera comprar]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tu negocio gana por vender o por sumar vendedores? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Herbalife logo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "vendedores",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Vender o [[sumar vendedores]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "En 1980, a los 24 años, Mark Hughes empezó a vender productos para bajar de peso desde el baúl de su carro. Así nació Herbalife.\n\nNo abrió tiendas: sus distribuidores revendían y ganaban por las ventas de quienes reclutaban. Creció muy rápido, pero en 2016 Herbalife pagó 200 millones de dólares en un acuerdo con la FTC, que la obligó a basar sus pagos en ventas reales a clientes. La empresa dijo que no estaba de acuerdo con muchas de las acusaciones.\n\n¿Tu negocio gana por vender o por sumar vendedores?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#emprendimiento",
+    "#herbalife",
+    "#negocios",
+    "#ventas",
+    "#marketingmultinivel",
+    "#historiasdenegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Fundó Herbalife en febrero de 1980 en Los Ángeles a los 24 años; modelo de distribuidores independientes; murió el 21 de mayo de 2000 a los 44 años",
+      "url": "https://en.wikipedia.org/wiki/Mark_R._Hughes"
+    },
+    {
+      "afirmacion": "Vendía desde el baúl de su carro; unos 2 millones en ventas el primer año; distribuidores compran con descuento y ganan un porcentaje de las ventas de sus reclutas; demanda de California en 1985 y caída de ventas; 50 mercados en 2001",
+      "url": "https://www.fundinguniverse.com/company-histories/herbalife-international-inc-history"
+    },
+    {
+      "afirmacion": "En julio de 2016 Herbalife acordó pagar 200 millones de dólares a la FTC y reestructurarse para que las recompensas se basen en ventas minoristas verificadas; la FTC dijo que el plan premiaba reclutar más que la demanda real; Herbalife dijo que muchas acusaciones eran incorrectas",
+      "url": "https://www.nutraingredients.com/Article/2016/07/15/Herbalife-agrees-to-200-million-fine-restructuring-to-settle-FTC-case/"
+    }
+  ]
+}
