@@ -1,0 +1,212 @@
+{
+  "id": "2026-11-09-chatgpt-publicidad-latam",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "tema": "OpenAI empezó a mostrar publicidad en ChatGPT en más países de Latinoamérica",
+  "pregunta_principal": "¿Pagarías para no ver anuncios o prefieres que sea gratis?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] ChatGPT empezó a mostrar anuncios en Colombia, Perú, Chile, Argentina, Uruguay y Bolivia. Y no es un experimento: es un negocio de mil millones de dólares al año.",
+      "imagenes": [
+        {
+          "busqueda": "ChatGPT logo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "OpenAI logo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "anuncios",
+        "mil"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Llegan los anuncios a [[ChatGPT]]",
+          "icono": "celular"
+        }
+      ],
+      "titulo": "Anuncios en ChatGPT"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "El veintiuno de octubre, OpenAI amplió la publicidad a veintiséis países más. Ya son ochenta y nueve mercados, dieciséis de ellos en Latinoamérica contando México y Brasil.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone screen",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "laptop keyboard",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "veintiséis",
+        "dieciséis"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "89",
+          "etiqueta": "mercados con anuncios en ChatGPT",
+          "icono": "celular"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "La decisión fue cobrarle a los anunciantes para no cobrarle a todos los usuarios. [pause] Los anuncios salen solo a adultos en los planes gratis y Go. Los planes de pago siguen sin publicidad.",
+      "imagenes": [
+        {
+          "busqueda": "online advertising",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "computer screen",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "anunciantes",
+        "pago"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "Gratis",
+            "texto": "con anuncios",
+            "icono": "celular"
+          },
+          "despues": {
+            "valor": "De pago",
+            "texto": "sin anuncios",
+            "icono": "dinero"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[excited] Y el negocio creció rapidísimo. En marzo, su publicidad facturaba a un ritmo de cien millones de dólares al año. En agosto ya iba a mil millones, con más de cien mil anunciantes.",
+      "imagenes": [
+        {
+          "busqueda": "Pioneer Building San Francisco",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "data center",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cien",
+        "mil"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$100M",
+            "texto": "ritmo anual en marzo",
+            "icono": "grafica_baja"
+          },
+          "despues": {
+            "valor": "$1.000M",
+            "texto": "ritmo anual en agosto",
+            "icono": "dinero"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Cuando millones de personas usan tu producto gratis, la publicidad puede pagar la cuenta. Pero cada anuncio también pone a prueba la confianza de tus usuarios.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone in hand",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "publicidad",
+        "confianza"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Gratis también tiene un [[precio]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Pagarías para no ver anuncios o prefieres que sea gratis? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "artificial intelligence",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "anuncios",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Pagas o ves [[anuncios]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "El 21 de octubre, OpenAI llevó la publicidad de ChatGPT a 26 países más, entre ellos Colombia, Perú, Chile, Argentina, Uruguay y Bolivia. Ya son 89 mercados.\n\nLos anuncios salen solo a adultos en los planes gratis y Go. Su publicidad pasó de un ritmo de 100 millones de dólares al año en marzo a 1.000 millones en agosto.\n\n¿Pagarías para no ver anuncios o prefieres que sea gratis?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#tecnologia",
+    "#chatgpt",
+    "#openai",
+    "#publicidad",
+    "#inteligenciaartificial",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "OpenAI amplía la publicidad de ChatGPT a 26 países más, 89 mercados; solo planes Free y Go; más de 100.000 anunciantes",
+      "url": "https://gbm.com/media/noticia/openai-amplia-la-publicidad-de-chatgpt-a-otros-26-paises-con-el-objetivo-de-aumentar-sus-ingresos/"
+    },
+    {
+      "afirmacion": "Países de Latam incluidos (Argentina, Bolivia, Chile, Uruguay, Colombia, Perú); 16 países de Latam con México y Brasil; planes de pago sin anuncios",
+      "url": "https://www.madboxpc.com/openai-chatgpt-ads-anuncios-chile-latinoamerica/"
+    },
+    {
+      "afirmacion": "Ritmo anualizado de 1.000 millones en agosto desde 100 millones en marzo; 89 mercados",
+      "url": "https://www.diariobitcoin.com/argentina/openai-lleva-los-anuncios-de-chatgpt-a-26-paises-mas-y-alcanza-89-mercados/"
+    }
+  ]
+}

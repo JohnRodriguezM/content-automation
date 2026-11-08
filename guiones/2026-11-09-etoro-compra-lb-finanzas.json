@@ -1,0 +1,216 @@
+{
+  "id": "2026-11-09-etoro-compra-lb-finanzas",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "tema": "eToro compró la fintech argentina LB Finanzas para convertir a Argentina en su base en Latinoamérica",
+  "pregunta_principal": "¿Construir desde cero o comprar al que ya está?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Una plataforma global de inversión que administra más de veinte mil millones de dólares eligió a Argentina para entrar a Latinoamérica. Y no empezó de cero.",
+      "imagenes": [
+        {
+          "busqueda": "eToro logo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Rosario Argentina",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Argentina",
+        "cero"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Entrar a Latam [[sin empezar de cero]]",
+          "icono": "celular"
+        }
+      ],
+      "titulo": "Comprar en vez de construir"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Es eToro, que cotiza en Nasdaq. Para operar en un país necesita licencias y clientes, y conseguir eso desde cero puede tomar años.",
+      "imagenes": [
+        {
+          "busqueda": "Nasdaq MarketSite",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "stock trading app",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Nasdaq",
+        "años"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Licencias"
+            },
+            {
+              "icono": "celular",
+              "texto": "Plataforma"
+            },
+            {
+              "icono": "reloj",
+              "texto": "Años de trabajo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El cuatro de noviembre anunció la compra de LB Finanzas, una fintech de Rosario regulada por la CNV y el Banco Central argentino. [pause] Ofrece acciones, criptomonedas y pagos.",
+      "imagenes": [
+        {
+          "busqueda": "Monumento Nacional a la Bandera",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Banco Central de la República Argentina",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "LB",
+        "Rosario"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "dinero",
+              "texto": "Acciones"
+            },
+            {
+              "icono": "celular",
+              "texto": "Criptomonedas"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Pagos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Argentina se vuelve la base regional de eToro. [pause] Es su cuarta compra anunciada en 2026, y no reveló el precio. La operación todavía debe cumplir las condiciones de cierre.",
+      "imagenes": [
+        {
+          "busqueda": "Buenos Aires skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "smartphone finance",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "base",
+        "cuarta"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "4",
+          "etiqueta": "compras anunciadas por eToro en 2026",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] A veces la forma más rápida de entrar a un mercado es comprar a quien ya tiene las licencias, los clientes y la confianza. Construir desde cero no siempre es lo más barato.",
+      "imagenes": [
+        {
+          "busqueda": "Rosario skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "comprar",
+        "barato"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Comprar también es [[estrategia]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú preferirías construir desde cero o comprar al que ya está? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Argentina",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "construir",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Construir o [[comprar]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "El 4 de noviembre, eToro anunció la compra de LB Finanzas, una fintech de Rosario regulada por la CNV y el Banco Central argentino, para convertir a Argentina en su base en Latinoamérica. Es su cuarta compra anunciada en 2026 y no reveló el precio.\n\n¿Construir desde cero o comprar al que ya está?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#tecnologia",
+    "#etoro",
+    "#argentina",
+    "#fintech",
+    "#inversiones",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "eToro compra LB Finanzas de Rosario; Argentina como hub regional; precio no revelado; administra más de 20.000 millones de dólares",
+      "url": "https://www.forbesargentina.com/negocios/firma-administra-us-20000-millones-compra-fintech-argentina-convertir-argentina-su-hub-regional-n101751"
+    },
+    {
+      "afirmacion": "LB regulada por CNV y BCRA; acciones, cripto y pagos; otras compras de eToro en 2026 (Zengo, Bit2C, TradeZero); sujeto a condiciones de cierre",
+      "url": "https://www.financemagnates.com/fintech/etoro-agrees-to-acquire-argentine-fintech-lb-finanzas/"
+    }
+  ]
+}

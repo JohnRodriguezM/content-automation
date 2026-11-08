@@ -1,0 +1,221 @@
+{
+  "id": "2026-11-09-braskem-deuda-petroquimica",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "Braskem, la mayor petroquímica de Latinoamérica, quedó al borde de la recuperación judicial tras el retiro de una oferta de capital",
+  "pregunta_principal": "¿Cuánta deuda es demasiada para tu negocio?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] La petroquímica más grande de Latinoamérica tiene casi once mil millones de dólares de deuda. Y sus dueños acaban de retirar la plata que iba a salvarla.",
+      "imagenes": [
+        {
+          "busqueda": "Braskem logo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Camaçari petrochemical complex",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "once",
+        "retirar"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$10.900M",
+          "etiqueta": "deuda en renegociación",
+          "icono": "grafica_baja"
+        }
+      ],
+      "titulo": "Una deuda de 11.000 millones"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Es Braskem, de Brasil. Petrobras tiene cerca del cuarenta y siete por ciento y el fondo IG4 tomó el control este año. En agosto pidió una recuperación extrajudicial para renegociar su deuda.",
+      "imagenes": [
+        {
+          "busqueda": "Petrobras headquarters",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Braskem plant",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Petrobras",
+        "agosto"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Petrobras, cerca del 47%"
+            },
+            {
+              "icono": "dinero",
+              "texto": "IG4, más del 50% de votos"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Recuperación extrajudicial"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Los acreedores pedían mil ochocientos cincuenta millones de dólares de capital nuevo. [pause] Los accionistas ofrecieron menos, no hubo acuerdo, y el seis de noviembre retiraron su oferta.",
+      "imagenes": [
+        {
+          "busqueda": "New York Stock Exchange",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "chemical plant",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "acreedores",
+        "retiraron"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$1.850M",
+            "texto": "lo que pedían los acreedores",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "Retirada",
+            "texto": "la oferta de los accionistas",
+            "icono": "grafica_baja"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[sighs] Para sacar adelante el plan necesita el apoyo de más de la mitad de la deuda, y tenía menos del cuarenta por ciento. Si no lo logra, la recuperación judicial vuelve a estar sobre la mesa.",
+      "imagenes": [
+        {
+          "busqueda": "Braskem Camaçari",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "industrial pipes",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mitad",
+        "judicial"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "39,6%",
+          "etiqueta": "de la deuda había firmado",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Cuando debes demasiado, ya no decides tú: deciden tus acreedores. La deuda te da velocidad, pero también le entrega el volante a otros.",
+      "imagenes": [
+        {
+          "busqueda": "oil refinery",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "acreedores",
+        "volante"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Con mucha deuda, deciden [[tus acreedores]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Cuánta deuda es demasiada para tu negocio? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Bahia Brazil",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "deuda",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Cuánta deuda es [[demasiada]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Braskem, la mayor petroquímica de Latinoamérica, renegocia cerca de 10.900 millones de dólares de deuda. Los acreedores pedían 1.850 millones de capital nuevo; Petrobras e IG4 ofrecieron menos y el 6 de noviembre retiraron su oferta. Necesita el apoyo de más de la mitad de la deuda y tenía 39,6%.\n\n¿Cuánta deuda es demasiada para tu negocio?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#braskem",
+    "#brasil",
+    "#petrobras",
+    "#deuda",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Unos 10.900 millones de dólares en la recuperación extrajudicial; acreedores con 39,6% habían firmado y se necesita más del 50%",
+      "url": "https://eixos.com.br/empresas/plano-da-braskem-escala-petrobras-como-garantidora-com-acordo-bilionario-para-nafta/"
+    },
+    {
+      "afirmacion": "FIP Shine de IG4 con 50,11% del capital votante y Petrobras con cerca de 47%",
+      "url": "https://investnews.com.br/negocios/fip-shine-conclui-aquisicao-de-acoes-e-assume-mais-de-50-de-votos-na-braskem/amp/"
+    },
+    {
+      "afirmacion": "Acreedores bajaron su pedido de 3.000 a 1.850 millones de capital nuevo",
+      "url": "https://exame.com/insight/credores-da-braskem-dao-mais-prazo-para-acordo-e-pedem-aporte-de-us-185-bilhao/p"
+    },
+    {
+      "afirmacion": "El 6 de noviembre Petrobras e IG4 retiraron su propuesta de aporte tras el impasse con los acreedores",
+      "url": "https://investnews.com.br/negocios/braskem-petrobras-e-ig4-retiram-proposta-de-aporte-apos-impasse-com-credores/"
+    }
+  ]
+}

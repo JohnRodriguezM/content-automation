@@ -1,0 +1,220 @@
+{
+  "id": "2026-11-09-pix-credito-banco-central",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "tema": "El Banco Central de Brasil le puso freno al crédito dentro de Pix para evitar el sobreendeudamiento",
+  "pregunta_principal": "¿Tu producto le facilita la vida al cliente o lo mete en problemas?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] En Brasil, pedir un préstamo se volvió tan fácil como hacer un Pix. Y el Banco Central decidió ponerle freno.",
+      "imagenes": [
+        {
+          "busqueda": "Pix logo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Banco Central do Brasil",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "fácil",
+        "freno"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Crédito con un [[clic]]",
+          "icono": "celular"
+        }
+      ],
+      "titulo": "Frenan el crédito en Pix"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Bancos y fintechs ofrecían crédito en el mismo momento del pago. Mientras tanto, la morosidad de los hogares crecía y millones de brasileños estaban sobreendeudados.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone payment",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Brasília",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "pago",
+        "sobreendeudados"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "celular",
+              "texto": "Pagas con Pix"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Te ofrecen crédito"
+            },
+            {
+              "icono": "grafica_baja",
+              "texto": "Sube la deuda"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El veintitrés de octubre aprobó nuevas reglas. [pause] Para ofrecer crédito dentro de un Pix, el cliente tiene que aceptarlo antes y esperar veinticuatro horas. Y el préstamo no puede pasar del valor del pago.",
+      "imagenes": [
+        {
+          "busqueda": "Gabriel Galípolo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Banco Central do Brasil headquarters",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "aceptarlo",
+        "veinticuatro"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Aceptación previa"
+            },
+            {
+              "icono": "reloj",
+              "texto": "Espera de 24 horas"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Tope: el valor del Pix"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Además, los bancos tendrán que alertar al cliente cuando sus cuotas lleguen al cuarenta por ciento de lo que puede pagar al mes. [sighs] Bancos y fintechs tendrán que rehacer cómo venden crédito antes de 2027.",
+      "imagenes": [
+        {
+          "busqueda": "bank card",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "calculator",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cuarenta",
+        "2027"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "40%",
+          "etiqueta": "de la capacidad de pago activa la alerta",
+          "icono": "grafica_baja"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Quitarle fricción a un producto no siempre es bueno. Cuando lo que vendes puede hacerle daño al cliente, un poco de fricción también lo protege a él, y a tu negocio.",
+      "imagenes": [
+        {
+          "busqueda": "São Paulo skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "fricción",
+        "protege"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Un poco de fricción también [[protege]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tu producto le facilita la vida al cliente o lo mete en problemas? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Pix QR code",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "problemas",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Le ayudas o lo [[endeudas]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "En Brasil, pedir crédito se volvió tan fácil como hacer un Pix. El 23 de octubre, el Banco Central aprobó reglas nuevas: el cliente debe aceptar antes el crédito dentro de Pix y esperar 24 horas, el préstamo no puede superar el valor del pago y los bancos deberán alertar cuando las cuotas lleguen al 40% de su capacidad de pago.\n\n¿Tu producto le facilita la vida al cliente o lo mete en problemas?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#tecnologia",
+    "#pix",
+    "#brasil",
+    "#fintech",
+    "#credito",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Resoluciones del BC: crédito en Pix requiere opt-in previo con espera de 24 horas, no puede superar el valor del Pix; alertas al llegar al 40% de la capacidad de pago",
+      "url": "https://www.bahianoticias.com.br/folha/noticia/414377-bc-define-regra-para-pix-no-credito-e-cria-alertas-contra-endividamento"
+    },
+    {
+      "afirmacion": "Resoluciones BCB 601, 602 y 603 de 2026; vigencia en 2027; nuevas trabas a la oferta de crédito",
+      "url": "https://cescon.com.br/resolucoes-bcb-no-601-602-e-603-2026-novas-travas-para-a-oferta-de-credito/"
+    },
+    {
+      "afirmacion": "Alerta al 40% de la capacidad de pago; aumento del sobreendeudamiento",
+      "url": "https://ncnews.com.br/2026/11/03/banco-central-anuncia-novas-regras-para-pix-no-credito-e-faz-alerta-contra-dividas/"
+    }
+  ]
+}

@@ -298,5 +298,101 @@
       "Herbalife",
       "Mark Hughes"
     ]
+  },
+  {
+    "id": "2026-11-09-tractian-unicornio-ia",
+    "tema": "Tractian, la startup brasileña de IA industrial que mudó su sede a Atlanta y se volvió unicornio",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "Tractian"
+    ]
+  },
+  {
+    "id": "2026-11-09-chatgpt-publicidad-latam",
+    "tema": "OpenAI empezó a mostrar publicidad en ChatGPT en más países de Latinoamérica",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "OpenAI",
+      "ChatGPT"
+    ]
+  },
+  {
+    "id": "2026-11-09-pix-credito-banco-central",
+    "tema": "El Banco Central de Brasil le puso freno al crédito dentro de Pix para evitar el sobreendeudamiento",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "Banco Central do Brasil",
+      "Pix"
+    ]
+  },
+  {
+    "id": "2026-11-09-mercado-libre-vende-mas-gana-menos",
+    "tema": "Mercado Libre vendió 45% más en el tercer trimestre pero su margen cayó por apostar al envío gratis",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Mercado Libre"
+    ]
+  },
+  {
+    "id": "2026-11-09-televisa-compra-att-mexico",
+    "tema": "Televisa y Fintech acordaron comprar AT&T México por 2.000 millones de dólares",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Televisa",
+      "AT&T"
+    ]
+  },
+  {
+    "id": "2026-11-09-codelco-produccion-inflada",
+    "tema": "Codelco reconoció 42.100 toneladas de cobre registradas de forma indebida y despidió a ocho ejecutivos",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Codelco"
+    ]
+  },
+  {
+    "id": "2026-11-09-braskem-deuda-petroquimica",
+    "tema": "Braskem, la mayor petroquímica de Latinoamérica, quedó al borde de la recuperación judicial tras el retiro de una oferta de capital",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Braskem",
+      "Petrobras"
+    ]
+  },
+  {
+    "id": "2026-11-09-tecnoglass-aranceles",
+    "tema": "Tecnoglass tuvo ventas récord pero su utilidad cayó a la mitad por los aranceles de Estados Unidos",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Tecnoglass"
+    ]
+  },
+  {
+    "id": "2026-11-09-cobre-panama-mina",
+    "tema": "Una comisión del gobierno de Panamá recomendó negociar la reapertura de Cobre Panamá para financiar su cierre ordenado",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Cobre Panamá",
+      "First Quantum"
+    ]
+  },
+  {
+    "id": "2026-11-09-etoro-compra-lb-finanzas",
+    "tema": "eToro compró la fintech argentina LB Finanzas para convertir a Argentina en su base en Latinoamérica",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "eToro",
+      "LB Finanzas"
+    ]
   }
 ]

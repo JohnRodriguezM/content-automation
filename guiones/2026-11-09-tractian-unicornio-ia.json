@@ -1,0 +1,217 @@
+{
+  "id": "2026-11-09-tractian-unicornio-ia",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "tema": "Tractian, la startup brasileña de IA industrial que mudó su sede a Atlanta y se volvió unicornio",
+  "pregunta_principal": "¿Dónde está el mercado más grande para lo que vendes?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Una startup brasileña que empezó prestando sensores a fábricas acaba de convertirse en la empresa de inteligencia artificial más valiosa de Latinoamérica.",
+      "imagenes": [
+        {
+          "busqueda": "Tractian",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "industrial machine sensor",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "sensores",
+        "valiosa"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$1.400M",
+          "etiqueta": "valoración de Tractian",
+          "icono": "dinero"
+        }
+      ],
+      "titulo": "El nuevo unicornio de IA"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Se llama Tractian. La fundaron en 2019 compañeros de ingeniería de la Universidad de São Paulo. Sus sensores escuchan las máquinas y la IA avisa antes de que se dañen.",
+      "imagenes": [
+        {
+          "busqueda": "University of São Paulo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "factory machinery",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2019",
+        "dañen"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "bombilla",
+              "texto": "Sensores en las máquinas"
+            },
+            {
+              "icono": "celular",
+              "texto": "IA que predice fallas"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Más de 2.000 plantas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "La decisión clave: mudaron su sede a Atlanta, en Estados Unidos, porque ese era su mercado más grande. [pause] Hoy cerca de la mitad de sus ingresos vienen de fuera de Brasil.",
+      "imagenes": [
+        {
+          "busqueda": "Atlanta skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "industrial plant interior",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Atlanta",
+        "mitad"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "Brasil",
+            "texto": "donde nació",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "Atlanta",
+            "texto": "donde está su sede",
+            "icono": "dinero"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[excited] El veintidós de octubre anunció una ronda de ciento treinta millones de dólares, liderada por Sapphire Ventures, con una valoración de mil cuatrocientos millones.",
+      "imagenes": [
+        {
+          "busqueda": "Sapphire Ventures",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Y Combinator",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ciento",
+        "cuatrocientos"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$130M",
+          "etiqueta": "ronda Serie D, octubre de 2026",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Nacer en Latinoamérica no te obliga a vender solo en Latinoamérica. Si tu cliente más grande está en otro país, a veces hay que irse a vivir donde está.",
+      "imagenes": [
+        {
+          "busqueda": "São Paulo skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "obliga",
+        "está"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Vete a vivir donde está [[tu cliente]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Dónde está el mercado más grande para lo que vendes? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Atlanta Georgia downtown",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mercado",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Dónde está [[tu mercado]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Tractian nació en 2019 en Brasil prestando sensores a fábricas. Su IA escucha las máquinas y avisa antes de que fallen. Sus fundadores mudaron la sede a Atlanta porque Estados Unidos era su mercado más grande.\n\nEl 22 de octubre levantó 130 millones de dólares y quedó valorada en 1.400 millones: la startup de IA más valiosa de Latinoamérica.\n\n¿Dónde está el mercado más grande para lo que vendes?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#tecnologia",
+    "#tractian",
+    "#brasil",
+    "#startups",
+    "#inteligenciaartificial",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Serie D de 130 millones liderada por Sapphire Ventures con M&G y Y Combinator; valoración de 1.400 millones; la startup de IA más valiosa de Latam; más de 700 empleados y 2.000 plantas; cerca de la mitad de ingresos fuera de Brasil",
+      "url": "https://www.bloomberglinea.com.br/startups/tractian-capta-us-130-milhoes-e-se-torna-o-mais-novo-unicornio-de-ia-brasileiro/"
+    },
+    {
+      "afirmacion": "Fundada en 2019 por compañeros de ingeniería de la USP; empezó con sensores prestados a fábricas; sede en Atlanta",
+      "url": "https://braziljournal.com/tractian-vale-us-1-4-bi-e-vira-a-maior-empresa-de-ai-da-america-latina"
+    },
+    {
+      "afirmacion": "Ronda de 130 millones y valoración de 1.400 millones",
+      "url": "https://startups.com.br/negocios/tractian-levanta-us-130m-e-e-novo-unicornio-de-ia-made-in-brazil/"
+    }
+  ]
+}

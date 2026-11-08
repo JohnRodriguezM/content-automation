@@ -1,0 +1,220 @@
+{
+  "id": "2026-11-09-mercado-libre-vende-mas-gana-menos",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "Mercado Libre vendió 45% más en el tercer trimestre pero su margen cayó por apostar al envío gratis",
+  "pregunta_principal": "¿Sacrificarías ganancia hoy para ganar clientes mañana?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Mercado Libre vendió cuarenta y cinco por ciento más que hace un año. Y aun así, su acción cayó.",
+      "imagenes": [
+        {
+          "busqueda": "Mercado Libre logo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Mercado Libre",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cuarenta",
+        "cayó"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "+45%",
+            "texto": "ingresos",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "Acción",
+            "texto": "cayó tras el reporte",
+            "icono": "grafica_baja"
+          }
+        }
+      ],
+      "titulo": "Vende más, gana menos"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "El cuatro de noviembre presentó resultados: ingresos de diez mil setecientos cincuenta millones de dólares. Pero la ganancia operativa bajó de setecientos veinticuatro a seiscientos setenta y seis millones.",
+      "imagenes": [
+        {
+          "busqueda": "Mercado Libre office",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "cardboard boxes warehouse",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "diez",
+        "bajó"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$10.750M",
+          "etiqueta": "ingresos del tercer trimestre",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "¿Por qué? Porque decidió sacrificar margen. [pause] Bajó el mínimo de compra para el envío gratis, abrió nuevos centros logísticos antes de la temporada alta y gastó más en marketing en Brasil.",
+      "imagenes": [
+        {
+          "busqueda": "Mercado Libre Boeing 737",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "delivery van",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "margen",
+        "logísticos"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "dinero",
+              "texto": "Envío gratis más fácil"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Nuevos centros logísticos"
+            },
+            {
+              "icono": "celular",
+              "texto": "Más marketing en Brasil"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[sighs] Su margen operativo pasó de nueve punto ocho a seis punto tres por ciento. Y la acción cayó más de seis por ciento después del reporte.",
+      "imagenes": [
+        {
+          "busqueda": "stock market screen",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Mercado Pago logo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "seis",
+        "cayó"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "9,8%",
+            "texto": "margen hace un año",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "6,3%",
+            "texto": "margen ahora",
+            "icono": "grafica_baja"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Crecer en ventas no es lo mismo que crecer en ganancias. A veces vale la pena comprar clientes con margen, pero tienes que saber cuánto te cuesta y hasta cuándo.",
+      "imagenes": [
+        {
+          "busqueda": "Buenos Aires skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ganancias",
+        "cuándo"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Ventas no es igual a [[ganancias]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Sacrificarías ganancia hoy para ganar clientes mañana? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Mercado Libre warehouse",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mañana",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Ganancia hoy o [[clientes mañana]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Mercado Libre vendió 45% más en el tercer trimestre: 10.750 millones de dólares. Pero su ganancia operativa bajó y el margen pasó de 9,8% a 6,3%, porque decidió apostar por el envío gratis, nuevos centros logísticos y más marketing en Brasil. La acción cayó más de 6% tras el reporte.\n\n¿Sacrificarías ganancia hoy para ganar clientes mañana?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#mercadolibre",
+    "#ecommerce",
+    "#estrategia",
+    "#emprendimiento",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Ingresos de 10.750 millones (+45%); ganancia neta de 448 millones; ganancia operativa de 676 millones frente a 724; margen de 9,8% a 6,3%; menor mínimo para envío gratis",
+      "url": "https://www.forbesargentina.com/negocios/nuevo-balance-mercado-libre-crece-facturacion-pero-accion-cae-8-n101777"
+    },
+    {
+      "afirmacion": "Caída de 6,4% de la acción; más envíos gratis, nuevos centros logísticos y más marketing de afiliados en Brasil",
+      "url": "https://www.rankia.com.ar/noticias/cedears/7540415-mercadolibre-gano-usd-448-millones-3t-2026-accion-cae-6-4-que-pasa-cedear-meli"
+    }
+  ]
+}

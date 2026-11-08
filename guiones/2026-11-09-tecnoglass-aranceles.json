@@ -1,0 +1,212 @@
+{
+  "id": "2026-11-09-tecnoglass-aranceles",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "Tecnoglass tuvo ventas récord pero su utilidad cayó a la mitad por los aranceles de Estados Unidos",
+  "pregunta_principal": "¿Qué pasaría con tu negocio si tu mayor cliente cambia las reglas?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Una empresa colombiana tuvo las ventas más altas de su historia. Y aun así, ganó la mitad.",
+      "imagenes": [
+        {
+          "busqueda": "Tecnoglass",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Barranquilla skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "historia",
+        "mitad"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "+19%",
+            "texto": "ventas récord",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "-52%",
+            "texto": "utilidad neta",
+            "icono": "grafica_baja"
+          }
+        }
+      ],
+      "titulo": "Récord en ventas, mitad de utilidad"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Es Tecnoglass, de Barranquilla, que fabrica ventanas y fachadas de vidrio y aluminio. Casi todo lo que vende va para Estados Unidos.",
+      "imagenes": [
+        {
+          "busqueda": "glass curtain wall",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Port of Barranquilla",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Barranquilla",
+        "Estados"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Ventanas y fachadas"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Vidrio y aluminio"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Mercado: Estados Unidos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Cuando Estados Unidos subió los aranceles al aluminio, Tecnoglass decidió no salirse de ese mercado. [pause] Respondió subiendo precios y automatizando su producción.",
+      "imagenes": [
+        {
+          "busqueda": "aluminium window",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "factory automation",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "aranceles",
+        "automatizando"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Subir precios y [[automatizar]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En el tercer trimestre vendió trescientos diez millones de dólares, un récord. [sighs] Pero los aranceles le costaron unos quince millones y medio, el peso se fortaleció y su utilidad cayó cincuenta y dos por ciento.",
+      "imagenes": [
+        {
+          "busqueda": "aluminium",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Colombian peso banknotes",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "récord",
+        "cincuenta"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$15,5M",
+          "etiqueta": "costo de los aranceles en el trimestre",
+          "icono": "grafica_baja"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Depender de un solo mercado puede llevarte muy alto, pero también te deja expuesto a decisiones que no controlas. Vender más no te protege si no controlas tu margen.",
+      "imagenes": [
+        {
+          "busqueda": "skyscraper glass facade",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "solo",
+        "margen"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Un solo mercado, un solo [[riesgo]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué pasaría con tu negocio si tu mayor cliente cambia las reglas? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Barranquilla",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "reglas",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Y si tu cliente [[cambia las reglas]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Tecnoglass, de Barranquilla, vendió 310,6 millones de dólares en el tercer trimestre, un récord (+19,2%). Pero su utilidad neta cayó 51,8%, a 22,8 millones: los aranceles de Estados Unidos al aluminio le costaron unos 15,5 millones y el peso se fortaleció. Casi todas sus ventas van a Estados Unidos.\n\n¿Qué pasaría con tu negocio si tu mayor cliente cambia las reglas?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#tecnoglass",
+    "#colombia",
+    "#aranceles",
+    "#exportaciones",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Ventas récord de 310,6 millones (+19,2%); utilidad neta de 22,8 millones (-51,8%)",
+      "url": "https://www.larepublica.co/empresas/tecnoglass-logro-ventas-de-us-310-6-millones-en-el-tercer-trimestre-pero-su-utilidad-cayo-51-8-4518156"
+    },
+    {
+      "afirmacion": "Unos 15,5 millones en costos por aranceles de Estados Unidos al aluminio; margen bruto de 42,7% a 34,1%; apreciación del peso; alzas de precios y automatización",
+      "url": "https://www.valoraanalitik.com/?p=621359"
+    }
+  ]
+}

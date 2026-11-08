@@ -1,0 +1,205 @@
+{
+  "id": "2026-11-09-televisa-compra-att-mexico",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "Televisa y Fintech acordaron comprar AT&T México por 2.000 millones de dólares",
+  "pregunta_principal": "¿Vale la pena quedarte en un mercado donde no eres el número uno?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] AT&T, uno de los gigantes de las telecomunicaciones, se va de México. Y quien se quedaría con su negocio es Televisa.",
+      "imagenes": [
+        {
+          "busqueda": "AT&T logo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Televisa Santa Fe",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "AT&T",
+        "Televisa"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "AT&T se va de [[México]]",
+          "icono": "celular"
+        }
+      ],
+      "titulo": "AT&T se va de México"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "AT&T llegó a México en 2014. Se convirtió en el segundo operador móvil del país, con unos veinticuatro millones de usuarios, pero nunca logró alcanzar al líder.",
+      "imagenes": [
+        {
+          "busqueda": "Mexico City skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "cell tower",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2014",
+        "segundo"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "24,7M",
+          "etiqueta": "suscriptores de AT&T México",
+          "icono": "celular"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El trece de octubre anunció la venta. [pause] Un consorcio de Grupo Televisa y Fintech, la firma de inversión de David Martínez, acordó comprar el cien por ciento de AT&T México por dos mil millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "Grupo Televisa",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Paseo de la Reforma",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "consorcio",
+        "dos"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$2.000M",
+          "etiqueta": "precio acordado",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Televisa, dueña de Izzi, sumaría el segundo operador móvil a su negocio de internet y televisión. [pause] La compra todavía necesita la aprobación del regulador y se cerraría a comienzos de 2027.",
+      "imagenes": [
+        {
+          "busqueda": "fiber optic cable",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Mexico City Santa Fe",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Izzi",
+        "aprobación"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "tv",
+              "texto": "Televisión"
+            },
+            {
+              "icono": "bombilla",
+              "texto": "Internet con Izzi"
+            },
+            {
+              "icono": "celular",
+              "texto": "Telefonía móvil"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Ser el segundo sin la escala del primero puede no alcanzar. Hasta un gigante global se va de un mercado donde nunca logró una posición ganadora.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "segundo",
+        "ganadora"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Ser segundo sin escala [[no alcanza]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Vale la pena quedarte en un mercado donde no eres el número uno? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Mexico City at night",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "uno",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Te quedas si no eres [[el número uno]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "AT&T se va de México. El 13 de octubre, un consorcio de Grupo Televisa y Fintech, la firma de David Martínez, acordó comprar el 100% de AT&T México por 2.000 millones de dólares. AT&T llegó en 2014 y se volvió el segundo operador móvil, con unos 24,7 millones de suscriptores. La compra está pendiente de aprobación y se cerraría a comienzos de 2027.\n\n¿Vale la pena quedarte en un mercado donde no eres el número uno?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#televisa",
+    "#att",
+    "#mexico",
+    "#telecomunicaciones",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Consorcio 50/50 de Televisa y Fintech compra AT&T México por 2.000 millones sujeto a ajustes; 24,7 millones de suscriptores; segundo operador móvil",
+      "url": "https://gbm.com/media/noticia/mexicano-grupo-televisa-comprara-filial-de-att-en-mexico-por-2000-mln-dlr/"
+    },
+    {
+      "afirmacion": "AT&T llegó a México en 2014; pendiente de revisión regulatoria; cierre esperado en el primer trimestre de 2027",
+      "url": "https://www.telesemana.com/blog/2026/10/13/televisa-y-el-fondo-fintech-compran-att-mexico-por-us-2-000-millones-para-ganar-escala-en-el-negocio-movil/"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "id": "2026-11-09-cobre-panama-mina",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "Una comisión del gobierno de Panamá recomendó negociar la reapertura de Cobre Panamá para financiar su cierre ordenado",
+  "pregunta_principal": "¿Tu negocio tiene el permiso de la gente, además del permiso legal?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Panamá tiene una de las minas de cobre más grandes del mundo cerrada desde 2023. Y ahora le recomiendan reabrirla… para poder cerrarla.",
+      "imagenes": [
+        {
+          "busqueda": "Cobre Panamá",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "First Quantum Minerals",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cerrada",
+        "cerrarla"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Reabrir para [[cerrar]]",
+          "icono": "pregunta"
+        }
+      ],
+      "titulo": "Reabrir para cerrar"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Cobre Panamá es de First Quantum. Antes de cerrarse, era cerca del cuarenta por ciento de los ingresos de la empresa. En 2023 hubo protestas y la Corte declaró inconstitucional su contrato.",
+      "imagenes": [
+        {
+          "busqueda": "copper mine",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Panama City skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cuarenta",
+        "inconstitucional"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "40%",
+          "etiqueta": "de los ingresos de First Quantum",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El treinta de septiembre, una comisión de tres ministros recomendó negociar un reinicio. [pause] Con fecha fija de cierre, sin expansión, y con la condición de terminar los arbitrajes contra el país. La decisión final es del presidente.",
+      "imagenes": [
+        {
+          "busqueda": "José Raúl Mulino",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Palacio de las Garzas",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "reinicio",
+        "presidente"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "reloj",
+              "texto": "Fecha fija de cierre"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Sin expansión"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Fin de los arbitrajes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[sighs] Los reclamos en arbitraje suman unos veintisiete mil millones de dólares, sin fallo todavía. Y según un estudio del gobierno, el cierre afecta unos treinta y seis mil empleos.",
+      "imagenes": [
+        {
+          "busqueda": "copper ore",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Donoso Panama",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "veintisiete",
+        "treinta"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$27.000M",
+          "etiqueta": "en reclamos de arbitraje",
+          "icono": "grafica_baja"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Un contrato firmado no basta si la sociedad lo rechaza. La licencia social para operar también es un activo, y perderla puede costar miles de millones.",
+      "imagenes": [
+        {
+          "busqueda": "Panama rainforest",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "sociedad",
+        "activo"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "La licencia social es un [[activo]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tu negocio tiene el permiso de la gente, además del permiso legal? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Panama",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "gente",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Tienes el permiso [[de la gente]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Cobre Panamá, de First Quantum, está cerrada desde 2023. Una comisión de tres ministros recomendó negociar un reinicio para financiar un cierre ordenado: fecha fija de cierre, sin expansión y fin de los arbitrajes, que suman unos 27.000 millones de dólares en reclamos sin fallo. La decisión final es del presidente José Raúl Mulino.\n\n¿Tu negocio tiene el permiso de la gente, además del permiso legal?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#panama",
+    "#mineria",
+    "#cobre",
+    "#firstquantum",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Comisión recomienda negociar el reinicio con First Quantum; reclamos de arbitraje de unos 27.000 millones sin fallo; la mina era cerca del 40% de los ingresos de First Quantum; unos 36.000 empleos según estudio del gobierno",
+      "url": "https://www.mining.com/panama-panel-backs-path-to-cobre-panama-restart/"
+    },
+    {
+      "afirmacion": "17 recomendaciones: fecha fija de cierre, sin expansión y fin de arbitrajes; decisión del presidente Mulino",
+      "url": "https://www.riotimesonline.com/panama-advisers-recommend-full-cobre-mine-closure-2026"
+    },
+    {
+      "afirmacion": "First Quantum espera la decisión del gobierno; producción a partir de mineral acopiado",
+      "url": "https://investing.com/news/transcripts/earnings-call-transcript-first-quantum-minerals-posts-stronger-q3-2026-results-93CH-4989497"
+    }
+  ]
+}

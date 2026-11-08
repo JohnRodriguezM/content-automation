@@ -1,0 +1,213 @@
+{
+  "id": "2026-11-09-codelco-produccion-inflada",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "Codelco reconoció 42.100 toneladas de cobre registradas de forma indebida y despidió a ocho ejecutivos",
+  "pregunta_principal": "¿Qué pasa en tu empresa cuando los bonos premian el número y no la realidad?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] La mayor productora de cobre del mundo reconoció que registró cuarenta y dos mil toneladas de cobre que no debía contar.",
+      "imagenes": [
+        {
+          "busqueda": "Chuquicamata",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Codelco logo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cobre",
+        "cuarenta"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "42.100",
+          "etiqueta": "toneladas registradas indebidamente",
+          "icono": "grafica_baja"
+        }
+      ],
+      "titulo": "El cobre que no existía"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Es Codelco, la minera estatal de Chile. Según la empresa, en 2024 y 2025 hubo registros duplicados en divisiones como Chuquicamata, Ministro Hales y Salvador.",
+      "imagenes": [
+        {
+          "busqueda": "Chuquicamata mine",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Ministro Hales mine",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Codelco",
+        "duplicados"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "2024",
+            "texto": "24.000 toneladas",
+            "icono": "documentos"
+          },
+          "despues": {
+            "valor": "2025",
+            "texto": "18.100 toneladas",
+            "icono": "documentos"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El directorio decidió actuar. [pause] Despidió a ocho ejecutivos y profesionales, ordenó auditorías forenses, llevó el caso a la fiscalía y buscará recuperar los bonos que se pagaron con esas cifras.",
+      "imagenes": [
+        {
+          "busqueda": "Santiago Chile skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "copper cathodes",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Despidió",
+        "bonos"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Auditorías forenses"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Caso a la fiscalía"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Recuperar bonos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[sighs] El ajuste contable podría ser de ciento veinte a ciento cuarenta millones de dólares. Y su presidente advirtió que vienen tiempos difíciles. Las auditorías terminarían en diciembre.",
+      "imagenes": [
+        {
+          "busqueda": "Chuquicamata open pit",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "copper mine Chile",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ciento",
+        "difíciles"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$120-140M",
+          "etiqueta": "posible ajuste contable",
+          "icono": "grafica_baja"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Cuando los bonos dependen de un número, alguien va a tener la tentación de mover el número. Mide lo que de verdad importa y revisa cómo se mide.",
+      "imagenes": [
+        {
+          "busqueda": "copper",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "número",
+        "mide"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Revisa [[cómo se mide]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué pasa en tu empresa cuando los bonos premian el número y no la realidad? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Atacama desert",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "realidad",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿El número o [[la realidad]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Codelco reconoció que registró de forma indebida 42.100 toneladas de cobre en 2024 y 2025. El directorio despidió a ocho ejecutivos y profesionales, ordenó auditorías forenses, llevó el caso a la fiscalía y buscará recuperar bonos pagados con esas cifras. El ajuste contable podría ser de 120 a 140 millones de dólares. Nadie ha sido acusado formalmente.\n\n¿Qué pasa en tu empresa cuando los bonos premian el número y no la realidad?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#codelco",
+    "#chile",
+    "#mineria",
+    "#gobiernocorporativo",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "42.100 toneladas registradas indebidamente (24.000 en 2024 y 18.100 en 2025); ocho despidos; recuperación de bonos; ajuste de 120-140 millones; Fontaine: 'Habrá tiempos difíciles'",
+      "url": "https://www.emol.com/noticias/Economia/2026/11/05/1216193/codelco-produccion-falseada.html"
+    },
+    {
+      "afirmacion": "Registros duplicados; divisiones Chuquicamata, Ministro Hales y Salvador; auditorías de EY y KPMG hasta diciembre; caso enviado al Ministerio Público",
+      "url": "https://www.pauta.cl/actualidad/2026/11/05/codelco-reconoce-42-mil-toneladas-de-produccion-inflada-el-impacto-economico-y-las-medidas-para-recuperar-bonos-mal-pagados.html"
+    }
+  ]
+}
