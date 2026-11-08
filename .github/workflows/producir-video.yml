@@ -47,6 +47,9 @@ jobs:
 
       - run: npm ci
       - run: npx remotion browser ensure
+      - name: Instalar ffmpeg (acelera la voz)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null && ffmpeg -version | head -1
+
       - name: Instalar rclone (versión actual)
         run: curl -fsSL https://rclone.org/install.sh | sudo bash && rclone version
 
