@@ -499,5 +499,14 @@
     "protagonistas": [
       "Mercado Libre"
     ]
+  },
+  {
+    "id": "2026-11-09-coca-cola-v2-prueba",
+    "tema": "Prueba de formato v2: el impuesto disparó la botella de tres litros de Coca-Cola en México",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Coca-Cola FEMSA"
+    ]
   }
 ]
