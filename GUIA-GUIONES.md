@@ -31,9 +31,11 @@ Un buen tema tiene: una **decisión concreta** de una persona o empresa real, un
 ## Estructura y longitud
 
 - Escenas en orden: gancho → contexto → decisión → consecuencia → aprendizaje → cierre (puede haber 2 escenas del mismo bloque seguidas).
-- **120 a 190 palabras** de narración en total (≈45-70 s). `npm run validar` lo revisa.
-- Gancho: la primera frase tiene que funcionar sola.
-- **Cierre (fijo):** una pregunta sobre la decisión del video, seguida de: "Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa." El `caption` termina con la misma pregunta y la línea "Síguenos: cada día contamos una decisión que cambió una empresa." Sin @ ni tarjeta final por ahora.
+- **100 a 170 palabras** de narración (≈40-60 s con la voz acelerada x1.08). `npm run validar` lo revisa.
+- **Gancho:** la primera frase tiene máximo 10 palabras, con un número o un contraste concreto, y deja una pregunta abierta. Nada de arrancar con contexto ("Una empresa peruana acaba de..."). Ej.: "Vendió 45% más. Y la bolsa lo castigó."
+- **Título del gancho = portada.** Sale en letra gigante desde el cuadro 0 (es la miniatura de TikTok): 2-5 palabras, idealmente con el número ("De $140 a $9", "1.000 tiendas por $53M"). Obligatorio.
+- **Cierre (corto, ≈3 s):** solo la pregunta sobre la decisión + "Te leo en los comentarios." (máx. 15 palabras). Nada de "síguenos" en la voz: el `caption` termina con la pregunta y la línea "Síguenos: cada día contamos una decisión que cambió una empresa." Sin @ ni tarjeta final por ahora.
+- **No uses frases fijas.** Prohibido "La lección es esta". Varía cómo llegas a la lección: una pregunta ("¿Qué falló?"), un contraste ("No fue el producto. Fue el precio."), una regla corta ("Volumen sin margen es frágil."). Varía también el arranque de cada bloque entre videos.
 
 ## Etiquetas de voz (expresividad)
 
@@ -52,7 +54,7 @@ Se buscan solas en Wikimedia Commons. La búsqueda decide si la foto sale bien:
 - **Nunca búsquedas de una persona + otra palabra** ("Sara Blakely Spanx" trajo la foto de otra mujer): busca solo el nombre.
 - **Nunca b-roll genérico de apps** ("messaging app" trajo el logo de Threema, competidor de WhatsApp): usa la app real o un objeto.
 - **Nunca búsquedas genéricas de personas** ("businessmen meeting", "office 1970s"): devuelven gente real identificable que no tiene nada que ver (pasó con Gerald Ford).
-- Si la escena lleva `rotulo` con un nombre, una de sus imágenes debe buscar a esa persona por nombre.
+- Si la escena lleva `rotulo` con un nombre, una de sus imágenes debe buscar a esa persona por nombre. El rótulo no se muestra en el gancho (ahí va la portada): ponlo en la escena 2.
 - Para b-roll genérico usa objetos o lugares sin personas ("film camera", "empty factory interior", "stock market screen").
 - `modo`: `relleno` (fotos horizontales, de archivo, retratos) o `completa` (verticales, texturas, b-roll). `filtro`: `bn` o `sepia` para material antiguo.
 

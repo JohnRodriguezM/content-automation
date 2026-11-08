@@ -16,12 +16,12 @@
 
 ## Estructura obligatoria del guion
 
-1. **Gancho** (≤ 3 s): resultado sorprendente, conflicto o pregunta. Nunca "hola", nunca "en este video".
+1. **Gancho** (≤ 3 s): primera frase de máximo 10 palabras, con un número o un contraste concreto ("Vendió 10.000 millones… y la bolsa lo castigó"). Deja una pregunta abierta. Nunca "hola", nunca "en este video", nunca empezar con contexto ("Una empresa peruana...").
 2. **Contexto:** quién es el protagonista y cuál era su situación.
 3. **Decisión:** qué hizo y qué estaba en juego.
 4. **Consecuencia:** qué ocurrió y por qué.
 5. **Aprendizaje:** una idea concreta y en qué situaciones sirve.
-6. **Cierre:** una pregunta sobre esa decisión, invitación a comentar y a seguir la cuenta ("Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.").
+6. **Cierre** (≈3 s): solo la pregunta sobre esa decisión, más "Te leo en los comentarios." La invitación a seguir la cuenta va en la descripción, no en la voz.
 
 Duración objetivo: 45–75 s (≈ 120–190 palabras de narración).
 
@@ -94,6 +94,6 @@ Formato mixto: edición documental sobre fotos reales, con gráficos animados en
 - Fotos horizontales o de archivo: centradas sobre su versión desenfocada. Fotos verticales: pantalla completa. Siempre con zoom lento.
 - Material antiguo en blanco y negro o sepia; grano y viñeta suaves para unificar fuentes.
 - Corte cada ~3 s (1-3 fotos por escena).
-- Título grande en el gancho; rótulo con el nombre cuando aparece una persona o empresa.
+- Título grande en el gancho: es la portada (cuadro 0, letra gigante), así que debe ser el gancho en 2-5 palabras, idealmente con el número. El rótulo con el nombre va desde la escena 2 (en el gancho no se muestra).
 - Subtítulos palabra por palabra: sans blanca, con la palabra clave en serif itálica dorada.
 - Logos de marcas solo cuando aparecen de forma incidental en la foto (un edificio, un producto), nunca como gráfico propio.

@@ -1,0 +1,220 @@
+{
+  "id": "2026-11-09-mercado-libre-v2-prueba",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "Prueba de formato v2: Mercado Libre vendió 45% más y la bolsa la castigó por sacrificar margen",
+  "pregunta_principal": "¿Sacrificarías ganancia hoy por clientes mañana?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Vendió cuarenta y cinco por ciento más. Y la bolsa la castigó.",
+      "imagenes": [
+        {
+          "busqueda": "Mercado Libre logo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Mercado Libre",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cuarenta",
+        "castigó"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "+45%",
+            "texto": "ingresos",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "-6%",
+            "texto": "la acción tras el reporte",
+            "icono": "grafica_baja"
+          }
+        }
+      ],
+      "titulo": "+45% y aun así cae"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Es Mercado Libre. El cuatro de noviembre reportó diez mil setecientos cincuenta millones de dólares en ingresos. Pero su ganancia operativa bajó.",
+      "imagenes": [
+        {
+          "busqueda": "Mercadolibre edificio saavedra",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercadolibre_edificio_saavedra.jpg?width=1600",
+          "credito": "Foto: Fernando Martello · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Mercadolibre_edificio_saavedra.jpg"
+        }
+      ],
+      "destacar": [
+        "diez",
+        "bajó"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$724M",
+            "texto": "ganancia operativa hace un año",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "$676M",
+            "texto": "ganancia operativa ahora",
+            "icono": "grafica_baja"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "¿Por qué? [pause] Porque eligió sacrificar margen: envío gratis desde compras más pequeñas, nuevos centros logísticos antes de la temporada alta y más marketing en Brasil.",
+      "imagenes": [
+        {
+          "busqueda": "Mercadolibre edificio saavedra",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercadolibre_edificio_saavedra.jpg?width=1600",
+          "credito": "Foto: Fernando Martello · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Mercadolibre_edificio_saavedra.jpg"
+        }
+      ],
+      "destacar": [
+        "sacrificar",
+        "Brasil"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "dinero",
+              "texto": "Envío gratis más fácil"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Nuevos centros logísticos"
+            },
+            {
+              "icono": "celular",
+              "texto": "Más marketing en Brasil"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[sighs] Su margen operativo cayó de nueve punto ocho a seis punto tres por ciento. Y la acción perdió más de seis por ciento.",
+      "imagenes": [
+        {
+          "busqueda": "stock market screen",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "seis",
+        "perdió"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "9,8%",
+            "texto": "margen hace un año",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "6,3%",
+            "texto": "margen ahora",
+            "icono": "grafica_baja"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Vender más no es ganar más. Comprar clientes con margen puede valer la pena, pero solo si sabes cuánto te cuesta y hasta cuándo.",
+      "imagenes": [
+        {
+          "busqueda": "Buenos Aires skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ganar",
+        "cuándo"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Vender más no es [[ganar más]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Sacrificarías ganancia hoy por clientes mañana? Te leo en los comentarios.",
+      "imagenes": [
+        {
+          "busqueda": "MercadoLibre logo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MercadoLibre_logo.PNG?width=1600",
+          "credito": "Foto: MercadoLibre · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:MercadoLibre_logo.PNG"
+        }
+      ],
+      "destacar": [
+        "mañana"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Ganancia hoy o [[clientes mañana]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Mercado Libre vendió 45% más en el tercer trimestre: 10.750 millones de dólares. Pero eligió sacrificar margen (envío gratis más fácil, nuevos centros logísticos y más marketing en Brasil) y su margen operativo cayó de 9,8% a 6,3%. La acción perdió más de 6%.\n\n¿Sacrificarías ganancia hoy por clientes mañana?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#mercadolibre",
+    "#ecommerce",
+    "#estrategia",
+    "#emprendimiento",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Ingresos de 10.750 millones (+45%); ganancia neta de 448 millones; ganancia operativa de 676 millones frente a 724; margen de 9,8% a 6,3%; menor mínimo para envío gratis",
+      "url": "https://www.forbesargentina.com/negocios/nuevo-balance-mercado-libre-crece-facturacion-pero-accion-cae-8-n101777"
+    },
+    {
+      "afirmacion": "Caída de 6,4% de la acción; más envíos gratis, nuevos centros logísticos y más marketing de afiliados en Brasil",
+      "url": "https://www.rankia.com.ar/noticias/cedears/7540415-mercadolibre-gano-usd-448-millones-3t-2026-accion-cae-6-4-que-pasa-cedear-meli"
+    }
+  ]
+}

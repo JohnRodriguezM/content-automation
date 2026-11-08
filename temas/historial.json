@@ -490,5 +490,14 @@
     "protagonistas": [
       "Canal de Panamá"
     ]
+  },
+  {
+    "id": "2026-11-09-mercado-libre-v2-prueba",
+    "tema": "Prueba de formato v2: Mercado Libre vendió 45% más y la bolsa la castigó por sacrificar margen",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Mercado Libre"
+    ]
   }
 ]

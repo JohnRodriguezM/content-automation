@@ -21,7 +21,7 @@ const filtroCss = (f: Imagen["filtro"]) =>
   f === "bn" ? "grayscale(1) contrast(1.08)" : f === "sepia" ? "sepia(0.55) contrast(1.05)" : "";
 
 /** Un plano: foto con zoom lento (Ken Burns) y fundido de entrada. */
-export const Plano: React.FC<{ img: Imagen; dur: number; seed: string }> = ({ img, dur, seed }) => {
+export const Plano: React.FC<{ img: Imagen; dur: number; seed: string; sinFundido?: boolean }> = ({ img, dur, seed, sinFundido }) => {
   const frame = useCurrentFrame();
   const p = frame / Math.max(1, dur);
   // Dirección del movimiento distinta en cada plano, pero determinista
@@ -30,7 +30,8 @@ export const Plano: React.FC<{ img: Imagen; dur: number; seed: string }> = ({ im
   const acercar = random(seed + "z") > 0.35;
   const escala = acercar ? interpolate(p, [0, 1], [1.04, 1.16]) : interpolate(p, [0, 1], [1.16, 1.04]);
   const mover = `translate(${dx * p}px, ${dy * p}px) scale(${escala})`;
-  const opacity = interpolate(frame, [0, FADE], [0, 1], { extrapolateRight: "clamp" });
+  // El primer plano del video no hace fundido: el cuadro 0 es la miniatura y debe tener foto.
+  const opacity = sinFundido ? 1 : interpolate(frame, [0, FADE], [0, 1], { extrapolateRight: "clamp" });
   const filter = filtroCss(img.filtro);
   if (!img.archivo && !img.url) return <AbsoluteFill style={{ background: "#111", opacity }} />;
   const s = src(img.archivo ?? img.url!);
@@ -162,7 +163,7 @@ export const EscenaView: React.FC<{ e: Escena; dur: number; idx: number }> = ({ 
         const d = j === n - 1 ? dur - from : tramo + FADE;
         return (
           <Sequence key={j} from={from} durationInFrames={d}>
-            <Plano img={img} dur={d} seed={`${idx}-${j}`} />
+            <Plano img={img} dur={d} seed={`${idx}-${j}`} sinFundido={idx === 0 && j === 0} />
             <Credito texto={img.credito} />
           </Sequence>
         );

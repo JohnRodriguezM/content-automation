@@ -19,6 +19,7 @@
 import { access, mkdir, readFile, writeFile, stat } from "node:fs/promises";
 import path from "node:path";
 import { randomUUID } from "node:crypto";
+import { execFileSync } from "node:child_process";
 import { bundle } from "@remotion/bundler";
 import { renderMedia, selectComposition } from "@remotion/renderer";
 import { guionSchema, type Guion, type Timing, type VideoProps } from "../src/schema";
@@ -137,6 +138,32 @@ async function voz(g: Guion): Promise<{ timing: Timing; audio: string | null }> 
   return { timing, audio: rel };
 }
 
+/**
+ * Acelera la voz sin cambiar el tono (ffmpeg atempo) y escala los tiempos de subtítulos y escenas.
+ * VELOCIDAD_VOZ (por defecto 1.08). El audio original queda en caché; esto se rehace en cada render.
+ */
+function acelerar(audio: string | null, timing: Timing): { audio: string | null; timing: Timing } {
+  const f = Number(process.env.VELOCIDAD_VOZ ?? "1.08");
+  if (!audio || !(f > 0) || f === 1) return { audio, timing };
+  const salida = audio.replace(/\.mp3$/, `-x${Math.round(f * 100)}.mp3`);
+  try {
+    execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", path.join(PUBLIC, audio), "-filter:a", `atempo=${f}`, "-b:a", "192k", path.join(PUBLIC, salida)]);
+  } catch (e) {
+    console.warn(`  ⚠ no se pudo acelerar la voz (${(e as Error).message.split("\n")[0]}); queda a velocidad normal`);
+    return { audio, timing };
+  }
+  const s = (t: number) => t / f;
+  console.log(`  voz acelerada x${f}`);
+  return {
+    audio: salida,
+    timing: {
+      duracion: s(timing.duracion),
+      escenas: timing.escenas.map((e) => ({ inicio: s(e.inicio), fin: s(e.fin) })),
+      palabras: timing.palabras.map((p) => ({ ...p, inicio: s(p.inicio), fin: s(p.fin) })),
+    },
+  };
+}
+
 async function render(props: VideoProps, salida: string, id: "Video" | "Motion" | "Mixto") {
   const serveUrl = await bundle({ entryPoint: path.join(RAIZ, "src/Root.tsx"), publicDir: PUBLIC });
   const browserExecutable = process.env.REMOTION_BROWSER || null;
@@ -229,7 +256,8 @@ async function main() {
   }
 
   console.log("→ voz");
-  const { timing, audio } = await voz(guion);
+  const original = await voz(guion);
+  const { timing, audio } = acelerar(original.audio, original.timing);
   await writeFile(path.join(OUT, `${guion.id}.timing.json`), JSON.stringify(timing, null, 2));
   console.log(`  ${timing.duracion.toFixed(1)} s, ${timing.palabras.length} palabras`);
   if (timing.duracion > 90) console.warn("  ⚠ más de 90 s: recorta el guion");
