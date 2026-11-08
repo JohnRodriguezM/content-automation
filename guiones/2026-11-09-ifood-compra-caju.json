@@ -10,12 +10,6 @@
       "narracion": "[curious] La app de domicilios más grande de Brasil quiere estar en algo que no es la comida a domicilio: la tarjeta de alimentación que te da tu empresa.",
       "imagenes": [
         {
-          "busqueda": "iFood logo",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "iFood delivery motorcycle",
           "fuente": "commons",
           "modo": "completa",
@@ -41,12 +35,6 @@
       "imagenes": [
         {
           "busqueda": "restaurant São Paulo",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "meal voucher card",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
@@ -111,16 +99,14 @@
       "narracion": "[excited] Juntas sumarían unos tres millones de usuarios y más de ciento treinta mil empresas clientes. Pero todavía falta la aprobación del regulador de competencia y del Banco Central.",
       "imagenes": [
         {
-          "busqueda": "smartphone payment Brazil",
+          "busqueda": "Panorama of Sao Paulo from Avenida Santa Catarina",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "office workers lunch",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panorama_of_Sao_Paulo_from_Avenida_Santa_Catarina.jpg?width=1600",
+          "credito": "Foto: Wilfredor · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Panorama_of_Sao_Paulo_from_Avenida_Santa_Catarina.jpg"
         }
       ],
       "destacar": [
@@ -164,10 +150,14 @@
       "narracion": "¿Cuál es el negocio de al lado que podría hacer crecer el tuyo? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "iFood",
+          "busqueda": "Food delivery by scooter in France (1)",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Food_delivery_by_scooter_in_France_(1).jpg?width=1600",
+          "credito": "Foto: Cjp24 · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Food_delivery_by_scooter_in_France_(1).jpg"
         }
       ],
       "destacar": [

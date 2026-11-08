@@ -14,12 +14,6 @@
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "First Quantum Minerals",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -141,7 +135,7 @@
       "narracion": "La lección es esta. [thoughtful] Un contrato firmado no basta si la sociedad lo rechaza. La licencia social para operar también es un activo, y perderla puede costar miles de millones.",
       "imagenes": [
         {
-          "busqueda": "Panama rainforest",
+          "busqueda": "tropical rainforest canopy",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"

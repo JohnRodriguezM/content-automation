@@ -10,12 +10,6 @@
       "narracion": "[curious] Una empresa peruana acaba de comprar diecinueve marcas que probablemente tienes en tu nevera. Y lo hizo en una sola jugada.",
       "imagenes": [
         {
-          "busqueda": "Alicorp",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "margarine",
           "fuente": "commons",
           "modo": "completa",
@@ -141,10 +135,14 @@
       "narracion": "La lección es esta. [thoughtful] Cuando un gigante decide salir de una categoría, no siempre es porque no sirva. A veces solo dejó de encajar en su plan, y para otro puede ser justo lo que necesita.",
       "imagenes": [
         {
-          "busqueda": "bread and butter",
+          "busqueda": "Margaryn 022",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Margaryn_022.jpg?width=1600",
+          "credito": "Foto: Kagor · CC BY-SA 3.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 3.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Margaryn_022.jpg"
         }
       ],
       "destacar": [
@@ -164,10 +162,14 @@
       "narracion": "¿Qué está soltando un gigante que tú podrías aprovechar? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "Lima Peru",
+          "busqueda": "Lima, Urban Skyline--Ciudad de Lima, Skyline urbano",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lima,_Urban_Skyline--Ciudad_de_Lima,_Skyline_urbano.jpg?width=1600",
+          "credito": "Foto: Joshua87 · CC BY-SA 3.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 3.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Lima,_Urban_Skyline--Ciudad_de_Lima,_Skyline_urbano.jpg"
         }
       ],
       "destacar": [

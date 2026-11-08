@@ -145,10 +145,14 @@
       "narracion": "La lección es esta. [thoughtful] Vender mucho con márgenes muy pequeños te deja sin espacio para cualquier cambio. Un solo punto de costo puede llevarse toda tu ganancia.",
       "imagenes": [
         {
-          "busqueda": "money",
+          "busqueda": "MEXICO 10 PESOS BANKNOTE",
           "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MEXICO_10_PESOS_BANKNOTE.jpg?width=1600",
+          "credito": "Foto: Gobierno de México · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:MEXICO_10_PESOS_BANKNOTE.jpg"
         }
       ],
       "destacar": [
@@ -168,7 +172,7 @@
       "narracion": "¿Cuánto margen tiene tu negocio para aguantar un cambio de reglas? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "Mexico City traffic",
+          "busqueda": "Paseo de la Reforma traffic aerial",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"

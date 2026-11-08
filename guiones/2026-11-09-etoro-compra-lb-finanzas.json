@@ -126,12 +126,6 @@
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "smartphone finance",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -175,10 +169,14 @@
       "narracion": "¿Tú preferirías construir desde cero o comprar al que ya está? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "Argentina",
+          "busqueda": "Banco Central de la República Argentina en 2016",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Banco_Central_de_la_Rep%C3%BAblica_Argentina_en_2016.jpg?width=1600",
+          "credito": "Foto: Casa Rosada · CC BY 2.5 ar · Wikimedia Commons",
+          "licencia": "CC BY 2.5 ar",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Banco_Central_de_la_Rep%C3%BAblica_Argentina_en_2016.jpg"
         }
       ],
       "destacar": [

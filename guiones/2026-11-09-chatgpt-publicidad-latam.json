@@ -10,12 +10,6 @@
       "narracion": "[curious] ChatGPT empezó a mostrar anuncios en Colombia, Perú, Chile, Argentina, Uruguay y Bolivia. Y no es un experimento: es un negocio de mil millones de dólares al año.",
       "imagenes": [
         {
-          "busqueda": "ChatGPT logo",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "OpenAI logo",
           "fuente": "commons",
           "modo": "completa",
@@ -70,16 +64,14 @@
       "narracion": "La decisión fue cobrarle a los anunciantes para no cobrarle a todos los usuarios. [pause] Los anuncios salen solo a adultos en los planes gratis y Go. Los planes de pago siguen sin publicidad.",
       "imagenes": [
         {
-          "busqueda": "online advertising",
+          "busqueda": "Person holding the OpenAI icon",
           "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "computer screen",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Person_holding_the_OpenAI_icon.jpg?width=1600",
+          "credito": "Foto: FoxTPNL · CC BY 4.0 · Wikimedia Commons",
+          "licencia": "CC BY 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Person_holding_the_OpenAI_icon.jpg"
         }
       ],
       "destacar": [
@@ -106,12 +98,6 @@
       "bloque": "consecuencia",
       "narracion": "[excited] Y el negocio creció rapidísimo. En marzo, su publicidad facturaba a un ritmo de cien millones de dólares al año. En agosto ya iba a mil millones, con más de cien mil anunciantes.",
       "imagenes": [
-        {
-          "busqueda": "Pioneer Building San Francisco",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
         {
           "busqueda": "data center",
           "fuente": "commons",
@@ -167,10 +153,14 @@
       "narracion": "¿Pagarías para no ver anuncios o prefieres que sea gratis? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "artificial intelligence",
+          "busqueda": "Person holding the OpenAI icon",
           "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Person_holding_the_OpenAI_icon.jpg?width=1600",
+          "credito": "Foto: FoxTPNL · CC BY 4.0 · Wikimedia Commons",
+          "licencia": "CC BY 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Person_holding_the_OpenAI_icon.jpg"
         }
       ],
       "destacar": [

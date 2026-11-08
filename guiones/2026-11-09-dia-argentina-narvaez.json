@@ -82,12 +82,6 @@
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "ChangoMás",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -148,7 +142,7 @@
       "narracion": "La lección es esta. [thoughtful] Vender barato duele, pero seguir perdiendo plata duele más. Y lo que para uno es un problema, para otro con más escala puede ser una oportunidad.",
       "imagenes": [
         {
-          "busqueda": "shopping cart",
+          "busqueda": "empty supermarket shopping carts row",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"

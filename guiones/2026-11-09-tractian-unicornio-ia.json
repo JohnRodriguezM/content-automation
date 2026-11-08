@@ -10,13 +10,7 @@
       "narracion": "[curious] Una startup brasileña que empezó prestando sensores a fábricas acaba de convertirse en la empresa de inteligencia artificial más valiosa de Latinoamérica.",
       "imagenes": [
         {
-          "busqueda": "Tractian",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "industrial machine sensor",
+          "busqueda": "vibration sensor electric motor",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
@@ -40,12 +34,6 @@
       "bloque": "contexto",
       "narracion": "Se llama Tractian. La fundaron en 2019 compañeros de ingeniería de la Universidad de São Paulo. Sus sensores escuchan las máquinas y la IA avisa antes de que se dañen.",
       "imagenes": [
-        {
-          "busqueda": "University of São Paulo",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
         {
           "busqueda": "factory machinery",
           "fuente": "commons",
@@ -118,12 +106,6 @@
       "bloque": "consecuencia",
       "narracion": "[excited] El veintidós de octubre anunció una ronda de ciento treinta millones de dólares, liderada por Sapphire Ventures, con una valoración de mil cuatrocientos millones.",
       "imagenes": [
-        {
-          "busqueda": "Sapphire Ventures",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
         {
           "busqueda": "Y Combinator",
           "fuente": "commons",

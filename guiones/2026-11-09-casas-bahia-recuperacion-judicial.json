@@ -14,12 +14,6 @@
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Casas Bahia store",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -41,13 +35,7 @@
       "narracion": "Es Casas Bahia, que vende electrodomésticos y muebles. Vende mucho a crédito, y en los últimos años los intereses en Brasil subieron, la gente perdió poder de compra y aumentaron los impagos.",
       "imagenes": [
         {
-          "busqueda": "São Paulo Avenida Paulista",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "home appliances store",
+          "busqueda": "Avenida Paulista MASP",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"

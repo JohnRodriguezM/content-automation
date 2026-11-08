@@ -14,12 +14,6 @@
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "shoe factory",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -41,13 +35,13 @@
       "narracion": "Es Manaco, fundada en 1940. Llegó a tener más de dos mil trabajadores. Pero según la empresa, la pandemia, la economía de 2026, los conflictos sociales y la falta de materia prima la fueron hundiendo.",
       "imagenes": [
         {
-          "busqueda": "Cochabamba Bolivia",
+          "busqueda": "Cristo de la Concordia Cochabamba",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
         },
         {
-          "busqueda": "leather shoes",
+          "busqueda": "pair of brown leather shoes",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
@@ -86,12 +80,6 @@
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "factory building",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -111,13 +99,7 @@
       "narracion": "[sighs] Las pérdidas acumuladas llegan a ciento treinta millones de bolivianos. Cerca de seiscientos trabajadores pierden su empleo, y la Central Obrera Boliviana lo calificó de unilateral.",
       "imagenes": [
         {
-          "busqueda": "Bolivian boliviano banknotes",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Cochabamba",
+          "busqueda": "Cochabamba Bolivia city panorama",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
@@ -141,7 +123,7 @@
       "narracion": "La lección es esta. [thoughtful] Una marca con historia no te protege si el negocio dejó de ser sostenible. Los años de éxito no pagan las pérdidas de hoy.",
       "imagenes": [
         {
-          "busqueda": "shoes",
+          "busqueda": "shoe store display leather shoes",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
@@ -164,7 +146,7 @@
       "narracion": "¿Qué haces cuando tu negocio dejó de ser sostenible? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "Bolivia",
+          "busqueda": "Salar de Uyuni",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"

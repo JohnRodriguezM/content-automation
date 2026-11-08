@@ -10,10 +10,14 @@
       "narracion": "[curious] Una empresa uruguaya fundada hace treinta y cuatro años acaba de levantar ciento ochenta millones de dólares. Su negocio: los datos de cada compra en las tiendas de barrio.",
       "imagenes": [
         {
-          "busqueda": "Montevideo skyline",
+          "busqueda": "Avenida 18 de Julio Montevideo, Uruguay 2021",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Avenida_18_de_Julio_Montevideo,_Uruguay_2021.jpg?width=1600",
+          "credito": "Foto: Intendencia de Montevideo · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Avenida_18_de_Julio_Montevideo,_Uruguay_2021.jpg"
         },
         {
           "busqueda": "cash register",
@@ -112,12 +116,6 @@
       "narracion": "[excited] En octubre levantó ciento ochenta millones de dólares, liderados por L Catterton. Cerca de la mitad es dinero nuevo para inteligencia artificial y nuevos mercados, y el resto lo vendieron inversionistas anteriores.",
       "imagenes": [
         {
-          "busqueda": "L Catterton",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "data center",
           "fuente": "commons",
           "modo": "completa",
@@ -172,10 +170,14 @@
       "narracion": "¿Qué información generas todos los días que nadie está aprovechando? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "Uruguay",
+          "busqueda": "J34 617 Montevideo, Rambla República Argentina",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/J34_617_Montevideo,_Rambla_Rep%C3%BAblica_Argentina.jpg?width=1600",
+          "credito": "Foto: Falk2 · CC BY-SA 3.0 de · Wikimedia Commons",
+          "licencia": "CC BY-SA 3.0 de",
+          "pagina": "https://commons.wikimedia.org/wiki/File:J34_617_Montevideo,_Rambla_Rep%C3%BAblica_Argentina.jpg"
         }
       ],
       "destacar": [

@@ -175,10 +175,14 @@
       "narracion": "¿Tu producto le facilita la vida al cliente o lo mete en problemas? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "Pix QR code",
+          "busqueda": "PIX-logo",
           "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/PIX-logo.png?width=1600",
+          "credito": "Foto: Still20222 · CC0 · Wikimedia Commons",
+          "licencia": "CC0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:PIX-logo.png"
         }
       ],
       "destacar": [

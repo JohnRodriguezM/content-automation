@@ -119,12 +119,6 @@
       "narracion": "[sighs] Para sacar adelante el plan necesita el apoyo de más de la mitad de la deuda, y tenía menos del cuarenta por ciento. Si no lo logra, la recuperación judicial vuelve a estar sobre la mesa.",
       "imagenes": [
         {
-          "busqueda": "Braskem Camaçari",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "industrial pipes",
           "fuente": "commons",
           "modo": "completa",
@@ -172,10 +166,14 @@
       "narracion": "¿Cuánta deuda es demasiada para tu negocio? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "Bahia Brazil",
+          "busqueda": "Braskem Plant",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Braskem_Plant.jpg?width=1600",
+          "credito": "Foto: SamHolt6 · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Braskem_Plant.jpg"
         }
       ],
       "destacar": [

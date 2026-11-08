@@ -10,10 +10,14 @@
       "narracion": "[curious] En México subió el impuesto a los refrescos. Y pasó algo que ni Coca-Cola esperaba: la gente empezó a comprar botellas más grandes.",
       "imagenes": [
         {
-          "busqueda": "Coca-Cola bottles",
+          "busqueda": "15-09-26-RalfR-WLC-0098 - Coca-Cola glass bottle (Germany)",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/15-09-26-RalfR-WLC-0098_-_Coca-Cola_glass_bottle_(Germany).jpg?width=1600",
+          "credito": "Foto: Ralf Roletschek · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:15-09-26-RalfR-WLC-0098_-_Coca-Cola_glass_bottle_(Germany).jpg"
         },
         {
           "busqueda": "OXXO",
@@ -39,12 +43,6 @@
       "bloque": "contexto",
       "narracion": "En 2026, el impuesto especial a las bebidas azucaradas pasó de uno punto sesenta y cuatro a tres punto cero ocho pesos por litro. Las embotelladoras subieron precios y apostaron por los tamaños familiares.",
       "imagenes": [
-        {
-          "busqueda": "soft drinks supermarket",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
         {
           "busqueda": "Monterrey Cerro de la Silla",
           "fuente": "commons",
@@ -78,12 +76,6 @@
       "imagenes": [
         {
           "busqueda": "Coca-Cola FEMSA",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "returnable glass bottles",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"

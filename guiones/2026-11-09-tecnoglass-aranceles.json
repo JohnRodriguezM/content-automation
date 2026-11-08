@@ -118,16 +118,14 @@
       "narracion": "En el tercer trimestre vendió trescientos diez millones de dólares, un récord. [sighs] Pero los aranceles le costaron unos quince millones y medio, el peso se fortaleció y su utilidad cayó cincuenta y dos por ciento.",
       "imagenes": [
         {
-          "busqueda": "aluminium",
+          "busqueda": "Aluminium window detail",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Colombian peso banknotes",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aluminium_window_detail.png?width=1600",
+          "credito": "Foto: ProfDEH · CC BY-SA 3.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 3.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Aluminium_window_detail.png"
         }
       ],
       "destacar": [

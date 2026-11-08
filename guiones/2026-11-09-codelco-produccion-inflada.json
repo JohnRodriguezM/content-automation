@@ -82,12 +82,6 @@
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "copper cathodes",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -118,12 +112,6 @@
       "bloque": "consecuencia",
       "narracion": "[sighs] El ajuste contable podría ser de ciento veinte a ciento cuarenta millones de dólares. Y su presidente advirtió que vienen tiempos difíciles. Las auditorías terminarían en diciembre.",
       "imagenes": [
-        {
-          "busqueda": "Chuquicamata open pit",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
         {
           "busqueda": "copper mine Chile",
           "fuente": "commons",

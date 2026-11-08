@@ -48,16 +48,14 @@
       "narracion": "El cuatro de noviembre presentó resultados: ingresos de diez mil setecientos cincuenta millones de dólares. Pero la ganancia operativa bajó de setecientos veinticuatro a seiscientos setenta y seis millones.",
       "imagenes": [
         {
-          "busqueda": "Mercado Libre office",
+          "busqueda": "Mercadolibre edificio saavedra",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "cardboard boxes warehouse",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercadolibre_edificio_saavedra.jpg?width=1600",
+          "credito": "Foto: Fernando Martello · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Mercadolibre_edificio_saavedra.jpg"
         }
       ],
       "destacar": [
@@ -78,13 +76,7 @@
       "narracion": "¿Por qué? Porque decidió sacrificar margen. [pause] Bajó el mínimo de compra para el envío gratis, abrió nuevos centros logísticos antes de la temporada alta y gastó más en marketing en Brasil.",
       "imagenes": [
         {
-          "busqueda": "Mercado Libre Boeing 737",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "delivery van",
+          "busqueda": "parcel sorting conveyor",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
@@ -120,12 +112,6 @@
       "imagenes": [
         {
           "busqueda": "stock market screen",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Mercado Pago logo",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
@@ -179,10 +165,14 @@
       "narracion": "¿Sacrificarías ganancia hoy para ganar clientes mañana? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
       "imagenes": [
         {
-          "busqueda": "Mercado Libre warehouse",
+          "busqueda": "MercadoLibre logo",
           "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MercadoLibre_logo.PNG?width=1600",
+          "credito": "Foto: MercadoLibre · Public domain · Wikimedia Commons",
+          "licencia": "Public domain",
+          "pagina": "https://commons.wikimedia.org/wiki/File:MercadoLibre_logo.PNG"
         }
       ],
       "destacar": [
