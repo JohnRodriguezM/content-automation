@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  AbsoluteFill, Audio, Sequence, interpolate, staticFile,
+  AbsoluteFill, Audio, Img, Sequence, interpolate, staticFile,
   useCurrentFrame, useVideoConfig,
 } from "remotion";
 import { M } from "./iconos";
@@ -24,7 +24,7 @@ const LIMPIO = { portada: 45, rotulo: 40, normal: 12 };
  * Portada: el gancho en letra gigante desde el primer cuadro (TikTok usa ese cuadro como miniatura).
  * Sin animación de entrada para que el cuadro 0 ya tenga el texto completo.
  */
-const Portada: React.FC<{ texto: string; dur: number }> = ({ texto, dur }) => {
+const Portada: React.FC<{ texto: string; dur: number; logo?: string }> = ({ texto, dur, logo }) => {
   const f = useCurrentFrame();
   const o = interpolate(f, [dur - 8, dur], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const s = interpolate(f, [0, dur], [1, 1.04], { extrapolateRight: "clamp" });
@@ -32,6 +32,12 @@ const Portada: React.FC<{ texto: string; dur: number }> = ({ texto, dur }) => {
     <AbsoluteFill style={{ opacity: o, justifyContent: "center", alignItems: "center", padding: "0 70px 420px" }}>
       <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.55) 45%, rgba(0,0,0,0.15) 100%)" }} />
       <div style={{ transform: `scale(${s})`, textAlign: "center", position: "relative" }}>
+        {logo && (
+          <div style={{ display: "inline-flex", background: "#FFFFFF", borderRadius: 28, padding: "22px 36px", marginBottom: 44, boxShadow: "0 10px 40px rgba(0,0,0,0.45)" }}>
+            <Img src={src(logo)} style={{ maxHeight: 150, maxWidth: 560, objectFit: "contain" }} />
+          </div>
+        )}
+        <br />
         <span style={{
           fontFamily: "Inter, sans-serif", fontWeight: 900, fontSize: 124, lineHeight: 1.02, color: "#FFFFFF",
           textTransform: "uppercase", letterSpacing: -2, background: "rgba(0,0,0,0.6)", padding: "8px 26px",
@@ -60,7 +66,20 @@ const Salida: React.FC<{ dur: number; children: React.ReactNode }> = ({ dur, chi
   return <AbsoluteFill style={{ opacity: o, transform: `translateY(${y}px)` }}>{children}</AbsoluteFill>;
 };
 
-const Capas: React.FC<{ e: Escena; dur: number; idx: number }> = ({ e, dur, idx }) => {
+/** Transición entre escenas: destello corto + barrido (más ritmo que un fundido). */
+const Destello: React.FC = () => {
+  const f = useCurrentFrame();
+  const o = interpolate(f, [0, 2, 7], [0, 0.55, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const x = interpolate(f, [0, 7], [-110, 110], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  return (
+    <AbsoluteFill style={{ pointerEvents: "none" }}>
+      <AbsoluteFill style={{ background: "#FFFFFF", opacity: o }} />
+      <AbsoluteFill style={{ background: "linear-gradient(100deg, transparent 35%, rgba(255,255,255,0.5) 50%, transparent 65%)", transform: `translateX(${x}%)`, opacity: o > 0 ? 1 : 0 }} />
+    </AbsoluteFill>
+  );
+};
+
+const Capas: React.FC<{ e: Escena; dur: number; idx: number; logo?: string }> = ({ e, dur, idx, logo }) => {
   const acento = ACENTOS[idx % ACENTOS.length];
   const visuales = e.motion ?? [];
   const portada = idx === 0 && Boolean(e.titulo);
@@ -70,7 +89,7 @@ const Capas: React.FC<{ e: Escena; dur: number; idx: number }> = ({ e, dur, idx 
   return (
     <AbsoluteFill>
       <Sequence durationInFrames={limpio}>
-        {portada ? <Portada texto={e.titulo!} dur={limpio} /> : e.titulo && <Titulo texto={e.titulo} />}
+        {portada ? <Portada texto={e.titulo!} dur={limpio} logo={logo} /> : e.titulo && <Titulo texto={e.titulo} />}
         {e.rotulo && !portada && <Rotulo texto={e.rotulo} />}
       </Sequence>
       {visuales.length > 0 && (
@@ -122,7 +141,8 @@ export const MixtoVideo: React.FC<VideoProps> = ({ guion, timing, audio, musica 
           const { from, dur } = rango(i);
           return (
             <Sequence key={`c${i}`} from={from} durationInFrames={dur}>
-              <Capas e={e} dur={dur} idx={i} />
+              <Capas e={e} dur={dur} idx={i} logo={guion.logo?.archivo ?? guion.logo?.url} />
+              {i > 0 && <Sequence durationInFrames={8}><Destello /></Sequence>}
             </Sequence>
           );
         })}

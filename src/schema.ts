@@ -59,6 +59,9 @@ export const guionSchema = z.object({
   narrador: z.enum(["sebas", "john"]).optional(),
   // Modelo de ElevenLabs para este guion (por defecto eleven_v4); ELEVENLABS_MODEL lo reemplaza
   modelo_voz: z.string().optional(),
+  // Logo de la empresa protagonista: sale en la portada (primer segundo y medio). Mejor fijarlo con `url`
+  // (Special:FilePath del archivo de Commons, SVG o PNG) para no traer el logo equivocado.
+  logo: imagenSchema.optional(),
   tema: z.string(),
   pregunta_principal: z.string(),
   escenas: z.array(escenaSchema).min(5).max(12),

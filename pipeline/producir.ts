@@ -61,6 +61,7 @@ export function descripcion(g: Guion) {
     "===== CRÉDITOS DE IMÁGENES =====",
     ...creditos.map((c) => `- ${c}`),
     ...g.escenas.flatMap((e) => e.imagenes.map((i) => i.pagina).filter(Boolean)).map((u) => `  ${u}`),
+    ...(g.logo?.pagina || g.logo?.url ? [`  Logo: ${g.logo.pagina ?? g.logo.url}`] : []),
   ].join("\n");
 }
 

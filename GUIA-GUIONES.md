@@ -58,6 +58,10 @@ Se buscan solas en Wikimedia Commons. La búsqueda decide si la foto sale bien:
 - Para b-roll genérico usa objetos o lugares sin personas ("film camera", "empty factory interior", "stock market screen").
 - `modo`: `relleno` (fotos horizontales, de archivo, retratos) o `completa` (verticales, texturas, b-roll). `filtro`: `bn` o `sepia` para material antiguo.
 
+## Logo (`logo`, en casi todos)
+
+Sale en la portada, encima del gancho, el primer segundo y medio. Fíjalo siempre con `url` (formato `https://commons.wikimedia.org/wiki/Special:FilePath/<Archivo>?width=800`, sirve SVG o PNG) más `credito`, `licencia` y `pagina`: la búsqueda automática de logos trae marcas equivocadas (pasó con Cemex). Si no hay un logo confiable en Commons, no pongas `logo`.
+
 ## Gráficos (`motion`, 1-3 por escena, en casi todas)
 
 En el formato mixto, cada escena abre con la foto y luego entra el gráfico sobre la foto oscurecida. Escoge el gráfico que haga visible la idea de esa escena:

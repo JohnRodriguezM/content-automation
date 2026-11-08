@@ -19,7 +19,7 @@ const ACENTOS = [M.red, M.blue, M.yellow, M.green];
 const useResorte = (delay = 0, dur = 18) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
-  return spring({ frame: f - delay, fps, durationInFrames: dur, config: { damping: 12, mass: 0.6 } });
+  return spring({ frame: f - delay, fps, durationInFrames: dur, config: { damping: 9, mass: 0.6 } });
 };
 
 /** Texto que entra palabra por palabra; [[palabra]] con marcador de color. */
@@ -37,7 +37,7 @@ const TextoCinetico: React.FC<{ texto: string; size: number; delay?: number; ace
         const palabras = marcado ? [tk.slice(2, tk.indexOf("]]"))] : [tk];
         return palabras.map((w) => {
           const d = delay + k++ * 3;
-          const s = spring({ frame: f - d, fps, durationInFrames: 14, config: { damping: 11, mass: 0.5 } });
+          const s = spring({ frame: f - d, fps, durationInFrames: 14, config: { damping: 8, mass: 0.5 } });
           const barra = interpolate(f - d - 6, [0, 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
           return (
             <span key={`${i}${w}`} style={{ display: "inline-block", marginRight: size * 0.22, opacity: s, transform: `translateY(${(1 - s) * 40}px) rotate(${(1 - s) * -4}deg)`, position: "relative" }}>
@@ -114,7 +114,7 @@ export const VisualMotion: React.FC<{ v: MotionV; acento: string }> = ({ v, acen
         <div style={{ display: "flex", flexDirection: "column", gap: 40, width: "100%" }}>
           {v.items.map((it, i) => {
             const d = i * Math.min(paso, 40);
-            const s = spring({ frame: f - d, fps: 30, durationInFrames: 18, config: { damping: 12, mass: 0.6 } });
+            const s = spring({ frame: f - d, fps: 30, durationInFrames: 18, config: { damping: 9, mass: 0.6 } });
             return (
               <div key={i} style={{ display: "flex", alignItems: "center", gap: 36, opacity: s, transform: `translateX(${(1 - s) * -80}px)` }}>
                 <div style={{ width: 250, height: 250, borderRadius: 40, background: ACENTOS[i % ACENTOS.length], border: `6px solid ${M.ink}`, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
@@ -129,7 +129,7 @@ export const VisualMotion: React.FC<{ v: MotionV; acento: string }> = ({ v, acen
     }
     case "contraste": {
       const mitad = Math.floor(durationInFrames * 0.45);
-      const s2 = spring({ frame: f - mitad, fps: 30, durationInFrames: 18, config: { damping: 12, mass: 0.6 } });
+      const s2 = spring({ frame: f - mitad, fps: 30, durationInFrames: 18, config: { damping: 9, mass: 0.6 } });
       const Bloque = ({ x, s, color, d, fondoIcono }: { x: typeof v.antes; s: number; color: string; d: number; fondoIcono: string }) => (
         <div style={{ display: "flex", alignItems: "center", gap: 36, opacity: s, transform: `scale(${0.7 + 0.3 * s})`, background: M.paper, border: `6px solid ${M.ink}`, borderRadius: 40, padding: "36px 40px", boxShadow: `14px 14px 0 ${M.ink}` }}>
           <Icono nombre={x.icono} t={s} f={f} size={230} fondo={fondoIcono} />

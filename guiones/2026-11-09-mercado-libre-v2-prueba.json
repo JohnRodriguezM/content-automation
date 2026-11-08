@@ -4,6 +4,35 @@
   "narrador": "john",
   "tema": "Prueba de formato v2: Mercado Libre vendió 45% más y la bolsa la castigó por sacrificar margen",
   "pregunta_principal": "¿Sacrificarías ganancia hoy por clientes mañana?",
+  "caption": "Mercado Libre vendió 45% más en el tercer trimestre: 10.750 millones de dólares. Pero eligió sacrificar margen (envío gratis más fácil, nuevos centros logísticos y más marketing en Brasil) y su margen operativo cayó de 9,8% a 6,3%. La acción perdió más de 6%.\n\n¿Sacrificarías ganancia hoy por clientes mañana?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#mercadolibre",
+    "#ecommerce",
+    "#estrategia",
+    "#emprendimiento",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Ingresos de 10.750 millones (+45%); ganancia neta de 448 millones; ganancia operativa de 676 millones frente a 724; margen de 9,8% a 6,3%; menor mínimo para envío gratis",
+      "url": "https://www.forbesargentina.com/negocios/nuevo-balance-mercado-libre-crece-facturacion-pero-accion-cae-8-n101777"
+    },
+    {
+      "afirmacion": "Caída de 6,4% de la acción; más envíos gratis, nuevos centros logísticos y más marketing de afiliados en Brasil",
+      "url": "https://www.rankia.com.ar/noticias/cedears/7540415-mercadolibre-gano-usd-448-millones-3t-2026-accion-cae-6-4-que-pasa-cedear-meli"
+    }
+  ],
+  "logo": {
+    "busqueda": "MercadoLibre logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MercadoLibre_logo.PNG?width=800",
+    "credito": "Foto: MercadoLibre · Public domain · Wikimedia Commons",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:MercadoLibre_logo.PNG"
+  },
   "escenas": [
     {
       "bloque": "gancho",
@@ -196,25 +225,6 @@
           "icono": "pregunta"
         }
       ]
-    }
-  ],
-  "caption": "Mercado Libre vendió 45% más en el tercer trimestre: 10.750 millones de dólares. Pero eligió sacrificar margen (envío gratis más fácil, nuevos centros logísticos y más marketing en Brasil) y su margen operativo cayó de 9,8% a 6,3%. La acción perdió más de 6%.\n\n¿Sacrificarías ganancia hoy por clientes mañana?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
-  "hashtags": [
-    "#negocios",
-    "#mercadolibre",
-    "#ecommerce",
-    "#estrategia",
-    "#emprendimiento",
-    "#latam"
-  ],
-  "fuentes": [
-    {
-      "afirmacion": "Ingresos de 10.750 millones (+45%); ganancia neta de 448 millones; ganancia operativa de 676 millones frente a 724; margen de 9,8% a 6,3%; menor mínimo para envío gratis",
-      "url": "https://www.forbesargentina.com/negocios/nuevo-balance-mercado-libre-crece-facturacion-pero-accion-cae-8-n101777"
-    },
-    {
-      "afirmacion": "Caída de 6,4% de la acción; más envíos gratis, nuevos centros logísticos y más marketing de afiliados en Brasil",
-      "url": "https://www.rankia.com.ar/noticias/cedears/7540415-mercadolibre-gano-usd-448-millones-3t-2026-accion-cae-6-4-que-pasa-cedear-meli"
     }
   ]
 }

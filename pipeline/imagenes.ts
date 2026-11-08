@@ -28,12 +28,12 @@ const acortarAutor = (a: string) => {
 
 type Candidato = Required<Pick<Imagen, "url" | "credito" | "licencia" | "pagina">>;
 
-async function buscarCommons(q: string, usadas: Set<string>): Promise<Candidato | null> {
+async function buscarCommons(q: string, usadas: Set<string>, esLogo = false): Promise<Candidato | null> {
   const u = new URL("https://commons.wikimedia.org/w/api.php");
   Object.entries({
     action: "query", format: "json", generator: "search", gsrnamespace: "6",
-    gsrsearch: `${q} filetype:bitmap`, gsrlimit: "15",
-    prop: "imageinfo", iiprop: "url|extmetadata|mime|size", iiurlwidth: "1600",
+    gsrsearch: esLogo ? q : `${q} filetype:bitmap`, gsrlimit: "15",
+    prop: "imageinfo", iiprop: "url|extmetadata|mime|size", iiurlwidth: esLogo ? "800" : "1600",
   }).forEach(([k, v]) => u.searchParams.set(k, v));
   const r = await pedir(u);
   if (!r.ok) throw new Error(`Commons ${r.status}`);
@@ -41,7 +41,7 @@ async function buscarCommons(q: string, usadas: Set<string>): Promise<Candidato 
   pages.sort((a, b) => a.index - b.index);
   for (const p of pages) {
     const ii = p.imageinfo?.[0];
-    if (!ii || !/jpeg|png/.test(ii.mime) || ii.width < 900) continue;
+    if (!ii || !(esLogo ? /svg|png/ : /jpeg|png/).test(ii.mime) || (!esLogo && ii.width < 900)) continue;
     const m = ii.extmetadata ?? {};
     const lic = limpiarHtml(m.LicenseShortName?.value);
     if (!LIBRE.test(lic)) continue;
@@ -112,6 +112,25 @@ export async function resolverImagenes(g: Guion, rehacer = false, guardar?: () =
         console.warn(`  ⚠ escena ${i + 1}.${j + 1} (${img.busqueda}): ${(err as Error).message}`);
       }
     }
+  }
+  // Logo de la portada (SVG de Commons se descarga ya convertido a PNG)
+  if (g.logo && (rehacer || !g.logo.archivo || !(await existe(path.join(RAIZ, "public", g.logo.archivo))))) {
+    try {
+      if (!g.logo.url) {
+        const c = await buscarCommons(g.logo.busqueda, new Set(), true);
+        if (c) Object.assign(g.logo, c);
+      }
+      if (g.logo.url) {
+        const r = await pedir(g.logo.url);
+        if (r.ok) {
+          const rel = `img/${g.id}/logo.png`;
+          await writeFile(path.join(RAIZ, "public", rel), Buffer.from(await r.arrayBuffer()));
+          g.logo.archivo = rel;
+          console.log(`  logo ${g.logo.busqueda} → ${g.logo.pagina ?? g.logo.url}`);
+          await guardar?.();
+        } else console.warn(`  ⚠ logo: descarga ${r.status}`);
+      } else console.warn(`  ⚠ logo: sin resultados para "${g.logo.busqueda}"`);
+    } catch (err) { console.warn(`  ⚠ logo: ${(err as Error).message}`); }
   }
   return g;
 }
