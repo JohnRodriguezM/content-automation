@@ -1,0 +1,209 @@
+{
+  "id": "2026-11-09-casas-bahia-recuperacion-judicial",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "tema": "Casas Bahia, gigante del retail brasileño, entró en recuperación judicial con 17.300 millones de reales de deuda",
+  "pregunta_principal": "¿Tu negocio aguanta si los intereses suben y tus clientes compran menos?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Una de las cadenas de tiendas más grandes de Brasil le debe a veintiocho mil acreedores. Y un juez acaba de darle ciento ochenta días para respirar.",
+      "imagenes": [
+        {
+          "busqueda": "Casas Bahia",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Casas Bahia store",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "veintiocho",
+        "ciento"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "28.000",
+          "etiqueta": "acreedores",
+          "icono": "documentos"
+        }
+      ],
+      "titulo": "Una deuda de 17.300 millones"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Es Casas Bahia, que vende electrodomésticos y muebles. Vende mucho a crédito, y en los últimos años los intereses en Brasil subieron, la gente perdió poder de compra y aumentaron los impagos.",
+      "imagenes": [
+        {
+          "busqueda": "São Paulo Avenida Paulista",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "home appliances store",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "crédito",
+        "impagos"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "dinero",
+              "texto": "Intereses altos"
+            },
+            {
+              "icono": "grafica_baja",
+              "texto": "Menos poder de compra"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Más impagos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En agosto pidió la recuperación judicial, la protección que da la ley para renegociar deudas. [pause] El veintiuno de octubre, un juez de São Paulo la aprobó.",
+      "imagenes": [
+        {
+          "busqueda": "São Paulo courthouse",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "B3 stock exchange São Paulo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "recuperación",
+        "aprobó"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Protección para [[renegociar]]",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[sighs] Su deuda total es de diecisiete mil trescientos millones de reales. Los acreedores no pueden cobrar por ciento ochenta días, y la asamblea para votar el plan debe hacerse en los próximos ciento cincuenta.",
+      "imagenes": [
+        {
+          "busqueda": "Brazilian real banknotes",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "shopping mall São Paulo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "diecisiete",
+        "ciento"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "R$17.300M",
+          "etiqueta": "deuda total",
+          "icono": "grafica_baja"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Si tu negocio depende de que tus clientes se endeuden para comprarte, cuando suben los intereses te golpean dos veces: a ti y a ellos.",
+      "imagenes": [
+        {
+          "busqueda": "credit card payment",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "endeuden",
+        "dos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Cuando suben los intereses te golpean [[dos veces]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tu negocio aguanta si los intereses suben y tus clientes compran menos? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Casas Bahia logo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "aguanta",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Tu negocio [[aguanta]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Casas Bahia, una de las cadenas de tiendas más grandes de Brasil, entró en recuperación judicial con una deuda de 17.300 millones de reales y unos 28.000 acreedores. Un juez de São Paulo la aprobó el 21 de octubre: los acreedores no pueden cobrar por 180 días mientras se negocia el plan. La empresa culpa a los intereses altos, la menor capacidad de compra y el aumento de los impagos.\n\n¿Tu negocio aguanta si los intereses suben y tus clientes compran menos?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#casasbahia",
+    "#brasil",
+    "#retail",
+    "#deuda",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Deuda total de 17.300 millones de reales; aprobación el 21 de octubre de 2026; unos 28.000 acreedores; 180 días de protección; asamblea en 150 días",
+      "url": "https://www.gazetadopovo.com.br/economia/justica-aprova-recuperacao-casas-bahia-17-3-bilhoes/"
+    },
+    {
+      "afirmacion": "Justicia de São Paulo aprueba la recuperación judicial; la empresa atribuye la crisis a intereses altos, menor poder de compra y morosidad",
+      "url": "https://mercadoeconsumo.com.br/21/10/2026/noticias-varejo/justica-de-sp-aprova-recuperacao-judicial-do-grupo-casas-bahia/"
+    },
+    {
+      "afirmacion": "Unos 28.000 acreedores; resultados del tercer trimestre aplazados al 10 de diciembre",
+      "url": "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/07/casas-bahia-adia-balanco-3-trimestre-10-dezembro"
+    }
+  ]
+}

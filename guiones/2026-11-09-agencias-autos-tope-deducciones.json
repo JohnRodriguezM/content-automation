@@ -1,0 +1,217 @@
+{
+  "id": "2026-11-09-agencias-autos-tope-deducciones",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "tema": "El tope a las deducciones del ISR en México pone en riesgo a las agencias de autos, según su gremio",
+  "pregunta_principal": "¿Cuánto margen tiene tu negocio para aguantar un cambio de reglas?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] En México, el gremio de distribuidores de autos dice que mil agencias podrían quebrar. Y no por falta de ventas, sino por un cambio en los impuestos.",
+      "imagenes": [
+        {
+          "busqueda": "car dealership",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Palacio Legislativo de San Lázaro",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mil",
+        "impuestos"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "1.000",
+          "etiqueta": "agencias en riesgo, según la AMDA",
+          "icono": "grafica_baja"
+        }
+      ],
+      "titulo": "Mil agencias en riesgo"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "La reforma al impuesto sobre la renta para 2027 pone un tope: las empresas que facturan más de cincuenta millones de pesos solo podrán deducir gastos hasta cerca del noventa y seis punto siete por ciento de sus ingresos.",
+      "imagenes": [
+        {
+          "busqueda": "Senado de la República México",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Mexican peso banknotes",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tope",
+        "noventa"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "96,7%",
+          "etiqueta": "de los ingresos: tope de deducción",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El Senado dejó por fuera a las armadoras exportadoras y a las gasolineras, pero no a las agencias de autos. [pause] El tres de noviembre, la Cámara de Diputados aprobó la versión final.",
+      "imagenes": [
+        {
+          "busqueda": "Cámara de Diputados México",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "new cars lot",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "armadoras",
+        "aprobó"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "Exentas",
+            "texto": "armadoras y gasolineras",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "No exentas",
+            "texto": "agencias de autos",
+            "icono": "grafica_baja"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[sighs] El problema es que una agencia gana entre uno y tres por ciento de lo que vende. Según la AMDA, con un margen de dos por ciento, su tasa efectiva de impuesto podría llegar al cincuenta por ciento.",
+      "imagenes": [
+        {
+          "busqueda": "car showroom",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "calculator",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tres",
+        "cincuenta"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "30%",
+            "texto": "tasa legal",
+            "icono": "documentos"
+          },
+          "despues": {
+            "valor": "50%",
+            "texto": "tasa efectiva con margen del 2%",
+            "icono": "grafica_baja"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Vender mucho con márgenes muy pequeños te deja sin espacio para cualquier cambio. Un solo punto de costo puede llevarse toda tu ganancia.",
+      "imagenes": [
+        {
+          "busqueda": "money",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "márgenes",
+        "ganancia"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Volumen sin margen es [[frágil]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Cuánto margen tiene tu negocio para aguantar un cambio de reglas? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Mexico City traffic",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "margen",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Cuánto [[margen]] tienes?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "La reforma al ISR para 2027 en México limita la deducción de gastos a cerca del 96,7% de los ingresos para empresas que facturan más de 50 millones de pesos. El Senado exentó a armadoras exportadoras y gasolineras, pero no a las agencias de autos, que ganan entre 1% y 3% de lo que venden. La AMDA estima que unas 1.000 agencias podrían quebrar; es una proyección del gremio.\n\n¿Cuánto margen tiene tu negocio para aguantar un cambio de reglas?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#mexico",
+    "#impuestos",
+    "#autos",
+    "#emprendimiento",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "La AMDA estima que unas 1.000 agencias, cerca de un tercio de sus afiliados, están en riesgo de quiebra por el tope a deducciones",
+      "url": "https://elceo.com/negocios/alrededor-1000-agencias-automotrices-riesgo-quiebra-deducciones-amda/"
+    },
+    {
+      "afirmacion": "Márgenes de 1-3%; tasa efectiva de 50% con margen de 2% según la AMDA; tope de deducción",
+      "url": "https://expansion.mx/empresas/2026/10/30/agencias-autos-rentabilidad-sobrevivir-tope-deducciones"
+    },
+    {
+      "afirmacion": "Exención para armadoras exportadoras y gasolineras; tope para ingresos de más de 50 millones de pesos",
+      "url": "https://elceo.com/economia/cambios-ley-isr-golpeara-industria-automotriz-reserva-aprovada-senado-tiene-alcance-limitado/"
+    },
+    {
+      "afirmacion": "Diputados aprobaron los cambios al ISR el 3 de noviembre, 349 votos a favor y 92 en contra",
+      "url": "https://www.razon.com.mx/mexico/2026/11/04/diputados-aprueban-cambios-al-isr/"
+    }
+  ]
+}

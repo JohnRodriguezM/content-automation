@@ -1,0 +1,209 @@
+{
+  "id": "2026-11-09-manaco-cierra-86-anos",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "tema": "Manaco, la histórica fábrica de zapatos de Bolivia, anunció su cierre tras 86 años y 130 millones de bolivianos en pérdidas",
+  "pregunta_principal": "¿Qué haces cuando tu negocio dejó de ser sostenible?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Una fábrica de zapatos que funcionó durante ochenta y seis años en Bolivia anunció que cierra para siempre.",
+      "imagenes": [
+        {
+          "busqueda": "Quillacollo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "shoe factory",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ochenta",
+        "siempre"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "86",
+          "etiqueta": "años de historia",
+          "icono": "reloj"
+        }
+      ],
+      "titulo": "Cierra después de 86 años"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Es Manaco, fundada en 1940. Llegó a tener más de dos mil trabajadores. Pero según la empresa, la pandemia, la economía de 2026, los conflictos sociales y la falta de materia prima la fueron hundiendo.",
+      "imagenes": [
+        {
+          "busqueda": "Cochabamba Bolivia",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "leather shoes",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1940",
+        "hundiendo"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "grafica_baja",
+              "texto": "Pandemia"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Economía difícil"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Falta de materia prima"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El treinta y uno de octubre anunció el cierre definitivo de su planta en Quillacollo. [pause] La empresa dijo que pagará todos los beneficios a sus trabajadores, con un pago extra.",
+      "imagenes": [
+        {
+          "busqueda": "Quillacollo Cochabamba",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "factory building",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cierre",
+        "beneficios"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Cierre [[definitivo]]",
+          "icono": "edificio"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[sighs] Las pérdidas acumuladas llegan a ciento treinta millones de bolivianos. Cerca de seiscientos trabajadores pierden su empleo, y la Central Obrera Boliviana lo calificó de unilateral.",
+      "imagenes": [
+        {
+          "busqueda": "Bolivian boliviano banknotes",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Cochabamba",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ciento",
+        "seiscientos"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "Bs 130M",
+          "etiqueta": "pérdidas acumuladas",
+          "icono": "grafica_baja"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Una marca con historia no te protege si el negocio dejó de ser sostenible. Los años de éxito no pagan las pérdidas de hoy.",
+      "imagenes": [
+        {
+          "busqueda": "shoes",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "historia",
+        "hoy"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "La historia no paga las [[pérdidas]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué haces cuando tu negocio dejó de ser sostenible? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Bolivia",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "sostenible",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué haces cuando [[ya no es sostenible]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Manaco, la fábrica de zapatos fundada en Bolivia en 1940, anunció el 31 de octubre el cierre definitivo de su planta en Quillacollo, con pérdidas acumuladas de 130 millones de bolivianos. La empresa culpa a la pandemia, la economía, los conflictos sociales y la falta de materia prima. Cerca de 600 trabajadores pierden su empleo.\n\n¿Qué haces cuando tu negocio dejó de ser sostenible?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#manaco",
+    "#bolivia",
+    "#industria",
+    "#emprendimiento",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Manaco, fundada en 1940, cierra su planta tras 86 años con pérdidas acumuladas de 130 millones de bolivianos; motivos: pandemia, contexto económico, conflictos y falta de materia prima",
+      "url": "https://eldeber.com.bo/economia/manaco-cierra-historica-fabrica-bolivia-86-anos-perdidas-acumuladas-bs-130-millones_1793459001"
+    },
+    {
+      "afirmacion": "Cierre definitivo de la planta de Manaco en Cochabamba; pérdidas de 130 millones de bolivianos",
+      "url": "https://lapatria.bo/dinero-negocios/empresas/cierre-definitivo-planta-manaco-cochabamba/"
+    },
+    {
+      "afirmacion": "Unos 600 trabajadores frente a más de 2.000 en el pasado; pérdidas de 130 millones de bolivianos",
+      "url": "https://prensamercosur.org/2026/11/02/seis-meses-despues-de-recibir-la-visita-de-paz-manaco-anuncia-su-cierre-definitivo-por-perdidas-de-bs-130-millones/"
+    }
+  ]
+}

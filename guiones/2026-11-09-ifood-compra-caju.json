@@ -1,0 +1,205 @@
+{
+  "id": "2026-11-09-ifood-compra-caju",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "tema": "iFood acordó comprar la startup Caju y apostó por el negocio de beneficios corporativos",
+  "pregunta_principal": "¿Cuál es el negocio de al lado que podría hacer crecer el tuyo?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] La app de domicilios más grande de Brasil quiere estar en algo que no es la comida a domicilio: la tarjeta de alimentación que te da tu empresa.",
+      "imagenes": [
+        {
+          "busqueda": "iFood logo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "iFood delivery motorcycle",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "domicilios",
+        "tarjeta"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Más allá de los [[domicilios]]",
+          "icono": "celular"
+        }
+      ],
+      "titulo": "iFood va por tu tarjeta de alimentación"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En Brasil, muchas empresas les dan a sus empleados un vale para comida. Es un mercado de unos ciento cincuenta mil millones de reales al año, dominado por pocas compañías.",
+      "imagenes": [
+        {
+          "busqueda": "restaurant São Paulo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "meal voucher card",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "vale",
+        "ciento"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "R$150.000M",
+          "etiqueta": "al año en vales de alimentación",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El veinte de octubre, iFood anunció la compra de Caju, una startup de beneficios fundada en 2020. [pause] Según la prensa brasileña, el precio rondaría los mil millones de reales.",
+      "imagenes": [
+        {
+          "busqueda": "Prosus logo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "São Paulo skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Caju",
+        "mil"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "celular",
+              "texto": "iFood Benefícios"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Caju, fundada en 2020"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Unos R$1.000M, según la prensa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[excited] Juntas sumarían unos tres millones de usuarios y más de ciento treinta mil empresas clientes. Pero todavía falta la aprobación del regulador de competencia y del Banco Central.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone payment Brazil",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "office workers lunch",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tres",
+        "aprobación"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "3M",
+          "etiqueta": "usuarios combinados",
+          "icono": "celular"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Tu mayor oportunidad puede estar justo al lado de lo que ya haces. iFood ya tenía restaurantes y usuarios, y ahora va por la plata con la que esos usuarios pagan.",
+      "imagenes": [
+        {
+          "busqueda": "food delivery",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "lado",
+        "plata"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "La oportunidad está [[al lado]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Cuál es el negocio de al lado que podría hacer crecer el tuyo? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "iFood",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "lado",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Cuál es tu negocio [[de al lado]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "El 20 de octubre, iFood anunció la compra de Caju, una startup brasileña de beneficios corporativos fundada en 2020. Según la prensa brasileña, el precio rondaría los 1.000 millones de reales. Juntas sumarían unos 3 millones de usuarios en un mercado de vales de alimentación de unos 150.000 millones de reales al año. Falta la aprobación del CADE y del Banco Central.\n\n¿Cuál es el negocio de al lado que podría hacer crecer el tuyo?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#ifood",
+    "#brasil",
+    "#startups",
+    "#adquisiciones",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "iFood compra Caju; 3 millones de usuarios combinados; iFood con 1,7 millones de usuarios y 65.000 empresas, Caju con 1,3 millones y más de 70.000; precio de cerca de 1.000 millones de reales según Estadão; mercado de 150.000 millones",
+      "url": "https://www.jornaldocomercio.com/economia/2026/10/1267707-ifood-compra-caju-e-passa-a-ter-tres-milhoes-de-usuarios-na-area-de-beneficios.html"
+    },
+    {
+      "afirmacion": "Caju fundada en 2020; la operación depende del aval del CADE y del Banco Central; mercado de 150.000 millones de reales",
+      "url": "https://www.opovo.com.br/trends/ifood-compra-caju-e-passa-a-reunir-3-milhoes-de-usuarios-no-mercado-de-beneficios-mas-negocio-ainda-depende-de-aval"
+    }
+  ]
+}

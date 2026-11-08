@@ -1,0 +1,221 @@
+{
+  "id": "2026-11-09-holcim-cementos-pacasmayo",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "tema": "Holcim lanzó una oferta por el 49,99% de Cementos Pacasmayo, meses después de tomar el control",
+  "pregunta_principal": "¿Vale más ser socio o ser el dueño de todo?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Una cementera suiza compró la mitad de una cementera peruana en marzo. Ahora va por la otra mitad.",
+      "imagenes": [
+        {
+          "busqueda": "Holcim logo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Cementos Pacasmayo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mitad",
+        "otra"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "50,01%",
+            "texto": "lo que compró en marzo",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "100%",
+            "texto": "lo que busca ahora",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "titulo": "Holcim va por todo"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Es Holcim. En marzo le compró el cincuenta punto cero uno por ciento de Cementos Pacasmayo al grupo Hochschild. Pacasmayo tiene tres plantas en el norte de Perú y era la segunda cementera del país.",
+      "imagenes": [
+        {
+          "busqueda": "Trujillo Peru",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "cement plant",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cincuenta",
+        "segunda"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "3 plantas en el norte"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Comprada al grupo Hochschild"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Valorada en unos $1.500M"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El veintidós de octubre lanzó una oferta pública por el cuarenta y nueve punto noventa y nueve por ciento restante. [pause] Ofrece ocho soles con noventa y tres por acción.",
+      "imagenes": [
+        {
+          "busqueda": "Bolsa de Valores de Lima",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "cement bags",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "oferta",
+        "ocho"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "S/8,93",
+          "etiqueta": "por acción",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Si todos venden, serían unos mil ochocientos noventa millones de soles. [pause] El directorio de Pacasmayo se declaró neutral y la decisión queda en manos de los accionistas, entre ellos los fondos de pensiones. La oferta cierra el veinte de noviembre.",
+      "imagenes": [
+        {
+          "busqueda": "Lima financial district",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "cement mixer",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mil",
+        "veinte"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "S/1.892M",
+          "etiqueta": "si todos venden",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Tener el control no siempre es suficiente. Quien quiere decidir sin rendirle cuentas a nadie más, termina buscando quedarse con todo.",
+      "imagenes": [
+        {
+          "busqueda": "cement",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "control",
+        "todo"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "El control no siempre [[es suficiente]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú preferirías ser socio o ser el dueño de todo? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Pacasmayo Peru",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "socio",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Socio o [[dueño de todo]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "En marzo, Holcim compró el 50,01% de Cementos Pacasmayo al grupo Hochschild. El 22 de octubre lanzó una oferta pública por el 49,99% restante a 8,93 soles por acción: unos 1.892 millones de soles si todos venden. El directorio de Pacasmayo se declaró neutral y la oferta cierra el 20 de noviembre.\n\n¿Vale más ser socio o ser el dueño de todo?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#holcim",
+    "#peru",
+    "#cemento",
+    "#adquisiciones",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "OPA de 8,93 soles por acción por hasta 211.882.902 acciones; del 22 de octubre al 20 de noviembre; directorio neutral; unos 1.892 millones de soles",
+      "url": "https://semanaeconomica.com/sectores-empresas/industria/holcim-lanzo-opa-por-el-4999-de-cementos-pacasmayo-a-s893-por-accion"
+    },
+    {
+      "afirmacion": "Holcim lanza OPA por el 49,99% de Cementos Pacasmayo a 8,93 soles por acción",
+      "url": "https://forbes.pe/negocios/2026-11-05/holcim-va-tras-cementos-pacasmayo-lanza-una-opa-por-el-4999-de-acciones"
+    },
+    {
+      "afirmacion": "Compra del 50,01% al grupo Hochschild, cerrada el 30 de marzo de 2026; valoración de unos 1.500 millones de dólares",
+      "url": "https://gestion.pe/economia/empresas/holcim-solicita-flexibilizar-requisitos-para-lanzar-la-opa-sobre-cementos-pacasmayo-noticia/"
+    },
+    {
+      "afirmacion": "Participación de mercado previa: UNACEM 44%, Pacasmayo 23%; tres plantas en el norte",
+      "url": "https://infomercado.pe/holcim-entra-con-fuerza-al-norte-del-peru-y-compra-mas-del-50-de-cementos-pacasmayo/"
+    }
+  ]
+}

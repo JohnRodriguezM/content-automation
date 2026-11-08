@@ -1,0 +1,212 @@
+{
+  "id": "2026-11-09-canal-panama-nuevos-puertos",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "tema": "El Canal de Panamá prepara la concesión de dos nuevas terminales de contenedores por unos 2.600 millones de dólares",
+  "pregunta_principal": "¿Qué servicios podrías ofrecer alrededor de lo que ya haces bien?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] El Canal de Panamá ya no quiere ser solo un paso entre dos océanos. Ahora quiere construir sus propios puertos.",
+      "imagenes": [
+        {
+          "busqueda": "Miraflores Locks",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Panama Canal",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "océanos",
+        "puertos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Más que un [[canal]]",
+          "icono": "edificio"
+        }
+      ],
+      "titulo": "El Canal quiere sus puertos"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "El canal depende del agua y de cuántos barcos lo cruzan. Para el año que termina en septiembre de 2027 proyecta unos diez mil setecientos tránsitos de barcos grandes, menos que el año anterior.",
+      "imagenes": [
+        {
+          "busqueda": "Agua Clara Locks",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "container ship Panama Canal",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "agua",
+        "menos"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "12.636",
+            "texto": "tránsitos el año pasado",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "10.750",
+            "texto": "tránsitos proyectados",
+            "icono": "grafica_baja"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Por eso decidió diversificarse. [pause] La Autoridad del Canal dará en concesión dos terminales de contenedores, Corozal en el Pacífico y Telfers en el Atlántico, por unos dos mil seiscientos millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "Port of Balboa",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "container terminal cranes",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "diversificarse",
+        "dos"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$2.600M",
+          "etiqueta": "dos nuevas terminales",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "El cuatro de noviembre, su administradora dijo que los preseleccionados se anunciarán antes de que termine 2026. [excited] Las concesiones se darían a mediados de 2027 y las terminales operarían hacia 2030.",
+      "imagenes": [
+        {
+          "busqueda": "Ilya Espino de Marotta",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "shipping containers",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "preseleccionados",
+        "2030"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Preselección: fin de 2026"
+            },
+            {
+              "icono": "reloj",
+              "texto": "Concesión: mediados de 2027"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Operación: hacia 2030"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Cuando tu negocio principal está bajo presión, no siempre hay que cambiarlo. A veces la salida es ofrecer los servicios que están justo alrededor.",
+      "imagenes": [
+        {
+          "busqueda": "Panama City skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "presión",
+        "alrededor"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Crece con lo que está [[alrededor]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué servicios podrías ofrecer alrededor de lo que ya haces bien? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Panama Canal ship",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "alrededor",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué hay [[alrededor]] de lo que haces?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "El Canal de Panamá dará en concesión dos terminales de contenedores, Corozal en el Pacífico y Telfers en el Atlántico, por unos 2.600 millones de dólares, dentro de un plan de expansión de 8.500 millones. Los preseleccionados se anunciarán antes de fin de 2026 y las terminales operarían hacia 2030-2031.\n\n¿Qué servicios podrías ofrecer alrededor de lo que ya haces bien?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#canaldepanama",
+    "#panama",
+    "#logistica",
+    "#infraestructura",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Unos 2.600 millones para Corozal y Telfers dentro de un plan de 8.500 millones; preseleccionados antes de fin de 2026; adjudicación a mediados de 2027; 10.750 tránsitos proyectados frente a 12.636",
+      "url": "https://www.marinelink.com/news/panama-canal-name-terminal-bidders-544160"
+    },
+    {
+      "afirmacion": "La Autoridad del Canal anunciará las empresas seleccionadas para competir por dos terminales; operación en 2030-2031",
+      "url": "https://newsroompanama.com/2026/11/08/panama-canal-authority-set-to-announce-companies-selected-to-compete-for-two-port-terminals"
+    }
+  ]
+}

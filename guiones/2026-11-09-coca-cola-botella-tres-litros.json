@@ -1,0 +1,212 @@
+{
+  "id": "2026-11-09-coca-cola-botella-tres-litros",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "tema": "Tras el alza del impuesto a las bebidas azucaradas en México, la botella de tres litros de Coca-Cola se vendió más de lo esperado",
+  "pregunta_principal": "¿Tus clientes miran el precio total o el precio por unidad?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] En México subió el impuesto a los refrescos. Y pasó algo que ni Coca-Cola esperaba: la gente empezó a comprar botellas más grandes.",
+      "imagenes": [
+        {
+          "busqueda": "Coca-Cola bottles",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "OXXO",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "impuesto",
+        "grandes"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "La botella de [[3 litros]]",
+          "icono": "dinero"
+        }
+      ],
+      "titulo": "La botella de 3 litros"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 2026, el impuesto especial a las bebidas azucaradas pasó de uno punto sesenta y cuatro a tres punto cero ocho pesos por litro. Las embotelladoras subieron precios y apostaron por los tamaños familiares.",
+      "imagenes": [
+        {
+          "busqueda": "soft drinks supermarket",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Monterrey Cerro de la Silla",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tres",
+        "familiares"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$1,64",
+            "texto": "impuesto por litro antes",
+            "icono": "documentos"
+          },
+          "despues": {
+            "valor": "$3,08",
+            "texto": "impuesto por litro en 2026",
+            "icono": "grafica_baja"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Las embotelladoras decidieron empujar las presentaciones grandes y retornables. [pause] La botella de tres litros retornable llegó a costar unos cincuenta y dos pesos.",
+      "imagenes": [
+        {
+          "busqueda": "Coca-Cola FEMSA",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "returnable glass bottles",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "grandes",
+        "cincuenta"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$52",
+          "etiqueta": "botella de 3 litros retornable",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[excited] La demanda de la botella de tres litros superó lo esperado. El director de Coca-Cola FEMSA dijo que eso no estaba en su presupuesto. Su volumen en México subió cuatro punto dos por ciento, pero su ganancia operativa en la región cayó tres por ciento.",
+      "imagenes": [
+        {
+          "busqueda": "Arca Continental",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Coca-Cola truck",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "superó",
+        "cayó"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "+4,2%",
+            "texto": "volumen en México",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "-3,1%",
+            "texto": "ganancia operativa en la región",
+            "icono": "grafica_baja"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Cuando sube el precio, el cliente no siempre deja de comprar. A veces busca pagar menos por cada litro. El tamaño del empaque también es una estrategia.",
+      "imagenes": [
+        {
+          "busqueda": "Coca-Cola",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "litro",
+        "estrategia"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "El empaque también es [[estrategia]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tus clientes miran el precio total o el precio por unidad? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Monterrey Mexico",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "unidad",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Precio total o [[precio por unidad]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "En 2026, el impuesto a las bebidas azucaradas en México pasó de 1,64 a 3,08 pesos por litro. Las embotelladoras subieron precios y apostaron por los tamaños familiares, y la botella de 3 litros se vendió más de lo esperado. El volumen de Coca-Cola FEMSA en México subió 4,2%, pero su ganancia operativa en México y Centroamérica cayó 3,1%.\n\n¿Tus clientes miran el precio total o el precio por unidad?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#cocacola",
+    "#mexico",
+    "#precios",
+    "#estrategia",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "IEPS de 1,64 a 3,0818 pesos por litro en 2026",
+      "url": "https://expansion.mx/empresas/2026/10/27/coca-cola-femsa-ventas-mexico-ieps-tercer-trimestre-2026"
+    },
+    {
+      "afirmacion": "Volumen de KOF en México +4,2%; ganancia operativa de México y Centroamérica -3,1%; Ian Craig: no estaba en el presupuesto; demanda de la botella de tres litros",
+      "url": "https://expansion.mx/empresas/2026/11/06/coca-cola-botella-tres-litros-mexico-negocio"
+    },
+    {
+      "afirmacion": "Precios de agosto de 2026: 3 litros retornable a 52 pesos",
+      "url": "https://www.elfinanciero.com.mx/empresas/2026/08/04/alza-en-ieps-presiona-a-coca-cola-a-subir-precio-de-refrescos-cuanto-aumentaran/"
+    }
+  ]
+}

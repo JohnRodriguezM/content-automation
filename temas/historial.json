@@ -394,5 +394,101 @@
       "eToro",
       "LB Finanzas"
     ]
+  },
+  {
+    "id": "2026-11-09-casas-bahia-recuperacion-judicial",
+    "tema": "Casas Bahia, gigante del retail brasileño, entró en recuperación judicial con 17.300 millones de reales de deuda",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Casas Bahia"
+    ]
+  },
+  {
+    "id": "2026-11-09-ifood-compra-caju",
+    "tema": "iFood acordó comprar la startup Caju y apostó por el negocio de beneficios corporativos",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "iFood",
+      "Caju"
+    ]
+  },
+  {
+    "id": "2026-11-09-alicorp-compra-rama-flora",
+    "tema": "Alicorp compró a Flora Food 19 marcas de margarina como Rama y La Danesa por unos 150 millones de dólares",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Alicorp",
+      "Flora Food"
+    ]
+  },
+  {
+    "id": "2026-11-09-dia-argentina-narvaez",
+    "tema": "Grupo Día vendió su negocio en Argentina al grupo de Francisco de Narváez, dueño de ChangoMás y de Tía en Ecuador, por 53,8 millones de dólares",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Supermercados Día",
+      "Francisco de Narváez",
+      "Tía"
+    ]
+  },
+  {
+    "id": "2026-11-09-scanntech-datos-retail",
+    "tema": "La uruguaya Scanntech levantó 180 millones de dólares tras 34 años construyendo una red de datos de ventas del retail",
+    "pilar": "tecnologia",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Scanntech"
+    ]
+  },
+  {
+    "id": "2026-11-09-manaco-cierra-86-anos",
+    "tema": "Manaco, la histórica fábrica de zapatos de Bolivia, anunció su cierre tras 86 años y 130 millones de bolivianos en pérdidas",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Manaco"
+    ]
+  },
+  {
+    "id": "2026-11-09-holcim-cementos-pacasmayo",
+    "tema": "Holcim lanzó una oferta por el 49,99% de Cementos Pacasmayo, meses después de tomar el control",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Holcim",
+      "Cementos Pacasmayo"
+    ]
+  },
+  {
+    "id": "2026-11-09-agencias-autos-tope-deducciones",
+    "tema": "El tope a las deducciones del ISR en México pone en riesgo a las agencias de autos, según su gremio",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "AMDA"
+    ]
+  },
+  {
+    "id": "2026-11-09-coca-cola-botella-tres-litros",
+    "tema": "Tras el alza del impuesto a las bebidas azucaradas en México, la botella de tres litros de Coca-Cola se vendió más de lo esperado",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Coca-Cola FEMSA",
+      "Arca Continental"
+    ]
+  },
+  {
+    "id": "2026-11-09-canal-panama-nuevos-puertos",
+    "tema": "El Canal de Panamá prepara la concesión de dos nuevas terminales de contenedores por unos 2.600 millones de dólares",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Canal de Panamá"
+    ]
   }
 ]

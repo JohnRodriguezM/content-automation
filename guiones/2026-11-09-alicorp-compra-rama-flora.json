@@ -1,0 +1,209 @@
+{
+  "id": "2026-11-09-alicorp-compra-rama-flora",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "tema": "Alicorp compró a Flora Food 19 marcas de margarina como Rama y La Danesa por unos 150 millones de dólares",
+  "pregunta_principal": "¿Qué está soltando un gigante que tú podrías aprovechar?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Una empresa peruana acaba de comprar diecinueve marcas que probablemente tienes en tu nevera. Y lo hizo en una sola jugada.",
+      "imagenes": [
+        {
+          "busqueda": "Alicorp",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "margarine",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "diecinueve",
+        "jugada"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "19",
+          "etiqueta": "marcas en una sola compra",
+          "icono": "documentos"
+        }
+      ],
+      "titulo": "19 marcas de una vez"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Es Alicorp, uno de los grupos de consumo más grandes de Perú. Ya venía comprando marcas que las multinacionales vendían, como Deja y FAB, que eran de Unilever.",
+      "imagenes": [
+        {
+          "busqueda": "Lima skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "supermarket shelves",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Alicorp",
+        "multinacionales"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Comprar lo que las multinacionales [[venden]]",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Esta vez le compró a Flora Food todo su negocio de margarinas en la región por unos ciento cincuenta millones de dólares. [pause] Incluye marcas como Rama en Colombia, La Danesa en Perú y Bonella en Ecuador.",
+      "imagenes": [
+        {
+          "busqueda": "Cali Colombia skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "butter and margarine",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ciento",
+        "Rama"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$150,5M",
+          "etiqueta": "precio de la compra",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "La compra se cerró a comienzos de noviembre y Ecuador ya la aprobó. [excited] Alicorp suma una planta en Cali, desde donde abastecerá a Colombia, Ecuador, Perú y Panamá.",
+      "imagenes": [
+        {
+          "busqueda": "Cali",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "food factory",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Cali",
+        "Panamá"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Planta en Cali"
+            },
+            {
+              "icono": "documentos",
+              "texto": "19 marcas"
+            },
+            {
+              "icono": "dinero",
+              "texto": "7 países"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Cuando un gigante decide salir de una categoría, no siempre es porque no sirva. A veces solo dejó de encajar en su plan, y para otro puede ser justo lo que necesita.",
+      "imagenes": [
+        {
+          "busqueda": "bread and butter",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "salir",
+        "necesita"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Lo que suelta un gigante puede ser [[tu oportunidad]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué está soltando un gigante que tú podrías aprovechar? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Lima Peru",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "soltando",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué podrías [[aprovechar]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Alicorp compró a Flora Food 19 marcas de margarinas y untables en la región, como Rama en Colombia, La Danesa en Perú y Bonella en Ecuador, por unos 150,5 millones de dólares. Suma una planta en Cali desde la que abastecerá a Colombia, Ecuador, Perú y Panamá.\n\n¿Qué está soltando un gigante que tú podrías aprovechar?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#alicorp",
+    "#peru",
+    "#colombia",
+    "#adquisiciones",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Alicorp adquiere Flora Food por unos 150,5 millones de dólares; 19 marcas; países incluidos",
+      "url": "https://forbes.pe/negocios/2026-11-03/alicorp-adquiere-flora-food-por-us1505-millones-y-suma-19-marcas-a-su-portafolio-regional/"
+    },
+    {
+      "afirmacion": "Alicorp compra Rama y operará desde Cali para atender Colombia, Ecuador, Perú y Panamá",
+      "url": "https://www.larepublica.co/empresas/alicorp-adquirio-rama-y-operara-desde-cali-para-atender-cuatro-mercados-de-la-region-4516243"
+    },
+    {
+      "afirmacion": "La Superintendencia de Competencia de Ecuador aprobó la operación; Alicorp ya había comprado Deja, FAB y Aromatel a Unilever",
+      "url": "https://www.primicias.ec/economia/empresas/margarina-bonella-dorina-alicorp-compra-florafood-superintendencia-ecuador-136331/"
+    }
+  ]
+}

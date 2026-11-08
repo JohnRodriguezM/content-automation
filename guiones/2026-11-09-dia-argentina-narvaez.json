@@ -1,0 +1,216 @@
+{
+  "id": "2026-11-09-dia-argentina-narvaez",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "tema": "Grupo Día vendió su negocio en Argentina al grupo de Francisco de Narváez, dueño de ChangoMás y de Tía en Ecuador, por 53,8 millones de dólares",
+  "pregunta_principal": "¿Cuándo es mejor vender que seguir aguantando pérdidas?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Casi mil supermercados en Argentina acaban de cambiar de dueño. Y el precio fue apenas cincuenta y tres millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "Supermercado Día Argentina",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Supermercados Día",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mil",
+        "cincuenta"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$53,8M",
+          "etiqueta": "precio de casi 1.000 supermercados",
+          "icono": "dinero"
+        }
+      ],
+      "titulo": "1.000 supermercados por 53 millones"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Eran de Día, la cadena española. En Argentina tenía novecientas noventa y una tiendas, la mayoría franquicias, y en el último año había perdido cincuenta y cuatro millones de euros.",
+      "imagenes": [
+        {
+          "busqueda": "Buenos Aires",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "supermarket aisle",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "franquicias",
+        "perdido"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "991",
+            "texto": "tiendas",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "-€54M",
+            "texto": "pérdida en 12 meses",
+            "icono": "grafica_baja"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Día decidió dejar de aguantar pérdidas y vender. [pause] El comprador fue el grupo de Francisco de Narváez, que en 2020 compró Walmart Argentina, hoy ChangoMás, y que también es dueño de Tía en Ecuador.",
+      "imagenes": [
+        {
+          "busqueda": "Francisco de Narváez",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "ChangoMás",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "vender",
+        "ChangoMás"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "ChangoMás en Argentina"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Tía en Ecuador"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Ahora, Día Argentina"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[sighs] Día espera un golpe contable de unos cien millones de euros por la venta, pero deja de perder plata en Argentina. Y el grupo de Narváez pasa de mil tiendas en ese país.",
+      "imagenes": [
+        {
+          "busqueda": "Almacenes Tía Ecuador",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Guayaquil",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cien",
+        "mil"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Vender también es una [[decisión]]",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] Vender barato duele, pero seguir perdiendo plata duele más. Y lo que para uno es un problema, para otro con más escala puede ser una oportunidad.",
+      "imagenes": [
+        {
+          "busqueda": "shopping cart",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "barato",
+        "oportunidad"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Lo que es un problema para uno es [[oportunidad]] para otro",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Cuándo es mejor vender que seguir aguantando pérdidas? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Buenos Aires skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "vender",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Vender o [[seguir aguantando]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "La española Día vendió su negocio en Argentina, con 991 tiendas, por 53,8 millones de dólares al grupo de Francisco de Narváez, dueño de ChangoMás y de Tía en Ecuador. Día había perdido 54 millones de euros en Argentina en el último año y espera un golpe contable de unos 100 millones de euros por la venta.\n\n¿Cuándo es mejor vender que seguir aguantando pérdidas?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#supermercadosdia",
+    "#argentina",
+    "#ecuador",
+    "#retail",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Precio total de 53,8 millones de dólares; 991 supermercados; pérdida de 54 millones de euros en 12 meses; golpe contable esperado de unos 100 millones de euros; Tía con ingresos de 795 millones en 2025",
+      "url": "https://primicias.ec/economia/empresas/grupo-narvaez-tia-ecuador-compra-supermercados-dia-argentina-136561"
+    },
+    {
+      "afirmacion": "Día vende su negocio en Argentina al Grupo De Narváez; 75% franquicias; Walmart Argentina comprado en 2020",
+      "url": "https://www.alimarket.es/alimentacion/noticia/434025/dia-vende-su-negocio-en-argentina-a-grupo-de-narvaez-por-cerca-de-50-m-"
+    },
+    {
+      "afirmacion": "Grupo De Narváez compra Supermercados Día por 53,8 millones; más de 1.000 tiendas combinadas",
+      "url": "https://www.infobae.com/economia/2026/11/05/se-vendio-supermercados-dia-la-cadena-espanola-pasa-a-manos-del-grupo-liderado-por-francisco-de-narvaez-dueno-de-changomas/"
+    }
+  ]
+}

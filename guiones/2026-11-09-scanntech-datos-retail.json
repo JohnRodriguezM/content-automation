@@ -1,0 +1,217 @@
+{
+  "id": "2026-11-09-scanntech-datos-retail",
+  "pilar": "tecnologia",
+  "narrador": "sebas",
+  "tema": "La uruguaya Scanntech levantó 180 millones de dólares tras 34 años construyendo una red de datos de ventas del retail",
+  "pregunta_principal": "¿Qué información generas todos los días que nadie está aprovechando?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Una empresa uruguaya fundada hace treinta y cuatro años acaba de levantar ciento ochenta millones de dólares. Su negocio: los datos de cada compra en las tiendas de barrio.",
+      "imagenes": [
+        {
+          "busqueda": "Montevideo skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "cash register",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "treinta",
+        "datos"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$180M",
+          "etiqueta": "ronda Serie F",
+          "icono": "dinero"
+        }
+      ],
+      "titulo": "El negocio de cada ticket"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Se llama Scanntech. Nació en 1992 en Uruguay. Instala su software en las cajas de supermercados y tiendas, y con eso ve qué se vende, dónde y a qué precio.",
+      "imagenes": [
+        {
+          "busqueda": "Rambla de Montevideo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "supermarket checkout",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1992",
+        "precio"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Software en la caja"
+            },
+            {
+              "icono": "celular",
+              "texto": "Datos de cada venta"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Información para marcas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "La decisión fue construir durante décadas una red de datos en lugar de vender solo software. [pause] Hoy procesa más de doscientos mil millones de dólares en ventas al año, y Brasil es su mercado más grande.",
+      "imagenes": [
+        {
+          "busqueda": "São Paulo skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "barcode scanner",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "décadas",
+        "doscientos"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$200.000M",
+          "etiqueta": "en ventas procesadas al año",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[excited] En octubre levantó ciento ochenta millones de dólares, liderados por L Catterton. Cerca de la mitad es dinero nuevo para inteligencia artificial y nuevos mercados, y el resto lo vendieron inversionistas anteriores.",
+      "imagenes": [
+        {
+          "busqueda": "L Catterton",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "data center",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ciento",
+        "mitad"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "Mitad",
+            "texto": "dinero nuevo",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "Mitad",
+            "texto": "venta de antiguos socios",
+            "icono": "documentos"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La lección es esta. [thoughtful] A veces lo más valioso de tu negocio no es lo que vendes, sino la información que generas mientras lo vendes. Y construir algo así toma años.",
+      "imagenes": [
+        {
+          "busqueda": "Montevideo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "información",
+        "años"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Lo valioso puede ser [[la información]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué información generas todos los días que nadie está aprovechando? Te leo en los comentarios. Y si te gustan estas historias, síguenos: cada día contamos una decisión que cambió una empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Uruguay",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "información",
+        "síguenos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué datos estás [[desperdiciando]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Scanntech nació en Uruguay en 1992. Instala su software en las cajas de supermercados y tiendas y con eso construyó una red de datos que procesa más de 200.000 millones de dólares en ventas al año. En octubre levantó 180 millones de dólares, liderados por L Catterton: cerca de la mitad es dinero nuevo y el resto fue venta de inversionistas anteriores.\n\n¿Qué información generas todos los días que nadie está aprovechando?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#tecnologia",
+    "#scanntech",
+    "#uruguay",
+    "#startups",
+    "#datos",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Scanntech levanta 180 millones liderados por L Catterton; más de 200.000 millones en ventas procesadas al año; Brasil es su mayor mercado; mitad capital nuevo",
+      "url": "https://latamlist.com/uruguayan-scanntech-raises-180m-round-led-by-l-catterton/"
+    },
+    {
+      "afirmacion": "Ronda Serie F de 180 millones; plataforma de inteligencia del retail en Latinoamérica",
+      "url": "https://pulse2.com/scanntech-raises-180-million-series-f-led-by-l-catterton-to-expand-latin-american-retail-intelligence-platform/"
+    },
+    {
+      "afirmacion": "Fundada en 1992 en Uruguay; salida parcial de Warburg Pincus; mitad primaria y mitad secundaria",
+      "url": "https://braziljournal.com/scanntech-fecha-rodada-de-us-180-milhoes-warburg-faz-saida-parcial/"
+    }
+  ]
+}
