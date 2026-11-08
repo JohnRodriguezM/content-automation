@@ -53,6 +53,21 @@ jobs:
       - name: Validar
         run: npx tsx pipeline/validar.ts "${{ matrix.guion }}"
 
+      # La voz se guarda en caché por guion + texto de la narración: si solo cambian
+      # las fotos, el re-render reutiliza el audio y no gasta créditos de ElevenLabs.
+      - name: Clave de la voz
+        id: clave
+        run: |
+          id=$(basename "${{ matrix.guion }}" .json)
+          h=$(jq -c '[.narrador, .modelo_voz, [.escenas[].narracion]]' "${{ matrix.guion }}" | sha256sum | cut -c1-16)
+          echo "id=$id" >> "$GITHUB_OUTPUT"
+          echo "hash=$h" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/cache@v4
+        with:
+          path: public/audio/${{ steps.clave.outputs.id }}-*
+          key: voz-${{ steps.clave.outputs.id }}-${{ steps.clave.outputs.hash }}
+
       - name: Imágenes, voz y render
         env:
           ELEVENLABS_API_KEY_SEBAS: ${{ secrets.ELEVENLABS_API_KEY_SEBAS }}
