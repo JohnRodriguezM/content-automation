@@ -123,10 +123,14 @@
       "narracion": "La lección es esta. [thoughtful] Una marca con historia no te protege si el negocio dejó de ser sostenible. Los años de éxito no pagan las pérdidas de hoy.",
       "imagenes": [
         {
-          "busqueda": "shoe store display leather shoes",
+          "busqueda": "Brown traditional leather shoes ('pieksut'), Finland",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brown_traditional_leather_shoes_('pieksut'),_Finland.jpg?width=1600",
+          "credito": "Foto: Naantalin museo · CC BY 4.0 · Wikimedia Commons",
+          "licencia": "CC BY 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Brown_traditional_leather_shoes_('pieksut'),_Finland.jpg"
         }
       ],
       "destacar": [

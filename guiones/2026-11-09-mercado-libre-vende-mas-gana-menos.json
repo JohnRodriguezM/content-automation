@@ -76,10 +76,14 @@
       "narracion": "¿Por qué? Porque decidió sacrificar margen. [pause] Bajó el mínimo de compra para el envío gratis, abrió nuevos centros logísticos antes de la temporada alta y gastó más en marketing en Brasil.",
       "imagenes": [
         {
-          "busqueda": "parcel sorting conveyor",
+          "busqueda": "Mercadolibre edificio saavedra",
           "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercadolibre_edificio_saavedra.jpg?width=1600",
+          "credito": "Foto: Fernando Martello · CC BY-SA 4.0 · Wikimedia Commons",
+          "licencia": "CC BY-SA 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Mercadolibre_edificio_saavedra.jpg"
         }
       ],
       "destacar": [

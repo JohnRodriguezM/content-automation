@@ -35,10 +35,14 @@
       "narracion": "Es Casas Bahia, que vende electrodomésticos y muebles. Vende mucho a crédito, y en los últimos años los intereses en Brasil subieron, la gente perdió poder de compra y aumentaron los impagos.",
       "imagenes": [
         {
-          "busqueda": "Avenida Paulista MASP",
+          "busqueda": "Casas Bahia Farroupilha RS",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Casas_Bahia_Farroupilha_RS.jpg?width=1600",
+          "credito": "Foto: Autor desconocido · CC BY-SA 2.5 · Wikimedia Commons",
+          "licencia": "CC BY-SA 2.5",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Casas_Bahia_Farroupilha_RS.jpg"
         }
       ],
       "destacar": [

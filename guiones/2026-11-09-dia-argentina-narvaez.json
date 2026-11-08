@@ -142,10 +142,14 @@
       "narracion": "La lección es esta. [thoughtful] Vender barato duele, pero seguir perdiendo plata duele más. Y lo que para uno es un problema, para otro con más escala puede ser una oportunidad.",
       "imagenes": [
         {
-          "busqueda": "empty supermarket shopping carts row",
+          "busqueda": "Supermercado Día en Caballito",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
+          "filtro": "ninguno",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Supermercado_D%C3%ADa_en_Caballito.jpg?width=1600",
+          "credito": "Foto: Just a Man · CC BY 4.0 · Wikimedia Commons",
+          "licencia": "CC BY 4.0",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Supermercado_D%C3%ADa_en_Caballito.jpg"
         }
       ],
       "destacar": [
