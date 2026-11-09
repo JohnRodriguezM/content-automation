@@ -12,9 +12,9 @@ on:
         description: "Guiones separados por espacio (ej. guiones/2026-11-06-netflix-dvd.json). Vacío = los del último commit"
         required: false
       estilo:
-        description: "Estilo visual: mixto (por defecto) o tablero"
+        description: "Estilo visual: tablero (por defecto) o mixto"
         required: false
-        default: mixto
+        default: tablero
 
 jobs:
   listar:
@@ -82,7 +82,7 @@ jobs:
           ELEVENLABS_API_KEY_JOHN: ${{ secrets.ELEVENLABS_API_KEY_JOHN }}
           ELEVENLABS_VOICE_ID_JOHN: ${{ secrets.ELEVENLABS_VOICE_ID_JOHN }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-          ESTILO: ${{ inputs.estilo || 'mixto' }}
+          ESTILO: ${{ inputs.estilo || 'tablero' }}
         run: npx tsx pipeline/producir.ts "${{ matrix.guion }}"
 
       - name: Subir a Google Drive

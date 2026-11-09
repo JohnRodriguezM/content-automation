@@ -6,6 +6,10 @@
 
 **Audiencia:** personas que emprenden o trabajan y quieren entender mejor las empresas para decidir mejor. Latinoamérica, español neutro.
 
+## Estilo visual por defecto: tablero
+
+Tablero de investigación (src/Tablero.tsx): fotos en polaroid y televisor, notas amarillas con cifras que cuentan, fichas a máquina, gráficas de barras para comparaciones numéricas, sellos rojos, hilo rojo entre escenas, etiqueta de capítulo arriba y subtítulos de 1-3 palabras con la palabra clave en rojo. La cámara se mueve suave; el dinamismo viene de que caen piezas nuevas cada ~1,5-2 s, así que cada escena necesita 3-5 imágenes y al menos un gráfico (`motion`).
+
 ## Pilares (hipótesis inicial de mezcla)
 
 | Pilar | Peso | Pregunta que responde cada video |

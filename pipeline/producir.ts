@@ -7,7 +7,7 @@
  *     --rehacer-imagenes   volver a buscar todas las imágenes
  *     --rehacer-voz        regenerar la voz aunque haya caché
  *     --narrador=sebas|john
- *     --estilo=mixto|documental|motion|tablero   (por defecto mixto; ESTILO en el entorno también sirve)
+ *     --estilo=tablero|mixto|documental|motion   (por defecto tablero; ESTILO en el entorno también sirve)
  *     --publicar=borrador|programar|no   --hora=19:30
  *
  * Variables de entorno (en local: archivo .env; en GitHub: Secrets):
@@ -234,7 +234,7 @@ async function main() {
   const guion = guionSchema.parse(JSON.parse(await readFile(ruta, "utf8")));
   await mkdir(OUT, { recursive: true });
 
-  const estilo = (flag("estilo") ?? process.env.ESTILO ?? "mixto") as "mixto" | "documental" | "motion" | "tablero";
+  const estilo = (flag("estilo") ?? process.env.ESTILO ?? "tablero") as "mixto" | "documental" | "motion" | "tablero";
   if (estilo !== "motion" && !flag("sin-imagenes")) {
     console.log(`→ ${guion.id}: imágenes`);
     const guardar = () => writeFile(ruta, JSON.stringify(guion, null, 2) + "\n");
