@@ -19,6 +19,12 @@ Antes de escribir, lee [`personalidad.md`](personalidad.md) completo (línea edi
 
 ## Cómo elegir un tema
 
+**Regla #1: marcas que la gente usa.** El tema tiene que tocar algo con lo que el espectador tiene contacto: lo que come, compra, paga, usa en el celular o en la calle (apps, comida, bebidas, ropa, supermercados, bancos y billeteras, telefonía, aerolíneas, carros, plataformas, deportes). Una cementera, una petroquímica o una minera no le importan a la mayoría, aunque la noticia sea grande.
+- Pregunta de control antes de escribir: *¿el espectador ha usado, comprado o visto esta marca esta semana?* Si no, descarta el tema o búscale el ángulo de consumo.
+- Si la noticia es de una empresa B2B, solo sirve cuando afecta algo cotidiano y el video arranca por ahí ("El cemento de tu casa va a costar más porque…", "Tu celular tiene cobre chileno…").
+- El gancho arranca desde la experiencia del espectador, no desde la empresa: "La tarjeta con la que pagas el almuerzo…", "Ese combo que compras en Costco…".
+- Ejemplos que sí: Frisby, Crepes & Waffles, Rappi, Nequi, Mercado Libre, Coca-Cola, Avianca, Netflix, McDonald's, Juan Valdez, Totto, Falabella, Claro. Ejemplos que no (salvo con ángulo de consumo): Cemex, Holcim, Braskem, Codelco.
+
 Un buen tema tiene: una **decisión concreta** de una persona o empresa real, una **consecuencia** medible y una **lección** que alguien que emprende o trabaja pueda aplicar. Busca historias poco contadas o un ángulo nuevo de una conocida. Evita temas que solo existan como rumor o que no tengan al menos dos fuentes serias.
 
 ## Investigación y fuentes
