@@ -110,12 +110,6 @@
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Nvidia Voyager building",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -156,12 +150,6 @@
           "busqueda": "Nvidia logo",
           "fuente": "commons",
           "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Capitol Hill Washington",
-          "fuente": "commons",
-          "modo": "relleno",
           "filtro": "ninguno"
         }
       ],
