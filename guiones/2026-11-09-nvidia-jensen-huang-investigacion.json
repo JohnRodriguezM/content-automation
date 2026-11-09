@@ -30,6 +30,18 @@
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Nvidia GeForce RTX graphics card",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Nvidia booth Computex",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -61,6 +73,18 @@
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Nvidia DGX",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "data center server racks",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -91,6 +115,18 @@
           "busqueda": "The New York Times building",
           "fuente": "commons",
           "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "New York Times newspaper",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Nvidia Voyager building",
+          "fuente": "commons",
+          "modo": "relleno",
           "filtro": "ninguno"
         }
       ],
@@ -133,6 +169,18 @@
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Capitol Hill Washington",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Nvidia stock ticker",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -168,6 +216,18 @@
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
+        },
+        {
+          "busqueda": "semiconductor wafer",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Nvidia H100",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -190,6 +250,12 @@
           "busqueda": "Nvidia Santa Clara campus",
           "fuente": "commons",
           "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Santa Clara California",
+          "fuente": "commons",
+          "modo": "relleno",
           "filtro": "ninguno"
         }
       ],

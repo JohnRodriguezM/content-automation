@@ -141,10 +141,10 @@ async function voz(g: Guion): Promise<{ timing: Timing; audio: string | null }> 
 
 /**
  * Acelera la voz sin cambiar el tono (ffmpeg atempo) y escala los tiempos de subtítulos y escenas.
- * VELOCIDAD_VOZ (por defecto 1.08). El audio original queda en caché; esto se rehace en cada render.
+ * VELOCIDAD_VOZ (por defecto 1.12). El audio original queda en caché; esto se rehace en cada render.
  */
 function acelerar(audio: string | null, timing: Timing): { audio: string | null; timing: Timing } {
-  const f = Number(process.env.VELOCIDAD_VOZ ?? "1.08");
+  const f = Number(process.env.VELOCIDAD_VOZ ?? "1.12");
   if (!audio || !(f > 0) || f === 1) return { audio, timing };
   const salida = audio.replace(/\.mp3$/, `-x${Math.round(f * 100)}.mp3`);
   try {
@@ -170,7 +170,7 @@ async function render(props: VideoProps, salida: string, id: "Video" | "Motion" 
   const browserExecutable = process.env.REMOTION_BROWSER || null;
   const composition = await selectComposition({ serveUrl, id, inputProps: props, browserExecutable });
   await renderMedia({
-    composition, serveUrl, codec: "h264", crf: 20, outputLocation: salida, inputProps: props,
+    composition, serveUrl, codec: "h264", crf: id === "Tablero" ? 24 : 20, outputLocation: salida, inputProps: props,
     browserExecutable, audioBitrate: "192k",
     onProgress: ({ progress }) => process.stdout.write(`\rRender ${Math.round(progress * 100)}%`),
   });

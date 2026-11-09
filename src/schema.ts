@@ -40,8 +40,8 @@ export const motionSchema = z.discriminatedUnion("tipo", [
 export const escenaSchema = z.object({
   bloque: z.enum(["gancho", "contexto", "decision", "consecuencia", "aprendizaje", "cierre"]),
   narracion: z.string().min(1),
-  // 1-3 imágenes; la escena se reparte entre ellas (cortes cada ~3 s)
-  imagenes: z.array(imagenSchema).min(1).max(3),
+  // 1-6 imágenes; en el tablero caen una tras otra (más imágenes = escenas más dinámicas)
+  imagenes: z.array(imagenSchema).min(1).max(6),
   // Palabras de la narración que salen en serif dorada en los subtítulos
   destacar: z.array(z.string()).default([]),
   // Título grande sobre la imagen (solo en el gancho, normalmente)

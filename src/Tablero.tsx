@@ -38,6 +38,9 @@ const SLOT_FOTO = [
   { x: -170, y: -140, r: -5 },
   { x: 200, y: 60, r: 4 },
   { x: -120, y: 260, r: 2 },
+  { x: 240, y: -260, r: -3 },
+  { x: 30, y: 120, r: 6 },
+  { x: -260, y: 60, r: -2 },
 ];
 const SLOT_NOTA = [
   { x: 250, y: -300, r: 5 },
@@ -62,8 +65,9 @@ const usarEntrada = (desde: number) => {
   return { s: interpolate(p, [0, 1], [1.35, 1]), o: interpolate(f - desde, [0, 4], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) };
 };
 
-const Polaroid: React.FC<{ img: Imagen; x: number; y: number; r: number; desde: number; etiqueta: string; tv?: boolean }> = ({ img, x, y, r, desde, etiqueta, tv }) => {
-  const { s, o } = usarEntrada(desde);
+const Polaroid: React.FC<{ img: Imagen; x: number; y: number; r: number; desde: number; etiqueta: string; tv?: boolean; escala?: number }> = ({ img, x, y, r, desde, etiqueta, tv, escala = 1 }) => {
+  const { s: s0, o } = usarEntrada(desde);
+  const s = s0 * escala;
   const foto = img.archivo ?? img.url;
   if (!foto) return null;
   if (tv) {
@@ -93,12 +97,64 @@ const Polaroid: React.FC<{ img: Imagen; x: number; y: number; r: number; desde: 
   );
 };
 
-const NotaAmarilla: React.FC<{ valor: string; texto: string; x: number; y: number; r: number; desde: number }> = ({ valor, texto, x, y, r, desde }) => {
+/** Número dentro de un texto ("$724M", "9,8%", "1.800") → valor y forma de volver a escribirlo */
+const leerNumero = (v: string) => {
+  const m = v.match(/-?\d[\d.,]*/);
+  if (!m) return null;
+  const crudo = m[0];
+  let dec = 0, n: number;
+  if (/,\d{1,2}$/.test(crudo)) { dec = crudo.split(",")[1].length; n = Number(crudo.replace(/\./g, "").replace(",", ".")); }
+  else n = Number(crudo.replace(/[.,]/g, ""));
+  if (!isFinite(n)) return null;
+  const miles = /\d\.\d{3}/.test(crudo);
+  const escribir = (x: number) => {
+    const t = dec ? x.toFixed(dec).replace(".", ",") : Math.round(x).toString();
+    const conMiles = miles ? t.replace(/\B(?=(\d{3})+(?!\d))/g, ".") : t;
+    return v.replace(crudo, conMiles);
+  };
+  return { n, escribir, anio: /^(19|20)\d{2}$/.test(crudo) && v.trim() === crudo };
+};
+
+/** Gráfica de barras en papel cuadriculado: antes vs. después */
+const Grafica: React.FC<{ a: { valor: string; texto: string }; b: { valor: string; texto: string }; x: number; y: number; r: number; desde: number }> = ({ a, b, x, y, r, desde }) => {
+  const f = useCurrentFrame();
   const { s, o } = usarEntrada(desde);
+  const na = leerNumero(a.valor)!, nb = leerNumero(b.valor)!;
+  const max = Math.max(Math.abs(na.n), Math.abs(nb.n)) || 1;
+  const p = desde <= 0 ? 1 : interpolate(f - desde, [4, 26], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const barra = (v: { n: number; escribir: (x: number) => string }, color: string, txt: string) => {
+    const h = Math.max(0.08, Math.abs(v.n) / max) * 300 * p;
+    return (
+      <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "flex-end" }}>
+        <div style={{ fontFamily: GRUESA, fontWeight: 800, fontSize: 46, color: "#1a1a1a", marginBottom: 8 }}>{v.escribir(v.n * p)}</div>
+        <div style={{ width: 130, height: h, background: color, boxShadow: "inset -10px 0 0 rgba(0,0,0,0.15)" }} />
+        <div style={{ fontFamily: MAQUINA, fontSize: 21, color: "#2b2620", marginTop: 10, textAlign: "center", lineHeight: 1.15, textTransform: "uppercase", height: 52, overflow: "hidden" }}>{txt}</div>
+      </div>
+    );
+  };
+  return (
+    <div style={{ position: "absolute", left: x - 250, top: y - 260, width: 500, padding: "24px 26px 18px", opacity: o, transform: `rotate(${r}deg) scale(${s})`,
+      background: "#F5F1E6", boxShadow: "0 18px 30px rgba(0,0,0,0.5)",
+      backgroundImage: "linear-gradient(rgba(80,120,180,0.18) 1px, transparent 1px), linear-gradient(90deg, rgba(80,120,180,0.18) 1px, transparent 1px)", backgroundSize: "24px 24px" }}>
+      <Alfiler x="15%" />
+      <div style={{ display: "flex", gap: 30, height: 440, alignItems: "flex-end", borderBottom: "4px solid #2b2620" }}>
+        {barra(na, "#5B6B7A", a.texto)}
+        {barra(nb, ROJO, b.texto)}
+      </div>
+    </div>
+  );
+};
+
+const NotaAmarilla: React.FC<{ valor: string; texto: string; x: number; y: number; r: number; desde: number }> = ({ valor, texto, x, y, r, desde }) => {
+  const f = useCurrentFrame();
+  const { s, o } = usarEntrada(desde);
+  const num = leerNumero(valor);
+  const p = desde <= 0 ? 1 : interpolate(f - desde, [3, 24], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const mostrado = num && !num.anio ? num.escribir(num.n * p) : valor;
   return (
     <div style={{ position: "absolute", left: x - 170, top: y - 150, width: 340, minHeight: 300, background: AMARILLO, padding: "34px 28px", opacity: o,
       transform: `rotate(${r}deg) scale(${s})`, boxShadow: "0 18px 30px rgba(0,0,0,0.5)", textAlign: "center" }}>
-      <div style={{ fontFamily: GRUESA, fontWeight: 800, fontSize: valor.length > 6 ? 64 : 92, color: "#1a1a1a", lineHeight: 1 }}>{valor}</div>
+      <div style={{ fontFamily: GRUESA, fontWeight: 800, fontSize: valor.length > 6 ? 64 : 92, color: "#1a1a1a", lineHeight: 1 }}>{mostrado}</div>
       <div style={{ fontFamily: GRUESA, fontWeight: 800, fontSize: 28, color: "#1a1a1a", marginTop: 18, textTransform: "uppercase", lineHeight: 1.15 }}>{texto}</div>
     </div>
   );
@@ -164,8 +220,11 @@ const Pieza: React.FC<{ v: Motion; x: number; y: number; r: number; desde: numbe
   switch (v.tipo) {
     case "dato":
       return <NotaAmarilla valor={v.valor} texto={v.etiqueta} x={x} y={y} r={r} desde={desde} />;
-    case "contraste":
+    case "contraste": {
+      const na = leerNumero(v.antes.valor), nb = leerNumero(v.despues.valor);
+      if (na && nb && !na.anio && !nb.anio) return <Grafica a={v.antes} b={v.despues} x={x} y={y} r={r} desde={desde} />;
       return <Ficha titulo="Antes → después" lineas={[`${v.antes.valor}: ${v.antes.texto}`, `${v.despues.valor}: ${v.despues.texto}`]} x={x} y={y} r={r} desde={desde} />;
+    }
     case "iconos":
       return <Ficha titulo="Pistas" lineas={v.items.map((it) => `• ${it.texto}`)} x={x} y={y} r={r} desde={desde} />;
     case "titulo": {
@@ -275,28 +334,40 @@ export const TableroVideo: React.FC<VideoProps> = ({ guion, timing, audio, music
           const d0 = ini[i];
           const durI = Math.max(1, fin[i] - ini[i]);
           const visuales = e.motion ?? [];
-          // Las piezas del gancho están desde el cuadro 0; las demás caen al llegar la cámara
-          const tFoto = (j: number) => (i === 0 ? 0 : d0 + 6 + j * 8);
-          const tNota = (j: number) => d0 + Math.round(MOV + 6 + (j + 0.3) * ((durI - MOV - 12) / Math.max(1, visuales.length)));
+          // Fotos y gráficos se intercalan y caen uno tras otro durante toda la escena (~cada 1,5-2 s).
+          // En el gancho, las dos primeras fotos, el logo y la cinta están desde el cuadro 0 (miniatura).
+          const visibles = visuales.filter((v) => !(i === 0 && e.titulo && v.tipo === "titulo"));
+          type Item = { tipo: "foto"; j: number } | { tipo: "pieza"; j: number };
+          const orden: Item[] = [];
+          const nF = e.imagenes.length;
+          for (let k = 0; k < Math.max(nF, visibles.length); k++) {
+            if (k < nF) orden.push({ tipo: "foto", j: k });
+            if (k < visibles.length) orden.push({ tipo: "pieza", j: k });
+          }
+          const fijos = i === 0 ? orden.filter((it) => it.tipo === "foto" && it.j < 2).length : 0;
+          const resto = orden.length - fijos;
+          const inicio = i === 0 ? 24 : d0 + MOV - 4;
+          const paso = Math.max(10, (durI - (inicio - d0) - 10) / Math.max(1, resto));
+          const cuando = new Map<string, number>();
+          orden.forEach((it, k) => cuando.set(`${it.tipo}${it.j}`, k < fijos ? 0 : Math.round(inicio + (k - fijos) * paso)));
+          const escala = nF > 3 ? 0.82 : 1;
           return (
             <React.Fragment key={i}>
               {e.imagenes.map((img, j) => {
                 const s = SLOT_FOTO[j % SLOT_FOTO.length];
                 const rr = s.r + (random(`${guion.id}-${i}-${j}`) - 0.5) * 3;
                 return (
-                  <Polaroid key={j} img={img} x={c.x + s.x} y={c.y + s.y} r={rr} desde={tFoto(j) - (i === 0 ? 0 : 0)}
+                  <Polaroid key={j} img={img} x={c.x + s.x} y={c.y + s.y} r={rr} desde={cuando.get(`foto${j}`)!} escala={escala}
                     etiqueta={j === 0 && e.rotulo ? e.rotulo : `Prueba ${String(i + 1).padStart(2, "0")}-${j + 1}`} tv={(i + j) % 3 === 2} />
                 );
               })}
               {i === 0 && logo && <LogoCarta archivo={logo} x={c.x + 40} y={c.y - 470} />}
               {i === 0 && e.titulo && <Cinta texto={e.titulo} x={c.x} y={c.y + 300} />}
-              {visuales.map((v, j) => {
-                // En el gancho la cinta roja ya dice el título: no se repite como sello
-                if (i === 0 && e.titulo && v.tipo === "titulo") return null;
-                // Los sellos caen encima de la foto principal; el resto, en su espacio de notas
+              {visibles.map((v, j) => {
+                // Los sellos caen encima de las fotos; el resto, en su espacio de notas
                 const s = v.tipo === "titulo" && marcado(v.texto).length <= 18 ? { x: -60, y: 40, r: 0 }
                   : i === 0 ? { x: 300, y: -260, r: 5 } : SLOT_NOTA[j % SLOT_NOTA.length];
-                return <Pieza key={`v${j}`} v={v} x={c.x + s.x} y={c.y + s.y} r={s.r} desde={i === 0 ? Math.max(1, tNota(j)) : tNota(j)} />;
+                return <Pieza key={`v${j}`} v={v} x={c.x + s.x} y={c.y + s.y} r={s.r} desde={Math.max(1, cuando.get(`pieza${j}`)!)} />;
               })}
             </React.Fragment>
           );

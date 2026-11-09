@@ -31,7 +31,8 @@ Un buen tema tiene: una **decisión concreta** de una persona o empresa real, un
 ## Estructura y longitud
 
 - Escenas en orden: gancho → contexto → decisión → consecuencia → aprendizaje → cierre (puede haber 2 escenas del mismo bloque seguidas).
-- **100 a 170 palabras** de narración (≈40-60 s con la voz acelerada x1.08). `npm run validar` lo revisa.
+- **130 a 170 palabras** de narración (≈45-55 s con la voz acelerada x1.12). `npm run validar` lo revisa.
+- **Narración dinámica:** frases cortas (idealmente ≤12 palabras), un dato concreto por escena (cifra, fecha, nombre), nada de relleno. Cada frase debe aportar información nueva para que la gente siga pendiente.
 - **Gancho:** la primera frase tiene máximo 10 palabras, con un número o un contraste concreto, y deja una pregunta abierta. Nada de arrancar con contexto ("Una empresa peruana acaba de..."). Ej.: "Vendió 45% más. Y la bolsa lo castigó."
 - **Título del gancho:** sale arriba de la foto en el arranque, debajo del logo: 2-5 palabras, idealmente con el número ("De $140 a $9", "1.000 tiendas por $53M"). Obligatorio.
 - **Cierre (corto, ≈3 s):** solo la pregunta sobre la decisión + "Te leo en los comentarios." (máx. 15 palabras). Nada de "síguenos" en la voz: el `caption` termina con la pregunta y la línea "Síguenos: cada día contamos una decisión que cambió una empresa." Sin @ ni tarjeta final por ahora.
@@ -44,7 +45,9 @@ La voz usa Eleven v4 (con alta similitud a la voz clonada), que interpreta etiqu
 - 3 a 6 por guion. Donde cambia la emoción: curiosidad en el gancho, un suspiro antes del giro, emoción en el resultado, tono serio en la lección.
 - Nunca en el cierre fijo. Nunca dos seguidas. La risa solo cuando el hecho es de verdad irónico o gracioso.
 
-## Imágenes (`imagenes`, 1-3 por escena)
+## Imágenes (`imagenes`, 3-5 por escena)
+
+Más imágenes = escenas más dinámicas: en el estilo tablero caen una tras otra cada ~1,5-2 s. Apunta a 3-5 por escena (máx. 6), todas específicas (objetos, lugares, productos, la persona por su nombre).
 
 Se buscan solas en Wikimedia Commons. La búsqueda decide si la foto sale bien:
 - **Específica y en inglés:** nombre de la persona, edificio, producto o lugar real ("Steve Jobs 2007", "Blockbuster store", "Avianca Boeing 787"). Commons tiene muy buen material de empresas, sedes, productos y fundadores.
