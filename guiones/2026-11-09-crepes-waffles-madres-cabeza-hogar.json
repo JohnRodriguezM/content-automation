@@ -1,0 +1,215 @@
+{
+  "id": "2026-11-09-crepes-waffles-madres-cabeza-hogar",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "Crepes & Waffles construyó una de las cadenas de restaurantes más grandes de Colombia empleando sobre todo a mujeres cabeza de hogar",
+  "pregunta_principal": "¿A quién podrías contratar que nadie más está mirando?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Nueve de cada diez empleados de Crepes son mujeres. Y la mayoría son madres cabeza de hogar.",
+      "imagenes": [
+        {
+          "busqueda": "Crepes & Waffles",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "crepe with ice cream",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Nueve",
+        "madres"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "91%",
+          "etiqueta": "de sus empleados en Colombia son mujeres",
+          "icono": "edificio"
+        }
+      ],
+      "titulo": "9 de cada 10: mujeres"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Todo empezó el trece de abril de 1980, en Bogotá. Beatriz Fernández y Eduardo Macía, dos estudiantes del CESA, abrieron una pequeña crepería en el norte de la ciudad.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá Zona Rosa",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "crepe",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1980",
+        "crepería"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "1980",
+            "texto": "una crepería en Bogotá",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "Hoy",
+            "texto": "más de 200 restaurantes y heladerías",
+            "icono": "dinero"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y tomaron una decisión que marcó la empresa: contratar sobre todo a mujeres cabeza de hogar, en la cocina, en el servicio y en la caja. [pause] Uno de sus directivos lo resume así: esto no es caridad.",
+      "imagenes": [
+        {
+          "busqueda": "restaurant kitchen",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "waffle",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mujeres",
+        "caridad"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Esto no es [[caridad]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[excited] Hoy tiene más de ciento cincuenta puntos en Colombia, está en Ecuador, Chile, México, Panamá y España, y factura más de setecientos mil millones de pesos al año. Unas nueve mil trescientas personas trabajan con ellos en Colombia.",
+      "imagenes": [
+        {
+          "busqueda": "Quito",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Madrid Gran Vía",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ciento",
+        "setecientos"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "150+ puntos en Colombia"
+            },
+            {
+              "icono": "documentos",
+              "texto": "6 países"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Más de $700.000M al año"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Un propósito real no compite con el negocio. Si eliges bien a quién le das una oportunidad, esa gente puede convertirse en tu mayor ventaja.",
+      "imagenes": [
+        {
+          "busqueda": "ice cream sundae",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "propósito",
+        "ventaja"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Tu gente puede ser tu [[mayor ventaja]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿A quién podrías contratar que nadie más está mirando? Te leo en los comentarios.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá skyline",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mirando"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿A quién [[nadie está mirando]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Crepes & Waffles nació el 13 de abril de 1980 en Bogotá, cuando Beatriz Fernández y Eduardo Macía, dos estudiantes del CESA, abrieron una pequeña crepería. Desde el inicio decidieron contratar sobre todo a mujeres cabeza de hogar: hoy el 91% de sus cerca de 9.300 empleados en Colombia son mujeres.\n\nTiene más de 150 puntos en Colombia, está en Ecuador, Chile, México, Panamá y España, y factura más de 700.000 millones de pesos al año.\n\n¿A quién podrías contratar que nadie más está mirando?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#crepesandwaffles",
+    "#colombia",
+    "#emprendimiento",
+    "#mujeres",
+    "#historiasdenegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Primer local el 13 de abril de 1980 en Bogotá; Beatriz Fernández y Eduardo Macía; emplea a mujeres cabeza de hogar en cocina, servicio y caja; más de 200 restaurantes y heladerías",
+      "url": "https://www.eltiempo.com/economia/empresas/quien-es-la-duena-de-crepes-and-waffles-historia-y-expansion-760371"
+    },
+    {
+      "afirmacion": "Fundada en 1980 por dos estudiantes del CESA; la mayoría de las mujeres son cabeza de hogar; seis países (Colombia, Chile, Ecuador, España, México y Panamá); ingresos de 714.704 millones de pesos en 2023; Felipe Macía: 'Esto no es caridad'",
+      "url": "https://forbes.co/2024/11/08/editors-picks/crepes-waffles-beatriz-fernandez"
+    },
+    {
+      "afirmacion": "Más de 150 puntos en Colombia; presencia en Chile, Ecuador, México, Panamá y España; ingresos de 789.300 millones de pesos; unos 9.300 empleados en Colombia, 91% mujeres",
+      "url": "https://www.valoraanalitik.com/crepes-waffles-busca-seguir-creciendo-en-colombia/"
+    }
+  ]
+}
