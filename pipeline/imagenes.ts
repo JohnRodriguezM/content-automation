@@ -76,10 +76,15 @@ const existe = (f: string) => access(f).then(() => true, () => false);
 const esperar = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 /** fetch con reintentos: Commons responde 429 si se le pide muy rápido. */
-async function pedir(url: string | URL, init: RequestInit = {}, intentos = 4): Promise<Response> {
+async function pedir(url: string | URL, init: RequestInit = {}, intentos = 7): Promise<Response> {
   for (let i = 0; ; i++) {
     const r = await fetch(url, { ...init, headers: { "User-Agent": UA, ...(init.headers ?? {}) } });
-    if ((r.status === 429 || r.status >= 500) && i < intentos - 1) { await esperar(1500 * (i + 1)); continue; }
+    if ((r.status === 429 || r.status >= 500) && i < intentos - 1) {
+      // Commons limita por ráfagas: respeta Retry-After y espera cada vez más (hasta ~1 min en total)
+      const ra = Number(r.headers.get("retry-after"));
+      await esperar(Number.isFinite(ra) && ra > 0 ? ra * 1000 : 2500 * 2 ** Math.min(i, 3));
+      continue;
+    }
     return r;
   }
 }
@@ -107,7 +112,7 @@ export async function resolverImagenes(g: Guion, rehacer = false, guardar?: () =
       img.archivo = rel;
       console.log(`  ${i + 1}.${j + 1} ${img.busqueda} → ${img.pagina}`);
       await guardar?.();
-      await esperar(400);
+      await esperar(900);
       } catch (err) {
         console.warn(`  ⚠ escena ${i + 1}.${j + 1} (${img.busqueda}): ${(err as Error).message}`);
       }

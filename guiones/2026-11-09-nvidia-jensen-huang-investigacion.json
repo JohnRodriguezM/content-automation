@@ -36,12 +36,6 @@
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Nvidia booth Computex",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -76,12 +70,6 @@
         },
         {
           "busqueda": "Nvidia DGX",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "data center server racks",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -172,12 +160,6 @@
         },
         {
           "busqueda": "Capitol Hill Washington",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Nvidia stock ticker",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
