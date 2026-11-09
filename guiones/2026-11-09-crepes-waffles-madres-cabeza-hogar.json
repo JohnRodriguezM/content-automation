@@ -78,12 +78,6 @@
       "narracion": "Y tomaron una decisión que marcó la empresa: contratar sobre todo a mujeres cabeza de hogar, en la cocina, en el servicio y en la caja. [pause] Uno de sus directivos lo resume así: esto no es caridad.",
       "imagenes": [
         {
-          "busqueda": "restaurant kitchen",
-          "fuente": "commons",
-          "modo": "completa",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "waffle",
           "fuente": "commons",
           "modo": "completa",
@@ -107,13 +101,13 @@
       "narracion": "[excited] Hoy tiene más de ciento cincuenta puntos en Colombia, está en Ecuador, Chile, México, Panamá y España, y factura más de setecientos mil millones de pesos al año. Unas nueve mil trescientas personas trabajan con ellos en Colombia.",
       "imagenes": [
         {
-          "busqueda": "Quito",
+          "busqueda": "Quito skyline",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
         },
         {
-          "busqueda": "Madrid Gran Vía",
+          "busqueda": "Madrid skyline",
           "fuente": "commons",
           "modo": "completa",
           "filtro": "ninguno"
