@@ -20,31 +20,17 @@ const src = (s: string) => (s.startsWith("http") ? s : staticFile(s));
 const filtroCss = (f: Imagen["filtro"]) =>
   f === "bn" ? "grayscale(1) contrast(1.08)" : f === "sepia" ? "sepia(0.55) contrast(1.05)" : "";
 
-/**
- * Un plano dinámico: la foto se "re-encuadra" cada ~1,6 s (plano abierto ↔ acercamiento a una zona),
- * con un golpe de zoom en cada corte y movimiento continuo. Da ritmo de cortes aunque haya pocas fotos.
- */
-const SUBPLANO = 48; // cuadros por sub-plano (~1,6 s a 30 fps)
-export const Plano: React.FC<{ img: Imagen; dur: number; seed: string; sinFundido?: boolean }> = ({ img, dur, seed, sinFundido }) => {
+/** Un plano: foto con zoom lento (Ken Burns) y fundido de entrada. */
+export const Plano: React.FC<{ img: Imagen; dur: number; seed: string }> = ({ img, dur, seed }) => {
   const frame = useCurrentFrame();
-  const k = Math.max(1, Math.round(dur / SUBPLANO));
-  const largo = dur / k;
-  const n = Math.min(k - 1, Math.floor(frame / largo));
-  const lf = frame - n * largo;
-  const p = lf / Math.max(1, largo);
-  const sd = `${seed}-${n}`;
-  // En "relleno" (retratos, fotos horizontales) el acercamiento es menor para no cortar caras.
-  const cerca = img.modo === "completa" ? 1.42 : 1.22;
-  const base = n % 2 === 0 ? 1.06 : cerca;
-  const rango = (base - 1) * 0.45;
-  const fx = (random(sd + "x") - 0.5) * 2 * rango * 100;
-  const fy = (random(sd + "y") - 0.5) * 2 * rango * 100;
-  const deriva = (random(sd + "d") - 0.5) * rango * 40;
-  const golpe = n > 0 ? interpolate(lf, [0, 5], [0.07, 0], { extrapolateRight: "clamp" }) : 0;
-  const escala = base + 0.07 * p + golpe;
-  const mover = `translate(${fx + deriva * p}%, ${fy}%) scale(${escala})`.replace(/(-?\d+\.\d{3})\d+/g, "$1");
-  // El primer plano del video no hace fundido: el cuadro 0 es la miniatura y debe tener foto.
-  const opacity = sinFundido ? 1 : interpolate(frame, [0, FADE], [0, 1], { extrapolateRight: "clamp" });
+  const p = frame / Math.max(1, dur);
+  // Dirección del movimiento distinta en cada plano, pero determinista
+  const dx = (random(seed + "x") - 0.5) * 60;
+  const dy = (random(seed + "y") - 0.5) * 40;
+  const acercar = random(seed + "z") > 0.35;
+  const escala = acercar ? interpolate(p, [0, 1], [1.04, 1.16]) : interpolate(p, [0, 1], [1.16, 1.04]);
+  const mover = `translate(${dx * p}px, ${dy * p}px) scale(${escala})`;
+  const opacity = interpolate(frame, [0, FADE], [0, 1], { extrapolateRight: "clamp" });
   const filter = filtroCss(img.filtro);
   if (!img.archivo && !img.url) return <AbsoluteFill style={{ background: "#111", opacity }} />;
   const s = src(img.archivo ?? img.url!);
@@ -176,7 +162,7 @@ export const EscenaView: React.FC<{ e: Escena; dur: number; idx: number }> = ({ 
         const d = j === n - 1 ? dur - from : tramo + FADE;
         return (
           <Sequence key={j} from={from} durationInFrames={d}>
-            <Plano img={img} dur={d} seed={`${idx}-${j}`} sinFundido={idx === 0 && j === 0} />
+            <Plano img={img} dur={d} seed={`${idx}-${j}`} />
             <Credito texto={img.credito} />
           </Sequence>
         );

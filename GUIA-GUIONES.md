@@ -33,7 +33,7 @@ Un buen tema tiene: una **decisión concreta** de una persona o empresa real, un
 - Escenas en orden: gancho → contexto → decisión → consecuencia → aprendizaje → cierre (puede haber 2 escenas del mismo bloque seguidas).
 - **100 a 170 palabras** de narración (≈40-60 s con la voz acelerada x1.08). `npm run validar` lo revisa.
 - **Gancho:** la primera frase tiene máximo 10 palabras, con un número o un contraste concreto, y deja una pregunta abierta. Nada de arrancar con contexto ("Una empresa peruana acaba de..."). Ej.: "Vendió 45% más. Y la bolsa lo castigó."
-- **Título del gancho = portada.** Sale en letra gigante desde el cuadro 0 (es la miniatura de TikTok): 2-5 palabras, idealmente con el número ("De $140 a $9", "1.000 tiendas por $53M"). Obligatorio.
+- **Título del gancho:** sale arriba de la foto en el arranque, debajo del logo: 2-5 palabras, idealmente con el número ("De $140 a $9", "1.000 tiendas por $53M"). Obligatorio.
 - **Cierre (corto, ≈3 s):** solo la pregunta sobre la decisión + "Te leo en los comentarios." (máx. 15 palabras). Nada de "síguenos" en la voz: el `caption` termina con la pregunta y la línea "Síguenos: cada día contamos una decisión que cambió una empresa." Sin @ ni tarjeta final por ahora.
 - **No uses frases fijas.** Prohibido "La lección es esta". Varía cómo llegas a la lección: una pregunta ("¿Qué falló?"), un contraste ("No fue el producto. Fue el precio."), una regla corta ("Volumen sin margen es frágil."). Varía también el arranque de cada bloque entre videos.
 
@@ -54,13 +54,13 @@ Se buscan solas en Wikimedia Commons. La búsqueda decide si la foto sale bien:
 - **Nunca búsquedas de una persona + otra palabra** ("Sara Blakely Spanx" trajo la foto de otra mujer): busca solo el nombre.
 - **Nunca b-roll genérico de apps** ("messaging app" trajo el logo de Threema, competidor de WhatsApp): usa la app real o un objeto.
 - **Nunca búsquedas genéricas de personas** ("businessmen meeting", "office 1970s"): devuelven gente real identificable que no tiene nada que ver (pasó con Gerald Ford).
-- Si la escena lleva `rotulo` con un nombre, una de sus imágenes debe buscar a esa persona por nombre. El rótulo no se muestra en el gancho (ahí va la portada): ponlo en la escena 2.
+- Si la escena lleva `rotulo` con un nombre, una de sus imágenes debe buscar a esa persona por nombre.
 - Para b-roll genérico usa objetos o lugares sin personas ("film camera", "empty factory interior", "stock market screen").
 - `modo`: `relleno` (fotos horizontales, de archivo, retratos) o `completa` (verticales, texturas, b-roll). `filtro`: `bn` o `sepia` para material antiguo.
 
 ## Logo (`logo`, en casi todos)
 
-Sale en la portada, encima del gancho, el primer segundo y medio. Fíjalo siempre con `url` (formato `https://commons.wikimedia.org/wiki/Special:FilePath/<Archivo>?width=800`, sirve SVG o PNG) más `credito`, `licencia` y `pagina`: la búsqueda automática de logos trae marcas equivocadas (pasó con Cemex). Si no hay un logo confiable en Commons, no pongas `logo`.
+Sale arriba, sobre el título del gancho, durante los primeros ~3 segundos. Fíjalo siempre con `url` (formato `https://commons.wikimedia.org/wiki/Special:FilePath/<Archivo>?width=800`, sirve SVG o PNG) más `credito`, `licencia` y `pagina`: la búsqueda automática de logos trae marcas equivocadas (pasó con Cemex). Si no hay un logo confiable en Commons, no pongas `logo`.
 
 ## Gráficos (`motion`, 1-3 por escena, en casi todas)
 

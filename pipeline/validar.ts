@@ -30,13 +30,13 @@ async function main() {
       const malas = etiquetas.filter((t) => !/^\[[a-z ]{2,30}\]$/.test(t));
       if (malas.length) errores.push(`etiquetas de voz mal escritas (deben ir en inglés, minúsculas, entre corchetes): ${malas.join(" ")}`);
       if (palabras < 95 || palabras > 180) errores.push(`${palabras} palabras de narración (objetivo 100-170, ≈40-60 s)`);
-      // Gancho: frase corta y portada obligatoria
+      // Gancho: frase corta y título obligatorio
       const gancho = g.escenas.find((e) => e.bloque === "gancho");
       const primera = sinEtiquetas(gancho?.narracion ?? "").split(/(?<=[.!?…])\s/)[0] ?? "";
       const nPrimera = primera.split(/\s+/).filter(Boolean).length;
       if (nPrimera > 12) avisos.push(`gancho: la primera frase tiene ${nPrimera} palabras (máx. 10): "${primera}"`);
-      if (!gancho?.titulo) errores.push("el gancho necesita `titulo`: es la portada del video (2-5 palabras, idealmente con el número)");
-      else if (gancho.titulo.length > 40) avisos.push(`portada larga (${gancho.titulo.length} caracteres): mejor 2-5 palabras`);
+      if (!gancho?.titulo) errores.push("el gancho necesita `titulo`: sale arriba en el arranque (2-5 palabras, idealmente con el número)");
+      else if (gancho.titulo.length > 40) avisos.push(`título del gancho largo (${gancho.titulo.length} caracteres): mejor 2-5 palabras`);
       // Cierre corto: solo la pregunta + "Te leo en los comentarios."
       const cierre = sinEtiquetas(g.escenas.filter((e) => e.bloque === "cierre").map((e) => e.narracion).join(" "));
       if (/síguenos/i.test(cierre)) errores.push("el cierre no lleva \"síguenos\" en la voz: va solo en el caption");

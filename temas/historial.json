@@ -508,5 +508,15 @@
     "protagonistas": [
       "Coca-Cola FEMSA"
     ]
+  },
+  {
+    "id": "2026-11-09-nvidia-jensen-huang-investigacion",
+    "tema": "La junta de Nvidia investiga a Jensen Huang tras su relación con una ejecutiva que, según el New York Times, la inteligencia de EE. UU. cree que pudo pasar información a China",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Nvidia",
+      "Jensen Huang"
+    ]
   }
 ]

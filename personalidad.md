@@ -94,6 +94,6 @@ Formato mixto: edición documental sobre fotos reales, con gráficos animados en
 - Fotos horizontales o de archivo: centradas sobre su versión desenfocada. Fotos verticales: pantalla completa. Siempre con zoom lento.
 - Material antiguo en blanco y negro o sepia; grano y viñeta suaves para unificar fuentes.
 - Corte cada ~3 s (1-3 fotos por escena).
-- Título grande en el gancho: es la portada (cuadro 0, letra gigante), así que debe ser el gancho en 2-5 palabras, idealmente con el número. El rótulo con el nombre va desde la escena 2 (en el gancho no se muestra).
+- Logo de la empresa arriba los primeros ~3 s; debajo, el título del gancho en 2-5 palabras, idealmente con el número. Rótulo con el nombre cuando aparece una persona o empresa.
 - Subtítulos palabra por palabra: sans blanca, con la palabra clave en serif itálica dorada.
 - Logos de marcas solo cuando aparecen de forma incidental en la foto (un edificio, un producto), nunca como gráfico propio.

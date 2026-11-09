@@ -16,40 +16,7 @@ import type { Escena, VideoProps } from "./schema";
 const src = (s: string) => (s.startsWith("http") ? s : staticFile(s));
 const ACENTOS = [M.red, M.blue, M.yellow, M.green];
 const TEMA_FOTO = { texto: "#FFFFFF", sombra: "0 4px 22px rgba(0,0,0,0.75)" };
-// Cuánto se ve la foto limpia antes de que entre el gráfico (en cuadros a 30 fps).
-// El gráfico entra casi de inmediato; las escenas con rótulo dejan tiempo para leer el nombre.
-const LIMPIO = { portada: 45, rotulo: 40, normal: 12 };
-
-/**
- * Portada: el gancho en letra gigante desde el primer cuadro (TikTok usa ese cuadro como miniatura).
- * Sin animación de entrada para que el cuadro 0 ya tenga el texto completo.
- */
-const Portada: React.FC<{ texto: string; dur: number; logo?: string }> = ({ texto, dur, logo }) => {
-  const f = useCurrentFrame();
-  const o = interpolate(f, [dur - 8, dur], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-  const s = interpolate(f, [0, dur], [1, 1.04], { extrapolateRight: "clamp" });
-  return (
-    <AbsoluteFill style={{ opacity: o, justifyContent: "center", alignItems: "center", padding: "0 70px 420px" }}>
-      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.55) 45%, rgba(0,0,0,0.15) 100%)" }} />
-      <div style={{ transform: `scale(${s})`, textAlign: "center", position: "relative" }}>
-        {logo && (
-          <div style={{ display: "inline-flex", background: "#FFFFFF", borderRadius: 28, padding: "22px 36px", marginBottom: 44, boxShadow: "0 10px 40px rgba(0,0,0,0.45)" }}>
-            <Img src={src(logo)} style={{ maxHeight: 150, maxWidth: 560, objectFit: "contain" }} />
-          </div>
-        )}
-        <br />
-        <span style={{
-          fontFamily: "Inter, sans-serif", fontWeight: 900, fontSize: 124, lineHeight: 1.02, color: "#FFFFFF",
-          textTransform: "uppercase", letterSpacing: -2, background: "rgba(0,0,0,0.6)", padding: "8px 26px",
-          boxDecorationBreak: "clone", WebkitBoxDecorationBreak: "clone",
-        }}>
-          {texto}
-        </span>
-        <div style={{ width: 220, height: 14, background: M.yellow, margin: "34px auto 0" }} />
-      </div>
-    </AbsoluteFill>
-  );
-};
+const PROP_FOTO = 0.42; // parte de la escena que se ve la foto limpia
 
 /** Oscurece y desenfoca la foto mientras está el gráfico. */
 const Velo: React.FC<{ dur: number }> = ({ dur }) => {
@@ -66,31 +33,35 @@ const Salida: React.FC<{ dur: number; children: React.ReactNode }> = ({ dur, chi
   return <AbsoluteFill style={{ opacity: o, transform: `translateY(${y}px)` }}>{children}</AbsoluteFill>;
 };
 
-/** Transición entre escenas: destello corto + barrido (más ritmo que un fundido). */
-const Destello: React.FC = () => {
+/** Logo de la empresa arriba, en el arranque del video (~3,3 s), en una tarjeta blanca para que se lea sobre cualquier foto. */
+const LOGO_CUADROS = 100;
+const Logo: React.FC<{ archivo: string; dur: number }> = ({ archivo, dur }) => {
   const f = useCurrentFrame();
-  const o = interpolate(f, [0, 2, 7], [0, 0.55, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-  const x = interpolate(f, [0, 7], [-110, 110], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const o = interpolate(f, [2, 10, dur - 8, dur], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const y = interpolate(f, [2, 12], [-24, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
-    <AbsoluteFill style={{ pointerEvents: "none" }}>
-      <AbsoluteFill style={{ background: "#FFFFFF", opacity: o }} />
-      <AbsoluteFill style={{ background: "linear-gradient(100deg, transparent 35%, rgba(255,255,255,0.5) 50%, transparent 65%)", transform: `translateX(${x}%)`, opacity: o > 0 ? 1 : 0 }} />
-    </AbsoluteFill>
+    <div style={{ position: "absolute", top: 110, left: 0, right: 0, display: "flex", justifyContent: "center", opacity: o, transform: `translateY(${y}px)` }}>
+      <div style={{ background: "#FFFFFF", borderRadius: 24, padding: "18px 32px", boxShadow: "0 10px 36px rgba(0,0,0,0.45)" }}>
+        <Img src={src(archivo)} style={{ maxHeight: 120, maxWidth: 520, objectFit: "contain", display: "block" }} />
+      </div>
+    </div>
   );
 };
 
 const Capas: React.FC<{ e: Escena; dur: number; idx: number; logo?: string }> = ({ e, dur, idx, logo }) => {
   const acento = ACENTOS[idx % ACENTOS.length];
   const visuales = e.motion ?? [];
-  const portada = idx === 0 && Boolean(e.titulo);
-  const base = portada ? LIMPIO.portada : e.rotulo ? LIMPIO.rotulo : LIMPIO.normal;
-  const limpio = visuales.length ? Math.min(base, Math.round(dur * 0.45)) : dur;
+  const conLogo = idx === 0 && Boolean(logo);
+  const durLogo = Math.min(LOGO_CUADROS, dur);
+  // Con logo, el gráfico del gancho espera a que el logo salga de pantalla
+  const limpio = visuales.length ? Math.min(dur - 15, Math.max(Math.round(dur * PROP_FOTO), conLogo ? durLogo : 0)) : dur;
   const tramo = visuales.length ? Math.floor((dur - limpio) / visuales.length) : 0;
   return (
     <AbsoluteFill>
+      {conLogo && <Sequence durationInFrames={durLogo}><Logo archivo={logo!} dur={durLogo} /></Sequence>}
       <Sequence durationInFrames={limpio}>
-        {portada ? <Portada texto={e.titulo!} dur={limpio} logo={logo} /> : e.titulo && <Titulo texto={e.titulo} />}
-        {e.rotulo && !portada && <Rotulo texto={e.rotulo} />}
+        {e.titulo && <Titulo texto={e.titulo} />}
+        {e.rotulo && <Rotulo texto={e.rotulo} />}
       </Sequence>
       {visuales.length > 0 && (
         <Sequence from={limpio} durationInFrames={dur - limpio}>
@@ -142,7 +113,6 @@ export const MixtoVideo: React.FC<VideoProps> = ({ guion, timing, audio, musica 
           return (
             <Sequence key={`c${i}`} from={from} durationInFrames={dur}>
               <Capas e={e} dur={dur} idx={i} logo={guion.logo?.archivo ?? guion.logo?.url} />
-              {i > 0 && <Sequence durationInFrames={8}><Destello /></Sequence>}
             </Sequence>
           );
         })}

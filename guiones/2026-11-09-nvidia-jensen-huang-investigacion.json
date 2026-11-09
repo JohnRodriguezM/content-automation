@@ -1,0 +1,241 @@
+{
+  "id": "2026-11-09-nvidia-jensen-huang-investigacion",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "La junta de Nvidia investiga a Jensen Huang tras su relación con una ejecutiva que, según el New York Times, la inteligencia de EE. UU. cree que pudo pasar información a China",
+  "pregunta_principal": "¿Tu empresa sobreviviría si mañana falta su fundador?",
+  "logo": {
+    "busqueda": "Nvidia logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nvidia_logo.svg?width=800",
+    "credito": "Foto: Nvidia · Public domain · Wikimedia Commons",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Nvidia_logo.svg"
+  },
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Nvidia está investigando a su propio CEO. Y no es por los chips.",
+      "imagenes": [
+        {
+          "busqueda": "Jensen Huang",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Nvidia headquarters Santa Clara",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "investigando",
+        "chips"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Nvidia investiga a [[su propio CEO]]",
+          "icono": "pregunta"
+        }
+      ],
+      "titulo": "Nvidia investiga a su CEO",
+      "rotulo": "Jensen Huang"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Jensen Huang fundó Nvidia en 1993 y la volvió el motor de la inteligencia artificial. Hoy vale billones de dólares. Para muchos inversionistas, Nvidia es él.",
+      "imagenes": [
+        {
+          "busqueda": "Nvidia GPU",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Nvidia Endeavor",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1993",
+        "él"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "1993",
+            "texto": "funda Nvidia",
+            "icono": "bombilla"
+          },
+          "despues": {
+            "valor": "Hoy",
+            "texto": "billones de dólares",
+            "icono": "dinero"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En octubre, el New York Times reportó su relación con una ejecutiva de un cliente de Nvidia. Según el diario, la inteligencia estadounidense cree que ella pudo pasar información a China. [pause] El ocho de noviembre, Huang lo admitió ante sus empleados: le fui infiel a mi esposa, no hay excusa.",
+      "imagenes": [
+        {
+          "busqueda": "The New York Times building",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Nvidia Voyager",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "China",
+        "admitió"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Reporte del New York Times"
+            },
+            {
+              "icono": "pregunta",
+              "texto": "Sospecha de espionaje"
+            },
+            {
+              "icono": "celular",
+              "texto": "Carta a sus empleados"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[sighs] La junta abrió una investigación independiente. Dice que no tiene razones para creer que se filtraron secretos. Huang sigue al frente, pero el Congreso ya pidió explicaciones.",
+      "imagenes": [
+        {
+          "busqueda": "United States Capitol",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Nvidia logo",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "investigación",
+        "explicaciones"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Investigación independiente"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Huang sigue como CEO"
+            },
+            {
+              "icono": "pregunta",
+              "texto": "El Congreso pide respuestas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Cuando una empresa depende tanto de una sola persona, la vida de esa persona también es un riesgo del negocio. La confianza de treinta años puede quedar en duda en una semana.",
+      "imagenes": [
+        {
+          "busqueda": "Nvidia chip",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "persona",
+        "semana"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Una sola persona, un solo [[riesgo]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tu empresa sobreviviría si mañana falta su fundador? Te leo en los comentarios.",
+      "imagenes": [
+        {
+          "busqueda": "Nvidia Santa Clara campus",
+          "fuente": "commons",
+          "modo": "completa",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "fundador"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Sobrevive sin su [[fundador]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "La junta de Nvidia abrió una investigación sobre su CEO, Jensen Huang. El New York Times reportó en octubre su relación con una ejecutiva de un cliente de Nvidia que, según el diario, la inteligencia de Estados Unidos cree que pudo pasar información a China. El 8 de noviembre, Huang admitió en una carta a sus empleados que fue infiel a su esposa.\n\nLa junta dice que no tiene razones para creer que se comprometieron secretos de Nvidia ni la seguridad nacional. Huang sigue como CEO y el Congreso pidió explicaciones. Nadie ha sido acusado formalmente.\n\n¿Tu empresa sobreviviría si mañana falta su fundador?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#negocios",
+    "#nvidia",
+    "#jensenhuang",
+    "#liderazgo",
+    "#tecnologia",
+    "#inteligenciaartificial"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Comité de directores independientes con abogados externos investiga a Huang; 'no reason to believe that either national security or Nvidia secrets were compromised'; confianza en Huang, que sigue al frente; reporte del NYT del 29 de octubre; Huang: 'I was unfaithful to my wife' y 'There is no excuse for what I did'; pedidos de explicaciones del Congreso",
+      "url": "https://www.aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair"
+    },
+    {
+      "afirmacion": "El NYT reportó la relación con una ejecutiva de Megaspeed, cliente de Nvidia, que la inteligencia de EE. UU. cree pudo actuar como activo de inteligencia de China; la junta abrió investigación independiente; Huang sigue como CEO",
+      "url": "https://finance.yahoo.com/markets/article/nvidias-jensen-huang-admits-to-affair-after-allegations-of-romance-with-chinese-spy-report-205122263.html"
+    },
+    {
+      "afirmacion": "Carta de Huang a los empleados el 8 de noviembre; investigación de directores independientes; congresistas republicanos pidieron una sesión informativa el 18 de noviembre; Huang sigue como CEO",
+      "url": "https://www.foxbusiness.com/politics/nvidia-ceo-jensen-huang-apologizes-firm-probes-affair-alleged-spy"
+    },
+    {
+      "afirmacion": "Nvidia fue fundada en 1993 por Jensen Huang, Chris Malachowsky y Curtis Priem",
+      "url": "https://en.wikipedia.org/wiki/Nvidia"
+    }
+  ]
+}
