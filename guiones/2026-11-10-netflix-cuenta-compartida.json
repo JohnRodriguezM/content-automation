@@ -1,0 +1,289 @@
+{
+  "id": "2026-11-10-netflix-cuenta-compartida",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "tema": "Netflix empezó a cobrar por compartir la cuenta, probó primero en Latinoamérica y terminó con récord de suscriptores",
+  "pregunta_principal": "¿Tú pagaste o te quedaste sin Netflix?",
+  "logo": {
+    "busqueda": "Netflix 2015 logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Netflix_2015_logo.svg?width=800",
+    "credito": "Foto: Netflix · Public domain · Wikimedia Commons",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Netflix_2015_logo.svg"
+  },
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Netflix perdió suscriptores por primera vez en diez años. Su solución: cobrarte por prestar la clave.",
+      "imagenes": [
+        {
+          "busqueda": "Netflix logo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Netflix headquarters Los Gatos",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "television remote control",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "perdió",
+        "clave"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "100M",
+          "etiqueta": "hogares veían con clave prestada"
+        }
+      ],
+      "titulo": "Cobrar por prestar la clave"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Era 2022. Netflix calculaba que unos cien millones de hogares veían gratis con una clave prestada. Y en el segundo trimestre perdió casi un millón de suscriptores.",
+      "imagenes": [
+        {
+          "busqueda": "smart TV living room",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Netflix app smartphone",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Reed Hastings",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "stock market chart screen",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cien",
+        "millón"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "221M",
+            "texto": "suscriptores en 2022",
+            "icono": "celular"
+          },
+          "despues": {
+            "valor": "-970.000",
+            "texto": "en un solo trimestre",
+            "icono": "grafica_baja"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Así que decidió cobrar. [pause] Y su laboratorio fue Latinoamérica: Chile, Argentina, Guatemala, Honduras. En mayo de 2023 llegó a Colombia: un miembro extra costaba ocho mil novecientos pesos al mes.",
+      "imagenes": [
+        {
+          "busqueda": "Santiago Chile skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Buenos Aires skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Colombian peso banknotes",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Bogotá skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "laboratorio",
+        "ocho"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$8.900",
+          "etiqueta": "al mes por un miembro extra en Colombia"
+        },
+        {
+          "tipo": "titulo",
+          "texto": "Tu cuenta es para [[tu hogar]]",
+          "icono": "celular"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Todos esperaban que la gente se fuera. [excited] Pasó lo contrario. En 2023 sumó casi seis millones en un trimestre. Y a finales de 2024 ya pasaba los trescientos un millones de suscriptores.",
+      "imagenes": [
+        {
+          "busqueda": "Netflix office",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Ted Sarandos",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "streaming on laptop",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Netflix sign",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "contrario",
+        "trescientos"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "221M",
+            "texto": "suscriptores en 2022",
+            "icono": "celular"
+          },
+          "despues": {
+            "valor": "301M",
+            "texto": "suscriptores a fines de 2024",
+            "icono": "dinero"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Lo que regalas sin darte cuenta también es plata que pierdes. Pero cobrar solo funciona si tu producto vale tanto que la gente prefiere pagar a perderlo.",
+      "imagenes": [
+        {
+          "busqueda": "television screen",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "popcorn bowl",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "credit card online payment",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "regalas",
+        "pagar"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Cobra solo si [[vales la pena]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú pagaste o te quedaste sin Netflix? Te leo en los comentarios.",
+      "imagenes": [
+        {
+          "busqueda": "Netflix logo on screen",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "remote control TV",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Netflix"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Pagaste o te [[quedaste sin]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "En 2022, Netflix perdió suscriptores por primera vez en una década. Calculaba que unos 100 millones de hogares veían con una clave prestada. Su respuesta: cobrar por compartir la cuenta, y probó primero en Latinoamérica (Chile, Argentina, Guatemala, Honduras…). En Colombia llegó en mayo de 2023: 8.900 pesos al mes por un miembro extra.\n\nTodos esperaban una fuga. Pasó lo contrario: sumó casi 6 millones en un trimestre de 2023 y cerró 2024 con más de 301 millones de suscriptores.\n\n¿Tú pagaste o te quedaste sin Netflix?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#netflix",
+    "#streaming",
+    "#negocios",
+    "#tecnologia",
+    "#colombia",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Netflix perdió 970.000 suscriptores en el segundo trimestre de 2022, tras su primera caída en más de una década; cobro por segundo hogar en Argentina, Honduras, Guatemala, El Salvador y República Dominicana; Chile; unos 221 millones de suscriptores",
+      "url": "https://www.teletica.com/bbc-news-mundo/netflix-pierde-casi-un-millon-de-suscriptores-y-anuncia-cobro-extra-en-cinco-paises_315914"
+    },
+    {
+      "afirmacion": "Desde el 23 de mayo de 2023 en Colombia; miembro extra de 8.900 pesos al mes; 'Tu cuenta de Netflix es para ti y para las personas con las que vives'",
+      "url": "https://www.eltiempo.com/cultura/cine-y-tv/netflix-ya-hizo-los-cambios-en-la-plataforma-para-proteger-su-cuenta-en-colombia-773016"
+    },
+    {
+      "afirmacion": "5,9 millones de suscriptores nuevos en el segundo trimestre de 2023 tras el cobro; unos 100 millones de personas veían gratis con cuentas compartidas",
+      "url": "https://www.shootonline.com/shoot_newsbriefs/netflixs-subscriber-growth-surges-sign-crackdown-password-sharing-paying/"
+    },
+    {
+      "afirmacion": "Más de 301 millones de suscriptores a fines de 2024, con un récord de 18,9 millones nuevos en el cuarto trimestre",
+      "url": "https://www.tvtechnology.com/news/netflix-adds-18-9m-subs-passes-300m-users-announces-price-hikes"
+    }
+  ]
+}

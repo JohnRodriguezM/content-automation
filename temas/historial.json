@@ -528,5 +528,23 @@
       "Crepes & Waffles",
       "Beatriz Fernández"
     ]
+  },
+  {
+    "id": "2026-11-10-frisby-pierde-marca-espana",
+    "tema": "Frisby perdió sus marcas en España por no usarlas y una empresa española abrió con el mismo nombre",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Frisby"
+    ]
+  },
+  {
+    "id": "2026-11-10-netflix-cuenta-compartida",
+    "tema": "Netflix empezó a cobrar por compartir la cuenta, probó primero en Latinoamérica y terminó con récord de suscriptores",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "Netflix"
+    ]
   }
 ]
