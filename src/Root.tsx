@@ -3,6 +3,7 @@ import { Composition, registerRoot } from "remotion";
 import { Video } from "./Video";
 import { MotionVideo } from "./Motion";
 import { MixtoVideo } from "./Mixto";
+import { TableroVideo } from "./Tablero";
 import { guionSchema, type VideoProps } from "./schema";
 import ejemplo from "../guiones/2026-11-05-kodak-camara-digital.json";
 import { estimarTiming } from "./timing";
@@ -29,6 +30,8 @@ const Root: React.FC = () => {
       <Composition id="Motion" component={MotionVideo} {...comun} />
       {/* Mixto: fotos reales con gráficos animados encima (formato principal) */}
       <Composition id="Mixto" component={MixtoVideo} {...comun} />
+      {/* Tablero de investigación: pruebas clavadas, hilo rojo y cámara que recorre el tablero */}
+      <Composition id="Tablero" component={TableroVideo} {...comun} />
     </>
   );
 };

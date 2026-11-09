@@ -7,7 +7,7 @@
  *     --rehacer-imagenes   volver a buscar todas las imágenes
  *     --rehacer-voz        regenerar la voz aunque haya caché
  *     --narrador=sebas|john
- *     --estilo=mixto|documental|motion   (por defecto mixto: fotos + gráficos encima)
+ *     --estilo=mixto|documental|motion|tablero   (por defecto mixto; ESTILO en el entorno también sirve)
  *     --publicar=borrador|programar|no   --hora=19:30
  *
  * Variables de entorno (en local: archivo .env; en GitHub: Secrets):
@@ -165,7 +165,7 @@ function acelerar(audio: string | null, timing: Timing): { audio: string | null;
   };
 }
 
-async function render(props: VideoProps, salida: string, id: "Video" | "Motion" | "Mixto") {
+async function render(props: VideoProps, salida: string, id: "Video" | "Motion" | "Mixto" | "Tablero") {
   const serveUrl = await bundle({ entryPoint: path.join(RAIZ, "src/Root.tsx"), publicDir: PUBLIC });
   const browserExecutable = process.env.REMOTION_BROWSER || null;
   const composition = await selectComposition({ serveUrl, id, inputProps: props, browserExecutable });
@@ -234,7 +234,7 @@ async function main() {
   const guion = guionSchema.parse(JSON.parse(await readFile(ruta, "utf8")));
   await mkdir(OUT, { recursive: true });
 
-  const estilo = (flag("estilo") ?? "mixto") as "mixto" | "documental" | "motion";
+  const estilo = (flag("estilo") ?? process.env.ESTILO ?? "mixto") as "mixto" | "documental" | "motion" | "tablero";
   if (estilo !== "motion" && !flag("sin-imagenes")) {
     console.log(`→ ${guion.id}: imágenes`);
     const guardar = () => writeFile(ruta, JSON.stringify(guion, null, 2) + "\n");
@@ -268,7 +268,7 @@ async function main() {
   const video = path.join(OUT, `${guion.id}-${sufijo}-${estilo}.mp4`);
   await writeFile(path.join(OUT, `${guion.id}-${sufijo}.descripcion.txt`), descripcion(guion) + "\n");
   const musica = (await existe(path.join(PUBLIC, "musica.mp3"))) ? "musica.mp3" : null;
-  await render({ guion, timing, audio, musica }, video, { mixto: "Mixto", documental: "Video", motion: "Motion" }[estilo] as "Mixto" | "Video" | "Motion");
+  await render({ guion, timing, audio, musica }, video, { mixto: "Mixto", documental: "Video", motion: "Motion", tablero: "Tablero" }[estilo] as "Mixto" | "Video" | "Motion" | "Tablero");
 
   const modo = (flag("publicar") ?? "no") as "borrador" | "programar" | "no";
   if (modo !== "no") {
