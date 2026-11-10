@@ -10,19 +10,7 @@
       "narracion": "[curious] Cada mes llegan a Colombia setecientos mil paquetes chinos.",
       "imagenes": [
         {
-          "busqueda": "cardboard parcel package",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "shipping containers port",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "cargo airplane",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -105,12 +93,6 @@
           "filtro": "ninguno"
         },
         {
-          "busqueda": "online advertising billboard",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "smartphone shopping app",
           "fuente": "commons",
           "modo": "relleno",
@@ -133,12 +115,6 @@
       "bloque": "consecuencia",
       "narracion": "[sighs] Pero en 2025 Estados Unidos les cerró la puerta. Temu dejó de enviar directo desde China a ese país, y las ganancias de Shein cayeron casi cuarenta por ciento. Ahora la pelea llegó a Latinoamérica: México subió el impuesto y en Colombia se discute cobrar IVA.",
       "imagenes": [
-        {
-          "busqueda": "United States customs",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
         {
           "busqueda": "Mexico City",
           "fuente": "commons",
@@ -187,12 +163,6 @@
       "bloque": "aprendizaje",
       "narracion": "[thoughtful] Si tu precio bajo depende de un vacío en la ley, tu negocio depende de que nadie lo cierre.",
       "imagenes": [
-        {
-          "busqueda": "price tag",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
         {
           "busqueda": "shopping bags",
           "fuente": "commons",
