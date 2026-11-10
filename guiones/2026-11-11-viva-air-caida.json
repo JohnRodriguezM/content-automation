@@ -1,0 +1,275 @@
+{
+  "id": "2026-11-11-viva-air-caida",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "La caída de Viva Air en 2023 mientras esperaba la integración con Avianca",
+  "pregunta_principal": "¿Te quedó un tiquete de Viva sin volar?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Casi medio millón de reservas de Viva Air nunca despegaron.",
+      "imagenes": [
+        {
+          "busqueda": "Viva Air Colombia Airbus A320",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "El Dorado International Airport",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "airport departures board",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "medio",
+        "nunca"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "466.604",
+          "etiqueta": "reservas canceladas"
+        }
+      ],
+      "titulo": "466.604 reservas en tierra"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Viva era la aerolínea barata de Colombia: unos cinco millones de pasajeros al año. En abril de 2022, el grupo de Avianca tomó derechos económicos en Viva y pidió permiso para integrarlas.",
+      "imagenes": [
+        {
+          "busqueda": "Viva Air Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Avianca Airbus A320neo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "José María Córdova International Airport",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Rionegro Antioquia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "barata",
+        "Avianca"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "5,1M",
+          "etiqueta": "pasajeros al año"
+        },
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Abril 2022: Avianca entra"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Agosto 2022: piden permiso"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En noviembre, la Aerocivil se opuso por competencia. Viva siguió esperando, cada vez con menos plata y menos aviones. [sighs] El veintisiete de febrero de 2023 dejó de volar, con solo dieciséis aviones.",
+      "imagenes": [
+        {
+          "busqueda": "Aeronáutica Civil de Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "airplane parked tarmac",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "empty airport terminal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "opuso",
+        "dieciséis"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Viva [[deja de volar]]",
+          "icono": "grafica_baja"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Un mes después, la Aerocivil aprobó la integración con condiciones. En mayo, Avianca se retiró. En junio, Viva entró en liquidación judicial. Y los pasajeros quedaron como acreedores.",
+      "imagenes": [
+        {
+          "busqueda": "Avianca logo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Supersociedades Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Bogotá El Dorado",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "aircraft maintenance hangar",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "retiró",
+        "acreedores"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Marzo: aprobada con condiciones"
+            },
+            {
+              "icono": "grafica_baja",
+              "texto": "Mayo: Avianca se retira"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Junio: liquidación judicial"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Cuando tu negocio depende de una decisión que no controlas, esperar también cuesta. Y a veces, el que termina pagando es el cliente.",
+      "imagenes": [
+        {
+          "busqueda": "airplane window",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "airport waiting area",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "esperar",
+        "cliente"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Esperar también [[cuesta]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Te quedó un tiquete de Viva sin volar? Te leo en los comentarios.",
+      "imagenes": [
+        {
+          "busqueda": "Airbus A320 Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Medellín",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Viva"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Te quedó un [[tiquete]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Viva era la aerolínea barata de Colombia, con unos 5,1 millones de pasajeros al año. El grupo de Avianca pidió permiso para integrarlas en 2022; la Aerocivil se opuso en noviembre y Viva dejó de volar el 27 de febrero de 2023, con 466.604 reservas confirmadas canceladas. En marzo la integración se aprobó con condiciones, en mayo Avianca se retiró y en junio Viva entró en liquidación judicial.\n\n¿Te quedó un tiquete de Viva sin volar?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#vivaair",
+    "#avianca",
+    "#colombia",
+    "#aerolineas",
+    "#negocios",
+    "#viajes"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Abril de 2022: el holding de Avianca adquiere derechos económicos de Viva; agosto: solicitud de integración; noviembre: objeción de la Aerocivil; 27 de febrero de 2023: suspensión con 16 aviones; 21 de marzo de 2023: aprobación con condiciones",
+      "url": "https://forbes.co/2023/03/22/empresas/los-momentos-clave-de-la-integracion-entre-viva-air-y-avianca"
+    },
+    {
+      "afirmacion": "466.604 reservas confirmadas canceladas, según la Superintendencia de Transporte",
+      "url": "https://www.noticiasrcn.com/colombia/investigacion-de-la-superintendencia-sobre-viva-air-441134"
+    },
+    {
+      "afirmacion": "Avianca cancela la integración en mayo de 2023",
+      "url": "https://www.valoraanalitik.com/avianca-cancela-integracion-con-viva-y-los-pasajeros"
+    },
+    {
+      "afirmacion": "Supersociedades inicia la liquidación judicial de Viva Air; unos 5,1 millones de pasajeros al año",
+      "url": "https://www.larepublica.co/empresas/supersociedades-inicia-proceso-de-liquidacion-judicialcontra-la-aerolineavivaair-3642232"
+    },
+    {
+      "afirmacion": "Viva Air entra a liquidación judicial; los pasajeros quedan como acreedores",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/viva-air-entra-a-liquidacion-judicial-no-logro-su-recuperacion-economica/"
+    }
+  ]
+}

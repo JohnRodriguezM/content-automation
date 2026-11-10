@@ -546,5 +546,53 @@
     "protagonistas": [
       "Netflix"
     ]
+  },
+  {
+    "id": "2026-11-11-nequi-daviplata-gratis",
+    "tema": "Nequi y Daviplata son gratis: cómo ganan plata",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Nequi",
+      "Daviplata"
+    ]
+  },
+  {
+    "id": "2026-11-11-viva-air-caida",
+    "tema": "La caída de Viva Air en 2023 mientras esperaba la integración con Avianca",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Viva Air",
+      "Avianca"
+    ]
+  },
+  {
+    "id": "2026-11-11-d1-tiendas-barrio",
+    "tema": "D1 copió el modelo alemán de descuento y llenó Colombia de tiendas con marca propia",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "D1"
+    ]
+  },
+  {
+    "id": "2026-11-11-gilinski-nutresa-jet-zenu",
+    "tema": "Jaime Gilinski tomó el control de Grupo Nutresa (Jet, Zenú, Noel) tras ocho ofertas",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Grupo Nutresa",
+      "Jaime Gilinski"
+    ]
+  },
+  {
+    "id": "2026-11-11-rappi-diez-anos-perdiendo",
+    "tema": "Rappi perdió plata casi diez años para crecer y en 2024 empezó a ganar en Colombia",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Rappi"
+    ]
   }
 ]

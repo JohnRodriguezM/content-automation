@@ -1,0 +1,271 @@
+{
+  "id": "2026-11-11-gilinski-nutresa-jet-zenu",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "Jaime Gilinski tomó el control de Grupo Nutresa (Jet, Zenú, Noel) tras ocho ofertas",
+  "pregunta_principal": "¿Cuál es tu producto Nutresa favorito?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Tu Jet, tu Zenú y tu Noel cambiaron de dueño.",
+      "imagenes": [
+        {
+          "busqueda": "Chocolatina Jet",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Galletas Noel",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Grupo Nutresa",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Jet",
+        "dueño"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "8",
+          "etiqueta": "ofertas públicas por Nutresa"
+        }
+      ],
+      "titulo": "8 ofertas por tu Jet"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Son de Grupo Nutresa, la empresa de alimentos que el Grupo Empresarial Antioqueño controló por casi cincuenta años. Hasta que en noviembre de 2021 apareció el banquero caleño Jaime Gilinski.",
+      "imagenes": [
+        {
+          "busqueda": "Grupo Nutresa Medellín",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Medellín skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Cali skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Zenú",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cincuenta",
+        "Gilinski"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "GEA: casi 50 años al mando"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Nov 2021: llega Gilinski"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Ofreció siete dólares con setenta y un centavos por acción, casi cuarenta por ciento más que el mercado. [pause] Fueron ocho ofertas en total. Y en 2023, un intercambio de acciones le entregó el control.",
+      "imagenes": [
+        {
+          "busqueda": "Bolsa de Valores de Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "stock exchange board",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "El Corral restaurant",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Sello Rojo coffee",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ocho",
+        "control"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "+38%",
+          "etiqueta": "sobre el precio de mercado"
+        },
+        {
+          "tipo": "titulo",
+          "texto": "El GEA [[pierde]] Nutresa",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[excited] Desde que Gilinski preside la junta, en enero de 2025, la acción subió más de doscientos treinta por ciento. Y sigue comprando marcas: en octubre acordó quedarse con Presto.",
+      "imagenes": [
+        {
+          "busqueda": "Presto restaurant",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Medellín",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Colcafé",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "doscientos",
+        "Presto"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$92.020",
+            "texto": "la acción en enero de 2025",
+            "icono": "grafica_baja"
+          },
+          "despues": {
+            "valor": "$309.660",
+            "texto": "la acción en octubre de 2026",
+            "icono": "dinero"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Ningún control es para siempre. Si tu empresa vale más de lo que muestra su precio, alguien va a venir por ella.",
+      "imagenes": [
+        {
+          "busqueda": "chocolate bar",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "biscuits",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "siempre",
+        "precio"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Ningún control es [[para siempre]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Cuál es tu producto Nutresa favorito? Te leo en los comentarios.",
+      "imagenes": [
+        {
+          "busqueda": "Galletas Ducales",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Medellín city",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "favorito"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Cuál es tu [[favorito]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Jet, Zenú, Noel, Tosh, Colcafé y El Corral son de Grupo Nutresa, que por casi 50 años controló el Grupo Empresarial Antioqueño. En noviembre de 2021, Jaime Gilinski ofreció 7,71 dólares por acción, casi 38% sobre el mercado. Tras ocho ofertas y un intercambio de acciones en 2023, el control cambió de manos. Desde que Gilinski preside la junta (enero de 2025), la acción subió más de 230%.\n\n¿Cuál es tu producto Nutresa favorito?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#nutresa",
+    "#gilinski",
+    "#colombia",
+    "#negocios",
+    "#jet",
+    "#emprendimiento"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Primera OPA en noviembre de 2021 a 7,71 dólares por acción, cerca de 38% sobre el mercado; marcas como Jet, Noel y Rica",
+      "url": "https://www.larepublica.co/finanzas/el-grupo-gilinski-quiere-las-chocolatinas-jet-las-galletas-noel-y-las-salchichas-rica-3260351"
+    },
+    {
+      "afirmacion": "Ocho OPA en total",
+      "url": "https://www.larepublica.co/especiales/empresario-del-ano-2024/mas-de-800-notas-siguieron-el-gran-negocio-de-jaime-gilinski-con-las-opa-por-nutresa-4078040"
+    },
+    {
+      "afirmacion": "Intercambio de acciones de 2023 (Acuerdo de Madrid) que dio el control al grupo Gilinski",
+      "url": "https://www.larepublica.co/finanzas/luego-de-800-dias-desde-su-primera-opa-grupo-gilinski-tendra-el-control-de-nutresa-3795055"
+    },
+    {
+      "afirmacion": "Gilinski preside la junta desde el 27 de enero de 2025; la acción subió 236,51% de 92.020 a 309.660 pesos; acuerdo para comprar Presto",
+      "url": "https://www.larepublica.co/finanzas/accion-de-nutresa-tras-la-compra-de-presto-4509523"
+    },
+    {
+      "afirmacion": "Marcas de Nutresa: Zenú, Noel, Ducales, Tosh, Jet, Sello Rojo, Colcafé, El Corral",
+      "url": "https://www.larepublica.co/empresas/gilinski-se-quedo-con-mas-de-60-marcas-de-grupo-nutresa-3800007"
+    }
+  ]
+}

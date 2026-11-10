@@ -1,0 +1,271 @@
+{
+  "id": "2026-11-11-d1-tiendas-barrio",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "D1 copió el modelo alemán de descuento y llenó Colombia de tiendas con marca propia",
+  "pregunta_principal": "¿Qué compras siempre en el D1?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] El D1 de tu barrio factura veintiún billones al año.",
+      "imagenes": [
+        {
+          "busqueda": "Tiendas D1",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Tiendas D1 Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "supermarket shelves",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "barrio",
+        "veintiún"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$21,5 bill",
+          "etiqueta": "ventas de D1 en 2025"
+        }
+      ],
+      "titulo": "$21,5 billones en 2025"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "D1 nació en 2009 en Medellín, fundado por un chileno y un venezolano. Copió el modelo alemán de descuento: pocas referencias, locales sencillos y precios bajos.",
+      "imagenes": [
+        {
+          "busqueda": "Medellín skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Aldi store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Lidl store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "shopping basket",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2009",
+        "alemán"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Pocas referencias"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Locales sencillos"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Precios bajos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "La jugada clave fueron sus propias marcas. [pause] Cerca del ochenta por ciento de lo que vende D1 es marca propia. En Ara es el cuarenta y uno. En Éxito, el dieciocho.",
+      "imagenes": [
+        {
+          "busqueda": "private label products supermarket",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Ara supermercado",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Almacenes Éxito",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "grocery products",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "marcas",
+        "ochenta"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "80%",
+            "texto": "marca propia en D1",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "18%",
+            "texto": "marca propia en Éxito",
+            "icono": "edificio"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[excited] Hoy tiene dos mil setecientas cuarenta y cinco tiendas en quinientos cincuenta municipios. Abre más de doscientas al año. Y en 2025 ganó cuatrocientos diecinueve mil millones de pesos.",
+      "imagenes": [
+        {
+          "busqueda": "Colombia map",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "small town Colombia street",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "supermarket checkout",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "setecientas",
+        "doscientas"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "2.745",
+          "etiqueta": "tiendas en 550 municipios"
+        },
+        {
+          "tipo": "dato",
+          "valor": "+200",
+          "etiqueta": "tiendas nuevas al año"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] No necesitas tener de todo. Si controlas lo que vendes y cuánto te cuesta, le puedes ganar a los grandes por precio.",
+      "imagenes": [
+        {
+          "busqueda": "grocery shopping cart",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "price tag",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "todo",
+        "precio"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "No necesitas [[tener de todo]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué compras siempre en el D1? Te leo en los comentarios.",
+      "imagenes": [
+        {
+          "busqueda": "Tiendas D1 store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Bogotá street",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "D1"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Qué compras en el [[D1]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "D1 nació en 2009 en Medellín y copió el modelo alemán de descuento: pocas referencias, locales sencillos y precios bajos. Cerca del 80% de lo que vende es marca propia (Ara: 41%, Éxito: 18%). Hoy tiene 2.745 tiendas en 550 municipios, abre más de 200 al año y en 2025 facturó 21,56 billones de pesos, con 418.933 millones de utilidad.\n\n¿Qué compras siempre en el D1?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#d1",
+    "#colombia",
+    "#retail",
+    "#negocios",
+    "#emprendimiento",
+    "#harddiscount"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Fundada en 2009 en Medellín por Michel Olmi y Luis Abudei; Valorem tiene 60,25%",
+      "url": "https://www.portafolio.co/negocios/empresas/quien-es-el-dueno-de-tiendas-d1-y-como-obtuvo-la-empresa-en-colombia-633834"
+    },
+    {
+      "afirmacion": "2.745 tiendas en 550 municipios (febrero de 2026); Ara 1.653",
+      "url": "https://www.larepublica.co/empresas/las-grandes-cadenas-del-formato-hard-discount-superaran-4-700-tiendas-este-ano-4326966"
+    },
+    {
+      "afirmacion": "Ingresos de 21,56 billones de pesos y utilidad de 418.933 millones en 2025; más de 200 tiendas al año",
+      "url": "https://www.valoraanalitik.com/formula-d1-ganancias-200-tiendas-al-ano/"
+    },
+    {
+      "afirmacion": "Cerca del 80% de las ventas de D1 son marcas propias; Ara 41%, Olímpica 20%, Éxito 18%",
+      "url": "https://www.larepublica.co/empresas/el-hard-discount-reina-en-marcas-propias-4241004"
+    }
+  ]
+}

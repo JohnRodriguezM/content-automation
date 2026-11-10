@@ -1,0 +1,293 @@
+{
+  "id": "2026-11-11-nequi-daviplata-gratis",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "Nequi y Daviplata son gratis: cómo ganan plata",
+  "pregunta_principal": "¿Tú usas Nequi o Daviplata?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Nequi y Daviplata son gratis. Y aun así ya prestan billones.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone payment app",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Edificio Bancolombia Medellín",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Torre Davivienda Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "gratis",
+        "billones"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$0",
+            "texto": "te cuesta la app",
+            "icono": "celular"
+          },
+          "despues": {
+            "valor": "$1,6 bill",
+            "texto": "prestó Nequi en 2025",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "titulo": "Gratis… pero prestan billones"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Daviplata nació en 2011, de Davivienda. Nequi abrió en 2016, de Bancolombia. Hoy Nequi tiene veintisiete millones de usuarios. Daviplata, más de diecinueve.",
+      "imagenes": [
+        {
+          "busqueda": "Davivienda",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Bancolombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Medellín skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Bogotá skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2011",
+        "veintisiete"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "27M",
+            "texto": "usuarios de Nequi",
+            "icono": "celular"
+          },
+          "despues": {
+            "valor": "19M",
+            "texto": "clientes de Daviplata",
+            "icono": "celular"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "La apuesta: regalar la app y cobrar después. [pause] Nequi gana sobre todo prestando. En 2025 su cartera llegó a un billón seiscientos mil millones de pesos. Daviplata cobra a las empresas que pagan nóminas y subsidios por ahí.",
+      "imagenes": [
+        {
+          "busqueda": "credit card",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Bancolombia ATM",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Banco de la República Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "office building Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "prestando",
+        "empresas"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "dinero",
+              "texto": "Nequi: crédito"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Daviplata: pagos de empresas"
+            },
+            {
+              "icono": "celular",
+              "texto": "Para ti: gratis"
+            }
+          ]
+        },
+        {
+          "tipo": "dato",
+          "valor": "+174%",
+          "etiqueta": "creció la cartera de Nequi en 2025"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[excited] Nequi llegó al punto de equilibrio en septiembre de 2025. Y el primero de septiembre de 2026 se separó de Bancolombia. Ahora es su propia compañía de financiamiento.",
+      "imagenes": [
+        {
+          "busqueda": "Superintendencia Financiera de Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Medellín",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Bancolombia headquarters",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "equilibrio",
+        "separó"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Nequi ya es [[independiente]]",
+          "icono": "edificio"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Lo gratis no es caridad. Primero te ganan con algo que usas todos los días. Después te venden lo que de verdad deja plata: el crédito.",
+      "imagenes": [
+        {
+          "busqueda": "piggy bank",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "smartphone in hand",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "coins",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "caridad",
+        "crédito"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Lo gratis se cobra [[después]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú usas Nequi o Daviplata? Te leo en los comentarios.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "smartphone",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Daviplata"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Nequi o [[Daviplata]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Nequi (Bancolombia, 2016) y Daviplata (Davivienda, 2011) no te cobran. Entonces, ¿cómo ganan? Nequi, sobre todo prestando: su cartera llegó a 1,6 billones de pesos en 2025. Daviplata, cobrándoles a las empresas que pagan nóminas y subsidios por ahí. Nequi llegó al punto de equilibrio en septiembre de 2025 y desde el 1 de septiembre de 2026 es una compañía de financiamiento independiente.\n\n¿Tú usas Nequi o Daviplata?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#nequi",
+    "#daviplata",
+    "#colombia",
+    "#fintech",
+    "#negocios",
+    "#finanzaspersonales"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Nequi: equipo de seis personas en 2015, abierto en 2016; 27 millones de usuarios; primer crédito en 2019; desde el 1 de septiembre de 2026 opera como Nequi S.A. Compañía de Financiamiento",
+      "url": "https://www.valoraanalitik.com/recorrido-de-nequi-en-colombia/"
+    },
+    {
+      "afirmacion": "Nequi asume su independencia el 1 de septiembre como compañía de financiamiento vigilada por la SFC",
+      "url": "https://www.eltiempo.com/economia/finanzas-personales/nequi-asumira-su-idependencia-el-1-de-septiembre-asi-seguira-funcionando-la-app-tras-separarse-de-bancolombia-3575822"
+    },
+    {
+      "afirmacion": "Nequi alcanzó el punto de equilibrio por primera vez en septiembre de 2025",
+      "url": "https://www.portafolio.co/negocios/empresas/nequi-avanza-hacia-la-independencia-como-compania-de-financiamiento-tras-aval-de-la-superfinanciera-482780"
+    },
+    {
+      "afirmacion": "Cartera de Nequi de 1,6 billones de pesos en 2025, +174%",
+      "url": "https://abceconomia.co/2026/02/25/nequi-se-separa-de-bancolombia-fecha-final-y-resultados-2025/"
+    },
+    {
+      "afirmacion": "Daviplata nació en 2011; unos 19 millones de clientes; siempre ha sido gratis",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/daviplata-suma-19-millones-de-clientes-en-colombia-y-alista-nuevas-funciones-para-el-comercio/"
+    },
+    {
+      "afirmacion": "Daviplata gana con empresas que dispersan pagos (nómina, subsidios), crédito y pagos; en punto de equilibrio; gratis para usuarios",
+      "url": "https://www.valoraanalitik.com/apuesta-credito-daviplata-neobanco/"
+    }
+  ]
+}

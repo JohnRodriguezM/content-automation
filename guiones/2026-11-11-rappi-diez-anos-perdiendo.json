@@ -1,0 +1,278 @@
+{
+  "id": "2026-11-11-rappi-diez-anos-perdiendo",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "Rappi perdió plata casi diez años para crecer y en 2024 empezó a ganar en Colombia",
+  "pregunta_principal": "¿Pides por Rappi o por otra app?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Rappi perdió plata casi diez años. Y ahora gana.",
+      "imagenes": [
+        {
+          "busqueda": "Rappi",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Rappi delivery",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "food delivery motorcycle Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "perdió",
+        "gana"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "-$1,2 bill",
+            "texto": "pérdidas acumuladas a 2023",
+            "icono": "grafica_baja"
+          },
+          "despues": {
+            "valor": "+$210.176M",
+            "texto": "utilidad en 2025",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "titulo": "10 años perdiendo… y ahora gana"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Rappi nació en Bogotá en 2015. Simón Borrero, Sebastián Mejía y Felipe Villamarín pasaron por Y Combinator. En 2018 ya era unicornio.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá Parque de la 93",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Y Combinator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Bogotá skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Simón Borrero",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2015",
+        "unicornio"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "bombilla",
+              "texto": "2015: nace en Bogotá"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Y Combinator"
+            },
+            {
+              "icono": "dinero",
+              "texto": "2018: unicornio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Su apuesta fue crecer primero y ganar después: domicilios, mercado, farmacia y hasta una financiera con Davivienda, RappiPay. [pause] Hasta 2023, en Colombia acumuló pérdidas por un billón doscientos mil millones de pesos.",
+      "imagenes": [
+        {
+          "busqueda": "Davivienda",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "supermarket delivery bag",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "pharmacy Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "credit card",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "crecer",
+        "pérdidas"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "-$1,2 bill",
+          "etiqueta": "pérdidas acumuladas en Colombia"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[excited] En 2024 ganó plata por primera vez en Colombia. Y en 2025 más que duplicó su utilidad: doscientos diez mil millones de pesos.",
+      "imagenes": [
+        {
+          "busqueda": "New York Stock Exchange",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Bogotá at night",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "smartphone food app",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "primera",
+        "duplicó"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$97.250M",
+            "texto": "utilidad en 2024",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "$210.176M",
+            "texto": "utilidad en 2025",
+            "icono": "dinero"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Perder plata para crecer solo funciona si en algún momento cambias el chip. Diez años es mucho tiempo para aguantar.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "delivery backpack",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "crecer",
+        "aguantar"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Crecer primero, pero [[ganar después]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Pides por Rappi o por otra app? Te leo en los comentarios.",
+      "imagenes": [
+        {
+          "busqueda": "Rappi logo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "food delivery",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Rappi"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Rappi u [[otra app]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Rappi nació en Bogotá en 2015 y en 2018 ya era unicornio. Su apuesta fue crecer primero: domicilios, mercado, farmacia y una financiera con Davivienda. Hasta 2023 acumuló pérdidas por 1,2 billones de pesos en Colombia. En 2024 ganó plata por primera vez (97.250 millones) y en 2025 más que la duplicó: 210.176 millones.\n\n¿Pides por Rappi o por otra app?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#rappi",
+    "#colombia",
+    "#startups",
+    "#negocios",
+    "#emprendimiento",
+    "#delivery"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Utilidad de 210.176 millones en 2025 frente a 97.250 millones en 2024, su primer año rentable; pérdidas acumuladas de 1,2 billones hasta 2023",
+      "url": "https://www.larepublica.co/empresas/rappi-gano-210-176-millones-en-2025-y-tuvo-utilidad-por-segundo-ano-consecutivo-4437171"
+    },
+    {
+      "afirmacion": "Cofundadores Simón Borrero, Sebastián Mejía y Felipe Villamarín; posible salida a bolsa",
+      "url": "https://forbes.co/2025/06/12/editors-picks/simon-borrero-dice-que-rappi-planea-la-turborizacion-de-todo-y-una-posible-salida-a-bolsa-en-2026"
+    },
+    {
+      "afirmacion": "Fundada en agosto de 2015, luego Y Combinator",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/rappi-esta-listo-para-salir-a-wall-street-las-luces-y-sombras-del-unicornio-colombiano/"
+    },
+    {
+      "afirmacion": "Ronda de 220 millones de dólares en 2018 liderada por DST Global",
+      "url": "https://www.portafolio.co/negocios/empresas/rappi-se-fortalece-con-inversion-de-220-millones-de-dolares-520986"
+    },
+    {
+      "afirmacion": "RappiPay: compañía de financiamiento 50/50 con Davivienda autorizada en agosto de 2021",
+      "url": "https://lanotaeconomica.com.co/movidas-empresarial/la-superintendencia-financiera-autorizo-la-creacion-de-la-compania-de-financiamiento-rappipay"
+    }
+  ]
+}
