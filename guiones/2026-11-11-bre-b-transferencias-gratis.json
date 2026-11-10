@@ -54,25 +54,7 @@
       "narracion": "Cada banco cobraba por mandar plata a otro. En septiembre de 2025, de Bancolombia a otro banco costaba ocho mil seiscientos ochenta y siete pesos. Desde Davivienda, nueve mil cuatrocientos noventa y seis.",
       "imagenes": [
         {
-          "busqueda": "Bancolombia",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "Torre Davivienda",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "bank branch Colombia",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "ATM",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -102,12 +84,6 @@
       "bloque": "decision",
       "narracion": "Así que el Banco de la República construyó Bre-B: una sola red para todos los bancos y billeteras. [pause] Mandas plata con una llave, tu celular o tu cédula, en segundos y a cualquier hora.",
       "imagenes": [
-        {
-          "busqueda": "Leonardo Villar",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
         {
           "busqueda": "Bogotá Carrera Séptima",
           "fuente": "commons",
@@ -191,12 +167,6 @@
       "imagenes": [
         {
           "busqueda": "QR code payment",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "coins",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"

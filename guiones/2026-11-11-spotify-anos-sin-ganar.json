@@ -156,12 +156,6 @@
           "filtro": "ninguno"
         },
         {
-          "busqueda": "Gustav Söderström",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "Mexico City",
           "fuente": "commons",
           "modo": "relleno",
@@ -197,12 +191,6 @@
       "imagenes": [
         {
           "busqueda": "earphones",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "smartphone screen",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"

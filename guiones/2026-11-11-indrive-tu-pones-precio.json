@@ -46,12 +46,6 @@
       "narracion": "En Yakutsk, Siberia, la víspera de Año Nuevo de 2012, las empresas de taxi duplicaron sus tarifas. La gente empezó a publicar en redes cuánto estaba dispuesta a pagar.",
       "imagenes": [
         {
-          "busqueda": "Yakutsk",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "Yakutsk city",
           "fuente": "commons",
           "modo": "relleno",
@@ -59,12 +53,6 @@
         },
         {
           "busqueda": "taxi sign night",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "frozen city street",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -96,18 +84,6 @@
       "imagenes": [
         {
           "busqueda": "smartphone app",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Mountain View California",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "car dashboard",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -187,12 +163,6 @@
       "bloque": "aprendizaje",
       "narracion": "[thoughtful] A veces la mejor idea no es bajar el precio. Es dejar que el cliente lo decida.",
       "imagenes": [
-        {
-          "busqueda": "car steering wheel",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
         {
           "busqueda": "city at night traffic",
           "fuente": "commons",

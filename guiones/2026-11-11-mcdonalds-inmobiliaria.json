@@ -56,12 +56,6 @@
       "narracion": "McDonald's tiene más de cuarenta y cinco mil restaurantes. Y cerca del noventa y cinco por ciento no los maneja: son de franquiciados.",
       "imagenes": [
         {
-          "busqueda": "McDonald's headquarters Chicago",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "McDonald's Bogotá",
           "fuente": "commons",
           "modo": "relleno",
@@ -112,12 +106,6 @@
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "real estate land plot",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -148,12 +136,6 @@
       "bloque": "consecuencia",
       "narracion": "[excited] Hoy McDonald's es dueño de cerca del cincuenta y seis por ciento de los terrenos y del ochenta por ciento de los edificios en sus mercados. Y el arriendo es la mayor parte de lo que le cobra a sus franquiciados.",
       "imagenes": [
-        {
-          "busqueda": "McDonald's building",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
         {
           "busqueda": "McDonald's Times Square",
           "fuente": "commons",
@@ -193,12 +175,6 @@
       "imagenes": [
         {
           "busqueda": "french fries",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "McDonald's sign night",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
