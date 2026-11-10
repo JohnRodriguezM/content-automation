@@ -594,5 +594,53 @@
     "protagonistas": [
       "Rappi"
     ]
+  },
+  {
+    "id": "2026-11-11-temu-shein-baratos",
+    "tema": "Temu y Shein venden barato enviando paquetes directo de China, y los países empiezan a cerrarles la puerta",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Temu",
+      "Shein"
+    ]
+  },
+  {
+    "id": "2026-11-11-mcdonalds-inmobiliaria",
+    "tema": "McDonald's gana más con el arriendo a sus franquiciados que con las hamburguesas",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "McDonald's"
+    ]
+  },
+  {
+    "id": "2026-11-11-spotify-anos-sin-ganar",
+    "tema": "Spotify tardó 16 años en tener su primer año con ganancias",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "Spotify",
+      "Daniel Ek"
+    ]
+  },
+  {
+    "id": "2026-11-11-indrive-tu-pones-precio",
+    "tema": "inDrive nació en Siberia cuando los taxis duplicaron tarifas, y su modelo de proponer el precio conquistó Latinoamérica",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "inDrive"
+    ]
+  },
+  {
+    "id": "2026-11-11-bre-b-transferencias-gratis",
+    "tema": "Bre-B, el sistema de pagos inmediatos del Banco de la República, volvió gratis las transferencias entre bancos",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "Bre-B",
+      "Banco de la República"
+    ]
   }
 ]

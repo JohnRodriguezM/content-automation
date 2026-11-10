@@ -1,0 +1,279 @@
+{
+  "id": "2026-11-11-temu-shein-baratos",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "Temu y Shein venden barato enviando paquetes directo de China, y los países empiezan a cerrarles la puerta",
+  "pregunta_principal": "¿Tú le compras a Temu o a Shein?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Cada mes llegan a Colombia setecientos mil paquetes chinos.",
+      "imagenes": [
+        {
+          "busqueda": "cardboard parcel package",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "shipping containers port",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "cargo airplane",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "setecientos",
+        "chinos"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "700.000",
+          "etiqueta": "paquetes de China al mes"
+        }
+      ],
+      "titulo": "700.000 paquetes al mes"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Temu y Shein venden directo desde la fábrica en China. Sin tiendas y sin intermediarios: un paquete pequeño para cada comprador.",
+      "imagenes": [
+        {
+          "busqueda": "Guangzhou skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "garment factory",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "warehouse parcels",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Hong Kong Exchanges Square",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "fábrica",
+        "pequeño"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Fábrica en China"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Un paquete por pedido"
+            },
+            {
+              "icono": "celular",
+              "texto": "Directo a tu celular"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Su jugada: aprovechar que los paquetes pequeños casi no pagaban impuestos. [pause] Y gastar fortunas en publicidad. La dueña de Temu invirtió casi dieciocho mil millones de dólares en marketing en 2025.",
+      "imagenes": [
+        {
+          "busqueda": "Port of Los Angeles",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "online advertising billboard",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "smartphone shopping app",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "impuestos",
+        "dieciocho"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$17.900M",
+          "etiqueta": "en marketing de la dueña de Temu, 2025"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[sighs] Pero en 2025 Estados Unidos les cerró la puerta. Temu dejó de enviar directo desde China a ese país, y las ganancias de Shein cayeron casi cuarenta por ciento. Ahora la pelea llegó a Latinoamérica: México subió el impuesto y en Colombia se discute cobrar IVA.",
+      "imagenes": [
+        {
+          "busqueda": "United States customs",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Mexico City",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Bogotá El Dorado airport cargo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Hong Kong Stock Exchange",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cerró",
+        "IVA"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "-38,7%",
+          "etiqueta": "ganancia de Shein en 2025"
+        },
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "19%",
+            "texto": "impuesto antes en México",
+            "icono": "documentos"
+          },
+          "despues": {
+            "valor": "33,5%",
+            "texto": "impuesto ahora en México",
+            "icono": "grafica_baja"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Si tu precio bajo depende de un vacío en la ley, tu negocio depende de que nadie lo cierre.",
+      "imagenes": [
+        {
+          "busqueda": "price tag",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "shopping bags",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "vacío",
+        "cierre"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Un vacío en la ley [[no es un negocio]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú le compras a Temu o a Shein? Te leo en los comentarios.",
+      "imagenes": [
+        {
+          "busqueda": "parcel delivery",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Shein"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Temu o [[Shein]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Cada mes llegan a Colombia más de 700.000 paquetes desde China. Temu y Shein venden directo de la fábrica, aprovechando que los paquetes pequeños casi no pagaban impuestos, y gastan fortunas en publicidad (la dueña de Temu, casi 17.900 millones de dólares en marketing en 2025). En 2025 Estados Unidos cerró esa puerta y las ganancias de Shein cayeron 38,7%. México subió su impuesto de 19% a 33,5% y en Colombia se estudia cobrar IVA (por ahora es solo una propuesta).\n\n¿Tú le compras a Temu o a Shein?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#temu",
+    "#shein",
+    "#colombia",
+    "#comercio",
+    "#negocios",
+    "#compras"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Fin de la exención de minimis en EE. UU. para China el 2 de mayo de 2025; Temu deja de enviar directo desde China",
+      "url": "https://www.nbcwashington.com/news/business/money-report/temu-halts-shipping-direct-from-china-as-de-minimis-tariff-loophole-is-cut-off/3905351/"
+    },
+    {
+      "afirmacion": "PDD Holdings 2025: gasto en ventas y marketing de 125.300 millones de yuanes (unos 17.900 millones de dólares)",
+      "url": "https://finviz.com/news/339805/pdd-holdings-announces-fourth-quarter-2025-and-fiscal-year-2025-unaudited-financial-results"
+    },
+    {
+      "afirmacion": "Shein 2025: ingresos de 41.850 millones de dólares y utilidad neta de unos 2.060 millones (-38,7%)",
+      "url": "https://fashionunited.com/news/business/shein-business-model-into-fashions-top-15-at-a-70-discount/2026082974336"
+    },
+    {
+      "afirmacion": "México subió la tasa a paquetes pequeños de 19% a 33,5%",
+      "url": "https://www.bloomberglinea.com.br/negocios/taxa-das-blusinhas-se-espalha-na-america-latina-para-conter-avanco-de-temu-a-shein/"
+    },
+    {
+      "afirmacion": "Más de 700.000 pedidos al mes de China a Colombia",
+      "url": "https://www.elheraldo.co/economia/2026/08/04/que-compran-los-colombianos-en-temu-y-shein-ingresan-al-pais-mas-de-700000-pedidos-al-mes/"
+    },
+    {
+      "afirmacion": "Colombia estudia cobrar IVA a pedidos internacionales (propuesta, octubre de 2026)",
+      "url": "https://www.vanguardia.com/economia/nacional/2026/10/29/colombia-estudia-cobrar-iva-a-pedidos-internacionales-de-amazon-shein-y-temu/"
+    }
+  ]
+}

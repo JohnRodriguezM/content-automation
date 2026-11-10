@@ -1,0 +1,277 @@
+{
+  "id": "2026-11-11-bre-b-transferencias-gratis",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "tema": "Bre-B, el sistema de pagos inmediatos del Banco de la República, volvió gratis las transferencias entre bancos",
+  "pregunta_principal": "¿Ya creaste tu llave de Bre-B?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Transferir a otro banco te costaba casi nueve mil pesos.",
+      "imagenes": [
+        {
+          "busqueda": "Banco de la República Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "smartphone payment",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Colombian coins",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "costaba",
+        "nueve"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$8.687",
+            "texto": "antes, a otro banco",
+            "icono": "grafica_baja"
+          },
+          "despues": {
+            "valor": "$0",
+            "texto": "con Bre-B, por ahora",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "titulo": "$8.687 por transferir"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Cada banco cobraba por mandar plata a otro. En septiembre de 2025, de Bancolombia a otro banco costaba ocho mil seiscientos ochenta y siete pesos. Desde Davivienda, nueve mil cuatrocientos noventa y seis.",
+      "imagenes": [
+        {
+          "busqueda": "Bancolombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Torre Davivienda",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "bank branch Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "ATM",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cobraba",
+        "nueve"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$8.687",
+            "texto": "Bancolombia",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "$9.496",
+            "texto": "Davivienda",
+            "icono": "dinero"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Así que el Banco de la República construyó Bre-B: una sola red para todos los bancos y billeteras. [pause] Mandas plata con una llave, tu celular o tu cédula, en segundos y a cualquier hora.",
+      "imagenes": [
+        {
+          "busqueda": "Leonardo Villar",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Bogotá Carrera Séptima",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "smartphone in hand",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "red",
+        "segundos"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "celular",
+              "texto": "Llave: celular o cédula"
+            },
+            {
+              "icono": "reloj",
+              "texto": "En segundos, 24/7"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Todos los bancos y billeteras"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[excited] En su primer año: treinta y seis millones de usuarios, ciento dieciséis millones de llaves y más de mil setecientos millones de transacciones. Y el Banco de la República no cobra nada los primeros tres años.",
+      "imagenes": [
+        {
+          "busqueda": "Banco de la República",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Bogotá skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "payment terminal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "treinta",
+        "tres"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "36M",
+          "etiqueta": "usuarios en el primer año"
+        },
+        {
+          "tipo": "dato",
+          "valor": "1.700M",
+          "etiqueta": "transacciones"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Si cobras por algo que la tecnología ya puede hacer gratis, alguien va a construir la alternativa. Y a veces ese alguien es el Estado.",
+      "imagenes": [
+        {
+          "busqueda": "QR code payment",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "coins",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "gratis",
+        "Estado"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Alguien va a construir [[la alternativa]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Ya creaste tu llave de Bre-B? Te leo en los comentarios.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "smartphone",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "llave"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Ya tienes tu [[llave]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "En septiembre de 2025, transferir de Bancolombia a otro banco costaba 8.687 pesos, y desde Davivienda 9.496. El Banco de la República construyó Bre-B: una sola red para todos los bancos y billeteras, con llaves como tu celular o tu cédula, en segundos y 24/7. En su primer año sumó 36 millones de usuarios, 116 millones de llaves y más de 1.700 millones de transacciones. El Banco de la República no cobra nada los primeros tres años; cada banco define qué cobra a sus clientes.\n\n¿Ya creaste tu llave de Bre-B?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#breb",
+    "#colombia",
+    "#bancos",
+    "#fintech",
+    "#finanzaspersonales",
+    "#tecnologia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Bre-B en operación desde el 6 de octubre de 2025; transferencias en menos de 20 segundos, 24/7",
+      "url": "https://forbes.co/2025/10/06/economia-y-finanzas/este-6-de-octubre-entra-en-operacion-bre-b-lo-que-debe-saber-del-sistema-de-pagos-inmediatos"
+    },
+    {
+      "afirmacion": "Primer año: más de 36 millones de usuarios, 116 millones de llaves, más de 1.700 millones de transacciones y 262 billones de pesos",
+      "url": "https://banrep.gov.co/es/noticias/bre-b-cumple-un-anio-en-colombia"
+    },
+    {
+      "afirmacion": "Primer año de Bre-B: 262 billones y 116 millones de llaves",
+      "url": "https://www.elpais.com.co/economia/en-su-primer-ano-bre-b-mueve-262-billones-y-alcanza-116-millones-de-llaves-en-colombia-0604.html"
+    },
+    {
+      "afirmacion": "Bre-B gratuito los tres primeros años; desde el cuarto, 6,46 pesos por transacción",
+      "url": "https://forbes.co/economia-y-finanzas/bre-b-sera-gratuito-los-tres-primeros-anos-y-en-el-cuarto-cada-transaccion-pagara-646-banrepublica"
+    },
+    {
+      "afirmacion": "Costo de transferir a otro banco en septiembre de 2025: Bancolombia 8.687, Davivienda 9.496 pesos (Superfinanciera)",
+      "url": "https://www.larepublica.co/finanzas/bancos-que-no-cobran-por-hacer-transferencias-entre-entidades-4221839"
+    }
+  ]
+}

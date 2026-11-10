@@ -1,0 +1,271 @@
+{
+  "id": "2026-11-11-indrive-tu-pones-precio",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "tema": "inDrive nació en Siberia cuando los taxis duplicaron tarifas, y su modelo de proponer el precio conquistó Latinoamérica",
+  "pregunta_principal": "¿Tú pides inDrive, Uber o DiDi?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] inDrive nació a cuarenta y cinco grados bajo cero.",
+      "imagenes": [
+        {
+          "busqueda": "Yakutsk winter",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Siberia snow road",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "smartphone map navigation",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cuarenta",
+        "cero"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "-45 °C",
+          "etiqueta": "en Yakutsk, Siberia"
+        }
+      ],
+      "titulo": "Nació a -45 °C"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En Yakutsk, Siberia, la víspera de Año Nuevo de 2012, las empresas de taxi duplicaron sus tarifas. La gente empezó a publicar en redes cuánto estaba dispuesta a pagar.",
+      "imagenes": [
+        {
+          "busqueda": "Yakutsk",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Yakutsk city",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "taxi sign night",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "frozen city street",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "duplicaron",
+        "pagar"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "x1",
+            "texto": "tarifa normal",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "x2",
+            "texto": "tarifa en Año Nuevo",
+            "icono": "grafica_baja"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "De ahí salió la idea de Arsen Tomsky: que el pasajero proponga el precio, y el conductor acepte, rechace o contraoferte. [pause] La app cobra cerca del doce por ciento.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone app",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Mountain View California",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "car dashboard",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "proponga",
+        "doce"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "celular",
+              "texto": "Tú propones el precio"
+            },
+            {
+              "icono": "pregunta",
+              "texto": "El conductor acepta o contraoferta"
+            },
+            {
+              "icono": "dinero",
+              "texto": "La app cobra ~12%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[excited] Hoy es la segunda app de transporte más descargada del mundo. Llegó a Colombia en 2018, por Cúcuta, y según la empresa ya tiene más de trescientos mil conductores activos. Aunque en el país estas apps siguen sin una ley clara.",
+      "imagenes": [
+        {
+          "busqueda": "Cúcuta",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Bogotá traffic",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Uber headquarters San Francisco",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Medellín",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "segunda",
+        "trescientos"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "#2",
+          "etiqueta": "app de transporte más descargada"
+        },
+        {
+          "tipo": "dato",
+          "valor": "300.000",
+          "etiqueta": "conductores en Colombia, según inDrive"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] A veces la mejor idea no es bajar el precio. Es dejar que el cliente lo decida.",
+      "imagenes": [
+        {
+          "busqueda": "car steering wheel",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "city at night traffic",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "precio",
+        "decida"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Deja que el cliente [[decida]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú pides inDrive, Uber o DiDi? Te leo en los comentarios.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá at night",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "smartphone",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "DiDi"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿inDrive, Uber o [[DiDi]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "inDrive nació en Yakutsk, Siberia, cuando en la víspera de Año Nuevo de 2012 los taxis duplicaron sus tarifas a -45 °C y la gente empezó a publicar cuánto quería pagar. Arsen Tomsky lo convirtió en una app donde el pasajero propone el precio y el conductor acepta o contraoferta, con una comisión de cerca del 12%. Es la segunda app de transporte más descargada del mundo y llegó a Colombia en 2018, por Cúcuta. Las apps de transporte siguen sin una ley clara en el país.\n\n¿Tú pides inDrive, Uber o DiDi?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#indrive",
+    "#uber",
+    "#didi",
+    "#colombia",
+    "#tecnologia",
+    "#movilidad"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Origen en Yakutsk en la víspera de Año Nuevo de 2012, cuando los taxis duplicaron tarifas a -45 °C; fundador Arsen Tomsky; sede en Mountain View",
+      "url": "https://www.bloomberglinea.com/2024/06/27/en-que-ciudad-comenzo-la-historia-de-indrive-y-en-cuantas-tiene-presencia-hoy/"
+    },
+    {
+      "afirmacion": "Comisión de cerca del 12%; el conductor puede aceptar, rechazar o contraofertar",
+      "url": "https://restofworld.org/2025/uber-alternative-indrive-expansion/"
+    },
+    {
+      "afirmacion": "Segunda app de transporte más descargada del mundo; más de 300.000 conductores activos en Colombia; llegó en 2018 por Cúcuta (datos de la empresa)",
+      "url": "https://forbes.co/2026/04/27/actualidad/indrive-colombia-crecimiento-movilidad-senya-andreev/"
+    },
+    {
+      "afirmacion": "Proyecto 'Por allá sí voy' para legalizar las apps de transporte, radicado en octubre de 2026",
+      "url": "https://www.portafolio.co/economia/por-alla-si-voy-pacto-historico-centro-democratico-y-creemos-se-alian-para-legalizar-aplicaciones-de-transporte-504535"
+    }
+  ]
+}

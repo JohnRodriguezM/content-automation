@@ -1,0 +1,271 @@
+{
+  "id": "2026-11-11-mcdonalds-inmobiliaria",
+  "pilar": "negocios",
+  "narrador": "john",
+  "tema": "McDonald's gana más con el arriendo a sus franquiciados que con las hamburguesas",
+  "pregunta_principal": "¿Sabías que McDonald's era una inmobiliaria?",
+  "logo": {
+    "busqueda": "McDonald's Golden Arches",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/McDonald's_Golden_Arches.svg?width=800",
+    "credito": "Foto: McDonald's · Public domain · Wikimedia Commons",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:McDonald's_Golden_Arches.svg"
+  },
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Tu hamburguesa es la excusa. McDonald's vive del arriendo.",
+      "imagenes": [
+        {
+          "busqueda": "McDonald's restaurant",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "hamburger",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Golden Arches sign",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "excusa",
+        "arriendo"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "62%",
+          "etiqueta": "de sus ingresos vienen de franquicias"
+        }
+      ],
+      "titulo": "El negocio es el arriendo"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "McDonald's tiene más de cuarenta y cinco mil restaurantes. Y cerca del noventa y cinco por ciento no los maneja: son de franquiciados.",
+      "imagenes": [
+        {
+          "busqueda": "McDonald's headquarters Chicago",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "McDonald's Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "McDonald's drive-thru",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Oldest McDonald's Downey",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cuarenta",
+        "noventa"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "45.356",
+          "etiqueta": "restaurantes en el mundo"
+        },
+        {
+          "tipo": "dato",
+          "valor": "95%",
+          "etiqueta": "son franquicias"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "La idea fue de Harry Sonneborn, su primer jefe de finanzas. [pause] McDonald's compra o arrienda el terreno y el local, y se los alquila al franquiciado. Sonneborn lo dijo así: no estamos en el negocio de la comida, estamos en el de la finca raíz.",
+      "imagenes": [
+        {
+          "busqueda": "McDonald's #1 Store Museum Des Plaines",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Ray Kroc",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "real estate land plot",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "terreno",
+        "finca"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Compra el terreno"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Le alquila al franquiciado"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Cobra arriendo y regalías"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[excited] Hoy McDonald's es dueño de cerca del cincuenta y seis por ciento de los terrenos y del ochenta por ciento de los edificios en sus mercados. Y el arriendo es la mayor parte de lo que le cobra a sus franquiciados.",
+      "imagenes": [
+        {
+          "busqueda": "McDonald's building",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "McDonald's Times Square",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "McDonald's corner restaurant",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cincuenta",
+        "ochenta"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "56%",
+            "texto": "de los terrenos son suyos",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "80%",
+            "texto": "de los edificios son suyos",
+            "icono": "edificio"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] A veces el producto que ves no es el negocio. Pregúntate siempre quién cobra, y por qué.",
+      "imagenes": [
+        {
+          "busqueda": "french fries",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "McDonald's sign night",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "producto",
+        "cobra"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "El producto no siempre es [[el negocio]]",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Sabías que McDonald's era una inmobiliaria? Te leo en los comentarios.",
+      "imagenes": [
+        {
+          "busqueda": "McDonald's",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "hamburger and fries",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "inmobiliaria"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Sabías que era [[inmobiliaria]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "McDonald's tiene 45.356 restaurantes y cerca del 95% son de franquiciados. La idea de Harry Sonneborn, su primer jefe de finanzas: comprar o arrendar el terreno y el local y alquilárselos al franquiciado. Hoy es dueño de cerca del 56% de los terrenos y del 80% de los edificios en sus mercados, y el 62% de sus ingresos viene de franquicias, donde el arriendo es la mayor parte.\n\n¿Sabías que McDonald's era una inmobiliaria?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#mcdonalds",
+    "#negocios",
+    "#finanzas",
+    "#franquicias",
+    "#emprendimiento",
+    "#bienesraices"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Ingresos 2025 de 26.885 millones de dólares, 16.548 millones de franquicias; 45.356 restaurantes, cerca del 95% franquiciados; dueño de cerca del 56% de los terrenos y el 80% de los edificios en mercados consolidados",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm"
+    },
+    {
+      "afirmacion": "Renta como la mayor parte de los ingresos por franquicias; cita de Harry Sonneborn ('We are not technically in the food business… We are in the real estate business')",
+      "url": "https://footnotebrief.com/mcdonalds-real-estate-company/"
+    },
+    {
+      "afirmacion": "Cita de Harry Sonneborn sobre el negocio inmobiliario de McDonald's",
+      "url": "https://www.benzinga.com/real-estate/reit/22/07/28172127/why-mcdonalds-may-still-be-one-of-the-best-real-estate-stocks"
+    }
+  ]
+}

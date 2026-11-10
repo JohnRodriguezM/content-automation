@@ -1,0 +1,283 @@
+{
+  "id": "2026-11-11-spotify-anos-sin-ganar",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "tema": "Spotify tardó 16 años en tener su primer año con ganancias",
+  "pregunta_principal": "¿Pagas Spotify o lo usas gratis?",
+  "logo": {
+    "busqueda": "Spotify logo with text",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Spotify_logo_with_text.svg?width=800",
+    "credito": "Foto: Spotify · Public domain · Wikimedia Commons",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Spotify_logo_with_text.svg"
+  },
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Pagas Spotify cada mes. Y tardó dieciséis años en ganar plata.",
+      "imagenes": [
+        {
+          "busqueda": "Spotify headquarters Stockholm",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "headphones smartphone music",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Stockholm",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "dieciséis",
+        "plata"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "16",
+          "etiqueta": "años sin un año con ganancias"
+        }
+      ],
+      "titulo": "16 años sin ganar"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Spotify nació en 2006 en Suecia, con Daniel Ek y Martin Lorentzon. Su apuesta: música gratis con anuncios, y premium barato en países como los nuestros.",
+      "imagenes": [
+        {
+          "busqueda": "Daniel Ek",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Martin Lorentzon",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Spotify Camp Nou",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "vinyl records",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2006",
+        "barato"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "bombilla",
+              "texto": "2006: nace en Suecia"
+            },
+            {
+              "icono": "celular",
+              "texto": "Gratis con anuncios"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Premium barato"
+            }
+          ]
+        }
+      ],
+      "rotulo": "Daniel Ek"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El problema: de lo que le pagas por la música, cerca de dos tercios se van para disqueras y artistas. [pause] Y aun así, Ek eligió crecer antes que ganar.",
+      "imagenes": [
+        {
+          "busqueda": "record label office",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "music studio",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "concert stage lights",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tercios",
+        "crecer"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "2 de 3",
+          "etiqueta": "pesos se van en derechos"
+        },
+        {
+          "tipo": "titulo",
+          "texto": "Crecer antes que [[ganar]]",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[excited] En 2024 recortó cerca de mil quinientos empleos, subió precios y tuvo su primer año con ganancias. Hoy tiene setecientos ochenta y ocho millones de usuarios, y casi uno de cada cuatro suscriptores está en Latinoamérica.",
+      "imagenes": [
+        {
+          "busqueda": "New York Stock Exchange",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Gustav Söderström",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Mexico City",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "São Paulo skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "primer",
+        "cuatro"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "788M",
+          "etiqueta": "usuarios al mes"
+        },
+        {
+          "tipo": "dato",
+          "valor": "24%",
+          "etiqueta": "de los suscriptores son de Latam"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Crecer sin ganar puede funcionar años. Pero el día que cobras más, tu producto tiene que valer tanto que la gente se quede.",
+      "imagenes": [
+        {
+          "busqueda": "earphones",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "smartphone screen",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "crecer",
+        "quede"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Que valga [[tanto]] que se queden",
+          "icono": "bombilla"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Pagas Spotify o lo usas gratis? Te leo en los comentarios.",
+      "imagenes": [
+        {
+          "busqueda": "Spotify app",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "headphones",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "gratis"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Pagas o [[gratis]]?",
+          "icono": "pregunta"
+        }
+      ]
+    }
+  ],
+  "caption": "Spotify nació en 2006 en Suecia. Su apuesta: música gratis con anuncios y premium barato en países como los nuestros. Pero cerca de dos tercios de lo que se paga por la música va para disqueras y artistas, y por 16 años no tuvo un año completo con ganancias. En 2024 recortó cerca de 1.500 empleos, subió precios y ganó 1.140 millones de euros. Hoy tiene 788 millones de usuarios y casi uno de cada cuatro suscriptores está en Latinoamérica.\n\n¿Pagas Spotify o lo usas gratis?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#spotify",
+    "#musica",
+    "#tecnologia",
+    "#negocios",
+    "#streaming",
+    "#latam"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Primer año con ganancias en 2024 (1.140 millones de euros); Ek: los primeros 16 años no se preocuparon por la rentabilidad; cerca de 1.500 despidos y dos alzas de precio",
+      "url": "https://www.irishtimes.com/business/2025/02/04/spotify-shares-surge-on-subscriber-gains-first-annual-profit"
+    },
+    {
+      "afirmacion": "Spotify cumple 20 años en 2026 (fundada en 2006); más de 11.000 millones pagados en 2025",
+      "url": "https://newsroom.spotify.com/2026-03-11/loud-and-clear-music-economics-highlights/"
+    },
+    {
+      "afirmacion": "Cerca de dos tercios de los ingresos por música van a los titulares de derechos",
+      "url": "https://abcnews.go.com/Business/wireStory/spotify-listen-music-heres-money-ads-subscription-fees-113274667"
+    },
+    {
+      "afirmacion": "Tercer trimestre de 2026: 788 millones de usuarios y 306 millones de suscriptores",
+      "url": "https://www.hypebot.com/spotify-q3-2026-788m-users-and-306m-subscribers/"
+    },
+    {
+      "afirmacion": "Latinoamérica: 24% de los suscriptores",
+      "url": "https://www.musicbusinessworldwide.com/latin-america-is-catching-north-america-as-spotifys-second-biggest-subscriber-market-and-over-1-in-10-people-there-now-pay-for-it/"
+    }
+  ]
+}
