@@ -10,19 +10,13 @@
       "narracion": "[curious] Frisby perdió sus marcas en España. Y otra empresa abrió allá con su mismo nombre.",
       "imagenes": [
         {
-          "busqueda": "fried chicken bucket",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Madrid Gran Vía",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "trademark registration certificate",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Royal Palace of Madrid",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -152,18 +146,6 @@
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "euro banknotes",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "food delivery Madrid",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -188,19 +170,7 @@
       "narracion": "[serious] Registrar tu marca no basta. Tienes que usarla. En propiedad intelectual, lo que no usas, otro lo puede reclamar.",
       "imagenes": [
         {
-          "busqueda": "trademark symbol",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "legal documents stamp",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Pereira Colombia skyline",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"

@@ -56,25 +56,7 @@
       "narracion": "Era 2022. Netflix calculaba que unos cien millones de hogares veían gratis con una clave prestada. Y en el segundo trimestre perdió casi un millón de suscriptores.",
       "imagenes": [
         {
-          "busqueda": "smart TV living room",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Netflix app smartphone",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "Reed Hastings",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "stock market chart screen",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -112,12 +94,6 @@
         },
         {
           "busqueda": "Buenos Aires skyline",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Colombian peso banknotes",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -163,12 +139,6 @@
           "filtro": "ninguno"
         },
         {
-          "busqueda": "streaming on laptop",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "Netflix sign",
           "fuente": "commons",
           "modo": "relleno",
@@ -199,12 +169,6 @@
       "bloque": "aprendizaje",
       "narracion": "[thoughtful] Lo que regalas sin darte cuenta también es plata que pierdes. Pero cobrar solo funciona si tu producto vale tanto que la gente prefiere pagar a perderlo.",
       "imagenes": [
-        {
-          "busqueda": "television screen",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
         {
           "busqueda": "popcorn bowl",
           "fuente": "commons",
