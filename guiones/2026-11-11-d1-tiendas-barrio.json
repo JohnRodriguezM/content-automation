@@ -188,13 +188,7 @@
       "narracion": "[thoughtful] No necesitas tener de todo. Si controlas lo que vendes y cuánto te cuesta, le puedes ganar a los grandes por precio.",
       "imagenes": [
         {
-          "busqueda": "grocery shopping cart",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "price tag",
+          "busqueda": "shopping cart supermarket aisle",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -216,12 +210,6 @@
       "bloque": "cierre",
       "narracion": "¿Qué compras siempre en el D1? Te leo en los comentarios.",
       "imagenes": [
-        {
-          "busqueda": "Tiendas D1 store",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
         {
           "busqueda": "Bogotá street",
           "fuente": "commons",

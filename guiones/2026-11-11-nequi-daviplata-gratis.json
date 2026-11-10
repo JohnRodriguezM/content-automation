@@ -60,12 +60,6 @@
           "filtro": "ninguno"
         },
         {
-          "busqueda": "Bancolombia",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "Medellín skyline",
           "fuente": "commons",
           "modo": "relleno",
@@ -109,19 +103,7 @@
           "filtro": "ninguno"
         },
         {
-          "busqueda": "Bancolombia ATM",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "Banco de la República Colombia",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "office building Bogotá",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -196,19 +178,7 @@
       "narracion": "[thoughtful] Lo gratis no es caridad. Primero te ganan con algo que usas todos los días. Después te venden lo que de verdad deja plata: el crédito.",
       "imagenes": [
         {
-          "busqueda": "piggy bank",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "smartphone in hand",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "coins",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"

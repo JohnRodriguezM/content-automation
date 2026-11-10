@@ -10,19 +10,13 @@
       "narracion": "[serious] Casi medio millón de reservas de Viva Air nunca despegaron.",
       "imagenes": [
         {
-          "busqueda": "Viva Air Colombia Airbus A320",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "El Dorado International Airport",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "airport departures board",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "El Dorado airport Bogotá terminal",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -101,12 +95,6 @@
       "imagenes": [
         {
           "busqueda": "Aeronáutica Civil de Colombia",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "airplane parked tarmac",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -216,12 +204,6 @@
       "bloque": "cierre",
       "narracion": "¿Te quedó un tiquete de Viva sin volar? Te leo en los comentarios.",
       "imagenes": [
-        {
-          "busqueda": "Airbus A320 Colombia",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
         {
           "busqueda": "Medellín",
           "fuente": "commons",

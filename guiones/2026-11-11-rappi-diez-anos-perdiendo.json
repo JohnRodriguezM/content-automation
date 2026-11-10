@@ -10,19 +10,13 @@
       "narracion": "[curious] Rappi perdió plata casi diez años. Y ahora gana.",
       "imagenes": [
         {
-          "busqueda": "Rappi",
+          "busqueda": "food delivery bag",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
         },
         {
-          "busqueda": "Rappi delivery",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "food delivery motorcycle Bogotá",
+          "busqueda": "Bogotá Usaquén",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -67,12 +61,6 @@
         },
         {
           "busqueda": "Bogotá skyline",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Simón Borrero",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -158,12 +146,6 @@
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "smartphone food app",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -195,12 +177,6 @@
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "delivery backpack",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -219,12 +195,6 @@
       "bloque": "cierre",
       "narracion": "¿Pides por Rappi o por otra app? Te leo en los comentarios.",
       "imagenes": [
-        {
-          "busqueda": "Rappi logo",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
         {
           "busqueda": "food delivery",
           "fuente": "commons",

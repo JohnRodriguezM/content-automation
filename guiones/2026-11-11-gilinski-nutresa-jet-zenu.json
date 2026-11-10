@@ -10,18 +10,6 @@
       "narracion": "[curious] Tu Jet, tu Zenú y tu Noel cambiaron de dueño.",
       "imagenes": [
         {
-          "busqueda": "Chocolatina Jet",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Galletas Noel",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "Grupo Nutresa",
           "fuente": "commons",
           "modo": "relleno",
@@ -46,12 +34,6 @@
       "narracion": "Son de Grupo Nutresa, la empresa de alimentos que el Grupo Empresarial Antioqueño controló por casi cincuenta años. Hasta que en noviembre de 2021 apareció el banquero caleño Jaime Gilinski.",
       "imagenes": [
         {
-          "busqueda": "Grupo Nutresa Medellín",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "Medellín skyline",
           "fuente": "commons",
           "modo": "relleno",
@@ -59,12 +41,6 @@
         },
         {
           "busqueda": "Cali skyline",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Zenú",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -141,19 +117,7 @@
       "narracion": "[excited] Desde que Gilinski preside la junta, en enero de 2025, la acción subió más de doscientos treinta por ciento. Y sigue comprando marcas: en octubre acordó quedarse con Presto.",
       "imagenes": [
         {
-          "busqueda": "Presto restaurant",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "Medellín",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Colcafé",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -184,12 +148,6 @@
       "narracion": "[thoughtful] Ningún control es para siempre. Si tu empresa vale más de lo que muestra su precio, alguien va a venir por ella.",
       "imagenes": [
         {
-          "busqueda": "chocolate bar",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
           "busqueda": "biscuits",
           "fuente": "commons",
           "modo": "relleno",
@@ -213,13 +171,7 @@
       "narracion": "¿Cuál es tu producto Nutresa favorito? Te leo en los comentarios.",
       "imagenes": [
         {
-          "busqueda": "Galletas Ducales",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Medellín city",
+          "busqueda": "Medellín Metro",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
