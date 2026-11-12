@@ -509,7 +509,7 @@ export const DocumentalVideo: React.FC<VideoProps> = ({ guion, timing, audio, mu
       {audio && <Audio src={src(audio)} />}
       {musica && (
         <Audio src={src(musica)} loop
-          volume={(f) => 0.14 * interpolate(f, [0, 12, durationInFrames - 30, durationInFrames], [0, 1, 1, 0], clamp)} />
+          volume={(f) => 0.18 * interpolate(f, [0, 12, durationInFrames - 30, durationInFrames], [0, 1, 1, 0], clamp)} />
       )}
       {guion.escenas.map((e, i) => {
         const { from, dur } = rango(i);
