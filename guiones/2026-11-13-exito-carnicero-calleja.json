@@ -8,6 +8,11 @@
     "modo": "relleno",
     "filtro": "ninguno"
   },
+  "portada": {
+    "texto": "¿De quién es el [[Éxito]]?",
+    "dato": "Ni colombiano ni francés",
+    "foto": "1.1"
+  },
   "tema": "El Éxito pasó de Casino a la familia Calleja de El Salvador y multiplicó su utilidad",
   "pregunta_principal": "¿Notaste el cambio cuando vas a mercar?",
   "escenas": [

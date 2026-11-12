@@ -79,6 +79,13 @@ export const guionSchema = z.object({
   // Logo de la empresa protagonista: sale en la portada (primer segundo y medio). Mejor fijarlo con `url`
   // (Special:FilePath del archivo de Commons, SVG o PNG) para no traer el logo equivocado.
   logo: imagenSchema.optional(),
+  // Portada (JPG para la cuadrícula del perfil). Por defecto: título del gancho sobre la primera foto.
+  // texto admite [[palabra]] resaltada; foto = "escena.imagen" (ej. "1.1"); dato = franja roja debajo.
+  portada: z.object({
+    texto: z.string().max(60).optional(),
+    dato: z.string().max(30).optional(),
+    foto: z.string().regex(/^\d+\.\d+$/).optional(),
+  }).optional(),
   tema: z.string(),
   pregunta_principal: z.string(),
   escenas: z.array(escenaSchema).min(5).max(12),

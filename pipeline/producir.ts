@@ -8,6 +8,7 @@
  *     --rehacer-voz        regenerar la voz aunque haya caché
  *     --narrador=sebas|john
  *     --estilo=tablero|documental|mixto|clasico|motion   (por defecto tablero; ESTILO en el entorno también sirve)
+ *     --solo-portada       solo imágenes + portada (sin voz ni video); SOLO_PORTADA=1 también sirve
  *     --publicar=borrador|programar|no   --hora=19:30
  *
  * Variables de entorno (en local: archivo .env; en GitHub: Secrets):
@@ -21,7 +22,7 @@ import path from "node:path";
 import { randomUUID } from "node:crypto";
 import { execFileSync } from "node:child_process";
 import { bundle } from "@remotion/bundler";
-import { renderMedia, selectComposition } from "@remotion/renderer";
+import { renderMedia, renderStill, selectComposition } from "@remotion/renderer";
 import { guionSchema, type Guion, type Timing, type VideoProps } from "../src/schema";
 import { resolverImagenes } from "./imagenes";
 import { estimarTiming, sinEtiquetas, textoNarracion, timingDesdeAlineacion, type Alineacion } from "../src/timing";
@@ -177,6 +178,16 @@ async function render(props: VideoProps, salida: string, id: "Video" | "Motion" 
   process.stdout.write("\n");
 }
 
+/** Portada JPG (cuadrícula del perfil): mismo guion, composición Portada, un cuadro. */
+async function portada(guion: Guion, salida: string) {
+  const serveUrl = await bundle({ entryPoint: path.join(RAIZ, "src/Root.tsx"), publicDir: PUBLIC });
+  const browserExecutable = process.env.REMOTION_BROWSER || null;
+  const inputProps: VideoProps = { guion, timing: { duracion: 1, escenas: guion.escenas.map(() => ({ inicio: 0, fin: 1 })), palabras: [] }, audio: null, musica: null };
+  const composition = await selectComposition({ serveUrl, id: "Portada", inputProps, browserExecutable });
+  await renderStill({ composition, serveUrl, frame: 0, output: salida, inputProps, browserExecutable, imageFormat: "jpeg", jpegQuality: 90 });
+  console.log(`✓ portada: ${salida}`);
+}
+
 /** Próxima ocurrencia de HH:MM en Bogotá, como fecha local sin zona (Zernio aplica `timezone`). */
 function proximaHora(hhmm: string) {
   const ahora = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Bogota" }));
@@ -255,6 +266,10 @@ async function main() {
     if (guion.escenas.some((e) => !e.imagenes.length)) throw new Error("Ninguna imagen se pudo resolver. Revisa las búsquedas del guion.");
     if (sinImagen.length) console.warn(`  ⚠ sin imagen (se reemplazaron): ${sinImagen.join(", ")}`);
   }
+
+  await mkdir(OUT, { recursive: true });
+  await portada(guion, path.join(OUT, `${guion.id}-portada.jpg`));
+  if (flag("solo-portada") || process.env.SOLO_PORTADA === "1") return;
 
   console.log("→ voz");
   const original = await voz(guion);

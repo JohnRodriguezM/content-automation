@@ -12,9 +12,13 @@ on:
         description: "Guiones separados por espacio (ej. guiones/2026-11-06-netflix-dvd.json). Vacío = los del último commit"
         required: false
       estilo:
-        description: "Estilo visual: tablero (por defecto) o mixto"
+        description: "Estilo visual: tablero (por defecto), documental o mixto"
         required: false
         default: tablero
+      solo_portada:
+        description: "Solo regenerar la portada (sin voz ni video): 1 = sí"
+        required: false
+        default: "0"
 
 jobs:
   listar:
@@ -83,6 +87,7 @@ jobs:
           ELEVENLABS_VOICE_ID_JOHN: ${{ secrets.ELEVENLABS_VOICE_ID_JOHN }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           ESTILO: ${{ inputs.estilo || 'tablero' }}
+          SOLO_PORTADA: ${{ inputs.solo_portada || '0' }}
         run: npx tsx pipeline/producir.ts "${{ matrix.guion }}"
 
       - name: Subir a Google Drive
@@ -96,7 +101,7 @@ jobs:
           fecha=${id:0:10}
           echo "Probando acceso a la carpeta de Drive..."
           rclone lsd drive: -vv 2>&1 | grep -viE "token|bearer" || { echo "::error::rclone no pudo leer la carpeta de Drive (token o DRIVE_FOLDER_ID)"; exit 1; }
-          rclone copy out/ "drive:$fecha/" --include "$id-*.mp4" --include "$id-*.descripcion.txt" -v
+          rclone copy out/ "drive:$fecha/" --include "$id-*.mp4" --include "$id-*.descripcion.txt" --include "$id-portada.jpg" -v
 
       # Respaldo opcional: si se llena la cuota de artefactos de GitHub no debe tumbar el job (el video ya está en Drive)
       - uses: actions/upload-artifact@v5

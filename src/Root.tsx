@@ -5,6 +5,7 @@ import { MotionVideo } from "./Motion";
 import { MixtoVideo } from "./Mixto";
 import { TableroVideo } from "./Tablero";
 import { DocumentalVideo } from "./Documental";
+import { Portada } from "./Portada";
 import { guionSchema, type VideoProps } from "./schema";
 import ejemplo from "../guiones/2026-11-05-kodak-camara-digital.json";
 import { estimarTiming } from "./timing";
@@ -35,6 +36,8 @@ const Root: React.FC = () => {
       <Composition id="Tablero" component={TableroVideo} {...comun} />
       {/* Documental premium: mapas, recortes de prensa, cifras y fotos de archivo con sonido */}
       <Composition id="Documental" component={DocumentalVideo} {...comun} />
+      {/* Portada para la cuadrícula del perfil (un cuadro, se exporta como JPG) */}
+      <Composition id="Portada" component={Portada} {...comun} durationInFrames={1} calculateMetadata={undefined} />
     </>
   );
 };
