@@ -98,12 +98,14 @@ jobs:
           rclone lsd drive: -vv 2>&1 | grep -viE "token|bearer" || { echo "::error::rclone no pudo leer la carpeta de Drive (token o DRIVE_FOLDER_ID)"; exit 1; }
           rclone copy out/ "drive:$fecha/" --include "$id-*.mp4" --include "$id-*.descripcion.txt" -v
 
+      # Respaldo opcional: si se llena la cuota de artefactos de GitHub no debe tumbar el job (el video ya está en Drive)
       - uses: actions/upload-artifact@v5
         if: always()
+        continue-on-error: true
         with:
           name: ${{ hashFiles(matrix.guion) }}
           path: |
             out/*.mp4
             out/*.descripcion.txt
             guiones/*.json
-          retention-days: 7
+          retention-days: 2

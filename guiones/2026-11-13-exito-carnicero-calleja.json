@@ -68,13 +68,13 @@
           "filtro": "ninguno"
         },
         {
-          "busqueda": "1960s supermarket",
+          "busqueda": "butcher shop vintage",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "bn"
         },
         {
-          "busqueda": "Súper Selectos supermarket",
+          "busqueda": "San Salvador city",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -100,7 +100,7 @@
       "rotulo": "Saint-Étienne, Francia",
       "imagenes": [
         {
-          "busqueda": "Géant Casino hypermarket",
+          "busqueda": "Saint-Étienne Place du Peuple",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -180,12 +180,6 @@
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Nayib Bukele",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
         }
       ],
       "motion": [
@@ -210,7 +204,7 @@
           "resaltar": "multiplicó por 10 su utilidad neta"
         }
       ],
-      "orden": "ffpp",
+      "orden": "fpp",
       "destacar": [
         "Bukele",
         "54.000",
@@ -222,7 +216,7 @@
       "narracion": "¿De dónde salió? Según la empresa: más margen, menos gastos y negocios que tú usas, como Tuya, Puntos Colombia y los centros comerciales Viva.",
       "imagenes": [
         {
-          "busqueda": "Viva Envigado centro comercial",
+          "busqueda": "Viva Envigado",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -270,7 +264,7 @@
           "filtro": "ninguno"
         },
         {
-          "busqueda": "Almacenes Éxito Colombia",
+          "busqueda": "supermarket shopping cart aisle",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
