@@ -95,3 +95,19 @@ En el formato mixto, cada escena abre con la foto y luego entra el gráfico sobr
 4. Un solo commit con los 4 guiones + historial, push a `main`. El push dispara el render y la subida a Drive.
 
 Ejemplo completo: `guiones/2026-11-05-kodak-camara-digital.json`.
+
+## Estilo documental (piloto desde el 13-nov)
+
+Se produce con `estilo=documental` (workflow_dispatch). Cada escena alterna fotos y piezas; un cambio de plano cada 1,5-2 s.
+
+Fórmula del guion: **gancho** con el dato que nadie cuenta (cifra concreta de una marca que la gente usa) → **desarrollo** como thriller (quién decidió, qué se jugó, qué salió mal) → **cierre** de bolsillo (cómo le toca a quien lo ve) + pregunta. 45-60 s.
+
+Piezas (`motion`) además de `dato`, `contraste` (barras), `titulo` e `iconos`:
+- `mapa`: `{"tipo":"mapa","puntos":[{"lugar":"medellin","etiqueta":"Medellín · Éxito"}],"ruta":true}`. Lugares válidos en `src/lugares.ts` (agregar ahí los que falten).
+- `recorte`: `{"tipo":"recorte","medio":"Portafolio","fecha":"25 feb 2026","titular":"…","resaltar":"…"}`. **Solo titulares reales, copiados de la fuente**, con medio y fecha. Nunca inventados.
+
+`orden` (por escena): secuencia de `f` (foto) y `p` (pieza), ej. `"pfpp"`. `rotulo`: lugar y fecha a máquina en la esquina.
+
+`portada` (por guion): `{"texto":"¿De quién es el [[Éxito]]?","dato":"Ni colombiano ni francés","foto":"1.1"}`. Se sube a Drive como `<id>-portada.jpg`. Regenerar solo la portada: workflow con `solo_portada=1`.
+
+Balance de pilares (meta 50/30/20): al 12-nov íbamos 60 % negocios, 18 % personas, 22 % tecnología → priorizar **personas detrás de marcas de consumo** (mínimo 1 de cada 3 videos).
