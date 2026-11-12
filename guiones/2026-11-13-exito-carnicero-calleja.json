@@ -72,12 +72,6 @@
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "bn"
-        },
-        {
-          "busqueda": "San Salvador city",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
         }
       ],
       "motion": [
@@ -216,7 +210,7 @@
       "narracion": "¿De dónde salió? Según la empresa: más margen, menos gastos y negocios que tú usas, como Tuya, Puntos Colombia y los centros comerciales Viva.",
       "imagenes": [
         {
-          "busqueda": "Viva Envigado",
+          "busqueda": "shopping mall interior escalator",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
