@@ -1,0 +1,320 @@
+{
+  "id": "2026-11-13-exito-carnicero-calleja",
+  "pilar": "negocios",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Almacenes Éxito logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "tema": "El Éxito pasó de Casino a la familia Calleja de El Salvador y multiplicó su utilidad",
+  "pregunta_principal": "¿Notaste el cambio cuando vas a mercar?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] El Éxito ya no tiene dueño colombiano. Tampoco francés. Es de la familia de un carnicero de El Salvador.",
+      "titulo": "¿De quién es el Éxito?",
+      "imagenes": [
+        {
+          "busqueda": "Éxito Tunal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Super Selectos El Salvador",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "medellin",
+              "etiqueta": "Medellín · Éxito, 1949"
+            },
+            {
+              "lugar": "saint-etienne",
+              "etiqueta": "Francia · Casino"
+            },
+            {
+              "lugar": "san-salvador",
+              "etiqueta": "San Salvador · Calleja"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf",
+      "destacar": [
+        "colombiano",
+        "francés",
+        "carnicero"
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Daniel Calleja trabajaba de carnicero en el primer supermercado del país. Con un préstamo, la familia compró esa tienda. Hoy son más de cien Súper Selectos.",
+      "rotulo": "San Salvador, El Salvador",
+      "imagenes": [
+        {
+          "busqueda": "San Salvador historic center",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "1960s supermarket",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "bn"
+        },
+        {
+          "busqueda": "Súper Selectos supermarket",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "+100",
+          "etiqueta": "tiendas Súper Selectos en El Salvador"
+        }
+      ],
+      "orden": "ffpf",
+      "destacar": [
+        "carnicero",
+        "préstamo",
+        "cien"
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "[tense] En 2023, en Francia, Casino, el dueño del Éxito, debía unos 6.400 millones de dólares. Su jefe terminó perdiendo el control.",
+      "rotulo": "Saint-Étienne, Francia",
+      "imagenes": [
+        {
+          "busqueda": "Géant Casino hypermarket",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Jean-Charles Naouri",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$6.400M",
+          "etiqueta": "deuda de Grupo Casino"
+        }
+      ],
+      "orden": "fpf",
+      "destacar": [
+        "6.400",
+        "control"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Tenía que vender. Jaime Gilinski ofreció 89 centavos de dólar por acción. Los Calleja, 90, y por todas las acciones. Se quedaron con casi el 87 por ciento.",
+      "imagenes": [
+        {
+          "busqueda": "Jaime Gilinski",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "Bloomberg Línea",
+          "fecha": "16 oct 2023",
+          "titular": "Casino venderá su participación en la red colombiana Éxito por US$556 millones",
+          "resaltar": "por US$556 millones"
+        },
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "US$0,89",
+            "texto": "Gilinski, por acción",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "US$0,90",
+            "texto": "Calleja, por acción",
+            "icono": "dinero"
+          }
+        },
+        {
+          "tipo": "dato",
+          "valor": "86,84 %",
+          "etiqueta": "del Grupo Éxito, para los Calleja"
+        }
+      ],
+      "orden": "pfpp",
+      "destacar": [
+        "89",
+        "90",
+        "87"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Carlos Calleja, el que perdió las elecciones contra Bukele, tomó el mando. En 2024 el Éxito ganó 54.000 millones de pesos. En 2025, 592.000 millones.",
+      "rotulo": "Envigado, Antioquia",
+      "imagenes": [
+        {
+          "busqueda": "Carlos Calleja",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Nayib Bukele",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$54.786M",
+            "texto": "utilidad 2024",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "$592.108M",
+            "texto": "utilidad 2025",
+            "icono": "dinero"
+          }
+        },
+        {
+          "tipo": "recorte",
+          "medio": "Portafolio",
+          "fecha": "25 feb 2026",
+          "titular": "Grupo Éxito alcanzó ingresos por $22 billones en 2025 y multiplicó por 10 su utilidad neta",
+          "resaltar": "multiplicó por 10 su utilidad neta"
+        }
+      ],
+      "orden": "ffpp",
+      "destacar": [
+        "Bukele",
+        "54.000",
+        "592.000"
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "¿De dónde salió? Según la empresa: más margen, menos gastos y negocios que tú usas, como Tuya, Puntos Colombia y los centros comerciales Viva.",
+      "imagenes": [
+        {
+          "busqueda": "Viva Envigado centro comercial",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿De dónde [[salió]]?"
+        },
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "dinero",
+              "texto": "Más margen"
+            },
+            {
+              "icono": "grafica_baja",
+              "texto": "Menos gastos"
+            },
+            {
+              "icono": "celular",
+              "texto": "Tuya · Puntos · Viva"
+            }
+          ]
+        }
+      ],
+      "orden": "ppf",
+      "destacar": [
+        "margen",
+        "gastos",
+        "Tuya",
+        "Viva"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Notaste el cambio cuando vas a mercar? Te leo en los comentarios.",
+      "imagenes": [
+        {
+          "busqueda": "Carulla supermercado Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Almacenes Éxito Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mercar"
+      ]
+    }
+  ],
+  "caption": "El Éxito nació en Medellín en 1949, pasó a manos del grupo francés Casino y hoy es de la familia Calleja, dueña de Súper Selectos en El Salvador. Casino, ahogado en deudas, vendió en 2023. Jaime Gilinski ofreció US$0,89 por acción; los Calleja, US$0,90 y por el 100 %. Se quedaron con el 86,84 %. En 2025 la utilidad del Éxito pasó de $54.786 millones a $592.108 millones.\n\n¿Notaste el cambio cuando vas a mercar?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#GrupoÉxito",
+    "#Calleja",
+    "#Negocios",
+    "#Colombia",
+    "#Supermercados",
+    "#Empresas",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Casino vende su parte del Éxito por US$556 millones; su plan de reestructuración le quita el control a Jean-Charles Naouri",
+      "url": "https://www.bloomberglinea.com/2023/10/16/casino-vendera-su-participacion-en-la-red-colombiana-exito-por-us556-millones/"
+    },
+    {
+      "afirmacion": "Gilinski ofreció US$0,89 por acción (por el 51 %); Calleja US$0,90 por el 100 %; deuda de Casino ~US$6.400 millones al cierre del año anterior",
+      "url": "https://www.elcolombiano.com/negocios/el-exito-tiene-comprador-y-no-es-jaime-gilinski-IB22679562"
+    },
+    {
+      "afirmacion": "Calleja queda con el 86,84 % de Grupo Éxito; precio final US$0,9053 por acción",
+      "url": "https://www.valoraanalitik.com/?p=352155"
+    },
+    {
+      "afirmacion": "Daniel Calleja, carnicero en el primer supermercado de El Salvador, compró la tienda con un préstamo; Súper Selectos tiene más de 100 tiendas; Carlos Calleja perdió en 2019 contra Bukele",
+      "url": "https://www.valoraanalitik.com/carlos-calleja-historia-de-exito-de-el-salvador/"
+    },
+    {
+      "afirmacion": "Utilidad neta 2024: $54.786 millones",
+      "url": "https://www.portafolio.co/negocios/empresas/grupo-exito-cerro-2024-con-ingresos-consolidados-de-21-9-billones-creciendo-un-6-624724"
+    },
+    {
+      "afirmacion": "Utilidad neta 2025: $592.108 millones; la explican estrategia comercial, mayor margen, menos gastos y negocios como Viva, Tuya y Puntos Colombia",
+      "url": "https://www.portafolio.co/negocios/comercio/grupo-exito-alcanzo-ingresos-por-22-billones-en-2025-y-multiplico-por-10-su-utilidad-neta-488992"
+    }
+  ]
+}

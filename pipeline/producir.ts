@@ -7,7 +7,7 @@
  *     --rehacer-imagenes   volver a buscar todas las imágenes
  *     --rehacer-voz        regenerar la voz aunque haya caché
  *     --narrador=sebas|john
- *     --estilo=tablero|mixto|documental|motion   (por defecto tablero; ESTILO en el entorno también sirve)
+ *     --estilo=tablero|documental|mixto|clasico|motion   (por defecto tablero; ESTILO en el entorno también sirve)
  *     --publicar=borrador|programar|no   --hora=19:30
  *
  * Variables de entorno (en local: archivo .env; en GitHub: Secrets):
@@ -165,12 +165,12 @@ function acelerar(audio: string | null, timing: Timing): { audio: string | null;
   };
 }
 
-async function render(props: VideoProps, salida: string, id: "Video" | "Motion" | "Mixto" | "Tablero") {
+async function render(props: VideoProps, salida: string, id: "Video" | "Motion" | "Mixto" | "Tablero" | "Documental") {
   const serveUrl = await bundle({ entryPoint: path.join(RAIZ, "src/Root.tsx"), publicDir: PUBLIC });
   const browserExecutable = process.env.REMOTION_BROWSER || null;
   const composition = await selectComposition({ serveUrl, id, inputProps: props, browserExecutable });
   await renderMedia({
-    composition, serveUrl, codec: "h264", crf: id === "Tablero" ? 24 : 20, outputLocation: salida, inputProps: props,
+    composition, serveUrl, codec: "h264", crf: id === "Tablero" || id === "Documental" ? 24 : 20, outputLocation: salida, inputProps: props,
     browserExecutable, audioBitrate: "192k",
     onProgress: ({ progress }) => process.stdout.write(`\rRender ${Math.round(progress * 100)}%`),
   });
@@ -234,7 +234,7 @@ async function main() {
   const guion = guionSchema.parse(JSON.parse(await readFile(ruta, "utf8")));
   await mkdir(OUT, { recursive: true });
 
-  const estilo = (flag("estilo") ?? process.env.ESTILO ?? "tablero") as "mixto" | "documental" | "motion" | "tablero";
+  const estilo = (flag("estilo") ?? process.env.ESTILO ?? "tablero") as "mixto" | "documental" | "clasico" | "motion" | "tablero";
   if (estilo !== "motion" && !flag("sin-imagenes")) {
     console.log(`→ ${guion.id}: imágenes`);
     const guardar = () => writeFile(ruta, JSON.stringify(guion, null, 2) + "\n");
@@ -267,8 +267,14 @@ async function main() {
   const sufijo = flag("sin-voz") ? "sin-voz" : narradorDe(guion);
   const video = path.join(OUT, `${guion.id}-${sufijo}-${estilo}.mp4`);
   await writeFile(path.join(OUT, `${guion.id}-${sufijo}.descripcion.txt`), descripcion(guion) + "\n");
-  const musica = (await existe(path.join(PUBLIC, "musica.mp3"))) ? "musica.mp3" : null;
-  await render({ guion, timing, audio, musica }, video, { mixto: "Mixto", documental: "Video", motion: "Motion", tablero: "Tablero" }[estilo] as "Mixto" | "Video" | "Motion" | "Tablero");
+  // El estilo documental trae su propia música de tensión y efectos (public/sonidos/, ver pipeline/sonidos.ts)
+  const doc = estilo === "documental";
+  const musicaDoc = doc && (await existe(path.join(PUBLIC, "sonidos", "musica-tension.mp3"))) ? "sonidos/musica-tension.mp3" : null;
+  const musica = musicaDoc ?? ((await existe(path.join(PUBLIC, "musica.mp3"))) ? "musica.mp3" : null);
+  const efectos = doc && (await existe(path.join(PUBLIC, "sonidos", "whoosh.mp3")));
+  if (doc) console.log(`  música: ${musica ?? "ninguna"} · efectos: ${efectos ? "sí" : "no"}`);
+  const comp = ({ mixto: "Mixto", documental: "Documental", clasico: "Video", motion: "Motion", tablero: "Tablero" } as const)[estilo];
+  await render({ guion, timing, audio, musica, efectos }, video, comp);
 
   const modo = (flag("publicar") ?? "no") as "borrador" | "programar" | "no";
   if (modo !== "no") {

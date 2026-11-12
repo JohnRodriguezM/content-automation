@@ -35,6 +35,20 @@ export const motionSchema = z.discriminatedUnion("tipo", [
     antes: z.object({ valor: z.string().max(10), texto: z.string().max(40), icono: iconoSchema }),
     despues: z.object({ valor: z.string().max(10), texto: z.string().max(40), icono: iconoSchema }),
   }),
+  // Estilo documental: mapa con puntos (claves de src/lugares.ts) y una ruta animada entre ellos
+  z.object({
+    tipo: z.literal("mapa"),
+    puntos: z.array(z.object({ lugar: z.string(), etiqueta: z.string().max(32) })).min(1).max(4),
+    ruta: z.boolean().default(true),
+  }),
+  // Estilo documental: recorte de prensa con un titular REAL (verificado), medio y fecha
+  z.object({
+    tipo: z.literal("recorte"),
+    medio: z.string().max(40),
+    fecha: z.string().max(24),
+    titular: z.string().max(150),
+    resaltar: z.string().max(80).optional(),
+  }),
 ]);
 
 export const escenaSchema = z.object({
@@ -50,6 +64,9 @@ export const escenaSchema = z.object({
   rotulo: z.string().max(40).optional(),
   // Versión motion: 1-3 visuales que se reparten la escena
   motion: z.array(motionSchema).min(1).max(3).optional(),
+  // Estilo documental: orden de los planos, "f" = siguiente foto, "p" = siguiente pieza (ej. "pfpf").
+  // Si falta, se intercalan foto, pieza, foto… Lo que sobre se agrega al final.
+  orden: z.string().regex(/^[fp]+$/).optional(),
 });
 
 export const guionSchema = z.object({
@@ -83,4 +100,5 @@ export type Timing = {
   palabras: Palabra[];
 };
 
-export type VideoProps = { guion: Guion; timing: Timing; audio: string | null; musica: string | null };
+// efectos: hay librería de sonidos en public/sonidos/ (estilo documental)
+export type VideoProps = { guion: Guion; timing: Timing; audio: string | null; musica: string | null; efectos?: boolean };
