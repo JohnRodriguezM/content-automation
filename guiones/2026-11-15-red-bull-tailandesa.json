@@ -2,12 +2,6 @@
   "id": "2026-11-15-red-bull-tailandesa",
   "pilar": "negocios",
   "narrador": "john",
-  "logo": {
-    "busqueda": "Red Bull logo",
-    "fuente": "commons",
-    "modo": "relleno",
-    "filtro": "ninguno"
-  },
   "portada": {
     "texto": "Red Bull es [[51 % tailandesa]]",
     "dato": "El 2 % que lo cambió todo",
@@ -27,7 +21,7 @@
           "filtro": "ninguno"
         },
         {
-          "busqueda": "Krating Daeng",
+          "busqueda": "Red Bull Ring",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -61,13 +55,13 @@
       "narracion": "En 1982, el austriaco Dietrich Mateschitz viajó a Tailandia y probó Krating Daeng, una bebida energética local. Le quitó el cansancio del vuelo.",
       "imagenes": [
         {
-          "busqueda": "Bangkok 1980s",
+          "busqueda": "Bangkok Grand Palace",
           "fuente": "commons",
           "modo": "relleno",
-          "filtro": "sepia"
+          "filtro": "ninguno"
         },
         {
-          "busqueda": "Dietrich Mateschitz",
+          "busqueda": "Hangar-7 Salzburg",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -92,7 +86,7 @@
       "narracion": "Le propuso a su creador, Chaleo Yoovidhya, montar una empresa juntos. Se repartieron 49 y 49 por ciento. El 2 restante quedó en manos del hijo de Chaleo.",
       "imagenes": [
         {
-          "busqueda": "Chaleo Yoovidhya",
+          "busqueda": "Bangkok skyline",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -130,7 +124,7 @@
           "filtro": "ninguno"
         },
         {
-          "busqueda": "Red Bull cans shelf",
+          "busqueda": "Red Bull Racing car",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -185,7 +179,7 @@
       "narracion": "Mándaselo al amigo que vive pegado a un Red Bull.",
       "imagenes": [
         {
-          "busqueda": "Red Bull energy drink",
+          "busqueda": "Red Bull Ring Spielberg",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"

@@ -21,13 +21,13 @@
       "narracion": "[serious] Totto suena a marca italiana. Es colombiana. Y nació de una fábrica en quiebra.",
       "imagenes": [
         {
-          "busqueda": "Totto store",
+          "busqueda": "backpack",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
         },
         {
-          "busqueda": "Totto backpack",
+          "busqueda": "rucksack",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -58,7 +58,7 @@
           "filtro": "bn"
         },
         {
-          "busqueda": "Bogotá 1980s",
+          "busqueda": "leather workshop",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "bn"
@@ -83,7 +83,7 @@
       "narracion": "En una feria en Milán vio morrales de lona de colores vivos. Se trajo la idea y le puso un nombre inspirado en la banda Toto, fácil de decir en cualquier idioma.",
       "imagenes": [
         {
-          "busqueda": "colorful canvas backpacks",
+          "busqueda": "Fiera Milano",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -116,7 +116,7 @@
       "narracion": "Pero nadie conocía a Totto. Así que en 1989 consiguió la licencia de Disney: la gente pedía a Mickey y se llevaba la marca.",
       "imagenes": [
         {
-          "busqueda": "school backpacks children",
+          "busqueda": "Disney Store",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -139,7 +139,7 @@
       "narracion": "Hoy está en 45 países, con 520 tiendas. En 2025 vendió más de 827.000 millones de pesos, y el 40 por ciento fuera de Colombia.",
       "imagenes": [
         {
-          "busqueda": "Totto shop mall",
+          "busqueda": "Centro Comercial Andino",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -187,7 +187,7 @@
       "narracion": "¿Y el negocio de verdad? Tu morral del colegio. Uno de cada cuatro pesos que vende Totto sale de ahí.",
       "imagenes": [
         {
-          "busqueda": "students with backpacks",
+          "busqueda": "school supplies",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
