@@ -160,7 +160,7 @@
         {
           "busqueda": "Edinburgh Old Town",
           "fuente": "commons",
-          "modo": "relleno",
+          "modo": "completa",
           "filtro": "ninguno"
         },
         {
