@@ -7,7 +7,7 @@ import {
   AbsoluteFill, Audio, Easing, Img, Sequence, interpolate, random, staticFile,
   useCurrentFrame, useVideoConfig,
 } from "remotion";
-import { geoGraticule10, geoInterpolate, geoMercator, geoPath } from "d3-geo";
+import { geoCentroid, geoGraticule10, geoInterpolate, geoMercator, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import type { Feature, FeatureCollection } from "geojson";
 import mundo from "world-atlas/countries-50m.json";
@@ -117,7 +117,8 @@ const Mapa: React.FC<{ v: PiezaMapa; dur: number; efectos?: boolean }> = ({ v, d
     if (coords.length === 1) proj.center(coords[0]).scale(2400).translate([W / 2, 800]);
     else {
       proj.fitExtent([[190, 520], [890, 1120]], { type: "MultiPoint", coordinates: coords });
-      if (proj.scale() > 5200) proj.scale(5200).center(proj.invert!([W / 2, 820]) as [number, number]).translate([W / 2, 820]);
+      // Puntos muy cercanos (Dundee-Edimburgo): tope de zoom, centrado en el punto medio de la ruta
+      if (proj.scale() > 5200) proj.scale(5200).center(geoCentroid({ type: "MultiPoint", coordinates: coords })).translate([W / 2, 820]);
     }
     const camino = geoPath(proj);
     const resaltados = new Set(puntos.map((p) => p.c[2]));
@@ -346,7 +347,9 @@ type Plano = { tipo: "foto"; img: Imagen; i: number } | { tipo: "pieza"; v: Moti
 const planos = (e: Escena): Plano[] => {
   const fotos = e.imagenes.map((img, i) => ({ tipo: "foto" as const, img, i }));
   const piezas = e.motion ?? [];
-  const orden = e.orden ?? Array.from({ length: Math.max(fotos.length, piezas.length) }, () => "fp").join("");
+  const base = e.orden ?? Array.from({ length: Math.max(fotos.length, piezas.length) }, () => "fp").join("");
+  // Con título (gancho): primero las fotos, para que el titular en cajas no quede encima de una pieza gráfica
+  const orden = e.titulo ? [...base].sort((a, b) => (a === "f" ? 0 : 1) - (b === "f" ? 0 : 1)).join("") : base;
   const out: Plano[] = [];
   let nf = 0, np = 0;
   // La pieza usa de fondo la última foto mostrada (o la siguiente, si va primero)

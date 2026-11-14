@@ -37,11 +37,11 @@ Un buen tema tiene: una **decisión concreta** de una persona o empresa real, un
 ## Estructura y longitud
 
 - Escenas en orden: gancho → contexto → decisión → consecuencia → aprendizaje → cierre (puede haber 2 escenas del mismo bloque seguidas).
-- **130 a 170 palabras** de narración (≈45-55 s con la voz acelerada x1.12). `npm run validar` lo revisa.
+- **130 a 200 palabras** de narración (≈50-80 s). **Tope duro: 1:30 con la tarjeta final** → máximo 210 palabras; `npm run validar` lo revisa y el render avisa si pasa de 90 s.
 - **Narración dinámica:** frases cortas (idealmente ≤12 palabras), un dato concreto por escena (cifra, fecha, nombre), nada de relleno. Cada frase debe aportar información nueva para que la gente siga pendiente.
 - **Gancho:** la primera frase tiene máximo 10 palabras, con un número o un contraste concreto, y deja una pregunta abierta. Nada de arrancar con contexto ("Una empresa peruana acaba de..."). Ej.: "Vendió 45% más. Y la bolsa lo castigó."
 - **Título del gancho:** sale arriba de la foto en el arranque, debajo del logo: 2-5 palabras, idealmente con el número ("De $140 a $9", "1.000 tiendas por $53M"). Obligatorio.
-- **Cierre (corto, ≈3 s, máx. 15 palabras): UNA sola llamada, nunca dos.** O una **pregunta con bando** que se contesta en una palabra y divide opiniones ("¿Tú le habrías vendido a Gilinski o a los Calleja?", "¿Equipo Adidas o equipo Puma?"), o un **envío dirigido** a una persona concreta ("Mándaselo a quien todavía cree que Totto es italiana"). Los envíos por DM son la señal que más alcance da. Prohibido "Te leo en los comentarios" (relleno) y "comenta SÍ si…" (cebo de interacción, lo castigan). Nada de "síguenos" en la voz: el `caption` termina con la pregunta y la línea "Síguenos: cada día contamos una decisión que cambió una empresa." Sin @ ni tarjeta final por ahora.
+- **Cierre (corto, ≈3 s, máx. 15 palabras): UNA sola llamada, nunca dos.** O una **pregunta con bando** que se contesta en una palabra y divide opiniones ("¿Tú le habrías vendido a Gilinski o a los Calleja?", "¿Equipo Adidas o equipo Puma?"), o un **envío dirigido** a una persona concreta ("Mándaselo a quien todavía cree que Totto es italiana"). Los envíos por DM son la señal que más alcance da. Prohibido "Te leo en los comentarios" (relleno) y "comenta SÍ si…" (cebo de interacción, lo castigan). Nada de "síguenos" en la voz: el `caption` termina con la pregunta y la línea "Síguenos: cada día contamos una decisión que cambió una empresa." La tarjeta final (foto + @ del narrador) la pone el render solo si existe `public/marca/<narrador>.jpg`.
 - **No uses frases fijas.** Prohibido "La lección es esta". Varía cómo llegas a la lección: una pregunta ("¿Qué falló?"), un contraste ("No fue el producto. Fue el precio."), una regla corta ("Volumen sin margen es frágil."). Varía también el arranque de cada bloque entre videos.
 
 ## Etiquetas de voz (expresividad)
@@ -83,7 +83,7 @@ En el formato mixto, cada escena abre con la foto y luego entra el gráfico sobr
 
 ## Texto para publicar
 
-- `caption`: ≤1.800 caracteres. Empieza con el gancho reformulado, 2-4 líneas con la idea, termina con la pregunta del cierre. El pipeline agrega solo el crédito de fotos y los hashtags.
+- `caption`: ≤1.800 caracteres. **Mini-artículo** (estilo documental): 3-5 párrafos cortos con las cifras, fechas y citas del video, cada dato con su fuente ("según Forbes"), una línea final `Fuentes: medio (fecha), …` y termina con la pregunta del cierre. Si es una serie, primera línea "Parte N de M · …". El pipeline agrega solo el crédito de fotos y los hashtags.
 - `hashtags`: 5-8, mezcla de amplios (#negocios #emprendimiento) y específicos del tema.
 - `destacar`: 1-3 palabras por escena que salen en serif dorada en los subtítulos (números, la palabra clave).
 
@@ -111,3 +111,18 @@ Piezas (`motion`) además de `dato`, `contraste` (barras), `titulo` e `iconos`:
 `portada` (por guion): `{"texto":"¿De quién es el [[Éxito]]?","dato":"Ni colombiano ni francés","foto":"1.1"}`. Se sube a Drive como `<id>-portada.jpg`. Regenerar solo la portada: workflow con `solo_portada=1`.
 
 Balance de pilares (meta 50/30/20): al 12-nov íbamos 60 % negocios, 18 % personas, 22 % tecnología → priorizar **personas detrás de marcas de consumo** (mínimo 1 de cada 3 videos).
+
+### Estilo documental v2 (desde el 14-nov, inspirado en @didier.sotto)
+
+Campos nuevos (todos opcionales, el validador y el esquema los conocen):
+- **`contador`** (solo gancho): `{"valor":"2.850","etiqueta":"tiendas en Colombia"}`. Barra arriba con el logo y la cifra contando. Una cifra que deje la pregunta abierta.
+- **`titulo`** del gancho admite `[[palabra]]`: va en caja amarilla en su propia línea (ej. `"GTA nació de [[un despido]]"`). Mientras está el título, el gancho muestra solo fotos (las piezas van después). No repitas el título en una pieza `titulo` del gancho.
+- **`segun`** (escena): chip de fuente al arrancar la escena (`"según Forbes"`). **Y dilo en la voz**: "Según Forbes, …". Una o dos veces por video, en los datos más fuertes.
+- **`fecha`** (escena): punto en la línea de tiempo que avanza por el video (`"1987"`, `"OCT. 2016"`). Úsala cuando la historia salta en el tiempo; mínimo 2 fechas por video o ninguna.
+- **`cita`** (pieza): `{"tipo":"cita","texto":"…","autor":"David Jones, a The Courier"}`. **Solo citas reales copiadas de la fuente** (traducidas fielmente si están en inglés), con quién y dónde. La narración la lee completa.
+- **`persona`** (en una imagen): `{"nombre":"Strauss Zelnick","cargo":"CEO de Take-Two"}`. Rótulo con nombre y cargo cuando la foto es de esa persona.
+
+Antes de elegir tema: revisar el perfil de Didier Sotto (TikTok/Instagram) para no repetir sus historias recientes, o contarlas desde otro ángulo.
+
+Fotos: antes de subir, conviene probar las búsquedas contra Commons (misma API que `pipeline/imagenes.ts`) y cambiar las que devuelvan algo raro. Nunca capturas ni arte de videojuegos, películas o series.
+

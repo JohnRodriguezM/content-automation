@@ -295,7 +295,8 @@ async function main() {
   const perfil = conPerfil ? fotoPerfil : null;
   const usuario = conPerfil ? PERFILES[guion.narrador!] : null;
   if (doc) console.log(`  tarjeta final: ${conPerfil ? usuario : "no (falta public/" + fotoPerfil + ")"}`);
-  if (timing.duracion > 90) console.log(`  ⚠ dura ${timing.duracion.toFixed(1)} s: pasa de 1:30`);
+  const total = timing.duracion + (perfil ? 2.8 : 0.6); // mismo cálculo que src/Root.tsx
+  if (total > 90) console.log(`  ⚠ dura ${total.toFixed(1)} s con la tarjeta final: pasa de 1:30`);
   const comp = ({ mixto: "Mixto", documental: "Documental", clasico: "Video", motion: "Motion", tablero: "Tablero" } as const)[estilo];
   await render({ guion, timing, audio, musica, efectos, perfil, usuario }, video, comp);
 
