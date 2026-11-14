@@ -5,7 +5,7 @@
   "portada": {
     "texto": "La mitad de los [[Bon Bon Bum]] se va del país",
     "dato": "170 millones al mes",
-    "foto": "1.1"
+    "foto": "6.1"
   },
   "tema": "Cada mes se hacen 170 millones de Bon Bon Bum en La Paila y Guatemala, y la mitad se exporta a unos 90 países",
   "pregunta_principal": "¿Lo muerdes o lo dejas hasta llegar al chicle?",
@@ -14,12 +14,6 @@
       "bloque": "gancho",
       "narracion": "[serious] Cada mes se hacen 170 millones de Bon Bon Bum. La mitad se va del país.",
       "imagenes": [
-        {
-          "busqueda": "lollipop candy",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
         {
           "busqueda": "hard candy",
           "fuente": "commons",
