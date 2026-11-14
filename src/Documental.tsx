@@ -591,6 +591,8 @@ const agrupar = (palabras: Palabra[]) => {
   return grupos;
 };
 
+const VACIAS = new Set("de del la las el los lo en y e o u a al un una unos unas por con que se su sus es le mi tu no".split(" "));
+
 /** En cada grupo una palabra manda: la marcada en `destacar` o, si no hay, la más larga. */
 const clave = (g: Palabra[], destacar: Set<string>) => {
   const i = g.findIndex((p) => destacar.has(norm(p.texto)));
@@ -633,7 +635,8 @@ const Subs: React.FC<{ palabras: Palabra[]; destacar: Set<string>; desde: number
 export const DocumentalVideo: React.FC<VideoProps> = ({ guion, timing, audio, musica, efectos, perfil, usuario }) => {
   const { fps, durationInFrames } = useVideoConfig();
   const destacar = React.useMemo(
-    () => new Set(guion.escenas.flatMap((e) => e.destacar.flatMap((d) => d.split(/\s+/).map(norm)))),
+    // "19 de noviembre" → "19", "noviembre": sin artículos ni preposiciones, que si no salen grandes en todo el video
+    () => new Set(guion.escenas.flatMap((e) => e.destacar.flatMap((d) => d.split(/\s+/).map(norm))).filter((w) => /[\p{L}\d]/u.test(w) && !VACIAS.has(w))),
     [guion],
   );
   const rango = (i: number) => {
