@@ -1,0 +1,240 @@
+{
+  "id": "2026-11-18-avianca-alemanes",
+  "pilar": "negocios",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Avianca logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "Avianca nació [[alemana]]",
+    "dato": "Y EE. UU. la desalemanizó",
+    "foto": "1.1"
+  },
+  "tema": "Avianca nació como SCADTA, una aerolínea con pilotos alemanes, y Estados Unidos presionó para sacarlos en 1940",
+  "pregunta_principal": "Mándaselo a alguien que siempre vuela en Avianca.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Avianca nació alemana. Y Estados Unidos presionó hasta sacar a los alemanes.",
+      "imagenes": [
+        {
+          "busqueda": "Avianca aircraft",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "SCADTA",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "bn"
+        }
+      ],
+      "destacar": [
+        "alemana",
+        "Estados Unidos"
+      ],
+      "titulo": "Avianca nació alemana",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "berlin",
+              "etiqueta": "Alemania · pilotos"
+            },
+            {
+              "lugar": "barranquilla",
+              "etiqueta": "Barranquilla · 1919"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 1919, en Barranquilla, colombianos y alemanes fundaron SCADTA, una de las primeras aerolíneas de América.",
+      "imagenes": [
+        {
+          "busqueda": "SCADTA Junkers",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "bn"
+        },
+        {
+          "busqueda": "Barranquilla Magdalena river",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "1919",
+        "SCADTA"
+      ],
+      "rotulo": "Barranquilla, 1919",
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "Vanguardia",
+          "fecha": "30 jun 2025",
+          "titular": "Los alemanes que fundaron Avianca",
+          "resaltar": "alemanes"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Sus pilotos eran alemanes. Y su gran accionista, Peter Paul von Bauer, metió la mitad de sus acciones en un pacto secreto con Pan American.",
+      "imagenes": [
+        {
+          "busqueda": "Pan American Airways 1930s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "bn"
+        }
+      ],
+      "destacar": [
+        "secreto",
+        "Pan American"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Un pacto [[secreto]] con Pan Am"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En plena guerra, Washington temía que esos pilotos atacaran el Canal de Panamá. En 1940 presionó al gobierno, y los alemanes tuvieron que salir.",
+      "imagenes": [
+        {
+          "busqueda": "Panama Canal 1940",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "bn"
+        }
+      ],
+      "destacar": [
+        "Canal",
+        "1940"
+      ],
+      "rotulo": "1940",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "barranquilla",
+              "etiqueta": "Barranquilla"
+            },
+            {
+              "lugar": "canal-de-panama",
+              "etiqueta": "Canal de Panamá"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "SCADTA se fusionó con SACO y nació Avianca. Según el historiador Alberto Donadío, el Departamento de Guerra le pagó a Pan American casi un millón de dólares por desalemanizarla.",
+      "imagenes": [
+        {
+          "busqueda": "Avianca DC-3",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "bn"
+        }
+      ],
+      "destacar": [
+        "Avianca",
+        "millón"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$1M",
+          "etiqueta": "para 'desalemanizar' Avianca, según Donadío"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "En 1944, Pan American tenía el 64 por ciento de Avianca. El gobierno colombiano, apenas el 6.",
+      "imagenes": [
+        {
+          "busqueda": "Avianca Bogotá El Dorado",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "64",
+        "6"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "6 %",
+            "texto": "gobierno colombiano",
+            "icono": "documentos"
+          },
+          "despues": {
+            "valor": "64 %",
+            "texto": "Pan American",
+            "icono": "documentos"
+          }
+        }
+      ],
+      "orden": "pf"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mándaselo a alguien que siempre vuela en Avianca.",
+      "imagenes": [
+        {
+          "busqueda": "Avianca Airbus A320",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Avianca"
+      ]
+    }
+  ],
+  "caption": "Avianca nació como SCADTA, fundada en Barranquilla en 1919 por colombianos y alemanes. Sus pilotos eran alemanes y su principal accionista hizo un pacto secreto con Pan American. En la Segunda Guerra Mundial, Washington temía por el Canal de Panamá y presionó para sacar al personal alemán. En 1940 nació Avianca y, en 1944, Pan American tenía el 64 % y el gobierno colombiano el 6 %.\n\nMándaselo a alguien que siempre vuela en Avianca.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Avianca",
+    "#Colombia",
+    "#Historia",
+    "#Aviación",
+    "#Negocios",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "SCADTA fundada el 5 de diciembre de 1919 en Barranquilla; pacto secreto de Von Bauer con Pan American; salida del personal alemán en 1940; fusión con SACO; en 1944 Pan Am 64 % y gobierno 6 %; el Departamento de Guerra habría pagado casi un millón de dólares",
+      "url": "https://www.vanguardia.com/colombia/2025/06/29/los-alemanes-que-fundaron-avianca/"
+    },
+    {
+      "afirmacion": "El embajador Braden temía que los pilotos de SCADTA atacaran el Canal de Panamá; el gobierno aceptó retirar a los alemanes; Avianca nació en 1940",
+      "url": "https://www.semana.com/nacion/articulo/de-la-scadta-a-avianca-los-alemanes-nazi-y-las-alas-de-la-aviacion-colombiana/202100/"
+    }
+  ]
+}

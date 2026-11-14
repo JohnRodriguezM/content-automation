@@ -41,7 +41,7 @@ Un buen tema tiene: una **decisión concreta** de una persona o empresa real, un
 - **Narración dinámica:** frases cortas (idealmente ≤12 palabras), un dato concreto por escena (cifra, fecha, nombre), nada de relleno. Cada frase debe aportar información nueva para que la gente siga pendiente.
 - **Gancho:** la primera frase tiene máximo 10 palabras, con un número o un contraste concreto, y deja una pregunta abierta. Nada de arrancar con contexto ("Una empresa peruana acaba de..."). Ej.: "Vendió 45% más. Y la bolsa lo castigó."
 - **Título del gancho:** sale arriba de la foto en el arranque, debajo del logo: 2-5 palabras, idealmente con el número ("De $140 a $9", "1.000 tiendas por $53M"). Obligatorio.
-- **Cierre (corto, ≈3 s):** solo la pregunta sobre la decisión + "Te leo en los comentarios." (máx. 15 palabras). Nada de "síguenos" en la voz: el `caption` termina con la pregunta y la línea "Síguenos: cada día contamos una decisión que cambió una empresa." Sin @ ni tarjeta final por ahora.
+- **Cierre (corto, ≈3 s, máx. 15 palabras): UNA sola llamada, nunca dos.** O una **pregunta con bando** que se contesta en una palabra y divide opiniones ("¿Tú le habrías vendido a Gilinski o a los Calleja?", "¿Equipo Adidas o equipo Puma?"), o un **envío dirigido** a una persona concreta ("Mándaselo a quien todavía cree que Totto es italiana"). Los envíos por DM son la señal que más alcance da. Prohibido "Te leo en los comentarios" (relleno) y "comenta SÍ si…" (cebo de interacción, lo castigan). Nada de "síguenos" en la voz: el `caption` termina con la pregunta y la línea "Síguenos: cada día contamos una decisión que cambió una empresa." Sin @ ni tarjeta final por ahora.
 - **No uses frases fijas.** Prohibido "La lección es esta". Varía cómo llegas a la lección: una pregunta ("¿Qué falló?"), un contraste ("No fue el producto. Fue el precio."), una regla corta ("Volumen sin margen es frágil."). Varía también el arranque de cada bloque entre videos.
 
 ## Etiquetas de voz (expresividad)
@@ -98,7 +98,7 @@ Ejemplo completo: `guiones/2026-11-05-kodak-camara-digital.json`.
 
 ## Estilo documental (piloto desde el 13-nov)
 
-Se produce con `estilo=documental` (workflow_dispatch). Cada escena alterna fotos y piezas; un cambio de plano cada 1,5-2 s.
+Es el estilo por defecto desde el 14-nov (push o workflow_dispatch). Cada escena alterna fotos y piezas; un cambio de plano cada 1,5-2 s.
 
 Fórmula del guion: **gancho** con el dato que nadie cuenta (cifra concreta de una marca que la gente usa) → **desarrollo** como thriller (quién decidió, qué se jugó, qué salió mal) → **cierre** de bolsillo (cómo le toca a quien lo ve) + pregunta. 45-60 s.
 

@@ -1,0 +1,238 @@
+{
+  "id": "2026-11-21-nike-logo-35-dolares",
+  "pilar": "biografias",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Logo NIKE",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "Un logo de [[35 dólares]]",
+    "dato": "Hoy vende US$46.300 millones",
+    "foto": "1.1"
+  },
+  "tema": "El logo de Nike costó 35 dólares: lo diseñó la estudiante Carolyn Davidson en 1971",
+  "pregunta_principal": "Mándaselo al diseñador que siempre cobra muy barato.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] El logo de Nike costó 35 dólares.",
+      "imagenes": [
+        {
+          "busqueda": "Nike swoosh logo store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Nike shoes",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "35"
+      ],
+      "titulo": "Un logo de US$35",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$35",
+          "etiqueta": "costó el logo de Nike"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 1971, Phil Knight vendía zapatillas japonesas Onitsuka con su empresa, Blue Ribbon Sports. Las vendía en competencias de atletismo, desde su carro.",
+      "imagenes": [
+        {
+          "busqueda": "Onitsuka Tiger shoes",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Phil Knight",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Onitsuka",
+        "carro"
+      ],
+      "rotulo": "Portland, 1971",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "portland",
+              "etiqueta": "Portland · Blue Ribbon"
+            },
+            {
+              "lugar": "tokio",
+              "etiqueta": "Japón · Onitsuka"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Necesitaba una marca propia. Se la pidió a Carolyn Davidson, una estudiante de diseño de Portland State. Ella le cobró 35 dólares.",
+      "imagenes": [
+        {
+          "busqueda": "Portland State University",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Davidson",
+        "35"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Factura: [[35 dólares]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Knight vio el diseño y le dijo: no me encanta, pero ya me gustará.",
+      "imagenes": [
+        {
+          "busqueda": "Nike Cortez",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "encanta"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "«No me [[encanta]]. Ya me gustará»"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 1972 la empresa se pasó a llamar Nike. En su año fiscal 2025 vendió 46.300 millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "Nike store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Nike headquarters Beaverton",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Nike",
+        "46.300"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "US$35",
+            "texto": "el logo, 1971",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "US$46.300M",
+            "texto": "ventas año fiscal 2025",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "En 1983, Nike le dio a Carolyn un anillo de oro con el logo y acciones de la empresa.",
+      "imagenes": [
+        {
+          "busqueda": "gold ring",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "anillo",
+        "acciones"
+      ],
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "CNBC",
+          "fecha": "5 sep 2018",
+          "titular": "Here's how much Nike's billionaire founder paid for its swoosh logo",
+          "resaltar": "paid for its swoosh logo"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mándaselo al diseñador que siempre cobra muy barato.",
+      "imagenes": [
+        {
+          "busqueda": "graphic designer desk",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "diseñador",
+        "barato"
+      ]
+    }
+  ],
+  "caption": "En 1971, Phil Knight vendía zapatillas Onitsuka con Blue Ribbon Sports y necesitaba una marca propia. Carolyn Davidson, estudiante de diseño de Portland State, creó el swoosh y cobró US$35. Knight dijo: 'No me encanta, pero ya me gustará'. En 1983, Nike le dio un anillo de oro y acciones. En el año fiscal 2025 Nike vendió US$46.300 millones.\n\nMándaselo al diseñador que siempre cobra muy barato.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Nike",
+    "#Logo",
+    "#Diseño",
+    "#Negocios",
+    "#Marcas",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "1971: Carolyn Davidson, estudiante de Portland State, cobró US$35; Knight: 'I don't love it, but it will grow on me'; Blue Ribbon Sports distribuía zapatillas japonesas y necesitaba distinguirse de Onitsuka Tiger",
+      "url": "https://about.nike.com/en/stories/nike-swoosh-logo-history"
+    },
+    {
+      "afirmacion": "Knight vendía en competencias desde su Plymouth Valiant; BRS pasó a llamarse Nike en 1972; en 1983 Davidson recibió acciones y un anillo de oro",
+      "url": "https://www.cnbc.com/2018/09/05/heres-how-much-nikes-billionaire-founder-paid-for-its-swoosh-logo.html"
+    },
+    {
+      "afirmacion": "Ingresos del año fiscal 2025: US$46.300 millones",
+      "url": "https://www.itiger.com/news/2552431421"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "id": "2026-11-21-platzi-calculadora",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Platzi logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "A los 13 ya [[cobraba]]",
+    "dato": "La historia de Platzi",
+    "foto": "1.1"
+  },
+  "tema": "Freddy Vega, fundador de Platzi, cobraba por su software a los 13 años y llevó a Platzi a Y Combinator",
+  "pregunta_principal": "Mándaselo a alguien que dice que ya es tarde para aprender a programar.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] A los 13 años, Freddy Vega ya cobraba por su software. Hoy dirige Platzi.",
+      "imagenes": [
+        {
+          "busqueda": "Freddy Vega Platzi",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Platzi",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "13",
+        "Platzi"
+      ],
+      "titulo": "De Suba a Y Combinator",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "A los 13 ya [[cobraba]]"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Creció en Suba, en Bogotá. Aprendió a programar una calculadora gráfica leyendo el manual en inglés con un diccionario.",
+      "imagenes": [
+        {
+          "busqueda": "Suba Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "graphing calculator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Suba",
+        "diccionario"
+      ],
+      "rotulo": "Suba, Bogotá",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "bogota",
+              "etiqueta": "Suba, Bogotá"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Su primer programa calculaba cuánto pesaban sus compañeros en Marte, Júpiter y la Luna. Y les cobraba.",
+      "imagenes": [
+        {
+          "busqueda": "Mars planet",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Jupiter planet",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Marte",
+        "cobraba"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "pregunta",
+              "texto": "Marte"
+            },
+            {
+              "icono": "pregunta",
+              "texto": "Júpiter"
+            },
+            {
+              "icono": "pregunta",
+              "texto": "La Luna"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Nunca terminó la universidad. Con el guatemalteco Christian Van der Henst, que antes era su competencia, fundó Platzi en 2014.",
+      "imagenes": [
+        {
+          "busqueda": "Christian Van der Henst",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "universidad",
+        "2014"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "bogota",
+              "etiqueta": "Freddy · Bogotá"
+            },
+            {
+              "lugar": "ciudad-de-guatemala",
+              "etiqueta": "Christian · Guatemala"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Ese mismo año entraron a Y Combinator, la aceleradora de Silicon Valley. Fueron de las primeras empresas latinas en lograrlo.",
+      "imagenes": [
+        {
+          "busqueda": "Y Combinator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Silicon Valley",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Y Combinator",
+        "primeras"
+      ],
+      "rotulo": "Silicon Valley, 2014",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "bogota",
+              "etiqueta": "Bogotá"
+            },
+            {
+              "lugar": "san-francisco",
+              "etiqueta": "Silicon Valley · YC"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "En 2021 levantó 60 millones de dólares y ya decía tener 3 millones de estudiantes en la región.",
+      "imagenes": [
+        {
+          "busqueda": "online learning laptop",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "60 millones",
+        "3 millones"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$60M",
+          "etiqueta": "ronda Serie B de Platzi en 2021"
+        },
+        {
+          "tipo": "recorte",
+          "medio": "Bloomberg Línea",
+          "fecha": "7 dic 2021",
+          "titular": "Freddy Vega, CEO de Platzi: ¿Cómo una calculadora y un PC cambiaron su vida?",
+          "resaltar": "una calculadora y un PC"
+        }
+      ],
+      "orden": "pfp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mándaselo a alguien que dice que ya es tarde para aprender a programar.",
+      "imagenes": [
+        {
+          "busqueda": "programming code screen",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "programar"
+      ]
+    }
+  ],
+  "caption": "Freddy Vega creció en Suba, aprendió a programar una calculadora gráfica leyendo el manual con un diccionario y a los 13 años les cobraba a sus compañeros por un programa que calculaba su peso en Marte, Júpiter y la Luna. Sin terminar la universidad, fundó Platzi en 2014 con el guatemalteco Christian Van der Henst y entró a Y Combinator ese mismo año. En 2021 levantó US$60 millones.\n\nMándaselo a alguien que dice que ya es tarde para aprender a programar.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Platzi",
+    "#FreddyVega",
+    "#Programación",
+    "#Tecnología",
+    "#Colombia",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Freddy Vega nació en Bogotá y creció en Suba; programó una calculadora gráfica con el manual y un diccionario; a los 13 cobraba por un programa de pesos en Marte, Júpiter y la Luna; no terminó la universidad; Platzi 2014 con Christian Van der Henst (antes rivales); Y Combinator 2014; Serie B de US$60 millones; 3 millones de usuarios",
+      "url": "https://www.bloomberglinea.com/2021/12/07/freddy-vega-ceo-de-platzi-como-una-calculadora-y-un-pc-cambiaron-su-vida/"
+    },
+    {
+      "afirmacion": "Platzi levanta Serie B de US$62 millones (2021)",
+      "url": "https://techcrunch.com/2021/12/06/platzi-picks-up-62-million-series-b-to-re-skill-latin-american-professionals"
+    }
+  ]
+}

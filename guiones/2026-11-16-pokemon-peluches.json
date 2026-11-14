@@ -1,0 +1,245 @@
+{
+  "id": "2026-11-16-pokemon-peluches",
+  "pilar": "negocios",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "International Pokémon logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "Pokémon gana más con [[peluches]]",
+    "dato": "Que con videojuegos",
+    "foto": "1.1"
+  },
+  "tema": "Pokémon es la franquicia más rentable del mundo y gana más con licencias y productos que con videojuegos",
+  "pregunta_principal": "Mándaselo a quien todavía guarda sus cartas de Pokémon.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Pokémon gana más plata con peluches que con videojuegos. Y es la franquicia más rentable del mundo.",
+      "imagenes": [
+        {
+          "busqueda": "Pikachu plush",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Pokémon Center store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "peluches",
+        "rentable"
+      ],
+      "titulo": "US$150.700 millones",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "150.700",
+          "etiqueta": "millones de dólares ha generado Pokémon"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Todo empezó con un niño japonés, Satoshi Tajiri, que coleccionaba insectos con tanta obsesión que a veces faltaba a clase.",
+      "imagenes": [
+        {
+          "busqueda": "insect collection Japan",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "insect net summer Japan",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "insectos",
+        "Tajiri"
+      ],
+      "rotulo": "Tokio, Japón",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "tokio",
+              "etiqueta": "Tokio · Satoshi Tajiri"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Él mismo se llamaba un profesor de insectos. Ya adulto, convirtió esa obsesión en un videojuego: atrapar, coleccionar, intercambiar.",
+      "imagenes": [
+        {
+          "busqueda": "Game Boy Pokémon Red",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Game Boy",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "profesor",
+        "coleccionar"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "pregunta",
+              "texto": "Atrapar"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Coleccionar"
+            },
+            {
+              "icono": "celular",
+              "texto": "Intercambiar"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Treinta años después, Pokémon ha generado 150.700 millones de dólares. Más que Star Wars, Harry Potter o Hello Kitty.",
+      "imagenes": [
+        {
+          "busqueda": "Pokémon parade Yokohama",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "150.700",
+        "Star Wars"
+      ],
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "Bloomberg Línea",
+          "fecha": "27 feb 2026",
+          "titular": "Pokémon cumple 30 años: estas son las ganancias de la franquicia más rentable del mundo",
+          "resaltar": "la franquicia más rentable del mundo"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Pero mira de dónde sale: los videojuegos son apenas el 23 por ciento. Las licencias y los productos, más del 52.",
+      "imagenes": [
+        {
+          "busqueda": "Pokémon merchandise",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "23",
+        "52"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "US$35.100M",
+            "texto": "videojuegos",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "US$78.200M",
+            "texto": "licencias y productos",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "orden": "pf"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Y las cartas se volvieron inversión: una se vendió en 16 millones de dólares, récord Guinness.",
+      "imagenes": [
+        {
+          "busqueda": "Pokémon trading cards",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "16 millones",
+        "Guinness"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$16M",
+          "etiqueta": "pagaron por una sola carta de Pokémon"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mándaselo a quien todavía guarda sus cartas de Pokémon.",
+      "imagenes": [
+        {
+          "busqueda": "Pokémon card collection",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cartas"
+      ]
+    }
+  ],
+  "caption": "Pokémon cumplió 30 años como la franquicia más rentable del mundo: US$150.700 millones, según una auditoría de The Pokémon Company. Lo curioso: el 52,1 % viene de licencias y productos y solo el 23,4 % de videojuegos. Todo empezó con Satoshi Tajiri, un niño que coleccionaba insectos. Y una carta se vendió en US$16 millones.\n\nMándaselo a quien todavía guarda sus cartas de Pokémon.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Pokémon",
+    "#Pikachu",
+    "#Negocios",
+    "#Videojuegos",
+    "#Japón",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "US$150.700 millones; 52,1 % licencias y mercancía (US$78.200M), 23,4 % videojuegos (US$35.100M); por encima de Hello Kitty, Star Wars y Harry Potter; Tajiri coleccionaba insectos y se llamó 'profesor de insectos'; carta vendida en US$16 millones (Guinness)",
+      "url": "https://www.bloomberglinea.com/estilo-de-vida/pokemon-cumple-30-anos-estas-son-las-ganancias-de-la-franquicia-mas-rentable-del-mundo/"
+    },
+    {
+      "afirmacion": "Pokémon supera los US$105.000 millones de ingresos (referencia previa)",
+      "url": "https://www.larepublica.co/ocio/pokemon-ha-generado-ingresos-por-mas-de-us-105-000-millones-desde-su-estreno-3488221"
+    }
+  ]
+}

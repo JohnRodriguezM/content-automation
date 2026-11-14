@@ -1,0 +1,271 @@
+{
+  "id": "2026-11-18-playstation-traicion",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "PlayStation logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "La [[traición]] de Nintendo",
+    "dato": "Así nació la PlayStation",
+    "foto": "1.1"
+  },
+  "tema": "La PlayStation nació porque Nintendo dejó plantado a Sony y se fue con Philips en 1991",
+  "pregunta_principal": "¿Equipo PlayStation o equipo Nintendo?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] La PlayStation nació de una traición de Nintendo.",
+      "imagenes": [
+        {
+          "busqueda": "PlayStation console",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Super Nintendo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "traición",
+        "Nintendo"
+      ],
+      "titulo": "La traición de Nintendo",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Nintendo dejó [[plantado]] a Sony"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "A finales de los 80, Sony y Nintendo trabajaban juntos en un lector de discos para el Super Nintendo.",
+      "imagenes": [
+        {
+          "busqueda": "Super Famicom",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Sony headquarters Tokyo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Sony",
+        "juntos"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "tokio",
+              "etiqueta": "Tokio · Sony"
+            },
+            {
+              "lugar": "kioto",
+              "etiqueta": "Kioto · Nintendo"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "El ingeniero detrás era Ken Kutaragi. Y Sony quería quedarse con el control del formato y de las licencias de los juegos.",
+      "imagenes": [
+        {
+          "busqueda": "Ken Kutaragi",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Kutaragi",
+        "control"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Sony quería el [[control]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En junio de 1991, Sony presentó la Play Station en la feria CES. Al día siguiente, Nintendo anunció que se iba con Philips.",
+      "imagenes": [
+        {
+          "busqueda": "Nintendo PlayStation prototype",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Philips CD-i",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1991",
+        "Philips"
+      ],
+      "rotulo": "Junio de 1991",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "kioto",
+              "etiqueta": "Nintendo"
+            },
+            {
+              "lugar": "eindhoven",
+              "etiqueta": "Philips"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Solo hicieron entre 200 y 300 prototipos. Kutaragi convenció a Sony de no rendirse y hacer su propia consola.",
+      "imagenes": [
+        {
+          "busqueda": "Nintendo Play Station SNES-CD",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "prototipos",
+        "propia"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "200",
+          "etiqueta": "prototipos de la 'Nintendo PlayStation'"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "La PlayStation salió en Japón en 1994. Fue la primera consola en pasar los 100 millones de unidades.",
+      "imagenes": [
+        {
+          "busqueda": "PlayStation 1 SCPH-1001",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "PlayStation controller",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1994",
+        "100 millones"
+      ],
+      "rotulo": "Tokio, 1994",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "102,49M",
+          "etiqueta": "PlayStation despachadas en el mundo"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Nintendo no quiso ceder el control, y Sony se quedó con la idea, con el ingeniero y hasta con el nombre.",
+      "imagenes": [
+        {
+          "busqueda": "PlayStation logo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Nintendo headquarters Kyoto",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "control",
+        "nombre"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "La idea, el ingeniero y el [[nombre]]"
+        }
+      ],
+      "orden": "pf"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Equipo PlayStation o equipo Nintendo?",
+      "imagenes": [
+        {
+          "busqueda": "video game consoles collection",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "PlayStation",
+        "Nintendo"
+      ]
+    }
+  ],
+  "caption": "A finales de los 80, Sony y Nintendo desarrollaban juntos un lector de CD para el Super Nintendo. En junio de 1991 Sony mostró la 'Play Station' en el CES y, al día siguiente, Nintendo anunció que se iba con Philips. Ken Kutaragi convenció a Sony de hacer su propia consola: la PlayStation salió en 1994 y fue la primera en superar los 100 millones de unidades.\n\n¿Equipo PlayStation o equipo Nintendo?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#PlayStation",
+    "#Nintendo",
+    "#Sony",
+    "#Videojuegos",
+    "#Tecnología",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Desarrollo desde finales de 1988; Sony quería control del formato y las licencias; CES de junio de 1991 y anuncio con Philips al día siguiente; Ken Kutaragi; 200-300 prototipos; PlayStation en Japón en diciembre de 1994",
+      "url": "https://en.wikipedia.org/wiki/Super_NES_CD-ROM"
+    },
+    {
+      "afirmacion": "PlayStation y PS one: 102,49 millones de unidades despachadas; primera consola en superar 100 millones (31 mar 2005)",
+      "url": "https://historyofinformation.com/detail.php?id=1241"
+    }
+  ]
+}

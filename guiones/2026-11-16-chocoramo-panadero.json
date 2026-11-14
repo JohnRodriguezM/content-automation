@@ -1,0 +1,238 @@
+{
+  "id": "2026-11-16-chocoramo-panadero",
+  "pilar": "biografias",
+  "narrador": "john",
+  "portada": {
+    "texto": "El [[Chocoramo]] casi no existe",
+    "dato": "600.000 al día",
+    "foto": "1.1"
+  },
+  "tema": "El Chocoramo casi no existe: el chocolate partía el ponqué hasta que el panadero Olimpo López dio con la receta",
+  "pregunta_principal": "¿Chocoramo o Gala? Solo uno.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] El Chocoramo casi no existe. El chocolate partía el ponqué. Hoy se hacen unos 600.000 al día.",
+      "imagenes": [
+        {
+          "busqueda": "Chocoramo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Productos Ramo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "partía",
+        "600.000"
+      ],
+      "titulo": "600.000 al día",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "600.000",
+          "etiqueta": "Chocoramos al día en Colombia"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 1950, Rafael Molano les vendía a sus compañeros de Bavaria los ponqués que hacía su esposa, Ana Luisa. Así nació Ramo.",
+      "imagenes": [
+        {
+          "busqueda": "Bavaria brewery Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        },
+        {
+          "busqueda": "homemade pound cake",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1950",
+        "Ramo"
+      ],
+      "rotulo": "Boyacá, 1950",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "tunja",
+              "etiqueta": "Boyacá · 1950"
+            },
+            {
+              "lugar": "bogota",
+              "etiqueta": "Bogotá"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Su ponqué Gala tajado ganó un premio en Nueva York: en esa época nadie vendía ponqué en tajadas.",
+      "imagenes": [
+        {
+          "busqueda": "sliced pound cake",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Gala",
+        "tajadas"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Ponqué en [[tajadas]]: nadie más lo hacía"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 1972, un hijo de Rafael propuso cubrir una tajada de Gala con chocolate. El panadero Olimpo López lo intentó, pero el chocolate pesaba tanto que rompía el ponqué.",
+      "imagenes": [
+        {
+          "busqueda": "chocolate coating bakery",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "bakery industrial oven",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "chocolate",
+        "Olimpo"
+      ],
+      "rotulo": "1972",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "6 meses",
+          "etiqueta": "le tomó a Olimpo López dar con la receta"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Le tomó seis meses dar con la receta. Olimpo trabajó 47 años en Ramo. Y hoy el Chocoramo es el 80 por ciento de lo que vende la empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Chocoramo Ramo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "47",
+        "80"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "80 %",
+          "etiqueta": "de las ventas de Ramo son Chocoramo"
+        },
+        {
+          "tipo": "recorte",
+          "medio": "Vanguardia",
+          "fecha": "1 sep 2023",
+          "titular": "¿Quién inventó el Chocoramo? Así nació el icónico postre de los colombianos",
+          "resaltar": "¿Quién inventó el Chocoramo?"
+        }
+      ],
+      "orden": "fpp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Más de 200 millones al año, y ya se come hasta en Australia y Estados Unidos. Todo por un panadero que no se rindió.",
+      "imagenes": [
+        {
+          "busqueda": "Colombian snacks supermarket",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "200",
+        "panadero"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "bogota",
+              "etiqueta": "Colombia"
+            },
+            {
+              "lugar": "nueva-york",
+              "etiqueta": "Estados Unidos"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Chocoramo o Gala? Solo uno.",
+      "imagenes": [
+        {
+          "busqueda": "pound cake slice chocolate",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Chocoramo",
+        "Gala"
+      ]
+    }
+  ],
+  "caption": "El Chocoramo nació en 1972: un hijo de Rafael Molano propuso cubrir el ponqué Gala con chocolate y el panadero Olimpo López tardó seis meses en lograrlo, porque el chocolate rompía el ponqué. Ramo empezó en 1950 con los ponqués que hacía Ana Luisa, la esposa de Rafael, vendidos a sus compañeros de Bavaria. Hoy se hacen unos 600.000 Chocoramos al día y son el 80 % de las ventas de la empresa.\n\n¿Chocoramo o Gala? Solo uno.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Chocoramo",
+    "#Ramo",
+    "#MarcasColombianas",
+    "#Colombia",
+    "#Negocios",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Ramo nació en 1950; Rafael Molano vendía los ponqués de su esposa a compañeros de Bavaria; premio en Nueva York por el Gala tajado; Olimpo López, panadero 47 años; ~600.000 Chocoramos al día; 80 % de las ventas",
+      "url": "https://www.valoraanalitik.com/asi-nacio-la-historia-de-ponques-ramo-en-colombia/"
+    },
+    {
+      "afirmacion": "1972: idea de un hijo de Rafael Molano; Olimpo López tardó seis meses porque el chocolate rompía el ponqué; ~219 millones al año; se consume en Australia y EE. UU.; planta de Mosquera desde 1969",
+      "url": "https://www.vanguardia.com/entretenimiento/gastronomia/quien-invento-el-chocoramo-asi-nacio-el-iconico-postre-de-los-colombianos-MH7382259"
+    }
+  ]
+}

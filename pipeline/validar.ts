@@ -37,11 +37,13 @@ async function main() {
       if (nPrimera > 12) avisos.push(`gancho: la primera frase tiene ${nPrimera} palabras (máx. 10): "${primera}"`);
       if (!gancho?.titulo) errores.push("el gancho necesita `titulo`: sale arriba en el arranque (2-5 palabras, idealmente con el número)");
       else if (gancho.titulo.length > 40) avisos.push(`título del gancho largo (${gancho.titulo.length} caracteres): mejor 2-5 palabras`);
-      // Cierre corto: solo la pregunta + "Te leo en los comentarios."
+      // Cierre corto con UNA sola llamada: pregunta con bando o "Mándaselo a alguien que…"
       const cierre = sinEtiquetas(g.escenas.filter((e) => e.bloque === "cierre").map((e) => e.narracion).join(" "));
       if (/síguenos/i.test(cierre)) errores.push("el cierre no lleva \"síguenos\" en la voz: va solo en el caption");
       const nCierre = cierre.split(/\s+/).filter(Boolean).length;
-      if (nCierre > 15) errores.push(`cierre de ${nCierre} palabras (máx. 15): solo la pregunta + "Te leo en los comentarios."`);
+      if (nCierre > 15) errores.push(`cierre de ${nCierre} palabras (máx. 15): una sola llamada, pregunta con bando o envío dirigido`);
+      if (/te leo en los comentarios/i.test(cierre)) errores.push('el cierre ya no lleva "Te leo en los comentarios": es relleno; usa una pregunta con bando o "Mándaselo a…"');
+      if (/coment[aá]\s+(s[ií]|no|\S+)\s+si\b/i.test(cierre)) errores.push('nada de "comenta X si…": las plataformas lo castigan como cebo de interacción');
       if (g.escenas.some((e) => /lecci[oó]n es esta/i.test(e.narracion))) errores.push('frase fija prohibida: "La lección es esta"');
       const orden = ["gancho", "contexto", "decision", "consecuencia", "aprendizaje", "cierre"];
       const bloques: string[] = [...new Set(g.escenas.map((e) => e.bloque as string))];

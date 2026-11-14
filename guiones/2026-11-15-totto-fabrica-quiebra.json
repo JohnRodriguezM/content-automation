@@ -1,0 +1,244 @@
+{
+  "id": "2026-11-15-totto-fabrica-quiebra",
+  "pilar": "negocios",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Totto logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "¿Totto es [[italiana]]?",
+    "dato": "Nació de una fábrica quebrada",
+    "foto": "1.1"
+  },
+  "tema": "Totto, la marca de morrales que suena extranjera, es colombiana y nació de una fábrica de cuero en quiebra",
+  "pregunta_principal": "Mándaselo a quien todavía cree que Totto es italiana.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Totto suena a marca italiana. Es colombiana. Y nació de una fábrica en quiebra.",
+      "imagenes": [
+        {
+          "busqueda": "Totto store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Totto backpack",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "italiana",
+        "colombiana",
+        "quiebra"
+      ],
+      "titulo": "¿Totto es italiana?",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Totto es [[italiana]]?"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 1985 se hundió Bonreal, una fábrica de maletas y artículos de cuero. Yonatan Bursztyn, hijo de un inmigrante polaco que huyó del nazismo, la compró y la llamó Nalsani.",
+      "imagenes": [
+        {
+          "busqueda": "vintage leather suitcase",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "bn"
+        },
+        {
+          "busqueda": "Bogotá 1980s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "bn"
+        }
+      ],
+      "destacar": [
+        "1985",
+        "Nalsani"
+      ],
+      "rotulo": "1985",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "1985",
+          "etiqueta": "quiebra de Bonreal, la fábrica de cuero"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En una feria en Milán vio morrales de lona de colores vivos. Se trajo la idea y le puso un nombre inspirado en la banda Toto, fácil de decir en cualquier idioma.",
+      "imagenes": [
+        {
+          "busqueda": "colorful canvas backpacks",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Milán",
+        "Toto"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "milan",
+              "etiqueta": "Milán · la idea, 1988"
+            },
+            {
+              "lugar": "bogota",
+              "etiqueta": "Bogotá · Nalsani"
+            }
+          ]
+        }
+      ],
+      "orden": "pf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Pero nadie conocía a Totto. Así que en 1989 consiguió la licencia de Disney: la gente pedía a Mickey y se llevaba la marca.",
+      "imagenes": [
+        {
+          "busqueda": "school backpacks children",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Disney",
+        "1989"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Pedían a [[Mickey]]. Se llevaban Totto."
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Hoy está en 45 países, con 520 tiendas. En 2025 vendió más de 827.000 millones de pesos, y el 40 por ciento fuera de Colombia.",
+      "imagenes": [
+        {
+          "busqueda": "Totto shop mall",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "45",
+        "827.000"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "bogota",
+              "etiqueta": "Colombia · 60 %"
+            },
+            {
+              "lugar": "quito",
+              "etiqueta": "Ecuador · 2.º mercado"
+            },
+            {
+              "lugar": "ciudad-de-guatemala",
+              "etiqueta": "Guatemala"
+            },
+            {
+              "lugar": "madrid",
+              "etiqueta": "España"
+            }
+          ]
+        },
+        {
+          "tipo": "recorte",
+          "medio": "Forbes Colombia",
+          "fecha": "10 jul 2026",
+          "titular": "Hecho para durar: cómo Yonatan Bursztyn convirtió a Totto en una marca global",
+          "resaltar": "una marca global"
+        }
+      ],
+      "orden": "pfp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "¿Y el negocio de verdad? Tu morral del colegio. Uno de cada cuatro pesos que vende Totto sale de ahí.",
+      "imagenes": [
+        {
+          "busqueda": "students with backpacks",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "colegio",
+        "cuatro"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "25 %",
+          "etiqueta": "de las ventas de Totto son morrales escolares"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mándaselo a quien todavía cree que Totto es italiana.",
+      "imagenes": [
+        {
+          "busqueda": "backpack store shelves",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "italiana"
+      ]
+    }
+  ],
+  "caption": "Totto suena extranjera, pero es colombiana. Nació de Bonreal, una fábrica de artículos de cuero que quebró en 1985, y que Yonatan Bursztyn convirtió en Nalsani. La idea de los morrales de lona llegó de una feria en Italia; el nombre se eligió fácil de pronunciar en cualquier idioma. En 1989 consiguió la licencia de Disney para que la marca se conociera. Hoy: 45 países, 520 tiendas y más de $827.000 millones en ventas en 2025.\n\nMándaselo a quien todavía cree que Totto es italiana.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Totto",
+    "#MarcasColombianas",
+    "#Negocios",
+    "#Colombia",
+    "#Emprendimiento",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Nalsani nació a finales de 1987 de una fábrica de cuero casi quebrada; la idea de la lona surgió en la feria Mipel de Milán en 1988; el nombre se inspiró en la banda Toto",
+      "url": "https://expertosenmarca.com/historia-de-marca-totto/"
+    },
+    {
+      "afirmacion": "Bonreal quebró en 1985 y Bursztyn la convirtió en Nalsani; idea de los morrales en una feria en Italia; licencia Disney 1989; 45 países, 520 tiendas; ventas 2025 > $827.000 millones; 40 % en el exterior; morrales escolares 25 % de las ventas; padre inmigrante polaco que huyó del nazismo",
+      "url": "https://forbes.co/negocios/hecho-para-durar-como-yonatan-bursztin-convirtio-a-totto-en-una-marca-global"
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "id": "2026-11-20-lamborghini-tractores",
+  "pilar": "biografias",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Lamborghini logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "Del [[tractor]] al toro",
+    "dato": "Un insulto de Enzo Ferrari",
+    "foto": "1.1"
+  },
+  "tema": "Ferruccio Lamborghini fabricaba tractores; tras una discusión con Enzo Ferrari fundó su marca de superdeportivos",
+  "pregunta_principal": "¿Ferrari o Lamborghini?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Lamborghini existe porque Enzo Ferrari despreció a un fabricante de tractores.",
+      "imagenes": [
+        {
+          "busqueda": "Lamborghini Aventador",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Lamborghini tractor",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Ferrari",
+        "tractores"
+      ],
+      "titulo": "Del tractor al toro",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Del [[tractor]] al toro"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Después de la guerra, Ferruccio Lamborghini fabricaba tractores con piezas de vehículos militares. Se volvió rico.",
+      "imagenes": [
+        {
+          "busqueda": "Lamborghini tractor vintage",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        },
+        {
+          "busqueda": "Ferruccio Lamborghini",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tractores",
+        "militares"
+      ],
+      "rotulo": "Italia, 1948",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "1948",
+          "etiqueta": "nace Lamborghini Trattori"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Tenía un Ferrari que le daba problemas. Un día notó que el embrague usaba la misma tecnología que sus tractores.",
+      "imagenes": [
+        {
+          "busqueda": "Ferrari 250 GT",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Ferrari",
+        "embrague"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "maranello",
+              "etiqueta": "Maranello · Ferrari"
+            },
+            {
+              "lugar": "sant-agata-bolognese",
+              "etiqueta": "Sant'Agata · Lamborghini"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Fue a quejarse con Enzo Ferrari. Según la historia, Enzo le respondió que él solo sabía manejar tractores.",
+      "imagenes": [
+        {
+          "busqueda": "Enzo Ferrari",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "bn"
+        }
+      ],
+      "destacar": [
+        "Enzo",
+        "tractores"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "«Tú solo sabes manejar [[tractores]]»"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 1963 fundó su propia marca de autos y se llevó ingenieros que habían trabajado para Ferrari. Su primer auto, el 350 GT: solo 120 unidades.",
+      "imagenes": [
+        {
+          "busqueda": "Lamborghini 350 GT",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Lamborghini Miura",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1963",
+        "120"
+      ],
+      "rotulo": "1963",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "1963",
+          "etiqueta": "nace Automobili Lamborghini"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Lo irónico: no lo hundió Ferrari. Bolivia le pidió 5.000 tractores que nunca recibió, y la orden se cayó con el golpe de Estado de 1971. Los tractores nunca se recuperaron.",
+      "imagenes": [
+        {
+          "busqueda": "La Paz Bolivia 1970s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "Bolivia",
+        "5.000"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "sant-agata-bolognese",
+              "etiqueta": "Italia"
+            },
+            {
+              "lugar": "la-paz",
+              "etiqueta": "Bolivia · 5.000 tractores"
+            }
+          ]
+        }
+      ],
+      "orden": "pf"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Hoy Lamborghini vende más que nunca: 10.747 autos en 2025, su récord.",
+      "imagenes": [
+        {
+          "busqueda": "Lamborghini Revuelto",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "10.747",
+        "récord"
+      ],
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "Emol",
+          "fecha": "21 ene 2026",
+          "titular": "Lamborghini logra récord histórico en 2025 y supera las 10.700 unidades vendidas a nivel global",
+          "resaltar": "récord histórico"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Ferrari o Lamborghini?",
+      "imagenes": [
+        {
+          "busqueda": "Lamborghini Huracán",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Ferrari",
+        "Lamborghini"
+      ]
+    }
+  ],
+  "caption": "Ferruccio Lamborghini se volvió rico fabricando tractores con piezas de vehículos militares. Inconforme con su Ferrari, notó que el embrague era la misma tecnología de sus tractores; según la historia, Enzo Ferrari le dijo que solo sabía manejar tractores. En 1963 fundó su marca de autos. Lo que hundió a sus tractores fue un pedido de 5.000 unidades de Bolivia que se cayó con el golpe de 1971. En 2025, Lamborghini vendió un récord de 10.747 autos.\n\n¿Ferrari o Lamborghini?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Lamborghini",
+    "#Ferrari",
+    "#Autos",
+    "#Negocios",
+    "#Italia",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Lamborghini Trattori en 1948 con piezas de vehículos militares; discusión por el embrague del Ferrari 250 GT; frase de Enzo Ferrari; Automobili Lamborghini en 1963; 350 GT con 120 unidades; pedido de 5.000 tractores de Bolivia y golpe de Banzer de 1971",
+      "url": "https://www.xataka.com/movilidad/discusion-fortuna-vendiendo-tractores-golpe-estado-bolivia-otra-cara-historia-lamborghini"
+    },
+    {
+      "afirmacion": "Récord de 10.747 autos entregados en 2025",
+      "url": "https://www.emol.com/noticias/Autos/2026/01/21/1189220/lamborghini-record-de-ventas-2025.html"
+    }
+  ]
+}

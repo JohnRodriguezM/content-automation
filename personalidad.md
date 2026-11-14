@@ -25,7 +25,7 @@ Tablero de investigación (src/Tablero.tsx): fotos en polaroid y televisor, nota
 3. **Decisión:** qué hizo y qué estaba en juego.
 4. **Consecuencia:** qué ocurrió y por qué.
 5. **Aprendizaje:** una idea concreta y en qué situaciones sirve.
-6. **Cierre** (≈3 s): solo la pregunta sobre esa decisión, más "Te leo en los comentarios." La invitación a seguir la cuenta va en la descripción, no en la voz.
+6. **Cierre** (≈3 s): una sola llamada: pregunta con bando ("¿Tú qué habrías hecho: vender o aguantar?") o envío dirigido ("Mándaselo a…"). La invitación a seguir la cuenta va en la descripción, no en la voz.
 
 Duración objetivo: 45–75 s (≈ 120–190 palabras de narración).
 

@@ -1,0 +1,240 @@
+{
+  "id": "2026-11-20-shakira-gira-record",
+  "pilar": "biografias",
+  "narrador": "john",
+  "portada": {
+    "texto": "Una ruptura de [[US$421 millones]]",
+    "dato": "La gira latina más taquillera",
+    "foto": "1.1"
+  },
+  "tema": "Shakira convirtió su disco después de la ruptura en la gira latina más taquillera de la historia: US$421,6 millones",
+  "pregunta_principal": "¿Equipo Shakira o equipo Karol G?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Shakira convirtió una ruptura en 421 millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "Shakira concert",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Shakira 2025",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ruptura",
+        "421"
+      ],
+      "titulo": "US$421,6 millones",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$421,6M",
+          "etiqueta": "recaudó la gira de Shakira"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Después de su separación sacó el disco Las mujeres ya no lloran. Y salió de gira con ese mismo nombre.",
+      "imagenes": [
+        {
+          "busqueda": "Shakira",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Shakira stage",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "disco",
+        "gira"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Las mujeres ya no [[lloran]]"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Arrancó en Brasil en febrero de 2025. En Norteamérica tuvo que pasar de arenas a estadios. En México llenó siete estadios.",
+      "imagenes": [
+        {
+          "busqueda": "Estadio GNP Seguros",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "stadium concert crowd",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "estadios",
+        "siete"
+      ],
+      "rotulo": "Brasil, febrero de 2025",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "barranquilla",
+              "etiqueta": "Barranquilla · casa"
+            },
+            {
+              "lugar": "ciudad-de-mexico",
+              "etiqueta": "México · 7 estadios"
+            },
+            {
+              "lugar": "abu-dabi",
+              "etiqueta": "Abu Dabi · cierre"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En Colombia fue la primera artista en agotar cinco estadios en una misma gira.",
+      "imagenes": [
+        {
+          "busqueda": "Estadio El Campín Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Colombia",
+        "cinco"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "5",
+          "etiqueta": "estadios agotados en Colombia"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Resultado, según Billboard: 421,6 millones de dólares y 3,3 millones de boletas. La gira latina más taquillera de la historia. Superó a Luis Miguel.",
+      "imagenes": [
+        {
+          "busqueda": "Shakira live",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "3,3 millones",
+        "historia"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "US$409,5M",
+            "texto": "Luis Miguel",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "US$421,6M",
+            "texto": "Shakira",
+            "icono": "dinero"
+          }
+        },
+        {
+          "tipo": "recorte",
+          "medio": "La República",
+          "fecha": "29 ene 2026",
+          "titular": "Shakira supera los US$421,6 millones y logra la gira latina más exitosa de la historia",
+          "resaltar": "la gira latina más exitosa de la historia"
+        }
+      ],
+      "orden": "fpp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Haz la cuenta: son unos 128 dólares por boleta en promedio. Karol G, con su gira, llegó a 313 millones.",
+      "imagenes": [
+        {
+          "busqueda": "Karol G concert",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "128",
+        "Karol G"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$128",
+          "etiqueta": "por boleta, en promedio"
+        }
+      ],
+      "orden": "pf"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Equipo Shakira o equipo Karol G?",
+      "imagenes": [
+        {
+          "busqueda": "concert crowd lights",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Shakira",
+        "Karol G"
+      ]
+    }
+  ],
+  "caption": "La gira 'Las mujeres ya no lloran' de Shakira recaudó US$421,6 millones con 3,3 millones de boletas, según Billboard, y se convirtió en la gira latina más taquillera de la historia, por encima de Luis Miguel (US$409,5 millones). En México llenó siete estadios y en Colombia fue la primera artista en agotar cinco en una misma gira. Karol G llegó a US$313,3 millones con su gira anterior.\n\n¿Equipo Shakira o equipo Karol G?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Shakira",
+    "#KarolG",
+    "#Música",
+    "#Negocios",
+    "#Colombia",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "US$421,6 millones; 3,3 millones de boletas; 86 shows; supera a Luis Miguel (US$409,5 millones); arrancó en Brasil el 11 de febrero; siete estadios en México; primera artista en agotar cinco estadios en Colombia; paso de arenas a estadios en Norteamérica; Karol G US$313,3 millones",
+      "url": "https://forbes.co/2026/01/29/forbes-women/shakira-logra-record-de-la-gira-latina-mas-exitosa-de-toda-la-historia-con-mas-de-us421-millones-en-ingresos"
+    },
+    {
+      "afirmacion": "Shakira supera los US$421,6 millones y logra la gira latina más exitosa de la historia",
+      "url": "https://www.larepublica.co/ocio/shakira-supera-los-us-421-6-millones-y-logra-la-gira-latina-mas-exitosa-de-la-historia-4315360"
+    }
+  ]
+}

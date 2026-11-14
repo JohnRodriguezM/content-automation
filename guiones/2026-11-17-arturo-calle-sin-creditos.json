@@ -1,0 +1,247 @@
+{
+  "id": "2026-11-17-arturo-calle-sin-creditos",
+  "pilar": "biografias",
+  "narrador": "john",
+  "portada": {
+    "texto": "[[Cero]] créditos",
+    "dato": "$638.000 millones al año",
+    "foto": "1.1"
+  },
+  "tema": "Arturo Calle factura más de 600.000 millones al año y dice que nunca ha recurrido a los créditos",
+  "pregunta_principal": "¿Tú comprarías a crédito o esperarías a tener la plata?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Arturo Calle vende 638.000 millones de pesos al año. Y dice que nunca ha usado un crédito.",
+      "imagenes": [
+        {
+          "busqueda": "Arturo Calle tienda",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Arturo Calle",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "638.000",
+        "crédito"
+      ],
+      "titulo": "Cero créditos",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$638.380M",
+          "etiqueta": "ventas de Arturo Calle en 2024"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Eran nueve hermanos. A los 12 años ayudaba a su mamá a vender lo que daba una finca pequeña a las afueras de Medellín.",
+      "imagenes": [
+        {
+          "busqueda": "Antioquia farm",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        },
+        {
+          "busqueda": "Medellín 1950s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "bn"
+        }
+      ],
+      "destacar": [
+        "nueve",
+        "12"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "medellin",
+              "etiqueta": "Afueras de Medellín"
+            },
+            {
+              "lugar": "bogota",
+              "etiqueta": "San Victorino, Bogotá"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Su primera tienda fue en San Victorino, en Bogotá. Se llamaba La Camisita. Arrancó con 13.000 pesos ahorrados y 4.000 prestados.",
+      "imagenes": [
+        {
+          "busqueda": "San Victorino Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "men's shirts shop",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "La Camisita",
+        "13.000"
+      ],
+      "rotulo": "San Victorino, Bogotá",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Primera tienda: [[La Camisita]]"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "De ahí en adelante, se hizo famoso por algo raro en Colombia: Portafolio lo llamó enemigo del endeudamiento.",
+      "imagenes": [
+        {
+          "busqueda": "Arturo Calle store mall",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "enemigo",
+        "endeudamiento"
+      ],
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "Portafolio",
+          "fecha": "24 nov 2016",
+          "titular": "Arturo Calle: vida y obra que inspiran una marca exitosa",
+          "resaltar": "vida y obra"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Hoy tiene más de 100 tiendas en siete países y cerca de 6.000 empleados. En 2024 ganó 22.782 millones de pesos.",
+      "imagenes": [
+        {
+          "busqueda": "Arturo Calle Panamá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "100",
+        "22.782"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "bogota",
+              "etiqueta": "Colombia · +100 tiendas"
+            },
+            {
+              "lugar": "ciudad-de-guatemala",
+              "etiqueta": "Guatemala"
+            },
+            {
+              "lugar": "ciudad-de-panama",
+              "etiqueta": "Panamá"
+            },
+            {
+              "lugar": "lima",
+              "etiqueta": "Perú"
+            }
+          ]
+        },
+        {
+          "tipo": "dato",
+          "valor": "6.000",
+          "etiqueta": "empleados de Arturo Calle"
+        }
+      ],
+      "orden": "pfp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Y ya soltó el timón: les pasó sus acciones a sus hijos y donó parte de su fortuna a su fundación.",
+      "imagenes": [
+        {
+          "busqueda": "Arturo Calle empresario",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "hijos",
+        "fundación"
+      ],
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "Forbes Colombia",
+          "fecha": "13 feb 2026",
+          "titular": "Cómo Arturo Calle organizó su relevo generacional y la donación de parte de su patrimonio a causas sociales",
+          "resaltar": "relevo generacional"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú comprarías a crédito o esperarías a tener la plata?",
+      "imagenes": [
+        {
+          "busqueda": "Colombian pesos banknotes",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "crédito",
+        "plata"
+      ]
+    }
+  ],
+  "caption": "Arturo Calle vendió $638.380 millones en 2024 y dice que nunca ha recurrido a los créditos. Empezó a los 12 años vendiendo lo que daba una finca cerca de Medellín; su primera tienda, La Camisita, abrió en San Victorino con 13.000 pesos ahorrados y 4.000 prestados. Hoy: más de 100 tiendas, siete países y unos 6.000 empleados. Ya pasó sus acciones a sus hijos.\n\n¿Tú comprarías a crédito o esperarías a tener la plata?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#ArturoCalle",
+    "#MarcasColombianas",
+    "#Negocios",
+    "#FinanzasPersonales",
+    "#Colombia",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Ingresos 2024 $638.380 millones, utilidad $22.782 millones; más de 100 tiendas; siete países; ~6.000 empleados; 'nunca he recurrido a los créditos'; acciones a sus hijos; donación a la Fundación Arturo Calle",
+      "url": "https://forbes.co/2026/02/13/editors-picks/arturo-calle"
+    },
+    {
+      "afirmacion": "A los 12 años vendía con su mamá productos de una finca cerca de Medellín; nueve hermanos; primera tienda en San Victorino (Dante, luego La Camisita); 13.000 pesos ahorrados + 4.000 prestados; 'enemigo del endeudamiento'",
+      "url": "https://www.portafolio.co/negocios/empresas/premios-portafolio-2016-arturo-calle-vida-y-obra-501843"
+    }
+  ]
+}

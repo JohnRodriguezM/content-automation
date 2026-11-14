@@ -7,7 +7,7 @@
  *     --rehacer-imagenes   volver a buscar todas las imágenes
  *     --rehacer-voz        regenerar la voz aunque haya caché
  *     --narrador=sebas|john
- *     --estilo=tablero|documental|mixto|clasico|motion   (por defecto tablero; ESTILO en el entorno también sirve)
+ *     --estilo=tablero|documental|mixto|clasico|motion   (por defecto documental; ESTILO en el entorno también sirve)
  *     --solo-portada       solo imágenes + portada (sin voz ni video); SOLO_PORTADA=1 también sirve
  *     --publicar=borrador|programar|no   --hora=19:30
  *
@@ -245,7 +245,7 @@ async function main() {
   const guion = guionSchema.parse(JSON.parse(await readFile(ruta, "utf8")));
   await mkdir(OUT, { recursive: true });
 
-  const estilo = (flag("estilo") ?? process.env.ESTILO ?? "tablero") as "mixto" | "documental" | "clasico" | "motion" | "tablero";
+  const estilo = (flag("estilo") ?? process.env.ESTILO ?? "documental") as "mixto" | "documental" | "clasico" | "motion" | "tablero";
   if (estilo !== "motion" && !flag("sin-imagenes")) {
     console.log(`→ ${guion.id}: imágenes`);
     const guardar = () => writeFile(ruta, JSON.stringify(guion, null, 2) + "\n");

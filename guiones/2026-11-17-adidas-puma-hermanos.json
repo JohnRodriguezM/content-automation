@@ -1,0 +1,261 @@
+{
+  "id": "2026-11-17-adidas-puma-hermanos",
+  "pilar": "biografias",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Adidas logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "Adidas y Puma son [[hermanos]]",
+    "dato": "Y se odiaron",
+    "foto": "1.2"
+  },
+  "tema": "Adidas y Puma nacieron de la pelea de dos hermanos Dassler que partió en dos un pueblo alemán",
+  "pregunta_principal": "¿Equipo Adidas o equipo Puma?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Adidas y Puma son la misma familia. Dos hermanos que se odiaron.",
+      "imagenes": [
+        {
+          "busqueda": "Adidas Puma Herzogenaurach",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Adidas shoes",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Puma shoes",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "familia",
+        "odiaron"
+      ],
+      "titulo": "Dos hermanos, un río",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Adidas y Puma: [[hermanos]]"
+        }
+      ],
+      "orden": "ffpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En los años 20, Adolf y Rudolf Dassler montaron una fábrica de zapatos en su pueblo, Herzogenaurach, en Alemania.",
+      "imagenes": [
+        {
+          "busqueda": "Herzogenaurach",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Dassler brothers",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "bn"
+        }
+      ],
+      "destacar": [
+        "Dassler",
+        "Herzogenaurach"
+      ],
+      "rotulo": "Herzogenaurach, Alemania",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "herzogenaurach",
+              "etiqueta": "Herzogenaurach · Dassler"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 1936, Jesse Owens ganó cuatro oros en los Olímpicos de Berlín con zapatillas Dassler.",
+      "imagenes": [
+        {
+          "busqueda": "Jesse Owens 1936",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "bn"
+        }
+      ],
+      "destacar": [
+        "Owens",
+        "cuatro"
+      ],
+      "rotulo": "Berlín, 1936",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "4",
+          "etiqueta": "oros de Jesse Owens con zapatillas Dassler"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Pero la guerra los rompió. En 1943, en un refugio durante un bombardeo, Adolf insultó a los aviones. Rudolf creyó que el insulto era para él.",
+      "imagenes": [
+        {
+          "busqueda": "air raid shelter Germany",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "bn"
+        },
+        {
+          "busqueda": "bombing 1943 Germany",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "bn"
+        }
+      ],
+      "destacar": [
+        "1943",
+        "insulto"
+      ],
+      "rotulo": "1943",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Un insulto en un [[refugio]]"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 1948 se separaron. Adolf, Adi Dassler, fundó Adidas. Rudolf fundó Puma en la otra orilla del río.",
+      "imagenes": [
+        {
+          "busqueda": "Aurach river Herzogenaurach",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Puma headquarters Herzogenaurach",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Adidas",
+        "Puma"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "[[Adidas]] de un lado. [[Puma]] del otro."
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "El pueblo se partió: panaderías, bares, amistades, todo tenía bando. Le decían el pueblo de los cuellos doblados, porque todos miraban los zapatos del otro.",
+      "imagenes": [
+        {
+          "busqueda": "Herzogenaurach old town",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "bando",
+        "cuellos"
+      ],
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "BBC News Mundo",
+          "fecha": "14 jun 2026",
+          "titular": "Puma vs Adidas: cómo la pelea entre dos hermanos partió en dos una ciudad alemana durante décadas",
+          "resaltar": "partió en dos una ciudad"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Hoy facturan juntas unos 35.000 millones de dólares al año. Y solo hasta 2009 sus empleados jugaron un partido de paz.",
+      "imagenes": [
+        {
+          "busqueda": "football match Adidas Puma",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "35.000",
+        "2009"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$35.000M",
+          "etiqueta": "facturan Adidas y Puma juntas al año"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Equipo Adidas o equipo Puma?",
+      "imagenes": [
+        {
+          "busqueda": "sneakers collection",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Adidas",
+        "Puma"
+      ]
+    }
+  ],
+  "caption": "Adidas y Puma nacieron de una sola fábrica: la de los hermanos Adolf y Rudolf Dassler en Herzogenaurach, Alemania. Jesse Owens ganó cuatro oros en 1936 con sus zapatillas. La guerra y un malentendido en un refugio antiaéreo en 1943 los separaron; en 1948 cada uno fundó su marca a un lado del río Aurach. El pueblo se partió en dos y le decían 'la ciudad de los cuellos doblados'.\n\n¿Equipo Adidas o equipo Puma?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Adidas",
+    "#Puma",
+    "#Negocios",
+    "#Alemania",
+    "#Zapatillas",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Fábrica de los Dassler en los años 20; Jesse Owens 1936; episodio del búnker en 1943; separación en 1948 a orillas opuestas del río Aurach; 'ciudad de cuellos doblados'; partido de paz en 2009; facturan juntas ~US$35.000 millones",
+      "url": "https://www.teletica.com/amp/mundial-2026/puma-vs-adidas-como-la-pelea-entre-dos-hermanos-partio-en-dos-una-ciudad-alemana-durante-decadas_411627"
+    },
+    {
+      "afirmacion": "La rivalidad Dassler: odio y amargura detrás de dos de las marcas más populares",
+      "url": "https://fortune.com/2013/03/22/the-hatred-and-bitterness-behind-two-of-the-worlds-most-popular-brands/"
+    }
+  ]
+}

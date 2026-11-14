@@ -1,0 +1,255 @@
+{
+  "id": "2026-11-19-bon-bon-bum-mitad-afuera",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "La mitad de los [[Bon Bon Bum]] se va del país",
+    "dato": "170 millones al mes",
+    "foto": "1.1"
+  },
+  "tema": "Cada mes se hacen 170 millones de Bon Bon Bum en La Paila y Guatemala, y la mitad se exporta a unos 90 países",
+  "pregunta_principal": "¿Lo muerdes o lo dejas hasta llegar al chicle?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Cada mes se hacen 170 millones de Bon Bon Bum. La mitad se va del país.",
+      "imagenes": [
+        {
+          "busqueda": "Bon Bon Bum",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Colombina lollipop",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "170 millones",
+        "mitad"
+      ],
+      "titulo": "170 millones al mes",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "170M",
+          "etiqueta": "Bon Bon Bum al mes"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Salen de La Paila, en Zarzal, Valle del Cauca, y de una planta en Guatemala. La de La Paila es la planta de dulces duros más grande de Latinoamérica bajo un solo techo.",
+      "imagenes": [
+        {
+          "busqueda": "Zarzal Valle del Cauca",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "sugar cane Valle del Cauca",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "La Paila",
+        "Zarzal"
+      ],
+      "rotulo": "La Paila, Valle del Cauca",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "zarzal",
+              "etiqueta": "La Paila · Zarzal"
+            },
+            {
+              "lugar": "ciudad-de-guatemala",
+              "etiqueta": "Guatemala"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "La idea fue de Jaime Caicedo, de Colombina. En Holanda encontró una máquina para hacer un caramelo grande con palito.",
+      "imagenes": [
+        {
+          "busqueda": "candy factory machine",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Netherlands",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Caicedo",
+        "Holanda"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "amsterdam",
+              "etiqueta": "Holanda · la máquina"
+            },
+            {
+              "lugar": "zarzal",
+              "etiqueta": "Valle del Cauca"
+            }
+          ]
+        }
+      ],
+      "orden": "pf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Pero quería algo más: chicle por dentro, para inflar una bomba al final. Lo lograron en 1970, y el nombre salió de un grito en la oficina: este bon bon va a ser un bum.",
+      "imagenes": [
+        {
+          "busqueda": "bubble gum bubble",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "chicle",
+        "1970"
+      ],
+      "rotulo": "1970",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Este bon bon va a ser un [[BUM]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Hoy llega a unos 90 países, de China a Gabón, y es más del 10 por ciento de lo que vende Colombina.",
+      "imagenes": [
+        {
+          "busqueda": "Colombina products",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "90",
+        "10"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "zarzal",
+              "etiqueta": "Colombia"
+            },
+            {
+              "lugar": "nueva-york",
+              "etiqueta": "EE. UU. · Walmart"
+            },
+            {
+              "lugar": "pekin",
+              "etiqueta": "China"
+            }
+          ]
+        },
+        {
+          "tipo": "recorte",
+          "medio": "Forbes Colombia",
+          "fecha": "3 feb 2022",
+          "titular": "Bon Bon Bum se consolida en China y ya llega a más de 90 países",
+          "resaltar": "más de 90 países"
+        }
+      ],
+      "orden": "pfp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Y la receta sigue siendo la original, con caña del Valle. Si no lo muerdes, dura entre 20 y 23 minutos en la boca.",
+      "imagenes": [
+        {
+          "busqueda": "lollipop red",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "original",
+        "23"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "23 min",
+          "etiqueta": "dura un Bon Bon Bum si no lo muerdes"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Lo muerdes o lo dejas hasta llegar al chicle?",
+      "imagenes": [
+        {
+          "busqueda": "lollipops colorful",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "muerdes",
+        "chicle"
+      ]
+    }
+  ],
+  "caption": "Cada mes salen unos 170 millones de Bon Bon Bum de La Paila (Zarzal, Valle del Cauca) y de Guatemala, y más de 85 millones se exportan. La idea fue de Jaime Caicedo, que encontró en Holanda una máquina para caramelos grandes con palito; el chicle por dentro llegó en 1970. Hoy llega a unos 90 países y es más del 10 % de las ventas de Colombina.\n\n¿Lo muerdes o lo dejas hasta llegar al chicle?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#BonBonBum",
+    "#Colombina",
+    "#MarcasColombianas",
+    "#Colombia",
+    "#Negocios",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "170 millones de unidades al mes; más de 85 millones exportados al mes; ~90 países; lanzado en 1970; Jaime Caicedo y la máquina de Holanda; La Paila (Zarzal) es la mayor planta de dulces duros de Latinoamérica bajo un techo; más del 10 % de las ventas de Colombina",
+      "url": "https://www.valoraanalitik.com/?p=98037"
+    },
+    {
+      "afirmacion": "Origen del nombre ('este bon bon va a ser un BUM'); chicle por dentro en 1970; receta original con caña del Valle; dura 20-23 minutos sin morderlo; acuerdo con Walmart",
+      "url": "https://www.elcolombiano.com/tendencias/el-bon-bon-bum-cumple-50-anos-LC13885943"
+    },
+    {
+      "afirmacion": "Más de 90 países, incluida China",
+      "url": "https://forbes.co/2022/02/03/negocios/bon-bon-bum-aterriza-en-china-y-ya-llega-a-mas-de-90-paises/"
+    }
+  ]
+}

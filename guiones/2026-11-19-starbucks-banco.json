@@ -1,0 +1,206 @@
+{
+  "id": "2026-11-19-starbucks-banco",
+  "pilar": "negocios",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Starbucks logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "El [[banco]] de Starbucks",
+    "dato": "US$1.850 millones de clientes",
+    "foto": "1.1"
+  },
+  "tema": "Starbucks guarda más de 1.800 millones de dólares cargados por sus clientes y se queda con más de 200 millones que nadie reclama",
+  "pregunta_principal": "¿Cuánta plata tienes olvidada en alguna app?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Starbucks guarda más de 1.800 millones de dólares de sus clientes.",
+      "imagenes": [
+        {
+          "busqueda": "Starbucks store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Starbucks card",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1.800 millones",
+        "clientes"
+      ],
+      "titulo": "El banco de Starbucks",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$1.850M",
+          "etiqueta": "cargados por clientes de Starbucks (mar 2025)"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Es la plata que la gente carga en la app y en las tarjetas antes de comprar el café.",
+      "imagenes": [
+        {
+          "busqueda": "Starbucks mobile app payment",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Starbucks gift cards",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "app",
+        "tarjetas"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Pagas [[antes]]. El café llega después."
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Para Starbucks es un préstamo sin intereses: recibe tu plata hoy y te entrega el café después. En 2024 ese saldo llegó a 2.200 millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "Starbucks coffee cup",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "préstamo",
+        "intereses",
+        "2.200"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "0 %",
+          "etiqueta": "de intereses te paga Starbucks por tu saldo"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y una parte nunca se gasta: saldos olvidados, tarjetas perdidas. En un año, eso le dejó unos 207 millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "gift card",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "olvidados",
+        "207"
+      ],
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "MarketWatch",
+          "fecha": "30 abr 2025",
+          "titular": "Starbucks customers are giving the company over $200 million of free money",
+          "resaltar": "over $200 million of free money"
+        },
+        {
+          "tipo": "dato",
+          "valor": "US$207M",
+          "etiqueta": "en saldos que nadie usó, en un año"
+        }
+      ],
+      "orden": "fpp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "En contabilidad se llama breakage: la plata que la empresa se queda porque nadie la reclamó. Y no es solo Starbucks: pasa en cualquier app donde dejas saldo.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone wallet app",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "breakage",
+        "saldo"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "celular",
+              "texto": "Apps de café"
+            },
+            {
+              "icono": "tv",
+              "texto": "Cine"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Bonos y tarjetas regalo"
+            }
+          ]
+        }
+      ],
+      "orden": "pf"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Cuánta plata tienes olvidada en alguna app?",
+      "imagenes": [
+        {
+          "busqueda": "coffee shop customer phone",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "olvidada"
+      ]
+    }
+  ],
+  "caption": "A marzo de 2025, Starbucks tenía unos US$1.850 millones cargados por sus clientes en tarjetas y en la app. Es como un préstamo sin intereses: la plata entra hoy y el café sale después. Y una parte nunca se gasta: en un año, los saldos sin usar le dejaron unos US$207 millones. En contabilidad se llama 'breakage'.\n\n¿Cuánta plata tienes olvidada en alguna app?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Starbucks",
+    "#FinanzasPersonales",
+    "#Negocios",
+    "#Café",
+    "#Dinero",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Saldo de tarjetas y programa de lealtad: US$1.850 millones al 30 de marzo de 2025; breakage de US$187,6 millones (tiendas propias) + US$20 millones (licenciadas)",
+      "url": "https://www.itiger.com/news/2531706822"
+    },
+    {
+      "afirmacion": "El saldo almacenado funciona como un préstamo sin intereses del cliente a la empresa (US$2.200 millones en 2024)",
+      "url": "https://www.sherwood.news/business/starbucks-could-use-a-cio-to-invest-the-usd2-2b-float-from-its-rewards/"
+    }
+  ]
+}

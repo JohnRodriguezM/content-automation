@@ -1,0 +1,289 @@
+{
+  "id": "2026-11-22-alpina-sopo-california",
+  "pilar": "biografias",
+  "narrador": "john",
+  "portada": {
+    "texto": "Alpina tiene una lechera en [[California]]",
+    "dato": "Nació en Sopó en 1945",
+    "foto": "1.1"
+  },
+  "tema": "Alpina nació en Sopó de la mano de dos suizos y en 2021 compró el 70 % de Clover Sonoma, una lechera de California",
+  "pregunta_principal": "¿Avena Alpina o Bon Yurt? Solo uno.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Alpina, la de Sopó, es dueña de una lechera en California.",
+      "imagenes": [
+        {
+          "busqueda": "Alpina Sopó",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Clover Sonoma",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Sopó",
+        "California"
+      ],
+      "titulo": "De Sopó a California",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "sopo",
+              "etiqueta": "Sopó · Alpina"
+            },
+            {
+              "lugar": "petaluma",
+              "etiqueta": "California · Clover"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 1945, dos suizos, Walter Goggel y Max Bazinger, se instalaron en Sopó porque el paisaje les recordaba a Suiza.",
+      "imagenes": [
+        {
+          "busqueda": "Sopó Cundinamarca",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Swiss Alps cows",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "suizos",
+        "Sopó"
+      ],
+      "rotulo": "Sopó, 1945",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Sopó les recordaba a [[Suiza]]"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Empezaron con 500 botellas de leche, haciendo lácteos a mano. Con un préstamo del banco compraron el terreno de su primera fábrica.",
+      "imagenes": [
+        {
+          "busqueda": "milk bottles vintage",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "500",
+        "préstamo"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "500",
+          "etiqueta": "botellas de leche para empezar"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y trajeron algo que casi nadie hacía en Colombia: quesos madurados.",
+      "imagenes": [
+        {
+          "busqueda": "aged cheese wheels",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "quesos"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Quesos [[madurados]] en 1945"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Hoy tiene plantas en Sopó, Chinchiná y Caloto. Y en Ecuador es la segunda marca de lácteos.",
+      "imagenes": [
+        {
+          "busqueda": "Alpina products supermarket",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Chinchiná Caldas",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Chinchiná",
+        "Ecuador"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "sopo",
+              "etiqueta": "Sopó"
+            },
+            {
+              "lugar": "chinchina",
+              "etiqueta": "Chinchiná"
+            },
+            {
+              "lugar": "caloto",
+              "etiqueta": "Caloto"
+            },
+            {
+              "lugar": "quito",
+              "etiqueta": "Ecuador"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 2021 compró el 70 por ciento de Clover Sonoma, una empresa de lácteos de California.",
+      "imagenes": [
+        {
+          "busqueda": "Sonoma County dairy farm",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "70",
+        "Clover"
+      ],
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "Valora Analitik",
+          "fecha": "dic 2021",
+          "titular": "Alpina adquiere 70 % de Clover Sonoma, empresa de lácteos estadounidense",
+          "resaltar": "70 % de Clover Sonoma"
+        },
+        {
+          "tipo": "dato",
+          "valor": "70 %",
+          "etiqueta": "de Clover Sonoma es de Alpina"
+        }
+      ],
+      "orden": "fpp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La clave de los suizos fue controlar toda la cadena: desde las vacas y los productores de leche hasta la fábrica y el camión que llega a tu tienda.",
+      "imagenes": [
+        {
+          "busqueda": "dairy cows Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "refrigerated truck",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cadena",
+        "vacas"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Vacas y productores"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Fábrica"
+            },
+            {
+              "icono": "celular",
+              "texto": "Camión a tu tienda"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Avena Alpina o Bon Yurt? Solo uno.",
+      "imagenes": [
+        {
+          "busqueda": "yogurt cereal cup",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Avena",
+        "Bon Yurt"
+      ]
+    }
+  ],
+  "caption": "Alpina nació en 1945 en Sopó, donde dos suizos, Walter Goggel y Max Bazinger, se instalaron porque el paisaje les recordaba a Suiza. Empezaron con 500 botellas de leche y trajeron los quesos madurados a Colombia. Hoy tiene plantas en Sopó, Chinchiná y Caloto, y en 2021 compró el 70 % de Clover Sonoma, una empresa de lácteos de California.\n\n¿Avena Alpina o Bon Yurt? Solo uno.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Alpina",
+    "#MarcasColombianas",
+    "#Sopó",
+    "#Colombia",
+    "#Negocios",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Fundadores suizos Walter Goggel y Max Bazinger; Sopó en 1945 por su parecido con Suiza; 500 botellas de leche; préstamo bancario para el terreno; 70 % de Clover Sonoma en diciembre de 2021",
+      "url": "https://en.wikipedia.org/wiki/Alpina_Productos_Alimenticios"
+    },
+    {
+      "afirmacion": "Integración de toda la cadena, de las vacas a la fábrica y la distribución refrigerada; quesos madurados poco conocidos en Colombia; plantas en Sopó, Chinchiná y Caloto; segunda marca en Ecuador; Bonyurt y bebidas de avena",
+      "url": "https://www.portafolio.co/negocios/alpina-icono-de-gran-tradicion-511118"
+    },
+    {
+      "afirmacion": "Alpina adquiere 70 % de Clover Sonoma",
+      "url": "https://www.valoraanalitik.com/?p=151614"
+    }
+  ]
+}

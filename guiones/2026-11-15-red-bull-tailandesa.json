@@ -1,0 +1,218 @@
+{
+  "id": "2026-11-15-red-bull-tailandesa",
+  "pilar": "negocios",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Red Bull logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "Red Bull es [[51 % tailandesa]]",
+    "dato": "El 2 % que lo cambió todo",
+    "foto": "1.1"
+  },
+  "tema": "Red Bull es 51 % de una familia tailandesa: nació de Krating Daeng y un reparto 49-49-2",
+  "pregunta_principal": "Mándaselo al amigo que vive pegado a un Red Bull.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] La mayor parte de Red Bull no es austriaca. Es de una familia de Tailandia.",
+      "imagenes": [
+        {
+          "busqueda": "Red Bull can",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Krating Daeng",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "austriaca",
+        "Tailandia"
+      ],
+      "titulo": "Red Bull es 51 % tailandesa",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "fuschl-am-see",
+              "etiqueta": "Austria · sede"
+            },
+            {
+              "lugar": "bangkok",
+              "etiqueta": "Tailandia · 51 %"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 1982, el austriaco Dietrich Mateschitz viajó a Tailandia y probó Krating Daeng, una bebida energética local. Le quitó el cansancio del vuelo.",
+      "imagenes": [
+        {
+          "busqueda": "Bangkok 1980s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        },
+        {
+          "busqueda": "Dietrich Mateschitz",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Krating Daeng",
+        "1982"
+      ],
+      "rotulo": "Bangkok, 1982",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "1976",
+          "etiqueta": "año en que nació Krating Daeng en Tailandia"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Le propuso a su creador, Chaleo Yoovidhya, montar una empresa juntos. Se repartieron 49 y 49 por ciento. El 2 restante quedó en manos del hijo de Chaleo.",
+      "imagenes": [
+        {
+          "busqueda": "Chaleo Yoovidhya",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "49",
+        "2"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "49 %",
+            "texto": "Mateschitz",
+            "icono": "documentos"
+          },
+          "despues": {
+            "valor": "51 %",
+            "texto": "familia Yoovidhya",
+            "icono": "documentos"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Lanzaron en Austria en 1987. En 2025 vendieron casi 14.000 millones de latas y facturaron 12.200 millones de euros, un récord.",
+      "imagenes": [
+        {
+          "busqueda": "Red Bull Racing",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Red Bull cans shelf",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "14.000",
+        "récord"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "14.000M",
+          "etiqueta": "latas de Red Bull vendidas en 2025"
+        },
+        {
+          "tipo": "recorte",
+          "medio": "Bloomberg Línea",
+          "fecha": "21 ene 2026",
+          "titular": "Ventas de Red Bull se disparan un 10% y logran su mayor avance desde la pandemia",
+          "resaltar": "se disparan un 10%"
+        }
+      ],
+      "orden": "fpfp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Y ese 2 por ciento pesa: el control quedó en Tailandia. El hijo de Mateschitz, con su 49, recibió 648 millones de euros en dividendos en un año.",
+      "imagenes": [
+        {
+          "busqueda": "Red Bull Arena Salzburg",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "648",
+        "Tailandia"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "€648M",
+          "etiqueta": "dividendo de Mark Mateschitz por su 49 %"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mándaselo al amigo que vive pegado a un Red Bull.",
+      "imagenes": [
+        {
+          "busqueda": "Red Bull energy drink",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Red Bull"
+      ]
+    }
+  ],
+  "caption": "Red Bull nació de Krating Daeng, una bebida tailandesa de 1976. Dietrich Mateschitz la probó en 1982 y se asoció con su creador, Chaleo Yoovidhya: 49 % cada uno y 2 % para el hijo de Chaleo. Hoy la familia Yoovidhya controla el 51 %. En 2025 Red Bull vendió casi 14.000 millones de latas y facturó €12.200 millones.\n\nMándaselo al amigo que vive pegado a un Red Bull.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#RedBull",
+    "#Marcas",
+    "#Negocios",
+    "#Tailandia",
+    "#Austria",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Krating Daeng 1976; Mateschitz en Tailandia 1982; reparto 49/49/2; lanzamiento en Austria 1987; familia Yoovidhya 51 %",
+      "url": "https://en.wikipedia.org/wiki/Red_Bull"
+    },
+    {
+      "afirmacion": "Casi 14.000 millones de latas en 2025; €12.200 millones de ventas; dividendo de €648 millones a Mark Mateschitz por su 49 %; familia Yoovidhya 51 %",
+      "url": "https://www.bloomberglinea.com/negocios/ventas-de-red-bull-se-disparan-un-10-y-logran-su-mayor-avance-desde-la-pandemia/"
+    }
+  ]
+}

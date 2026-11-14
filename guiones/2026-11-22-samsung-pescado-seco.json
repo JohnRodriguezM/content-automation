@@ -1,0 +1,232 @@
+{
+  "id": "2026-11-22-samsung-pescado-seco",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Samsung logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "Samsung vendía [[pescado seco]]",
+    "dato": "Hoy 220 millones de celulares",
+    "foto": "1.1"
+  },
+  "tema": "Samsung empezó en 1938 como un pequeño comercio que vendía pescado seco, frutas y fideos en Daegu",
+  "pregunta_principal": "¿Samsung o iPhone? Solo uno.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Samsung empezó vendiendo pescado seco.",
+      "imagenes": [
+        {
+          "busqueda": "Samsung Galaxy",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "dried fish market Korea",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "pescado seco"
+      ],
+      "titulo": "Del pescado al celular",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Del [[pescado seco]] al Galaxy"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 1938, con Corea ocupada por Japón, Lee Byung-chul abrió en Daegu un pequeño comercio con 30.000 wones que le dio su familia.",
+      "imagenes": [
+        {
+          "busqueda": "Lee Byung-chul",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Daegu",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1938",
+        "Daegu"
+      ],
+      "rotulo": "Daegu, 1938",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "daegu",
+              "etiqueta": "Daegu · 1938"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Vendía pescado seco, frutas y verduras, y hasta fideos propios. Le puso Samsung: en coreano, tres estrellas.",
+      "imagenes": [
+        {
+          "busqueda": "Korean noodles",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Samsung Sanghoe",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "fideos",
+        "tres estrellas"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Samsung = [[tres estrellas]]"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 1969 apostó por la electrónica. Su primer producto fue un televisor en blanco y negro. Para 1981 ya había fabricado 10 millones de televisores.",
+      "imagenes": [
+        {
+          "busqueda": "black and white television 1970s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "bn"
+        }
+      ],
+      "destacar": [
+        "1969",
+        "televisor",
+        "10 millones"
+      ],
+      "rotulo": "1969",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "1969",
+          "etiqueta": "nace Samsung Electronics"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Su primer celular salió en 1988. Para 1995, más de la mitad de los celulares vendidos en Corea eran Samsung.",
+      "imagenes": [
+        {
+          "busqueda": "Samsung SH-770",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Samsung mobile phone 1990s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1988",
+        "mitad"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "+50 %",
+          "etiqueta": "de los celulares vendidos en Corea en 1995"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Hoy vende unos 220 millones de celulares al año. Todo arrancó con una tienda de pescado seco.",
+      "imagenes": [
+        {
+          "busqueda": "Samsung store Seoul",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "220 millones"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "220M",
+          "etiqueta": "celulares Samsung al año"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Samsung o iPhone? Solo uno.",
+      "imagenes": [
+        {
+          "busqueda": "smartphones on table",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Samsung",
+        "iPhone"
+      ]
+    }
+  ],
+  "caption": "Samsung nació en 1938 en Daegu como un pequeño comercio de Lee Byung-chul, que arrancó con 30.000 wones de su familia vendiendo pescado seco, frutas, verduras y fideos propios. 'Samsung' significa 'tres estrellas'. En 1969 creó Samsung Electronics (primer producto: un televisor en blanco y negro), en 1988 lanzó su primer celular y hoy vende unos 220 millones al año.\n\n¿Samsung o iPhone? Solo uno.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Samsung",
+    "#Tecnología",
+    "#Celulares",
+    "#Corea",
+    "#Negocios",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Fundada en 1938 en Daegu por Lee Byung-chul con 30.000 wones; vendía pescado seco, frutas, verduras y fideos propios; Samsung Electronics en 1969, primer producto un televisor en blanco y negro; primer celular en 1988; en 1995 más de la mitad de los celulares vendidos en Corea eran Samsung; 10 millones de televisores para 1981",
+      "url": "https://androidauthority.com/did-you-know-samsung-history-noodles-3420512"
+    },
+    {
+      "afirmacion": "'Samsung' significa 'tres estrellas'; capital de 30.000 wones de su familia; Corea estaba ocupada por Japón",
+      "url": "https://www.iprofesional.com/tecnologia/402779-que-significa-samsung-en-espanol-y-cual-fue-el-origen-de-este-gigante-tecnologico"
+    },
+    {
+      "afirmacion": "Unos 220 millones de smartphones al año",
+      "url": "https://www.portaltela.com/noticias/economia/2026/04/29/samsung-de-exportadora-de-peixe-a-gigante-tecnologica-220-milhoes-de-smartphones-ano/"
+    }
+  ]
+}
