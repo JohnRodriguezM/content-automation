@@ -35,6 +35,11 @@ export const LUGARES: Record<string, [number, number, string]> = {
   // Norteamérica
   "nueva-york": [40.7128, -74.006, "840"],
   miami: [25.7617, -80.1918, "840"],
+  "cayo-hueso": [24.5551, -81.78, "840"],
+  everglades: [25.2866, -80.8987, "840"],
+  "panama-city-fl": [30.1588, -85.6602, "840"],
+  clewiston: [26.7542, -80.9337, "840"],
+  "gulfport-fl": [27.7484, -82.7034, "840"],
   "san-francisco": [37.7749, -122.4194, "840"],
   seattle: [47.6062, -122.3321, "840"],
   chicago: [41.8781, -87.6298, "840"],
