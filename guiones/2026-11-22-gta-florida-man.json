@@ -1,0 +1,240 @@
+{
+  "id": "2026-11-22-gta-florida-man",
+  "pilar": "negocios",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Grand Theft Auto VI logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "Florida Man, [[versión GTA]]",
+    "dato": "Escenas reales en el tráiler",
+    "foto": "1.1"
+  },
+  "tema": "El primer tráiler de GTA VI recreó videos virales reales de Florida; el 'Joker de Florida' pidió dinero, y una ley de registros públicos explica tanto Florida Man",
+  "pregunta_principal": "Mándaselo a tu amigo más Florida Man.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] El tráiler de GTA VI copió videos virales reales de Florida.",
+      "imagenes": [
+        {
+          "busqueda": "alligator Florida",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Florida police car",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "virales",
+        "Florida"
+      ],
+      "titulo": "Florida Man, [[versión GTA]]",
+      "contador": {
+        "valor": "US$2M",
+        "etiqueta": "lo que pidió un «Joker»"
+      },
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Diciembre de 2023. En el primer tráiler, la gente empezó a reconocer escenas: un caimán entrando a una tienda, otro en la piscina de una familia.",
+      "imagenes": [
+        {
+          "busqueda": "convenience store Florida",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "caimán",
+        "piscina"
+      ],
+      "segun": "según The Mary Sue",
+      "fecha": "2023",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Escenas [[reales]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El de la piscina existió: un caimán de casi tres metros en la casa de una familia de Florida, en 2019.",
+      "imagenes": [
+        {
+          "busqueda": "alligator Everglades",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tres metros",
+        "2019"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "2,7 m",
+          "etiqueta": "medía el caimán de la piscina"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y el hombre tatuado de la foto policial se parecía a Lawrence Sullivan, el Joker de Florida, viral desde 2017.",
+      "imagenes": [
+        {
+          "busqueda": "Gulfport Florida waterfront",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Joker",
+        "2017"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "gulfport-fl",
+              "etiqueta": "Gulfport · el «Joker»"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Sullivan respondió en TikTok: «Se llevaron mi imagen. Se llevaron mi vida». Y le pidió a Rockstar un millón o dos.",
+      "imagenes": [
+        {
+          "busqueda": "social media smartphone screen",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "vida",
+        "millón"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Se llevaron mi imagen. Se llevaron mi vida.",
+          "autor": "Lawrence Sullivan, el «Joker de Florida», en TikTok"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "¿Por qué hay tanto Florida Man? Según Oxygen, allá los reportes de arresto y las fotos policiales son públicos casi de inmediato. Y los periodistas los revisan todos los días.",
+      "imagenes": [
+        {
+          "busqueda": "newspaper stack",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "públicos",
+        "todos los días"
+      ],
+      "segun": "según Oxygen",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Arrestos públicos = [[titulares]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Rockstar no tuvo que inventar el caos: Florida lo publica cada mañana. Lo convirtió en sátira y en el tráiler más visto.",
+      "imagenes": [
+        {
+          "busqueda": "Miami Beach",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "caos",
+        "sátira"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "El caos ya [[estaba escrito]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mándaselo a tu amigo más Florida Man.",
+      "imagenes": [
+        {
+          "busqueda": "Florida welcome sign",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Florida Man"
+      ]
+    }
+  ],
+  "caption": "Serie GTA VI · Florida Man.\n\nEl primer tráiler de GTA VI (diciembre de 2023) recreó momentos virales reales de Florida: un caimán que entra a una tienda, un caimán de casi tres metros en la piscina de una familia (2019) y más, según The Mary Sue.\n\nLawrence Sullivan, conocido como el \"Joker de Florida\" y viral desde 2017, dijo en TikTok que un personaje tatuado del tráiler era él: \"Se llevaron mi imagen. Se llevaron mi vida\". Pidió que Rockstar lo contactara o le diera \"un millón o dos\", según HotHardware.\n\n¿Por qué tanto \"Florida Man\"? Florida tiene una de las leyes de registros públicos más abiertas: los reportes de arresto y las fotos policiales se pueden consultar casi de inmediato, explica Oxygen. El periodista Craig Pittman matiza: mucho de lo raro de Florida no está en los reportes de la policía (Reason).\n\nFuentes: The Mary Sue, HotHardware, Oxygen (4 ene 2021), Reason (3 dic 2023).\n\nMándaselo a tu amigo más Florida Man.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#GTA",
+    "#RockstarGames",
+    "#Videojuegos",
+    "#ViceCity",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "El tráiler referencia un caimán en una tienda y un caimán de nueve pies en la piscina de una familia en 2019",
+      "url": "https://themarysue.com/all-the-real-florida-news-stories-referenced-in-the-gta-6-trailer"
+    },
+    {
+      "afirmacion": "Lawrence Sullivan, 'Florida Joker', de Gulfport, viral desde 2017; 'Y'all took my likeness. Y'all took my life'; pidió 'a million or two'",
+      "url": "https://hothardware.com/news/florida-joker-rockstar-gta-6"
+    },
+    {
+      "afirmacion": "Reportes de arresto y fotos policiales públicos casi de inmediato por la ley de registros públicos de Florida",
+      "url": "https://oxygen.com/florida-man-murders/crime-news/why-are-there-florida-man-stories-sunshine-laws-explained"
+    },
+    {
+      "afirmacion": "Craig Pittman: mucho de lo raro de Florida no está en los reportes de policía",
+      "url": "https://reason.com/2023/12/03/monkey-herpes-face-eating-and-the-pork-chop-gang-how-public-records-laws-created-the-florida-man/"
+    }
+  ]
+}

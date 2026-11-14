@@ -1,0 +1,240 @@
+{
+  "id": "2026-11-21-gta-lucia-jason",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Grand Theft Auto VI logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "[[Lucía]] y Jason",
+    "dato": "Los protagonistas de GTA VI",
+    "foto": "1.1"
+  },
+  "tema": "Lucía Caminos y Jason Duval, los protagonistas de GTA VI: una ex presidiaria de Liberty City y un exsoldado que trabaja para traficantes en los Cayos",
+  "pregunta_principal": "¿Vas a jugar más con Lucía o con Jason?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Por primera vez, una mujer protagoniza la historia de un GTA.",
+      "imagenes": [
+        {
+          "busqueda": "Miami Beach sunset",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Ocean Drive Miami Beach",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "primera vez",
+        "mujer"
+      ],
+      "titulo": "[[Lucía]] y Jason",
+      "contador": {
+        "valor": "2",
+        "etiqueta": "protagonistas jugables"
+      },
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Se llama Lucía Caminos. Según Rockstar, quiere la buena vida que su mamá ha soñado desde sus días en Liberty City.",
+      "imagenes": [
+        {
+          "busqueda": "New York City skyline night",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Lucía Caminos",
+        "Liberty City"
+      ],
+      "segun": "según Rockstar",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "nueva-york",
+              "etiqueta": "Liberty City"
+            },
+            {
+              "lugar": "miami",
+              "etiqueta": "Vice City"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Peleando por su familia terminó en la Penitenciaría de Leonida. Salió por pura suerte. Y Rockstar lo resume así: «Lucía aprendió la lección: de ahora en adelante, solo movimientos inteligentes».",
+      "imagenes": [
+        {
+          "busqueda": "prison fence",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Penitenciaría",
+        "suerte"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Lucía aprendió la lección: de ahora en adelante, solo movimientos inteligentes.",
+          "autor": "Rockstar Games, sobre Lucía"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Jason Duval creció entre criminales. Pasó por el Ejército para cambiar, y terminó en los Cayos trabajando para traficantes locales. «Jason quiere una vida fácil, pero las cosas solo se ponen más difíciles».",
+      "imagenes": [
+        {
+          "busqueda": "Florida Keys boat dock",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Ejército",
+        "Cayos"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Jason quiere una vida fácil, pero las cosas solo se ponen más difíciles.",
+          "autor": "Rockstar Games, sobre Jason"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Juntos son dos criminales que intentan sobrevivir después de que un golpe sale mal. Y eso los mete en una conspiración que cruza todo el estado.",
+      "imagenes": [
+        {
+          "busqueda": "I-95 North at Night",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "golpe",
+        "conspiración"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Un golpe sale [[mal]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "El lema del juego lo resume: el lado más oscuro del lugar más soleado de Estados Unidos.",
+      "imagenes": [
+        {
+          "busqueda": "South beach night life",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "oscuro",
+        "soleado"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "El lado más oscuro del lugar más soleado de Estados Unidos.",
+          "autor": "Rockstar Games"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Ya no es la historia de un solo criminal. Es una pareja que depende el uno del otro: si uno cae, cae el otro.",
+      "imagenes": [
+        {
+          "busqueda": "Key West sunset",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "pareja",
+        "cae"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Si uno cae, [[cae el otro]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Vas a jugar más con Lucía o con Jason?",
+      "imagenes": [
+        {
+          "busqueda": "Playstation Dualsense controller",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Lucía",
+        "Jason"
+      ]
+    }
+  ],
+  "caption": "Serie GTA VI · Los protagonistas.\n\nLucía Caminos es la primera mujer en el centro de la historia de un GTA, según GTA Boom. Rockstar dice que quiere \"la buena vida\" que su mamá ha soñado desde sus días en Liberty City. Peleando por su familia terminó en la Penitenciaría de Leonida y salió por pura suerte. \"Lucía aprendió la lección: de ahora en adelante, solo movimientos inteligentes\".\n\nJason Duval creció entre criminales, pasó por el Ejército y terminó en los Cayos trabajando para traficantes locales. \"Jason quiere una vida fácil, pero las cosas solo se ponen más difíciles\".\n\nJuntos son dos criminales que intentan sobrevivir después de que un golpe sale mal y los arrastra a una conspiración que cruza todo el estado: \"el lado más oscuro del lugar más soleado de Estados Unidos\".\n\nFuentes: GTA Boom (26 mar 2026), GosuGamers, Newschannel 9 (19 jun 2026).\n\n¿Vas a jugar más con Lucía o con Jason?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#GTA",
+    "#RockstarGames",
+    "#Videojuegos",
+    "#ViceCity",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Lucía: primera mujer en el centro de la historia de un GTA; la buena vida que su mamá ha soñado desde Liberty City; Penitenciaría de Leonida; salió por suerte; Jason: Ejército, Cayos, traficantes",
+      "url": "https://www.gtaboom.com/everything-confirmed-about-jason-and-lucia-in-gta-6-cc2c"
+    },
+    {
+      "afirmacion": "Citas de Rockstar sobre Lucía y Jason",
+      "url": "https://www.gosugamers.net/entertainment/news/74896-all-major-gta-vi-characters-revealed-so-far-including-jason-and-lucia"
+    },
+    {
+      "afirmacion": "Dos criminales tras un golpe que sale mal; conspiración en todo el estado; 'darkest side of the sunniest place in America'",
+      "url": "https://newschannel9.com/news/offbeat/rockstar-games-grand-theft-auto-vi-brings-series-back-florida-inspired-vice-city-leonida-everglades-miami-florida-keys-wetland-video-game-xbox-playstation-jason-duval-lucia-caminos"
+    }
+  ]
+}

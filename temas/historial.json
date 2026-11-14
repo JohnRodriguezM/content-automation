@@ -778,6 +778,16 @@
     "protagonistas": []
   },
   {
+    "id": "2026-11-20-gta-leonida-es-florida",
+    "tema": "Leonida, el estado de GTA VI, calca a Florida: Vice City es Miami, Grassrivers los Everglades y Ambrosia el pueblo azucarero de Clewiston",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "GTA VI",
+      "Rockstar Games"
+    ]
+  },
+  {
     "id": "2026-11-20-lamborghini-tractores",
     "tema": "Ferruccio Lamborghini fabricaba tractores; tras una discusión con Enzo Ferrari fundó su marca de superdeportivos",
     "pilar": "biografias",
@@ -790,6 +800,16 @@
     "pilar": "biografias",
     "narrador": "john",
     "protagonistas": []
+  },
+  {
+    "id": "2026-11-21-gta-lucia-jason",
+    "tema": "Lucía Caminos y Jason Duval, los protagonistas de GTA VI: una ex presidiaria de Liberty City y un exsoldado que trabaja para traficantes en los Cayos",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "GTA VI",
+      "Rockstar Games"
+    ]
   },
   {
     "id": "2026-11-21-nike-logo-35-dolares",
@@ -813,10 +833,90 @@
     "protagonistas": []
   },
   {
+    "id": "2026-11-22-gta-florida-man",
+    "tema": "El primer tráiler de GTA VI recreó videos virales reales de Florida; el 'Joker de Florida' pidió dinero, y una ley de registros públicos explica tanto Florida Man",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "GTA VI",
+      "Rockstar Games"
+    ]
+  },
+  {
     "id": "2026-11-22-samsung-pescado-seco",
     "tema": "Samsung empezó en 1938 como un pequeño comercio que vendía pescado seco, frutas y fideos en Daegu",
     "pilar": "tecnologia",
     "narrador": "john",
     "protagonistas": []
+  },
+  {
+    "id": "2026-11-23-gta-hacker-hotel",
+    "tema": "Arion Kurtaj, de Lapsus$, filtró 90 videos de GTA VI en 2022 desde un hotel con un Fire Stick; a Rockstar le costó US$5 millones",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "GTA VI",
+      "Rockstar Games"
+    ]
+  },
+  {
+    "id": "2026-11-24-gta-trailer-2-475-millones",
+    "tema": "El segundo tráiler de GTA VI sumó 475 millones de vistas en 24 horas, más que el récord de Deadpool y Wolverine",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "GTA VI",
+      "Rockstar Games"
+    ]
+  },
+  {
+    "id": "2026-11-25-gta-canciones-revividas",
+    "tema": "Los tráileres de GTA VI dispararon canciones de los 80: Tom Petty subió 36.979 % en una semana y las Pointer Sisters 182.000 % en dos horas",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "GTA VI",
+      "Rockstar Games"
+    ]
+  },
+  {
+    "id": "2026-11-26-gta-31-despedidos",
+    "tema": "Rockstar despidió a 31 empleados en el Reino Unido en 2025; la empresa habla de filtraciones y el sindicato IWGB de antisindicalismo",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "GTA VI",
+      "Rockstar Games"
+    ]
+  },
+  {
+    "id": "2026-11-27-gta-preventas-record",
+    "tema": "Take-Two dice que las preventas de GTA VI no tienen precedentes y proyecta entre US$8.000 y US$8.200 millones en reservas netas",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "GTA VI",
+      "Rockstar Games"
+    ]
+  },
+  {
+    "id": "2026-11-28-gta-vice-city-regresa",
+    "tema": "GTA VI vuelve a Vice City 24 años después de GTA Vice City (2002), ambientado en 1986 e inspirado en Scarface y Miami Vice",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "GTA VI",
+      "Rockstar Games"
+    ]
+  },
+  {
+    "id": "2026-11-29-gta-personajes-negocios",
+    "tema": "Los personajes secundarios de GTA VI tienen negocios: Boobie Ike y su imperio, el sello Only Raw Records, Real Dimez, Raul Bautista y Brian Heder",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "GTA VI",
+      "Rockstar Games"
+    ]
   }
 ]

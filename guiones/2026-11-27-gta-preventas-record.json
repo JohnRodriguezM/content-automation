@@ -1,0 +1,235 @@
+{
+  "id": "2026-11-27-gta-preventas-record",
+  "pilar": "negocios",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Grand Theft Auto VI logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "Preventas [[sin precedentes]]",
+    "dato": "Take-Two proyecta US$8.200M",
+    "foto": "1.1"
+  },
+  "tema": "Take-Two dice que las preventas de GTA VI no tienen precedentes y proyecta entre US$8.000 y US$8.200 millones en reservas netas",
+  "pregunta_principal": "¿Tú lo reservaste o esperaste las reseñas?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Take-Two dice que nunca había visto preventas como las de GTA VI.",
+      "imagenes": [
+        {
+          "busqueda": "Wall Street New York",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "New York Stock Exchange",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "nunca",
+        "preventas"
+      ],
+      "titulo": "Preventas [[sin precedentes]]",
+      "contador": {
+        "valor": "US$8.200M",
+        "etiqueta": "proyección de Take-Two"
+      },
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Agosto de 2026. Su CEO, Strauss Zelnick, lo dijo así: «Nadie había visto algo así antes en Take-Two, ni en la industria».",
+      "imagenes": [
+        {
+          "busqueda": "Strauss Zelnick",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "persona": {
+            "nombre": "Strauss Zelnick",
+            "cargo": "CEO de Take-Two"
+          }
+        }
+      ],
+      "destacar": [
+        "Zelnick",
+        "industria"
+      ],
+      "fecha": "AGO. 2026",
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Nadie había visto algo así antes en Take-Two, ni en la industria.",
+          "autor": "Strauss Zelnick, CEO de Take-Two"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Pero él mismo puso el freno: «Para ser claros, no hemos vendido ni una unidad. Una preventa se puede cancelar».",
+      "imagenes": [
+        {
+          "busqueda": "cash register receipt",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ni una unidad",
+        "cancelar"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Para ser claros, no hemos vendido ni una unidad. Una preventa se puede cancelar.",
+          "autor": "Strauss Zelnick"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Noviembre de 2026. En su informe, Take-Two escribió que las preventas iban muy por encima de lo que esperaban.",
+      "imagenes": [
+        {
+          "busqueda": "Take-Two Interactive",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "muy por encima"
+      ],
+      "segun": "según Shacknews",
+      "fecha": "NOV. 2026",
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "Shacknews",
+          "fecha": "9 nov 2026",
+          "titular": "Grand Theft Auto 6 pre-orders are tracking far above expectations according to Take-Two (TTWO)",
+          "resaltar": "far above expectations"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y mantuvo su proyección: entre 8.000 y 8.200 millones de dólares en reservas netas para el año fiscal en que sale GTA VI.",
+      "imagenes": [
+        {
+          "busqueda": "money dollar bills",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "8.000",
+        "8.200"
+      ],
+      "segun": "según Hitmarker",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$8.200M",
+          "etiqueta": "reservas netas proyectadas"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Sobre los 80 dólares del juego, Zelnick fue claro: para él es un valor fenomenal.",
+      "imagenes": [
+        {
+          "busqueda": "Xbox Series X 2",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "80 dólares",
+        "fenomenal"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "US$80: un valor [[fenomenal]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La preventa es el mejor termómetro de un lanzamiento. Pero, como dijo Zelnick, hasta que no se cobra, no es venta.",
+      "imagenes": [
+        {
+          "busqueda": "GameStop store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "termómetro",
+        "venta"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Hasta que no se cobra, [[no es venta]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú lo reservaste o esperaste las reseñas?",
+      "imagenes": [
+        {
+          "busqueda": "DualShock 4",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "reservaste",
+        "reseñas"
+      ]
+    }
+  ],
+  "caption": "Serie GTA VI · Las preventas.\n\nEn agosto de 2026, Strauss Zelnick, CEO de Take-Two, dijo sobre las preventas de GTA VI: \"Nadie había visto algo así antes en Take-Two, ni en la industria\". Y añadió: \"Para ser claros, no hemos vendido ni una unidad. Una preventa se puede cancelar\". También defendió el precio de US$80 como un \"valor fenomenal\" (Hitmarker).\n\nEn noviembre de 2026, el informe trimestral de Take-Two dijo que las preventas \"van muy por encima de nuestras expectativas iniciales\" (Shacknews). La empresa mantiene una proyección de US$8.000 a US$8.200 millones en reservas netas para el año fiscal en que sale GTA VI.\n\nFuentes: Hitmarker (8 ago 2026), Shacknews (9 nov 2026).\n\n¿Tú lo reservaste o esperaste las reseñas?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#GTA",
+    "#RockstarGames",
+    "#Videojuegos",
+    "#ViceCity",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Zelnick: 'No one's ever seen anything like this before at Take-Two, or in the industry'; 'we haven't sold one unit yet. You can cancel a preorder'; US$80 'phenomenal value'; reservas netas de US$8.000-8.200 millones",
+      "url": "https://hitmarker.net/news/take-two-is-forecasting-up-to-8-2-billion-in-net-bookings-for-the-fiscal-year-gta-6-launches-4283014"
+    },
+    {
+      "afirmacion": "'Pre-orders for Grand Theft Auto 6 are tracking far above our initial expectations' (Q2 FY27)",
+      "url": "https://shacknews.com/article/151308/grand-theft-auto-6-pre-orders-q2-fy27"
+    }
+  ]
+}

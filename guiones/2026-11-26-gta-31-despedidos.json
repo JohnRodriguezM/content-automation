@@ -1,0 +1,234 @@
+{
+  "id": "2026-11-26-gta-31-despedidos",
+  "pilar": "negocios",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Grand Theft Auto VI logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "31 [[despedidos]]",
+    "dato": "Antes del lanzamiento",
+    "foto": "1.1"
+  },
+  "tema": "Rockstar despidió a 31 empleados en el Reino Unido en 2025; la empresa habla de filtraciones y el sindicato IWGB de antisindicalismo",
+  "pregunta_principal": "¿Quién tiene la razón: Rockstar o el sindicato?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Rockstar despidió a 31 personas mientras terminaba GTA VI.",
+      "imagenes": [
+        {
+          "busqueda": "Edinburgh skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "open plan office",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "31",
+        "GTA VI"
+      ],
+      "titulo": "31 [[despedidos]]",
+      "contador": {
+        "valor": "31",
+        "etiqueta": "empleados despedidos"
+      },
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Finales de 2025. Según Bloomberg, los 31 estaban en un mismo grupo privado de Discord donde se hablaba de sindicalizarse.",
+      "imagenes": [
+        {
+          "busqueda": "Discord browser options",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Discord",
+        "sindicalizarse"
+      ],
+      "segun": "según Bloomberg",
+      "fecha": "2025",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Un grupo privado de [[Discord]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "La versión de Rockstar: los despidió por estar distribuyendo y discutiendo información confidencial en un foro público.",
+      "imagenes": [
+        {
+          "busqueda": "confidential documents",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "confidencial",
+        "público"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Distribuyendo y discutiendo información confidencial en un foro público.",
+          "autor": "Rockstar Games"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Take-Two habló de falta grave. Y Rockstar aseguró que no tenía nada que ver con el derecho a sindicalizarse.",
+      "imagenes": [
+        {
+          "busqueda": "Take-Two Interactive",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "falta grave",
+        "derecho"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Esto no tuvo nada que ver con el derecho de las personas a afiliarse a un sindicato.",
+          "autor": "Rockstar Games"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "El sindicato británico IWGB lo llamó uno de los actos antisindicales más descarados en la historia de los videojuegos. Y presentó demandas.",
+      "imagenes": [
+        {
+          "busqueda": "trade union protest London",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "IWGB",
+        "demandas"
+      ],
+      "segun": "según GamesRadar",
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "Game Informer",
+          "fecha": "6 nov 2025",
+          "titular": "Grand Theft Auto VI Dev Rockstar Games Accused Of Union Busting After Layoffs",
+          "resaltar": "Accused Of Union Busting"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Esa misma semana, Rockstar anunció el último retraso del juego, al 19 de noviembre de 2026.",
+      "imagenes": [
+        {
+          "busqueda": "hourglass",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "retraso",
+        "19 de noviembre"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Despidos y [[retraso]], la misma semana"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Para la empresa, una filtración antes del lanzamiento más grande de su historia es un riesgo enorme. Para los trabajadores, hablar de sus condiciones es un derecho. Esa tensión la define la justicia.",
+      "imagenes": [
+        {
+          "busqueda": "Royal Courts of Justice London",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "riesgo",
+        "derecho"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Riesgo vs. [[derecho]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Quién tiene la razón: Rockstar o el sindicato?",
+      "imagenes": [
+        {
+          "busqueda": "scales of justice",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Rockstar",
+        "sindicato"
+      ]
+    }
+  ],
+  "caption": "Serie GTA VI · Los despidos.\n\nA finales de 2025, Rockstar despidió a 31 empleados en el Reino Unido. Según Bloomberg, todos estaban en un mismo grupo privado de Discord sobre sindicalización.\n\nRockstar dijo que los despidió por \"distribuir y discutir información confidencial en un foro público\" y que \"no tuvo nada que ver\" con el derecho a sindicalizarse. Take-Two habló de \"falta grave\" (gross misconduct).\n\nEl sindicato IWGB lo calificó como \"uno de los actos antisindicales más descarados y despiadados en la historia de la industria de los videojuegos\" y presentó demandas. Esa misma semana, Rockstar anunció el retraso de GTA VI al 19 de noviembre de 2026.\n\nFuentes: Game Informer (6 nov 2025), GamesRadar (12 nov 2025).\n\n¿Quién tiene la razón: Rockstar o el sindicato?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#GTA",
+    "#RockstarGames",
+    "#Videojuegos",
+    "#ViceCity",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "30-40 despidos en Reino Unido y Canadá; IWGB: 'one of the most blatant and ruthless acts of union busting in the history of the games industry'; Rockstar: 'in no way related to people's right to join a union'",
+      "url": "https://gameinformer.com/2025/11/06/grand-theft-auto-vi-dev-rockstar-games-accused-of-union-busting-after-layoffs"
+    },
+    {
+      "afirmacion": "31 despedidos; grupo privado de Discord (Bloomberg); 'distributing and discussing confidential information in a public forum'; Take-Two: 'gross misconduct'; IWGB presenta demandas; misma semana del retraso",
+      "url": "https://www.gamesradar.com/games/grand-theft-auto/delay-game-disappoint-fans-all-in-a-weeks-work-for-rockstar-labor-group-issues-legal-claims-against-gta-6-dev-rockstar-for-simple-union-busting-after-firing-31-staff"
+    },
+    {
+      "afirmacion": "6 nov 2025: GTA 6 se retrasa al 19 de noviembre de 2026",
+      "url": "https://www.bloomberglinea.com/mercados/lanzamiento-de-gta-6-se-retrasa-y-take-two-cae-10-en-operaciones-posteriores-al-cierre/"
+    }
+  ]
+}

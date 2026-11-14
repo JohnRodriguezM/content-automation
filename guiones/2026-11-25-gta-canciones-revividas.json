@@ -1,0 +1,228 @@
+{
+  "id": "2026-11-25-gta-canciones-revividas",
+  "pilar": "negocios",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Grand Theft Auto VI logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "Revivió canciones de [[los 80]]",
+    "dato": "+182.000 % en 2 horas",
+    "foto": "1.2"
+  },
+  "tema": "Los tráileres de GTA VI dispararon canciones de los 80: Tom Petty subió 36.979 % en una semana y las Pointer Sisters 182.000 % en dos horas",
+  "pregunta_principal": "¿Qué canción de los 80 debería sonar en el juego?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] GTA VI revivió dos canciones de los 80 en horas.",
+      "imagenes": [
+        {
+          "busqueda": "Tom Petty",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "persona": {
+            "nombre": "Tom Petty",
+            "cargo": "músico"
+          }
+        },
+        {
+          "busqueda": "vinyl records",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "revivió",
+        "80"
+      ],
+      "titulo": "+182.000 % en [[2 horas]]",
+      "contador": {
+        "valor": "182.000 %",
+        "etiqueta": "más streams en 2 horas"
+      },
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Diciembre de 2023. El primer tráiler suena con Love Is a Long Road, de Tom Petty. Una canción de 1989.",
+      "imagenes": [
+        {
+          "busqueda": "Tom Petty concert",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Tom Petty",
+        "1989"
+      ],
+      "fecha": "2023",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Una canción de [[1989]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Según datos de Spotify citados por Push Square, sus reproducciones subieron 36.979 % de una semana a otra.",
+      "imagenes": [
+        {
+          "busqueda": "Spotify",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "36.979",
+        "semana"
+      ],
+      "segun": "según Push Square",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "+36.979 %",
+          "etiqueta": "streams de Tom Petty en una semana"
+        },
+        {
+          "tipo": "recorte",
+          "medio": "Push Square",
+          "fecha": "7 dic 2023",
+          "titular": "GTA 6's Record Breaking Trailer Has a Profound Impact on Tom Petty Streams",
+          "resaltar": "Profound Impact on Tom Petty Streams"
+        }
+      ],
+      "orden": "pfp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Mayo de 2025. El segundo tráiler usa Hot Together, de las Pointer Sisters, de 1986.",
+      "imagenes": [
+        {
+          "busqueda": "The Pointer Sisters",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "persona": {
+            "nombre": "The Pointer Sisters",
+            "cargo": "grupo vocal"
+          }
+        }
+      ],
+      "destacar": [
+        "Hot Together",
+        "1986"
+      ],
+      "fecha": "2025",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Hot Together, [[1986]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En las dos horas siguientes, según TechRadar, sus reproducciones en Spotify subieron 182.000 % frente a la semana anterior.",
+      "imagenes": [
+        {
+          "busqueda": "headphones music",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "182.000",
+        "dos horas"
+      ],
+      "segun": "según TechRadar",
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "+36.979 %",
+            "texto": "Tom Petty · 2023",
+            "icono": "cassette"
+          },
+          "despues": {
+            "valor": "+182.000 %",
+            "texto": "Pointer Sisters · 2025",
+            "icono": "cassette"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Una canción vieja no está muerta: solo está esperando el tráiler correcto. Para un catálogo musical, eso es plata.",
+      "imagenes": [
+        {
+          "busqueda": "vinyl record collection",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tráiler correcto",
+        "plata"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Esperando el [[tráiler correcto]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué canción de los 80 debería sonar en el juego?",
+      "imagenes": [
+        {
+          "busqueda": "cassette tapes 1980s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "80"
+      ]
+    }
+  ],
+  "caption": "Serie GTA VI · La música.\n\nEl primer tráiler de GTA VI (diciembre de 2023) usó \"Love Is a Long Road\" de Tom Petty, de 1989. Según datos de Spotify citados por Push Square, sus reproducciones subieron 36.979 % de una semana a otra.\n\nEl segundo tráiler (mayo de 2025) usó \"Hot Together\" de las Pointer Sisters, de 1986. En las dos horas siguientes, sus reproducciones en Spotify subieron 182.000 % frente al mismo periodo de la semana anterior, según TechRadar.\n\nUna sola aparición en un tráiler bastó para revivir canciones de hace casi 40 años.\n\nFuentes: Push Square (7 dic 2023), TechRadar (8 may 2025).\n\n¿Qué canción de los 80 debería sonar en el juego?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#GTA",
+    "#RockstarGames",
+    "#Videojuegos",
+    "#ViceCity",
+    "#HistoriasDeNegocios",
+    "#Música"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Love Is a Long Road de Tom Petty: +36.979 % en streams semana contra semana (Spotify)",
+      "url": "https://www.pushsquare.com/news/2023/12/gta-6s-record-breaking-trailer-has-a-profound-impact-on-tom-petty-streams"
+    },
+    {
+      "afirmacion": "Hot Together de las Pointer Sisters (1986): +182.000 % en Spotify en dos horas frente a la semana anterior",
+      "url": "https://www.techradar.com/gaming/spotify-streams-of-the-latest-grand-theft-auto-6-trailer-song-increased-by-182-000-percent-just-two-hours-after-the-trailer-dropped"
+    }
+  ]
+}

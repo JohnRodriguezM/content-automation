@@ -1,0 +1,242 @@
+{
+  "id": "2026-11-29-gta-personajes-negocios",
+  "pilar": "negocios",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Grand Theft Auto VI logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "Crimen con [[plan de negocios]]",
+    "dato": "Los personajes de GTA VI",
+    "foto": "1.1"
+  },
+  "tema": "Los personajes secundarios de GTA VI tienen negocios: Boobie Ike y su imperio, el sello Only Raw Records, Real Dimez, Raul Bautista y Brian Heder",
+  "pregunta_principal": "¿Con quién harías negocios: Boobie o Raul?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] En GTA VI, hasta los criminales tienen plan de negocios.",
+      "imagenes": [
+        {
+          "busqueda": "Downtown Miami skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Brickell Miami skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "criminales",
+        "negocios"
+      ],
+      "titulo": "Crimen con [[plan de negocios]]",
+      "contador": {
+        "valor": "6",
+        "etiqueta": "personajes secundarios"
+      },
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Con el segundo tráiler, Rockstar presentó a los personajes que rodean a Lucía y Jason. Casi todos tienen un negocio.",
+      "imagenes": [
+        {
+          "busqueda": "South beach night life",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "personajes",
+        "negocio"
+      ],
+      "segun": "según GosuGamers",
+      "fecha": "2025",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Cada uno con su [[negocio]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Boobie Ike tiene bienes raíces, un club nocturno y un estudio de grabación. Rockstar lo describe así: «Boobie es una leyenda local de Vice City, y actúa como tal».",
+      "imagenes": [
+        {
+          "busqueda": "Miami real estate buildings",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Boobie Ike",
+        "leyenda"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Boobie es una leyenda local de Vice City, y actúa como tal.",
+          "autor": "Rockstar Games, sobre Boobie Ike"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Con Dre'Quan Priest maneja un sello discográfico, Only Raw Records. Y Dre'Quan, según Rockstar, siempre fue más buscavidas que gánster.",
+      "imagenes": [
+        {
+          "busqueda": "Drum set music studio",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Only Raw Records",
+        "buscavidas"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Dre'Quan siempre fue más buscavidas que gánster.",
+          "autor": "Rockstar Games, sobre Dre'Quan Priest"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Su apuesta: Real Dimez, un dúo de rap de dos amigas del colegio que se volvieron virales en redes.",
+      "imagenes": [
+        {
+          "busqueda": "concert crowd lights",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Real Dimez",
+        "virales"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Del colegio a [[viral]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Raul Bautista es un ladrón de bancos que recluta talento para golpes grandes. Y Brian Heder mueve contrabando desde su astillero en los Cayos.",
+      "imagenes": [
+        {
+          "busqueda": "bank vault door",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Florida Keys boat dock",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Raul",
+        "Brian"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "miami",
+              "etiqueta": "Vice City · Boobie"
+            },
+            {
+              "lugar": "cayo-hueso",
+              "etiqueta": "Los Cayos · Brian"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Rockstar arma el crimen como una empresa: dueño, socios, talento y logística. Por eso el mundo se siente real.",
+      "imagenes": [
+        {
+          "busqueda": "Miami Beach Art Deco",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "empresa",
+        "real"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Dueño, socios, talento y [[logística]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Con quién harías negocios: Boobie o Raul?",
+      "imagenes": [
+        {
+          "busqueda": "Playstation Dualsense controller",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Boobie",
+        "Raul"
+      ]
+    }
+  ],
+  "caption": "Serie GTA VI · Los personajes.\n\nCon el segundo tráiler, Rockstar presentó a los personajes que rodean a Lucía y Jason, y casi todos tienen un negocio (GosuGamers):\n\n· Boobie Ike: bienes raíces, un club y un estudio de grabación. \"Boobie es una leyenda local de Vice City, y actúa como tal\".\n· Dre'Quan Priest: socio de Boobie en el sello Only Raw Records. \"Siempre fue más buscavidas que gánster\".\n· Real Dimez: dúo de rap de dos amigas del colegio, virales en redes, firmadas con Only Raw.\n· Raul Bautista: ladrón de bancos que recluta talento para golpes grandes.\n· Brian Heder: traficante de la vieja escuela que mueve contrabando desde su astillero en los Cayos y le da casa a Jason.\n· Cal Hampton: amigo de Jason, aficionado a las teorías conspirativas.\n\nFuente: GosuGamers, perfiles oficiales de Rockstar Games (mayo de 2025).\n\n¿Con quién harías negocios: Boobie o Raul?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#GTA",
+    "#RockstarGames",
+    "#Videojuegos",
+    "#ViceCity",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Boobie Ike (bienes raíces, club, estudio; 'local Vice City legend'), Dre'Quan Priest ('more of a hustler than a gangster'), Only Raw Records, Real Dimez, Raul Bautista, Brian Heder, Cal Hampton",
+      "url": "https://www.gosugamers.net/entertainment/news/74896-all-major-gta-vi-characters-revealed-so-far-including-jason-and-lucia"
+    },
+    {
+      "afirmacion": "Personajes y zonas presentados con el tráiler 2 (6 de mayo de 2025)",
+      "url": "https://gameinformer.com/2025/05/06/rockstar-shows-off-six-major-areas-of-vice-city-in-grand-theft-auto-vi"
+    }
+  ]
+}

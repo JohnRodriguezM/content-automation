@@ -1,0 +1,256 @@
+{
+  "id": "2026-11-24-gta-trailer-2-475-millones",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Grand Theft Auto VI logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "Más que [[Deadpool]]",
+    "dato": "475 millones en 24 horas",
+    "foto": "1.2"
+  },
+  "tema": "El segundo tráiler de GTA VI sumó 475 millones de vistas en 24 horas, más que el récord de Deadpool y Wolverine",
+  "pregunta_principal": "¿Cuál te gustó más: el primer tráiler o el segundo?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] El segundo tráiler de GTA VI superó a Deadpool y Wolverine.",
+      "imagenes": [
+        {
+          "busqueda": "Ryan Reynolds",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "persona": {
+            "nombre": "Ryan Reynolds",
+            "cargo": "Deadpool"
+          }
+        },
+        {
+          "busqueda": "movie theater audience",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Deadpool",
+        "Wolverine"
+      ],
+      "titulo": "475 millones en [[24 horas]]",
+      "contador": {
+        "valor": "475.000.000",
+        "etiqueta": "vistas en 24 horas"
+      },
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Mayo de 2025. Rockstar publica el segundo tráiler de GTA VI.",
+      "imagenes": [
+        {
+          "busqueda": "Downtown Miami skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "segundo tráiler"
+      ],
+      "fecha": "2025",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Tráiler [[2]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Según Rockstar, en 24 horas sumó 475 millones de vistas entre todas las plataformas. Solo en YouTube, 85 millones.",
+      "imagenes": [
+        {
+          "busqueda": "people watching smartphones",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "475 millones",
+        "85 millones"
+      ],
+      "segun": "según TechRadar",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "85M",
+          "etiqueta": "vistas solo en YouTube"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El récord de un tráiler de película lo tenía Deadpool y Wolverine, con 365 millones. Spider-Man: No Way Home, 355.",
+      "imagenes": [
+        {
+          "busqueda": "Ryan Reynolds",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "persona": {
+            "nombre": "Ryan Reynolds",
+            "cargo": "Deadpool y Wolverine"
+          }
+        }
+      ],
+      "destacar": [
+        "365 millones",
+        "355"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "365M",
+            "texto": "Deadpool y Wolverine",
+            "icono": "celular"
+          },
+          "despues": {
+            "valor": "475M",
+            "texto": "Tráiler 2 de GTA VI",
+            "icono": "celular"
+          }
+        }
+      ],
+      "orden": "pf"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y Rockstar avisó que el tráiler estaba compuesto en partes iguales de gameplay y escenas cinemáticas.",
+      "imagenes": [
+        {
+          "busqueda": "Playstation DualSense Controller",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "gameplay",
+        "cinemáticas"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Compuesto en partes iguales de gameplay y escenas cinemáticas.",
+          "autor": "Rockstar Games, sobre el tráiler 2"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "El primero, en 2023, se filtró y lo tuvieron que soltar un día antes. Hizo 90 millones solo en YouTube. Este, sumando todo, fue más de cinco veces eso.",
+      "imagenes": [
+        {
+          "busqueda": "Boulevard Hotel neon sign Miami Beach",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "filtró",
+        "cinco veces"
+      ],
+      "fecha": "2023",
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "90M",
+            "texto": "Tráiler 1 · YouTube",
+            "icono": "celular"
+          },
+          "despues": {
+            "valor": "475M",
+            "texto": "Tráiler 2 · total",
+            "icono": "celular"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Hoy, el tráiler de un videojuego mueve más gente que el de una película de Marvel. El entretenimiento cambió de pantalla.",
+      "imagenes": [
+        {
+          "busqueda": "gamers playing video games",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Marvel",
+        "pantalla"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "El entretenimiento cambió de [[pantalla]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Cuál te gustó más: el primer tráiler o el segundo?",
+      "imagenes": [
+        {
+          "busqueda": "Xbox Wireless Controllers Xbox Series X",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "primer",
+        "segundo"
+      ]
+    }
+  ],
+  "caption": "Serie GTA VI · El tráiler 2.\n\nEn mayo de 2025, el segundo tráiler de GTA VI sumó 475 millones de vistas en 24 horas entre todas las plataformas, según Rockstar (85 millones solo en YouTube). El récord de lanzamiento de un tráiler de película lo tenía Deadpool y Wolverine, con 365 millones; Spider-Man: No Way Home tuvo 355,5 millones (TechRadar).\n\nRockstar dijo que el tráiler estaba compuesto \"en partes iguales de gameplay y escenas cinemáticas\".\n\nEl primer tráiler, de diciembre de 2023, se filtró y salió un día antes de lo previsto (estaba programado para el 5 de diciembre). Hizo 90,4 millones de vistas en YouTube en 24 horas.\n\nFuentes: TechRadar (8 may 2025), FOX 5 DC (4 dic 2023), Push Square (6 dic 2023).\n\n¿Cuál te gustó más: el primer tráiler o el segundo?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#GTA",
+    "#RockstarGames",
+    "#Videojuegos",
+    "#ViceCity",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "475 millones de vistas en 24 horas en todas las plataformas; 85 millones en YouTube; Deadpool y Wolverine 365 millones; Spider-Man: No Way Home 355,5 millones; 'equal parts gameplay and cutscenes'",
+      "url": "https://www.techradar.com/gaming/the-latest-grand-theft-auto-6-trailer-has-set-a-major-record-by-racking-up-475-million-views-in-just-24-hours"
+    },
+    {
+      "afirmacion": "El primer tráiler se filtró y salió el 4 de diciembre de 2023; estaba programado para el 5",
+      "url": "https://www.fox5dc.com/news/new-grand-theft-auto-6-trailer-published-early-following-leaks"
+    },
+    {
+      "afirmacion": "Tráiler 1: 90.421.491 vistas en YouTube en 24 horas",
+      "url": "https://pushsquare.com/news/2023/12/gta-6-trailer-pulls-90-million-views-in-24-hours-sets-new-world-records"
+    }
+  ]
+}

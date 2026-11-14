@@ -1,0 +1,318 @@
+{
+  "id": "2026-11-20-gta-leonida-es-florida",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Grand Theft Auto VI logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "Leonida es [[Florida]]",
+    "dato": "El mapa de GTA VI",
+    "foto": "1.1"
+  },
+  "tema": "Leonida, el estado de GTA VI, calca a Florida: Vice City es Miami, Grassrivers los Everglades y Ambrosia el pueblo azucarero de Clewiston",
+  "pregunta_principal": "¿Vice City o los Cayos: por dónde arrancas?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] El mapa de GTA VI es Florida. Hasta su pueblo del azúcar.",
+      "imagenes": [
+        {
+          "busqueda": "Ocean drive south beach miami night",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Seven Mile Bridge Florida Keys",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Florida",
+        "azúcar"
+      ],
+      "titulo": "Leonida es [[Florida]]",
+      "contador": {
+        "valor": "6",
+        "etiqueta": "zonas que mostró Rockstar"
+      },
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "miami",
+              "etiqueta": "Vice City · Miami"
+            }
+          ]
+        }
+      ],
+      "orden": "ffp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En mayo de 2025, Rockstar mostró seis zonas del estado de Leonida. Y casi todas tienen una gemela en la vida real.",
+      "imagenes": [
+        {
+          "busqueda": "Florida from space",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "seis zonas",
+        "gemela"
+      ],
+      "segun": "según Game Informer",
+      "fecha": "2025",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "6 zonas, 6 [[gemelas reales]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Vice City es Miami: playas, neón y rascacielos. Según GTABase, hasta la arena del Heat tiene su versión: la Sahara Arena.",
+      "imagenes": [
+        {
+          "busqueda": "Kaseya Center Miami",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Downtown Miami skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Miami",
+        "Sahara Arena"
+      ],
+      "segun": "según GTABase",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "miami",
+              "etiqueta": "Vice City"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Los Cayos de Leonida son los Cayos de Florida, con su puente de siete millas. Y Grassrivers son los Everglades: el nombre sale de su apodo, el río de hierba.",
+      "imagenes": [
+        {
+          "busqueda": "Everglades airboat",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "alligator Everglades",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Cayos",
+        "río de hierba"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "miami",
+              "etiqueta": "Vice City"
+            },
+            {
+              "lugar": "cayo-hueso",
+              "etiqueta": "Leonida Keys"
+            },
+            {
+              "lugar": "everglades",
+              "etiqueta": "Grassrivers"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Port Gellhorn, la costa olvidada de Leonida, se parece a Panama City, en el norte del estado.",
+      "imagenes": [
+        {
+          "busqueda": "Panama City Beach Florida",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Port Gellhorn",
+        "Panama City"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "miami",
+              "etiqueta": "Vice City"
+            },
+            {
+              "lugar": "panama-city-fl",
+              "etiqueta": "Port Gellhorn"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y la mejor: Ambrosia, cuyo lema es «manteniendo dulce a Leonida». Su gemela es Clewiston, un pueblo azucarero real que se hace llamar el pueblo más dulce de Estados Unidos.",
+      "imagenes": [
+        {
+          "busqueda": "United States Sugar Corporation Clewiston",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "sugarcane harvest Florida",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Ambrosia",
+        "Clewiston"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "clewiston",
+              "etiqueta": "Clewiston → Ambrosia"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Hasta el lago Okeechobee aparece, con otro nombre: Lake Leonida. Y la refinería del juego se parece a la de U.S. Sugar.",
+      "imagenes": [
+        {
+          "busqueda": "Lake Okeechobee",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Okeechobee",
+        "U.S. Sugar"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Okeechobee → [[Lake Leonida]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Rockstar nunca dice Florida: Leonida es una sátira. Toma lo real y lo exagera. Por eso se siente creíble.",
+      "imagenes": [
+        {
+          "busqueda": "Miami Beach Art Deco",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "sátira",
+        "creíble"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Lo real, [[exagerado]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Vice City o los Cayos: por dónde arrancas?",
+      "imagenes": [
+        {
+          "busqueda": "Seven Mile Bridge",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Vice City",
+        "Cayos"
+      ]
+    }
+  ],
+  "caption": "Serie GTA VI · El mapa.\n\nEn mayo de 2025 Rockstar mostró seis zonas de Leonida, el estado ficticio de GTA VI, según Game Informer. Casi todas tienen una gemela en Florida, según la comparación de GTABase:\n\n· Vice City es Miami (el Kaseya Center se vuelve la Sahara Arena).\n· Leonida Keys son los Cayos de la Florida, con el puente de las Siete Millas.\n· Grassrivers son los Everglades: el nombre viene de su apodo, \"River of Grass\".\n· Port Gellhorn, \"la costa olvidada de Leonida\", se parece a Panama City.\n· Ambrosia (\"Keeping Leonida Sweet\") es Clewiston, \"America's Sweetest Town\", junto al lago Okeechobee, que en el juego se llama Lake Leonida.\n\nRockstar no usa nombres reales: Leonida es una versión satírica de Florida.\n\nFuentes: Game Informer (6 may 2025), GTABase (3 oct 2026), Newschannel 9 (19 jun 2026).\n\n¿Vice City o los Cayos: por dónde arrancas?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#GTA",
+    "#RockstarGames",
+    "#Videojuegos",
+    "#ViceCity",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Rockstar mostró seis zonas: Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia, Mount Kalaga",
+      "url": "https://gameinformer.com/2025/05/06/rockstar-shows-off-six-major-areas-of-vice-city-in-grand-theft-auto-vi"
+    },
+    {
+      "afirmacion": "Vice City = Miami (Kaseya Center → Sahara Arena); Leonida Keys = Florida Keys (Seven Mile Bridge); Grassrivers = Everglades ('River of Grass'); Port Gellhorn = Panama City; Ambrosia = Clewiston ('America's Sweetest Town' / 'Keeping Leonida Sweet'); Lake Okeechobee = Lake Leonida; Allied Crystal ≈ U.S. Sugar",
+      "url": "https://www.gtabase.com/articles/gta-6/how-gta-6-s-leonida-compares-to-real-life-florida-locations"
+    },
+    {
+      "afirmacion": "Leonida es una versión ficticia y satírica de Florida; Rockstar no usa ciudades reales por nombre",
+      "url": "https://newschannel9.com/news/offbeat/rockstar-games-grand-theft-auto-vi-brings-series-back-florida-inspired-vice-city-leonida-everglades-miami-florida-keys-wetland-video-game-xbox-playstation-jason-duval-lucia-caminos"
+    }
+  ]
+}

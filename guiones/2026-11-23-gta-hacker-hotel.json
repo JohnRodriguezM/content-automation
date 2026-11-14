@@ -1,0 +1,275 @@
+{
+  "id": "2026-11-23-gta-hacker-hotel",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Grand Theft Auto VI logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "Hackeado desde [[un hotel]]",
+    "dato": "US$5 millones para Rockstar",
+    "foto": "1.1"
+  },
+  "tema": "Arion Kurtaj, de Lapsus$, filtró 90 videos de GTA VI en 2022 desde un hotel con un Fire Stick; a Rockstar le costó US$5 millones",
+  "pregunta_principal": "Mándaselo al que dice que su contraseña es segura.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Un hacker de 18 años filtró GTA VI desde un hotel.",
+      "imagenes": [
+        {
+          "busqueda": "Hereford Travelodge",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "laptop dark room",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "hacker",
+        "hotel"
+      ],
+      "titulo": "Hackeado desde [[un hotel]]",
+      "contador": {
+        "valor": "US$5M",
+        "etiqueta": "le costó a Rockstar"
+      },
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Septiembre de 2022. Aparecen en internet más de 90 videos e imágenes de una versión temprana de GTA VI.",
+      "imagenes": [
+        {
+          "busqueda": "CSS code on a screen",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "90 videos",
+        "temprana"
+      ],
+      "segun": "según GamesRadar",
+      "fecha": "2022",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "90+",
+          "etiqueta": "videos e imágenes filtrados"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El responsable: Arion Kurtaj, del grupo Lapsus$, que también había atacado a Nvidia, a Uber y a la red británica EE.",
+      "imagenes": [
+        {
+          "busqueda": "Nvidia headquarters",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Uber headquarters San Francisco",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Kurtaj",
+        "Lapsus$"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Nvidia, Uber, EE… y [[Rockstar]]"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Lo absurdo: ya estaba bajo protección policial en un hotel Travelodge. Y atacó a Rockstar con el televisor del cuarto, un celular y un Amazon Fire Stick.",
+      "imagenes": [
+        {
+          "busqueda": "Amazon Fire TV Stick",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "hotel room television",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Travelodge",
+        "Fire Stick"
+      ],
+      "segun": "según ITPro",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "TV + celular + [[Fire Stick]]"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Entró al Slack de la empresa y escribió: «Si Rockstar no me contacta en Telegram en 24 horas, empezaré a publicar el código fuente».",
+      "imagenes": [
+        {
+          "busqueda": "social media smartphone screen",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Slack",
+        "código fuente"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Si Rockstar no me contacta en Telegram en 24 horas, empezaré a publicar el código fuente.",
+          "autor": "Arion Kurtaj, en el Slack de Rockstar"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Rockstar le dijo a un tribunal británico que la filtración le costó cinco millones de dólares y miles de horas de trabajo.",
+      "imagenes": [
+        {
+          "busqueda": "London Southwark Crown Court",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cinco millones",
+        "horas"
+      ],
+      "fecha": "2023",
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "GamesRadar",
+          "fecha": "22 dic 2023",
+          "titular": "The GTA 6 leak cost Rockstar $5 million and \"thousands of hours of staff time\"",
+          "resaltar": "$5 million"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 2023 lo enviaron indefinidamente a un hospital de seguridad. En 2026 pasó a una cárcel normal, y su nuevo juicio quedó para el 9 de noviembre, diez días antes del lanzamiento.",
+      "imagenes": [
+        {
+          "busqueda": "prison bars",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "hospital",
+        "9 de noviembre"
+      ],
+      "segun": "según Notebookcheck",
+      "fecha": "2026",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Juicio: [[10 días antes]] del lanzamiento"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Una empresa de miles de millones, contra un televisor de hotel. A veces el ataque más caro es el más barato de hacer.",
+      "imagenes": [
+        {
+          "busqueda": "Hotel Hallway",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "televisor",
+        "barato"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "El ataque más caro, el más [[barato]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mándaselo al que dice que su contraseña es segura.",
+      "imagenes": [
+        {
+          "busqueda": "padlock with keys",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "contraseña"
+      ]
+    }
+  ],
+  "caption": "Serie GTA VI · La filtración.\n\nEn septiembre de 2022 aparecieron más de 90 videos e imágenes de una versión temprana de GTA VI. El responsable fue Arion Kurtaj, de 18 años, miembro de Lapsus$, grupo que también atacó a Nvidia, Uber, Revolut y la red EE de BT.\n\nSegún ITPro, lo hizo mientras estaba bajo protección policial en un hotel Travelodge, con el televisor del cuarto, un celular y un Amazon Fire Stick. Entró al Slack de Rockstar y escribió: \"Si Rockstar no me contacta en Telegram en 24 horas, empezaré a publicar el código fuente\".\n\nRockstar dijo ante un tribunal que la filtración le costó US$5 millones y miles de horas de trabajo. En diciembre de 2023 un juez le impuso una orden de hospital indefinida. En 2026 fue trasladado a una cárcel normal y su nuevo juicio quedó fijado para el 9 de noviembre en Woolwich Crown Court, diez días antes del lanzamiento.\n\nFuentes: GamesRadar (22 dic 2023 y 16 jul 2026), ITPro (22 dic 2023), Notebookcheck (10 oct 2026).\n\nMándaselo al que dice que su contraseña es segura.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#GTA",
+    "#RockstarGames",
+    "#Videojuegos",
+    "#ViceCity",
+    "#HistoriasDeNegocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Más de 90 imágenes y videos filtrados en septiembre de 2022; costo de US$5 millones y miles de horas",
+      "url": "https://www.gamesradar.com/the-gta-6-leak-cost-rockstar-dollar5-million-and-thousands-of-hours-of-staff-time"
+    },
+    {
+      "afirmacion": "Kurtaj, 18 años, Lapsus$; Nvidia, Uber, Revolut, BT/EE; Travelodge, TV, celular y Fire Stick; mensaje en Slack; orden de hospital indefinida",
+      "url": "https://itpro.com/security/the-infamous-gta-vi-hacker-has-been-convicted-and-the-story-is-simply-absurd"
+    },
+    {
+      "afirmacion": "Salió del hospital de seguridad a una cárcel normal; nuevo juicio en noviembre de 2026",
+      "url": "https://www.gamesradar.com/games/grand-theft-auto/hacker-behind-gta6-leak-that-cost-rockstar-usd5-million-reportedly-awaiting-retrial-after-being-released-from-secure-hospital/"
+    },
+    {
+      "afirmacion": "Juicio fijado para el 9 de noviembre de 2026 en Woolwich Crown Court",
+      "url": "https://www.notebookcheck.net/Hacker-who-leaked-GTA-6-gameplay-goes-on-trial-10-days-before-release-date.1420448.0.html"
+    }
+  ]
+}
