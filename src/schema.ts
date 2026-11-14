@@ -12,6 +12,8 @@ export const imagenSchema = z.object({
   // completa: la foto cubre toda la pantalla (fotos verticales o b-roll)
   modo: z.enum(["relleno", "completa"]).default("relleno"),
   filtro: z.enum(["ninguno", "bn", "sepia"]).default("ninguno"),
+  // Estilo documental: si la foto es de una persona, su nombre y cargo en un rótulo (ej. "Michel Olmi" / "cofundador de D1")
+  persona: z.object({ nombre: z.string().max(40), cargo: z.string().max(40) }).optional(),
   // Se completan solos al resolver:
   url: z.string().url().optional(),
   archivo: z.string().optional(),
@@ -41,6 +43,12 @@ export const motionSchema = z.discriminatedUnion("tipo", [
     puntos: z.array(z.object({ lugar: z.string(), etiqueta: z.string().max(32) })).min(1).max(4),
     ruta: z.boolean().default(true),
   }),
+  // Estilo documental: cita textual con su autor y dónde la dijo (solo citas reales, copiadas de la fuente)
+  z.object({
+    tipo: z.literal("cita"),
+    texto: z.string().max(120),
+    autor: z.string().max(70),
+  }),
   // Estilo documental: recorte de prensa con un titular REAL (verificado), medio y fecha
   z.object({
     tipo: z.literal("recorte"),
@@ -62,6 +70,13 @@ export const escenaSchema = z.object({
   titulo: z.string().max(60).optional(),
   // Rótulo con el nombre de la persona/empresa en pantalla
   rotulo: z.string().max(40).optional(),
+  // Estilo documental:
+  // contador → barra arriba en el gancho con el logo y una cifra que cuenta ("2.850" tiendas)
+  contador: z.object({ valor: z.string().max(12), etiqueta: z.string().max(30).optional() }).optional(),
+  // segun → etiqueta de fuente al arrancar la escena ("según Forbes")
+  segun: z.string().max(40).optional(),
+  // fecha → marca en la línea de tiempo que avanza a lo largo del video ("OCT. 2016", "2025")
+  fecha: z.string().max(16).optional(),
   // Versión motion: 1-3 visuales que se reparten la escena
   motion: z.array(motionSchema).min(1).max(3).optional(),
   // Estilo documental: orden de los planos, "f" = siguiente foto, "p" = siguiente pieza (ej. "pfpf").
@@ -108,4 +123,5 @@ export type Timing = {
 };
 
 // efectos: hay librería de sonidos en public/sonidos/ (estilo documental)
-export type VideoProps = { guion: Guion; timing: Timing; audio: string | null; musica: string | null; efectos?: boolean };
+// perfil/usuario: foto y @ del narrador para la tarjeta final de "sígueme" (estilo documental)
+export type VideoProps = { guion: Guion; timing: Timing; audio: string | null; musica: string | null; efectos?: boolean; perfil?: string | null; usuario?: string | null };

@@ -21,7 +21,7 @@ const Root: React.FC = () => {
     durationInFrames: FPS * 10,
     defaultProps: { guion, timing: estimarTiming(guion), audio: null, musica: null } satisfies VideoProps,
     calculateMetadata: ({ props }: { props: VideoProps }) => ({
-      durationInFrames: Math.ceil((props.timing.duracion + 0.6) * FPS),
+      durationInFrames: Math.ceil((props.timing.duracion + (props.perfil ? 2.8 : 0.6)) * FPS), // con tarjeta final, 2,8 s más
     }),
   };
   return (

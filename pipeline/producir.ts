@@ -288,8 +288,16 @@ async function main() {
   const musica = musicaDoc ?? ((await existe(path.join(PUBLIC, "musica.mp3"))) ? "musica.mp3" : null);
   const efectos = doc && (await existe(path.join(PUBLIC, "sonidos", "whoosh.mp3")));
   if (doc) console.log(`  música: ${musica ?? "ninguna"} · efectos: ${efectos ? "sí" : "no"}`);
+  // Tarjeta final de "sígueme" (solo estilo documental): foto en public/marca/<narrador>.jpg + su @
+  const PERFILES: Record<string, string> = { john: "@johnjrodriguez_" };
+  const fotoPerfil = `marca/${guion.narrador}.jpg`;
+  const conPerfil = doc && Boolean(PERFILES[guion.narrador ?? ""]) && (await existe(path.join(PUBLIC, fotoPerfil)));
+  const perfil = conPerfil ? fotoPerfil : null;
+  const usuario = conPerfil ? PERFILES[guion.narrador!] : null;
+  if (doc) console.log(`  tarjeta final: ${conPerfil ? usuario : "no (falta public/" + fotoPerfil + ")"}`);
+  if (timing.duracion > 90) console.log(`  ⚠ dura ${timing.duracion.toFixed(1)} s: pasa de 1:30`);
   const comp = ({ mixto: "Mixto", documental: "Documental", clasico: "Video", motion: "Motion", tablero: "Tablero" } as const)[estilo];
-  await render({ guion, timing, audio, musica, efectos }, video, comp);
+  await render({ guion, timing, audio, musica, efectos, perfil, usuario }, video, comp);
 
   const modo = (flag("publicar") ?? "no") as "borrador" | "programar" | "no";
   if (modo !== "no") {

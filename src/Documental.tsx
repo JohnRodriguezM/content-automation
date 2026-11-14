@@ -30,6 +30,7 @@ const MONO = "'IBM Plex Mono', monospace";
 const SERIF = "'Playfair Display', serif";
 const T = 6; // cuadros de transición entre planos
 const LOGO_CUADROS = 100;
+const TITULO_CUADROS = 84; // el título del gancho (y el contador) se ven ~2,8 s; mientras tanto no hay subtítulos
 
 const src = (s: string) => (s.startsWith("http") ? s : staticFile(s));
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
@@ -301,6 +302,24 @@ const Frase: React.FC<{ texto: string }> = ({ texto }) => {
   );
 };
 
+/** Cita textual: grande, entre comillas, con quién la dijo y dónde. */
+const Cita: React.FC<{ texto: string; autor: string }> = ({ texto, autor }) => {
+  const f = useCurrentFrame();
+  const e = salida(f / 9);
+  return (
+    <AbsoluteFill style={{ justifyContent: "center", padding: "0 90px 330px" }}>
+      <div style={{ opacity: e, transform: `translateY(${(1 - e) * 30}px)` }}>
+        <div style={{ fontFamily: GRUESA, fontWeight: 700, fontSize: texto.length > 70 ? 70 : 86, lineHeight: 1.1, color: "#fff", textTransform: "uppercase", textShadow: "0 6px 30px rgba(0,0,0,0.6)" }}>
+          “{texto}”
+        </div>
+        <div style={{ display: "inline-block", marginTop: 30, background: "rgba(8,9,12,0.88)", color: "#fff", fontFamily: MONO, fontWeight: 500, fontSize: 28, padding: "8px 16px", opacity: interpolate(f, [8, 16], [0, 1], clamp) }}>
+          {autor}
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 const Lista: React.FC<{ items: { texto: string }[]; dur: number }> = ({ items, dur }) => {
   const f = useCurrentFrame();
   const paso = Math.max(8, Math.floor((dur - 10) / items.length));
@@ -345,6 +364,7 @@ const sonidoDe = (p: Plano): [string, number] | null => {
   if (p.tipo === "foto") return ["swish", 0.22];
   switch (p.v.tipo) {
     case "recorte": return ["papel", 0.55];
+    case "cita": return ["maquina", 0.22];
     case "dato": case "contraste": return ["impacto", 0.4];
     case "mapa": return ["whoosh", 0.3];
     default: return ["swish", 0.25];
@@ -371,20 +391,118 @@ const Pieza: React.FC<{ v: Motion; dur: number; seed: string; efectos?: boolean 
     case "contraste": return <Barras v={v} />;
     case "titulo": return <Frase texto={v.texto} />;
     case "iconos": return <Lista items={v.items} dur={dur} />;
+    case "cita": return <Cita texto={v.texto} autor={v.autor} />;
   }
 };
 
 /** Título del gancho: visible desde el cuadro 0 (portada del video). */
-const TituloGancho: React.FC<{ texto: string; dur: number; conLogo: boolean }> = ({ texto, dur, conLogo }) => {
+const TituloGancho: React.FC<{ texto: string; dur: number; segun?: string }> = ({ texto, dur, segun }) => {
   const f = useCurrentFrame();
   const o = interpolate(f, [dur - 8, dur], [1, 0], clamp);
+  const largo = texto.replace(/\[\[|\]\]/g, "").length;
+  const caja = (color: string): React.CSSProperties => ({
+    fontFamily: GRUESA, fontWeight: 700, fontSize: largo > 34 ? 74 : largo > 22 ? 86 : 104, lineHeight: 1.22, color, textTransform: "uppercase",
+    background: "rgba(10,11,14,0.92)", padding: "2px 22px", boxDecorationBreak: "clone", WebkitBoxDecorationBreak: "clone",
+  });
   return (
-    <div style={{ position: "absolute", top: conLogo ? 330 : 250, left: 60, right: 60, textAlign: "center", opacity: o }}>
-      <span style={{
-        fontFamily: GRUESA, fontWeight: 700, fontSize: texto.length > 24 ? 96 : 116, lineHeight: 1.16, color: "#fff", textTransform: "uppercase",
-        background: ROJO, padding: "2px 22px", boxDecorationBreak: "clone", WebkitBoxDecorationBreak: "clone",
-      }}>{texto}</span>
+    <div style={{ position: "absolute", top: 780, left: 60, right: 60, textAlign: "center", opacity: o }}>
+      {segun && (
+        <div style={{ display: "inline-block", marginBottom: 14, background: "rgba(10,11,14,0.92)", color: "#fff", fontFamily: MONO, fontWeight: 500, fontSize: 30, padding: "4px 14px" }}>{segun}</div>
+      )}
+      {texto.split(/(\[\[[^\]]+\]\])/).filter((t) => t.trim()).map((t, i) => (
+        <div key={i}><span style={caja(t.startsWith("[[") ? AMARILLO : "#fff")}>{t.startsWith("[[") ? t.slice(2, -2) : t.trim()}</span></div>
+      ))}
     </div>
+  );
+};
+
+/** Barra del gancho: logo, puntos y una cifra que cuenta (como "D1 · · · · 2.850"). */
+const Contador: React.FC<{ valor: string; etiqueta?: string; logo?: string; dur: number }> = ({ valor, etiqueta, logo, dur }) => {
+  const f = useCurrentFrame();
+  const num = leerNumero(valor);
+  const p = salida(f / 30);
+  const o = interpolate(f, [dur - 8, dur], [1, 0], clamp);
+  return (
+    <div style={{ position: "absolute", top: 300, left: 110, right: 110, opacity: o }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 22, background: "rgba(10,11,14,0.92)", borderRadius: 16, padding: "14px 26px 14px 14px" }}>
+        {logo ? (
+          <div style={{ background: "#fff", borderRadius: 12, width: 92, height: 92, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+            <Img src={src(logo)} style={{ maxWidth: 78, maxHeight: 78, objectFit: "contain" }} />
+          </div>
+        ) : (
+          <div style={{ fontFamily: GRUESA, fontWeight: 500, fontSize: 40, color: "#fff", textTransform: "uppercase", flexShrink: 0 }}>{etiqueta}</div>
+        )}
+        <div style={{ flex: 1, borderBottom: "6px dotted rgba(255,255,255,0.55)", transform: "translateY(10px)" }} />
+        <div style={{ fontFamily: GRUESA, fontWeight: 700, fontSize: 84, color: AMARILLO, lineHeight: 1 }}>{num && !num.anio ? num.escribir(num.n * p) : valor}</div>
+      </div>
+      {logo && etiqueta && (
+        <div style={{ textAlign: "right", marginTop: 8, fontFamily: MONO, fontSize: 24, color: "#fff", textTransform: "uppercase", textShadow: "0 2px 8px #000" }}>{etiqueta}</div>
+      )}
+    </div>
+  );
+};
+
+/** Fuente de lo que se cuenta en la escena ("según Forbes"). */
+const Segun: React.FC<{ texto: string; dur: number; abajo?: boolean }> = ({ texto, dur, abajo }) => {
+  const f = useCurrentFrame();
+  const o = Math.min(interpolate(f, [2, 8], [0, 1], clamp), interpolate(f, [dur - 8, dur], [1, 0], clamp));
+  return (
+    <div style={{ position: "absolute", top: abajo ? 280 : 210, left: 60, opacity: o, background: "rgba(10,11,14,0.88)", color: "#fff", fontFamily: MONO, fontWeight: 500, fontSize: 30, padding: "6px 14px" }}>
+      {texto}
+    </div>
+  );
+};
+
+/** Línea de tiempo: el punto viaja a la fecha de esta escena desde la anterior. */
+export type Linea = { x0: number; x1: number; texto: string };
+const LineaTiempo: React.FC<Linea & { dur: number }> = ({ x0, x1, texto, dur }) => {
+  const f = useCurrentFrame();
+  const x = interpolate(f, [4, 20], [x0, x1], { ...clamp, easing: Easing.inOut(Easing.cubic) });
+  const o = Math.min(interpolate(f, [0, 6], [0, 1], clamp), interpolate(f, [dur - 8, dur], [1, 0], clamp));
+  const Y = 1060;
+  return (
+    <div style={{ position: "absolute", inset: 0, opacity: o }}>
+      <div style={{ position: "absolute", left: 120, right: 120, top: Y, height: 4, background: "rgba(255,255,255,0.7)", boxShadow: "0 0 10px rgba(0,0,0,0.6)" }} />
+      <div style={{ position: "absolute", left: x - 14, top: Y - 12, width: 28, height: 28, borderRadius: 14, background: ROJO, border: "4px solid #fff" }} />
+      <div style={{ position: "absolute", left: x, top: Y - 80, transform: "translateX(-50%)", background: "rgba(10,11,14,0.92)", color: AMARILLO, fontFamily: MONO, fontWeight: 500, fontSize: 34, padding: "4px 14px", whiteSpace: "nowrap", textTransform: "uppercase" }}>
+        {texto}
+      </div>
+    </div>
+  );
+};
+
+/** Nombre y cargo sobre la foto de una persona. */
+const Persona: React.FC<{ nombre: string; cargo: string }> = ({ nombre, cargo }) => {
+  const f = useCurrentFrame();
+  const e = salida((f - 4) / 8);
+  return (
+    <div style={{ position: "absolute", left: 60, top: 930, opacity: e, transform: `translateX(${(1 - e) * -40}px)`, background: "rgba(10,11,14,0.9)", padding: "12px 20px", borderLeft: `6px solid ${AMARILLO}` }}>
+      <div style={{ fontFamily: GRUESA, fontWeight: 500, fontSize: 46, color: "#fff", lineHeight: 1.1 }}>{nombre}</div>
+      <div style={{ fontFamily: MONO, fontWeight: 500, fontSize: 24, color: AMARILLO, textTransform: "uppercase", marginTop: 4 }}>{cargo}</div>
+    </div>
+  );
+};
+
+/** Tarjeta final: foto y @ del narrador para que lo sigan. */
+const TarjetaFinal: React.FC<{ foto: string; usuario: string }> = ({ foto, usuario }) => {
+  const f = useCurrentFrame();
+  const e = salida(f / 10);
+  const pulso = 1 + 0.06 * Math.max(0, Math.sin((f - 14) / 5));
+  return (
+    <AbsoluteFill style={{ background: "rgba(8,10,14,0.78)", backdropFilter: "blur(16px)", justifyContent: "center", alignItems: "center", opacity: Math.min(1, f / 6) }}>
+      <div style={{ transform: `scale(${interpolate(e, [0, 1], [0.88, 1])})`, width: 600, padding: "56px 40px 60px", borderRadius: 40, background: "#15171c", border: "2px solid rgba(255,255,255,0.08)", display: "flex", flexDirection: "column", alignItems: "center", boxShadow: "0 30px 80px rgba(0,0,0,0.5)" }}>
+        <div style={{ fontFamily: GRUESA, fontWeight: 500, fontSize: 56, color: "#fff", marginBottom: 36 }}>{usuario}</div>
+        <div style={{ position: "relative", width: 300, height: 300 }}>
+          <div style={{ width: 300, height: 300, borderRadius: 150, overflow: "hidden", border: `8px solid ${AMARILLO}` }}>
+            <Img src={src(foto)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+          </div>
+          <div style={{ position: "absolute", left: 108, bottom: -38, width: 84, height: 84, borderRadius: 42, background: ROJO, border: "6px solid #15171c", display: "flex", alignItems: "center", justifyContent: "center", transform: `scale(${pulso})` }}>
+            <div style={{ fontFamily: GRUESA, fontWeight: 700, fontSize: 64, color: "#fff", lineHeight: 1, marginTop: -6 }}>+</div>
+          </div>
+        </div>
+        <div style={{ fontFamily: MONO, fontWeight: 500, fontSize: 28, color: "rgba(255,255,255,0.75)", marginTop: 66, textAlign: "center", lineHeight: 1.35 }}>Una historia de negocios<br />cada día</div>
+      </div>
+    </AbsoluteFill>
   );
 };
 
@@ -415,10 +533,11 @@ const Logo: React.FC<{ archivo: string; dur: number }> = ({ archivo, dur }) => {
   );
 };
 
-const EscenaDoc: React.FC<{ e: Escena; dur: number; idx: number; efectos?: boolean; logo?: string }> = ({ e, dur, idx, efectos, logo }) => {
+const EscenaDoc: React.FC<{ e: Escena; dur: number; idx: number; efectos?: boolean; logo?: string; linea?: Linea }> = ({ e, dur, idx, efectos, logo, linea }) => {
   const ps = planos(e);
   const base = Math.floor(dur / ps.length);
-  const conLogo = idx === 0 && Boolean(logo);
+  const conContador = idx === 0 && Boolean(e.contador);
+  const conLogo = idx === 0 && Boolean(logo) && !conContador;
   return (
     <AbsoluteFill>
       {ps.map((p, j) => {
@@ -433,6 +552,7 @@ const EscenaDoc: React.FC<{ e: Escena; dur: number; idx: number; efectos?: boole
                 <>
                   <Foto img={p.img} dur={d + T} seed={seed} />
                   <Credito texto={p.img.credito} />
+                  {p.img.persona && <Persona nombre={p.img.persona.nombre} cargo={p.img.persona.cargo} />}
                 </>
               ) : (
                 <>
@@ -447,7 +567,10 @@ const EscenaDoc: React.FC<{ e: Escena; dur: number; idx: number; efectos?: boole
       })}
       {e.rotulo && <Sequence durationInFrames={Math.min(dur, 84)}><Rotulo texto={e.rotulo} dur={Math.min(dur, 84)} /><Sfx n="maquina" v={0.2} on={efectos} desde={3} /></Sequence>}
       {conLogo && <Sequence durationInFrames={Math.min(dur, LOGO_CUADROS)}><Logo archivo={logo!} dur={Math.min(dur, LOGO_CUADROS)} /></Sequence>}
-      {idx === 0 && e.titulo && <Sequence durationInFrames={Math.min(dur, 80)}><TituloGancho texto={e.titulo} dur={Math.min(dur, 80)} conLogo={conLogo} /></Sequence>}
+      {conContador && <Sequence durationInFrames={Math.min(dur, TITULO_CUADROS)}><Contador valor={e.contador!.valor} etiqueta={e.contador!.etiqueta} logo={logo} dur={Math.min(dur, TITULO_CUADROS)} /></Sequence>}
+      {idx === 0 && e.titulo && <Sequence durationInFrames={Math.min(dur, TITULO_CUADROS)}><TituloGancho texto={e.titulo} dur={Math.min(dur, TITULO_CUADROS)} segun={e.segun} /></Sequence>}
+      {idx > 0 && e.segun && <Sequence durationInFrames={Math.min(dur, 84)}><Segun texto={e.segun} dur={Math.min(dur, 84)} abajo={Boolean(e.rotulo)} /></Sequence>}
+      {linea && <Sequence durationInFrames={Math.min(dur, 96)}><LineaTiempo {...linea} dur={Math.min(dur, 96)} /></Sequence>}
     </AbsoluteFill>
   );
 };
@@ -465,35 +588,46 @@ const agrupar = (palabras: Palabra[]) => {
   return grupos;
 };
 
-const Subs: React.FC<{ palabras: Palabra[]; destacar: Set<string> }> = ({ palabras, destacar }) => {
+/** En cada grupo una palabra manda: la marcada en `destacar` o, si no hay, la más larga. */
+const clave = (g: Palabra[], destacar: Set<string>) => {
+  const i = g.findIndex((p) => destacar.has(norm(p.texto)));
+  if (i >= 0) return i;
+  let mejor = 0;
+  g.forEach((p, j) => { if (p.texto.length > g[mejor].texto.length) mejor = j; });
+  return mejor;
+};
+
+const Subs: React.FC<{ palabras: Palabra[]; destacar: Set<string>; desde: number }> = ({ palabras, destacar, desde }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
   const grupos = React.useMemo(() => agrupar(palabras), [palabras]);
+  if (frame < desde) return null;
   const g = grupos.find((g) => t >= g[0].inicio - 0.05 && t < g[g.length - 1].fin + 0.1);
   if (!g) return null;
-  const pop = interpolate(t - g[0].inicio, [-0.05, 0.08], [0.88, 1], clamp);
+  const k = clave(g, destacar);
+  const pop = interpolate(t - g[0].inicio, [-0.05, 0.08], [0.9, 1], clamp);
+  const sombra = "0 0 3px #000, 0 3px 0 #000, 0 6px 22px rgba(0,0,0,0.9)";
+  const palabra = (p: Palabra, i: number) => (
+    <span key={i} style={{
+      display: i === k ? "block" : "inline-block", margin: i === k ? "0" : "0 10px", fontFamily: GRUESA,
+      fontWeight: i === k ? 700 : 500, fontSize: i === k ? 112 : 56, lineHeight: i === k ? 1.02 : 1.25,
+      color: i === k ? AMARILLO : "#fff", opacity: t >= p.inicio - 0.03 ? 1 : 0.5, textShadow: sombra,
+      transform: i === k ? `scale(${interpolate(t - p.inicio, [-0.03, 0.1], [0.92, 1], clamp)})` : undefined,
+    }}>
+      {p.texto.replace(/[.,;:]$/, "")}
+    </span>
+  );
   return (
-    <div style={{ position: "absolute", left: 60, right: 60, top: 1330, textAlign: "center", transform: `scale(${pop})` }}>
-      {g.map((p, i) => {
-        const clave = destacar.has(norm(p.texto));
-        return (
-          <span key={i} style={{
-            display: "inline-block", margin: "0 12px", fontFamily: GRUESA, fontWeight: 700, fontSize: 86, lineHeight: 1.1,
-            textTransform: "uppercase", color: clave ? AMARILLO : "#fff", opacity: t >= p.inicio - 0.03 ? 1 : 0.45,
-            textShadow: "0 0 3px #000, 0 4px 0 #000, 0 6px 22px rgba(0,0,0,0.9)",
-          }}>
-            {p.texto.replace(/[.,;:]$/, "")}
-          </span>
-        );
-      })}
+    <div style={{ position: "absolute", left: 60, right: 60, top: 1170, textAlign: "center", transform: `scale(${pop})` }}>
+      {g.map(palabra)}
     </div>
   );
 };
 
 /* ───────────────────────────── Video ───────────────────────────── */
 
-export const DocumentalVideo: React.FC<VideoProps> = ({ guion, timing, audio, musica, efectos }) => {
+export const DocumentalVideo: React.FC<VideoProps> = ({ guion, timing, audio, musica, efectos, perfil, usuario }) => {
   const { fps, durationInFrames } = useVideoConfig();
   const destacar = React.useMemo(
     () => new Set(guion.escenas.flatMap((e) => e.destacar.flatMap((d) => d.split(/\s+/).map(norm)))),
@@ -504,6 +638,16 @@ export const DocumentalVideo: React.FC<VideoProps> = ({ guion, timing, audio, mu
     return { from, dur: Math.max(1, Math.round(timing.escenas[i].fin * fps) - from) };
   };
   const logo = guion.logo?.archivo ?? guion.logo?.url;
+  // Línea de tiempo: cada escena con `fecha` mueve el punto a su lugar, de izquierda a derecha
+  const conFecha = guion.escenas.map((e, i) => (e.fecha ? i : -1)).filter((i) => i >= 0);
+  const xDe = (k: number) => (conFecha.length > 1 ? 180 + (720 * k) / (conFecha.length - 1) : 540);
+  const linea = (i: number): Linea | undefined => {
+    const k = conFecha.indexOf(i);
+    if (k < 0) return undefined;
+    return { x0: k > 0 ? xDe(k - 1) : xDe(0) - 60, x1: xDe(k), texto: guion.escenas[i].fecha! };
+  };
+  const tituloHasta = guion.escenas[0].titulo ? Math.min(TITULO_CUADROS, rango(0).dur) - 4 : 0;
+  const cola = perfil && usuario ? Math.round(2.8 * fps) : 0;
   return (
     <AbsoluteFill style={{ background: "#0a111c" }}>
       {audio && <Audio src={src(audio)} />}
@@ -514,13 +658,20 @@ export const DocumentalVideo: React.FC<VideoProps> = ({ guion, timing, audio, mu
       {guion.escenas.map((e, i) => {
         const { from, dur } = rango(i);
         return (
-          <Sequence key={i} from={from} durationInFrames={dur + (i < guion.escenas.length - 1 ? T : 0)}>
-            <EscenaDoc e={e} dur={dur} idx={i} efectos={efectos} logo={logo} />
+          // la última escena se estira bajo la tarjeta final
+          <Sequence key={i} from={from} durationInFrames={dur + (i < guion.escenas.length - 1 ? T : cola)}>
+            <EscenaDoc e={e} dur={i < guion.escenas.length - 1 ? dur : dur + cola} idx={i} efectos={efectos} logo={logo} linea={linea(i)} />
           </Sequence>
         );
       })}
       <Textura />
-      <Subs palabras={timing.palabras} destacar={destacar} />
+      <Subs palabras={timing.palabras} destacar={destacar} desde={tituloHasta} />
+      {cola > 0 && (
+        <Sequence from={durationInFrames - cola}>
+          <TarjetaFinal foto={perfil!} usuario={usuario!} />
+          <Sfx n="swish" v={0.3} on={efectos} />
+        </Sequence>
+      )}
     </AbsoluteFill>
   );
 };
