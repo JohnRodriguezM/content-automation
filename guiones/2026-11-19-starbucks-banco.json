@@ -2,12 +2,6 @@
   "id": "2026-11-19-starbucks-banco",
   "pilar": "negocios",
   "narrador": "john",
-  "logo": {
-    "busqueda": "Starbucks logo",
-    "fuente": "commons",
-    "modo": "relleno",
-    "filtro": "ninguno"
-  },
   "portada": {
     "texto": "El [[banco]] de Starbucks",
     "dato": "US$1.850 millones de clientes",
@@ -52,13 +46,7 @@
       "narracion": "Es la plata que la gente carga en la app y en las tarjetas antes de comprar el café.",
       "imagenes": [
         {
-          "busqueda": "Starbucks mobile app payment",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Starbucks gift cards",
+          "busqueda": "Starbucks mobile order",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -103,7 +91,7 @@
     },
     {
       "bloque": "consecuencia",
-      "narracion": "Y una parte nunca se gasta: saldos olvidados, tarjetas perdidas. En un año, eso le dejó unos 207 millones de dólares.",
+      "narracion": "Y una parte nunca se gasta: saldos olvidados, tarjetas perdidas. En un año, eso le dejó unos 207 millones de dólares. Un columnista de Sherwood llegó a proponer que Starbucks contrate un jefe de inversiones solo para esa plata.",
       "imagenes": [
         {
           "busqueda": "gift card",
@@ -114,7 +102,8 @@
       ],
       "destacar": [
         "olvidados",
-        "207"
+        "207",
+        "inversiones"
       ],
       "motion": [
         {
@@ -173,7 +162,7 @@
       "narracion": "¿Cuánta plata tienes olvidada en alguna app?",
       "imagenes": [
         {
-          "busqueda": "coffee shop customer phone",
+          "busqueda": "coffee cup smartphone",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"

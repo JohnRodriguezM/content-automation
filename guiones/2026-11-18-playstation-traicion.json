@@ -2,16 +2,10 @@
   "id": "2026-11-18-playstation-traicion",
   "pilar": "tecnologia",
   "narrador": "john",
-  "logo": {
-    "busqueda": "PlayStation logo",
-    "fuente": "commons",
-    "modo": "relleno",
-    "filtro": "ninguno"
-  },
   "portada": {
     "texto": "La [[traición]] de Nintendo",
     "dato": "Así nació la PlayStation",
-    "foto": "1.1"
+    "foto": "6.2"
   },
   "tema": "La PlayStation nació porque Nintendo dejó plantado a Sony y se fue con Philips en 1991",
   "pregunta_principal": "¿Equipo PlayStation o equipo Nintendo?",
@@ -20,12 +14,6 @@
       "bloque": "gancho",
       "narracion": "[serious] La PlayStation nació de una traición de Nintendo.",
       "imagenes": [
-        {
-          "busqueda": "PlayStation console",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
         {
           "busqueda": "Super Nintendo",
           "fuente": "commons",
@@ -51,7 +39,7 @@
       "narracion": "A finales de los 80, Sony y Nintendo trabajaban juntos en un lector de discos para el Super Nintendo.",
       "imagenes": [
         {
-          "busqueda": "Super Famicom",
+          "busqueda": "Super Famicom console",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
