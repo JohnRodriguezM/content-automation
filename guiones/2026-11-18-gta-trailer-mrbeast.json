@@ -1,0 +1,277 @@
+{
+  "id": "2026-11-18-gta-trailer-mrbeast",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Grand Theft Auto VI logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "Le ganó a [[MrBeast]]",
+    "dato": "La historia de GTA · 4/5",
+    "foto": "2.1"
+  },
+  "tema": "El primer tráiler de GTA VI hizo 90,4 millones de vistas en 24 horas y superó el récord de MrBeast; luego el juego se retrasó dos veces",
+  "pregunta_principal": "Mándaselo al amigo que lleva tres años esperando GTA VI.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Un tráiler de GTA le quitó un récord a MrBeast.",
+      "imagenes": [
+        {
+          "busqueda": "MrBeast",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "persona": {
+            "nombre": "MrBeast",
+            "cargo": "youtuber"
+          }
+        },
+        {
+          "busqueda": "Ocean drive south beach miami night",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "récord",
+        "MrBeast"
+      ],
+      "titulo": "90 millones en [[24 horas]]",
+      "contador": {
+        "valor": "90.421.491",
+        "etiqueta": "vistas en 24 horas"
+      },
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Le quitó el récord a [[MrBeast]]"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Diciembre de 2023. Rockstar publica en YouTube el primer tráiler de GTA VI. Ambientado en una versión ficticia de Miami.",
+      "imagenes": [
+        {
+          "busqueda": "Downtown Miami skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Boulevard Hotel neon sign Miami Beach",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tráiler",
+        "Miami"
+      ],
+      "fecha": "2023",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "miami",
+              "etiqueta": "Vice City · Miami"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Según Push Square, en 24 horas tuvo 90 millones de vistas. El récord anterior era de MrBeast: 59,4 millones.",
+      "imagenes": [
+        {
+          "busqueda": "MrBeast",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "persona": {
+            "nombre": "MrBeast",
+            "cargo": "récord anterior"
+          }
+        }
+      ],
+      "destacar": [
+        "90 millones",
+        "59,4"
+      ],
+      "segun": "según Push Square",
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "59,4M",
+            "texto": "MrBeast",
+            "icono": "celular"
+          },
+          "despues": {
+            "valor": "90,4M",
+            "texto": "Tráiler de GTA VI",
+            "icono": "celular"
+          }
+        },
+        {
+          "tipo": "recorte",
+          "medio": "Push Square",
+          "fecha": "6 dic 2023",
+          "titular": "GTA 6 Trailer Pulls 90 Million Views in 24 Hours, Sets New World Records",
+          "resaltar": "90 Million Views in 24 Hours"
+        }
+      ],
+      "orden": "pfp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Se llevó tres récords mundiales. Entre ellos, el video que no es de música más visto en sus primeras 24 horas.",
+      "imagenes": [
+        {
+          "busqueda": "people watching smartphones",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tres récords",
+        "24 horas"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "8,9M",
+          "etiqueta": "likes en 24 horas"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y luego, los retrasos. Iba a salir en otoño de 2025. Lo movieron a mayo de 2026.",
+      "imagenes": [
+        {
+          "busqueda": "hourglass",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "retrasos",
+        "2025"
+      ],
+      "segun": "según Forbes",
+      "fecha": "2025",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Otoño de 2025 → [[mayo de 2026]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En noviembre de 2025 lo volvieron a mover, al 19 de noviembre de 2026. Esa tarde, la acción de Take-Two llegó a caer 10 %.",
+      "imagenes": [
+        {
+          "busqueda": "New York Stock Exchange",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "19 de noviembre",
+        "10 %"
+      ],
+      "segun": "según Bloomberg Línea",
+      "fecha": "2026",
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "Bloomberg Línea",
+          "fecha": "6 nov 2025",
+          "titular": "Lanzamiento de GTA 6 se retrasa y Take-Two cae 10% en operaciones posteriores al cierre",
+          "resaltar": "Take-Two cae 10%"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Aun así, nadie se fue. Cuando la demanda es así de grande, un retraso no te cuesta clientes: te cuesta tiempo.",
+      "imagenes": [
+        {
+          "busqueda": "South beach night life",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "demanda",
+        "tiempo"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "No te cuesta clientes: te cuesta [[tiempo]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mándaselo al amigo que lleva tres años esperando GTA VI.",
+      "imagenes": [
+        {
+          "busqueda": "Playstation Dualsense controller",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tres años"
+      ]
+    }
+  ],
+  "caption": "Parte 4 de 5 · La historia de GTA, antes del lanzamiento de GTA VI.\n\nEn diciembre de 2023, el primer tráiler de GTA VI hizo 90.421.491 vistas en YouTube en 24 horas y 8,9 millones de likes, según Push Square. Superó los 59,4 millones de MrBeast y se llevó tres récords mundiales, entre ellos el del video no musical más visto en sus primeras 24 horas (el récord general lo sigue teniendo \"Butter\" de BTS).\n\nDespués vinieron los retrasos: de otoño de 2025 a mayo de 2026, y luego al 19 de noviembre de 2026. El día del último anuncio, la acción de Take-Two llegó a caer 10 % después del cierre, según Bloomberg Línea.\n\nFuentes: Push Square (6 dic 2023), Forbes Argentina (13 feb 2026), Bloomberg Línea (6 nov 2025).\n\nMándaselo al amigo que lleva tres años esperando GTA VI.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#GTA",
+    "#RockstarGames",
+    "#Videojuegos",
+    "#HistoriasDeNegocios",
+    "#Negocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "90.421.491 vistas y 8,9 millones de likes en 24 horas; récords mundiales; MrBeast tenía 59,4 millones; BTS sigue con el récord general",
+      "url": "https://pushsquare.com/news/2023/12/gta-6-trailer-pulls-90-million-views-in-24-hours-sets-new-world-records"
+    },
+    {
+      "afirmacion": "Retrasos: otoño de 2025 → 26 de mayo de 2026 → 19 de noviembre de 2026",
+      "url": "https://www.forbesargentina.com/lifestyle/la-historia-tres-retrasos-lanzamiento-juego-iconico-n86206"
+    },
+    {
+      "afirmacion": "6 nov 2025: GTA 6 se retrasa al 19 de noviembre de 2026 y Take-Two cae hasta 10 % después del cierre",
+      "url": "https://www.bloomberglinea.com/mercados/lanzamiento-de-gta-6-se-retrasa-y-take-two-cae-10-en-operaciones-posteriores-al-cierre/"
+    }
+  ]
+}

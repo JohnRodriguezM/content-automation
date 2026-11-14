@@ -1,0 +1,319 @@
+{
+  "id": "2026-11-15-gta-despido-timex",
+  "pilar": "biografias",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Grand Theft Auto VI logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "GTA nació de [[un despido]]",
+    "dato": "La historia de GTA · 1/5",
+    "foto": "1.1"
+  },
+  "tema": "GTA existe porque David Jones aceptó un despido voluntario de £3.000 en la fábrica de Timex de Dundee y se compró un Amiga",
+  "pregunta_principal": "¿Cuál fue tu primer GTA?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] GTA existe gracias a un despido en una fábrica de relojes. En Escocia.",
+      "imagenes": [
+        {
+          "busqueda": "Dundee and Tay Road Bridge 1980",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Timex watch",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "despido",
+        "Escocia"
+      ],
+      "titulo": "GTA nació de [[un despido]]",
+      "contador": {
+        "valor": "£3.000",
+        "etiqueta": "el despido que lo empezó todo"
+      },
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "dundee",
+              "etiqueta": "Dundee, Escocia"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Según The Courier, David Jones era ingeniero en la fábrica de Timex en Dundee. Aceptó un despido voluntario de tres mil libras.",
+      "imagenes": [
+        {
+          "busqueda": "Dundee city centre",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Timex",
+        "tres mil"
+      ],
+      "segun": "según The Courier",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Ingeniero en la fábrica de [[Timex]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Con esa plata se compró un Amiga 1000. Y fue sincero: «Dije que era una inversión en mi futuro. En realidad, quería jugar los juegos más nuevos».",
+      "imagenes": [
+        {
+          "busqueda": "Amiga 1000",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Amiga",
+        "jugar"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Dije que era una inversión en mi futuro. En realidad, quería jugar los juegos más nuevos.",
+          "autor": "David Jones, a The Courier"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "A finales de 1987 montó su estudio, DMA Design, con amigos de un club de computadores.",
+      "imagenes": [
+        {
+          "busqueda": "Perth Road Dundee",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "DMA Design",
+        "club"
+      ],
+      "fecha": "1987",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Nace [[DMA Design]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 1991 lanzaron Lemmings. Vendió 55.000 copias el primer día y, con los años, unos 20 millones.",
+      "imagenes": [
+        {
+          "busqueda": "Amiga 500 computer",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Lemmings",
+        "20 millones"
+      ],
+      "fecha": "1991",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "20M",
+          "etiqueta": "copias de Lemmings"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 1995, ya con oficina en Edimburgo, arrancaron un juego de persecuciones de carros. Tú eras el policía.",
+      "imagenes": [
+        {
+          "busqueda": "Edinburgh Old Town",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "British police car",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Edimburgo",
+        "policía"
+      ],
+      "fecha": "1995",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "dundee",
+              "etiqueta": "Dundee"
+            },
+            {
+              "lugar": "edimburgo",
+              "etiqueta": "Edimburgo · 1995"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Hasta que le dieron la vuelta. Brian Baglow, del equipo: «Lo cambiamos para que jugaras como el malo, y le cambiamos el nombre a Grand Theft Auto».",
+      "imagenes": [
+        {
+          "busqueda": "PlayStation SCPH-1000",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "malo",
+        "Grand Theft Auto"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Lo cambiamos para que jugaras como el malo, y le cambiamos el nombre a Grand Theft Auto.",
+          "autor": "Brian Baglow, DMA Design"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "GTA salió en octubre de 1997. Ese estudio hoy se llama Rockstar North. Y según Take-Two, solo GTA V ya pasó los 230 millones de copias.",
+      "imagenes": [
+        {
+          "busqueda": "Rockstar North Edinburgh",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Edinburgh skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Rockstar North",
+        "230 millones"
+      ],
+      "segun": "según Take-Two",
+      "fecha": "1997",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "230M",
+          "etiqueta": "copias vendidas de GTA V"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "El capital semilla de GTA fue una indemnización de tres mil libras. Y él la invirtió en lo que le apasionaba.",
+      "imagenes": [
+        {
+          "busqueda": "Timex wristwatch",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "indemnización",
+        "apasionaba"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Capital semilla: [[£3.000]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Cuál fue tu primer GTA?",
+      "imagenes": [
+        {
+          "busqueda": "PlayStation 2 controller",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "primer GTA"
+      ]
+    }
+  ],
+  "caption": "Parte 1 de 5 · La historia de GTA, antes del lanzamiento de GTA VI.\n\nDavid Jones era ingeniero electrónico en la fábrica de Timex en Dundee, Escocia. Aceptó un despido voluntario de £3.000 y se compró un Amiga 1000. \"Dije que era una inversión en mi futuro, pero en realidad quería jugar los juegos más nuevos\", le contó a The Courier.\n\nA finales de 1987 fundó DMA Design con amigos del Kingsway Amateur Computer Club. En 1991 sacaron Lemmings: 55.000 copias el primer día y unos 20 millones con los años. En 1995, ya en Edimburgo, empezaron Race'n'Chase, un juego en el que eras el policía. Lo voltearon: ahora jugabas como el malo y se llamó Grand Theft Auto. Salió en octubre de 1997.\n\nDMA Design hoy es Rockstar North. Y solo GTA V suma más de 230 millones de copias, según Take-Two.\n\nFuentes: The Courier, Nostalgia Nerd, Vandal.\n\n¿Cuál fue tu primer GTA?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#GTA",
+    "#RockstarGames",
+    "#Videojuegos",
+    "#HistoriasDeNegocios",
+    "#Negocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Jones era ingeniero electrónico en Timex Dundee; despido voluntario de £3k; compró un Amiga 1000; cita sobre la inversión; Lemmings ~20 millones; se conocieron en 1984 en el Kingsway Amateur Computer Club; Race'n'Chase con el jugador como policía; cita de Brian Baglow; DMA hoy es Rockstar North",
+      "url": "https://www.thecourier.co.uk/fp/news/dundee/4837660/grand-theft-auto-dundee-dma-design-creators/"
+    },
+    {
+      "afirmacion": "Lemmings salió el 14 de febrero de 1991; 55.000 copias el primer día; unos 20 millones en total; DMA fundada en Dundee en 1987",
+      "url": "https://thecourier.co.uk/fp/past-times/3002349/lemmings-game"
+    },
+    {
+      "afirmacion": "DMA Design se fundó a finales de 1987; GTA se empezó a desarrollar el 4 de abril de 1995 en las oficinas de Edimburgo; salió en octubre de 1997",
+      "url": "https://www.nostalgianerd.com/from-dma-to-gta-the-story-of-dma-design/"
+    },
+    {
+      "afirmacion": "GTA V supera 230 millones de copias (Strauss Zelnick, agosto de 2026)",
+      "url": "https://vandal.elespanol.com/noticia/1350792507/gta-v-vende-mas-copias-al-ano-que-otros-exitos-en-toda-su-vida-suma-230-millones-desde-2013/"
+    }
+  ]
+}

@@ -1,12 +1,22 @@
 [
   {
-    "id": "2026-11-05-kodak-camara-digital",
-    "tema": "Kodak inventó la cámara digital y aun así quebró",
-    "pilar": "negocios",
-    "narrador": "sebas",
+    "id": "2026-11-05-amazon-web-services",
+    "tema": "Amazon convirtió su propia infraestructura en el negocio de AWS",
+    "pilar": "tecnologia",
+    "narrador": "john",
     "protagonistas": [
-      "Kodak",
-      "Steven Sasson"
+      "Amazon",
+      "AWS"
+    ]
+  },
+  {
+    "id": "2026-11-05-blackberry-iphone",
+    "tema": "BlackBerry pensó que la gente se cansaría de la pantalla táctil del iPhone",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "BlackBerry",
+      "Apple"
     ]
   },
   {
@@ -20,33 +30,54 @@
     ]
   },
   {
-    "id": "2026-11-05-mercado-pago-confianza",
-    "tema": "Mercado Pago nació para resolver la desconfianza de pagarle a un desconocido",
+    "id": "2026-11-05-cemex-concreto-gps",
+    "tema": "Cemex puso GPS en sus camiones y bajó la entrega de concreto de tres horas a treinta minutos",
     "pilar": "negocios",
     "narrador": "john",
     "protagonistas": [
-      "Mercado Libre",
-      "Mercado Pago"
+      "Cemex",
+      "Lorenzo Zambrano"
     ]
   },
   {
-    "id": "2026-11-05-sara-blakely-spanx",
-    "tema": "Sara Blakely creó Spanx con 5.000 dólares y escribió ella misma su patente",
+    "id": "2026-11-05-coronel-sanders-kfc",
+    "tema": "El coronel Sanders empezó a vender su receta pasados los 65 años",
     "pilar": "biografias",
     "narrador": "sebas",
     "protagonistas": [
-      "Sara Blakely",
-      "Spanx"
+      "Harland Sanders",
+      "KFC"
     ]
   },
   {
-    "id": "2026-11-05-whatsapp-55-empleados",
-    "tema": "Facebook pagó 19.000 millones por WhatsApp, una empresa de 55 personas",
+    "id": "2026-11-05-disney-oswald-mickey",
+    "tema": "Walt Disney perdió a Oswald porque no era suyo, y creó a Mickey Mouse",
+    "pilar": "biografias",
+    "narrador": "john",
+    "protagonistas": [
+      "Walt Disney",
+      "Oswald"
+    ]
+  },
+  {
+    "id": "2026-11-05-game-boy-tecnologia-vieja",
+    "tema": "El Game Boy ganó con tecnología vieja: pantalla en blanco y negro y 30 horas de batería",
     "pilar": "tecnologia",
     "narrador": "john",
     "protagonistas": [
-      "WhatsApp",
-      "Facebook"
+      "Nintendo",
+      "Game Boy",
+      "Gunpei Yokoi"
+    ]
+  },
+  {
+    "id": "2026-11-05-howard-schultz-milan",
+    "tema": "Howard Schultz trabajaba en Starbucks, sus jefes rechazaron su idea y terminó comprando la empresa",
+    "pilar": "biografias",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Howard Schultz",
+      "Starbucks"
     ]
   },
   {
@@ -70,23 +101,23 @@
     ]
   },
   {
-    "id": "2026-11-05-ray-kroc-mcdonalds",
-    "tema": "Ray Kroc vendía batidoras y terminó comprando McDonald's",
-    "pilar": "biografias",
+    "id": "2026-11-05-kodak-camara-digital",
+    "tema": "Kodak inventó la cámara digital y aun así quebró",
+    "pilar": "negocios",
     "narrador": "sebas",
     "protagonistas": [
-      "Ray Kroc",
-      "McDonald's"
+      "Kodak",
+      "Steven Sasson"
     ]
   },
   {
-    "id": "2026-11-05-amazon-web-services",
-    "tema": "Amazon convirtió su propia infraestructura en el negocio de AWS",
-    "pilar": "tecnologia",
+    "id": "2026-11-05-mercado-pago-confianza",
+    "tema": "Mercado Pago nació para resolver la desconfianza de pagarle a un desconocido",
+    "pilar": "negocios",
     "narrador": "john",
     "protagonistas": [
-      "Amazon",
-      "AWS"
+      "Mercado Libre",
+      "Mercado Pago"
     ]
   },
   {
@@ -109,24 +140,23 @@
     ]
   },
   {
-    "id": "2026-11-05-howard-schultz-milan",
-    "tema": "Howard Schultz trabajaba en Starbucks, sus jefes rechazaron su idea y terminó comprando la empresa",
+    "id": "2026-11-05-ray-kroc-mcdonalds",
+    "tema": "Ray Kroc vendía batidoras y terminó comprando McDonald's",
     "pilar": "biografias",
     "narrador": "sebas",
     "protagonistas": [
-      "Howard Schultz",
-      "Starbucks"
+      "Ray Kroc",
+      "McDonald's"
     ]
   },
   {
-    "id": "2026-11-05-game-boy-tecnologia-vieja",
-    "tema": "El Game Boy ganó con tecnología vieja: pantalla en blanco y negro y 30 horas de batería",
-    "pilar": "tecnologia",
-    "narrador": "john",
+    "id": "2026-11-05-sara-blakely-spanx",
+    "tema": "Sara Blakely creó Spanx con 5.000 dólares y escribió ella misma su patente",
+    "pilar": "biografias",
+    "narrador": "sebas",
     "protagonistas": [
-      "Nintendo",
-      "Game Boy",
-      "Gunpei Yokoi"
+      "Sara Blakely",
+      "Spanx"
     ]
   },
   {
@@ -136,6 +166,16 @@
     "narrador": "sebas",
     "protagonistas": [
       "Southwest Airlines"
+    ]
+  },
+  {
+    "id": "2026-11-05-whatsapp-55-empleados",
+    "tema": "Facebook pagó 19.000 millones por WhatsApp, una empresa de 55 personas",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "WhatsApp",
+      "Facebook"
     ]
   },
   {
@@ -150,63 +190,13 @@
     ]
   },
   {
-    "id": "2026-11-05-coronel-sanders-kfc",
-    "tema": "El coronel Sanders empezó a vender su receta pasados los 65 años",
-    "pilar": "biografias",
+    "id": "2026-11-06-bimbo-pan-celofan",
+    "tema": "Bimbo envolvió el pan en celofán y armó su propia flota hasta volverse la panificadora más grande del mundo",
+    "pilar": "negocios",
     "narrador": "sebas",
     "protagonistas": [
-      "Harland Sanders",
-      "KFC"
-    ]
-  },
-  {
-    "id": "2026-11-05-cemex-concreto-gps",
-    "tema": "Cemex puso GPS en sus camiones y bajó la entrega de concreto de tres horas a treinta minutos",
-    "pilar": "negocios",
-    "narrador": "john",
-    "protagonistas": [
-      "Cemex",
-      "Lorenzo Zambrano"
-    ]
-  },
-  {
-    "id": "2026-11-05-disney-oswald-mickey",
-    "tema": "Walt Disney perdió a Oswald porque no era suyo, y creó a Mickey Mouse",
-    "pilar": "biografias",
-    "narrador": "john",
-    "protagonistas": [
-      "Walt Disney",
-      "Oswald"
-    ]
-  },
-  {
-    "id": "2026-11-05-blackberry-iphone",
-    "tema": "BlackBerry pensó que la gente se cansaría de la pantalla táctil del iPhone",
-    "pilar": "tecnologia",
-    "narrador": "john",
-    "protagonistas": [
-      "BlackBerry",
-      "Apple"
-    ]
-  },
-  {
-    "id": "2026-11-06-lego-recortar-para-crecer",
-    "tema": "LEGO casi quiebra por querer hacer de todo y se salvó recortando",
-    "pilar": "negocios",
-    "narrador": "john",
-    "protagonistas": [
-      "LEGO",
-      "Jørgen Vig Knudstorp"
-    ]
-  },
-  {
-    "id": "2026-11-06-dyson-5127-prototipos",
-    "tema": "James Dyson hizo 5.127 prototipos y nadie le compró la idea, así que fabricó él mismo",
-    "pilar": "negocios",
-    "narrador": "john",
-    "protagonistas": [
-      "Dyson",
-      "James Dyson"
+      "Bimbo",
+      "Lorenzo Servitje"
     ]
   },
   {
@@ -220,13 +210,23 @@
     ]
   },
   {
-    "id": "2026-11-06-bimbo-pan-celofan",
-    "tema": "Bimbo envolvió el pan en celofán y armó su propia flota hasta volverse la panificadora más grande del mundo",
+    "id": "2026-11-06-dyson-5127-prototipos",
+    "tema": "James Dyson hizo 5.127 prototipos y nadie le compró la idea, así que fabricó él mismo",
     "pilar": "negocios",
-    "narrador": "sebas",
+    "narrador": "john",
     "protagonistas": [
-      "Bimbo",
-      "Lorenzo Servitje"
+      "Dyson",
+      "James Dyson"
+    ]
+  },
+  {
+    "id": "2026-11-06-lego-recortar-para-crecer",
+    "tema": "LEGO casi quiebra por querer hacer de todo y se salvó recortando",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "LEGO",
+      "Jørgen Vig Knudstorp"
     ]
   },
   {
@@ -270,6 +270,16 @@
     ]
   },
   {
+    "id": "2026-11-07-herbalife-mark-hughes",
+    "tema": "Mark Hughes fundó Herbalife vendiendo desde el baúl de su carro y la hizo crecer con distribuidores que reclutan a otros",
+    "pilar": "biografias",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Herbalife",
+      "Mark Hughes"
+    ]
+  },
+  {
     "id": "2026-11-07-instagram-burbn",
     "tema": "Instagram nació de cortar casi todo de Burbn, una app de check-ins que no funcionaba",
     "pilar": "tecnologia",
@@ -290,70 +300,22 @@
     ]
   },
   {
-    "id": "2026-11-07-herbalife-mark-hughes",
-    "tema": "Mark Hughes fundó Herbalife vendiendo desde el baúl de su carro y la hizo crecer con distribuidores que reclutan a otros",
-    "pilar": "biografias",
+    "id": "2026-11-09-agencias-autos-tope-deducciones",
+    "tema": "El tope a las deducciones del ISR en México pone en riesgo a las agencias de autos, según su gremio",
+    "pilar": "negocios",
     "narrador": "sebas",
     "protagonistas": [
-      "Herbalife",
-      "Mark Hughes"
+      "AMDA"
     ]
   },
   {
-    "id": "2026-11-09-tractian-unicornio-ia",
-    "tema": "Tractian, la startup brasileña de IA industrial que mudó su sede a Atlanta y se volvió unicornio",
-    "pilar": "tecnologia",
-    "narrador": "john",
-    "protagonistas": [
-      "Tractian"
-    ]
-  },
-  {
-    "id": "2026-11-09-chatgpt-publicidad-latam",
-    "tema": "OpenAI empezó a mostrar publicidad en ChatGPT en más países de Latinoamérica",
-    "pilar": "tecnologia",
-    "narrador": "john",
-    "protagonistas": [
-      "OpenAI",
-      "ChatGPT"
-    ]
-  },
-  {
-    "id": "2026-11-09-pix-credito-banco-central",
-    "tema": "El Banco Central de Brasil le puso freno al crédito dentro de Pix para evitar el sobreendeudamiento",
-    "pilar": "tecnologia",
-    "narrador": "john",
-    "protagonistas": [
-      "Banco Central do Brasil",
-      "Pix"
-    ]
-  },
-  {
-    "id": "2026-11-09-mercado-libre-vende-mas-gana-menos",
-    "tema": "Mercado Libre vendió 45% más en el tercer trimestre pero su margen cayó por apostar al envío gratis",
+    "id": "2026-11-09-alicorp-compra-rama-flora",
+    "tema": "Alicorp compró a Flora Food 19 marcas de margarina como Rama y La Danesa por unos 150 millones de dólares",
     "pilar": "negocios",
-    "narrador": "john",
+    "narrador": "sebas",
     "protagonistas": [
-      "Mercado Libre"
-    ]
-  },
-  {
-    "id": "2026-11-09-televisa-compra-att-mexico",
-    "tema": "Televisa y Fintech acordaron comprar AT&T México por 2.000 millones de dólares",
-    "pilar": "negocios",
-    "narrador": "john",
-    "protagonistas": [
-      "Televisa",
-      "AT&T"
-    ]
-  },
-  {
-    "id": "2026-11-09-codelco-produccion-inflada",
-    "tema": "Codelco reconoció 42.100 toneladas de cobre registradas de forma indebida y despidió a ocho ejecutivos",
-    "pilar": "negocios",
-    "narrador": "john",
-    "protagonistas": [
-      "Codelco"
+      "Alicorp",
+      "Flora Food"
     ]
   },
   {
@@ -367,12 +329,31 @@
     ]
   },
   {
-    "id": "2026-11-09-tecnoglass-aranceles",
-    "tema": "Tecnoglass tuvo ventas récord pero su utilidad cayó a la mitad por los aranceles de Estados Unidos",
+    "id": "2026-11-09-canal-panama-nuevos-puertos",
+    "tema": "El Canal de Panamá prepara la concesión de dos nuevas terminales de contenedores por unos 2.600 millones de dólares",
     "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Canal de Panamá"
+    ]
+  },
+  {
+    "id": "2026-11-09-casas-bahia-recuperacion-judicial",
+    "tema": "Casas Bahia, gigante del retail brasileño, entró en recuperación judicial con 17.300 millones de reales de deuda",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Casas Bahia"
+    ]
+  },
+  {
+    "id": "2026-11-09-chatgpt-publicidad-latam",
+    "tema": "OpenAI empezó a mostrar publicidad en ChatGPT en más países de Latinoamérica",
+    "pilar": "tecnologia",
     "narrador": "john",
     "protagonistas": [
-      "Tecnoglass"
+      "OpenAI",
+      "ChatGPT"
     ]
   },
   {
@@ -386,42 +367,41 @@
     ]
   },
   {
-    "id": "2026-11-09-etoro-compra-lb-finanzas",
-    "tema": "eToro compró la fintech argentina LB Finanzas para convertir a Argentina en su base en Latinoamérica",
-    "pilar": "tecnologia",
+    "id": "2026-11-09-coca-cola-botella-tres-litros",
+    "tema": "Tras el alza del impuesto a las bebidas azucaradas en México, la botella de tres litros de Coca-Cola se vendió más de lo esperado",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Coca-Cola FEMSA",
+      "Arca Continental"
+    ]
+  },
+  {
+    "id": "2026-11-09-coca-cola-v2-prueba",
+    "tema": "Prueba de formato v2: el impuesto disparó la botella de tres litros de Coca-Cola en México",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Coca-Cola FEMSA"
+    ]
+  },
+  {
+    "id": "2026-11-09-codelco-produccion-inflada",
+    "tema": "Codelco reconoció 42.100 toneladas de cobre registradas de forma indebida y despidió a ocho ejecutivos",
+    "pilar": "negocios",
     "narrador": "john",
     "protagonistas": [
-      "eToro",
-      "LB Finanzas"
+      "Codelco"
     ]
   },
   {
-    "id": "2026-11-09-casas-bahia-recuperacion-judicial",
-    "tema": "Casas Bahia, gigante del retail brasileño, entró en recuperación judicial con 17.300 millones de reales de deuda",
+    "id": "2026-11-09-crepes-waffles-madres-cabeza-hogar",
+    "tema": "Crepes & Waffles construyó una de las cadenas de restaurantes más grandes de Colombia empleando sobre todo a mujeres cabeza de hogar",
     "pilar": "negocios",
-    "narrador": "sebas",
+    "narrador": "john",
     "protagonistas": [
-      "Casas Bahia"
-    ]
-  },
-  {
-    "id": "2026-11-09-ifood-compra-caju",
-    "tema": "iFood acordó comprar la startup Caju y apostó por el negocio de beneficios corporativos",
-    "pilar": "negocios",
-    "narrador": "sebas",
-    "protagonistas": [
-      "iFood",
-      "Caju"
-    ]
-  },
-  {
-    "id": "2026-11-09-alicorp-compra-rama-flora",
-    "tema": "Alicorp compró a Flora Food 19 marcas de margarina como Rama y La Danesa por unos 150 millones de dólares",
-    "pilar": "negocios",
-    "narrador": "sebas",
-    "protagonistas": [
-      "Alicorp",
-      "Flora Food"
+      "Crepes & Waffles",
+      "Beatriz Fernández"
     ]
   },
   {
@@ -436,21 +416,13 @@
     ]
   },
   {
-    "id": "2026-11-09-scanntech-datos-retail",
-    "tema": "La uruguaya Scanntech levantó 180 millones de dólares tras 34 años construyendo una red de datos de ventas del retail",
+    "id": "2026-11-09-etoro-compra-lb-finanzas",
+    "tema": "eToro compró la fintech argentina LB Finanzas para convertir a Argentina en su base en Latinoamérica",
     "pilar": "tecnologia",
-    "narrador": "sebas",
+    "narrador": "john",
     "protagonistas": [
-      "Scanntech"
-    ]
-  },
-  {
-    "id": "2026-11-09-manaco-cierra-86-anos",
-    "tema": "Manaco, la histórica fábrica de zapatos de Bolivia, anunció su cierre tras 86 años y 130 millones de bolivianos en pérdidas",
-    "pilar": "negocios",
-    "narrador": "sebas",
-    "protagonistas": [
-      "Manaco"
+      "eToro",
+      "LB Finanzas"
     ]
   },
   {
@@ -464,31 +436,22 @@
     ]
   },
   {
-    "id": "2026-11-09-agencias-autos-tope-deducciones",
-    "tema": "El tope a las deducciones del ISR en México pone en riesgo a las agencias de autos, según su gremio",
+    "id": "2026-11-09-ifood-compra-caju",
+    "tema": "iFood acordó comprar la startup Caju y apostó por el negocio de beneficios corporativos",
     "pilar": "negocios",
     "narrador": "sebas",
     "protagonistas": [
-      "AMDA"
+      "iFood",
+      "Caju"
     ]
   },
   {
-    "id": "2026-11-09-coca-cola-botella-tres-litros",
-    "tema": "Tras el alza del impuesto a las bebidas azucaradas en México, la botella de tres litros de Coca-Cola se vendió más de lo esperado",
+    "id": "2026-11-09-manaco-cierra-86-anos",
+    "tema": "Manaco, la histórica fábrica de zapatos de Bolivia, anunció su cierre tras 86 años y 130 millones de bolivianos en pérdidas",
     "pilar": "negocios",
     "narrador": "sebas",
     "protagonistas": [
-      "Coca-Cola FEMSA",
-      "Arca Continental"
-    ]
-  },
-  {
-    "id": "2026-11-09-canal-panama-nuevos-puertos",
-    "tema": "El Canal de Panamá prepara la concesión de dos nuevas terminales de contenedores por unos 2.600 millones de dólares",
-    "pilar": "negocios",
-    "narrador": "sebas",
-    "protagonistas": [
-      "Canal de Panamá"
+      "Manaco"
     ]
   },
   {
@@ -501,12 +464,12 @@
     ]
   },
   {
-    "id": "2026-11-09-coca-cola-v2-prueba",
-    "tema": "Prueba de formato v2: el impuesto disparó la botella de tres litros de Coca-Cola en México",
+    "id": "2026-11-09-mercado-libre-vende-mas-gana-menos",
+    "tema": "Mercado Libre vendió 45% más en el tercer trimestre pero su margen cayó por apostar al envío gratis",
     "pilar": "negocios",
-    "narrador": "sebas",
+    "narrador": "john",
     "protagonistas": [
-      "Coca-Cola FEMSA"
+      "Mercado Libre"
     ]
   },
   {
@@ -520,13 +483,50 @@
     ]
   },
   {
-    "id": "2026-11-09-crepes-waffles-madres-cabeza-hogar",
-    "tema": "Crepes & Waffles construyó una de las cadenas de restaurantes más grandes de Colombia empleando sobre todo a mujeres cabeza de hogar",
+    "id": "2026-11-09-pix-credito-banco-central",
+    "tema": "El Banco Central de Brasil le puso freno al crédito dentro de Pix para evitar el sobreendeudamiento",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "Banco Central do Brasil",
+      "Pix"
+    ]
+  },
+  {
+    "id": "2026-11-09-scanntech-datos-retail",
+    "tema": "La uruguaya Scanntech levantó 180 millones de dólares tras 34 años construyendo una red de datos de ventas del retail",
+    "pilar": "tecnologia",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Scanntech"
+    ]
+  },
+  {
+    "id": "2026-11-09-tecnoglass-aranceles",
+    "tema": "Tecnoglass tuvo ventas récord pero su utilidad cayó a la mitad por los aranceles de Estados Unidos",
     "pilar": "negocios",
     "narrador": "john",
     "protagonistas": [
-      "Crepes & Waffles",
-      "Beatriz Fernández"
+      "Tecnoglass"
+    ]
+  },
+  {
+    "id": "2026-11-09-televisa-compra-att-mexico",
+    "tema": "Televisa y Fintech acordaron comprar AT&T México por 2.000 millones de dólares",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Televisa",
+      "AT&T"
+    ]
+  },
+  {
+    "id": "2026-11-09-tractian-unicornio-ia",
+    "tema": "Tractian, la startup brasileña de IA industrial que mudó su sede a Atlanta y se volvió unicornio",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "Tractian"
     ]
   },
   {
@@ -548,23 +548,13 @@
     ]
   },
   {
-    "id": "2026-11-11-nequi-daviplata-gratis",
-    "tema": "Nequi y Daviplata son gratis: cómo ganan plata",
-    "pilar": "negocios",
+    "id": "2026-11-11-bre-b-transferencias-gratis",
+    "tema": "Bre-B, el sistema de pagos inmediatos del Banco de la República, volvió gratis las transferencias entre bancos",
+    "pilar": "tecnologia",
     "narrador": "john",
     "protagonistas": [
-      "Nequi",
-      "Daviplata"
-    ]
-  },
-  {
-    "id": "2026-11-11-viva-air-caida",
-    "tema": "La caída de Viva Air en 2023 mientras esperaba la integración con Avianca",
-    "pilar": "negocios",
-    "narrador": "john",
-    "protagonistas": [
-      "Viva Air",
-      "Avianca"
+      "Bre-B",
+      "Banco de la República"
     ]
   },
   {
@@ -587,22 +577,12 @@
     ]
   },
   {
-    "id": "2026-11-11-rappi-diez-anos-perdiendo",
-    "tema": "Rappi perdió plata casi diez años para crecer y en 2024 empezó a ganar en Colombia",
-    "pilar": "negocios",
+    "id": "2026-11-11-indrive-tu-pones-precio",
+    "tema": "inDrive nació en Siberia cuando los taxis duplicaron tarifas, y su modelo de proponer el precio conquistó Latinoamérica",
+    "pilar": "tecnologia",
     "narrador": "john",
     "protagonistas": [
-      "Rappi"
-    ]
-  },
-  {
-    "id": "2026-11-11-temu-shein-baratos",
-    "tema": "Temu y Shein venden barato enviando paquetes directo de China, y los países empiezan a cerrarles la puerta",
-    "pilar": "negocios",
-    "narrador": "john",
-    "protagonistas": [
-      "Temu",
-      "Shein"
+      "inDrive"
     ]
   },
   {
@@ -612,6 +592,25 @@
     "narrador": "john",
     "protagonistas": [
       "McDonald's"
+    ]
+  },
+  {
+    "id": "2026-11-11-nequi-daviplata-gratis",
+    "tema": "Nequi y Daviplata son gratis: cómo ganan plata",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Nequi",
+      "Daviplata"
+    ]
+  },
+  {
+    "id": "2026-11-11-rappi-diez-anos-perdiendo",
+    "tema": "Rappi perdió plata casi diez años para crecer y en 2024 empezó a ganar en Colombia",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Rappi"
     ]
   },
   {
@@ -625,22 +624,199 @@
     ]
   },
   {
-    "id": "2026-11-11-indrive-tu-pones-precio",
-    "tema": "inDrive nació en Siberia cuando los taxis duplicaron tarifas, y su modelo de proponer el precio conquistó Latinoamérica",
-    "pilar": "tecnologia",
+    "id": "2026-11-11-temu-shein-baratos",
+    "tema": "Temu y Shein venden barato enviando paquetes directo de China, y los países empiezan a cerrarles la puerta",
+    "pilar": "negocios",
     "narrador": "john",
     "protagonistas": [
-      "inDrive"
+      "Temu",
+      "Shein"
     ]
   },
   {
-    "id": "2026-11-11-bre-b-transferencias-gratis",
-    "tema": "Bre-B, el sistema de pagos inmediatos del Banco de la República, volvió gratis las transferencias entre bancos",
+    "id": "2026-11-11-viva-air-caida",
+    "tema": "La caída de Viva Air en 2023 mientras esperaba la integración con Avianca",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Viva Air",
+      "Avianca"
+    ]
+  },
+  {
+    "id": "2026-11-13-exito-carnicero-calleja",
+    "tema": "El Éxito pasó de Casino a la familia Calleja de El Salvador y multiplicó su utilidad",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": []
+  },
+  {
+    "id": "2026-11-15-gta-despido-timex",
+    "tema": "GTA existe porque David Jones aceptó un despido voluntario de £3.000 en la fábrica de Timex de Dundee y se compró un Amiga",
+    "pilar": "biografias",
+    "narrador": "john",
+    "protagonistas": [
+      "David Jones",
+      "DMA Design",
+      "Rockstar North",
+      "Timex"
+    ]
+  },
+  {
+    "id": "2026-11-15-red-bull-tailandesa",
+    "tema": "Red Bull es 51 % de una familia tailandesa: nació de Krating Daeng y un reparto 49-49-2",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": []
+  },
+  {
+    "id": "2026-11-15-totto-fabrica-quiebra",
+    "tema": "Totto, la marca de morrales que suena extranjera, es colombiana y nació de una fábrica de cuero en quiebra",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": []
+  },
+  {
+    "id": "2026-11-16-chocoramo-panadero",
+    "tema": "El Chocoramo casi no existe: el chocolate partía el ponqué hasta que el panadero Olimpo López dio con la receta",
+    "pilar": "biografias",
+    "narrador": "john",
+    "protagonistas": []
+  },
+  {
+    "id": "2026-11-16-gta-escandalo-9-millones",
+    "tema": "El primer GTA se hizo famoso con un escándalo diseñado por el publicista Max Clifford, y BMG vendió su división de juegos a Take-Two por US$9 millones",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Max Clifford",
+      "BMG Interactive",
+      "Take-Two",
+      "Rockstar Games",
+      "Bertelsmann"
+    ]
+  },
+  {
+    "id": "2026-11-16-pokemon-peluches",
+    "tema": "Pokémon es la franquicia más rentable del mundo y gana más con licencias y productos que con videojuegos",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": []
+  },
+  {
+    "id": "2026-11-17-adidas-puma-hermanos",
+    "tema": "Adidas y Puma nacieron de la pelea de dos hermanos Dassler que partió en dos un pueblo alemán",
+    "pilar": "biografias",
+    "narrador": "john",
+    "protagonistas": []
+  },
+  {
+    "id": "2026-11-17-arturo-calle-sin-creditos",
+    "tema": "Arturo Calle factura más de 600.000 millones al año y dice que nunca ha recurrido a los créditos",
+    "pilar": "biografias",
+    "narrador": "john",
+    "protagonistas": []
+  },
+  {
+    "id": "2026-11-17-gta-v-230-millones",
+    "tema": "GTA V salió en 2013 y suma más de 230 millones de copias: un promedio de 17,7 millones al año",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "GTA V",
+      "Take-Two",
+      "Strauss Zelnick"
+    ]
+  },
+  {
+    "id": "2026-11-18-avianca-alemanes",
+    "tema": "Avianca nació como SCADTA, una aerolínea con pilotos alemanes, y Estados Unidos presionó para sacarlos en 1940",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": []
+  },
+  {
+    "id": "2026-11-18-gta-trailer-mrbeast",
+    "tema": "El primer tráiler de GTA VI hizo 90,4 millones de vistas en 24 horas y superó el récord de MrBeast; luego el juego se retrasó dos veces",
     "pilar": "tecnologia",
     "narrador": "john",
     "protagonistas": [
-      "Bre-B",
-      "Banco de la República"
+      "GTA VI",
+      "MrBeast",
+      "Take-Two"
     ]
+  },
+  {
+    "id": "2026-11-18-playstation-traicion",
+    "tema": "La PlayStation nació porque Nintendo dejó plantado a Sony y se fue con Philips en 1991",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": []
+  },
+  {
+    "id": "2026-11-19-bon-bon-bum-mitad-afuera",
+    "tema": "Cada mes se hacen 170 millones de Bon Bon Bum en La Paila y Guatemala, y la mitad se exporta a unos 90 países",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": []
+  },
+  {
+    "id": "2026-11-19-gta-vi-caja-sin-disco",
+    "tema": "GTA VI sale el 19 de noviembre de 2026 a US$79,99 y su edición física solo trae un código de descarga",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "GTA VI",
+      "Rockstar Games"
+    ]
+  },
+  {
+    "id": "2026-11-19-starbucks-banco",
+    "tema": "Starbucks guarda más de 1.800 millones de dólares cargados por sus clientes y se queda con más de 200 millones que nadie reclama",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": []
+  },
+  {
+    "id": "2026-11-20-lamborghini-tractores",
+    "tema": "Ferruccio Lamborghini fabricaba tractores; tras una discusión con Enzo Ferrari fundó su marca de superdeportivos",
+    "pilar": "biografias",
+    "narrador": "john",
+    "protagonistas": []
+  },
+  {
+    "id": "2026-11-20-shakira-gira-record",
+    "tema": "Shakira convirtió su disco después de la ruptura en la gira latina más taquillera de la historia: US$421,6 millones",
+    "pilar": "biografias",
+    "narrador": "john",
+    "protagonistas": []
+  },
+  {
+    "id": "2026-11-21-nike-logo-35-dolares",
+    "tema": "El logo de Nike costó 35 dólares: lo diseñó la estudiante Carolyn Davidson en 1971",
+    "pilar": "biografias",
+    "narrador": "john",
+    "protagonistas": []
+  },
+  {
+    "id": "2026-11-21-platzi-calculadora",
+    "tema": "Freddy Vega, fundador de Platzi, cobraba por su software a los 13 años y llevó a Platzi a Y Combinator",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": []
+  },
+  {
+    "id": "2026-11-22-alpina-sopo-california",
+    "tema": "Alpina nació en Sopó de la mano de dos suizos y en 2021 compró el 70 % de Clover Sonoma, una lechera de California",
+    "pilar": "biografias",
+    "narrador": "john",
+    "protagonistas": []
+  },
+  {
+    "id": "2026-11-22-samsung-pescado-seco",
+    "tema": "Samsung empezó en 1938 como un pequeño comercio que vendía pescado seco, frutas y fideos en Daegu",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": []
   }
 ]

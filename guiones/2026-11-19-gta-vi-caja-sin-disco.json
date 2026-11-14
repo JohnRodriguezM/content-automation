@@ -1,0 +1,252 @@
+{
+  "id": "2026-11-19-gta-vi-caja-sin-disco",
+  "pilar": "negocios",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Grand Theft Auto VI logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "La caja [[sin disco]]",
+    "dato": "Hoy sale GTA VI · 5/5",
+    "foto": "1.1"
+  },
+  "tema": "GTA VI sale el 19 de noviembre de 2026 a US$79,99 y su edición física solo trae un código de descarga",
+  "pregunta_principal": "¿Lo compras hoy o esperas a que baje?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Hoy sale GTA VI. Y la caja no trae disco.",
+      "imagenes": [
+        {
+          "busqueda": "Playstation DualSense Controller",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Xbox Series X 2",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "GTA VI",
+        "disco"
+      ],
+      "titulo": "La caja [[sin disco]]",
+      "contador": {
+        "valor": "US$79,99",
+        "etiqueta": "edición estándar"
+      },
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Según Infobae, sale solo para PlayStation 5 y Xbox Series. La edición estándar cuesta 79,99 dólares y la Ultimate, 99,99.",
+      "imagenes": [
+        {
+          "busqueda": "PlayStation 5 and DualSense",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Xbox Series X 2",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "79,99",
+        "99,99"
+      ],
+      "segun": "según Infobae",
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "US$79,99",
+            "texto": "Estándar",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "US$99,99",
+            "texto": "Ultimate",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En Colombia, en Xbox: 339.900 pesos la estándar y 424.900 la Ultimate. En PlayStation, cerca de 276.000 y 345.000.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá shopping mall",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "339.900",
+        "276.000"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$276.000",
+            "texto": "PS5 · estándar (aprox.)",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "$339.900",
+            "texto": "Xbox · estándar",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y ojo con la edición física: la caja solo trae un código de descarga. Es la primera vez en la saga.",
+      "imagenes": [
+        {
+          "busqueda": "Compact disc",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "código",
+        "primera vez"
+      ],
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "Infobae",
+          "fecha": "25 jun 2026",
+          "titular": "GTA 6 precio en preventa: cuánto cuesta el juego de Rockstar en Argentina, Colombia, México y España",
+          "resaltar": "cuánto cuesta el juego de Rockstar"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Para la editora, cada copia digital deja más plata: no hay disco que fabricar. Y las cuentas son enormes.",
+      "imagenes": [
+        {
+          "busqueda": "money dollar bills",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "digital",
+        "fabricar"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Sin disco, [[más margen]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Según Forbes, un inversionista de la firma Konvoy proyecta 7.600 millones de dólares en los primeros dos meses.",
+      "imagenes": [
+        {
+          "busqueda": "Wall Street New York",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "7.600 millones",
+        "dos meses"
+      ],
+      "segun": "según Forbes",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$7.600M",
+          "etiqueta": "proyección para sus primeros 2 meses"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Si lo vas a comprar en físico, piénsalo: un código no se presta ni se revende como un disco.",
+      "imagenes": [
+        {
+          "busqueda": "GameStop store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "presta",
+        "revende"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Un código no se [[revende]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Lo compras hoy o esperas a que baje?",
+      "imagenes": [
+        {
+          "busqueda": "Xbox Wireless Controllers Xbox Series X",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "hoy",
+        "baje"
+      ]
+    }
+  ],
+  "caption": "Parte 5 de 5 · Hoy sale GTA VI.\n\nGTA VI sale el 19 de noviembre de 2026 solo para PlayStation 5 y Xbox Series X|S. La edición estándar cuesta US$79,99 y la Ultimate, US$99,99.\n\nEn Colombia, según Infobae: Xbox, $339.900 la estándar y $424.900 la Ultimate; PlayStation 5, alrededor de $276.000 y $345.000 (precios aproximados a junio).\n\nLa edición física solo trae un código de descarga, sin disco: es la primera vez que pasa en la saga. Un código no se presta ni se revende como un disco, así que si lo compras en físico, tenlo en cuenta.\n\nLas expectativas son enormes: Josh Chapman, de la firma de capital de riesgo Konvoy, proyecta US$7.600 millones en sus primeros dos meses, según Forbes.\n\nFuentes: Infobae (25 jun 2026), Forbes Argentina (13 feb 2026).\n\n¿Lo compras hoy o esperas a que baje?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#GTA",
+    "#RockstarGames",
+    "#Videojuegos",
+    "#HistoriasDeNegocios",
+    "#Negocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Precios US$79,99 / US$99,99; Colombia Xbox $339.900 / $424.900; PS5 aprox. $276.000 / $345.000; edición física solo con código de descarga, primera vez en la saga; PS5 y Xbox Series X|S",
+      "url": "https://www.infobae.com/tecno/2026/06/25/gta-6-precio-en-preventa-cuanto-cuesta-el-juego-de-rockstar-en-argentina-colombia-mexico-y-espana/"
+    },
+    {
+      "afirmacion": "Josh Chapman (Konvoy) proyecta US$7.600 millones en los primeros dos meses; lanzamiento el 19 de noviembre de 2026",
+      "url": "https://www.forbesargentina.com/lifestyle/la-historia-tres-retrasos-lanzamiento-juego-iconico-n86206"
+    }
+  ]
+}

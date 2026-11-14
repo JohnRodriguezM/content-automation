@@ -1,0 +1,283 @@
+{
+  "id": "2026-11-16-gta-escandalo-9-millones",
+  "pilar": "negocios",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Grand Theft Auto VI logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "Vendieron GTA por [[US$9 millones]]",
+    "dato": "La historia de GTA · 2/5",
+    "foto": "1.1"
+  },
+  "tema": "El primer GTA se hizo famoso con un escándalo diseñado por el publicista Max Clifford, y BMG vendió su división de juegos a Take-Two por US$9 millones",
+  "pregunta_principal": "¿Peor negocio de la historia: este o Blockbuster rechazando a Netflix?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] El primer GTA se hizo famoso con un escándalo fabricado.",
+      "imagenes": [
+        {
+          "busqueda": "London Bridge newsstand",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "newspaper printing press",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "escándalo",
+        "fabricado"
+      ],
+      "titulo": "Un escándalo [[fabricado]]",
+      "contador": {
+        "valor": "US$9M",
+        "etiqueta": "lo que pagaron por todo"
+      },
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "1997. La editora del juego, BMG Interactive, contrató a Max Clifford, un publicista británico experto en tabloides.",
+      "imagenes": [
+        {
+          "busqueda": "Max Clifford",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "persona": {
+            "nombre": "Max Clifford",
+            "cargo": "publicista"
+          }
+        }
+      ],
+      "destacar": [
+        "BMG",
+        "Clifford"
+      ],
+      "fecha": "1997",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "londres",
+              "etiqueta": "Londres · BMG Interactive"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Según Mike Dailly, cocreador del juego, Clifford les explicó a quién iba a apuntar y qué iban a decir. Y lo resumió así: «Diseñó todo el escándalo, y eso casi garantizaba que los parlamentarios se metieran».",
+      "imagenes": [
+        {
+          "busqueda": "Palace of Westminster",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "escándalo",
+        "parlamentarios"
+      ],
+      "segun": "según Game Developer",
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Diseñó todo el escándalo, y eso casi garantizaba que los parlamentarios se metieran.",
+          "autor": "Mike Dailly, cocreador de GTA"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Pasó tal cual. El juego terminó condenado en la Cámara de los Lores. David Jones, el otro creador, dijo: «Cada palabra que dijo se cumplió».",
+      "imagenes": [
+        {
+          "busqueda": "House of Lords chamber",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Lores",
+        "cumplió"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Cada palabra que dijo se cumplió.",
+          "autor": "David Jones, cocreador de GTA"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Ahora viene lo increíble. En marzo de 1998, la alemana Bertelsmann, dueña de BMG, decidió vender BMG Interactive. Se la quedó Take-Two, de Nueva York.",
+      "imagenes": [
+        {
+          "busqueda": "Bertelsmann headquarters Gütersloh",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Manhattan skyline 1990s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Bertelsmann",
+        "Take-Two"
+      ],
+      "segun": "según Music Business Worldwide",
+      "fecha": "1998",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "londres",
+              "etiqueta": "BMG Interactive"
+            },
+            {
+              "lugar": "nueva-york",
+              "etiqueta": "Take-Two"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Sam Houser, que había entrado a BMG en el cuarto de correo, calculó el precio total: nueve millones de dólares. De ahí salió Rockstar Games.",
+      "imagenes": [
+        {
+          "busqueda": "Broadway SoHo Manhattan",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "nueve millones",
+        "Rockstar"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$9M",
+          "etiqueta": "el precio total, según Sam Houser"
+        },
+        {
+          "tipo": "cita",
+          "texto": "Por un centavo, esencialmente.",
+          "autor": "Strauss Zelnick, CEO de Take-Two, sobre la venta"
+        }
+      ],
+      "orden": "fpp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "GTA V pasó los mil millones de dólares en sus primeras 72 horas. Bertelsmann había vendido todo por nueve.",
+      "imagenes": [
+        {
+          "busqueda": "money dollar bills",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mil millones",
+        "nueve"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "US$9M",
+            "texto": "la venta en 1998",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "US$1.000M",
+            "texto": "GTA V en 72 horas",
+            "icono": "dinero"
+          }
+        },
+        {
+          "tipo": "recorte",
+          "medio": "Music Business Worldwide",
+          "fecha": "11 nov 2018",
+          "titular": "Was this the biggest mistake in the history of the music business?",
+          "resaltar": "the biggest mistake"
+        }
+      ],
+      "orden": "fpp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Peor negocio de la historia: este, o Blockbuster rechazando a Netflix?",
+      "imagenes": [
+        {
+          "busqueda": "Blockbuster Bend Oregon",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "peor negocio"
+      ]
+    }
+  ],
+  "caption": "Parte 2 de 5 · La historia de GTA, antes del lanzamiento de GTA VI.\n\nEn 1997, BMG Interactive, la editora del primer GTA, contrató al publicista Max Clifford. Según Mike Dailly, cocreador del juego, Clifford les explicó a quién iba a apuntar y qué iban a decir: \"Diseñó todo el escándalo, y eso casi garantizaba que los parlamentarios se metieran\". El juego terminó condenado en la Cámara de los Lores, y David Jones lo resumió: \"cada palabra que dijo se cumplió\".\n\nEn marzo de 1998, por orden de Bertelsmann, BMG vendió BMG Interactive a Take-Two. Sam Houser, que había entrado a BMG en el cuarto de correo, puso la cifra en US$9 millones. Strauss Zelnick lo describió como una venta \"por un centavo, esencialmente\". De ahí salió Rockstar Games, en Nueva York.\n\nGTA V pasó los US$1.000 millones en sus primeras 72 horas.\n\nFuentes: Game Developer (22 oct 2012), Music Business Worldwide (11 nov 2018), The Courier.\n\n¿Peor negocio de la historia: este o Blockbuster rechazando a Netflix?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#GTA",
+    "#RockstarGames",
+    "#Videojuegos",
+    "#HistoriasDeNegocios",
+    "#Negocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Max Clifford diseñó el escándalo; citas de Mike Dailly y David Jones",
+      "url": "https://gamedeveloper.com/business/the-man-who-engineered-the-i-grand-theft-auto-i-controversy"
+    },
+    {
+      "afirmacion": "Clifford fue contratado por BMG Interactive y el escándalo llegó a la Cámara de los Lores",
+      "url": "https://www.thecourier.co.uk/fp/news/dundee/4837660/grand-theft-auto-dundee-dma-design-creators/"
+    },
+    {
+      "afirmacion": "Marzo de 1998: BMG vende BMG Interactive a Take-Two por orden de Bertelsmann; Sam Houser cifra el total en US$9 millones; Zelnick: 'for a penny, essentially'; Houser entró al cuarto de correo en 1990; GTA V superó US$1.000 millones en 72 horas",
+      "url": "https://www.musicbusinessworldwide.com/was-this-the-biggest-mistake-in-the-history-of-the-music-business/"
+    },
+    {
+      "afirmacion": "Rockstar Games se fundó en 1998 en Nueva York; Sam Houser es su fundador",
+      "url": "https://www.gtaboom.com/rockstar-games-f280"
+    }
+  ]
+}

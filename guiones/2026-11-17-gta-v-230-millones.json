@@ -1,0 +1,256 @@
+{
+  "id": "2026-11-17-gta-v-230-millones",
+  "pilar": "negocios",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Grand Theft Auto VI logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "Trece años [[vendiendo]]",
+    "dato": "La historia de GTA · 3/5",
+    "foto": "1.1"
+  },
+  "tema": "GTA V salió en 2013 y suma más de 230 millones de copias: un promedio de 17,7 millones al año",
+  "pregunta_principal": "¿Cuál es mejor: GTA V o San Andreas?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] GTA V salió hace trece años y todavía vende millones de copias.",
+      "imagenes": [
+        {
+          "busqueda": "Hollywood Sign",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "PlayStation 3 console",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "trece años",
+        "millones"
+      ],
+      "titulo": "230 millones de [[copias]]",
+      "contador": {
+        "valor": "230.000.000",
+        "etiqueta": "copias de GTA V"
+      },
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Trece años [[vendiendo]]"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Salió en septiembre de 2013. Y según Music Business Worldwide, pasó los mil millones de dólares en sus primeras 72 horas.",
+      "imagenes": [
+        {
+          "busqueda": "Los Angeles downtown night",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2013",
+        "72 horas"
+      ],
+      "segun": "según Music Business Worldwide",
+      "fecha": "2013",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$1.000M",
+          "etiqueta": "en sus primeras 72 horas"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "La decisión clave: no lo dejaron morir. Lo sacaron en PlayStation 3, después en PlayStation 4 y después en PlayStation 5. Cada consola nueva, una venta nueva.",
+      "imagenes": [
+        {
+          "busqueda": "PlayStation 4 console",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "PlayStation 5 console",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "PlayStation 5",
+        "venta nueva"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Cada consola nueva, una [[venta nueva]]"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Para 2018 ya llevaba más de cien millones de copias.",
+      "imagenes": [
+        {
+          "busqueda": "GameStop store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cien millones"
+      ],
+      "fecha": "2018",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "100M",
+          "etiqueta": "copias en 2018"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y en agosto de 2026, Strauss Zelnick, el CEO de Take-Two, dio la cifra nueva: más de 230 millones.",
+      "imagenes": [
+        {
+          "busqueda": "Strauss Zelnick",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "persona": {
+            "nombre": "Strauss Zelnick",
+            "cargo": "CEO de Take-Two"
+          }
+        }
+      ],
+      "destacar": [
+        "Zelnick",
+        "230 millones"
+      ],
+      "segun": "según Vandal",
+      "fecha": "2026",
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "Vandal",
+          "fecha": "23 ago 2026",
+          "titular": "GTA V vende más copias al año que otros éxitos en toda su vida: suma 230 millones desde 2013",
+          "resaltar": "más copias al año que otros éxitos en toda su vida"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Haz la cuenta: son unos 17,7 millones de copias al año, en promedio, durante trece años seguidos.",
+      "imagenes": [
+        {
+          "busqueda": "gamers playing video games",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "17,7 millones",
+        "trece años"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "100M",
+            "texto": "copias en 2018",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "230M",
+            "texto": "copias en 2026",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Un producto que se sigue vendiendo una década te compra tiempo. Por eso Take-Two pudo esperar trece años para el siguiente.",
+      "imagenes": [
+        {
+          "busqueda": "Miami Beach Ocean Drive",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tiempo",
+        "trece años"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Te compra [[tiempo]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Cuál es mejor: GTA V o San Andreas?",
+      "imagenes": [
+        {
+          "busqueda": "DualShock 4",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "GTA V",
+        "San Andreas"
+      ]
+    }
+  ],
+  "caption": "Parte 3 de 5 · La historia de GTA, antes del lanzamiento de GTA VI.\n\nGTA V salió en septiembre de 2013 y pasó los US$1.000 millones en sus primeras 72 horas, según Music Business Worldwide. En 2018 ya superaba los 100 millones de copias.\n\nEn agosto de 2026, Strauss Zelnick, CEO de Take-Two, dio la cifra actual: más de 230 millones de copias desde su lanzamiento. Vandal hizo la cuenta: un promedio de 17,7 millones al año, unos 1,5 millones al mes. A comienzos de 2026 la cifra ya superaba los 225 millones.\n\nLo sacaron en tres generaciones de PlayStation (3, 4 y 5), y cada versión volvió a venderse. Con ese ritmo, Take-Two pudo esperar trece años para lanzar GTA VI.\n\nFuentes: Music Business Worldwide (11 nov 2018), Vandal (23 ago 2026).\n\n¿Cuál es mejor: GTA V o San Andreas?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#GTA",
+    "#RockstarGames",
+    "#Videojuegos",
+    "#HistoriasDeNegocios",
+    "#Negocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "GTA V salió en septiembre de 2013, superó US$1.000 millones en 72 horas y más de 100 millones de copias (a 2018)",
+      "url": "https://www.musicbusinessworldwide.com/was-this-the-biggest-mistake-in-the-history-of-the-music-business/"
+    },
+    {
+      "afirmacion": "Más de 230 millones de copias (Zelnick, agosto 2026); media de 17,7 millones al año; ~1,5 millones al mes; más de 225 millones a comienzos de 2026",
+      "url": "https://vandal.elespanol.com/noticia/1350792507/gta-v-vende-mas-copias-al-ano-que-otros-exitos-en-toda-su-vida-suma-230-millones-desde-2013/"
+    }
+  ]
+}
