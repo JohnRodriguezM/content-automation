@@ -19,12 +19,6 @@
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Arturo Calle",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
@@ -115,7 +109,7 @@
       "narracion": "De ahí en adelante, se hizo famoso por algo raro en Colombia: Portafolio lo llamó enemigo del endeudamiento.",
       "imagenes": [
         {
-          "busqueda": "Arturo Calle store mall",
+          "busqueda": "Centro Comercial Andino",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -141,7 +135,7 @@
       "narracion": "Hoy tiene más de 100 tiendas en siete países y cerca de 6.000 empleados. En 2024 ganó 22.782 millones de pesos.",
       "imagenes": [
         {
-          "busqueda": "Arturo Calle Panamá",
+          "busqueda": "Ciudad de Panamá skyline",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -213,7 +207,7 @@
       "narracion": "¿Tú comprarías a crédito o esperarías a tener la plata?",
       "imagenes": [
         {
-          "busqueda": "Colombian pesos banknotes",
+          "busqueda": "piggy bank coins",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"

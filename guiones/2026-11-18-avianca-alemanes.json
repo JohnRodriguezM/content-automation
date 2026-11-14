@@ -2,12 +2,6 @@
   "id": "2026-11-18-avianca-alemanes",
   "pilar": "negocios",
   "narrador": "john",
-  "logo": {
-    "busqueda": "Avianca logo",
-    "fuente": "commons",
-    "modo": "relleno",
-    "filtro": "ninguno"
-  },
   "portada": {
     "texto": "Avianca nació [[alemana]]",
     "dato": "Y EE. UU. la desalemanizó",
