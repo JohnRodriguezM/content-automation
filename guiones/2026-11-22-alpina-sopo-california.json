@@ -131,13 +131,13 @@
       "narracion": "Hoy tiene plantas en Sopó, Chinchiná y Caloto. Y en Ecuador es la segunda marca de lácteos.",
       "imagenes": [
         {
-          "busqueda": "Alpina products supermarket",
+          "busqueda": "dairy products supermarket",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
         },
         {
-          "busqueda": "Chinchiná Caldas",
+          "busqueda": "Chinchiná panorámica",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -178,7 +178,7 @@
       "narracion": "En 2021 compró el 70 por ciento de Clover Sonoma, una empresa de lácteos de California.",
       "imagenes": [
         {
-          "busqueda": "Sonoma County dairy farm",
+          "busqueda": "Sonoma County",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -209,13 +209,13 @@
       "narracion": "La clave de los suizos fue controlar toda la cadena: desde las vacas y los productores de leche hasta la fábrica y el camión que llega a tu tienda.",
       "imagenes": [
         {
-          "busqueda": "dairy cows Colombia",
+          "busqueda": "Holstein cows pasture",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
         },
         {
-          "busqueda": "refrigerated truck",
+          "busqueda": "milk tanker truck",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -251,7 +251,7 @@
       "narracion": "¿Avena Alpina o Bon Yurt? Solo uno.",
       "imagenes": [
         {
-          "busqueda": "yogurt cereal cup",
+          "busqueda": "yogurt cup",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"

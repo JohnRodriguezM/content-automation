@@ -21,13 +21,7 @@
       "narracion": "[serious] A los 13 años, Freddy Vega ya cobraba por su software. Hoy dirige Platzi.",
       "imagenes": [
         {
-          "busqueda": "Freddy Vega Platzi",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Platzi",
+          "busqueda": "Bogotá skyline",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -129,7 +123,7 @@
       "narracion": "Nunca terminó la universidad. Con el guatemalteco Christian Van der Henst, que antes era su competencia, fundó Platzi en 2014.",
       "imagenes": [
         {
-          "busqueda": "Christian Van der Henst",
+          "busqueda": "Guatemala City",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -162,7 +156,7 @@
       "narracion": "Ese mismo año entraron a Y Combinator, la aceleradora de Silicon Valley. Fueron de las primeras empresas latinas en lograrlo.",
       "imagenes": [
         {
-          "busqueda": "Y Combinator",
+          "busqueda": "Mountain View California",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
