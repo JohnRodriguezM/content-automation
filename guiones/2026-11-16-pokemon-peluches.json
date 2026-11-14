@@ -11,7 +11,7 @@
   "portada": {
     "texto": "Pokémon gana más con [[peluches]]",
     "dato": "Que con videojuegos",
-    "foto": "1.1"
+    "foto": "4.1"
   },
   "tema": "Pokémon es la franquicia más rentable del mundo y gana más con licencias y productos que con videojuegos",
   "pregunta_principal": "Mándaselo a quien todavía guarda sus cartas de Pokémon.",
@@ -20,12 +20,6 @@
       "bloque": "gancho",
       "narracion": "[serious] Pokémon gana más plata con peluches que con videojuegos. Y es la franquicia más rentable del mundo.",
       "imagenes": [
-        {
-          "busqueda": "Pikachu balloon",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
         {
           "busqueda": "Pokémon Center store",
           "fuente": "commons",
