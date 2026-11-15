@@ -1,0 +1,216 @@
+{
+  "id": "2026-11-15-respuesta-carulla-colombiano",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿Carulla es [[colombiano]]?",
+    "dato": "Respuesta a tu comentario",
+    "foto": "1.1"
+  },
+  "tema": "Respuesta a un comentario: Carulla opera en Colombia desde 1905, pero es del Grupo Éxito desde 2007 y el Éxito es de la familia salvadoreña Calleja desde 2024",
+  "pregunta_principal": "¿Qué otra marca crees que ya no es colombiana?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Carulla opera en Colombia, pero su dueño final no es colombiano.",
+      "imagenes": [
+        {
+          "busqueda": "Carulla supermercado Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Super Selectos El Salvador",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Carulla",
+        "dueño final"
+      ],
+      "titulo": "¿Carulla es [[colombiano]]?",
+      "contador": {
+        "valor": "86,84 %",
+        "etiqueta": "del Éxito es de los Calleja"
+      },
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Carulla nació en Bogotá en 1905. Según Portafolio, lo fundó José Carulla Vidal, un empresario que llegó desde España.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá La Candelaria",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1905",
+        "España"
+      ],
+      "segun": "según Portafolio",
+      "fecha": "1905",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "bogota",
+              "etiqueta": "Bogotá · 1905"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2006, el Grupo Éxito empezó a comprarlo, y en 2007 tomó el control: pagó unos 470 millones de dólares por más del 70 %.",
+      "imagenes": [
+        {
+          "busqueda": "Éxito Tunal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Éxito",
+        "470 millones"
+      ],
+      "segun": "según Pulzo",
+      "fecha": "2007",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$470M",
+          "etiqueta": "por más del 70 % de Carulla"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y en 2024, el Éxito pasó a manos de la familia Calleja, de El Salvador, con el 86,84 % de las acciones.",
+      "imagenes": [
+        {
+          "busqueda": "San Salvador historic center",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Calleja",
+        "86,84"
+      ],
+      "fecha": "2024",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "bogota",
+              "etiqueta": "Carulla · Éxito"
+            },
+            {
+              "lugar": "san-salvador",
+              "etiqueta": "Calleja"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "O sea: Carulla es del Éxito, y el Éxito es de los Calleja. El dueño final está en El Salvador.",
+      "imagenes": [
+        {
+          "busqueda": "supermarket shopping cart aisle",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Éxito",
+        "El Salvador"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Carulla → Éxito → [[Calleja]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Que una marca suene colombiana no te dice de quién es. Para saberlo, hay que seguir la plata hasta arriba.",
+      "imagenes": [
+        {
+          "busqueda": "supermarket shelves",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "suene",
+        "plata"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Sigue la plata [[hasta arriba]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué otra marca crees que ya no es colombiana?",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "colombiana"
+      ]
+    }
+  ],
+  "caption": "Respuesta a un comentario: \"Qué tristeza, ahora Carulla no es colombiano\".\n\nCarulla nació en Bogotá en 1905; lo fundó José Carulla Vidal, un empresario llegado de España (Portafolio). En 2006 el Grupo Éxito empezó a comprarlo y en 2007 tomó el control: pagó cerca de US$470 millones por más del 70 % (Pulzo).\n\nEn 2024, la familia Calleja, de El Salvador (dueña de Súper Selectos), se quedó con el 86,84 % del Grupo Éxito (Valora Analitik).\n\nResultado: Carulla opera en Colombia, con tiendas y empleados aquí, pero su dueño final es salvadoreño.\n\nFuentes: Portafolio (12 dic 2024), Pulzo (29 mar 2023), Valora Analitik.\n\n¿Qué otra marca crees que ya no es colombiana?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Carulla",
+    "#GrupoÉxito",
+    "#Calleja",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Carulla nació en Bogotá en 1905; fundador José Carulla Vidal, llegado de España; Éxito accionista mayoritario desde 2007; más de 100 puntos de venta",
+      "url": "https://www.portafolio.co/negocios/empresas/como-se-llamaba-carulla-antes-en-colombia-y-quien-es-el-dueno-619461"
+    },
+    {
+      "afirmacion": "Éxito compró Carulla en 2006 y asumió el control en 2007; cerca de US$470 millones por más del 70 %",
+      "url": "https://www.pulzo.com/economia/exito-compro-carulla-por-casi-650000-millones-hace-16-anos-colombia-PP2721187"
+    },
+    {
+      "afirmacion": "Calleja queda con el 86,84 % de Grupo Éxito",
+      "url": "https://www.valoraanalitik.com/?p=352155"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": "2026-11-15-respuesta-velez-chino",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿Vélez es [[china]]?",
+    "dato": "Respuesta a tu comentario",
+    "foto": "1.1"
+  },
+  "tema": "Respuesta a un comentario: Vélez no es china; es de Medellín, con curtiembre y plantas propias, aunque algunas líneas como sus relojes se maquilaron en China",
+  "pregunta_principal": "¿Qué otra marca quieres que investigue?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] ¿Vélez es china? No. Pero hay un detalle que casi nadie sabe.",
+      "imagenes": [
+        {
+          "busqueda": "leather belts",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Leather belt",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "china",
+        "detalle"
+      ],
+      "titulo": "¿Vélez es [[china]]?",
+      "contador": {
+        "valor": "6.000.000",
+        "etiqueta": "productos que vende al año"
+      },
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Vélez es de Medellín. Según Diario Financiero, la fundó Juan Raúl Vélez, que empezó fabricando y vendiendo correas. En 2026 cumple 40 años.",
+      "imagenes": [
+        {
+          "busqueda": "Medellín skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Medellín",
+        "correas"
+      ],
+      "segun": "según Diario Financiero",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "medellin",
+              "etiqueta": "Medellín · Vélez"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2017 abrió su propia curtiembre en Amagá, Antioquia, para producir su propio cuero. Y hoy tiene seis plantas: curtido, corte y fabricación.",
+      "imagenes": [
+        {
+          "busqueda": "Amagá Antioquia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "curtiembre",
+        "seis plantas"
+      ],
+      "segun": "según La República",
+      "fecha": "2017",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "6",
+          "etiqueta": "plantas de producción"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Tiene unas 250 tiendas en Colombia y 30 en otros países.",
+      "imagenes": [
+        {
+          "busqueda": "shopping mall Medellín",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "250",
+        "30"
+      ],
+      "fecha": "2025",
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "250",
+            "texto": "tiendas en Colombia",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "30",
+            "texto": "en el exterior",
+            "icono": "edificio"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "El detalle: no todo lo hace aquí. Cuando lanzó relojes, en 2013, el mecanismo era japonés, el ensamble se hacía en China y las correas, en Colombia.",
+      "imagenes": [
+        {
+          "busqueda": "wristwatch leather strap",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "China",
+        "Colombia"
+      ],
+      "segun": "según La República",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Japón + China + [[Colombia]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Ser colombiana no significa fabricar todo en Colombia. Pregunta dos cosas: quién es el dueño y dónde se hace cada producto.",
+      "imagenes": [
+        {
+          "busqueda": "leather wallet",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "dueño",
+        "producto"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "¿Quién es el dueño? ¿[[Dónde se hace]]?"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué otra marca quieres que investigue?",
+      "imagenes": [
+        {
+          "busqueda": "Medellín skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "marca"
+      ]
+    }
+  ],
+  "caption": "Respuesta a un comentario: \"Vélez es chino\".\n\nNo. Vélez es de Medellín: la fundó Juan Raúl Vélez, que empezó fabricando y vendiendo correas, y en 2026 cumple 40 años (Diario Financiero). En 2017 abrió su propia curtiembre en Amagá, Antioquia, y hoy tiene seis plantas de producción: curtido, corte y fabricación (La República). Vende casi 6 millones de unidades al año y tiene unas 250 tiendas en Colombia y 30 en el exterior.\n\nEl detalle: no todo se fabrica aquí. Cuando lanzó relojes en 2013, el mecanismo era japonés, el ensamble se hacía en China y las correas se hacían en Colombia (La República).\n\nFuentes: Diario Financiero (16 abr 2025), La República (20 abr 2017, 28 abr 2023 y 5 jul 2013).\n\n¿Qué otra marca quieres que investigue?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Vélez",
+    "#CuerosVélez",
+    "#MarcasColombianas",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Fundador Juan Raúl Vélez; empezó con correas; 40 años en 2026; casi 6 millones de unidades al año; ~250 tiendas en Colombia y 30 en el exterior",
+      "url": "https://www.df.cl/ripe/colombiana-cueros-velez-aplaza-ingreso-a-eeuu-por-aranceles-y-se"
+    },
+    {
+      "afirmacion": "Nueva curtiembre en Amagá (2017)",
+      "url": "https://www.larepublica.co/empresas/con-nueva-curtiembre-velez-aumentara-este-ano-su-produccion-interna-en-30-2498421"
+    },
+    {
+      "afirmacion": "Nació en Medellín; seis plantas de producción (curtido, corte y fabricación)",
+      "url": "https://www.larepublica.co/empresas/cueros-velez-aumento-en-150-su-productividad-por-medio-de-nuevas-tecnologias-3603124"
+    },
+    {
+      "afirmacion": "Relojes: mecanismo japonés, maquila en China, pulsos fabricados en Colombia (2013)",
+      "url": "https://www.larepublica.co/empresas/cueros-velez-ingresara-al-mercado-de-relojes-y-perfumes-este-ano-2042138"
+    }
+  ]
+}

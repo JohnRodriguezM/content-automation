@@ -1,0 +1,219 @@
+{
+  "id": "2026-11-15-respuesta-arturo-calle-tiendas-solas",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "Tiendas solas, ¿[[cómo ganan]]?",
+    "dato": "Respuesta a tu comentario",
+    "foto": "1.1"
+  },
+  "tema": "Respuesta a un comentario: cómo se sostiene Arturo Calle si sus tiendas parecen vacías (ventas anuales, temporada de diciembre y cero deuda)",
+  "pregunta_principal": "¿Qué otra marca quieres que explique?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] ¿Cómo sobrevive Arturo Calle si sus tiendas siempre están solas?",
+      "imagenes": [
+        {
+          "busqueda": "Arturo Calle tienda",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "men's suits store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "sobrevive",
+        "solas"
+      ],
+      "titulo": "Tiendas solas, ¿[[cómo ganan]]?",
+      "contador": {
+        "valor": "$638.380M",
+        "etiqueta": "vendió en 2024"
+      },
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Te respondo con números. Según Forbes, Arturo Calle vendió 638.380 millones de pesos en 2024.",
+      "imagenes": [
+        {
+          "busqueda": "Centro Comercial Andino",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "números",
+        "638.380"
+      ],
+      "segun": "según Forbes",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$638.380M",
+          "etiqueta": "ventas de Arturo Calle en 2024"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Divide eso entre los días del año: más de 1.700 millones de pesos diarios en toda la cadena.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá shopping mall",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1.700 millones",
+        "diarios"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$1.700M+",
+          "etiqueta": "ventas por día, en promedio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Una tienda de ropa no vive de filas. Vive de pocas compras de buen valor: un vestido, unas camisas, un regalo.",
+      "imagenes": [
+        {
+          "busqueda": "men's shirts shop",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "filas",
+        "buen valor"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Pocas compras, [[de buen valor]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y no vende igual todo el año. En diciembre, con la prima y la Navidad, la moda se dispara. Falabella, por ejemplo, esperaba vender en diciembre el triple que en otros meses.",
+      "imagenes": [
+        {
+          "busqueda": "Christmas shopping mall Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "diciembre",
+        "triple"
+      ],
+      "segun": "según La República",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "3x",
+          "etiqueta": "diciembre frente a otro mes (Falabella)"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Además, Arturo Calle dice que nunca ha usado créditos. Sin deudas, no hay intereses que pagar cada mes, aunque la tienda esté tranquila.",
+      "imagenes": [
+        {
+          "busqueda": "AC Suba, Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "créditos",
+        "intereses"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Nunca he recurrido a los créditos.",
+          "autor": "Arturo Calle, a Forbes"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Una tienda vacía no es una tienda quebrada. Lo que importa es cuánto vende al año y cuánto debe.",
+      "imagenes": [
+        {
+          "busqueda": "shop window mannequins",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "vacía",
+        "debe"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Vacía no es [[quebrada]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué otra marca quieres que explique?",
+      "imagenes": [
+        {
+          "busqueda": "piggy bank coins",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "marca"
+      ]
+    }
+  ],
+  "caption": "Respuesta a un comentario: \"¿Cómo se mantienen si las tiendas permanecen solas?\"\n\nSegún Forbes, Arturo Calle vendió $638.380 millones en 2024. Eso es más de $1.700 millones al día en toda la cadena, en promedio.\n\nUna tienda de ropa no necesita filas: vive de pocas compras de buen valor. Y las ventas se concentran en temporadas: en diciembre, con la prima y la Navidad, la moda se dispara (Falabella esperaba vender en diciembre el triple que en otros meses, según La República).\n\nAdemás, Arturo Calle dice que \"nunca ha recurrido a los créditos\": sin deudas, no hay intereses mensuales que pagar.\n\nFuentes: Forbes Colombia (13 feb 2026), La República (5 dic 2022).\n\n¿Qué otra marca quieres que explique?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#ArturoCalle",
+    "#MarcasColombianas",
+    "#Negocios",
+    "#Colombia",
+    "#Emprendimiento"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Ventas 2024 $638.380 millones; más de 100 tiendas; 'nunca he recurrido a los créditos'",
+      "url": "https://forbes.co/2026/02/13/editors-picks/arturo-calle"
+    },
+    {
+      "afirmacion": "Navidad es una de las temporadas más importantes para Arturo Calle; tiendas físicas son su principal canal; Falabella espera en diciembre cerca del triple de ingresos que en otros meses",
+      "url": "https://www.larepublica.co/empresas/el-estreno-de-ropa-en-navidad-aumentara-hasta-35-las-ventas-para-marcas-de-moda-3502073"
+    }
+  ]
+}
