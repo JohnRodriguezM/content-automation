@@ -1,0 +1,252 @@
+{
+  "id": "2026-11-19-frisby-nombre-espana",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "Otro Frisby en [[España]]",
+    "dato": "Y es legal",
+    "foto": "1.1"
+  },
+  "tema": "Frisby registró sus marcas en España desde 2001 pero nunca abrió allá; en 2026 le cancelaron tres marcas por no usarlas y Frisby España vende en Madrid",
+  "pregunta_principal": "Mándaselo a quien extraña el pollo Frisby en España.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Frisby registró su nombre en España en 2001. Y hoy lo usa otro.",
+      "imagenes": [
+        {
+          "busqueda": "Frisby Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Madrid Gran Vía",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2001",
+        "otro"
+      ],
+      "titulo": "Otro Frisby en [[España]]",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "pereira",
+              "etiqueta": "Pereira · Frisby"
+            },
+            {
+              "lugar": "madrid",
+              "etiqueta": "Madrid · Frisby España"
+            }
+          ]
+        }
+      ],
+      "orden": "ffp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Frisby nació en 1977 en Pereira, como una pizzería de Alfredo Hoyos y Liliana Restrepo. El pollo frito llegó después. Hoy tiene unos 270 restaurantes.",
+      "imagenes": [
+        {
+          "busqueda": "Pereira Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "fried chicken bucket",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1977",
+        "270"
+      ],
+      "fecha": "1977",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "270",
+          "etiqueta": "restaurantes en Colombia",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Registró sus marcas en España. Pero nunca abrió un restaurante allá.",
+      "imagenes": [
+        {
+          "busqueda": "Oficina Española de Patentes y Marcas",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "nunca"
+      ],
+      "fecha": "2001",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Registrada, pero [[sin usar]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] En 2025 apareció Frisby España, una empresa sin relación con la colombiana. Frisby la demandó por usar su identidad y su mascota.",
+      "imagenes": [
+        {
+          "busqueda": "Spain Madrid restaurant street",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Frisby España",
+        "mascota"
+      ],
+      "fecha": "2025",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Mismo nombre, [[otro dueño]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[sighs] Según Valora Analitik, en abril de 2026 la oficina de marcas de España le canceló tres marcas por no usarlas.",
+      "imagenes": [
+        {
+          "busqueda": "Oficina Española de Patentes y Marcas, Madrid",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tres marcas"
+      ],
+      "segun": "según Valora Analitik",
+      "fecha": "ABR. 2026",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "3",
+          "etiqueta": "marcas canceladas por no uso",
+          "icono": "documentos"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Frisby anunció que apelará y dice que su marca europea sigue vigente. Mientras tanto, Frisby España ya vende desde cocinas en Madrid.",
+      "imagenes": [
+        {
+          "busqueda": "Madrid - Edificio Grassy",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "apeló",
+        "Madrid"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "La pelea [[sigue]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[serious] Una marca registrada que no usas es una marca que otro puede reclamar.",
+      "imagenes": [
+        {
+          "busqueda": "trademark registration certificate",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no usas"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Lo que no usas, [[otro lo toma]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mándaselo a quien extraña el pollo Frisby en España.",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Frisby Suba, Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Frisby nació en 1977 en Pereira, como una pizzería de Alfredo Hoyos y Liliana Restrepo; el pollo frito llegó después y hoy tiene unos 270 restaurantes, según Portafolio. Desde 2001 tenía sus marcas registradas en España, pero nunca abrió allá.\n\nEn 2025 apareció Frisby España, sin relación con la colombiana, y Frisby la demandó por usar su identidad y su mascota. El 23 de abril de 2026, la Oficina Española de Patentes y Marcas declaró la caducidad de tres marcas de Frisby por falta de uso (Valora Analitik). Frisby anunció que apelará y asegura que su registro en la Unión Europea sigue vigente. Frisby España opera cocinas en Madrid y reclama unos 700.000 euros.\n\nFuentes: Portafolio, Valora Analitik (abr. 2026), Infobae (24 abr. 2026), La República (2026).\n\nMándaselo a quien extraña el pollo Frisby en España.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Frisby",
+    "#MarcasColombianas",
+    "#PropiedadIntelectual",
+    "#España",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Fundada en 1977 en Pereira por Alfredo Hoyos Mazuera y Liliana Restrepo; empezó como pizzería y luego el pollo frito; unos 270 restaurantes",
+      "url": "https://www.portafolio.co/negocios/empresas/de-pereira-para-toda-colombia-la-historia-de-como-nacio-frisby-630266"
+    },
+    {
+      "afirmacion": "La OEPM declaró el 23 de abril de 2026 la caducidad de tres marcas de Frisby registradas desde 2001 por falta de uso",
+      "url": "https://www.valoraanalitik.com/marcas-frisby-colombia-espana-canceladas/"
+    },
+    {
+      "afirmacion": "Frisby Colombia apelará y asegura que su registro en la Unión Europea sigue vigente",
+      "url": "https://www.infobae.com/colombia/2026/04/24/frisby-colombia-apelara-decision-en-espana-de-cancelar-tres-de-sus-marcas-aseguro-que-su-registro-en-la-union-europea-sigue-vigente/"
+    },
+    {
+      "afirmacion": "Frisby Colombia acusó a Frisby España de usar su identidad gráfica y su mascota",
+      "url": "https://www.publimetro.co/noticias/2025/11/26/frisby-colombia-gana-demanda-contra-frisby-espana-juez-ordena-suspender-el-uso-de-la-marca-en-europa/"
+    },
+    {
+      "afirmacion": "Frisby España reclama unos 700.000 euros",
+      "url": "https://www.portafolio.co/negocios/empresas/perdio-frisby-su-marca-en-europa-la-empresa-colombiana-aclara-que-paso-en-espana-490923"
+    },
+    {
+      "afirmacion": "Frisby España opera cocinas ocultas en Madrid",
+      "url": "https://www.larepublica.co/empresas/frisby-espana-asegura-que-hay-colombianos-interesados-en-sus-franquicias-4512134"
+    }
+  ]
+}

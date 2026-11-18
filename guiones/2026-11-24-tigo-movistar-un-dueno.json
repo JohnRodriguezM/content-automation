@@ -1,0 +1,206 @@
+{
+  "id": "2026-11-24-tigo-movistar-un-dueno",
+  "pilar": "tecnologia",
+  "narrador": "john",
+  "portada": {
+    "texto": "Movistar y Tigo: [[un dueño]]",
+    "dato": "Millicom compró el 100 %",
+    "foto": "1.1"
+  },
+  "tema": "Millicom, dueña de Tigo, compró Movistar Colombia: el 67,5 % de Telefónica en febrero de 2026 y el 32,5 % del Estado en abril por unos 856.000 millones",
+  "pregunta_principal": "¿Tú eres de Claro, Movistar o Tigo?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Movistar y Tigo ya tienen el mismo dueño.",
+      "imagenes": [
+        {
+          "busqueda": "Sede Movistar Btá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Sede tigo Soacha Col",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mismo dueño"
+      ],
+      "titulo": "Movistar + Tigo = [[un dueño]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Es Millicom, la dueña de Tigo. En noviembre de 2025, la SIC aprobó que se integraran, con condiciones.",
+      "imagenes": [
+        {
+          "busqueda": "Antena Movistar tv en Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Millicom",
+        "SIC"
+      ],
+      "fecha": "NOV. 2025",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Aprobado, [[con condiciones]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En febrero de 2026, Millicom le compró a Telefónica su 67,5 por ciento de Movistar Colombia.",
+      "imagenes": [
+        {
+          "busqueda": "Sede tigo Soacha",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "67,5"
+      ],
+      "fecha": "FEB. 2026",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "67,5%",
+          "etiqueta": "comprado a Telefónica",
+          "progreso": 0.675
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Según Forbes, en abril le compró al Estado el 32,5 por ciento que faltaba, por unos 856.000 millones de pesos.",
+      "imagenes": [
+        {
+          "busqueda": "Optical fiber cable",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "32,5",
+        "856.000 millones"
+      ],
+      "segun": "según Forbes",
+      "fecha": "ABR. 2026",
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "TeleSemana",
+          "fecha": "29 abr. 2026",
+          "titular": "Millicom se queda con el 100% de Tigo Colombia: pagó más por el 32,5% del Estado que por el control de Telefónica",
+          "resaltar": "pagó más por el 32,5% del Estado"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Juntas tienen el 41,5 por ciento de las líneas móviles. Claro, el 44,8.",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Claro Restrepo Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "41,5",
+        "44,8"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "44,8%",
+            "texto": "Claro",
+            "icono": "celular"
+          },
+          "despues": {
+            "valor": "41,5%",
+            "texto": "Tigo + Movistar",
+            "icono": "celular"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[serious] Para ti: la SIC prohibió eliminar o restringir los planes que ya tienes. Pero ahora son dos gigantes peleando por tu línea.",
+      "imagenes": [
+        {
+          "busqueda": "Black smartphone in hand",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "planes",
+        "dos gigantes"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Tu plan [[no te lo quitan]]",
+          "icono": "celular"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú eres de Claro, Movistar o Tigo?",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Claro Cúcuta my 2021",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Millicom, dueña de Tigo, se quedó con Movistar Colombia (Coltel). En noviembre de 2025, la Superintendencia de Industria y Comercio aprobó la integración con condiciones, entre ellas mantener la oferta comercial vigente sin eliminar ni restringir los planes actuales (Portafolio). En febrero de 2026, Millicom cerró la compra del 67,5 % que tenía Telefónica, y en abril compró el 32,5 % del Estado por unos 856.000 millones de pesos (Forbes).\n\nCon datos de MinTIC, Movistar y Tigo suman el 41,5 % de las líneas móviles, frente al 44,8 % de Claro.\n\nFuentes: Portafolio (14 nov. 2025), Forbes Colombia (27 abr. 2026), TeleSemana (29 abr. 2026).\n\n¿Tú eres de Claro, Movistar o Tigo?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Tigo",
+    "#Movistar",
+    "#Claro",
+    "#Telecomunicaciones",
+    "#Colombia",
+    "#Negocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "SIC aprobó la integración Tigo-Movistar con condiciones (mantener la oferta comercial vigente); participación en líneas móviles: Claro 44,8 %, Movistar 23,3 %, Tigo 18,2 %; el Estado tenía el 32,5 % de Coltel",
+      "url": "https://www.portafolio.co/negocios/empresas/la-sic-aprobo-la-integracion-entre-tigo-y-movistar-pero-bajo-condiciones-483151"
+    },
+    {
+      "afirmacion": "Febrero de 2026: Millicom cerró la compra del 67,5 % de Telefónica en Coltel; 27 de abril de 2026: compra del 32,5 % del Estado por unos 856.000 millones",
+      "url": "https://forbes.co/2026/04/27/negocios/tigo-completa-compra-de-participacion-estatal-en-movistar-colombia-por-856-000-millones/"
+    },
+    {
+      "afirmacion": "Millicom se queda con el 100 % de Tigo Colombia",
+      "url": "https://www.telesemana.com/blog/2026/04/29/millicom-se-queda-con-el-100-de-tigo-colombia-pago-mas-por-el-325-del-estado-que-por-el-control-de-telefonica/"
+    }
+  ]
+}

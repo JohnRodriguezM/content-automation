@@ -1,0 +1,254 @@
+{
+  "id": "2026-11-20-postobon-drogueria",
+  "pilar": "biografias",
+  "narrador": "john",
+  "portada": {
+    "texto": "Nació en una [[droguería]]",
+    "dato": "Medellín, 1904",
+    "foto": "1.1"
+  },
+  "tema": "Postobón nació en 1904 en una droguería de Medellín, Carlos Ardila Lülle la tomó en 1968 y en 2025 negó venderla a un grupo guatemalteco",
+  "pregunta_principal": "¿Manzana Postobón o Colombiana? Solo una.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Postobón nació en una droguería de Medellín, en 1904.",
+      "imagenes": [
+        {
+          "busqueda": "Postobon.soda",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Medellín 1910",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "droguería",
+        "1904"
+      ],
+      "titulo": "Nació en una [[droguería]]",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "medellin",
+              "etiqueta": "Medellín · 1904"
+            }
+          ]
+        }
+      ],
+      "orden": "ffp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Valerio Tobón trabajaba en la droguería de Gabriel Posada. Juntaron sus apellidos: Posada y Tobón. Su primera gaseosa fue la Kola Champaña.",
+      "imagenes": [
+        {
+          "busqueda": "La feria. Medellín, 1910",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "Posada",
+        "Tobón"
+      ],
+      "fecha": "1904",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "[[Pos]]ada + [[Tob]]ón"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En los años cincuenta, Carlos Ardila Lülle trabajaba en Gaseosas Lux, la competencia. En 1968 compró Postobón y fusionó las dos.",
+      "imagenes": [
+        {
+          "busqueda": "Pepsi Bottle",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Ardila Lülle",
+        "1968"
+      ],
+      "fecha": "1968",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "La competencia se [[la compró]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Ardila participó en la fórmula de la Manzana Postobón. Y la empresa sumó la franquicia de Pepsi en Colombia y hasta su propia cervecera.",
+      "imagenes": [
+        {
+          "busqueda": "Postobón Cúcuta may 2021",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Pepsi 355 ml",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Manzana",
+        "Pepsi"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "bombilla",
+              "texto": "Manzana Postobón"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Franquicia de Pepsi"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Su propia cervecera"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] En julio de 2025 salió la noticia de que un grupo de Guatemala, embotellador de Pepsi, la iba a comprar.",
+      "imagenes": [
+        {
+          "busqueda": "Gaseosas Postobón",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Guatemala"
+      ],
+      "fecha": "JUL. 2025",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "ciudad-de-guatemala",
+              "etiqueta": "Guatemala · CBC"
+            },
+            {
+              "lugar": "medellin",
+              "etiqueta": "Medellín · Postobón"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Según Portafolio, Postobón negó la venta. Pero admitió que busca alianzas para crecer.",
+      "imagenes": [
+        {
+          "busqueda": "Postobón Cúcuta",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "negó",
+        "alianzas"
+      ],
+      "segun": "según Portafolio",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "No se vende. [[Busca socios]]."
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Ardila no le ganó a la competencia en la tienda. La compró. Y 120 años después, la gaseosa sigue en manos de su organización.",
+      "imagenes": [
+        {
+          "busqueda": "Postobon.soda",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "compró",
+        "120 años"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "120",
+          "etiqueta": "años de Postobón",
+          "icono": "reloj"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Manzana Postobón o Colombiana? Solo una.",
+      "imagenes": [
+        {
+          "busqueda": "Postobon.soda",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Postobón nació el 11 de octubre de 1904 en Medellín: Valerio Tobón trabajaba en la droguería de Gabriel Posada y juntaron sus apellidos. Su primera gaseosa fue la Kola Champaña, según El País.\n\nCarlos Ardila Lülle entró a Gaseosas Lux en los años cincuenta; en 1968 compró Postobón y fusionó las dos, según Portafolio. Participó en la fórmula de la Manzana Postobón (1954), consiguió la franquicia de Pepsi para Colombia y en 2014 creó Central Cervecera con la chilena CCU.\n\nEn julio de 2025 circuló que el grupo guatemalteco CBC (Grupo Mariposa), embotellador de Pepsi, compraría Postobón. La compañía lo negó y dijo que explora alianzas para fortalecerse.\n\nFuentes: El País (11 jul. 2025), Portafolio (15 jul. 2025).\n\n¿Manzana Postobón o Colombiana? Solo una.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Postobón",
+    "#MarcasColombianas",
+    "#ArdilaLulle",
+    "#Colombia",
+    "#Negocios",
+    "#Gaseosas"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Fundada el 11 de octubre de 1904 en Medellín por Valerio Tobón y Gabriel Posada; primera gaseosa Kola Champaña; reportes de compra por CBC (Grupo Mariposa) sin confirmar",
+      "url": "https://www.elpais.com.co/economia/postobon-dejaria-de-ser-colombiana-tras-120-anos-seria-adquirida-por-grupo-guatemalteco-1119.html"
+    },
+    {
+      "afirmacion": "Ardila Lülle (Gaseosas Lux) compró Postobón en 1968 y fusionó ambas; Manzana Postobón 1954; franquicia Pepsi; Central Cervecera con CCU; Postobón negó la venta y dijo que explora alianzas",
+      "url": "https://www.portafolio.co/negocios/empresas/esta-es-la-historia-de-postobon-icono-del-sector-de-bebidas-que-busca-alianzas-635415"
+    }
+  ]
+}

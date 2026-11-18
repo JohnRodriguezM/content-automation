@@ -89,4 +89,9 @@ export const LUGARES: Record<string, [number, number, string]> = {
   kioto: [35.0116, 135.7681, "392"],
   daegu: [35.8714, 128.6014, "410"],
   "abu-dabi": [24.4539, 54.3773, "784"],
+  donmatias: [6.4856, -75.3953, "170"],
+  guatape: [6.2333, -75.1586, "170"],
+  armenia: [4.5339, -75.6811, "170"],
+  lisboa: [38.7223, -9.1393, "620"],
+  varsovia: [52.2297, 21.0122, "616"],
 };

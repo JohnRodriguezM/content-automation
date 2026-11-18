@@ -1,0 +1,214 @@
+{
+  "id": "2026-11-21-juan-valdez-cafeteros",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "Juan Valdez es de [[los cafeteros]]",
+    "dato": "675 tiendas en el mundo",
+    "foto": "1.1"
+  },
+  "tema": "Juan Valdez es de la Federación Nacional de Cafeteros: Procafecol abrió su primera tienda en 2002 y hoy tiene 675 tiendas y vende más de 840.000 millones",
+  "pregunta_principal": "¿Tinto de Juan Valdez o de la tienda de la esquina?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Juan Valdez no es de un empresario. Es de los cafeteros.",
+      "imagenes": [
+        {
+          "busqueda": "Juan Valdez Café NY",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Coffee farmer - triangulo del café",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cafeteros"
+      ],
+      "titulo": "El dueño: [[los cafeteros]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 1959, la Federación Nacional de Cafeteros creó al personaje: un campesino cafetero que vendía el café de Colombia en el mundo.",
+      "imagenes": [
+        {
+          "busqueda": "Federacion nacional de cafeteros de colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Coffee tree in Hacienda Guayabal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "1959"
+      ],
+      "fecha": "1959",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Un campesino como [[marca]]"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2002 la Federación creó Procafecol y dio el salto a tiendas propias. La primera abrió en el aeropuerto El Dorado.",
+      "imagenes": [
+        {
+          "busqueda": "Aeropuerto El Dorado Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2002",
+        "El Dorado"
+      ],
+      "fecha": "2002",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Primera tienda: [[El Dorado]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Según Portafolio, hoy tiene 675 tiendas en el mundo, más de 375 en Colombia.",
+      "imagenes": [
+        {
+          "busqueda": "Juan Valdez 140 E 57th St",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Interior of a Juan Valdez café",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "675"
+      ],
+      "segun": "según Portafolio",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "675",
+          "etiqueta": "tiendas en el mundo",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[excited] En 2025 vendió más de 840.000 millones de pesos. Y este año espera pasar el billón y abrir más de 90 tiendas.",
+      "imagenes": [
+        {
+          "busqueda": "Espresso Coffee 01",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "840.000 millones",
+        "billón"
+      ],
+      "fecha": "2025",
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$840.000M",
+            "texto": "ventas 2025",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "+$1 billón",
+            "texto": "meta 2026",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Detrás del logo hay más de 500.000 familias cafeteras. La marca no se la quedó un intermediario.",
+      "imagenes": [
+        {
+          "busqueda": "Coffee berries in Hacienda Guayabal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "500.000"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "500.000",
+          "etiqueta": "familias cafeteras",
+          "icono": "bombilla"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tinto de Juan Valdez o de la tienda de la esquina?",
+      "imagenes": [
+        {
+          "busqueda": "Servilleta Juan Valdez Cafe",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "La marca Juan Valdez es de la Federación Nacional de Cafeteros, que creó el personaje en 1959. En 2002 la Federación creó Procafecol para administrar la marca, y el 14 de diciembre de ese año abrió la primera tienda en el aeropuerto El Dorado de Bogotá, según Noticias Caracol. La marca representa a más de 500.000 familias cafeteras.\n\nSegún Portafolio, Procafecol tiene 675 tiendas en el mundo, más de 375 en Colombia. En 2025 vendió más de 840.000 millones de pesos (+15 %) y en 2026 espera superar el billón y abrir más de 90 tiendas.\n\nFuentes: Portafolio (19 feb. 2026), Noticias Caracol.\n\n¿Tinto de Juan Valdez o de la tienda de la esquina?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#JuanValdez",
+    "#CaféDeColombia",
+    "#Cafeteros",
+    "#MarcasColombianas",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "La Federación Nacional de Cafeteros es dueña de la marca; creó el personaje en 1959; Procafecol creada en 2002; primera tienda el 14 de diciembre de 2002 en El Dorado; más de 500.000 familias",
+      "url": "https://www.noticiascaracol.com/economia/quien-es-el-dueno-de-la-marca-juan-valdez-so35"
+    },
+    {
+      "afirmacion": "675 tiendas, más de 375 en Colombia; ventas 2025 por encima de 840.000 millones; meta de más de 1 billón y más de 90 aperturas en 2026",
+      "url": "https://www.portafolio.co/negocios/empresas/apuesta-global-de-juan-valdez-tienda-insignia-en-bogota-mas-de-90-aperturas-y-mas-de-1-billon-en-ventas-este-ano-488668"
+    },
+    {
+      "afirmacion": "Procafecol S.A. creada en 2002 por la FNC",
+      "url": "https://en.wikipedia.org/wiki/Juan_Valdez_Caf%C3%A9"
+    }
+  ]
+}

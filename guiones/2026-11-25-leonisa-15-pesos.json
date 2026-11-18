@@ -1,0 +1,238 @@
+{
+  "id": "2026-11-25-leonisa-15-pesos",
+  "pilar": "biografias",
+  "narrador": "john",
+  "portada": {
+    "texto": "Leonisa empezó con [[15 pesos]]",
+    "dato": "Hoy está en Macy's",
+    "foto": "1.1"
+  },
+  "tema": "Leonisa nació en 1956 de los hermanos Urrea, que notaron que lo que más se vendía en su almacén de Armenia eran unos brasieres de satín",
+  "pregunta_principal": "Mándaselo a quien cree que Leonisa es una marca gringa.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Leonisa arrancó con 15 pesos.",
+      "imagenes": [
+        {
+          "busqueda": "Guatapé",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "lingerie shop window",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "15 pesos"
+      ],
+      "titulo": "Empezó con [[15 pesos]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "A los 12 años, Joaquín Urrea y sus hermanos alquilaron un local en Guatapé por cinco pesos para vender telas.",
+      "imagenes": [
+        {
+          "busqueda": "El Peñón de Guatapé from a highway bridge",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "12 años",
+        "Guatapé"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "guatape",
+              "etiqueta": "Guatapé · el primer local"
+            },
+            {
+              "lugar": "armenia",
+              "etiqueta": "Armenia · Volga"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Ya en Armenia, con su almacén Volga, notaron algo: lo que más se vendía eran unos brasieres de satín traídos de Medellín.",
+      "imagenes": [
+        {
+          "busqueda": "Armenia, Quindio, Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "brasieres de satín"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Vendían más [[brasieres]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Contrataron a Fabiola Valencia, que copió el brasier. Así nació la fábrica, el 20 de noviembre de 1956.",
+      "imagenes": [
+        {
+          "busqueda": "sewing machine vintage",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Fabiola Valencia",
+        "1956"
+      ],
+      "fecha": "1956",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "1956",
+          "etiqueta": "nace Leonisa",
+          "icono": "reloj"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[laughs softly] Se iba a llamar Leona. Sonaba muy agresivo, y el Club de Leones se opuso. Quedó Leonisa, con la L de su abuela Ludovica.",
+      "imagenes": [
+        {
+          "busqueda": "Irish crochet lace",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Leona",
+        "Ludovica"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Leona → [[Leonisa]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 1968 empezó a exportar, a Costa Rica. Hoy se vende en Macy's, y en 2020 se alió con Victoria's Secret.",
+      "imagenes": [
+        {
+          "busqueda": "Macy's Herald Square August 2017 03",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Macy's",
+        "Victoria's Secret"
+      ],
+      "fecha": "2020",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "medellin",
+              "etiqueta": "Medellín · Leonisa"
+            },
+            {
+              "lugar": "san-jose",
+              "etiqueta": "Costa Rica · 1968"
+            },
+            {
+              "lugar": "nueva-york",
+              "etiqueta": "Macy's"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] No inventaron un producto. Se fijaron en qué se vendía más.",
+      "imagenes": [
+        {
+          "busqueda": "Shop window with lingerie",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "se vendía más"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Mira [[qué se vende]]",
+          "icono": "bombilla"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mándaselo a quien cree que Leonisa es una marca gringa.",
+      "imagenes": [
+        {
+          "busqueda": "Macy's Herald Square",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Leonisa nació el 20 de noviembre de 1956. Según El Colombiano, Joaquín Urrea y sus hermanos empezaron de niños alquilando un local por cinco pesos en Guatapé; luego, en Armenia, con su almacén Volga, notaron que lo que más se vendía eran unos brasieres de satín traídos de Medellín. Contrataron a Fabiola Valencia, que replicó el brasier. El nombre iba a ser Leona, pero sonaba agresivo y el Club de Leones se opuso: quedó Leonisa, con la L de la abuela Ludovica.\n\nEn 1960 hizo el primer brasier fabricado en Colombia y en 1968 empezó a exportar, a Costa Rica. En 2016 llegó a Macy's y en 2020 se alió con Victoria's Secret, según la propia marca.\n\nFuentes: El Colombiano (26 nov. 2022), Leonisa (70 años).\n\nMándaselo a quien cree que Leonisa es una marca gringa.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Leonisa",
+    "#MarcasColombianas",
+    "#Medellín",
+    "#Emprendimiento",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Joaquín Urrea y sus hermanos; local en Guatapé por cinco pesos; almacén Volga en Armenia; brasieres de satín; Fabiola Valencia; nombre Leona descartado; L por la abuela Ludovica; 20 de noviembre de 1956; inicio con 15 pesos",
+      "url": "https://www.elcolombiano.com/forjadores/un-muchacho-de-12-anos-forjo-lo-que-hoy-es-leonisa-JI19669725"
+    },
+    {
+      "afirmacion": "Con solo 15 pesos se creó Leonisa",
+      "url": "https://www.elcolombiano.com/historico/con_solo_15_pesos_se_creo_leonisa-FDEC_224760"
+    },
+    {
+      "afirmacion": "1956 en Medellín; 1960 primer brasier fabricado en Colombia; 1968 exportaciones a Costa Rica; 2016 Macy's; 2020 alianza con Victoria's Secret",
+      "url": "https://www.leonisa.com/pages/70-years-leonisa"
+    }
+  ]
+}

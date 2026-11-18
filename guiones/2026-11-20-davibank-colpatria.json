@@ -1,0 +1,236 @@
+{
+  "id": "2026-11-20-davibank-colpatria",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "Adiós, [[Colpatria]]",
+    "dato": "Ahora es Davibank",
+    "foto": "1.1"
+  },
+  "tema": "Scotiabank entregó Colpatria y sus bancos de Centroamérica a Davivienda a cambio de algo más del 20 % del grupo; nació Davibank",
+  "pregunta_principal": "Mándaselo a quien le llegó una tarjeta Davibank y no sabe qué es.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Tu tarjeta Colpatria ahora dice Davibank. ¿Qué pasó?",
+      "imagenes": [
+        {
+          "busqueda": "Torre Colpatria BOG 03 2018",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Banco Davivienda Bmanga ene 2022",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Colpatria",
+        "Davibank"
+      ],
+      "titulo": "Adiós, [[Colpatria]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Colpatria era de Scotiabank, un banco canadiense que decidió concentrarse en Norteamérica.",
+      "imagenes": [
+        {
+          "busqueda": "Scotiabank branch Toronto",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "canadiense"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "toronto",
+              "etiqueta": "Toronto · Scotiabank"
+            },
+            {
+              "lugar": "bogota",
+              "etiqueta": "Bogotá · Colpatria"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Según El Colombiano, en enero de 2025 anunció el trato: le entregó a Davivienda sus bancos en Colombia, Costa Rica y Panamá. A cambio, quedó con algo más del 20 por ciento del nuevo grupo.",
+      "imagenes": [
+        {
+          "busqueda": "Torre Central Davivienda, Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "20 por ciento"
+      ],
+      "segun": "según El Colombiano",
+      "fecha": "ENE. 2025",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "20%",
+          "etiqueta": "del grupo para Scotiabank",
+          "progreso": 0.2
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] En diciembre nació Davibank. Y en abril de 2026, Scotiabank se despidió del país tras casi 70 años.",
+      "imagenes": [
+        {
+          "busqueda": "Vista aérea Bogotá - 15 - Torre Colpatria",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Davibank",
+        "70 años"
+      ],
+      "fecha": "ABR. 2026",
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "Infobae",
+          "fecha": "15 abr. 2026",
+          "titular": "Scotiabank confirmó el final de su operación en Colombia tras casi 70 años: así anunció su salida en redes sociales",
+          "resaltar": "casi 70 años"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Para ti, la red de cajeros pasa de unos 700 a 2.800.",
+      "imagenes": [
+        {
+          "busqueda": "Cajero Davivienda Comuneros",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2.800"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "700",
+            "texto": "cajeros antes",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "2.800",
+            "texto": "cajeros ahora",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "Su presidente lo resumió así: Todo continúa igual; lo único diferente es la marca.",
+      "imagenes": [
+        {
+          "busqueda": "Davivienda Cúcuta my 2021",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "la marca"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Todo continúa igual; lo único diferente es la marca.",
+          "autor": "Jorge Rojas Dumit, presidente de Davibank, a Infobae"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[serious] Tu tarjeta y tu clave siguen sirviendo. Las nuevas llegan con el logo de Davibank cuando venzan las viejas.",
+      "imagenes": [
+        {
+          "busqueda": "credit cards wallet",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "siguen sirviendo"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Tu tarjeta [[sigue sirviendo]]",
+          "icono": "celular"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mándaselo a quien le llegó una tarjeta Davibank y no sabe qué es.",
+      "imagenes": [
+        {
+          "busqueda": "Torre Colpatria",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "En enero de 2025, Davivienda y Scotiabank anunciaron que integrarían sus operaciones en Colombia, Costa Rica y Panamá: Scotiabank quedaría con algo más del 20 % del banco combinado, según El Colombiano. El banco canadiense decidió concentrarse en Norteamérica.\n\nEl 1 de diciembre de 2025 nació Davibank, la marca que reemplaza a Scotiabank Colpatria (Forbes). En abril de 2026, Scotiabank se despidió de Colombia tras casi 70 años (Infobae). La red de cajeros pasa de unos 700 a 2.800 puntos. Las tarjetas y claves siguen funcionando; las nuevas llegan con la marca Davibank a medida que vencen las anteriores.\n\nFuentes: El Colombiano (11 ene. 2025), Forbes Colombia (1 dic. 2025), Infobae (15 abr. 2026).\n\nMándaselo a quien le llegó una tarjeta Davibank y no sabe qué es.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Davibank",
+    "#Davivienda",
+    "#Colpatria",
+    "#Scotiabank",
+    "#Bancos",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Anuncio en enero de 2025; Scotiabank con algo más del 20 % del banco combinado; operaciones en Colombia, Costa Rica y Panamá",
+      "url": "https://www.elcolombiano.com/negocios/empresas/davivienda-y-scotiabank-se-integran-en-2025-ME26332907"
+    },
+    {
+      "afirmacion": "Davibank anunciado el 1 de diciembre de 2025; tarjetas y claves siguen funcionando; nuevas tarjetas con marca Davibank al vencer",
+      "url": "https://forbes.co/economia-y-finanzas/davibank-la-nueva-entidad-que-resulta-tras-la-integracion-de-scotiabank-colpatria-y-banco-davivienda"
+    },
+    {
+      "afirmacion": "Salida de Scotiabank tras casi 70 años; matriz canadiense se reorienta a Norteamérica; cajeros de unos 700 a 2.800; cita de Jorge Rojas Dumit",
+      "url": "https://www.infobae.com/colombia/2026/04/15/importante-banco-colombiano-se-despide-del-pais-tras-casi-70-anos-asi-anuncio-su-salida-en-redes-sociales/"
+    }
+  ]
+}

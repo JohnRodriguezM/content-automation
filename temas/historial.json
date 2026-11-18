@@ -782,6 +782,16 @@
     "protagonistas": []
   },
   {
+    "id": "2026-11-19-frisby-nombre-espana",
+    "tema": "Frisby registró sus marcas en España desde 2001 pero nunca abrió allá; en 2026 le cancelaron tres marcas por no usarlas y Frisby España vende en Madrid",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Frisby",
+      "Frisby España"
+    ]
+  },
+  {
     "id": "2026-11-19-gta-vi-caja-sin-disco",
     "tema": "GTA VI sale el 19 de noviembre de 2026 a US$79,99 y su edición física solo trae un código de descarga",
     "pilar": "negocios",
@@ -792,11 +802,33 @@
     ]
   },
   {
+    "id": "2026-11-19-justo-bueno-quiebra",
+    "tema": "Justo & Bueno, del mismo fundador de D1, abrió más de mil tiendas en seis años y terminó en liquidación en 2022",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Justo & Bueno",
+      "Michel Olmi",
+      "D1"
+    ]
+  },
+  {
     "id": "2026-11-19-starbucks-banco",
     "tema": "Starbucks guarda más de 1.800 millones de dólares cargados por sus clientes y se queda con más de 200 millones que nadie reclama",
     "pilar": "negocios",
     "narrador": "john",
     "protagonistas": []
+  },
+  {
+    "id": "2026-11-20-davibank-colpatria",
+    "tema": "Scotiabank entregó Colpatria y sus bancos de Centroamérica a Davivienda a cambio de algo más del 20 % del grupo; nació Davibank",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Davibank",
+      "Davivienda",
+      "Scotiabank Colpatria"
+    ]
   },
   {
     "id": "2026-11-20-gta-leonida-es-florida",
@@ -816,6 +848,16 @@
     "protagonistas": []
   },
   {
+    "id": "2026-11-20-postobon-drogueria",
+    "tema": "Postobón nació en 1904 en una droguería de Medellín, Carlos Ardila Lülle la tomó en 1968 y en 2025 negó venderla a un grupo guatemalteco",
+    "pilar": "biografias",
+    "narrador": "john",
+    "protagonistas": [
+      "Postobón",
+      "Carlos Ardila Lülle"
+    ]
+  },
+  {
     "id": "2026-11-20-shakira-gira-record",
     "tema": "Shakira convirtió su disco después de la ruptura en la gira latina más taquillera de la historia: US$421,6 millones",
     "pilar": "biografias",
@@ -833,6 +875,17 @@
     ]
   },
   {
+    "id": "2026-11-21-juan-valdez-cafeteros",
+    "tema": "Juan Valdez es de la Federación Nacional de Cafeteros: Procafecol abrió su primera tienda en 2002 y hoy tiene 675 tiendas y vende más de 840.000 millones",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Juan Valdez",
+      "Procafecol",
+      "Federación Nacional de Cafeteros"
+    ]
+  },
+  {
     "id": "2026-11-21-nike-logo-35-dolares",
     "tema": "El logo de Nike costó 35 dólares: lo diseñó la estudiante Carolyn Davidson en 1971",
     "pilar": "biografias",
@@ -847,11 +900,45 @@
     "protagonistas": []
   },
   {
+    "id": "2026-11-21-tarjeta-exito-bancolombia",
+    "tema": "La Tarjeta Éxito la emite Tuya, una financiera que es 50 % de Bancolombia y 50 % del Grupo Éxito",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Tuya",
+      "Tarjeta Éxito",
+      "Bancolombia",
+      "Grupo Éxito"
+    ]
+  },
+  {
     "id": "2026-11-22-alpina-sopo-california",
     "tema": "Alpina nació en Sopó de la mano de dos suizos y en 2021 compró el 70 % de Clover Sonoma, una lechera de California",
     "pilar": "biografias",
     "narrador": "john",
     "protagonistas": []
+  },
+  {
+    "id": "2026-11-22-ara-portuguesa",
+    "tema": "Tiendas Ara es de la portuguesa Jerónimo Martins, llegó en 2013 y cerró 2025 con 1.653 tiendas y ventas de 14,7 billones",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Tiendas Ara",
+      "Jerónimo Martins"
+    ]
+  },
+  {
+    "id": "2026-11-22-bavaria-santo-domingo",
+    "tema": "Los Santo Domingo fusionaron Bavaria con SABMiller en 2005 por 7.800 millones de dólares y recibieron acciones; en 2016 pasó a AB InBev",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Bavaria",
+      "Santo Domingo",
+      "SABMiller",
+      "AB InBev"
+    ]
   },
   {
     "id": "2026-11-22-gta-florida-man",
@@ -881,6 +968,37 @@
     ]
   },
   {
+    "id": "2026-11-23-olimpica-baratijas",
+    "tema": "Olímpica empezó como un almacén de baratijas de Ricardo Char y Erlinda Abdala; Fuad Char le agregó la droguería; hoy tiene 424 puntos de venta",
+    "pilar": "biografias",
+    "narrador": "john",
+    "protagonistas": [
+      "Olímpica",
+      "Familia Char",
+      "Fuad Char"
+    ]
+  },
+  {
+    "id": "2026-11-23-shein-temu-iva",
+    "tema": "Las compras de menos de 200 dólares en Shein y Temu siguen sin IVA en Colombia: un decreto lo bajó a 50 dólares, la Corte lo tumbó y el Gobierno estudia cobrarlo",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Shein",
+      "Temu",
+      "DIAN"
+    ]
+  },
+  {
+    "id": "2026-11-24-colanta-campesinos",
+    "tema": "Colanta, la mayor lechera de Colombia, es una cooperativa fundada en 1964 por 60 productores de Donmatías; en 2025 recogió el 25 % de la leche formal del país",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Colanta"
+    ]
+  },
+  {
     "id": "2026-11-24-gta-trailer-2-475-millones",
     "tema": "El segundo tráiler de GTA VI sumó 475 millones de vistas en 24 horas, más que el récord de Deadpool y Wolverine",
     "pilar": "tecnologia",
@@ -888,6 +1006,30 @@
     "protagonistas": [
       "GTA VI",
       "Rockstar Games"
+    ]
+  },
+  {
+    "id": "2026-11-24-tigo-movistar-un-dueno",
+    "tema": "Millicom, dueña de Tigo, compró Movistar Colombia: el 67,5 % de Telefónica en febrero de 2026 y el 32,5 % del Estado en abril por unos 856.000 millones",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "Tigo",
+      "Movistar",
+      "Millicom",
+      "Claro"
+    ]
+  },
+  {
+    "id": "2026-11-25-grupo-aval-un-dueno",
+    "tema": "Banco de Bogotá, Occidente, Popular y AV Villas son de Grupo Aval, de Luis Carlos Sarmiento Angulo, que entre fundados y comprados llegó a 14 bancos",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Grupo Aval",
+      "Luis Carlos Sarmiento Angulo",
+      "Banco de Bogotá",
+      "AV Villas"
     ]
   },
   {
@@ -901,6 +1043,26 @@
     ]
   },
   {
+    "id": "2026-11-25-leonisa-15-pesos",
+    "tema": "Leonisa nació en 1956 de los hermanos Urrea, que notaron que lo que más se vendía en su almacén de Armenia eran unos brasieres de satín",
+    "pilar": "biografias",
+    "narrador": "john",
+    "protagonistas": [
+      "Leonisa",
+      "Joaquín Urrea"
+    ]
+  },
+  {
+    "id": "2026-11-26-crepes-mujeres",
+    "tema": "Crepes & Waffles nació en 1980 en Bogotá y desde el inicio contrata sobre todo a madres cabeza de hogar: el 91 % de sus empleados son mujeres",
+    "pilar": "biografias",
+    "narrador": "john",
+    "protagonistas": [
+      "Crepes & Waffles",
+      "Beatriz Fernández"
+    ]
+  },
+  {
     "id": "2026-11-26-gta-31-despedidos",
     "tema": "Rockstar despidió a 31 empleados en el Reino Unido en 2025; la empresa habla de filtraciones y el sindicato IWGB de antisindicalismo",
     "pilar": "negocios",
@@ -908,6 +1070,18 @@
     "protagonistas": [
       "GTA VI",
       "Rockstar Games"
+    ]
+  },
+  {
+    "id": "2026-11-26-quala-bonice",
+    "tema": "Bonice, Popetas, Vive 100 y Doña Gallina son de Quala, que vende en la calle a través de distribuidores y en 2017 le vendió cinco marcas a Unilever",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Quala",
+      "Bonice",
+      "Popetas",
+      "Vive 100"
     ]
   },
   {

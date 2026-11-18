@@ -1,0 +1,231 @@
+{
+  "id": "2026-11-25-grupo-aval-un-dueno",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "4 bancos, [[1 dueño]]",
+    "dato": "Y tu pensión en Porvenir",
+    "foto": "1.1"
+  },
+  "tema": "Banco de Bogotá, Occidente, Popular y AV Villas son de Grupo Aval, de Luis Carlos Sarmiento Angulo, que entre fundados y comprados llegó a 14 bancos",
+  "pregunta_principal": "Mándaselo a quien se cambió de Banco de Bogotá a AV Villas.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Cuatro bancos que crees distintos tienen un solo dueño.",
+      "imagenes": [
+        {
+          "busqueda": "Banco de Bogotá Btá N",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Banco AV Villas Cúcuta nov 2022",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "un solo dueño"
+      ],
+      "titulo": "4 bancos, [[1 dueño]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Banco de Bogotá, Occidente, Popular y AV Villas son de Grupo Aval, de Luis Carlos Sarmiento Angulo. Y el fondo de pensiones Porvenir, también.",
+      "imagenes": [
+        {
+          "busqueda": "Banco de occidente",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "AFP porvenir",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Grupo Aval",
+        "Porvenir"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Bogotá · Occidente"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Popular · AV Villas"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Porvenir"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Su primera compra fue el Banco de Occidente, en 1971. Ese mismo año fundó la corporación de ahorro Las Villas.",
+      "imagenes": [
+        {
+          "busqueda": "Banco de occidente",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1971"
+      ],
+      "fecha": "1971",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Primera compra: [[Occidente]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2010 lo contó así: Entre fundados y comprados, llevo 14 bancos.",
+      "imagenes": [
+        {
+          "busqueda": "Costados sur y occidental del ed. Banco de Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "14 bancos"
+      ],
+      "fecha": "2010",
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Entre fundados y comprados, llevo 14 bancos",
+          "autor": "Luis Carlos Sarmiento Angulo, a Portafolio (2010)"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[excited] Ese año compró BAC Credomatic por 1.900 millones de dólares: la compra más grande de una empresa colombiana en el exterior hasta entonces.",
+      "imagenes": [
+        {
+          "busqueda": "Banco Popular-Medellin",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1.900 millones"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$1.900M",
+          "etiqueta": "por BAC Credomatic",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Según Forbes, en el segundo trimestre de 2026 Aval ganó 981.800 millones de pesos. Y estima la fortuna de su fundador en 12.000 millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "Banco de Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "981.800 millones",
+        "12.000 millones"
+      ],
+      "segun": "según Forbes",
+      "fecha": "2026",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$981.800M",
+          "etiqueta": "utilidad, 2º trimestre de 2026",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Si te cambias de Banco de Bogotá a AV Villas, sigues en la misma casa.",
+      "imagenes": [
+        {
+          "busqueda": "Banco av villas sede cc Rosetta Btá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "misma casa"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Te cambiaste… [[a la misma casa]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mándaselo a quien se cambió de Banco de Bogotá a AV Villas.",
+      "imagenes": [
+        {
+          "busqueda": "Banco de Bogotá Btá N",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Banco de Bogotá, Banco de Occidente, Banco Popular y AV Villas son de Grupo Aval, del empresario Luis Carlos Sarmiento Angulo, que también controla el fondo de pensiones Porvenir. Su primera compra fue el Banco de Occidente, en 1971; ese mismo año fundó la corporación de ahorro Las Villas. En 2010, al comprar BAC Credomatic por 1.900 millones de dólares, le dijo a Portafolio: \"Entre fundados y comprados, llevo 14 bancos\".\n\nSegún Forbes, Grupo Aval ganó 981.800 millones de pesos en el segundo trimestre de 2026 (+17 %) y la fortuna de su fundador se estima en 12.000 millones de dólares.\n\nFuentes: Portafolio (17 jul. 2010), Forbes Colombia (13 ago. 2026).\n\nMándaselo a quien se cambió de Banco de Bogotá a AV Villas.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#GrupoAval",
+    "#Bancos",
+    "#SarmientoAngulo",
+    "#FinanzasPersonales",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Entre fundados y comprados, 14 bancos; primera compra Banco de Occidente en 1971; fundó Las Villas en 1971; BAC Credomatic por 1.900 millones de dólares, la mayor compra de una empresa colombiana en el exterior; bancos de Aval: Bogotá, Occidente, Popular y AV Villas",
+      "url": "https://www.portafolio.co/economia/finanzas/fundados-comprados-llevo-14-bancos-luis-carlos-sarmiento-327780"
+    },
+    {
+      "afirmacion": "Utilidad de 981.800 millones en el segundo trimestre de 2026; Porvenir; fortuna estimada de Sarmiento Angulo en 12.000 millones de dólares",
+      "url": "https://forbes.co/2026/08/13/economia-y-finanzas/grupo-aval-reporto-utilidades-por-981-800-millones-en-el-segundo-trimestre-de-2026/"
+    }
+  ]
+}

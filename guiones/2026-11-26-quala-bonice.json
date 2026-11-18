@@ -1,0 +1,235 @@
+{
+  "id": "2026-11-26-quala-bonice",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "Bonice y Popetas son de [[Quala]]",
+    "dato": "Y el Vive 100",
+    "foto": "1.1"
+  },
+  "tema": "Bonice, Popetas, Vive 100 y Doña Gallina son de Quala, que vende en la calle a través de distribuidores y en 2017 le vendió cinco marcas a Unilever",
+  "pregunta_principal": "¿Popetas o Bonice? Solo uno.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Bonice, Popetas y Doña Gallina son de la misma empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Patriotic Ice Pop",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Popcorn bag popped",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "misma empresa"
+      ],
+      "titulo": "Todos son de [[Quala]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Se llama Quala. Y también es la dueña del Vive 100.",
+      "imagenes": [
+        {
+          "busqueda": "Energy Drink Display",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Bouillon cube",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Quala",
+        "Vive 100"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "bombilla",
+              "texto": "Bonice y Popetas"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Vive 100"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Doña Gallina"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Su jugada fue la calle: le vende a distribuidores que reclutan vendedores ambulantes. Por eso el Bonice te lo ofrecen en el semáforo.",
+      "imagenes": [
+        {
+          "busqueda": "Street Vendor (Bogotá)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "la calle",
+        "semáforo"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Su tienda es [[la calle]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Según La República, en 2014 facturó más de un billón de pesos. Solo el Vive 100 le dejó 80.700 millones.",
+      "imagenes": [
+        {
+          "busqueda": "Energy Drink Battery Cans",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "billón",
+        "80.700 millones"
+      ],
+      "segun": "según La República",
+      "fecha": "2014",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "+$1B",
+          "etiqueta": "ventas de Quala en 2014",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] En 2017 le vendió a Unilever cinco marcas de aseo y cuidado personal, entre ellas Savital y Ego.",
+      "imagenes": [
+        {
+          "busqueda": "Brühwürfel-1",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Unilever",
+        "Savital"
+      ],
+      "fecha": "2017",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Savital y Ego, [[a Unilever]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y la Superintendencia de Industria y Comercio la multó con 450 millones por publicidad engañosa del caldo Doña Gallina.",
+      "imagenes": [
+        {
+          "busqueda": "Bouillon cube",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "450 millones"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$450M",
+          "etiqueta": "multa por publicidad engañosa",
+          "icono": "documentos"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] No necesitas que conozcan tu empresa. Necesitas que tu producto esté donde pasa la gente.",
+      "imagenes": [
+        {
+          "busqueda": "Street Vendor (Bogotá)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "donde pasa la gente"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Estar [[donde pasa la gente]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Popetas o Bonice? Solo uno.",
+      "imagenes": [
+        {
+          "busqueda": "Popcorn bag popped",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Bonice, Popetas, Vive 100 y el caldo Doña Gallina son de Quala. Según La República, su modelo en la calle consiste en venderle a distribuidores que reclutan vendedores ambulantes. En 2014, Quala facturó más de un billón de pesos y solo Vive 100 dejó 80.700 millones. La Superintendencia de Industria y Comercio la multó con 450 millones de pesos por publicidad engañosa de Doña Gallina.\n\nEn mayo de 2017, Unilever anunció la compra de cinco marcas de aseo y cuidado personal de Quala, entre ellas Savital y Ego.\n\nFuentes: La República (10 nov. 2015), La República (15 may. 2017).\n\n¿Popetas o Bonice? Solo uno.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Quala",
+    "#Bonice",
+    "#Popetas",
+    "#MarcasColombianas",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Popetas, BonIce, Yogoso y Vive 100 en comercio callejero; distribuidores que reclutan vendedores; ingresos de más de 1 billón en 2014; Vive 100 con 80.700 millones; multa de la SIC por 450 millones por Doña Gallina",
+      "url": "https://www.larepublica.co/empresas/las-polemicas-ventas-callejeras-de-quala-2320986"
+    },
+    {
+      "afirmacion": "Unilever anuncia la adquisición de los portafolios de hogar y cuidado personal de Quala (eGo, Savital, Fortident, Aromatel, Bio-Expert), mayo de 2017",
+      "url": "https://www.larepublica.co/unilever-anuncia-adquisici%C3%B3n-de-portafolios-de-hogar-y-cuidado-personal-de-quala_509121"
+    },
+    {
+      "afirmacion": "Unilever adquirió cinco marcas de Quala",
+      "url": "https://www.larepublica.co/empresas/unilever-exportaria-15-de-su-produccion-local-tras-adquirir-cinco-marcas-de-quala-2525045"
+    }
+  ]
+}

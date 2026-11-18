@@ -1,0 +1,231 @@
+{
+  "id": "2026-11-26-crepes-mujeres",
+  "pilar": "biografias",
+  "narrador": "john",
+  "portada": {
+    "texto": "[[91 %]] de Crepes son mujeres",
+    "dato": "Madres cabeza de hogar",
+    "foto": "1.1"
+  },
+  "tema": "Crepes & Waffles nació en 1980 en Bogotá y desde el inicio contrata sobre todo a madres cabeza de hogar: el 91 % de sus empleados son mujeres",
+  "pregunta_principal": "Mándaselo a alguien que trabajó en Crepes.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Nueve de cada diez empleados de Crepes son mujeres.",
+      "imagenes": [
+        {
+          "busqueda": "Crepes & Waffles in Quito",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Crepes dsc07085",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Nueve de cada diez"
+      ],
+      "titulo": "[[91 %]] son mujeres",
+      "contador": {
+        "valor": "9.300",
+        "etiqueta": "empleados en Colombia"
+      },
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "El 13 de abril de 1980, dos estudiantes del CESA, Beatriz Fernández y Eduardo Macía, abrieron una crepería en el norte de Bogotá.",
+      "imagenes": [
+        {
+          "busqueda": "2019 Bogotá - Casa de ladrillo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1980",
+        "Beatriz Fernández"
+      ],
+      "fecha": "1980",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "bogota",
+              "etiqueta": "Bogotá · 1980"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Desde el principio decidieron contratar sobre todo a madres cabeza de hogar: en la cocina, en el servicio y en la caja.",
+      "imagenes": [
+        {
+          "busqueda": "Crêpe à la confiture de fruit",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "madres cabeza de hogar"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "bombilla",
+              "texto": "En la cocina"
+            },
+            {
+              "icono": "documentos",
+              "texto": "En el servicio"
+            },
+            {
+              "icono": "dinero",
+              "texto": "En la caja"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Según Valora Analitik, hoy tiene más de 150 puntos en Colombia e ingresos de 789.000 millones de pesos.",
+      "imagenes": [
+        {
+          "busqueda": "Crepes & Waffles en Quito",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "150",
+        "789.000 millones"
+      ],
+      "segun": "según Valora Analitik",
+      "fecha": "HOY",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$789.000M",
+          "etiqueta": "ingresos al año",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[excited] Unas 9.300 personas trabajan con ellos en Colombia. Y ya está en Ecuador, Chile, México, Panamá y España.",
+      "imagenes": [
+        {
+          "busqueda": "Crepes & Waffles in Quito",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "9.300"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "bogota",
+              "etiqueta": "Colombia"
+            },
+            {
+              "lugar": "quito",
+              "etiqueta": "Ecuador"
+            },
+            {
+              "lugar": "ciudad-de-mexico",
+              "etiqueta": "México"
+            },
+            {
+              "lugar": "madrid",
+              "etiqueta": "España"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Le dieron trabajo a quien otros no contrataban. Y con ellas construyeron la empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Crepes dsc07085",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no contrataban"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Contratar a quien [[nadie mira]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mándaselo a alguien que trabajó en Crepes.",
+      "imagenes": [
+        {
+          "busqueda": "Crepes & Waffles in Quito",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Crepes & Waffles nació el 13 de abril de 1980 en Bogotá, cuando Beatriz Fernández y Eduardo Macía, dos estudiantes del CESA, abrieron una pequeña crepería, según El Tiempo. Desde el inicio decidieron contratar sobre todo a mujeres cabeza de hogar, en la cocina, el servicio y la caja: hoy el 91 % de sus cerca de 9.300 empleados en Colombia son mujeres.\n\nSegún Valora Analitik, tiene más de 150 puntos en Colombia, está en Ecuador, Chile, México, Panamá y España, y sus ingresos son de 789.300 millones de pesos.\n\nFuentes: El Tiempo, Forbes Colombia (8 nov. 2024), Valora Analitik.\n\nMándaselo a alguien que trabajó en Crepes.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#CrepesAndWaffles",
+    "#MarcasColombianas",
+    "#Mujeres",
+    "#Emprendimiento",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Primer local el 13 de abril de 1980 en Bogotá; Beatriz Fernández y Eduardo Macía; contratación de mujeres cabeza de hogar en cocina, servicio y caja",
+      "url": "https://www.eltiempo.com/economia/empresas/quien-es-la-duena-de-crepes-and-waffles-historia-y-expansion-760371"
+    },
+    {
+      "afirmacion": "Fundada en 1980 por dos estudiantes del CESA; la mayoría de las mujeres son cabeza de hogar; seis países",
+      "url": "https://forbes.co/2024/11/08/editors-picks/crepes-waffles-beatriz-fernandez"
+    },
+    {
+      "afirmacion": "Más de 150 puntos en Colombia; presencia en Chile, Ecuador, México, Panamá y España; ingresos de 789.300 millones; unos 9.300 empleados en Colombia, 91 % mujeres",
+      "url": "https://www.valoraanalitik.com/crepes-waffles-busca-seguir-creciendo-en-colombia/"
+    }
+  ]
+}

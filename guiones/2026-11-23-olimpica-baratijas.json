@@ -1,0 +1,229 @@
+{
+  "id": "2026-11-23-olimpica-baratijas",
+  "pilar": "biografias",
+  "narrador": "john",
+  "portada": {
+    "texto": "Olímpica vendía [[baratijas]]",
+    "dato": "Hoy 424 tiendas",
+    "foto": "1.1"
+  },
+  "tema": "Olímpica empezó como un almacén de baratijas de Ricardo Char y Erlinda Abdala; Fuad Char le agregó la droguería; hoy tiene 424 puntos de venta",
+  "pregunta_principal": "Mándaselo a alguien de la Costa que todavía dice: vamos a la Olímpica.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Olímpica empezó vendiendo baratijas.",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Olímpica Chía sep 2018",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Barranquilla Montage",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "baratijas"
+      ],
+      "titulo": "De [[baratijas]] a 424 tiendas",
+      "contador": {
+        "valor": "424",
+        "etiqueta": "puntos de venta"
+      },
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Ricardo Char llegó de Siria en 1926 a trabajar como joyero en Lorica, Córdoba. Con su esposa, Erlinda Abdala, abrió un almacén de baratijas.",
+      "imagenes": [
+        {
+          "busqueda": "Rio Sinu, Santa Cruz de Lorica",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Edificio Gonzalez, Centro Historico",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "Siria",
+        "joyero"
+      ],
+      "fecha": "1926",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Un joyero [[sirio]]"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 1955 Ricardo tuvo un accidente, y su hijo mayor, Fuad, tomó el negocio. Le agregó una droguería. En menos de un año tenían seis.",
+      "imagenes": [
+        {
+          "busqueda": "Busto de Fuad Char",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno",
+          "persona": {
+            "nombre": "Fuad Char",
+            "cargo": "tomó el negocio en 1955"
+          }
+        }
+      ],
+      "destacar": [
+        "Fuad",
+        "droguería"
+      ],
+      "fecha": "1955",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "6",
+          "etiqueta": "droguerías en menos de un año",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 1968 abrieron un almacén grande para la gente de menos plata. La regla desde entonces: el precio más bajo.",
+      "imagenes": [
+        {
+          "busqueda": "Barranquilla",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "1968",
+        "precio más bajo"
+      ],
+      "fecha": "1968",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "La regla: [[el precio más bajo]]",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Según Forbes, hoy tiene 424 puntos de venta, más de 24.000 empleados, y en 2023 vendió 7,8 billones de pesos.",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Olímpica Av 7 Bog 2018",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "424",
+        "7,8 billones"
+      ],
+      "segun": "según Forbes",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$7,8B",
+          "etiqueta": "ventas en 2023",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Y en 2024 pasó algo que no pasaba en siete décadas: un presidente que no es Char.",
+      "imagenes": [
+        {
+          "busqueda": "Puerto Mocho, Barranquilla",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "siete décadas"
+      ],
+      "fecha": "2024",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Primer presidente [[sin apellido Char]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Hoy cada tienda Olímpica tiene droguería. La idea de Fuad sigue ahí.",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Olímpica Chía",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "droguería"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "La idea de Fuad [[sigue ahí]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mándaselo a alguien de la Costa que todavía dice: vamos a la Olímpica.",
+      "imagenes": [
+        {
+          "busqueda": "Barranquilla Montage",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Olímpica nació a comienzos de los años cincuenta como un almacén de baratijas de Ricardo Char, que llegó de Siria a Lorica en 1926 a trabajar como joyero, y su esposa Erlinda Abdala, según El Heraldo. En 1955, tras un accidente del padre, el hijo mayor, Fuad, tomó el negocio y le agregó una droguería: en menos de un año tenían seis. En 1968 abrieron un gran almacén para consumidores de menores ingresos, con la estrategia de los precios más bajos.\n\nSegún Forbes, Olímpica tiene 424 puntos de venta, más de 24.000 empleados y vendió 7,8 billones de pesos en 2023. Desde mediados de 2024 la preside José Manuel Carbonell, el primero que no es de la familia Char en siete décadas. Todas sus tiendas tienen droguería.\n\nFuentes: El Heraldo (2 nov. 2015), Forbes Colombia (28 feb. 2025).\n\nMándaselo a alguien de la Costa que todavía dice: vamos a la Olímpica.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Olímpica",
+    "#FamiliaChar",
+    "#Barranquilla",
+    "#Supermercados",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Ricardo Char llegó de Siria a Lorica en 1926 como joyero; con Erlinda Abdala empezó un almacén de baratijas; en 1955 Fuad tomó el negocio y agregó una droguería (seis en menos de un año); gran almacén en 1968; estrategia de precios bajos",
+      "url": "https://www.elheraldo.co/economia/asi-inicio-la-cadena-de-tiendas-de-los-precios-bajos-224079"
+    },
+    {
+      "afirmacion": "424 puntos de venta, más de 24.000 empleados, ventas de 7,8 billones en 2023; la familia Char ocupó la presidencia siete décadas hasta mediados de 2024; José Manuel Carbonell presidente; todas las tiendas tienen droguería",
+      "url": "https://forbes.co/editors-picks/olimpica-jose-manuel-carbonell"
+    }
+  ]
+}

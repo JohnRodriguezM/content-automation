@@ -1,0 +1,260 @@
+{
+  "id": "2026-11-22-ara-portuguesa",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "Ara es [[portuguesa]]",
+    "dato": "1.708 tiendas en Colombia",
+    "foto": "1.1"
+  },
+  "tema": "Tiendas Ara es de la portuguesa Jerónimo Martins, llegó en 2013 y cerró 2025 con 1.653 tiendas y ventas de 14,7 billones",
+  "pregunta_principal": "¿Tú eres de D1 o de Ara?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Ara no es colombiana. Es portuguesa.",
+      "imagenes": [
+        {
+          "busqueda": "Tiendas Ara Cúcuta my 2021",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "View of Lisbon Tejo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "portuguesa"
+      ],
+      "titulo": "Ara es [[portuguesa]]",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "lisboa",
+              "etiqueta": "Lisboa · Jerónimo Martins"
+            },
+            {
+              "lugar": "bogota",
+              "etiqueta": "Colombia · Ara"
+            }
+          ]
+        }
+      ],
+      "orden": "ffp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Su dueña es Jerónimo Martins, de Lisboa. En Polonia maneja Biedronka, la cadena de descuento más grande de ese país.",
+      "imagenes": [
+        {
+          "busqueda": "Biedronka",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Jerónimo Martins",
+        "Biedronka"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "lisboa",
+              "etiqueta": "Lisboa"
+            },
+            {
+              "lugar": "varsovia",
+              "etiqueta": "Polonia · Biedronka"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Llegó a Colombia en 2013, cuando D1 ya llevaba cuatro años abriendo tiendas.",
+      "imagenes": [
+        {
+          "busqueda": "Tiendas D1",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2013"
+      ],
+      "fecha": "2013",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Llegó [[cuatro años]] después de D1"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2025 se quedó con la operación de más de 70 supermercados de Colsubsidio.",
+      "imagenes": [
+        {
+          "busqueda": "Vrs n Cund Bog jun 2018 Col - 4",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Colsubsidio"
+      ],
+      "fecha": "2025",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "+70",
+          "etiqueta": "supermercados de Colsubsidio",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Según Forbes, cerró 2025 con 1.653 tiendas y ventas de 14,7 billones de pesos, 17 por ciento más que el año anterior.",
+      "imagenes": [
+        {
+          "busqueda": "Tiendas Ara Cúcuta",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1.653",
+        "14,7 billones"
+      ],
+      "segun": "según Forbes",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "1.653",
+          "etiqueta": "tiendas a diciembre de 2025",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[excited] Y no para: en marzo de 2026 ya iba en 1.708.",
+      "imagenes": [
+        {
+          "busqueda": "Ara supermercado Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1.708"
+      ],
+      "fecha": "MAR. 2026",
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "1.653",
+            "texto": "dic. 2025",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "1.708",
+            "texto": "mar. 2026",
+            "icono": "edificio"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] El 96 por ciento de lo que compra es producto nacional. La cadena es portuguesa; lo que hay adentro, casi todo colombiano.",
+      "imagenes": [
+        {
+          "busqueda": "supermarket shelves discount",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "96 por ciento"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "96%",
+          "etiqueta": "de compras nacionales",
+          "progreso": 0.96
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú eres de D1 o de Ara?",
+      "imagenes": [
+        {
+          "busqueda": "Tiendas Ara Cúcuta my 2021",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Tiendas Ara es de Jerónimo Martins, con sede en Lisboa (Portugal), que también controla Biedronka, la mayor cadena de descuento de Polonia, según Portafolio. Ara empezó a operar en Colombia en 2013.\n\nEn 2025 se quedó con la operación de más de 70 supermercados de Colsubsidio y cerró el año con 1.653 tiendas y ventas de 14,7 billones de pesos, 17,4 % más que en 2024 (Forbes, Valora Analitik). El 96 % de sus compras son productos nacionales. En el primer trimestre de 2026 llegó a 1.708 puntos de venta.\n\nFuentes: Forbes Colombia (19 mar. 2026), Valora Analitik (2026), Portafolio (20 ago. 2026), La República (2025).\n\n¿Tú eres de D1 o de Ara?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#TiendasAra",
+    "#D1",
+    "#Supermercados",
+    "#JerónimoMartins",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "1.653 tiendas a diciembre de 2025; ventas de 14,7 billones (+17,4 %); 96 % de compras nacionales; integró locales de Colsubsidio",
+      "url": "https://forbes.co/negocios/cadena-de-supermercados-ara-cerro-el-2025-con-mas-de-1-600-tiendas-en-colombia"
+    },
+    {
+      "afirmacion": "Ventas de 14,7 billones en 2025 (+17,4 %) y 225 nuevas tiendas",
+      "url": "https://www.valoraanalitik.com/ventas-de-tiendas-ara-aumentaron-174-en-2025/"
+    },
+    {
+      "afirmacion": "Jerónimo Martins tiene sede en Lisboa y controla Biedronka; Ara opera en Colombia desde 2013; 1.708 puntos de venta en el primer trimestre de 2026",
+      "url": "https://www.portafolio.co/negocios/empresas/quien-es-jeronimo-martins-la-empresa-duena-de-tiendas-ara-que-donara-12-millones-de-euros-a-colombia-500848"
+    },
+    {
+      "afirmacion": "Ara se queda con la operación de los supermercados Colsubsidio tras aprobación de la SIC",
+      "url": "https://www.larepublica.co/empresas/tiendas-ara-se-quedara-con-la-operacion-de-75-locales-de-supermercados-colsubsidio-4101382"
+    },
+    {
+      "afirmacion": "D1 lanzado en Medellín en 2009",
+      "url": "https://www.bloomberglinea.com/2022/08/04/justo-bueno-quiebra-el-negocio-de-descuento-duro-pierde-un-jugador-oficial/"
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "id": "2026-11-22-bavaria-santo-domingo",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "Bavaria se vendió en [[2005]]",
+    "dato": "Por US$7.800 millones",
+    "foto": "1.1"
+  },
+  "tema": "Los Santo Domingo fusionaron Bavaria con SABMiller en 2005 por 7.800 millones de dólares y recibieron acciones; en 2016 pasó a AB InBev",
+  "pregunta_principal": "¿Águila o Póker? Solo una.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Bavaria dejó de ser colombiana en 2005.",
+      "imagenes": [
+        {
+          "busqueda": "Cerveza el aguila 2019",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Parque Central Bavaria frente Carrera",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2005"
+      ],
+      "titulo": "Vendida por [[US$7.800M]]",
+      "contador": {
+        "valor": "7.800",
+        "etiqueta": "millones de dólares"
+      },
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Bavaria la fundó un alemán, Leo Kopp, en Bogotá, en 1889.",
+      "imagenes": [
+        {
+          "busqueda": "Casa Leo Kopp Castello",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "Leo Kopp",
+        "1889"
+      ],
+      "fecha": "1889",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "berlin",
+              "etiqueta": "Alemania · Leo Kopp"
+            },
+            {
+              "lugar": "bogota",
+              "etiqueta": "Bogotá · Bavaria"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Un siglo después era la joya de los Santo Domingo: Águila, Póker, Club Colombia y Pony Malta.",
+      "imagenes": [
+        {
+          "busqueda": "Cerveza Poker",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Cerveza Club Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Botella de pony malta",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Santo Domingo"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "dinero",
+              "texto": "Águila y Póker"
+            },
+            {
+              "icono": "bombilla",
+              "texto": "Club Colombia"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Pony Malta"
+            }
+          ]
+        }
+      ],
+      "orden": "fpff"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En julio de 2005, la familia la fusionó con la gigante SABMiller. Según Semana, el negocio valió 7.800 millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "SABMiller beers",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "SABMiller",
+        "7.800"
+      ],
+      "segun": "según Semana",
+      "fecha": "JUL. 2005",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$7.800M",
+          "etiqueta": "valor del negocio",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Pero no recibieron efectivo. Recibieron acciones: unos 4.000 millones de dólares, el 15 por ciento de SABMiller. Quedaron como segundos accionistas.",
+      "imagenes": [
+        {
+          "busqueda": "Parque Central Bavaria",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "acciones",
+        "15 por ciento"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "15%",
+          "etiqueta": "de SABMiller para la familia",
+          "progreso": 0.15
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] En 2016, AB InBev compró SABMiller. Y Bavaria pasó a manos de AB InBev.",
+      "imagenes": [
+        {
+          "busqueda": "CONJUNTO BAVARIA",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "AB InBev"
+      ],
+      "fecha": "2016",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Hoy es de [[AB InBev]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Los Santo Domingo no vendieron por plata en la mano. Cambiaron su cervecera por un pedazo del negocio mundial.",
+      "imagenes": [
+        {
+          "busqueda": "Cerveza Poker (6987986572)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "pedazo"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "No vendieron: [[cambiaron]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Águila o Póker? Solo una.",
+      "imagenes": [
+        {
+          "busqueda": "Cerveza el aguila 2019",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Bavaria la fundó el alemán Leo S. Kopp en Bogotá el 4 de abril de 1889. Un siglo después era la joya de los Santo Domingo, con Águila, Póker, Club Colombia y Pony Malta.\n\nEl 20 de julio de 2005 se anunció su fusión con SABMiller por 7.800 millones de dólares, según Semana. La familia no recibió efectivo: recibió acciones por unos 4.000 millones de dólares, el 15,1 % de SABMiller, y quedó como segundo accionista. El 10 de octubre de 2016, AB InBev compró SABMiller y Bavaria pasó a ser parte de AB InBev.\n\nFuentes: Semana (18 may. 2007), Wikipedia (Bavaria Brewery).\n\n¿Águila o Póker? Solo una.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Bavaria",
+    "#Águila",
+    "#SantoDomingo",
+    "#Cerveza",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Negocio de 7.800 millones de dólares anunciado el 20 de julio de 2005; la familia Santo Domingo recibió unos 4.000 millones en acciones, el 15,1 % de SABMiller; segunda accionista",
+      "url": "https://www.semana.com/economia/articulo/que-negociazo/86065-3"
+    },
+    {
+      "afirmacion": "Fundada el 4 de abril de 1889 por Leo S. Kopp; subsidiaria de SABMiller desde 2005; parte de AB InBev desde el 10 de octubre de 2016; marcas Águila, Póker, Club Colombia, Pony Malta",
+      "url": "https://en.wikipedia.org/wiki/Bavaria_Brewery_(Colombia)"
+    }
+  ]
+}

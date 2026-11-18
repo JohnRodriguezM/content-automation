@@ -1,0 +1,221 @@
+{
+  "id": "2026-11-21-tarjeta-exito-bancolombia",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "La Tarjeta Éxito es mitad [[Bancolombia]]",
+    "dato": "La emite Tuya",
+    "foto": "1.1"
+  },
+  "tema": "La Tarjeta Éxito la emite Tuya, una financiera que es 50 % de Bancolombia y 50 % del Grupo Éxito",
+  "pregunta_principal": "¿Tú pagas a una cuota o difieres?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] La Tarjeta Éxito es mitad de Bancolombia.",
+      "imagenes": [
+        {
+          "busqueda": "Éxito Tunal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Edificio Bancolombia - luces",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mitad",
+        "Bancolombia"
+      ],
+      "titulo": "Mitad [[Bancolombia]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "La emite Tuya, una compañía de financiamiento. Según Valora Analitik, Bancolombia y el Grupo Éxito tienen el 50 por ciento cada uno.",
+      "imagenes": [
+        {
+          "busqueda": "Supermercado Éxito",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Tuya",
+        "50 por ciento"
+      ],
+      "segun": "según Valora Analitik",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "50/50",
+          "etiqueta": "Bancolombia y Grupo Éxito",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2015, el Éxito acordó comprarle a Bancolombia la mitad de Tuya. Quería su parte del negocio del crédito.",
+      "imagenes": [
+        {
+          "busqueda": "Edificio Bancolombia - entorno",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2015",
+        "crédito"
+      ],
+      "fecha": "2015",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Su parte del [[crédito]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Para muchos es su primer crédito. En 2018, cuatro de cada diez clientes de la tarjeta la tenían como su primer producto financiero.",
+      "imagenes": [
+        {
+          "busqueda": "credit card payment terminal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "primer crédito"
+      ],
+      "fecha": "2018",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "4 de 10",
+          "etiqueta": "primer producto financiero",
+          "progreso": 0.4
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "A mitad de 2025 tenía cerca de 2 millones de clientes y una cartera de casi 1,9 billones de pesos.",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Alkosto C170 Bog",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2 millones",
+        "1,9 billones"
+      ],
+      "fecha": "2025",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "2M",
+          "etiqueta": "clientes de Tuya",
+          "icono": "celular"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] En solo seis meses, los intereses le dejaron 116.000 millones netos.",
+      "imagenes": [
+        {
+          "busqueda": "Leather bi-fold wallet",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "116.000 millones"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$116.000M",
+          "etiqueta": "en intereses netos, 1er semestre",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[serious] Cada cuota que difieres es parte de ese negocio.",
+      "imagenes": [
+        {
+          "busqueda": "Credit card terminal in Laos",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cuotas"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "El negocio: [[tus cuotas]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú pagas a una cuota o difieres?",
+      "imagenes": [
+        {
+          "busqueda": "Éxito Tunal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "La Tarjeta Éxito la emite Tuya, una compañía de financiamiento que es 50 % de Grupo Bancolombia y 50 % de Grupo Éxito, según Valora Analitik. En 2015 el Éxito acordó comprarle a Bancolombia la mitad de Tuya para tener un papel más grande en el crédito de consumo (El Colombiano).\n\nEn 2018, cerca del 40 % de los clientes de la tarjeta la tenían como primer producto financiero (Portafolio). A junio de 2025, Tuya tenía cerca de 2 millones de clientes, una cartera de 1,875 billones de pesos e ingresos netos por intereses de 116.839 millones en el semestre.\n\nFuentes: Valora Analitik (21 ago. 2025), El Colombiano (2 jul. 2015), Portafolio (4 feb. 2018).\n\n¿Tú pagas a una cuota o difieres?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#TarjetaÉxito",
+    "#Tuya",
+    "#Bancolombia",
+    "#FinanzasPersonales",
+    "#Crédito",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Tuya: 50 % Grupo Bancolombia y 50 % Grupo Éxito; cerca de 2 millones de clientes; cartera de 1,875 billones; ingreso neto por intereses de 116.839 millones (1S 2025)",
+      "url": "https://www.valoraanalitik.com/?p=498509"
+    },
+    {
+      "afirmacion": "En 2015 el Éxito acordó comprar a Bancolombia el 50 % de Tuya para tener mayor papel en el crédito de consumo",
+      "url": "https://www.elcolombiano.com/exito-pagara-1-500-millones-por-50-de-tuya-a-bancolombia-YB2232515"
+    },
+    {
+      "afirmacion": "Cerca del 40 % de los clientes tienen la Tarjeta Éxito como primer producto financiero",
+      "url": "https://www.portafolio.co/negocios/tenemos-potencial-para-llegar-a-8-millones-de-clientes-tuya-513921"
+    }
+  ]
+}

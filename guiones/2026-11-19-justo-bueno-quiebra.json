@@ -1,0 +1,268 @@
+{
+  "id": "2026-11-19-justo-bueno-quiebra",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "Mil tiendas y [[quiebra]]",
+    "dato": "Del mismo fundador de D1",
+    "foto": "1.1"
+  },
+  "tema": "Justo & Bueno, del mismo fundador de D1, abrió más de mil tiendas en seis años y terminó en liquidación en 2022",
+  "pregunta_principal": "¿Tú comprabas en Justo & Bueno o en D1?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Justo & Bueno llegó a mil tiendas. Y quebró.",
+      "imagenes": [
+        {
+          "busqueda": "Justo y Bueno supermercado",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Justo & Bueno",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mil",
+        "quebró"
+      ],
+      "titulo": "Mil tiendas y [[quiebra]]",
+      "contador": {
+        "valor": "1.000",
+        "etiqueta": "tiendas en 2021"
+      },
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Lo fundó Michel Olmi, el mismo que en 2009 lanzó D1 en Medellín.",
+      "imagenes": [
+        {
+          "busqueda": "Tiendas D1",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "D1 tienda Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "D1",
+        "2009"
+      ],
+      "fecha": "2009",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "El creador de [[D1]]"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En febrero de 2016 abrió su primera tienda, en el barrio Restrepo de Bogotá. La fórmula: descuento duro, locales sencillos y abrir sin parar.",
+      "imagenes": [
+        {
+          "busqueda": "Barrio Restrepo Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "supermarket shelves discount",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Restrepo",
+        "sin parar"
+      ],
+      "fecha": "FEB. 2016",
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "dinero",
+              "texto": "Precios bajos"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Locales sencillos"
+            },
+            {
+              "icono": "reloj",
+              "texto": "Abrir sin parar"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Según La República, antes de la pandemia vendía 3,2 billones de pesos al año.",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Justo y bueno Btá S",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "JyB Atalaya, Cúcuta",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "3,2 billones"
+      ],
+      "segun": "según La República",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$3,2B",
+          "etiqueta": "ventas al año antes de la pandemia",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[sighs] Pero perdía plata. En 2021 vendió 1,5 billones y perdió 435.000 millones.",
+      "imagenes": [
+        {
+          "busqueda": "empty supermarket shelves",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "435.000 millones"
+      ],
+      "fecha": "2021",
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$1,5B",
+            "texto": "ventas 2021",
+            "icono": "grafica_baja"
+          },
+          "despues": {
+            "valor": "-$435.000M",
+            "texto": "pérdidas 2021",
+            "icono": "grafica_baja"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Le prometieron rescates, hasta de un fondo chino. La plata nunca llegó. En 2022 terminó en liquidación, con deudas de más de 1,2 billones.",
+      "imagenes": [
+        {
+          "busqueda": "Justo & Bueno sep 2018",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "liquidación",
+        "1,2 billones"
+      ],
+      "fecha": "2022",
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "Bloomberg Línea",
+          "fecha": "4 ago. 2022",
+          "titular": "Justo & Bueno quiebra: el negocio de descuento duro pierde un jugador (oficial)",
+          "resaltar": "quiebra"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[serious] Abrir tiendas rápido no es lo mismo que ganar plata. Y el que no gana, no aguanta.",
+      "imagenes": [
+        {
+          "busqueda": "Tiendas D1 Bog may 2018 - 2",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "rápido",
+        "ganar"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Crecer no es [[ganar]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú comprabas en Justo & Bueno o en D1?",
+      "imagenes": [
+        {
+          "busqueda": "Interior de una Tienda D1 en Ábrego",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Justo & Bueno nació en 2015 y abrió su primera tienda en febrero de 2016, en el barrio Restrepo de Bogotá. Lo fundó Michel Olmi, el mismo empresario detrás del lanzamiento de D1 en Medellín en 2009, según Bloomberg Línea.\n\nLlegó a más de 1.000 tiendas en 310 municipios (Forbes, dic. 2021) y, según La República, vendía 3,2 billones de pesos al año antes de la pandemia. En 2021 facturó 1,5 billones y perdió 434.961 millones. Los rescates prometidos, incluido el de un fondo chino, nunca llegaron, y en 2022 la cadena terminó en liquidación con deudas de más de 1,2 billones.\n\nFuentes: La República (13 jun. 2022), Bloomberg Línea (4 ago. 2022), Forbes Colombia (3 dic. 2021).\n\n¿Tú comprabas en Justo & Bueno o en D1?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#JustoYBueno",
+    "#D1",
+    "#Supermercados",
+    "#Colombia",
+    "#Negocios",
+    "#Quiebra"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Fundada en 2015 por Michel Olmi; primera tienda en febrero de 2016 en el barrio Restrepo; ventas de 3,2 billones antes de la pandemia; deudas de más de 1,2 billones; fondos que no entregaron el dinero",
+      "url": "https://www.larepublica.co/empresas/la-historia-detras-de-la-quiebra-de-justo-bueno-y-el-perfil-del-nuevo-inversionista-3382224"
+    },
+    {
+      "afirmacion": "Michel Olmi también lanzó D1 en Medellín en 2009; ingresos de 1,5 billones y pérdidas de 434.961 millones en 2021; sigue la liquidación judicial (agosto de 2022)",
+      "url": "https://www.bloomberglinea.com/2022/08/04/justo-bueno-quiebra-el-negocio-de-descuento-duro-pierde-un-jugador-oficial/"
+    },
+    {
+      "afirmacion": "Más de 1.000 tiendas en 310 municipios",
+      "url": "https://forbes.co/negocios/todo-lo-que-necesita-saber-sobre-la-dificil-situacion-de-justo-bueno"
+    },
+    {
+      "afirmacion": "El fondo chino que nunca entregó el dinero",
+      "url": "https://www.larepublica.co/empresas/el-cuento-chino-que-le-metieron-a-justo-bueno-y-termino-de-llevarlo-a-liquidacion-3362035"
+    }
+  ]
+}
