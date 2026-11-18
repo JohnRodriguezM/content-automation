@@ -1,0 +1,239 @@
+{
+  "id": "2026-11-24-homecenter-corona",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "Homecenter es [[51 % Corona]]",
+    "dato": "No es solo de Falabella",
+    "foto": "1.1"
+  },
+  "tema": "Falabella le compró a Organización Corona su parte en las tiendas, el banco y los seguros por US$159 millones, pero Homecenter sigue 51 % de Corona",
+  "pregunta_principal": "Mándaselo a quien cree que Homecenter es chileno.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Homecenter no es solo de Falabella. La mayoría es colombiana.",
+      "imagenes": [
+        {
+          "busqueda": "Homecenter in Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Logo Homecenter Sodimac",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mayoría",
+        "colombiana"
+      ],
+      "titulo": "51 % [[Corona]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Es de Sodimac Colombia: el 51 por ciento es de la Organización Corona; el 49, de la chilena Falabella.",
+      "imagenes": [
+        {
+          "busqueda": "Hardware aisle",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "51",
+        "49"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "51%",
+            "texto": "Corona",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "49%",
+            "texto": "Falabella",
+            "icono": "edificio"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Por años fueron socios en mucho más: las tiendas Falabella, el banco y los seguros.",
+      "imagenes": [
+        {
+          "busqueda": "Sede Banco Falabella Bogotá N",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "CC Santafé Bogotá Cund jul 2018",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "socios"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Tiendas Falabella"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Banco Falabella"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Seguros"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[pause] En junio de 2025, Corona avisó que se quería salir.",
+      "imagenes": [
+        {
+          "busqueda": "Banco Falabella Cúcuta may 2021",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "salir"
+      ],
+      "fecha": "JUN. 2025",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Corona [[se sale]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Según Valora Analitik, en enero de 2026 Falabella le compró su parte por unos 159 millones de dólares: el 35 por ciento de las tiendas y el 31 por ciento del banco.",
+      "imagenes": [
+        {
+          "busqueda": "Banco Falabella HC Envigado",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "159 millones"
+      ],
+      "segun": "según Valora Analitik",
+      "fecha": "ENE. 2026",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$159M",
+          "etiqueta": "por la parte de Corona",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Pero Homecenter no entró en el negocio. Ahí siguen juntos, y Corona conserva el 51 por ciento.",
+      "imagenes": [
+        {
+          "busqueda": "Homecenter in Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Homecenter",
+        "51"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "En Homecenter [[siguen juntos]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Se separaron en casi todo. Menos en el negocio que manda la colombiana.",
+      "imagenes": [
+        {
+          "busqueda": "Sodimac Homecenter",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "colombiana"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "51%",
+          "etiqueta": "de Homecenter es de Corona",
+          "progreso": 0.51
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mándaselo a quien cree que Homecenter es chileno.",
+      "imagenes": [
+        {
+          "busqueda": "Logo Homecenter Sodimac",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Homecenter es de Sodimac Colombia, una sociedad en la que la Organización Corona tiene el 51 % y la chilena Falabella el 49 %. Por años también fueron socios en las tiendas Falabella, Banco Falabella y los seguros.\n\nEn junio de 2025, Corona presentó un aviso de salida voluntaria. En enero de 2026, Falabella completó la compra de esas participaciones por unos 159 millones de dólares: el 35 % de Falabella Retail, el 31 % de Banco Falabella y el 35 % de Seguros Falabella, según Valora Analitik y Bloomberg Línea. Sodimac Colombia (Homecenter y Constructor) no cambia: Corona sigue con el 51 %.\n\nFuentes: Valora Analitik (15 ene. 2026), Bloomberg Línea (16 ene. 2026).\n\nMándaselo a quien cree que Homecenter es chileno.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Homecenter",
+    "#Falabella",
+    "#Corona",
+    "#Sodimac",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Falabella completó la compra de las participaciones de Corona por unos 159 millones de dólares (35 % Falabella Retail, 31 % Banco Falabella, 35 % Seguros, 35 % ABC); aviso de salida en junio de 2025; Sodimac Colombia sigue 51 % Corona y 49 % Falabella",
+      "url": "https://www.valoraanalitik.com/falabella-compra-participacion-de-corona/"
+    },
+    {
+      "afirmacion": "Gigante chileno compra la parte de Corona por US$159 millones; Homecenter y Constructor siguen como sociedad 51/49",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/que-pasara-con-falabella-en-colombia-gigante-chileno-compra-la-parte-de-corona-por-us159-millones/"
+    }
+  ]
+}

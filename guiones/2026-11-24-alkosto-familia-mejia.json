@@ -1,0 +1,239 @@
+{
+  "id": "2026-11-24-alkosto-familia-mejia",
+  "pilar": "biografias",
+  "narrador": "john",
+  "portada": {
+    "texto": "Alkosto y AKT: [[misma familia]]",
+    "dato": "Y también Ktronix",
+    "foto": "1.1"
+  },
+  "tema": "Alkosto, Ktronix, Alkomprar y las motos AKT son de Corbeta, el grupo de la familia Mejía fundado en 1938; el fundador fue accionista del Éxito",
+  "pregunta_principal": "¿Tú compras tecnología en Alkosto o en Ktronix?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Alkosto, Ktronix y las motos AKT: misma familia.",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Alkosto C170 Bog",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "A Television Store at downtown Taichung",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "misma familia"
+      ],
+      "titulo": "Una sola [[familia]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Los Mejía, de Medellín. En 1938, Santiago Mejía Olarte fundó Corbeta, distribuyendo telas.",
+      "imagenes": [
+        {
+          "busqueda": "Fabricato de Bello, 1920",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "sepia"
+        }
+      ],
+      "destacar": [
+        "1938",
+        "Corbeta"
+      ],
+      "fecha": "1938",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "medellin",
+              "etiqueta": "Medellín · Corbeta"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 1987 trajo a Colombia el formato Alkosto: el hiperahorro.",
+      "imagenes": [
+        {
+          "busqueda": "Alkosto HiperAhorro",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Tienda Alkosto Suba Btá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1987",
+        "Alkosto"
+      ],
+      "fecha": "1987",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Llega el [[hiperahorro]]",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 1994 arrancó Ktronix, distribuyendo tecnología. Y el grupo sumó su propia marca de motos: AKT.",
+      "imagenes": [
+        {
+          "busqueda": "electronics store televisions",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Ktronix",
+        "AKT"
+      ],
+      "fecha": "1994",
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Alkosto y Alkomprar"
+            },
+            {
+              "icono": "tv",
+              "texto": "Ktronix"
+            },
+            {
+              "icono": "reloj",
+              "texto": "Motos AKT"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Lo curioso: el fundador fue accionista del Éxito desde 1972. Hoy Alkosto es su rival.",
+      "imagenes": [
+        {
+          "busqueda": "Éxito Tunal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Éxito",
+        "rival"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Socio del Éxito, hoy [[su rival]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Según El Colombiano, en 2021 Corbeta fue la empresa número 15 del país, con más de 70 marcas.",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Alkosto Suba",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "15",
+        "70 marcas"
+      ],
+      "segun": "según El Colombiano",
+      "fecha": "2021",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "#15",
+          "etiqueta": "entre las empresas más grandes del país",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Hoy la maneja su hijo, Manuel Santiago Mejía. Y casi nadie conoce el apellido detrás de Alkosto.",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Alkosto C170",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Mejía"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "El apellido que [[nadie conoce]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú compras tecnología en Alkosto o en Ktronix?",
+      "imagenes": [
+        {
+          "busqueda": "Alkosto HiperAhorro",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Alkosto, Alkomprar, Ktronix y las motos AKT son del Grupo Corbeta (Colombiana de Comercio), de la familia Mejía. Santiago Mejía Olarte lo fundó en Medellín en 1938 como distribuidor de telas, según El Colombiano. El formato Alkosto llegó a Colombia en 1987 y Ktronix empezó en 1994 distribuyendo tecnología, según Pulzo.\n\nEl fundador fue accionista de Almacenes Éxito desde 1972; hoy Alkosto es su rival. En 2021, Corbeta fue la empresa número 15 entre las 1.000 más grandes del país, con más de 70 marcas. La dirige Manuel Santiago Mejía, hijo del fundador.\n\nFuentes: El Colombiano, Pulzo (7 ene. 2024).\n\n¿Tú compras tecnología en Alkosto o en Ktronix?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Alkosto",
+    "#Ktronix",
+    "#AKT",
+    "#MarcasColombianas",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Corbeta fundada en 1938 por Santiago Mejía Olarte en Medellín como distribuidor de telas; marcas Alkosto, Alkomprar y Ktronix; puesto 15 entre las 1.000 empresas más grandes (2021); más de 70 marcas; lo dirige Manuel Santiago Mejía",
+      "url": "https://www.elcolombiano.com/forjadores/historia-grupo-corbeta-empresas-medellin-FJ19670252"
+    },
+    {
+      "afirmacion": "Formato Alkosto en Colombia desde 1987; Ktronix desde 1994; motos AKT; Santiago Mejía Olarte accionista del Éxito desde 1972",
+      "url": "https://www.pulzo.com/economia/dueno-alkosto-desconocidos-tiene-negociazos-que-vinculo-existio-con-exito-PP3356492"
+    }
+  ]
+}
