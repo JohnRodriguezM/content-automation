@@ -782,6 +782,17 @@
     "protagonistas": []
   },
   {
+    "id": "2026-11-19-davibank-colpatria",
+    "tema": "Scotiabank entregó Colpatria y sus bancos de Centroamérica a Davivienda a cambio de algo más del 20 % del grupo; nació Davibank",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Davibank",
+      "Davivienda",
+      "Scotiabank Colpatria"
+    ]
+  },
+  {
     "id": "2026-11-19-frisby-nombre-espana",
     "tema": "Frisby registró sus marcas en España desde 2001 pero nunca abrió allá; en 2026 le cancelaron tres marcas por no usarlas y Frisby España vende en Madrid",
     "pilar": "negocios",
@@ -820,17 +831,6 @@
     "protagonistas": []
   },
   {
-    "id": "2026-11-20-davibank-colpatria",
-    "tema": "Scotiabank entregó Colpatria y sus bancos de Centroamérica a Davivienda a cambio de algo más del 20 % del grupo; nació Davibank",
-    "pilar": "negocios",
-    "narrador": "john",
-    "protagonistas": [
-      "Davibank",
-      "Davivienda",
-      "Scotiabank Colpatria"
-    ]
-  },
-  {
     "id": "2026-11-20-gta-leonida-es-florida",
     "tema": "Leonida, el estado de GTA VI, calca a Florida: Vice City es Miami, Grassrivers los Everglades y Ambrosia el pueblo azucarero de Clewiston",
     "pilar": "tecnologia",
@@ -838,6 +838,17 @@
     "protagonistas": [
       "GTA VI",
       "Rockstar Games"
+    ]
+  },
+  {
+    "id": "2026-11-20-juan-valdez-cafeteros",
+    "tema": "Juan Valdez es de la Federación Nacional de Cafeteros: Procafecol abrió su primera tienda en 2002 y hoy tiene 675 tiendas y vende más de 840.000 millones",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Juan Valdez",
+      "Procafecol",
+      "Federación Nacional de Cafeteros"
     ]
   },
   {
@@ -865,6 +876,40 @@
     "protagonistas": []
   },
   {
+    "id": "2026-11-20-tarjeta-exito-bancolombia",
+    "tema": "La Tarjeta Éxito la emite Tuya, una financiera que es 50 % de Bancolombia y 50 % del Grupo Éxito",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Tuya",
+      "Tarjeta Éxito",
+      "Bancolombia",
+      "Grupo Éxito"
+    ]
+  },
+  {
+    "id": "2026-11-21-ara-portuguesa",
+    "tema": "Tiendas Ara es de la portuguesa Jerónimo Martins, llegó en 2013 y cerró 2025 con 1.653 tiendas y ventas de 14,7 billones",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Tiendas Ara",
+      "Jerónimo Martins"
+    ]
+  },
+  {
+    "id": "2026-11-21-bavaria-santo-domingo",
+    "tema": "Los Santo Domingo fusionaron Bavaria con SABMiller en 2005 por 7.800 millones de dólares y recibieron acciones; en 2016 pasó a AB InBev",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Bavaria",
+      "Santo Domingo",
+      "SABMiller",
+      "AB InBev"
+    ]
+  },
+  {
     "id": "2026-11-21-gta-lucia-jason",
     "tema": "Lucía Caminos y Jason Duval, los protagonistas de GTA VI: una ex presidiaria de Liberty City y un exsoldado que trabaja para traficantes en los Cayos",
     "pilar": "tecnologia",
@@ -872,17 +917,6 @@
     "protagonistas": [
       "GTA VI",
       "Rockstar Games"
-    ]
-  },
-  {
-    "id": "2026-11-21-juan-valdez-cafeteros",
-    "tema": "Juan Valdez es de la Federación Nacional de Cafeteros: Procafecol abrió su primera tienda en 2002 y hoy tiene 675 tiendas y vende más de 840.000 millones",
-    "pilar": "negocios",
-    "narrador": "john",
-    "protagonistas": [
-      "Juan Valdez",
-      "Procafecol",
-      "Federación Nacional de Cafeteros"
     ]
   },
   {
@@ -900,15 +934,14 @@
     "protagonistas": []
   },
   {
-    "id": "2026-11-21-tarjeta-exito-bancolombia",
-    "tema": "La Tarjeta Éxito la emite Tuya, una financiera que es 50 % de Bancolombia y 50 % del Grupo Éxito",
+    "id": "2026-11-21-shein-temu-iva",
+    "tema": "Las compras de menos de 200 dólares en Shein y Temu siguen sin IVA en Colombia: un decreto lo bajó a 50 dólares, la Corte lo tumbó y el Gobierno estudia cobrarlo",
     "pilar": "negocios",
     "narrador": "john",
     "protagonistas": [
-      "Tuya",
-      "Tarjeta Éxito",
-      "Bancolombia",
-      "Grupo Éxito"
+      "Shein",
+      "Temu",
+      "DIAN"
     ]
   },
   {
@@ -919,25 +952,12 @@
     "protagonistas": []
   },
   {
-    "id": "2026-11-22-ara-portuguesa",
-    "tema": "Tiendas Ara es de la portuguesa Jerónimo Martins, llegó en 2013 y cerró 2025 con 1.653 tiendas y ventas de 14,7 billones",
+    "id": "2026-11-22-colanta-campesinos",
+    "tema": "Colanta, la mayor lechera de Colombia, es una cooperativa fundada en 1964 por 60 productores de Donmatías; en 2025 recogió el 25 % de la leche formal del país",
     "pilar": "negocios",
     "narrador": "john",
     "protagonistas": [
-      "Tiendas Ara",
-      "Jerónimo Martins"
-    ]
-  },
-  {
-    "id": "2026-11-22-bavaria-santo-domingo",
-    "tema": "Los Santo Domingo fusionaron Bavaria con SABMiller en 2005 por 7.800 millones de dólares y recibieron acciones; en 2016 pasó a AB InBev",
-    "pilar": "negocios",
-    "narrador": "john",
-    "protagonistas": [
-      "Bavaria",
-      "Santo Domingo",
-      "SABMiller",
-      "AB InBev"
+      "Colanta"
     ]
   },
   {
@@ -951,11 +971,46 @@
     ]
   },
   {
+    "id": "2026-11-22-olimpica-baratijas",
+    "tema": "Olímpica empezó como un almacén de baratijas de Ricardo Char y Erlinda Abdala; Fuad Char le agregó la droguería; hoy tiene 424 puntos de venta",
+    "pilar": "biografias",
+    "narrador": "john",
+    "protagonistas": [
+      "Olímpica",
+      "Familia Char",
+      "Fuad Char"
+    ]
+  },
+  {
     "id": "2026-11-22-samsung-pescado-seco",
     "tema": "Samsung empezó en 1938 como un pequeño comercio que vendía pescado seco, frutas y fideos en Daegu",
     "pilar": "tecnologia",
     "narrador": "john",
     "protagonistas": []
+  },
+  {
+    "id": "2026-11-22-tigo-movistar-un-dueno",
+    "tema": "Millicom, dueña de Tigo, compró Movistar Colombia: el 67,5 % de Telefónica en febrero de 2026 y el 32,5 % del Estado en abril por unos 856.000 millones",
+    "pilar": "tecnologia",
+    "narrador": "john",
+    "protagonistas": [
+      "Tigo",
+      "Movistar",
+      "Millicom",
+      "Claro"
+    ]
+  },
+  {
+    "id": "2026-11-23-grupo-aval-un-dueno",
+    "tema": "Banco de Bogotá, Occidente, Popular y AV Villas son de Grupo Aval, de Luis Carlos Sarmiento Angulo, que entre fundados y comprados llegó a 14 bancos",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Grupo Aval",
+      "Luis Carlos Sarmiento Angulo",
+      "Banco de Bogotá",
+      "AV Villas"
+    ]
   },
   {
     "id": "2026-11-23-gta-hacker-hotel",
@@ -968,34 +1023,35 @@
     ]
   },
   {
-    "id": "2026-11-23-olimpica-baratijas",
-    "tema": "Olímpica empezó como un almacén de baratijas de Ricardo Char y Erlinda Abdala; Fuad Char le agregó la droguería; hoy tiene 424 puntos de venta",
+    "id": "2026-11-23-leonisa-15-pesos",
+    "tema": "Leonisa nació en 1956 de los hermanos Urrea, que notaron que lo que más se vendía en su almacén de Armenia eran unos brasieres de satín",
     "pilar": "biografias",
     "narrador": "john",
     "protagonistas": [
-      "Olímpica",
-      "Familia Char",
-      "Fuad Char"
+      "Leonisa",
+      "Joaquín Urrea"
     ]
   },
   {
-    "id": "2026-11-23-shein-temu-iva",
-    "tema": "Las compras de menos de 200 dólares en Shein y Temu siguen sin IVA en Colombia: un decreto lo bajó a 50 dólares, la Corte lo tumbó y el Gobierno estudia cobrarlo",
+    "id": "2026-11-23-quala-bonice",
+    "tema": "Bonice, Popetas, Vive 100 y Doña Gallina son de Quala, que vende en la calle a través de distribuidores y en 2017 le vendió cinco marcas a Unilever",
     "pilar": "negocios",
     "narrador": "john",
     "protagonistas": [
-      "Shein",
-      "Temu",
-      "DIAN"
+      "Quala",
+      "Bonice",
+      "Popetas",
+      "Vive 100"
     ]
   },
   {
-    "id": "2026-11-24-colanta-campesinos",
-    "tema": "Colanta, la mayor lechera de Colombia, es una cooperativa fundada en 1964 por 60 productores de Donmatías; en 2025 recogió el 25 % de la leche formal del país",
-    "pilar": "negocios",
+    "id": "2026-11-24-crepes-mujeres",
+    "tema": "Crepes & Waffles nació en 1980 en Bogotá y desde el inicio contrata sobre todo a madres cabeza de hogar: el 91 % de sus empleados son mujeres",
+    "pilar": "biografias",
     "narrador": "john",
     "protagonistas": [
-      "Colanta"
+      "Crepes & Waffles",
+      "Beatriz Fernández"
     ]
   },
   {
@@ -1009,30 +1065,6 @@
     ]
   },
   {
-    "id": "2026-11-24-tigo-movistar-un-dueno",
-    "tema": "Millicom, dueña de Tigo, compró Movistar Colombia: el 67,5 % de Telefónica en febrero de 2026 y el 32,5 % del Estado en abril por unos 856.000 millones",
-    "pilar": "tecnologia",
-    "narrador": "john",
-    "protagonistas": [
-      "Tigo",
-      "Movistar",
-      "Millicom",
-      "Claro"
-    ]
-  },
-  {
-    "id": "2026-11-25-grupo-aval-un-dueno",
-    "tema": "Banco de Bogotá, Occidente, Popular y AV Villas son de Grupo Aval, de Luis Carlos Sarmiento Angulo, que entre fundados y comprados llegó a 14 bancos",
-    "pilar": "negocios",
-    "narrador": "john",
-    "protagonistas": [
-      "Grupo Aval",
-      "Luis Carlos Sarmiento Angulo",
-      "Banco de Bogotá",
-      "AV Villas"
-    ]
-  },
-  {
     "id": "2026-11-25-gta-canciones-revividas",
     "tema": "Los tráileres de GTA VI dispararon canciones de los 80: Tom Petty subió 36.979 % en una semana y las Pointer Sisters 182.000 % en dos horas",
     "pilar": "negocios",
@@ -1043,26 +1075,6 @@
     ]
   },
   {
-    "id": "2026-11-25-leonisa-15-pesos",
-    "tema": "Leonisa nació en 1956 de los hermanos Urrea, que notaron que lo que más se vendía en su almacén de Armenia eran unos brasieres de satín",
-    "pilar": "biografias",
-    "narrador": "john",
-    "protagonistas": [
-      "Leonisa",
-      "Joaquín Urrea"
-    ]
-  },
-  {
-    "id": "2026-11-26-crepes-mujeres",
-    "tema": "Crepes & Waffles nació en 1980 en Bogotá y desde el inicio contrata sobre todo a madres cabeza de hogar: el 91 % de sus empleados son mujeres",
-    "pilar": "biografias",
-    "narrador": "john",
-    "protagonistas": [
-      "Crepes & Waffles",
-      "Beatriz Fernández"
-    ]
-  },
-  {
     "id": "2026-11-26-gta-31-despedidos",
     "tema": "Rockstar despidió a 31 empleados en el Reino Unido en 2025; la empresa habla de filtraciones y el sindicato IWGB de antisindicalismo",
     "pilar": "negocios",
@@ -1070,18 +1082,6 @@
     "protagonistas": [
       "GTA VI",
       "Rockstar Games"
-    ]
-  },
-  {
-    "id": "2026-11-26-quala-bonice",
-    "tema": "Bonice, Popetas, Vive 100 y Doña Gallina son de Quala, que vende en la calle a través de distribuidores y en 2017 le vendió cinco marcas a Unilever",
-    "pilar": "negocios",
-    "narrador": "john",
-    "protagonistas": [
-      "Quala",
-      "Bonice",
-      "Popetas",
-      "Vive 100"
     ]
   },
   {
