@@ -76,13 +76,15 @@ const existe = (f: string) => access(f).then(() => true, () => false);
 const esperar = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 /** fetch con reintentos: Commons responde 429 si se le pide muy rápido. */
-async function pedir(url: string | URL, init: RequestInit = {}, intentos = 7): Promise<Response> {
+async function pedir(url: string | URL, init: RequestInit = {}, intentos = 5): Promise<Response> {
+  const inicio = Date.now();
   for (let i = 0; ; i++) {
-    const r = await fetch(url, { ...init, headers: { "User-Agent": UA, ...(init.headers ?? {}) } });
-    if ((r.status === 429 || r.status >= 500) && i < intentos - 1) {
-      // Commons limita por ráfagas: respeta Retry-After y espera cada vez más (hasta ~1 min en total)
+    const r = await fetch(url, { ...init, headers: { "User-Agent": UA, ...(init.headers ?? {}) }, signal: AbortSignal.timeout(30_000) });
+    // Commons limita por ráfagas. Se espera Retry-After pero nunca más de 20 s por intento ni 90 s en total por archivo:
+    // con un Retry-After largo, una sola imagen llegó a frenar el job 12 minutos y el render se pasó del límite de 45.
+    if ((r.status === 429 || r.status >= 500) && i < intentos - 1 && Date.now() - inicio < 90_000) {
       const ra = Number(r.headers.get("retry-after"));
-      await esperar(Number.isFinite(ra) && ra > 0 ? ra * 1000 : 2500 * 2 ** Math.min(i, 3));
+      await esperar(Math.min(20_000, Number.isFinite(ra) && ra > 0 ? ra * 1000 : 2500 * 2 ** Math.min(i, 3)));
       continue;
     }
     return r;
