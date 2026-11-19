@@ -97,6 +97,8 @@ export async function resolverImagenes(g: Guion, rehacer = false, guardar?: () =
   const dir = path.join(RAIZ, "public", "img", g.id);
   await mkdir(dir, { recursive: true });
   const usadas = new Set(g.escenas.flatMap((e) => e.imagenes.map((i) => i.url).filter(Boolean) as string[]));
+  // Búsqueda repetida en el guion (p. ej. el cierre vuelve a la foto del gancho): si no hay otra foto, se reusa la misma
+  const yaResueltas = new Map<string, Imagen>();
   for (const [i, e] of g.escenas.entries()) {
     for (const [j, img] of e.imagenes.entries()) {
       const rel = `img/${g.id}/${i + 1}-${j + 1}.jpg`;
@@ -106,6 +108,12 @@ export async function resolverImagenes(g: Guion, rehacer = false, guardar?: () =
         const c = img.fuente === "pexels"
           ? (await buscarPexels(img.busqueda, usadas)) ?? (await buscarCommons(img.busqueda, usadas))
           : (await buscarCommons(img.busqueda, usadas)) ?? (await buscarPexels(img.busqueda, usadas));
+        const previa = yaResueltas.get(img.busqueda);
+        if (!c && previa?.archivo) {
+          Object.assign(img, { url: previa.url, credito: previa.credito, licencia: previa.licencia, pagina: previa.pagina, archivo: previa.archivo });
+          console.log(`  ${i + 1}.${j + 1} ${img.busqueda} → misma foto que antes`);
+          continue;
+        }
         if (!c) { console.warn(`  ⚠ escena ${i + 1}.${j + 1}: sin resultados para "${img.busqueda}"`); continue; }
         Object.assign(img, c);
         usadas.add(c.url);
@@ -114,6 +122,7 @@ export async function resolverImagenes(g: Guion, rehacer = false, guardar?: () =
       if (!r.ok) { console.warn(`  ⚠ escena ${i + 1}.${j + 1}: descarga ${r.status}`); continue; }
       await writeFile(path.join(RAIZ, "public", rel), Buffer.from(await r.arrayBuffer()));
       img.archivo = rel;
+      yaResueltas.set(img.busqueda, img);
       console.log(`  ${i + 1}.${j + 1} ${img.busqueda} → ${img.pagina}`);
       await guardar?.();
       await esperar(900);
