@@ -375,8 +375,11 @@ const sonidoDe = (p: Plano): [string, number] | null => {
 };
 
 /** Entrada de cada plano: aparece sobre el anterior con un zoom corto y desenfoque (sin negro entre planos). */
-const Entrada: React.FC<{ activa: boolean; children: React.ReactNode }> = ({ activa, children }) => {
+const Entrada: React.FC<{ activa: boolean; golpe?: boolean; children: React.ReactNode }> = ({ activa, golpe, children }) => {
   const f = useCurrentFrame();
+  // Primer plano del video: visible desde el cuadro 0 (es la miniatura mientras la gente hace scroll)
+  // pero con un golpe de cámara rápido para que se sienta movimiento desde el primer instante.
+  if (golpe) return <AbsoluteFill style={{ transform: `scale(${interpolate(salida(f / 7), [0, 1], [1.16, 1])})` }}>{children}</AbsoluteFill>;
   if (!activa) return <AbsoluteFill>{children}</AbsoluteFill>;
   const p = salida(f / T);
   return (
@@ -550,7 +553,7 @@ const EscenaDoc: React.FC<{ e: Escena; dur: number; idx: number; efectos?: boole
         const seed = `${idx}-${j}`;
         return (
           <Sequence key={j} from={from} durationInFrames={d + T}>
-            <Entrada activa={!(idx === 0 && j === 0)}>
+            <Entrada activa={!(idx === 0 && j === 0)} golpe={idx === 0 && j === 0}>
               {p.tipo === "foto" ? (
                 <>
                   <Foto img={p.img} dur={d + T} seed={seed} />
@@ -565,6 +568,7 @@ const EscenaDoc: React.FC<{ e: Escena; dur: number; idx: number; efectos?: boole
               )}
             </Entrada>
             {son && !(idx === 0 && j === 0) && <Sfx n={son[0]} v={son[1]} on={efectos} />}
+            {idx === 0 && j === 0 && <Sfx n="impacto" v={0.35} on={efectos} />}
           </Sequence>
         );
       })}

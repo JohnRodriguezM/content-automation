@@ -3,8 +3,8 @@
   "pilar": "negocios",
   "narrador": "john",
   "portada": {
-    "texto": "Bonice y Popetas son de [[Quala]]",
-    "dato": "Y el Vive 100",
+    "texto": "¿De quién es [[Bonice]]?",
+    "dato": "Y Popetas, y el Vive 100",
     "foto": "1.1",
     "serie": "¿De quién es?"
   },
@@ -31,54 +31,28 @@
       "destacar": [
         "misma empresa"
       ],
-      "titulo": "Todos son de [[Quala]]",
+      "titulo": "¿De quién es [[Bonice]]?",
       "orden": "ff"
     },
     {
       "bloque": "contexto",
-      "narracion": "Se llama Quala. Y también es la dueña del Vive 100.",
+      "narracion": "Y también el Vive 100.",
       "imagenes": [
         {
           "busqueda": "Energy Drink Display",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Bouillon cube",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
         }
       ],
       "destacar": [
-        "Quala",
         "Vive 100"
       ],
-      "motion": [
-        {
-          "tipo": "iconos",
-          "items": [
-            {
-              "icono": "bombilla",
-              "texto": "Bonice y Popetas"
-            },
-            {
-              "icono": "dinero",
-              "texto": "Vive 100"
-            },
-            {
-              "icono": "documentos",
-              "texto": "Doña Gallina"
-            }
-          ]
-        }
-      ],
-      "orden": "fpf"
+      "orden": "f"
     },
     {
       "bloque": "decision",
-      "narracion": "Su jugada fue la calle: le vende a distribuidores que reclutan vendedores ambulantes. Por eso el Bonice te lo ofrecen en el semáforo.",
+      "narracion": "Su jugada fue la calle: distribuidores que reclutan vendedores ambulantes.",
       "imagenes": [
         {
           "busqueda": "Street Vendor (Bogotá)",
@@ -88,8 +62,7 @@
         }
       ],
       "destacar": [
-        "la calle",
-        "semáforo"
+        "la calle"
       ],
       "motion": [
         {
@@ -101,7 +74,7 @@
     },
     {
       "bloque": "consecuencia",
-      "narracion": "Según La República, en 2014 facturó más de un billón de pesos. Solo el Vive 100 le dejó 80.700 millones.",
+      "narracion": "Según La República, en 2014 facturó más de un billón de pesos. Solo el Vive 100, 80.700 millones.",
       "imagenes": [
         {
           "busqueda": "Energy Drink Battery Cans",
@@ -120,7 +93,7 @@
         {
           "tipo": "dato",
           "valor": "+$1B",
-          "etiqueta": "ventas de Quala en 2014",
+          "etiqueta": "ventas en 2014",
           "icono": "dinero"
         }
       ],
@@ -128,7 +101,7 @@
     },
     {
       "bloque": "consecuencia",
-      "narracion": "[pause] En 2017 le vendió a Unilever cinco marcas de aseo y cuidado personal, entre ellas Savital y Ego.",
+      "narracion": "[pause] En 2017 le vendió a Unilever cinco marcas, entre ellas Savital y Ego.",
       "imagenes": [
         {
           "busqueda": "Brühwürfel-1",
@@ -138,8 +111,7 @@
         }
       ],
       "destacar": [
-        "Unilever",
-        "Savital"
+        "Unilever"
       ],
       "fecha": "2017",
       "motion": [
@@ -152,7 +124,7 @@
     },
     {
       "bloque": "consecuencia",
-      "narracion": "Y la Superintendencia de Industria y Comercio la multó con 450 millones por publicidad engañosa del caldo Doña Gallina.",
+      "narracion": "Y la Superintendencia la multó con 450 millones por publicidad engañosa del caldo Doña Gallina.",
       "imagenes": [
         {
           "busqueda": "Bouillon cube",
@@ -176,7 +148,7 @@
     },
     {
       "bloque": "aprendizaje",
-      "narracion": "[thoughtful] No necesitas que conozcan tu empresa. Necesitas que tu producto esté donde pasa la gente.",
+      "narracion": "[thoughtful] Se llama Quala. Casi nadie conoce el nombre, pero es probable que tengas algo suyo en la casa.",
       "imagenes": [
         {
           "busqueda": "Street Vendor (Bogotá)",
@@ -186,12 +158,12 @@
         }
       ],
       "destacar": [
-        "donde pasa la gente"
+        "Quala"
       ],
       "motion": [
         {
           "tipo": "titulo",
-          "texto": "Estar [[donde pasa la gente]]"
+          "texto": "Todos son de [[Quala]]"
         }
       ],
       "orden": "fp"

@@ -3,17 +3,17 @@
   "pilar": "negocios",
   "narrador": "john",
   "portada": {
-    "texto": "La lechera de los [[campesinos]]",
+    "texto": "¿De quién es [[Colanta]]?",
     "dato": "25 % de la leche del país",
     "foto": "1.1",
     "serie": "¿De quién es?"
   },
   "tema": "Colanta, la mayor lechera de Colombia, es una cooperativa fundada en 1964 por 60 productores de Donmatías; en 2025 recogió el 25 % de la leche formal del país",
-  "pregunta_principal": "¿En tu casa es leche Colanta o Alpina?",
+  "pregunta_principal": "¿En tu casa es Colanta o Alpina?",
   "escenas": [
     {
       "bloque": "gancho",
-      "narracion": "[curious] La lechera más grande de Colombia es de campesinos.",
+      "narracion": "[curious] La lechera más grande de Colombia no tiene un dueño.",
       "imagenes": [
         {
           "busqueda": "Montbéliard dairy cows",
@@ -29,9 +29,9 @@
         }
       ],
       "destacar": [
-        "campesinos"
+        "no tiene un dueño"
       ],
-      "titulo": "Sus dueños: [[campesinos]]",
+      "titulo": "¿De quién es [[Colanta]]?",
       "contador": {
         "valor": "866.800.000",
         "etiqueta": "litros de leche en 2025"
@@ -40,7 +40,7 @@
     },
     {
       "bloque": "contexto",
-      "narracion": "En abril de 1964, 60 productores de leche de Donmatías, Antioquia, se juntaron para vender juntos.",
+      "narracion": "En 1964, 60 lecheros de Donmatías, Antioquia, se juntaron para vender su leche juntos.",
       "imagenes": [
         {
           "busqueda": "Parque de Donmatías",
@@ -74,30 +74,7 @@
     },
     {
       "bloque": "decision",
-      "narracion": "Así nació Colanta: una cooperativa. Sus dueños son los asociados, los mismos que ordeñan.",
-      "imagenes": [
-        {
-          "busqueda": "Milk churn stand with churns",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        }
-      ],
-      "destacar": [
-        "cooperativa",
-        "ordeñan"
-      ],
-      "motion": [
-        {
-          "tipo": "titulo",
-          "texto": "Los dueños [[ordeñan]]"
-        }
-      ],
-      "orden": "fp"
-    },
-    {
-      "bloque": "consecuencia",
-      "narracion": "Según El Colombiano, en 2025 recogió 866 millones de litros: uno de cada cuatro litros de la leche formal del país.",
+      "narracion": "Según El Colombiano, en 2025 Colanta recogió uno de cada cuatro litros de la leche formal del país.",
       "imagenes": [
         {
           "busqueda": "Cows near Kiel",
@@ -107,8 +84,7 @@
         }
       ],
       "destacar": [
-        "866 millones",
-        "una de cada cuatro"
+        "uno de cada cuatro"
       ],
       "segun": "según El Colombiano",
       "fecha": "2025",
@@ -124,7 +100,7 @@
     },
     {
       "bloque": "consecuencia",
-      "narracion": "Facturó 4,68 billones de pesos, 13 por ciento más que el año anterior. Y fue la mayor exportadora de lácteos del país.",
+      "narracion": "Facturó 4,68 billones de pesos y fue la mayor exportadora de lácteos.",
       "imagenes": [
         {
           "busqueda": "dairy products supermarket",
@@ -148,7 +124,7 @@
     },
     {
       "bloque": "consecuencia",
-      "narracion": "[pause] A sus productores les pagó unos 100 pesos más por litro que el promedio del mercado.",
+      "narracion": "[pause] Y a sus productores les pagó unos 100 pesos más por litro que el mercado.",
       "imagenes": [
         {
           "busqueda": "Milk churns",
@@ -172,7 +148,30 @@
     },
     {
       "bloque": "aprendizaje",
-      "narracion": "[thoughtful] Solos, 60 lecheros no tenían con qué negociar. Juntos, se volvieron los más grandes.",
+      "narracion": "[thoughtful] ¿Por qué? Porque Colanta es una cooperativa. Sus dueños son 4.127 campesinos asociados.",
+      "imagenes": [
+        {
+          "busqueda": "Milk churn stand with churns",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cooperativa",
+        "4.127"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Los dueños [[ordeñan]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿En tu casa es Colanta o Alpina?",
       "imagenes": [
         {
           "busqueda": "Montbéliard dairy cows in Mont Pèlerin",
@@ -181,32 +180,10 @@
           "filtro": "ninguno"
         }
       ],
-      "destacar": [
-        "Juntos"
-      ],
-      "motion": [
-        {
-          "tipo": "titulo",
-          "texto": "Solos no. [[Juntos]], los más grandes."
-        }
-      ],
-      "orden": "fp"
-    },
-    {
-      "bloque": "cierre",
-      "narracion": "¿En tu casa es leche Colanta o Alpina?",
-      "imagenes": [
-        {
-          "busqueda": "Montbéliard dairy cows",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        }
-      ],
       "destacar": []
     }
   ],
-  "caption": "Colanta nació el 19 de abril de 1964 en Donmatías (Antioquia), cuando 60 productores de leche se unieron en una cooperativa, según Semana. Hoy tiene 4.127 asociados y 2.523 productores no asociados: 6.650 familias vinculadas.\n\nSegún El Colombiano, en 2025 recogió 866,8 millones de litros, el 25 % de la producción formal del país; facturó 4,68 billones de pesos (+13,2 %) y fue el mayor exportador de lácteos de Colombia. Pagó a sus productores unos 100 pesos más por litro que el promedio del mercado.\n\nFuentes: El Colombiano (18 mar. 2026), Semana.\n\n¿En tu casa es leche Colanta o Alpina?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "caption": "Colanta nació el 19 de abril de 1964 en Donmatías (Antioquia), cuando 60 productores de leche se unieron en una cooperativa, según Semana. Hoy tiene 4.127 asociados y 2.523 productores no asociados: 6.650 familias vinculadas.\n\nSegún El Colombiano, en 2025 recogió 866,8 millones de litros, el 25 % de la producción formal del país; facturó 4,68 billones de pesos (+13,2 %) y fue el mayor exportador de lácteos de Colombia. Pagó a sus productores unos 100 pesos más por litro que el promedio del mercado.\n\nFuentes: El Colombiano (18 mar. 2026), Semana.\n\n¿En tu casa es Colanta o Alpina?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
   "hashtags": [
     "#Colanta",
     "#Cooperativa",

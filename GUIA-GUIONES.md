@@ -1,21 +1,17 @@
 # Guía para escribir los guiones diarios
 
-La sigue la sesión programada que corre cada noche a las 11 pm (Bogotá) y escribe los 4 guiones del día siguiente. También sirve para escribir uno a mano.
+La sigue la sesión programada que corre cada mañana (5:41 am, Bogotá): radar de noticias + guiones para completar el calendario de 3 videos diarios. También sirve para escribir uno a mano.
 
 Antes de escribir, lee [`personalidad.md`](personalidad.md) completo (línea editorial, voz, reglas de veracidad, visual) y `temas/historial.json`.
 
-## Los 4 guiones del día
+## Foco y calendario (desde el 18-nov)
 
-| # | Pilar | Narrador |
-|---|---|---|
-| a | negocios | sebas |
-| b | negocios | john |
-| c | biografias | sebas |
-| d | tecnologia | john |
-
-- Fecha del `id`: **el día siguiente** a la corrida (se publican ese día). Formato `AAAA-MM-DD-slug`, slug en minúsculas con guiones, sin tildes.
-- Los 4 temas tienen que ser distintos entre sí y no estar en `temas/historial.json` (ni el mismo tema con otro título, ni la misma empresa o persona en los últimos 30 días).
-- Público latinoamericano: al menos 1 de los 4 con una empresa o protagonista de Latinoamérica.
+**Categoría única: marcas y plata de Colombia.** Marcas que la gente usa en Colombia: quién es el dueño, cómo gana plata, qué decisión las cambió, cómo le toca al bolsillo de quien ve. Trae el 91 % de las vistas de la cuenta; GTA y marcas globales sin ángulo colombiano no van.
+- Serie **"¿De quién es?"**: cuando el video revela el dueño de una marca, `portada.serie = "¿De quién es?"`.
+- Narrador: `john`. Pilar: `negocios`, `biografias` (personas detrás de la marca) o `tecnologia` (apps, telcos, fintech).
+- **3 videos al día** (publicación 7:30 am, 12:30 pm y 7:30 pm, hora Bogotá). El `id` lleva la fecha en que se publica.
+- **Noticia del día (opcional, máx. 1):** si en las últimas 24-36 h salió una noticia fuerte de una marca colombiana (cambio de dueño, quiebra, multa, precio, lanzamiento) con 2 fuentes serias, se escribe ese mismo día con la fecha de hoy y slug que termine en `-noticia`. Va a las 12:30 pm y el video de las 12:30 pasa a las 4:30 pm. La inmediatez manda: mejor un video correcto hoy que uno perfecto mañana.
+- En `temas/historial.json` cada entrada de esta categoría lleva `"categoria": "marcas-colombia"` (y `"tipo": "noticia"` si aplica).
 
 ## Cómo elegir un tema
 
@@ -37,12 +33,22 @@ Un buen tema tiene: una **decisión concreta** de una persona o empresa real, un
 ## Estructura y longitud
 
 - Escenas en orden: gancho → contexto → decisión → consecuencia → aprendizaje → cierre (puede haber 2 escenas del mismo bloque seguidas).
-- **130 a 200 palabras** de narración (≈50-80 s). **Tope duro: 1:30 con la tarjeta final** → máximo 210 palabras; `npm run validar` lo revisa y el render avisa si pasa de 90 s.
+- **80 a 100 palabras** de narración (≈35-40 s); el validador avisa desde 106. **Tope duro: 1:30 con la tarjeta final** → máximo 210 palabras.
 - **Narración dinámica:** frases cortas (idealmente ≤12 palabras), un dato concreto por escena (cifra, fecha, nombre), nada de relleno. Cada frase debe aportar información nueva para que la gente siga pendiente.
 - **Gancho:** la primera frase tiene máximo 10 palabras, con un número o un contraste concreto, y deja una pregunta abierta. Nada de arrancar con contexto ("Una empresa peruana acaba de..."). Ej.: "Vendió 45% más. Y la bolsa lo castigó."
 - **Título del gancho:** sale arriba de la foto en el arranque, debajo del logo: 2-5 palabras, idealmente con el número ("De $140 a $9", "1.000 tiendas por $53M"). Obligatorio.
 - **Cierre (corto, ≈3 s, máx. 15 palabras): UNA sola llamada, nunca dos.** O una **pregunta con bando** que se contesta en una palabra y divide opiniones ("¿Tú le habrías vendido a Gilinski o a los Calleja?", "¿Equipo Adidas o equipo Puma?"), o un **envío dirigido** a una persona concreta ("Mándaselo a quien todavía cree que Totto es italiana"). Los envíos por DM son la señal que más alcance da. Prohibido "Te leo en los comentarios" (relleno) y "comenta SÍ si…" (cebo de interacción, lo castigan). Nada de "síguenos" en la voz: el `caption` termina con la pregunta y la línea "Síguenos: cada día contamos una decisión que cambió una empresa." La tarjeta final (foto + @ del narrador) la pone el render solo si existe `public/marca/<narrador>.jpg`.
 - **No uses frases fijas.** Prohibido "La lección es esta". Varía cómo llegas a la lección: una pregunta ("¿Qué falló?"), un contraste ("No fue el producto. Fue el precio."), una regla corta ("Volumen sin margen es frágil."). Varía también el arranque de cada bloque entre videos.
+
+## Retención (meta: ≥30 % ve el video completo)
+
+En la cuenta, lo que más predice el alcance es el porcentaje que ve el video completo (los que pegaron estuvieron en 22-24 %, la mediana en 12 %). Casi todos pierden gente en los segundos 1-2. Reglas:
+1. **Corto:** 80-100 palabras, 7-9 escenas de 1-2 frases. Nada de contexto antes de la tensión: el contexto cabe en una frase.
+2. **Gancho que promete y no paga todavía:** la primera frase (≤10 palabras) plantea el dato o la pregunta; **la respuesta completa llega en el último 20 % del video**. Ej.: no "Ara no es colombiana. Es portuguesa." sino "Ara no es colombiana. Y su dueño manda en Polonia." … y "portuguesa" se revela al final.
+3. **Un dato nuevo cada 3-4 s:** cifra, nombre, fecha o giro. Si una frase no aporta nada nuevo, se borra.
+4. **Giro a la mitad** ("Pero…", "Lo curioso:") para retener el bajón del segundo 15-20.
+5. **Cierre en loop:** la pregunta de bando (≤8 palabras) y, si cabe, un puente de ≤5 palabras que empate con la primera frase cuando el video vuelve a empezar (ej. cierre "¿D1 o Ara? Porque te repito:" → arranca "Ara no es colombiana."). Las repeticiones cuentan como vistas completas.
+6. El primer cuadro ya tiene la foto más fuerte con el título encima (el render le da un golpe de cámara y un impacto de sonido al arrancar); el `titulo` del gancho es la promesa en 2-5 palabras.
 
 ## Etiquetas de voz (expresividad)
 
@@ -91,8 +97,8 @@ En el formato mixto, cada escena abre con la foto y luego entra el gráfico sobr
 
 1. `npm run validar -- guiones/<id>.json` para cada uno: cero errores.
 2. Releer cada afirmación contra su fuente y quitar la que no se pueda defender.
-3. Agregar los 4 a `temas/historial.json` (`id`, `tema`, `pilar`, `narrador`, `protagonistas`).
-4. Un solo commit con los 4 guiones + historial, push a `main`. El push dispara el render y la subida a Drive.
+3. Agregarlos a `temas/historial.json` (`id`, `tema`, `pilar`, `narrador`, `protagonistas`, `categoria`, y `tipo` si es noticia).
+4. Un solo commit con los guiones + historial, push a `main`. El push dispara el render y la subida a Drive.
 
 Ejemplo completo: `guiones/2026-11-05-kodak-camara-digital.json`.
 

@@ -30,7 +30,8 @@ async function main() {
       const malas = etiquetas.filter((t) => !/^\[[a-z ]{2,30}\]$/.test(t));
       if (malas.length) errores.push(`etiquetas de voz mal escritas (deben ir en inglés, minúsculas, entre corchetes): ${malas.join(" ")}`);
       // Tope: 1:30. Según el ritmo del narrador salen entre 2,3 y 3,3 palabras por segundo, así que 210 palabras es el máximo seguro.
-      if (palabras < 95 || palabras > 210) errores.push(`${palabras} palabras de narración (objetivo 130-200, ≈50-80 s; máx. 210 para no pasar de 1:30)`);
+      if (palabras < 70 || palabras > 210) errores.push(`${palabras} palabras de narración (objetivo 80-100, ≈35-40 s; máx. 210 para no pasar de 1:30)`);
+      else if (palabras > 105) avisos.push(`${palabras} palabras: para retención (meta ≥30 % lo ve completo) apunta a 80-100 (≈35-40 s)`);
       // Gancho: frase corta y título obligatorio
       const gancho = g.escenas.find((e) => e.bloque === "gancho");
       const primera = sinEtiquetas(gancho?.narracion ?? "").split(/(?<=[.!?…])\s/)[0] ?? "";

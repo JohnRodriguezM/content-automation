@@ -3,8 +3,8 @@
   "pilar": "negocios",
   "narrador": "john",
   "portada": {
-    "texto": "Bavaria se vendió en [[2005]]",
-    "dato": "Por US$7.800 millones",
+    "texto": "¿De quién es [[Águila]]?",
+    "dato": "Vendida por US$7.800M",
     "foto": "1.1",
     "serie": "¿De quién es?"
   },
@@ -13,7 +13,7 @@
   "escenas": [
     {
       "bloque": "gancho",
-      "narracion": "[curious] Bavaria dejó de ser colombiana en 2005.",
+      "narracion": "[curious] Tu Águila tiene dueño extranjero desde 2005. ¿Cuánto pagaron?",
       "imagenes": [
         {
           "busqueda": "Cerveza el aguila 2019",
@@ -31,11 +31,7 @@
       "destacar": [
         "2005"
       ],
-      "titulo": "Vendida por [[US$7.800M]]",
-      "contador": {
-        "valor": "7.800",
-        "etiqueta": "millones de dólares"
-      },
+      "titulo": "¿De quién es [[Águila]]?",
       "orden": "ff"
     },
     {
@@ -121,7 +117,7 @@
     },
     {
       "bloque": "decision",
-      "narracion": "En julio de 2005, la familia la fusionó con la gigante SABMiller. Según Semana, el negocio valió 7.800 millones de dólares.",
+      "narracion": "[pause] Según Semana, en julio de 2005 la fusionaron con la gigante SABMiller, en un negocio de 7.800 millones de dólares.",
       "imagenes": [
         {
           "busqueda": "SABMiller beers",
@@ -131,7 +127,6 @@
         }
       ],
       "destacar": [
-        "SABMiller",
         "7.800"
       ],
       "segun": "según Semana",
@@ -148,7 +143,7 @@
     },
     {
       "bloque": "consecuencia",
-      "narracion": "Pero no recibieron efectivo. Recibieron acciones: unos 4.000 millones de dólares, el 15 por ciento de SABMiller. Quedaron como segundos accionistas.",
+      "narracion": "Pero no les pagaron en efectivo. Les pagaron en acciones: el 15 por ciento de SABMiller.",
       "imagenes": [
         {
           "busqueda": "Parque Central Bavaria",
@@ -172,8 +167,8 @@
       "orden": "fp"
     },
     {
-      "bloque": "consecuencia",
-      "narracion": "[pause] En 2016, AB InBev compró SABMiller. Y Bavaria pasó a manos de AB InBev.",
+      "bloque": "aprendizaje",
+      "narracion": "[serious] En 2016, AB InBev compró SABMiller. Y con ella, tu Águila.",
       "imagenes": [
         {
           "busqueda": "CONJUNTO BAVARIA",
@@ -190,28 +185,6 @@
         {
           "tipo": "titulo",
           "texto": "Hoy es de [[AB InBev]]"
-        }
-      ],
-      "orden": "fp"
-    },
-    {
-      "bloque": "aprendizaje",
-      "narracion": "[thoughtful] Los Santo Domingo no vendieron por plata en la mano. Cambiaron su cervecera por un pedazo del negocio mundial.",
-      "imagenes": [
-        {
-          "busqueda": "Cerveza Poker (6987986572)",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        }
-      ],
-      "destacar": [
-        "pedazo"
-      ],
-      "motion": [
-        {
-          "tipo": "titulo",
-          "texto": "No vendieron: [[cambiaron]]"
         }
       ],
       "orden": "fp"

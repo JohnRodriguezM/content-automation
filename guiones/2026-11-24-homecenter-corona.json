@@ -3,7 +3,7 @@
   "pilar": "negocios",
   "narrador": "john",
   "portada": {
-    "texto": "Homecenter es [[51 % Corona]]",
+    "texto": "¿De quién es [[Homecenter]]?",
     "dato": "No es solo de Falabella",
     "foto": "1.1",
     "serie": "¿De quién es?"
@@ -13,7 +13,7 @@
   "escenas": [
     {
       "bloque": "gancho",
-      "narracion": "[curious] Homecenter no es solo de Falabella. La mayoría es colombiana.",
+      "narracion": "[curious] Homecenter no es solo de Falabella. Y quien manda es colombiano.",
       "imagenes": [
         {
           "busqueda": "Homecenter in Bogota",
@@ -29,47 +29,14 @@
         }
       ],
       "destacar": [
-        "mayoría",
-        "colombiana"
+        "colombiano"
       ],
-      "titulo": "51 % [[Corona]]",
+      "titulo": "¿De quién es [[Homecenter]]?",
       "orden": "ff"
     },
     {
       "bloque": "contexto",
-      "narracion": "Es de Sodimac Colombia: el 51 por ciento es de la Organización Corona; el 49, de la chilena Falabella.",
-      "imagenes": [
-        {
-          "busqueda": "Hardware aisle",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        }
-      ],
-      "destacar": [
-        "51",
-        "49"
-      ],
-      "motion": [
-        {
-          "tipo": "contraste",
-          "antes": {
-            "valor": "51%",
-            "texto": "Corona",
-            "icono": "edificio"
-          },
-          "despues": {
-            "valor": "49%",
-            "texto": "Falabella",
-            "icono": "edificio"
-          }
-        }
-      ],
-      "orden": "fp"
-    },
-    {
-      "bloque": "decision",
-      "narracion": "Por años fueron socios en mucho más: las tiendas Falabella, el banco y los seguros.",
+      "narracion": "Falabella, la chilena, y un grupo colombiano fueron socios por años: tiendas, banco y seguros.",
       "imagenes": [
         {
           "busqueda": "Sede Banco Falabella Bogotá N",
@@ -110,7 +77,7 @@
     },
     {
       "bloque": "decision",
-      "narracion": "[pause] En junio de 2025, Corona avisó que se quería salir.",
+      "narracion": "[pause] En junio de 2025, el socio colombiano avisó que se quería salir.",
       "imagenes": [
         {
           "busqueda": "Banco Falabella Cúcuta may 2021",
@@ -126,14 +93,14 @@
       "motion": [
         {
           "tipo": "titulo",
-          "texto": "Corona [[se sale]]"
+          "texto": "El socio [[se sale]]"
         }
       ],
       "orden": "fp"
     },
     {
       "bloque": "consecuencia",
-      "narracion": "Según Valora Analitik, en enero de 2026 Falabella le compró su parte por unos 159 millones de dólares: el 35 por ciento de las tiendas y el 31 por ciento del banco.",
+      "narracion": "Según Valora Analitik, en enero Falabella le compró su parte por unos 159 millones de dólares.",
       "imagenes": [
         {
           "busqueda": "Banco Falabella HC Envigado",
@@ -151,7 +118,7 @@
         {
           "tipo": "dato",
           "valor": "US$159M",
-          "etiqueta": "por la parte de Corona",
+          "etiqueta": "por la parte del socio",
           "icono": "dinero"
         }
       ],
@@ -159,7 +126,29 @@
     },
     {
       "bloque": "consecuencia",
-      "narracion": "Pero Homecenter no entró en el negocio. Ahí siguen juntos, y Corona conserva el 51 por ciento.",
+      "narracion": "Pero hubo un negocio que no entró en la venta: Homecenter.",
+      "imagenes": [
+        {
+          "busqueda": "Hardware aisle",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Homecenter"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Homecenter [[no se vendió]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[serious] Ahí el colombiano sigue con el 51 por ciento. Es la Organización Corona.",
       "imagenes": [
         {
           "busqueda": "Homecenter in Bogota",
@@ -169,37 +158,22 @@
         }
       ],
       "destacar": [
-        "Homecenter",
-        "51"
+        "51 por ciento",
+        "Corona"
       ],
       "motion": [
         {
-          "tipo": "titulo",
-          "texto": "En Homecenter [[siguen juntos]]"
-        }
-      ],
-      "orden": "fp"
-    },
-    {
-      "bloque": "aprendizaje",
-      "narracion": "[thoughtful] Se separaron en casi todo. Menos en el negocio que manda la colombiana.",
-      "imagenes": [
-        {
-          "busqueda": "Sodimac Homecenter",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        }
-      ],
-      "destacar": [
-        "colombiana"
-      ],
-      "motion": [
-        {
-          "tipo": "dato",
-          "valor": "51%",
-          "etiqueta": "de Homecenter es de Corona",
-          "progreso": 0.51
+          "tipo": "contraste",
+          "antes": {
+            "valor": "51%",
+            "texto": "Corona",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "49%",
+            "texto": "Falabella",
+            "icono": "edificio"
+          }
         }
       ],
       "orden": "fp"
@@ -209,7 +183,7 @@
       "narracion": "Mándaselo a quien cree que Homecenter es chileno.",
       "imagenes": [
         {
-          "busqueda": "Logo Homecenter Sodimac",
+          "busqueda": "Sodimac Homecenter",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"

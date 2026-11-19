@@ -8,11 +8,11 @@
     "foto": "1.1"
   },
   "tema": "Las compras de menos de 200 dólares en Shein y Temu siguen sin IVA en Colombia: un decreto lo bajó a 50 dólares, la Corte lo tumbó y el Gobierno estudia cobrarlo",
-  "pregunta_principal": "¿Seguirías comprando en Shein si te cobran IVA?",
+  "pregunta_principal": "¿Seguirías comprando en Shein con IVA?",
   "escenas": [
     {
       "bloque": "gancho",
-      "narracion": "[curious] Tus compras en Shein no pagan IVA. Todavía.",
+      "narracion": "[curious] Tus compras en Shein no pagan IVA. Por ahora.",
       "imagenes": [
         {
           "busqueda": "Salon Shein w Galerii Młociny",
@@ -29,14 +29,14 @@
       ],
       "destacar": [
         "IVA",
-        "Todavía"
+        "Por ahora"
       ],
-      "titulo": "Sin [[IVA]] hasta US$200",
+      "titulo": "Sin [[IVA]]… por ahora",
       "orden": "ff"
     },
     {
       "bloque": "contexto",
-      "narracion": "Según El Heraldo, cada mes entran a Colombia más de 700.000 pedidos desde China.",
+      "narracion": "Según El Heraldo, cada mes llegan más de 700.000 pedidos desde China.",
       "imagenes": [
         {
           "busqueda": "parcel delivery boxes",
@@ -69,7 +69,7 @@
     },
     {
       "bloque": "decision",
-      "narracion": "La razón del precio: desde 2012, los envíos de menos de 200 dólares están exentos de IVA. Temu y Shein mandan un paquete pequeño a cada comprador.",
+      "narracion": "El truco: desde 2012, los envíos de menos de 200 dólares no pagan IVA. Por eso te llega un paquetico a la vez.",
       "imagenes": [
         {
           "busqueda": "Venta de ropa SHEIN en Tianguis",
@@ -79,8 +79,7 @@
         }
       ],
       "destacar": [
-        "200 dólares",
-        "exentos"
+        "200 dólares"
       ],
       "fecha": "2012",
       "motion": [
@@ -95,7 +94,7 @@
     },
     {
       "bloque": "consecuencia",
-      "narracion": "[pause] En enero de 2026, un decreto de emergencia económica bajó ese tope a 50 dólares.",
+      "narracion": "[pause] En enero, un decreto de emergencia bajó ese tope a 50 dólares.",
       "imagenes": [
         {
           "busqueda": "Edificio DIAN",
@@ -127,16 +126,10 @@
     },
     {
       "bloque": "consecuencia",
-      "narracion": "En abril, la Corte Constitucional tumbó el decreto y ordenó devolver lo cobrado.",
+      "narracion": "En abril, la Corte Constitucional lo tumbó y ordenó devolver lo cobrado.",
       "imagenes": [
         {
           "busqueda": "Corte Constitucional Escudo 2022",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        },
-        {
-          "busqueda": "Sala plena",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -152,11 +145,11 @@
           "texto": "La Corte lo [[tumbó]]"
         }
       ],
-      "orden": "fpf"
+      "orden": "fp"
     },
     {
       "bloque": "consecuencia",
-      "narracion": "Y ahora el Gobierno estudia cobrar IVA a esas compras, dentro de su plan para cuadrar las cuentas.",
+      "narracion": "Y ahora el Gobierno estudia cobrar IVA a esas compras.",
       "imagenes": [
         {
           "busqueda": "Dirección de Impuestos y Aduanas Nacionales",
@@ -179,7 +172,7 @@
     },
     {
       "bloque": "aprendizaje",
-      "narracion": "[serious] Si llega, ese vestido de 40.000 pesos podría costarte hasta un 19 por ciento más.",
+      "narracion": "[serious] Si pasa, tu pedido podría salirte hasta un 19 por ciento más caro.",
       "imagenes": [
         {
           "busqueda": "Salon Shein",
@@ -203,7 +196,7 @@
     },
     {
       "bloque": "cierre",
-      "narracion": "¿Seguirías comprando en Shein si te cobran IVA?",
+      "narracion": "¿Seguirías comprando con IVA? Porque hoy, todavía:",
       "imagenes": [
         {
           "busqueda": "Delivery of parcels",
@@ -215,7 +208,7 @@
       "destacar": []
     }
   ],
-  "caption": "Cada mes entran a Colombia más de 700.000 pedidos desde China, según El Heraldo. Desde la Ley 1607 de 2012, las importaciones de bajo valor (menos de 200 dólares) están exentas de IVA, y Temu y Shein venden directo de fábrica con un paquete pequeño por comprador.\n\nEn enero de 2026, un decreto de emergencia económica bajó ese tope a 50 dólares (Forbes). En abril, la Corte Constitucional declaró inexequible el decreto y ordenó devolver los impuestos cobrados (El País). En octubre de 2026, el Gobierno incluyó en su plan fiscal la posibilidad de cobrar IVA a las compras internacionales en Amazon, Shein y Temu (Vanguardia). La tarifa general del IVA es del 19 %.\n\nFuentes: El Heraldo (4 ago. 2026), Forbes Colombia (2 ene. 2026), El País (15 abr. 2026), Vanguardia (29 oct. 2026).\n\n¿Seguirías comprando en Shein si te cobran IVA?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "caption": "Cada mes entran a Colombia más de 700.000 pedidos desde China, según El Heraldo. Desde la Ley 1607 de 2012, las importaciones de bajo valor (menos de 200 dólares) están exentas de IVA, y Temu y Shein venden directo de fábrica con un paquete pequeño por comprador.\n\nEn enero de 2026, un decreto de emergencia económica bajó ese tope a 50 dólares (Forbes). En abril, la Corte Constitucional declaró inexequible el decreto y ordenó devolver los impuestos cobrados (El País). En octubre de 2026, el Gobierno incluyó en su plan fiscal la posibilidad de cobrar IVA a las compras internacionales en Amazon, Shein y Temu (Vanguardia). La tarifa general del IVA es del 19 %.\n\nFuentes: El Heraldo (4 ago. 2026), Forbes Colombia (2 ene. 2026), El País (15 abr. 2026), Vanguardia (29 oct. 2026).\n\n¿Seguirías comprando en Shein con IVA?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
   "hashtags": [
     "#Shein",
     "#Temu",

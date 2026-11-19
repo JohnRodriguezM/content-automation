@@ -12,7 +12,7 @@
   "escenas": [
     {
       "bloque": "gancho",
-      "narracion": "[curious] Olímpica empezó vendiendo baratijas.",
+      "narracion": "[curious] Olímpica empezó vendiendo baratijas. Y un accidente lo cambió todo.",
       "imagenes": [
         {
           "busqueda": "Tienda Olímpica Chía sep 2018",
@@ -28,7 +28,8 @@
         }
       ],
       "destacar": [
-        "baratijas"
+        "baratijas",
+        "accidente"
       ],
       "titulo": "De [[baratijas]] a 424 tiendas",
       "contador": {
@@ -39,7 +40,7 @@
     },
     {
       "bloque": "contexto",
-      "narracion": "Ricardo Char llegó de Siria en 1926 a trabajar como joyero en Lorica, Córdoba. Con su esposa, Erlinda Abdala, abrió un almacén de baratijas.",
+      "narracion": "Ricardo Char llegó de Siria en 1926. Con su esposa, Erlinda Abdala, abrió un almacén de baratijas.",
       "imagenes": [
         {
           "busqueda": "Rio Sinu, Santa Cruz de Lorica",
@@ -55,8 +56,7 @@
         }
       ],
       "destacar": [
-        "Siria",
-        "joyero"
+        "Siria"
       ],
       "fecha": "1926",
       "motion": [
@@ -69,7 +69,7 @@
     },
     {
       "bloque": "decision",
-      "narracion": "En 1955 Ricardo tuvo un accidente, y su hijo mayor, Fuad, tomó el negocio. Le agregó una droguería. En menos de un año tenían seis.",
+      "narracion": "[pause] En 1955 Ricardo tuvo un accidente. Su hijo mayor, Fuad, tomó el negocio.",
       "imagenes": [
         {
           "busqueda": "Busto de Fuad Char",
@@ -83,10 +83,32 @@
         }
       ],
       "destacar": [
-        "Fuad",
-        "droguería"
+        "Fuad"
       ],
       "fecha": "1955",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "El hijo [[toma el mando]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Fuad le agregó una droguería. En menos de un año tenían seis.",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Olímpica Av 7 Bog 2018",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "droguería",
+        "seis"
+      ],
       "motion": [
         {
           "tipo": "dato",
@@ -99,7 +121,7 @@
     },
     {
       "bloque": "decision",
-      "narracion": "En 1968 abrieron un almacén grande para la gente de menos plata. La regla desde entonces: el precio más bajo.",
+      "narracion": "En 1968 abrieron un almacén grande con una regla: el precio más bajo.",
       "imagenes": [
         {
           "busqueda": "Barranquilla",
@@ -109,7 +131,6 @@
         }
       ],
       "destacar": [
-        "1968",
         "precio más bajo"
       ],
       "fecha": "1968",
@@ -124,33 +145,7 @@
     },
     {
       "bloque": "consecuencia",
-      "narracion": "Según Forbes, hoy tiene 424 puntos de venta, más de 24.000 empleados, y en 2023 vendió 7,8 billones de pesos.",
-      "imagenes": [
-        {
-          "busqueda": "Tienda Olímpica Av 7 Bog 2018",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        }
-      ],
-      "destacar": [
-        "424",
-        "7,8 billones"
-      ],
-      "segun": "según Forbes",
-      "motion": [
-        {
-          "tipo": "dato",
-          "valor": "$7,8B",
-          "etiqueta": "ventas en 2023",
-          "icono": "dinero"
-        }
-      ],
-      "orden": "fp"
-    },
-    {
-      "bloque": "consecuencia",
-      "narracion": "[pause] Y en 2024 pasó algo que no pasaba en siete décadas: un presidente que no es Char.",
+      "narracion": "Según Forbes, hoy son 424 puntos de venta.",
       "imagenes": [
         {
           "busqueda": "Puerto Mocho, Barranquilla",
@@ -160,20 +155,22 @@
         }
       ],
       "destacar": [
-        "siete décadas"
+        "424"
       ],
-      "fecha": "2024",
+      "segun": "según Forbes",
       "motion": [
         {
-          "tipo": "titulo",
-          "texto": "Primer presidente [[sin apellido Char]]"
+          "tipo": "dato",
+          "valor": "424",
+          "etiqueta": "puntos de venta",
+          "icono": "edificio"
         }
       ],
       "orden": "fp"
     },
     {
       "bloque": "aprendizaje",
-      "narracion": "[thoughtful] Hoy cada tienda Olímpica tiene droguería. La idea de Fuad sigue ahí.",
+      "narracion": "[thoughtful] Y hasta hoy, cada tienda Olímpica tiene droguería. La idea de Fuad sigue ahí.",
       "imagenes": [
         {
           "busqueda": "Tienda Olímpica Chía",
@@ -195,7 +192,7 @@
     },
     {
       "bloque": "cierre",
-      "narracion": "Mándaselo a alguien de la Costa que todavía dice: vamos a la Olímpica.",
+      "narracion": "Mándaselo a alguien de la Costa que dice: vamos a la Olímpica.",
       "imagenes": [
         {
           "busqueda": "Barranquilla Montage",

@@ -9,7 +9,7 @@
     "serie": "¿De quién es?"
   },
   "tema": "Alkosto, Ktronix, Alkomprar y las motos AKT son de Corbeta, el grupo de la familia Mejía fundado en 1938; el fundador fue accionista del Éxito",
-  "pregunta_principal": "¿Tú compras tecnología en Alkosto o en Ktronix?",
+  "pregunta_principal": "¿Tecnología en Alkosto o en Ktronix?",
   "escenas": [
     {
       "bloque": "gancho",
@@ -22,7 +22,7 @@
           "filtro": "ninguno"
         },
         {
-          "busqueda": "A Television Store at downtown Taichung",
+          "busqueda": "electronics store televisions",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -36,7 +36,7 @@
     },
     {
       "bloque": "contexto",
-      "narracion": "Los Mejía, de Medellín. En 1938, Santiago Mejía Olarte fundó Corbeta, distribuyendo telas.",
+      "narracion": "Todo empezó en 1938, en Medellín, distribuyendo telas.",
       "imagenes": [
         {
           "busqueda": "Fabricato de Bello, 1920",
@@ -46,8 +46,7 @@
         }
       ],
       "destacar": [
-        "1938",
-        "Corbeta"
+        "1938"
       ],
       "fecha": "1938",
       "motion": [
@@ -57,7 +56,7 @@
           "puntos": [
             {
               "lugar": "medellin",
-              "etiqueta": "Medellín · Corbeta"
+              "etiqueta": "Medellín · 1938"
             }
           ]
         }
@@ -66,7 +65,7 @@
     },
     {
       "bloque": "decision",
-      "narracion": "En 1987 trajo a Colombia el formato Alkosto: el hiperahorro.",
+      "narracion": "En 1987 trajeron a Colombia el formato Alkosto. En 1994 arrancó Ktronix.",
       "imagenes": [
         {
           "busqueda": "Alkosto HiperAhorro",
@@ -82,35 +81,10 @@
         }
       ],
       "destacar": [
-        "1987",
-        "Alkosto"
+        "Alkosto",
+        "Ktronix"
       ],
       "fecha": "1987",
-      "motion": [
-        {
-          "tipo": "titulo",
-          "texto": "Llega el [[hiperahorro]]",
-          "icono": "dinero"
-        }
-      ],
-      "orden": "fpf"
-    },
-    {
-      "bloque": "decision",
-      "narracion": "En 1994 arrancó Ktronix, distribuyendo tecnología. Y el grupo sumó su propia marca de motos: AKT.",
-      "imagenes": [
-        {
-          "busqueda": "electronics store televisions",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        }
-      ],
-      "destacar": [
-        "Ktronix",
-        "AKT"
-      ],
-      "fecha": "1994",
       "motion": [
         {
           "tipo": "iconos",
@@ -130,11 +104,11 @@
           ]
         }
       ],
-      "orden": "fp"
+      "orden": "fpf"
     },
     {
       "bloque": "consecuencia",
-      "narracion": "[pause] Lo curioso: el fundador fue accionista del Éxito desde 1972. Hoy Alkosto es su rival.",
+      "narracion": "[pause] Lo curioso: el fundador fue accionista del Éxito desde 1972. Hoy son rivales.",
       "imagenes": [
         {
           "busqueda": "Éxito Tunal",
@@ -145,7 +119,7 @@
       ],
       "destacar": [
         "Éxito",
-        "rival"
+        "rivales"
       ],
       "motion": [
         {
@@ -157,7 +131,7 @@
     },
     {
       "bloque": "consecuencia",
-      "narracion": "Según El Colombiano, en 2021 Corbeta fue la empresa número 15 del país, con más de 70 marcas.",
+      "narracion": "Según El Colombiano, en 2021 el grupo fue la empresa número 15 del país.",
       "imagenes": [
         {
           "busqueda": "Tienda Alkosto Suba",
@@ -167,8 +141,7 @@
         }
       ],
       "destacar": [
-        "15",
-        "70 marcas"
+        "15"
       ],
       "segun": "según El Colombiano",
       "fecha": "2021",
@@ -184,7 +157,7 @@
     },
     {
       "bloque": "aprendizaje",
-      "narracion": "[thoughtful] Hoy la maneja su hijo, Manuel Santiago Mejía. Y casi nadie conoce el apellido detrás de Alkosto.",
+      "narracion": "[thoughtful] La familia es Mejía, el grupo se llama Corbeta, y casi nadie conoce el apellido detrás de Alkosto.",
       "imagenes": [
         {
           "busqueda": "Tienda Alkosto C170",
@@ -194,7 +167,8 @@
         }
       ],
       "destacar": [
-        "Mejía"
+        "Mejía",
+        "Corbeta"
       ],
       "motion": [
         {
@@ -206,7 +180,7 @@
     },
     {
       "bloque": "cierre",
-      "narracion": "¿Tú compras tecnología en Alkosto o en Ktronix?",
+      "narracion": "¿Tecnología en Alkosto o en Ktronix?",
       "imagenes": [
         {
           "busqueda": "Alkosto HiperAhorro",
@@ -218,7 +192,7 @@
       "destacar": []
     }
   ],
-  "caption": "Alkosto, Alkomprar, Ktronix y las motos AKT son del Grupo Corbeta (Colombiana de Comercio), de la familia Mejía. Santiago Mejía Olarte lo fundó en Medellín en 1938 como distribuidor de telas, según El Colombiano. El formato Alkosto llegó a Colombia en 1987 y Ktronix empezó en 1994 distribuyendo tecnología, según Pulzo.\n\nEl fundador fue accionista de Almacenes Éxito desde 1972; hoy Alkosto es su rival. En 2021, Corbeta fue la empresa número 15 entre las 1.000 más grandes del país, con más de 70 marcas. La dirige Manuel Santiago Mejía, hijo del fundador.\n\nFuentes: El Colombiano, Pulzo (7 ene. 2024).\n\n¿Tú compras tecnología en Alkosto o en Ktronix?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "caption": "Alkosto, Alkomprar, Ktronix y las motos AKT son del Grupo Corbeta (Colombiana de Comercio), de la familia Mejía. Santiago Mejía Olarte lo fundó en Medellín en 1938 como distribuidor de telas, según El Colombiano. El formato Alkosto llegó a Colombia en 1987 y Ktronix empezó en 1994 distribuyendo tecnología, según Pulzo.\n\nEl fundador fue accionista de Almacenes Éxito desde 1972; hoy Alkosto es su rival. En 2021, Corbeta fue la empresa número 15 entre las 1.000 más grandes del país, con más de 70 marcas. La dirige Manuel Santiago Mejía, hijo del fundador.\n\nFuentes: El Colombiano, Pulzo (7 ene. 2024).\n\n¿Tecnología en Alkosto o en Ktronix?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
   "hashtags": [
     "#Alkosto",
     "#Ktronix",

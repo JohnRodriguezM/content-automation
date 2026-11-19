@@ -3,8 +3,8 @@
   "pilar": "tecnologia",
   "narrador": "john",
   "portada": {
-    "texto": "Movistar y Tigo: [[un dueño]]",
-    "dato": "Millicom compró el 100 %",
+    "texto": "¿De quién es [[Movistar]]?",
+    "dato": "Ya no es española",
     "foto": "1.1",
     "serie": "¿De quién es?"
   },
@@ -13,7 +13,7 @@
   "escenas": [
     {
       "bloque": "gancho",
-      "narracion": "[curious] Movistar y Tigo ya tienen el mismo dueño.",
+      "narracion": "[curious] Movistar ya no es de los españoles. ¿De quién es?",
       "imagenes": [
         {
           "busqueda": "Sede Movistar Btá",
@@ -22,23 +22,6 @@
           "filtro": "ninguno"
         },
         {
-          "busqueda": "Sede tigo Soacha Col",
-          "fuente": "commons",
-          "modo": "relleno",
-          "filtro": "ninguno"
-        }
-      ],
-      "destacar": [
-        "mismo dueño"
-      ],
-      "titulo": "Movistar + Tigo = [[un dueño]]",
-      "orden": "ff"
-    },
-    {
-      "bloque": "contexto",
-      "narracion": "Es Millicom, la dueña de Tigo. En noviembre de 2025, la SIC aprobó que se integraran, con condiciones.",
-      "imagenes": [
-        {
           "busqueda": "Antena Movistar tv en Colombia",
           "fuente": "commons",
           "modo": "relleno",
@@ -46,24 +29,17 @@
         }
       ],
       "destacar": [
-        "Millicom",
-        "SIC"
+        "españoles"
       ],
-      "fecha": "NOV. 2025",
-      "motion": [
-        {
-          "tipo": "titulo",
-          "texto": "Aprobado, [[con condiciones]]"
-        }
-      ],
-      "orden": "fp"
+      "titulo": "¿De quién es [[Movistar]]?",
+      "orden": "ff"
     },
     {
-      "bloque": "decision",
-      "narracion": "En febrero de 2026, Millicom le compró a Telefónica su 67,5 por ciento de Movistar Colombia.",
+      "bloque": "contexto",
+      "narracion": "En febrero de 2026, Telefónica vendió su 67,5 por ciento de Movistar Colombia.",
       "imagenes": [
         {
-          "busqueda": "Sede tigo Soacha",
+          "busqueda": "Optical fiber cable",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -77,7 +53,7 @@
         {
           "tipo": "dato",
           "valor": "67,5%",
-          "etiqueta": "comprado a Telefónica",
+          "etiqueta": "vendido por Telefónica",
           "progreso": 0.675
         }
       ],
@@ -85,10 +61,10 @@
     },
     {
       "bloque": "decision",
-      "narracion": "Según Forbes, en abril le compró al Estado el 32,5 por ciento que faltaba, por unos 856.000 millones de pesos.",
+      "narracion": "Según Forbes, en abril el Estado vendió el 32,5 por ciento que le quedaba, por unos 856.000 millones de pesos.",
       "imagenes": [
         {
-          "busqueda": "Optical fiber cable",
+          "busqueda": "Black smartphone in hand",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -102,6 +78,30 @@
       "fecha": "ABR. 2026",
       "motion": [
         {
+          "tipo": "dato",
+          "valor": "$856.000M",
+          "etiqueta": "por la parte del Estado",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Lo curioso: el comprador pagó más por la parte del Estado que por el control de Telefónica.",
+      "imagenes": [
+        {
+          "busqueda": "Optical fiber connectors",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "pagó más"
+      ],
+      "motion": [
+        {
           "tipo": "recorte",
           "medio": "TeleSemana",
           "fecha": "29 abr. 2026",
@@ -113,7 +113,30 @@
     },
     {
       "bloque": "consecuencia",
-      "narracion": "[pause] Juntas tienen el 41,5 por ciento de las líneas móviles. Claro, el 44,8.",
+      "narracion": "[serious] El comprador es Millicom. La dueña de Tigo.",
+      "imagenes": [
+        {
+          "busqueda": "Sede tigo Soacha",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Millicom",
+        "Tigo"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Movistar + Tigo = [[un dueño]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Juntas tienen el 41,5 por ciento de las líneas móviles. Claro, el 44,8.",
       "imagenes": [
         {
           "busqueda": "Tienda Claro Restrepo Bogotá",
@@ -145,18 +168,17 @@
     },
     {
       "bloque": "aprendizaje",
-      "narracion": "[serious] Para ti: la SIC prohibió eliminar o restringir los planes que ya tienes. Pero ahora son dos gigantes peleando por tu línea.",
+      "narracion": "La Superintendencia les prohibió quitarte el plan que ya tienes.",
       "imagenes": [
         {
-          "busqueda": "Black smartphone in hand",
+          "busqueda": "Hand-smartphone-technology-calling",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
         }
       ],
       "destacar": [
-        "planes",
-        "dos gigantes"
+        "plan"
       ],
       "motion": [
         {
@@ -169,7 +191,7 @@
     },
     {
       "bloque": "cierre",
-      "narracion": "¿Tú eres de Claro, Movistar o Tigo?",
+      "narracion": "¿Claro, Movistar o Tigo?",
       "imagenes": [
         {
           "busqueda": "Tienda Claro Cúcuta my 2021",
