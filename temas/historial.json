@@ -791,7 +791,8 @@
       "Davivienda",
       "Scotiabank Colpatria"
     ],
-    "categoria": "marcas-colombia"
+    "categoria": "marcas-colombia",
+    "franja": "07:30"
   },
   {
     "id": "2026-11-19-frisby-nombre-espana",
@@ -802,7 +803,8 @@
       "Frisby",
       "Frisby España"
     ],
-    "categoria": "marcas-colombia"
+    "categoria": "marcas-colombia",
+    "franja": "12:30"
   },
   {
     "id": "2026-11-19-gta-vi-caja-sin-disco",
@@ -824,7 +826,8 @@
       "Michel Olmi",
       "D1"
     ],
-    "categoria": "marcas-colombia"
+    "categoria": "marcas-colombia",
+    "franja": "19:30"
   },
   {
     "id": "2026-11-19-starbucks-banco",
@@ -853,7 +856,8 @@
       "Procafecol",
       "Federación Nacional de Cafeteros"
     ],
-    "categoria": "marcas-colombia"
+    "categoria": "marcas-colombia",
+    "franja": "07:30"
   },
   {
     "id": "2026-11-20-lamborghini-tractores",
@@ -871,7 +875,8 @@
       "Postobón",
       "Carlos Ardila Lülle"
     ],
-    "categoria": "marcas-colombia"
+    "categoria": "marcas-colombia",
+    "franja": "12:30"
   },
   {
     "id": "2026-11-20-shakira-gira-record",
@@ -891,7 +896,8 @@
       "Bancolombia",
       "Grupo Éxito"
     ],
-    "categoria": "marcas-colombia"
+    "categoria": "marcas-colombia",
+    "franja": "19:30"
   },
   {
     "id": "2026-11-21-ara-portuguesa",
@@ -902,7 +908,8 @@
       "Tiendas Ara",
       "Jerónimo Martins"
     ],
-    "categoria": "marcas-colombia"
+    "categoria": "marcas-colombia",
+    "franja": "07:30"
   },
   {
     "id": "2026-11-21-bavaria-santo-domingo",
@@ -915,7 +922,8 @@
       "SABMiller",
       "AB InBev"
     ],
-    "categoria": "marcas-colombia"
+    "categoria": "marcas-colombia",
+    "franja": "12:30"
   },
   {
     "id": "2026-11-21-gta-lucia-jason",
@@ -951,7 +959,8 @@
       "Temu",
       "DIAN"
     ],
-    "categoria": "marcas-colombia"
+    "categoria": "marcas-colombia",
+    "franja": "19:30"
   },
   {
     "id": "2026-11-22-alpina-sopo-california",
@@ -968,7 +977,8 @@
     "protagonistas": [
       "Colanta"
     ],
-    "categoria": "marcas-colombia"
+    "categoria": "marcas-colombia",
+    "franja": "07:30"
   },
   {
     "id": "2026-11-22-gta-florida-man",
@@ -990,7 +1000,8 @@
       "Familia Char",
       "Fuad Char"
     ],
-    "categoria": "marcas-colombia"
+    "categoria": "marcas-colombia",
+    "franja": "19:30"
   },
   {
     "id": "2026-11-22-samsung-pescado-seco",
@@ -1010,7 +1021,8 @@
       "Millicom",
       "Claro"
     ],
-    "categoria": "marcas-colombia"
+    "categoria": "marcas-colombia",
+    "franja": "12:30"
   },
   {
     "id": "2026-11-23-grupo-aval-un-dueno",
@@ -1023,7 +1035,8 @@
       "Banco de Bogotá",
       "AV Villas"
     ],
-    "categoria": "marcas-colombia"
+    "categoria": "marcas-colombia",
+    "franja": "19:30"
   },
   {
     "id": "2026-11-23-gta-hacker-hotel",
@@ -1044,7 +1057,8 @@
       "Leonisa",
       "Joaquín Urrea"
     ],
-    "categoria": "marcas-colombia"
+    "categoria": "marcas-colombia",
+    "franja": "07:30"
   },
   {
     "id": "2026-11-23-quala-bonice",
@@ -1057,7 +1071,8 @@
       "Popetas",
       "Vive 100"
     ],
-    "categoria": "marcas-colombia"
+    "categoria": "marcas-colombia",
+    "franja": "12:30"
   },
   {
     "id": "2026-11-24-alkosto-familia-mejia",
@@ -1071,7 +1086,8 @@
       "Corbeta",
       "Familia Mejía"
     ],
-    "categoria": "marcas-colombia"
+    "categoria": "marcas-colombia",
+    "franja": "19:30"
   },
   {
     "id": "2026-11-24-crepes-mujeres",
@@ -1082,7 +1098,8 @@
       "Crepes & Waffles",
       "Beatriz Fernández"
     ],
-    "categoria": "marcas-colombia"
+    "categoria": "marcas-colombia",
+    "franja": "07:30"
   },
   {
     "id": "2026-11-24-gta-trailer-2-475-millones",
@@ -1105,7 +1122,8 @@
       "Falabella",
       "Organización Corona"
     ],
-    "categoria": "marcas-colombia"
+    "categoria": "marcas-colombia",
+    "franja": "12:30"
   },
   {
     "id": "2026-11-25-gta-canciones-revividas",

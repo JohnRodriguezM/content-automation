@@ -11,7 +11,7 @@ Antes de escribir, lee [`personalidad.md`](personalidad.md) completo (línea edi
 - Narrador: `john`. Pilar: `negocios`, `biografias` (personas detrás de la marca) o `tecnologia` (apps, telcos, fintech).
 - **3 videos al día** (publicación 7:30 am, 12:30 pm y 7:30 pm, hora Bogotá). El `id` lleva la fecha en que se publica.
 - **Noticia del día (opcional, máx. 1):** si en las últimas 24-36 h salió una noticia fuerte de una marca colombiana (cambio de dueño, quiebra, multa, precio, lanzamiento) con 2 fuentes serias, se escribe ese mismo día con la fecha de hoy y slug que termine en `-noticia`. Va a las 12:30 pm y el video de las 12:30 pasa a las 4:30 pm. La inmediatez manda: mejor un video correcto hoy que uno perfecto mañana.
-- En `temas/historial.json` cada entrada de esta categoría lleva `"categoria": "marcas-colombia"` (y `"tipo": "noticia"` si aplica).
+- En `temas/historial.json` cada entrada de esta categoría lleva `"categoria": "marcas-colombia"`, `"franja"` (`"07:30"`, `"12:30"` o `"19:30"`; la noticia va en `"12:30"` y el video que tenía esa franja pasa a `"16:30"`) y `"tipo": "noticia"` si aplica. El tema más fuerte del día va a las 19:30.
 
 ## Cómo elegir un tema
 
