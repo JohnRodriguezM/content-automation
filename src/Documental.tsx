@@ -13,6 +13,7 @@ import type { Feature, FeatureCollection } from "geojson";
 import mundo from "world-atlas/countries-50m.json";
 import { LUGARES } from "./lugares";
 import { Credito, Textura, norm } from "./Video";
+import { Destello, FiltrosMovimiento, Grade, Salida, barrido, desenfoqueX, velocidad, volumenMusica } from "./Efectos";
 import type { Escena, Imagen, Motion, Palabra, VideoProps } from "./schema";
 
 /**
@@ -29,12 +30,15 @@ const GRUESA = "Oswald, sans-serif";
 const MONO = "'IBM Plex Mono', monospace";
 const SERIF = "'Playfair Display', serif";
 const T = 6; // cuadros de transición entre planos
+const ADELANTO = 4; // la imagen cambia 4 cuadros antes que la frase: el corte se siente encima de la voz
 const LOGO_CUADROS = 100;
 const TITULO_CUADROS = 84; // el título del gancho (y el contador) se ven ~2,8 s; mientras tanto no hay subtítulos
 
 const src = (s: string) => (s.startsWith("http") ? s : staticFile(s));
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const salida = (p: number) => Easing.out(Easing.cubic)(Math.min(1, Math.max(0, p)));
+/** Rampa de velocidad del zoom: arranca rápido y se asienta, como una cámara que llega. */
+const rampa = Easing.bezier(0.12, 0.62, 0.3, 1);
 
 const MUNDO = mundo as unknown as { objects: { countries: never } };
 const PAISES = feature(MUNDO as never, MUNDO.objects.countries) as unknown as FeatureCollection;
@@ -67,7 +71,7 @@ const filtroCss = (f: Imagen["filtro"]) =>
 /** Foto con zoom lento. `fondo`: desenfocada y oscura, detrás de una pieza gráfica. */
 const Foto: React.FC<{ img?: Imagen; dur: number; seed: string; fondo?: boolean }> = ({ img, dur, seed, fondo }) => {
   const f = useCurrentFrame();
-  const p = f / Math.max(1, dur);
+  const p = rampa(Math.min(1, f / Math.max(1, dur)));
   if (!img || (!img.archivo && !img.url)) return <AbsoluteFill style={{ background: "#0d1117" }} />;
   const s = src(img.archivo ?? img.url!);
   const acercar = random(seed + "z") > 0.3;
@@ -291,12 +295,13 @@ const Barras: React.FC<{ v: PiezaContraste }> = ({ v }) => {
 const Frase: React.FC<{ texto: string }> = ({ texto }) => {
   const f = useCurrentFrame();
   const e = salida(f / 9);
+  const trazo = salida((f - 5) / 9) * 100;
   return (
     <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", padding: "0 90px 330px" }}>
       <div style={{ fontFamily: GRUESA, fontWeight: 700, fontSize: 104, lineHeight: 1.08, color: "#fff", textTransform: "uppercase", textAlign: "center", opacity: e, transform: `translateY(${(1 - e) * 40}px)` }}>
         {texto.split(/(\[\[[^\]]+\]\])/).map((t, i) =>
           t.startsWith("[[")
-            ? <span key={i} style={{ background: ROJO, padding: "0 14px", boxDecorationBreak: "clone", WebkitBoxDecorationBreak: "clone" }}>{t.slice(2, -2)}</span>
+            ? <span key={i} style={{ backgroundImage: `linear-gradient(${ROJO}, ${ROJO})`, backgroundRepeat: "no-repeat", backgroundSize: `${trazo}% 100%`, padding: "0 14px", boxDecorationBreak: "clone", WebkitBoxDecorationBreak: "clone" }}>{t.slice(2, -2)}</span>
             : <span key={i}>{t}</span>)}
       </div>
     </AbsoluteFill>
@@ -375,12 +380,18 @@ const sonidoDe = (p: Plano): [string, number] | null => {
 };
 
 /** Entrada de cada plano: aparece sobre el anterior con un zoom corto y desenfoque (sin negro entre planos). */
-const Entrada: React.FC<{ activa: boolean; golpe?: boolean; children: React.ReactNode }> = ({ activa, golpe, children }) => {
+const Entrada: React.FC<{ activa: boolean; golpe?: boolean; tipo?: "barrido" | "zoom"; children: React.ReactNode }> = ({ activa, golpe, tipo = "zoom", children }) => {
   const f = useCurrentFrame();
   // Primer plano del video: visible desde el cuadro 0 (es la miniatura mientras la gente hace scroll)
   // pero con un golpe de cámara rápido para que se sienta movimiento desde el primer instante.
   if (golpe) return <AbsoluteFill style={{ transform: `scale(${interpolate(salida(f / 7), [0, 1], [1.16, 1])})` }}>{children}</AbsoluteFill>;
   if (!activa) return <AbsoluteFill>{children}</AbsoluteFill>;
+  if (tipo === "barrido") {
+    // Barrido de cámara: entra desde la derecha con desenfoque de movimiento mientras el plano anterior se va
+    const q = f / T;
+    if (q >= 1) return <AbsoluteFill>{children}</AbsoluteFill>;
+    return <AbsoluteFill style={{ transform: `translateX(${(1 - barrido(q)) * W}px)`, filter: desenfoqueX(velocidad(q) * 44) }}>{children}</AbsoluteFill>;
+  }
   const p = salida(f / T);
   return (
     <AbsoluteFill style={{ opacity: Math.min(1, f / (T - 2)), transform: `scale(${interpolate(p, [0, 1], [1.1, 1])})`, filter: p < 1 ? `blur(${(1 - p) * 14}px)` : undefined }}>
@@ -451,9 +462,10 @@ const Contador: React.FC<{ valor: string; etiqueta?: string; logo?: string; dur:
 /** Fuente de lo que se cuenta en la escena ("según Forbes"). */
 const Segun: React.FC<{ texto: string; dur: number; abajo?: boolean }> = ({ texto, dur, abajo }) => {
   const f = useCurrentFrame();
-  const o = Math.min(interpolate(f, [2, 8], [0, 1], clamp), interpolate(f, [dur - 8, dur], [1, 0], clamp));
+  const o = interpolate(f, [dur - 8, dur], [1, 0], clamp);
+  const trazo = 100 - salida((f - 2) / 8) * 100;
   return (
-    <div style={{ position: "absolute", top: abajo ? 280 : 210, left: 60, opacity: o, background: "rgba(10,11,14,0.88)", color: "#fff", fontFamily: MONO, fontWeight: 500, fontSize: 30, padding: "6px 14px" }}>
+    <div style={{ position: "absolute", top: abajo ? 280 : 210, left: 60, opacity: o, clipPath: `inset(0 ${trazo}% 0 0)`, background: "rgba(10,11,14,0.88)", color: "#fff", fontFamily: MONO, fontWeight: 500, fontSize: 30, padding: "6px 14px" }}>
       {texto}
     </div>
   );
@@ -539,7 +551,7 @@ const Logo: React.FC<{ archivo: string; dur: number }> = ({ archivo, dur }) => {
   );
 };
 
-const EscenaDoc: React.FC<{ e: Escena; dur: number; idx: number; efectos?: boolean; logo?: string; linea?: Linea }> = ({ e, dur, idx, efectos, logo, linea }) => {
+const EscenaDoc: React.FC<{ e: Escena; dur: number; idx: number; efectos?: boolean; logo?: string; linea?: Linea; ultima?: boolean }> = ({ e, dur, idx, efectos, logo, linea, ultima }) => {
   const ps = planos(e);
   const base = Math.floor(dur / ps.length);
   const conContador = idx === 0 && Boolean(e.contador);
@@ -551,9 +563,12 @@ const EscenaDoc: React.FC<{ e: Escena; dur: number; idx: number; efectos?: boole
         const d = j === ps.length - 1 ? dur - from : base;
         const son = sonidoDe(p);
         const seed = `${idx}-${j}`;
+        // Cambio de escena: siempre barrido; dentro de la escena se alterna barrido y zoom
+        const tipo = j === 0 || random(seed + "t") < 0.5 ? "barrido" : "zoom";
         return (
           <Sequence key={j} from={from} durationInFrames={d + T}>
-            <Entrada activa={!(idx === 0 && j === 0)} golpe={idx === 0 && j === 0}>
+            <Salida desde={d} t={T} activa={!(ultima && j === ps.length - 1)}>
+            <Entrada activa={!(idx === 0 && j === 0)} golpe={idx === 0 && j === 0} tipo={tipo}>
               {p.tipo === "foto" ? (
                 <>
                   <Foto img={p.img} dur={d + T} seed={seed} />
@@ -567,11 +582,13 @@ const EscenaDoc: React.FC<{ e: Escena; dur: number; idx: number; efectos?: boole
                 </>
               )}
             </Entrada>
-            {son && !(idx === 0 && j === 0) && <Sfx n={son[0]} v={son[1]} on={efectos} />}
+            </Salida>
+            {son && !(idx === 0 && j === 0) && <Sfx n={tipo === "barrido" && son[0] === "swish" ? "whoosh" : son[0]} v={son[1]} on={efectos} />}
             {idx === 0 && j === 0 && <Sfx n="impacto" v={0.35} on={efectos} />}
           </Sequence>
         );
       })}
+      {idx > 0 && <Sequence durationInFrames={18}><Destello seed={`d${idx}`} /></Sequence>}
       {e.rotulo && <Sequence durationInFrames={Math.min(dur, 84)}><Rotulo texto={e.rotulo} dur={Math.min(dur, 84)} /><Sfx n="maquina" v={0.2} on={efectos} desde={3} /></Sequence>}
       {conLogo && <Sequence durationInFrames={Math.min(dur, LOGO_CUADROS)}><Logo archivo={logo!} dur={Math.min(dur, LOGO_CUADROS)} /></Sequence>}
       {conContador && <Sequence durationInFrames={Math.min(dur, TITULO_CUADROS)}><Contador valor={e.contador!.valor} etiqueta={e.contador!.etiqueta} logo={logo} dur={Math.min(dur, TITULO_CUADROS)} /></Sequence>}
@@ -606,6 +623,11 @@ const clave = (g: Palabra[], destacar: Set<string>) => {
   return mejor;
 };
 
+/** Cifras en amarillo; palabras clave del guion (`destacar`, casi siempre dueños y nombres) en blanco sobre rojo. */
+const CIFRA = /\d|^(mil|millón|millones|billón|billones|ciento|dólares|pesos|%)$/i;
+const tipoClave = (p: Palabra, destacar: Set<string>) =>
+  CIFRA.test(norm(p.texto)) || /\d/.test(p.texto) ? "cifra" : destacar.has(norm(p.texto)) ? "clave" : "normal";
+
 const Subs: React.FC<{ palabras: Palabra[]; destacar: Set<string>; desde: number }> = ({ palabras, destacar, desde }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -615,18 +637,35 @@ const Subs: React.FC<{ palabras: Palabra[]; destacar: Set<string>; desde: number
   const g = grupos.find((g) => t >= g[0].inicio - 0.05 && t < g[g.length - 1].fin + 0.1);
   if (!g) return null;
   const k = clave(g, destacar);
-  const pop = interpolate(t - g[0].inicio, [-0.05, 0.08], [0.9, 1], clamp);
   const sombra = "0 0 3px #000, 0 3px 0 #000, 0 6px 22px rgba(0,0,0,0.9)";
-  const palabra = (p: Palabra, i: number) => (
-    <span key={i} style={{
-      display: i === k ? "block" : "inline-block", margin: i === k ? "0" : "0 10px", fontFamily: GRUESA,
-      fontWeight: i === k ? 700 : 500, fontSize: i === k ? 112 : 56, lineHeight: i === k ? 1.02 : 1.25,
-      color: i === k ? AMARILLO : "#fff", opacity: t >= p.inicio - 0.03 ? 1 : 0.5, textShadow: sombra,
-      transform: i === k ? `scale(${interpolate(t - p.inicio, [-0.03, 0.1], [0.92, 1], clamp)})` : undefined,
-    }}>
-      {p.texto.replace(/[.,;:]$/, "")}
-    </span>
-  );
+  const palabra = (p: Palabra, i: number) => {
+    const dt = t - p.inicio;
+    const dicha = dt >= -0.03;
+    if (i !== k) {
+      // Cada palabra "salta" al decirse: entra un poco más grande y se asienta
+      const s = interpolate(dt, [-0.03, 0.09], [1.22, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
+      return (
+        <span key={i} style={{ display: "inline-block", margin: "0 10px", fontFamily: GRUESA, fontWeight: 500, fontSize: 56, lineHeight: 1.25,
+          color: "#fff", opacity: dicha ? 1 : 0.45, textShadow: sombra, transform: `scale(${dicha ? s : 1})` }}>
+          {p.texto.replace(/[.,;:]$/, "")}
+        </span>
+      );
+    }
+    const tipo = tipoClave(p, destacar);
+    // La palabra que manda: rebota al entrar (sobrepasa y vuelve) y, si es clave, la franja roja se pinta detrás
+    const s = interpolate(dt, [-0.03, 0.1, 0.18], [0.7, 1.08, 1], clamp);
+    const franja = interpolate(dt, [-0.02, 0.12], [0, 100], { ...clamp, easing: Easing.out(Easing.cubic) });
+    const rojo = tipo === "clave";
+    return (
+      <span key={i} style={{ display: "block", margin: "0 auto", width: "fit-content", fontFamily: GRUESA, fontWeight: 700, fontSize: 112, lineHeight: 1.02,
+        color: tipo === "cifra" ? AMARILLO : "#fff", opacity: dicha ? 1 : 0.5, textShadow: rojo ? "0 4px 0 rgba(0,0,0,0.35)" : sombra,
+        padding: rojo ? "4px 22px 8px" : 0, transform: `rotate(${rojo ? -2 : 0}deg) scale(${dicha ? s : 0.92})`,
+        backgroundImage: rojo ? `linear-gradient(${ROJO}, ${ROJO})` : undefined, backgroundRepeat: "no-repeat", backgroundSize: `${franja}% 100%` }}>
+        {p.texto.replace(/[.,;:]$/, "")}
+      </span>
+    );
+  };
+  const pop = interpolate(t - g[0].inicio, [-0.05, 0.08], [0.94, 1], clamp);
   return (
     <div style={{ position: "absolute", left: 60, right: 60, top: 1170, textAlign: "center", transform: `scale(${pop})` }}>
       {g.map(palabra)}
@@ -643,9 +682,12 @@ export const DocumentalVideo: React.FC<VideoProps> = ({ guion, timing, audio, mu
     () => new Set(guion.escenas.flatMap((e) => e.destacar.flatMap((d) => d.split(/\s+/).map(norm))).filter((w) => /[\p{L}\d]/u.test(w) && !VACIAS.has(w))),
     [guion],
   );
+  const n = guion.escenas.length;
+  // La imagen de cada escena entra ADELANTO cuadros antes que su frase (y la anterior termina igual de antes)
   const rango = (i: number) => {
-    const from = Math.round(timing.escenas[i].inicio * fps);
-    return { from, dur: Math.max(1, Math.round(timing.escenas[i].fin * fps) - from) };
+    const from = Math.max(0, Math.round(timing.escenas[i].inicio * fps) - (i > 0 ? ADELANTO : 0));
+    const fin = Math.round(timing.escenas[i].fin * fps) - (i < n - 1 ? ADELANTO : 0);
+    return { from, dur: Math.max(1, fin - from) };
   };
   const logo = guion.logo?.archivo ?? guion.logo?.url;
   // Línea de tiempo: cada escena con `fecha` mueve el punto a su lugar, de izquierda a derecha
@@ -658,22 +700,26 @@ export const DocumentalVideo: React.FC<VideoProps> = ({ guion, timing, audio, mu
   };
   const tituloHasta = guion.escenas[0].titulo ? Math.min(TITULO_CUADROS, rango(0).dur) - 4 : 0;
   const cola = perfil && usuario ? Math.round(2.8 * fps) : 0;
+  const volumen = React.useMemo(() => volumenMusica(timing.palabras, fps, durationInFrames), [timing.palabras, fps, durationInFrames]);
+  // Subida de tensión que termina justo en la revelación (primer bloque "aprendizaje")
+  const revela = guion.escenas.findIndex((e) => e.bloque === "aprendizaje");
+  const subida = revela > 1 ? rango(revela).from - Math.round(2 * fps) : -1;
   return (
     <AbsoluteFill style={{ background: "#0a111c" }}>
+      <FiltrosMovimiento />
       {audio && <Audio src={src(audio)} />}
-      {musica && (
-        <Audio src={src(musica)} loop
-          volume={(f) => 0.18 * interpolate(f, [0, 12, durationInFrames - 30, durationInFrames], [0, 1, 1, 0], clamp)} />
-      )}
+      {musica && <Audio src={src(musica)} loop volume={volumen} />}
+      {subida > 0 && <Sfx n="subida" v={0.32} on={efectos} desde={subida} />}
       {guion.escenas.map((e, i) => {
         const { from, dur } = rango(i);
         return (
           // la última escena se estira bajo la tarjeta final
-          <Sequence key={i} from={from} durationInFrames={dur + (i < guion.escenas.length - 1 ? T : cola)}>
-            <EscenaDoc e={e} dur={i < guion.escenas.length - 1 ? dur : dur + cola} idx={i} efectos={efectos} logo={logo} linea={linea(i)} />
+          <Sequence key={i} from={from} durationInFrames={dur + (i < n - 1 ? T : cola)}>
+            <EscenaDoc e={e} dur={i < n - 1 ? dur : dur + cola} idx={i} efectos={efectos} logo={logo} linea={linea(i)} ultima={i === n - 1} />
           </Sequence>
         );
       })}
+      <Grade />
       <Textura />
       <Subs palabras={timing.palabras} destacar={destacar} desde={tituloHasta} />
       {cola > 0 && (

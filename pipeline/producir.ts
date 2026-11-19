@@ -20,7 +20,8 @@
 import { access, mkdir, readFile, writeFile, stat } from "node:fs/promises";
 import path from "node:path";
 import { randomUUID } from "node:crypto";
-import { execFileSync } from "node:child_process";
+import { execFileSync, spawnSync } from "node:child_process";
+import { rename } from "node:fs/promises";
 import { bundle } from "@remotion/bundler";
 import { renderMedia, renderStill, selectComposition } from "@remotion/renderer";
 import { guionSchema, type Guion, type Timing, type VideoProps } from "../src/schema";
@@ -178,6 +179,24 @@ async function render(props: VideoProps, salida: string, id: "Video" | "Motion" 
   process.stdout.write("\n");
 }
 
+/**
+ * Volumen estándar de redes (-14 LUFS, picos a -1,5 dB) en dos pasadas de ffmpeg: la primera mide y la segunda
+ * corrige en lineal, sin comprimir la voz. El video no se recodifica. Si algo falla, queda el archivo original.
+ */
+function normalizarVolumen(video: string) {
+  try {
+    const medir = spawnSync("ffmpeg", ["-hide_banner", "-nostats", "-i", video, "-af", "loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"], { encoding: "utf8" });
+    const j = medir.stderr.slice(medir.stderr.lastIndexOf("{"), medir.stderr.lastIndexOf("}") + 1);
+    const m = JSON.parse(j) as Record<string, string>;
+    const tmp = video.replace(/\.mp4$/, ".norm.mp4");
+    const filtro = `loudnorm=I=-14:TP=-1.5:LRA=11:measured_I=${m.input_i}:measured_TP=${m.input_tp}:measured_LRA=${m.input_lra}:measured_thresh=${m.input_thresh}:offset=${m.target_offset}:linear=true`;
+    execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", video, "-c:v", "copy", "-af", filtro, "-ar", "48000", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", tmp]);
+    return rename(tmp, video).then(() => console.log(`  volumen: ${Number(m.input_i).toFixed(1)} → -14 LUFS`));
+  } catch (e) {
+    console.warn(`  ⚠ no se pudo normalizar el volumen: ${(e as Error).message.slice(0, 160)}`);
+  }
+}
+
 /** Portada JPG (cuadrícula del perfil): mismo guion, composición Portada, un cuadro. */
 async function portada(guion: Guion, salida: string) {
   const serveUrl = await bundle({ entryPoint: path.join(RAIZ, "src/Root.tsx"), publicDir: PUBLIC });
@@ -299,6 +318,7 @@ async function main() {
   if (total > 90) console.log(`  ⚠ dura ${total.toFixed(1)} s con la tarjeta final: pasa de 1:30`);
   const comp = ({ mixto: "Mixto", documental: "Documental", clasico: "Video", motion: "Motion", tablero: "Tablero" } as const)[estilo];
   await render({ guion, timing, audio, musica, efectos, perfil, usuario }, video, comp);
+  await normalizarVolumen(video);
 
   const modo = (flag("publicar") ?? "no") as "borrador" | "programar" | "no";
   if (modo !== "no") {
