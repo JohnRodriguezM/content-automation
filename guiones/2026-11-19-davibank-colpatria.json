@@ -176,7 +176,7 @@
     },
     {
       "bloque": "aprendizaje",
-      "narracion": "[serious] Tu tarjeta y tu clave siguen sirviendo. Las nuevas llegan con el logo de Davibank cuando venzan las viejas.",
+      "narracion": "[serious] Tu tarjeta y tu clave siguen sirviendo. Y ojo: en octubre de 2026, la Superfinanciera aprobó pasar el negocio de Davibank a Banco Davivienda.",
       "imagenes": [
         {
           "busqueda": "credit cards wallet",
@@ -186,7 +186,8 @@
         }
       ],
       "destacar": [
-        "siguen sirviendo"
+        "siguen sirviendo",
+        "Davivienda"
       ],
       "motion": [
         {
@@ -211,7 +212,7 @@
       "destacar": []
     }
   ],
-  "caption": "En enero de 2025, Davivienda y Scotiabank anunciaron que integrarían sus operaciones en Colombia, Costa Rica y Panamá: Scotiabank quedaría con algo más del 20 % del banco combinado, según El Colombiano. El banco canadiense decidió concentrarse en Norteamérica.\n\nEl 1 de diciembre de 2025 nació Davibank, la marca que reemplaza a Scotiabank Colpatria (Forbes). En abril de 2026, Scotiabank se despidió de Colombia tras casi 70 años (Infobae). La red de cajeros pasa de unos 700 a 2.800 puntos. Las tarjetas y claves siguen funcionando; las nuevas llegan con la marca Davibank a medida que vencen las anteriores.\n\nFuentes: El Colombiano (11 ene. 2025), Forbes Colombia (1 dic. 2025), Infobae (15 abr. 2026).\n\nMándaselo a quien le llegó una tarjeta Davibank y no sabe qué es.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "caption": "En enero de 2025, Davivienda y Scotiabank anunciaron que integrarían sus operaciones en Colombia, Costa Rica y Panamá: Scotiabank quedaría con algo más del 20 % del banco combinado, según El Colombiano. El banco canadiense decidió concentrarse en Norteamérica.\n\nEl 1 de diciembre de 2025 nació Davibank, la marca que reemplaza a Scotiabank Colpatria (Forbes). En abril de 2026, Scotiabank se despidió de Colombia tras casi 70 años (Infobae). La red de cajeros pasa de unos 700 a 2.800 puntos. Las tarjetas y claves siguen funcionando. El 2 de octubre de 2026, la Superfinanciera aprobó trasladar activos, pasivos y contratos de Banco Davibank a Banco Davivienda; las fechas de cierre aún no están definidas (Portafolio).\n\nFuentes: El Colombiano (11 ene. 2025), Forbes Colombia (1 dic. 2025), Infobae (15 abr. 2026), Portafolio (7 oct. 2026).\n\nMándaselo a quien le llegó una tarjeta Davibank y no sabe qué es.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
   "hashtags": [
     "#Davibank",
     "#Davivienda",
@@ -226,12 +227,16 @@
       "url": "https://www.elcolombiano.com/negocios/empresas/davivienda-y-scotiabank-se-integran-en-2025-ME26332907"
     },
     {
-      "afirmacion": "Davibank anunciado el 1 de diciembre de 2025; tarjetas y claves siguen funcionando; nuevas tarjetas con marca Davibank al vencer",
+      "afirmacion": "Davibank anunciado el 1 de diciembre de 2025; tarjetas y claves siguen funcionando",
       "url": "https://forbes.co/economia-y-finanzas/davibank-la-nueva-entidad-que-resulta-tras-la-integracion-de-scotiabank-colpatria-y-banco-davivienda"
     },
     {
       "afirmacion": "Salida de Scotiabank tras casi 70 años; matriz canadiense se reorienta a Norteamérica; cajeros de unos 700 a 2.800; cita de Jorge Rojas Dumit",
       "url": "https://www.infobae.com/colombia/2026/04/15/importante-banco-colombiano-se-despide-del-pais-tras-casi-70-anos-asi-anuncio-su-salida-en-redes-sociales/"
+    },
+    {
+      "afirmacion": "El 2 de octubre de 2026 la Superfinanciera autorizó la cesión parcial de activos, pasivos y contratos de Banco DAVIbank a Banco Davivienda; fechas por definir",
+      "url": "https://www.portafolio.co/negocios/empresas/superfinanciera-autoriza-integracion-de-davibank-con-davivienda-y-avanza-reorganizacion-del-grupo-504027"
     }
   ]
 }
