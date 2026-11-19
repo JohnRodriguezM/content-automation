@@ -33,7 +33,9 @@ async function buscarCommons(q: string, usadas: Set<string>, esLogo = false): Pr
   Object.entries({
     action: "query", format: "json", generator: "search", gsrnamespace: "6",
     gsrsearch: esLogo ? q : `${q} filetype:bitmap`, gsrlimit: "15",
-    prop: "imageinfo", iiprop: "url|extmetadata|mime|size", iiurlwidth: esLogo ? "800" : "1600",
+    prop: "imageinfo", iiprop: "url|extmetadata|mime|size", // Anchos estándar de Wikimedia (960, 1280…): ya están en caché. Un ancho no estándar como 1600 obliga a generar la
+    // miniatura en el momento, y a los bots les responden 429 con mucha más frecuencia.
+    iiurlwidth: esLogo ? "960" : "1280",
   }).forEach(([k, v]) => u.searchParams.set(k, v));
   const r = await pedir(u);
   if (!r.ok) throw new Error(`Commons ${r.status}`);
