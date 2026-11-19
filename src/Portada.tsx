@@ -1,5 +1,4 @@
 import "@fontsource/oswald/700.css";
-import "@fontsource/ibm-plex-mono/500.css";
 import React from "react";
 import { AbsoluteFill, Img, staticFile } from "remotion";
 import type { VideoProps } from "./schema";
@@ -12,14 +11,7 @@ import type { VideoProps } from "./schema";
 const ROJO = "#E5372B";
 const AMARILLO = "#FFD43B";
 const GRUESA = "Oswald, sans-serif";
-const MONO = "'IBM Plex Mono', monospace";
 const src = (s: string) => (s.startsWith("http") ? s : staticFile(s));
-
-const PILARES = {
-  negocios: "Negocios por dentro",
-  biografias: "Personas detrás de las marcas",
-  tecnologia: "Tecnología que cambia negocios",
-} as const;
 
 export const Portada: React.FC<VideoProps> = ({ guion }) => {
   const p = guion.portada ?? {};
@@ -38,17 +30,21 @@ export const Portada: React.FC<VideoProps> = ({ guion }) => {
       )}
       {/* Oscurece arriba (etiqueta) y sobre todo abajo (titular) para que el texto se lea en cualquier foto */}
       <AbsoluteFill style={{ background: "linear-gradient(to bottom, rgba(5,8,14,0.65) 0%, rgba(5,8,14,0) 28%, rgba(5,8,14,0) 42%, rgba(5,8,14,0.88) 70%, rgba(5,8,14,0.95) 100%)" }} />
+      {/* Arriba a la derecha: la etiqueta "Pinned" de TikTok tapa la esquina izquierda de la cuadrícula */}
       <div style={{ position: "absolute", top: 300, left: 70, right: 70, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-        <div style={{ background: ROJO, color: "#fff", fontFamily: MONO, fontWeight: 500, fontSize: 30, letterSpacing: 2, textTransform: "uppercase", padding: "10px 18px" }}>
-          {PILARES[guion.pilar]}
-        </div>
-        {logo && (
+        {logo ? (
           <div style={{ background: "#fff", borderRadius: 18, padding: "12px 20px" }}>
             <Img src={src(logo)} style={{ maxHeight: 80, maxWidth: 260, objectFit: "contain", display: "block" }} />
           </div>
+        ) : <div />}
+        {p.serie && (
+          <div style={{ background: AMARILLO, color: "#0a111c", fontFamily: GRUESA, fontWeight: 700, fontSize: 52, letterSpacing: 1, textTransform: "uppercase", padding: "6px 22px" }}>
+            {p.serie}
+          </div>
         )}
       </div>
-      <div style={{ position: "absolute", left: 70, right: 70, bottom: 300 }}>
+      {/* El bloque de texto termina en y≈1490: debajo (y 1510-1680) TikTok e Instagram pintan las vistas */}
+      <div style={{ position: "absolute", left: 70, right: 70, bottom: 430 }}>
         <div style={{ fontFamily: GRUESA, fontWeight: 700, fontSize: tam, lineHeight: 1.02, color: "#fff", textTransform: "uppercase", letterSpacing: -1, textShadow: "0 6px 30px rgba(0,0,0,0.6)" }}>
           {texto.split(/(\[\[[^\]]+\]\])/).map((t, k) =>
             t.startsWith("[[") ? <span key={k} style={{ color: AMARILLO }}>{t.slice(2, -2)}</span> : <span key={k}>{t}</span>)}

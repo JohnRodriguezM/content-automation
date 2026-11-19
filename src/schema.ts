@@ -99,6 +99,8 @@ export const guionSchema = z.object({
   portada: z.object({
     texto: z.string().max(60).optional(),
     dato: z.string().max(30).optional(),
+    // Etiqueta de serie arriba a la derecha (ej. "¿De quién es?"); se repite en todos los videos de la serie
+    serie: z.string().max(22).optional(),
     foto: z.string().regex(/^\d+\.\d+$/).optional(),
   }).optional(),
   tema: z.string(),
