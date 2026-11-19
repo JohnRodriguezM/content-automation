@@ -92,6 +92,8 @@ export const LUGARES: Record<string, [number, number, string]> = {
   donmatias: [6.4856, -75.3953, "170"],
   guatape: [6.2333, -75.1586, "170"],
   armenia: [4.5339, -75.6811, "170"],
+  sansalvador: [13.6929, -89.2182, "222"],
+  lovaina: [50.8798, 4.7005, "056"],
   lisboa: [38.7223, -9.1393, "620"],
   varsovia: [52.2297, 21.0122, "616"],
 };

@@ -1,0 +1,302 @@
+{
+  "id": "2026-11-25-de-quien-es-colombia",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿De quién es [[Colombia]]?",
+    "dato": "Revisé 93 marcas",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "De 93 marcas que usa la gente en Colombia, 25 tienen su dueño principal fuera del país: Águila (AB InBev), Éxito (Calleja), Ara (Jerónimo Martins), Jumbo (Cencosud), Claro (América Móvil); D1, Nutresa y los grandes bancos siguen en manos colombianas",
+  "pregunta_principal": "¿Cuántas de estas usaste hoy?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Compras una cerveza, haces mercado y llamas. ¿Sabes a quién le pagaste?",
+      "imagenes": [
+        {
+          "busqueda": "Cerveza el aguila 2019",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Éxito Tunal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "a quién le pagaste"
+      ],
+      "titulo": "¿A quién le [[pagaste]]?",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Tu Águila es de Bavaria. Y Bavaria, de la belga AB InBev.",
+      "imagenes": [
+        {
+          "busqueda": "CONJUNTO BAVARIA",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "AB InBev",
+        "belga"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "lovaina",
+              "etiqueta": "Bélgica · AB InBev"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El Éxito es de los Calleja, salvadoreños. Ara, de una portuguesa. Jumbo, de una chilena.",
+      "imagenes": [
+        {
+          "busqueda": "Éxito Tunal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Tiendas Ara Cúcuta my 2021",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "salvadoreños",
+        "portuguesa",
+        "chilena"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": false,
+          "puntos": [
+            {
+              "lugar": "sansalvador",
+              "etiqueta": "El Salvador · Éxito"
+            },
+            {
+              "lugar": "lisboa",
+              "etiqueta": "Portugal · Ara"
+            },
+            {
+              "lugar": "santiago",
+              "etiqueta": "Chile · Jumbo"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y si llamaste por Claro, le pagaste a la empresa de Carlos Slim.",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Claro Restrepo Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Carlos Slim"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Claro: [[Carlos Slim]]",
+          "icono": "celular"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Pero no todo se fue. D1 es de los Santo Domingo. Jet y Zenú, de Nutresa, que hoy controla Gilinski.",
+      "imagenes": [
+        {
+          "busqueda": "Tiendas D1",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Grupo Nutresa",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no todo se fue",
+        "Santo Domingo",
+        "Gilinski"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Pero [[no todo se fue]]"
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y los bancos grandes siguen en manos colombianas: Aval, Davivienda y Bancolombia.",
+      "imagenes": [
+        {
+          "busqueda": "Banco de Bogotá Btá N",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Torre Central Davivienda, Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "manos colombianas"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Aval · Sarmiento Angulo"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Davivienda · familia Cortés"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Bancolombia · Grupo Cibest"
+            }
+          ]
+        }
+      ],
+      "orden": "fpf"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Revisé 93 marcas que usas. 25 tienen su dueño principal afuera.",
+      "imagenes": [
+        {
+          "busqueda": "supermarket shopping cart aisle",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "93 marcas",
+        "25"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "25 de 93",
+          "etiqueta": "marcas con dueño fuera de Colombia",
+          "progreso": 0.27
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Cuántas de estas usaste hoy?",
+      "imagenes": [
+        {
+          "busqueda": "Cerveza el aguila 2019",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Revisé 93 marcas que la gente usa en Colombia y busqué quién controla cada una: 25 tienen su dueño principal fuera del país.\n\nAlgunas: Águila es de Bavaria, que desde 2016 es parte de AB InBev (Bélgica). La familia Calleja, de El Salvador, tiene el 86,84 % del Grupo Éxito. Ara es de la portuguesa Jerónimo Martins. Jumbo es del grupo chileno Cencosud. Claro es de América Móvil, la empresa de Carlos Slim.\n\nLo que sigue en manos colombianas: Valorem, de los Santo Domingo, tiene el 60,25 % de D1. Jet y Zenú son de Grupo Nutresa, controlado por el Grupo Gilinski. Y los bancos grandes: Grupo Aval (Sarmiento Angulo), Davivienda (Grupo Bolívar, familia Cortés; Scotiabank tiene algo más del 20 % del grupo) y Bancolombia (Grupo Cibest).\n\nFuentes: Wikipedia (Bavaria), Valora Analitik, Portafolio, Pulzo (2024), La República, El Colombiano (ene. 2025).\n\n¿Cuántas de estas usaste hoy?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#MarcasColombianas",
+    "#Colombia",
+    "#Negocios",
+    "#Exito",
+    "#D1"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Bavaria es parte de AB InBev desde el 10 de octubre de 2016; marcas Águila, Póker, Club Colombia, Pony Malta",
+      "url": "https://en.wikipedia.org/wiki/Bavaria_Brewery_(Colombia)"
+    },
+    {
+      "afirmacion": "Calleja queda con el 86,84 % de Grupo Éxito",
+      "url": "https://www.valoraanalitik.com/?p=352155"
+    },
+    {
+      "afirmacion": "Jerónimo Martins, con sede en Lisboa, es la dueña de Tiendas Ara",
+      "url": "https://www.portafolio.co/negocios/empresas/quien-es-jeronimo-martins-la-empresa-duena-de-tiendas-ara-que-donara-12-millones-de-euros-a-colombia-500848"
+    },
+    {
+      "afirmacion": "Cencosud, conglomerado chileno, es dueño de Jumbo y Metro",
+      "url": "https://www.portafolio.co/negocios/empresas/cencosud-duena-de-jumbo-y-metro-entra-a-competir-con-d1-y-ara-con-su-nueva-apuesta-de-tiendas-de-bajo-precio-500636"
+    },
+    {
+      "afirmacion": "El principal dueño de Claro es América Móvil, de Carlos Slim",
+      "url": "https://www.pulzo.com/economia/quien-es-dueno-claro-carlos-slim-cuanto-tiene-frente-rico-colombia-PP3908902"
+    },
+    {
+      "afirmacion": "Valorem tiene el 60,25 % de D1",
+      "url": "https://www.portafolio.co/negocios/empresas/quien-es-el-dueno-de-tiendas-d1-y-como-obtuvo-la-empresa-en-colombia-633834"
+    },
+    {
+      "afirmacion": "Gilinski se quedó con más de 60 marcas de Grupo Nutresa, entre ellas Zenú y Jet",
+      "url": "https://www.larepublica.co/empresas/gilinski-se-quedo-con-mas-de-60-marcas-de-grupo-nutresa-3800007"
+    },
+    {
+      "afirmacion": "Bancos de Grupo Aval: Bogotá, Occidente, Popular y AV Villas, de Luis Carlos Sarmiento Angulo",
+      "url": "https://www.portafolio.co/economia/finanzas/fundados-comprados-llevo-14-bancos-luis-carlos-sarmiento-327780"
+    },
+    {
+      "afirmacion": "Grupo Bolívar, de la familia Cortés, es dueño de Davivienda",
+      "url": "https://www.portafolio.co/economia/gobierno/quienes-son-los-cortes-duenos-de-grupo-bolivar-y-davivienda-que-donaron-110-000-millones-tras-el-terremoto-500860"
+    },
+    {
+      "afirmacion": "Scotiabank con algo más del 20 % del banco combinado con Davivienda",
+      "url": "https://www.elcolombiano.com/negocios/empresas/davivienda-y-scotiabank-se-integran-en-2025-ME26332907"
+    },
+    {
+      "afirmacion": "Grupo Cibest es la casa matriz de Bancolombia",
+      "url": "https://www.larepublica.co/finanzas/estructura-del-grupo-cibest-4117640"
+    },
+    {
+      "afirmacion": "Conteo propio: 25 de 93 marcas del buscador ¿De quién es Colombia? con dueño principal fuera del país",
+      "url": "https://claude.ai/artifact/1PNcANZHCmnER4KRT74JLi"
+    }
+  ]
+}
