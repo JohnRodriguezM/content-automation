@@ -22,7 +22,7 @@
           "filtro": "ninguno"
         },
         {
-          "busqueda": "living room television",
+          "busqueda": "Family watching television 1958",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -64,7 +64,7 @@
       "narracion": "Una fue para Caracol, que emite como canal privado desde 1998.",
       "imagenes": [
         {
-          "busqueda": "Caracol Televisión",
+          "busqueda": "Estudio noticias Caracol TV",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -89,7 +89,7 @@
       "narracion": "La otra, para RCN.",
       "imagenes": [
         {
-          "busqueda": "Logo del canal rcn",
+          "busqueda": "TV antenna rooftop",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -192,7 +192,7 @@
       "narracion": "¿Tú eres de Caracol o de RCN?",
       "imagenes": [
         {
-          "busqueda": "living room television",
+          "busqueda": "television remote control",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
