@@ -119,6 +119,7 @@ export async function resolverImagenes(g: Guion, rehacer = false, guardar?: () =
   const usadas = new Set(g.escenas.flatMap((e) => e.imagenes.map((i) => i.url).filter(Boolean) as string[]));
   // Búsqueda repetida en el guion (p. ej. el cierre vuelve a la foto del gancho): si no hay otra foto, se reusa la misma
   const yaResueltas = new Map<string, Imagen>();
+  const pendientes: { i: number; j: number; img: Imagen; rel: string }[] = [];
   for (const [i, e] of g.escenas.entries()) {
     for (const [j, img] of e.imagenes.entries()) {
       const rel = `img/${g.id}/${i + 1}-${j + 1}.jpg`;
@@ -139,7 +140,11 @@ export async function resolverImagenes(g: Guion, rehacer = false, guardar?: () =
         usadas.add(c.url);
       }
       const r = await descargar(img.url!);
-      if (!r.ok) { console.warn(`  ⚠ escena ${i + 1}.${j + 1}: descarga ${r.status}`); continue; }
+      if (!r.ok) {
+        console.warn(`  ⚠ escena ${i + 1}.${j + 1}: descarga ${r.status} (se reintenta al final)`);
+        pendientes.push({ i, j, img, rel });
+        continue;
+      }
       await writeFile(path.join(RAIZ, "public", rel), Buffer.from(await r.arrayBuffer()));
       img.archivo = rel;
       yaResueltas.set(img.busqueda, img);
@@ -148,6 +153,32 @@ export async function resolverImagenes(g: Guion, rehacer = false, guardar?: () =
       await esperar(900);
       } catch (err) {
         console.warn(`  ⚠ escena ${i + 1}.${j + 1} (${img.busqueda}): ${(err as Error).message}`);
+      }
+    }
+  }
+  // Segunda pasada para las fotos que no bajaron (429 de Commons): tras una pausa se reintenta la misma; si sigue
+  // fallando, se prueba el siguiente resultado de la misma búsqueda. Así la escena no se queda con una foto prestada
+  // de otra escena (y la portada, que suele ser la 1.1, no sale con una foto cualquiera).
+  if (pendientes.length) {
+    await esperar(30_000);
+    for (const { i, j, img, rel } of pendientes) {
+      try {
+        let r = await descargar(img.url!);
+        for (let k = 0; !r.ok && img.fuente !== "pexels" && k < 2; k++) {
+          const c = await buscarCommons(img.busqueda, usadas);
+          if (!c) break;
+          Object.assign(img, c);
+          usadas.add(c.url);
+          r = await descargar(c.url);
+        }
+        if (!r.ok) { console.warn(`  ⚠ escena ${i + 1}.${j + 1}: descarga ${r.status} también en el reintento`); continue; }
+        await writeFile(path.join(RAIZ, "public", rel), Buffer.from(await r.arrayBuffer()));
+        img.archivo = rel;
+        console.log(`  ${i + 1}.${j + 1} ${img.busqueda} → ${img.pagina} (reintento)`);
+        await guardar?.();
+        await esperar(900);
+      } catch (err) {
+        console.warn(`  ⚠ escena ${i + 1}.${j + 1} (${img.busqueda}) en el reintento: ${(err as Error).message}`);
       }
     }
   }
