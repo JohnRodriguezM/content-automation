@@ -115,7 +115,7 @@
     },
     {
       "bloque": "consecuencia",
-      "narracion": "[pause] Lo curioso: la mitad de esos Bon Bon Bum se van del país, a unos 90 países.",
+      "narracion": "[pause] Lo curioso: la mitad de esos Bon Bon Bum se van del país. Colombina llega a unos 90 países.",
       "imagenes": [
         {
           "busqueda": "candy store shelves",
@@ -132,7 +132,7 @@
         {
           "tipo": "dato",
           "valor": "50%",
-          "etiqueta": "se exporta",
+          "etiqueta": "de los Bon Bon Bum se exporta",
           "progreso": 0.5
         }
       ],
@@ -204,7 +204,7 @@
       "destacar": []
     }
   ],
-  "caption": "Bon Bon Bum, Nucita, Chocobreak, Café Buendía y la salsa La Constancia son de Colombina, fundada en 1927 por Hernando Caicedo. Su planta de La Paila (Zarzal, Valle del Cauca) es la mayor planta de dulces de Colombia, según Forbes.\n\nEl Bon Bon Bum salió en 1970; Colombina produce unos 170 millones al mes y exporta más de la mitad, a unos 90 países (Valora Analitik). También compró la confitera española Fiesta por 16,8 millones de euros. Hoy la preside César Caicedo, nieto del fundador.\n\nFuentes: Forbes Colombia (nov. 2022), Valora Analitik.\n\n¿Qué es más tuyo: Bon Bon Bum o Nucita?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "caption": "Bon Bon Bum, Nucita, Chocobreak, Café Buendía y la salsa La Constancia son de Colombina, fundada en 1927 por Hernando Caicedo. Su planta de La Paila (Zarzal, Valle del Cauca) es la mayor planta de dulces de Colombia, según Forbes.\n\nEl Bon Bon Bum salió en 1970; Colombina produce unos 170 millones al mes y exporta la mitad (Valora Analitik). Sus productos llegan a unos 90 países (Forbes). También compró la confitera española Fiesta por 16,8 millones de euros. Hoy la preside César Caicedo, nieto del fundador.\n\nFuentes: Forbes Colombia (nov. 2022), Valora Analitik.\n\n¿Qué es más tuyo: Bon Bon Bum o Nucita?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
   "hashtags": [
     "#DeQuienEs",
     "#Colombina",

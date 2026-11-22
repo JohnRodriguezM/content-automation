@@ -114,7 +114,7 @@
       "narracion": "[pause] En 2017, la Alcaldía intentó venderla, con un precio mínimo de 671 pesos por acción.",
       "imagenes": [
         {
-          "busqueda": "Bolsa de Valores de Colombia",
+          "busqueda": "Plaza de Bolívar Bogotá",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -135,10 +135,10 @@
     },
     {
       "bloque": "consecuencia",
-      "narracion": "No se vendió. Y en sus 20 años en bolsa, la acción perdió cerca del 88 por ciento.",
+      "narracion": "No se vendió. Y en sus primeros 20 años en bolsa, la acción perdió cerca del 88 por ciento.",
       "imagenes": [
         {
-          "busqueda": "stock exchange board",
+          "busqueda": "Bolsa de Valores de Colombia",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"

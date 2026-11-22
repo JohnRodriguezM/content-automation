@@ -16,13 +16,13 @@
       "narracion": "[curious] Farmatodo tiene más de cien años. Y no nació en Colombia.",
       "imagenes": [
         {
-          "busqueda": "pharmacy store shelves",
+          "busqueda": "Farmatodo 1",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
         },
         {
-          "busqueda": "drugstore interior",
+          "busqueda": "Farmatodo Bogotá",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -69,7 +69,7 @@
       "narracion": "Teodoro Zubillaga, de la cuarta generación de la familia, la preside desde 2019.",
       "imagenes": [
         {
-          "busqueda": "pharmacy counter",
+          "busqueda": "Farmatodo La Trinidad 2013 000",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -126,7 +126,7 @@
       "narracion": "[pause] Mientras Venezuela vivía su crisis, aquí crecía: de 32 tiendas en 2015 a 66 en 2020.",
       "imagenes": [
         {
-          "busqueda": "drugstore interior",
+          "busqueda": "Farmatodo",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -183,7 +183,7 @@
       "narracion": "[thoughtful] Una droguería venezolana que hoy está en 11 ciudades de Colombia.",
       "imagenes": [
         {
-          "busqueda": "pharmacy store shelves",
+          "busqueda": "Farmatodo",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -205,7 +205,7 @@
       "narracion": "¿Tú compras en Farmatodo o en Cruz Verde?",
       "imagenes": [
         {
-          "busqueda": "drugstore interior",
+          "busqueda": "Droguería cruz verde Usaquén Btá",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"

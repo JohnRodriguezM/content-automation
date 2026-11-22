@@ -13,7 +13,7 @@
   "escenas": [
     {
       "bloque": "gancho",
-      "narracion": "[curious] Davivienda no empezó como banco. Empezó con tres empleados.",
+      "narracion": "[curious] Davivienda no empezó como banco. Su grupo arrancó con tres empleados.",
       "imagenes": [
         {
           "busqueda": "Torre Central Davivienda, Bogotá",
@@ -31,7 +31,7 @@
       "destacar": [
         "tres empleados"
       ],
-      "titulo": "Empezó con [[tres empleados]]",
+      "titulo": "Su grupo arrancó con [[tres empleados]]",
       "orden": "ff"
     },
     {
@@ -39,7 +39,7 @@
       "narracion": "En 1939, José María y Enrique Cortés fundaron Seguros Bolívar.",
       "imagenes": [
         {
-          "busqueda": "Bogotá La Candelaria",
+          "busqueda": "Edificio Seguros Bolívar Bogotá",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -69,7 +69,7 @@
       "narracion": "Abrió en 1940 con tres empleados, vendiendo seguros.",
       "imagenes": [
         {
-          "busqueda": "vintage typewriter office",
+          "busqueda": "Bogotá La Candelaria",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -119,7 +119,7 @@
       "narracion": "[pause] En 2006 compró Bancafé por 2,21 billones de pesos, y saltó a Centroamérica.",
       "imagenes": [
         {
-          "busqueda": "Torre Davivienda Bogotá",
+          "busqueda": "Edificios Seguros Bolivar y Davivienda",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
