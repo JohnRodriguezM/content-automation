@@ -5,7 +5,7 @@
   "portada": {
     "texto": "Dollarcity es [[canadiense]]",
     "dato": "Colombia, su país #1",
-    "foto": "1.1",
+    "foto": "7.1",
     "serie": "¿De quién es?"
   },
   "tema": "Dollarcity abrió en El Salvador en 2009; la canadiense Dollarama compró el 50,1 % en 2019 y subió al 60,1 % en 2024; Colombia tenía 368 de sus 632 tiendas a fines de 2024",
@@ -16,13 +16,13 @@
       "narracion": "[curious] Colombia tiene más Dollarcity que cualquier otro país. Pero Dollarcity no es colombiana.",
       "imagenes": [
         {
-          "busqueda": "dollar store interior",
+          "busqueda": "price tags",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
         },
         {
-          "busqueda": "Dollarcity",
+          "busqueda": "shopping cart",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -69,7 +69,7 @@
       "narracion": "La ideó Marco Andrés Baldocchi Kriete.",
       "imagenes": [
         {
-          "busqueda": "dollar store interior",
+          "busqueda": "Centro Histórico de San Salvador",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -85,7 +85,7 @@
       "narracion": "En 2019 una empresa extranjera compró el 50,1 por ciento, por unos 95 millones de dólares.",
       "imagenes": [
         {
-          "busqueda": "discount store shelves",
+          "busqueda": "price tags",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -111,7 +111,7 @@
       "narracion": "[pause] Y en 2024 subió al 60,1 por ciento.",
       "imagenes": [
         {
-          "busqueda": "dollar store interior",
+          "busqueda": "shopping basket",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -136,7 +136,7 @@
       "narracion": "A finales de 2024, Colombia tenía 368 de sus 632 tiendas. Más de la mitad.",
       "imagenes": [
         {
-          "busqueda": "discount store shelves",
+          "busqueda": "Bogotá skyline",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -149,17 +149,11 @@
       "segun": "según Valora Analitik",
       "motion": [
         {
-          "tipo": "contraste",
-          "antes": {
-            "valor": "368",
-            "texto": "tiendas en Colombia",
-            "icono": "edificio"
-          },
-          "despues": {
-            "valor": "632",
-            "texto": "en total",
-            "icono": "edificio"
-          }
+          "tipo": "dato",
+          "valor": "368",
+          "etiqueta": "de sus 632 tiendas están en Colombia",
+          "progreso": 0.582,
+          "icono": "edificio"
         }
       ],
       "orden": "fp"
@@ -198,7 +192,7 @@
       "narracion": "¿Qué es lo último que compraste en Dollarcity?",
       "imagenes": [
         {
-          "busqueda": "Dollarcity",
+          "busqueda": "shopping basket",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"

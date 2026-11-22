@@ -22,7 +22,7 @@
           "filtro": "ninguno"
         },
         {
-          "busqueda": "convenience store night",
+          "busqueda": "Tienda Oxxo, Loma Linda",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -83,7 +83,7 @@
       "narracion": "Hoy tiene unas 640 tiendas en 46 municipios, y quiere llegar a 2.000.",
       "imagenes": [
         {
-          "busqueda": "convenience store interior",
+          "busqueda": "Oxxo en Avenida Revolución y calle Fernando Villalpando",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -108,7 +108,7 @@
       "narracion": "[pause] Y casi todas abren 24 horas, los siete días.",
       "imagenes": [
         {
-          "busqueda": "convenience store night",
+          "busqueda": "Oxxo Nueva Rosita",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -195,7 +195,7 @@
       "narracion": "¿Tú compras en OXXO o en la tienda del barrio?",
       "imagenes": [
         {
-          "busqueda": "convenience store night",
+          "busqueda": "OXXO Providencia",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"

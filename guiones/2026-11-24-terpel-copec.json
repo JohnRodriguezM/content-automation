@@ -16,7 +16,7 @@
       "narracion": "[curious] Terpel nació en Bucaramanga. Hoy es de otro país. ¿Adivinas cuál?",
       "imagenes": [
         {
-          "busqueda": "Terpel gas station",
+          "busqueda": "Terpel",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -69,7 +69,7 @@
       "narracion": "Arrancó con 20 estaciones, y fueron naciendo otras Terpel regionales.",
       "imagenes": [
         {
-          "busqueda": "gas station Colombia",
+          "busqueda": "Terpel",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -93,7 +93,7 @@
       "narracion": "En 2001 se unieron todas en la Organización Terpel.",
       "imagenes": [
         {
-          "busqueda": "Terpel gas station",
+          "busqueda": "Terpel",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -140,7 +140,7 @@
       "narracion": "En 2012 se quedó con el 98 por ciento de su matriz, por unos 294 millones de dólares.",
       "imagenes": [
         {
-          "busqueda": "gas station Colombia",
+          "busqueda": "fuel pump nozzle",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -196,7 +196,7 @@
       "narracion": "¿Tú tanqueas en Terpel o en otra?",
       "imagenes": [
         {
-          "busqueda": "Terpel gas station",
+          "busqueda": "Terpel",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
