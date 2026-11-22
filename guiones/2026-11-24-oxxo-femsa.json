@@ -108,7 +108,7 @@
       "narracion": "[pause] Y casi todas abren 24 horas, los siete días.",
       "imagenes": [
         {
-          "busqueda": "Oxxo Nueva Rosita",
+          "busqueda": "Oxxo",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -195,7 +195,7 @@
       "narracion": "¿Tú compras en OXXO o en la tienda del barrio?",
       "imagenes": [
         {
-          "busqueda": "OXXO Providencia",
+          "busqueda": "Oxxo",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"

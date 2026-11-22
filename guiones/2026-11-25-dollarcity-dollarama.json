@@ -16,13 +16,13 @@
       "narracion": "[curious] Colombia tiene más Dollarcity que cualquier otro país. Pero Dollarcity no es colombiana.",
       "imagenes": [
         {
-          "busqueda": "price tags",
+          "busqueda": "Bogotá Chapinero de noche",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
         },
         {
-          "busqueda": "shopping cart",
+          "busqueda": "Plastic household items",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -85,7 +85,7 @@
       "narracion": "En 2019 una empresa extranjera compró el 50,1 por ciento, por unos 95 millones de dólares.",
       "imagenes": [
         {
-          "busqueda": "price tags",
+          "busqueda": "Nakupni kosik",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -111,7 +111,7 @@
       "narracion": "[pause] Y en 2024 subió al 60,1 por ciento.",
       "imagenes": [
         {
-          "busqueda": "shopping basket",
+          "busqueda": "Nakupni kosik",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -192,7 +192,7 @@
       "narracion": "¿Qué es lo último que compraste en Dollarcity?",
       "imagenes": [
         {
-          "busqueda": "shopping basket",
+          "busqueda": "Bogotá Chapinero de noche",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
