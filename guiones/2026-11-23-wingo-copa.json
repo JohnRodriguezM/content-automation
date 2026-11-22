@@ -1,0 +1,234 @@
+{
+  "id": "2026-11-23-wingo-copa",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿De quién es [[Wingo]]?",
+    "dato": "No es lo que crees",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Wingo, con sede en Bogotá y legalmente AeroRepública, nació en 2016 para reemplazar el negocio de Copa Airlines Colombia; su dueño es Copa Holdings, de Panamá",
+  "pregunta_principal": "¿Tú vuelas Wingo o Avianca?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Wingo tiene sede en Bogotá. Pero su dueño es de otro país. ¿Cuál?",
+      "imagenes": [
+        {
+          "busqueda": "Wingo Boeing 737-800",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "El Dorado airport Bogotá terminal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "otro país"
+      ],
+      "titulo": "Su dueño es [[de afuera]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Nació en 2016, y su primer vuelo fue de Bogotá a Cancún.",
+      "imagenes": [
+        {
+          "busqueda": "Cancún beach",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2016",
+        "Cancún"
+      ],
+      "fecha": "DIC. 2016",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "bogota",
+              "etiqueta": "Bogotá"
+            },
+            {
+              "lugar": "cancun",
+              "etiqueta": "Cancún · primer vuelo"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Legalmente se llama AeroRepública, la que fue Copa Airlines Colombia.",
+      "imagenes": [
+        {
+          "busqueda": "Copa Airlines Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "AeroRepública"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Antes: [[Copa Airlines Colombia]]",
+          "icono": "documentos"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Su dueño la creó porque Copa Airlines Colombia estaba perdiendo plata.",
+      "imagenes": [
+        {
+          "busqueda": "Wingo Boeing 737-800",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "perdiendo plata"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Perdía [[plata]]",
+          "icono": "grafica_baja"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] El giro: la marca barata la hizo una aerolínea tradicional.",
+      "imagenes": [
+        {
+          "busqueda": "Copa Airlines Boeing 737",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "aerolínea tradicional"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Aerolínea tradicional"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Marca de bajo costo"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Hoy vuela con nueve Boeing 737-800, desde bases como Bogotá, Cali y Cartagena.",
+      "imagenes": [
+        {
+          "busqueda": "Wingo Boeing 737-800",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "nueve"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "9",
+          "etiqueta": "Boeing 737-800",
+          "icono": "reloj"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Su dueño es Copa Holdings, de Panamá. La misma de Copa Airlines.",
+      "imagenes": [
+        {
+          "busqueda": "Panama City skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Copa Holdings",
+        "Panamá"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "panama",
+              "etiqueta": "Panamá · Copa Holdings"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú vuelas Wingo o Avianca?",
+      "imagenes": [
+        {
+          "busqueda": "Wingo Boeing 737-800",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Wingo se fundó el 19 de octubre de 2016 y empezó a volar el 1 de diciembre de ese año, con un vuelo Bogotá-Cancún. Su razón social es AeroRepública S.A.; Copa Holdings, de Panamá, la creó para reemplazar la mayor parte del negocio de Copa Airlines Colombia, que perdía dinero. Tiene sede en Bogotá y bases en Barranquilla, Cali, Cartagena, Panamá y San Andrés, y opera nueve Boeing 737-800 (datos de flota a agosto de 2025).\n\nFuentes: Copa Holdings (20 oct. 2016), Wikipedia (Wingo).\n\n¿Tú vuelas Wingo o Avianca?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Wingo",
+    "#CopaAirlines",
+    "#Aerolineas",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Copa Holdings lanzó Wingo el 20 de octubre de 2016 como oferta de bajo costo; operaciones desde el 1 de diciembre de 2016, bajo la unidad colombiana de Copa Airlines",
+      "url": "https://copa.gcs-web.com/node/10921"
+    },
+    {
+      "afirmacion": "Wingo fundada el 19 de octubre de 2016; primer vuelo Bogotá-Cancún el 1 de diciembre de 2016; dueño Copa Holdings; razón social AeroRepública S.A.; creada para reemplazar la mayor parte del negocio de Copa Airlines Colombia, que perdía dinero; sede en Bogotá; bases en Barranquilla, Cali, Cartagena, Panamá y San Andrés; 9 Boeing 737-800",
+      "url": "https://en.wikipedia.org/wiki/Wingo_(airline)"
+    }
+  ]
+}

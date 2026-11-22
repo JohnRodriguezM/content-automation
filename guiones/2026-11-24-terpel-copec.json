@@ -1,0 +1,227 @@
+{
+  "id": "2026-11-24-terpel-copec",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿De quién es [[Terpel]]?",
+    "dato": "Nació en Bucaramanga",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Terpel nació en Bucaramanga en 1968 con 20 estaciones; la chilena Copec tomó el control en 2010 y en 2012 quedó con el 98,24 % de su matriz por unos 294 millones de dólares",
+  "pregunta_principal": "¿Tú tanqueas en Terpel o en otra?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Terpel nació en Bucaramanga. Hoy es de otro país. ¿Adivinas cuál?",
+      "imagenes": [
+        {
+          "busqueda": "Terpel gas station",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "fuel pump nozzle",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "otro país"
+      ],
+      "titulo": "Nació en [[Bucaramanga]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Se fundó el 13 de marzo de 1968, para aliviar la escasez de gasolina en Santander.",
+      "imagenes": [
+        {
+          "busqueda": "Bucaramanga",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1968",
+        "Santander"
+      ],
+      "fecha": "13 MAR. 1968",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "bucaramanga",
+              "etiqueta": "Bucaramanga · 1968"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Arrancó con 20 estaciones, y fueron naciendo otras Terpel regionales.",
+      "imagenes": [
+        {
+          "busqueda": "gas station Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "20 estaciones"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "20",
+          "etiqueta": "estaciones al empezar",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2001 se unieron todas en la Organización Terpel.",
+      "imagenes": [
+        {
+          "busqueda": "Terpel gas station",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2001"
+      ],
+      "fecha": "2001",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Una sola [[Terpel]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] En 2010, un grupo extranjero compró más de la mitad.",
+      "imagenes": [
+        {
+          "busqueda": "fuel pump nozzle",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "más de la mitad"
+      ],
+      "fecha": "2010",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "2010: [[pasa a manos extranjeras]]",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 2012 se quedó con el 98 por ciento de su matriz, por unos 294 millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "gas station Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "98",
+        "294 millones"
+      ],
+      "segun": "según Semana",
+      "fecha": "2012",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "98%",
+          "etiqueta": "de la matriz de Terpel",
+          "progreso": 0.98
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Es Copec, un grupo chileno. Cuando tanqueas en Terpel, el dueño es de Chile.",
+      "imagenes": [
+        {
+          "busqueda": "Santiago de Chile skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Copec",
+        "Chile"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "santiago",
+              "etiqueta": "Chile · Copec"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú tanqueas en Terpel o en otra?",
+      "imagenes": [
+        {
+          "busqueda": "Terpel gas station",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Terpel se fundó el 13 de marzo de 1968 en Bucaramanga para aliviar la escasez de gasolina en Santander; empezó con 20 estaciones y luego nacieron otras Terpel regionales, que en 2001 se fusionaron en la Organización Terpel. En 2010, la chilena Copec tomó el control al comprar más de la mitad y en 2012 llegó al 98,24 % de Proenergía Internacional, la matriz de Terpel, con una OPA de unos 294 millones de dólares.\n\nFuentes: Wikipedia (Terpel), Semana (14 mar. 2012).\n\n¿Tú tanqueas en Terpel o en otra?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Terpel",
+    "#Copec",
+    "#Gasolina",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Terpel fundada el 13 de marzo de 1968 en Bucaramanga para aliviar la escasez de gasolina en Santander; empezó con 20 estaciones; las Terpel regionales se fusionaron en la Organización Terpel en 2001",
+      "url": "https://en.wikipedia.org/wiki/Terpel"
+    },
+    {
+      "afirmacion": "Copec tomó el control de Terpel en 2010 con más del 50 %; en 2012 quedó con el 98,24 % de Proenergía Internacional, matriz de Terpel, con una OPA de unos 294 millones de dólares",
+      "url": "https://www.semana.com/negocios/articulo/chilena-copec-quedo-98-matriz-terpel/146703"
+    }
+  ]
+}

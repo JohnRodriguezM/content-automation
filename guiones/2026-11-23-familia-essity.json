@@ -1,0 +1,223 @@
+{
+  "id": "2026-11-23-familia-essity",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "Familia es [[sueca]]",
+    "dato": "95,8 % desde 2021",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Familia, Pequeñín, Nosotras y Tena son de Productos Familia, que desde 2021 controla en un 95,8 % la sueca Essity, tras valorar la empresa en 1.540 millones de dólares",
+  "pregunta_principal": "Mándaselo a quien cree que Familia sigue siendo colombiana.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] El papel Familia, Pequeñín y Nosotras tienen el mismo dueño. Y no está en Colombia.",
+      "imagenes": [
+        {
+          "busqueda": "toilet paper rolls",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "toilet paper supermarket shelf",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no está en Colombia"
+      ],
+      "titulo": "Su dueño no está [[aquí]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Son de Productos Familia, una empresa colombiana.",
+      "imagenes": [
+        {
+          "busqueda": "Medellín skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Productos Familia"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Familia"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Pequeñín"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Nosotras"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Durante años, un socio extranjero tuvo cerca de la mitad.",
+      "imagenes": [
+        {
+          "busqueda": "toilet paper rolls",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "la mitad"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "50%",
+          "etiqueta": "en manos de un socio extranjero",
+          "progreso": 0.5
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2021 ese socio fue por el resto.",
+      "imagenes": [
+        {
+          "busqueda": "diapers package",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "el resto"
+      ],
+      "fecha": "2021",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "2021: [[va por todo]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Valoró la empresa en 1.540 millones de dólares y quedó con el 95,8 por ciento.",
+      "imagenes": [
+        {
+          "busqueda": "toilet paper supermarket shelf",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1.540 millones",
+        "95,8"
+      ],
+      "fecha": "AGO. 2021",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "95,8%",
+          "etiqueta": "de Productos Familia",
+          "progreso": 0.958
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Con eso se quedó con Familia, Pequeñín, Nosotras y Tena.",
+      "imagenes": [
+        {
+          "busqueda": "diapers package",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Tena"
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] El dueño es Essity, una multinacional sueca. Y Colombia es su octavo mercado en el mundo.",
+      "imagenes": [
+        {
+          "busqueda": "Stockholm skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Essity",
+        "sueca"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "estocolmo",
+              "etiqueta": "Suecia · Essity"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mándaselo a quien cree que Familia sigue siendo colombiana.",
+      "imagenes": [
+        {
+          "busqueda": "toilet paper rolls",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Productos Familia (Familia, Pequeñín, Nosotras, Pomys, Tena, Leukoplask) es de Essity, una multinacional sueca de productos de higiene y salud. Essity ya tenía cerca de la mitad de las acciones y en 2021 compró el 45,8 % que le faltaba, con lo que quedó con el 95,8 %; la operación valoró el 100 % de la compañía en 1.540 millones de dólares libres de deuda. Colombia es el segundo mercado de Essity en Latinoamérica y el octavo en el mundo, según Portafolio.\n\nFuentes: Bloomberg Línea (31 ago. 2021), Portafolio (4 may. 2025).\n\nMándaselo a quien cree que Familia sigue siendo colombiana.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Familia",
+    "#Essity",
+    "#Pequenin",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Essity completó la compra de acciones de Productos Familia y controla el 95,8 %; la transacción cubrió el 45,8 % que no tenía; valoración de 1.540 millones de dólares por el 100 % libre de deuda",
+      "url": "https://www.bloomberglinea.com/2021/08/31/essity-completo-compra-de-acciones-de-familia-y-ahora-controla-el-958/"
+    },
+    {
+      "afirmacion": "Essity, organización sueca; marcas Familia, Pequeñín, Nosotras, Pomys, Tena, Leukoplask; Colombia es su segundo mercado en Latinoamérica y el octavo en el mundo",
+      "url": "https://www.portafolio.co/negocios/empresas/que-empresas-conforman-el-grupo-familia-ahora-essity-y-quien-es-su-dueno-629160"
+    }
+  ]
+}

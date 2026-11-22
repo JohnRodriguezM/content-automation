@@ -1,0 +1,226 @@
+{
+  "id": "2026-11-24-oxxo-femsa",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿De quién es [[OXXO]]?",
+    "dato": "Colombia fue la primera",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "OXXO, del grupo mexicano FEMSA, llegó a Colombia hacia 2009 (su primer país fuera de México); en octubre de 2026 tenía 640 tiendas en 46 municipios y es su segundo mercado por número de tiendas",
+  "pregunta_principal": "¿Tú compras en OXXO o en la tienda del barrio?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] OXXO eligió a Colombia antes que a cualquier otro país. ¿Sabes de dónde es?",
+      "imagenes": [
+        {
+          "busqueda": "OXXO store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "convenience store night",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "de dónde es"
+      ],
+      "titulo": "Colombia fue [[la primera]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Abrió su primera tienda aquí en Bogotá, hace más de 15 años.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá street",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Bogotá"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "bogota",
+              "etiqueta": "Primera tienda fuera de casa"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Fue su primer país fuera de casa.",
+      "imagenes": [
+        {
+          "busqueda": "OXXO store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "primer país"
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Hoy tiene unas 640 tiendas en 46 municipios, y quiere llegar a 2.000.",
+      "imagenes": [
+        {
+          "busqueda": "convenience store interior",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "640",
+        "2.000"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "640",
+          "etiqueta": "tiendas en Colombia (oct. 2026)",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Y casi todas abren 24 horas, los siete días.",
+      "imagenes": [
+        {
+          "busqueda": "convenience store night",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "24 horas"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "98%",
+          "etiqueta": "abre 24/7",
+          "icono": "reloj",
+          "progreso": 0.98
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Colombia ya es su segundo país con más tiendas. Solo lo supera su casa, con unas 23.000.",
+      "imagenes": [
+        {
+          "busqueda": "OXXO store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "segundo país",
+        "23.000"
+      ],
+      "segun": "según Forbes",
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "640",
+            "texto": "tiendas en Colombia",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "23.000",
+            "texto": "en su casa",
+            "icono": "edificio"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Su casa es México. OXXO es de FEMSA, un grupo mexicano.",
+      "imagenes": [
+        {
+          "busqueda": "Mexico City skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "FEMSA",
+        "México"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "cdmx",
+              "etiqueta": "México · FEMSA"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú compras en OXXO o en la tienda del barrio?",
+      "imagenes": [
+        {
+          "busqueda": "convenience store night",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "OXXO es del grupo FEMSA, de México. Llegó a Colombia hace unos 16 años (hacia 2009), con su primera tienda en Bogotá: fue su primer mercado fuera de México. Según Forbes, el 98 % de sus tiendas abre 24 horas y Colombia es su segundo mercado por número de tiendas después de México, que tiene unas 23.000. En octubre de 2026 tenía 640 tiendas en 46 municipios y apunta a cerca de 2.000, según Portafolio.\n\nFuentes: Forbes Colombia (5 nov. 2025), Portafolio (26 oct. 2026).\n\n¿Tú compras en OXXO o en la tienda del barrio?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#OXXO",
+    "#FEMSA",
+    "#Tiendas",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "OXXO tiene 640 tiendas en 46 municipios de Colombia y apunta a cerca de 2.000",
+      "url": "https://www.portafolio.co/negocios/empresas/oxxo-va-por-2-000-tiendas-en-colombia-el-plan-de-expansion-que-sumaria-1-360-nuevos-locales-505154"
+    },
+    {
+      "afirmacion": "OXXO es del grupo FEMSA; llegó a Colombia hace 16 años (2025) con su primera tienda en Bogotá, primer mercado fuera de México; 632 tiendas en 39 ciudades y municipios; 98 % abiertas 24/7; Colombia es su segundo mercado por número de tiendas después de México (unas 23.000)",
+      "url": "https://forbes.co/2025/11/05/negocios/asi-es-como-oxxo-esta-conquistando-a-colombia-tienda-por-tienda-cierran-el-2025-con-mas-de-630/"
+    }
+  ]
+}

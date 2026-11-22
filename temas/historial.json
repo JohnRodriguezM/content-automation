@@ -1036,7 +1036,8 @@
       "AV Villas"
     ],
     "categoria": "marcas-colombia",
-    "franja": "19:30"
+    "franja": "19:30",
+    "publicado": true
   },
   {
     "id": "2026-11-23-gta-hacker-hotel",
@@ -1058,7 +1059,8 @@
       "Joaquín Urrea"
     ],
     "categoria": "marcas-colombia",
-    "franja": "07:30"
+    "franja": "07:30",
+    "publicado": true
   },
   {
     "id": "2026-11-23-quala-bonice",
@@ -1072,7 +1074,8 @@
       "Vive 100"
     ],
     "categoria": "marcas-colombia",
-    "franja": "12:30"
+    "franja": "12:30",
+    "publicado": true
   },
   {
     "id": "2026-11-24-alkosto-familia-mejia",
@@ -1087,7 +1090,8 @@
       "Familia Mejía"
     ],
     "categoria": "marcas-colombia",
-    "franja": "19:30"
+    "franja": "19:30",
+    "publicado": true
   },
   {
     "id": "2026-11-24-crepes-mujeres",
@@ -1099,7 +1103,8 @@
       "Beatriz Fernández"
     ],
     "categoria": "marcas-colombia",
-    "franja": "07:30"
+    "franja": "07:30",
+    "publicado": true
   },
   {
     "id": "2026-11-24-gta-trailer-2-475-millones",
@@ -1123,7 +1128,8 @@
       "Organización Corona"
     ],
     "categoria": "marcas-colombia",
-    "franja": "12:30"
+    "franja": "12:30",
+    "publicado": true
   },
   {
     "id": "2026-11-25-gta-canciones-revividas",
@@ -1193,7 +1199,8 @@
       "Bancolombia"
     ],
     "categoria": "marcas-colombia",
-    "franja": "19:30"
+    "franja": "19:30",
+    "publicado": true
   },
   {
     "id": "2026-11-25-colombina-misma-familia",
@@ -1379,6 +1386,90 @@
     "protagonistas": [
       "Atlético Nacional",
       "Organización Ardila Lülle"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "19:30"
+  },
+  {
+    "id": "2026-11-23-wingo-copa",
+    "tema": "Wingo, con sede en Bogotá y legalmente AeroRepública, nació en 2016 para reemplazar el negocio de Copa Airlines Colombia; su dueño es Copa Holdings, de Panamá",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Wingo",
+      "Copa Holdings"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "07:30"
+  },
+  {
+    "id": "2026-11-23-farmatodo-venezolana",
+    "tema": "Farmatodo nació en 1918 en Venezuela como Farmacia Lara; la familia Zubillaga la trajo a Colombia en 2007 comprando Farmacity y hoy está en 11 ciudades sin dejar Venezuela",
+    "pilar": "biografias",
+    "narrador": "john",
+    "protagonistas": [
+      "Farmatodo",
+      "familia Zubillaga"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "12:30"
+  },
+  {
+    "id": "2026-11-23-familia-essity",
+    "tema": "Familia, Pequeñín, Nosotras y Tena son de Productos Familia, que desde 2021 controla en un 95,8 % la sueca Essity, tras valorar la empresa en 1.540 millones de dólares",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Productos Familia",
+      "Essity"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "19:30"
+  },
+  {
+    "id": "2026-11-24-etb-bogota",
+    "tema": "La ETB es en un 86 % de la Alcaldía de Bogotá (2 % de la Universidad Distrital y 12 % de unos 25.000 inversionistas); en 2017 se intentó vender y la acción cayó cerca del 88 % en 20 años de bolsa",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "ETB",
+      "Alcaldía de Bogotá"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "07:30"
+  },
+  {
+    "id": "2026-11-24-oxxo-femsa",
+    "tema": "OXXO, del grupo mexicano FEMSA, llegó a Colombia hacia 2009 (su primer país fuera de México); en octubre de 2026 tenía 640 tiendas en 46 municipios y es su segundo mercado por número de tiendas",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "OXXO",
+      "FEMSA"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "12:30"
+  },
+  {
+    "id": "2026-11-24-terpel-copec",
+    "tema": "Terpel nació en Bucaramanga en 1968 con 20 estaciones; la chilena Copec tomó el control en 2010 y en 2012 quedó con el 98,24 % de su matriz por unos 294 millones de dólares",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Terpel",
+      "Copec"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "19:30"
+  },
+  {
+    "id": "2026-11-25-dollarcity-dollarama",
+    "tema": "Dollarcity abrió en El Salvador en 2009; la canadiense Dollarama compró el 50,1 % en 2019 y subió al 60,1 % en 2024; Colombia tenía 368 de sus 632 tiendas a fines de 2024",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Dollarcity",
+      "Dollarama"
     ],
     "categoria": "marcas-colombia",
     "franja": "19:30"

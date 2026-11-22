@@ -1,0 +1,236 @@
+{
+  "id": "2026-11-23-farmatodo-venezolana",
+  "pilar": "biografias",
+  "narrador": "john",
+  "portada": {
+    "texto": "Farmatodo es [[venezolana]]",
+    "dato": "Desde 1918",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Farmatodo nació en 1918 en Venezuela como Farmacia Lara; la familia Zubillaga la trajo a Colombia en 2007 comprando Farmacity y hoy está en 11 ciudades sin dejar Venezuela",
+  "pregunta_principal": "¿Tú compras en Farmatodo o en Cruz Verde?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Farmatodo tiene más de cien años. Y no nació en Colombia.",
+      "imagenes": [
+        {
+          "busqueda": "pharmacy store shelves",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "drugstore interior",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no nació en Colombia"
+      ],
+      "titulo": "Más de [[100 años]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Nació en 1918 en Venezuela, como Farmacia Lara.",
+      "imagenes": [
+        {
+          "busqueda": "Caracas skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1918",
+        "Venezuela"
+      ],
+      "fecha": "1918",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "caracas",
+              "etiqueta": "Venezuela · 1918"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Teodoro Zubillaga, de la cuarta generación de la familia, la preside desde 2019.",
+      "imagenes": [
+        {
+          "busqueda": "pharmacy counter",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cuarta generación"
+      ],
+      "fecha": "2019",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Cuarta generación: [[los Zubillaga]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Llegó a Colombia en 2007, comprando Farmacity, una cadena argentina que ya estaba en Bogotá.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá street",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2007",
+        "Farmacity"
+      ],
+      "fecha": "2007",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "caracas",
+              "etiqueta": "Venezuela"
+            },
+            {
+              "lugar": "bogota",
+              "etiqueta": "Colombia · 2007"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Mientras Venezuela vivía su crisis, aquí crecía: de 32 tiendas en 2015 a 66 en 2020.",
+      "imagenes": [
+        {
+          "busqueda": "drugstore interior",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "32",
+        "66"
+      ],
+      "segun": "según Forbes",
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "32",
+            "texto": "tiendas en 2015",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "66",
+            "texto": "tiendas en 2020",
+            "icono": "edificio"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y nunca se fue de Venezuela: allá sigue con unas 170 tiendas.",
+      "imagenes": [
+        {
+          "busqueda": "Caracas skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "170 tiendas"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "170",
+          "etiqueta": "tiendas en Venezuela",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Una droguería venezolana que hoy está en 11 ciudades de Colombia.",
+      "imagenes": [
+        {
+          "busqueda": "pharmacy store shelves",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "11 ciudades"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Venezolana, en [[11 ciudades]] de Colombia"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú compras en Farmatodo o en Cruz Verde?",
+      "imagenes": [
+        {
+          "busqueda": "drugstore interior",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Farmatodo nació en 1918 en Venezuela como Farmacia Lara y es de la familia Zubillaga; Teodoro Zubillaga, de la cuarta generación, la preside desde 2019. Llegó a Colombia en 2007 al comprar Farmacity, una cadena argentina que ya operaba en Bogotá, según El Colombiano. Pasó de 32 tiendas en 2015 a 66 en 2020 (Forbes) y hoy está en 11 ciudades del país, mientras sigue con unas 170 tiendas en Venezuela.\n\nFuentes: El Colombiano (8 ene. 2026), Forbes Colombia (26 may. 2021).\n\n¿Tú compras en Farmatodo o en Cruz Verde?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Farmatodo",
+    "#Venezuela",
+    "#Droguerias",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Farmatodo llegó a Colombia en 2007 con la compra de la cadena argentina Farmacity, que operaba en Bogotá; tiendas en 11 ciudades; unas 170 tiendas en Venezuela",
+      "url": "https://www.elcolombiano.com/negocios/historia-farmatodo-duenos-familia-zubillaga-venezuela-IE32362974"
+    },
+    {
+      "afirmacion": "Farmatodo fundada en 1918 en Venezuela como Farmacia Lara; familia Zubillaga; Teodoro Zubillaga, cuarta generación, presidente desde 2019; opera en Colombia desde hacia 2008; de 32 tiendas en 2015 a 66 en 2020; 175 tiendas en Venezuela; entre las 400 empresas más grandes de Colombia",
+      "url": "https://forbes.co/2021/05/26/negocios/como-farmatodo-sobrevivio-al-exodo-venezolano-y-triunfo-en-colombia/"
+    }
+  ]
+}

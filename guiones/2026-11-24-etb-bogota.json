@@ -1,0 +1,223 @@
+{
+  "id": "2026-11-24-etb-bogota",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿De quién es la [[ETB]]?",
+    "dato": "86 % de Bogotá",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "La ETB es en un 86 % de la Alcaldía de Bogotá (2 % de la Universidad Distrital y 12 % de unos 25.000 inversionistas); en 2017 se intentó vender y la acción cayó cerca del 88 % en 20 años de bolsa",
+  "pregunta_principal": "¿La ETB debería venderse o seguir siendo de Bogotá?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Bogotanos: ustedes son dueños de una empresa de internet. ¿Cuál?",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "fiber optic cable",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "dueño"
+      ],
+      "titulo": "Eres [[dueño]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Es ETB, la Empresa de Telecomunicaciones de Bogotá.",
+      "imagenes": [
+        {
+          "busqueda": "Empresa de Telecomunicaciones de Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ETB"
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El 86 por ciento es de la Alcaldía de Bogotá.",
+      "imagenes": [
+        {
+          "busqueda": "Edificio Lievano",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "86"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "86%",
+          "etiqueta": "es de la Alcaldía",
+          "progreso": 0.86
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Otro 2 por ciento es de la Universidad Distrital, y el resto, de unos 25.000 inversionistas.",
+      "imagenes": [
+        {
+          "busqueda": "Universidad Distrital Francisco José de Caldas",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "25.000"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Alcaldía · 86 %"
+            },
+            {
+              "icono": "documentos",
+              "texto": "U. Distrital · 2 %"
+            },
+            {
+              "icono": "dinero",
+              "texto": "25.000 inversionistas · 12 %"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] En 2017, la Alcaldía intentó venderla, con un precio mínimo de 671 pesos por acción.",
+      "imagenes": [
+        {
+          "busqueda": "Bolsa de Valores de Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "intentó venderla"
+      ],
+      "fecha": "2017",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "2017: [[en venta]]",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "No se vendió. Y en sus 20 años en bolsa, la acción perdió cerca del 88 por ciento.",
+      "imagenes": [
+        {
+          "busqueda": "stock exchange board",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "88"
+      ],
+      "segun": "según La República",
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$700",
+            "texto": "al salir a bolsa (2003)",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "$85",
+            "texto": "en 2023",
+            "icono": "grafica_baja"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Cuando pagas el internet de ETB, le pagas a tu ciudad.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá at night",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tu ciudad"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Le pagas [[a Bogotá]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿La ETB debería venderse o seguir siendo de Bogotá?",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "La Alcaldía de Bogotá tiene el 86 % de la ETB; la Universidad Distrital, el 2 %, y unos 25.000 inversionistas, el 12 % restante. En 2017, el Distrito planeó vender su participación con un precio mínimo de 671 pesos por acción. La ETB salió a bolsa en 2003 a unos 700 pesos por acción; en 2023 cotizaba cerca de 85, una caída de 87,86 %.\n\nFuentes: La República (4 oct. 2023 y 27 abr. 2017).\n\n¿La ETB debería venderse o seguir siendo de Bogotá?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#ETB",
+    "#Bogota",
+    "#Internet",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "La Alcaldía de Bogotá tiene el 86 % de ETB; la Universidad Distrital el 2 %; unos 25.000 inversionistas el 12 %; debutó en la BVC en 2003 a unos 700 pesos y cotizaba cerca de 85 (caída de 87,86 %)",
+      "url": "https://www.larepublica.co/finanzas/las-acciones-de-etb-se-han-desvalorizado-87-en-sus-20-anos-en-la-bolsa-de-colombia-3719884"
+    },
+    {
+      "afirmacion": "En 2017 el Distrito planeó vender su participación en la ETB con precio mínimo de 671 pesos por acción",
+      "url": "https://www.larepublica.co/las-10-preguntas-clave-que-explican-la-venta-de-la-etb_501861"
+    }
+  ]
+}
