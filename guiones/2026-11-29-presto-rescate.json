@@ -1,0 +1,221 @@
+{
+  "id": "2026-11-29-presto-rescate",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "Presto se [[salvó]]",
+    "dato": "4 dueños en 45 años",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Presto tuvo cuatro dueños en 45 años: los Santo Domingo (1981), Frayco (2002), un fondo de Costa Rica (2012) y Nutresa (2026), que la compró tras la orden de liquidación",
+  "pregunta_principal": "¿Tú eres de Presto o de El Corral?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Presto tuvo cuatro dueños en 45 años. El último la salvó de la quiebra.",
+      "imagenes": [
+        {
+          "busqueda": "hamburger and fries",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "burger restaurant",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cuatro dueños"
+      ],
+      "titulo": "Cuatro [[dueños]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Abrió en Chapinero en 1981, y era de los Santo Domingo.",
+      "imagenes": [
+        {
+          "busqueda": "Chapinero Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1981",
+        "Santo Domingo"
+      ],
+      "fecha": "1981",
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2002 la compraron antiguos franquiciados. En 2012, un fondo de Costa Rica.",
+      "imagenes": [
+        {
+          "busqueda": "fast food restaurant interior",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2002",
+        "Costa Rica"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "1981 · Santo Domingo"
+            },
+            {
+              "icono": "documentos",
+              "texto": "2002 · Franquiciados"
+            },
+            {
+              "icono": "dinero",
+              "texto": "2012 · Fondo de Costa Rica"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2023 entró en reorganización con deudas por 104.000 millones.",
+      "imagenes": [
+        {
+          "busqueda": "closed restaurant",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "104.000 millones"
+      ],
+      "fecha": "2023",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$104.000M",
+          "etiqueta": "en deudas",
+          "icono": "grafica_baja"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Y en octubre de 2026, la Superintendencia de Sociedades ordenó liquidarla.",
+      "imagenes": [
+        {
+          "busqueda": "hamburger",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "liquidarla"
+      ],
+      "fecha": "OCT. 2026",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Orden de [[liquidación]]",
+          "icono": "documentos"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Días después apareció el comprador. Desde el 5 de noviembre opera Presto y va a reabrir 12 locales.",
+      "imagenes": [
+        {
+          "busqueda": "burger restaurant",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "12 locales"
+      ],
+      "fecha": "5 NOV. 2026",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "+12",
+          "etiqueta": "locales que reabren",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Es Nutresa, de Gilinski. Que ya tenía El Corral, el líder de las hamburguesas.",
+      "imagenes": [
+        {
+          "busqueda": "El Corral restaurant",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Nutresa",
+        "El Corral"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "El Corral y Presto: [[mismo dueño]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú eres de Presto o de El Corral?",
+      "imagenes": [
+        {
+          "busqueda": "hamburger and fries",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Presto abrió en Chapinero en 1981 como negocio del Grupo Santo Domingo. En 2002 la compró Frayco, sociedad de antiguos franquiciados, y en 2012 el fondo costarricense Mesoamérica Investment. En 2023 entró en reorganización con pasivos de 104.000 millones de pesos; el 13 de octubre de 2026 la Superintendencia de Sociedades ordenó su liquidación. Nutresa firmó la compra de la unidad operativa y desde el 5 de noviembre de 2026 opera Presto, con 86 puntos abiertos y 12 por reabrir. Nutresa ya tenía El Corral, líder de la categoría.\n\nFuentes: La República (22 oct. 2026), Valora Analitik (5 nov. 2026).\n\n¿Tú eres de Presto o de El Corral?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Presto",
+    "#Nutresa",
+    "#ElCorral",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Presto abrió en Chapinero en 1981 como negocio del Grupo Santo Domingo; Frayco (antiguos franquiciados) la compró en 2002; Mesoamérica Investment (Costa Rica) en 2012; reorganización en 2023 con pasivos de 104.000 millones; Supersociedades ordenó la liquidación el 13 de octubre de 2026; Nutresa compra la unidad operativa; El Corral, líder de la categoría",
+      "url": "https://larepublica.co/empresas/gilinski-se-queda-con-presto-y-amplia-su-ventaja-en-el-negocio-de-las-hamburguesas-4509266"
+    },
+    {
+      "afirmacion": "Nutresa asume la operación de Presto desde el 5 de noviembre de 2026; 86 puntos de venta y 12 que reabren",
+      "url": "https://www.valoraanalitik.com/?p=621484"
+    }
+  ]
+}

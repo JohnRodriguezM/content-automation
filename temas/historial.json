@@ -1194,5 +1194,193 @@
     ],
     "categoria": "marcas-colombia",
     "franja": "19:30"
+  },
+  {
+    "id": "2026-11-25-colombina-misma-familia",
+    "tema": "Bon Bon Bum, Nucita, Chocobreak y Café Buendía son de Colombina, fundada en 1927 por Hernando Caicedo y presidida hoy por su nieto",
+    "pilar": "biografias",
+    "narrador": "john",
+    "protagonistas": [
+      "Colombina",
+      "Bon Bon Bum",
+      "Nucita",
+      "Café Buendía"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "07:30"
+  },
+  {
+    "id": "2026-11-25-savital-ego-unilever",
+    "tema": "Savital y eGo eran marcas de la colombiana Quala; en 2017 las vendió a Unilever junto con Fortident, Bio-Expert y Aromatel",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Savital",
+      "eGo",
+      "Quala",
+      "Unilever"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "12:30"
+  },
+  {
+    "id": "2026-11-26-claro-carlos-slim",
+    "tema": "Claro nació en Colombia en 2012 al unir Comcel y Telmex, que ya eran de América Móvil, cuyo accionista mayoritario es Carlos Slim",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Claro",
+      "América Móvil",
+      "Carlos Slim"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "07:30"
+  },
+  {
+    "id": "2026-11-26-cencosud-makro",
+    "tema": "Cencosud, dueña de Jumbo, Metro y Easy, cerró Spid (2021-2025) frente a D1 y Ara y en 2026 acordó comprar Makro Colombia por unos 158 millones de dólares",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Cencosud",
+      "Jumbo",
+      "Makro",
+      "Spid",
+      "D1"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "12:30"
+  },
+  {
+    "id": "2026-11-26-starbucks-alsea",
+    "tema": "Starbucks llegó a Colombia en 2014 con Nutresa (30 %) y la mexicana Alsea; en 2025 Nutresa vendió su parte y Alsea quedó con el 100 % del negocio",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Starbucks",
+      "Alsea",
+      "Grupo Nutresa"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "19:30"
+  },
+  {
+    "id": "2026-11-27-davivienda-cortes",
+    "tema": "Davivienda es del Grupo Bolívar, de la familia Cortés: empezó en 1940 como Seguros Bolívar con tres empleados; Davivienda nació en 1972 y compró Bancafé en 2006",
+    "pilar": "biografias",
+    "narrador": "john",
+    "protagonistas": [
+      "Davivienda",
+      "Grupo Bolívar",
+      "familia Cortés"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "07:30"
+  },
+  {
+    "id": "2026-11-27-surtimax-carulla",
+    "tema": "El Grupo Éxito (86,84 % de la familia Calleja) deja solo dos marcas, Éxito y Carulla; Surtimax y Surtimayorista salen y sus tiendas se convierten",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Surtimax",
+      "Super Inter",
+      "Carulla",
+      "Grupo Éxito"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "12:30"
+  },
+  {
+    "id": "2026-11-27-coca-cola-femsa",
+    "tema": "La marca Coca-Cola es de The Coca-Cola Company, pero en Colombia la embotella y distribuye la mexicana Coca-Cola FEMSA, que vendió un récord de 104,3 millones de cajas en el tercer trimestre de 2026",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Coca-Cola",
+      "Coca-Cola FEMSA"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "19:30"
+  },
+  {
+    "id": "2026-11-28-avianca-abra",
+    "tema": "Avianca es de Abra Group, holding registrada en Reino Unido creada en 2022 por Kingsland, Castlelake y los controladores de GOL tras la reorganización de Avianca",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Avianca",
+      "Abra Group",
+      "GOL"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "07:30"
+  },
+  {
+    "id": "2026-11-28-gilinski-compras",
+    "tema": "Nutresa, controlada por Jaime Gilinski, tomó el control de la dueña de Yupi (2025), sumó Mimo's y en 2026 compró La Universal (Ecuador), Tío Rico (Venezuela) y Presto",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Grupo Nutresa",
+      "Grupo Gilinski",
+      "Yupi",
+      "Mimo's",
+      "Presto"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "12:30"
+  },
+  {
+    "id": "2026-11-28-caracol-vs-rcn",
+    "tema": "Caracol (Valorem, familia Santo Domingo) y RCN (Organización Ardila Lülle, 86,28 % vía Carbe) recibieron en 1997 las dos licencias de canal privado nacional",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Caracol Televisión",
+      "RCN Televisión",
+      "Valorem",
+      "Organización Ardila Lülle"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "19:30"
+  },
+  {
+    "id": "2026-11-29-bancolombia-sura",
+    "tema": "Bancolombia tiene como casa matriz a Grupo Cibest (con Nequi, Wompi, Banistmo y Bam), que cotiza en Colombia y Nueva York; su mayor accionista es Grupo Sura",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Bancolombia",
+      "Grupo Cibest",
+      "Grupo Sura"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "07:30"
+  },
+  {
+    "id": "2026-11-29-presto-rescate",
+    "tema": "Presto tuvo cuatro dueños en 45 años: los Santo Domingo (1981), Frayco (2002), un fondo de Costa Rica (2012) y Nutresa (2026), que la compró tras la orden de liquidación",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Presto",
+      "Grupo Nutresa",
+      "El Corral"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "12:30"
+  },
+  {
+    "id": "2026-11-29-atletico-nacional-ardila",
+    "tema": "Atlético Nacional es de la Organización Ardila Lülle desde 1996 (unos 8 millones de dólares y cerca del 75 %, según registros de la época), dueña también de RCN, Win Sports y Postobón",
+    "pilar": "biografias",
+    "narrador": "john",
+    "protagonistas": [
+      "Atlético Nacional",
+      "Organización Ardila Lülle"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "19:30"
   }
 ]

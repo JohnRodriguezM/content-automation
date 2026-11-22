@@ -1,0 +1,227 @@
+{
+  "id": "2026-11-28-caracol-vs-rcn",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "Caracol vs. RCN: [[dos familias]]",
+    "dato": "La guerra de la tele",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Caracol (Valorem, familia Santo Domingo) y RCN (Organización Ardila Lülle, 86,28 % vía Carbe) recibieron en 1997 las dos licencias de canal privado nacional",
+  "pregunta_principal": "¿Tú eres de Caracol o de RCN?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Caracol contra RCN no es una pelea de canales. Es una pelea de dos familias.",
+      "imagenes": [
+        {
+          "busqueda": "television remote control",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "living room television",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "dos familias"
+      ],
+      "titulo": "Dos [[familias]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 1997, el Estado entregó solo dos licencias para tener canal privado nacional.",
+      "imagenes": [
+        {
+          "busqueda": "TV antenna rooftop",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "dos licencias"
+      ],
+      "fecha": "1997",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "2",
+          "etiqueta": "licencias de canal privado",
+          "icono": "tv"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Una fue para Caracol, que emite como canal privado desde 1998.",
+      "imagenes": [
+        {
+          "busqueda": "Caracol Televisión",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Caracol",
+        "1998"
+      ],
+      "fecha": "1998",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Licencia 1: [[Caracol]]",
+          "icono": "tv"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "La otra, para RCN.",
+      "imagenes": [
+        {
+          "busqueda": "Logo del canal rcn",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "RCN"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Licencia 2: [[RCN]]",
+          "icono": "tv"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Caracol es de Valorem, la empresa de los Santo Domingo, los mismos que unieron Bavaria con SABMiller.",
+      "imagenes": [
+        {
+          "busqueda": "Bavaria brewery Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Santo Domingo"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Caracol: [[los Santo Domingo]]",
+          "icono": "tv"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "RCN es de los Ardila Lülle, los de Postobón. Su sociedad Carbe tiene el 86 por ciento.",
+      "imagenes": [
+        {
+          "busqueda": "Gaseosas Postobón",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Ardila Lülle",
+        "86"
+      ],
+      "segun": "según Valora Analitik",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "86%",
+          "etiqueta": "de RCN es de Carbe, de los Ardila",
+          "progreso": 0.8628
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Cada noche, cuando cambias de canal, cambias de familia.",
+      "imagenes": [
+        {
+          "busqueda": "television remote control",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cambias de familia"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "tv",
+              "texto": "Caracol · Santo Domingo"
+            },
+            {
+              "icono": "tv",
+              "texto": "RCN · Ardila Lülle"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú eres de Caracol o de RCN?",
+      "imagenes": [
+        {
+          "busqueda": "living room television",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "El 24 de noviembre de 1997, Caracol y RCN recibieron las dos licencias para operar canales nacionales privados; Caracol empezó a emitir como canal privado el 10 de julio de 1998. Caracol Televisión es de Caracol Medios, unidad de Valorem, el grupo de la familia Santo Domingo (que en 2005 unió Bavaria con SABMiller). RCN Televisión es de la Organización Ardila Lülle, dueña también de Postobón, Win Sports y Atlético Nacional; su sociedad Carbe tiene el 86,28 % de las acciones.\n\nFuentes: Wikipedia (Caracol Televisión), Valora Analitik (7 dic. 2022), Semana.\n\n¿Tú eres de Caracol o de RCN?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Caracol",
+    "#RCN",
+    "#Television",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Caracol Televisión es de Caracol Medios, unidad de Grupo Valorem (Santo Domingo); el 24 de noviembre de 1997 Caracol y RCN recibieron las dos licencias de canal nacional privado; emisión regular desde el 10 de julio de 1998",
+      "url": "https://en.wikipedia.org/wiki/Caracol_Televisi%C3%B3n"
+    },
+    {
+      "afirmacion": "Carbe S.A.S. tiene el 86,28 % de RCN Televisión; RCN es de la Organización Ardila Lülle, también dueña de Win Sports, Postobón y Atlético Nacional",
+      "url": "https://www.valoraanalitik.com/?p=218954"
+    },
+    {
+      "afirmacion": "Los Santo Domingo fusionaron Bavaria con SABMiller en 2005",
+      "url": "https://www.semana.com/economia/articulo/que-negociazo/86065-3"
+    }
+  ]
+}

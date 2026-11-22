@@ -1,0 +1,232 @@
+{
+  "id": "2026-11-26-cencosud-makro",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿De quién es [[Makro]]?",
+    "dato": "Los dueños de Jumbo",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Cencosud, dueña de Jumbo, Metro y Easy, cerró Spid (2021-2025) frente a D1 y Ara y en 2026 acordó comprar Makro Colombia por unos 158 millones de dólares",
+  "pregunta_principal": "¿Tú compras en Makro o en D1?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Los dueños de Jumbo intentaron competirle a D1. Y les tocó cerrar.",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Jumbo Btá N",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Tiendas D1",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "competirle a D1"
+      ],
+      "titulo": "Le compitieron a [[D1]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Jumbo, Metro y Easy son de Cencosud, un grupo chileno.",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Jumbo Btá N",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Cencosud",
+        "chileno"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "santiago",
+              "etiqueta": "Chile · Cencosud"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2021 trajo Spid: tiendas pequeñas, de compras rápidas.",
+      "imagenes": [
+        {
+          "busqueda": "convenience store interior",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2021",
+        "Spid"
+      ],
+      "fecha": "2021",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Llega [[Spid]]",
+          "icono": "reloj"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2025 cerró todas. Las de descuento, como D1 y Ara, crecían muy rápido.",
+      "imagenes": [
+        {
+          "busqueda": "Tiendas D1 Bog may 2018 - 2",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cerró todas",
+        "D1",
+        "Ara"
+      ],
+      "segun": "según Portafolio",
+      "fecha": "2025",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Spid [[cerró]]",
+          "icono": "grafica_baja"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Pero no se fue. En junio de 2026 compró Makro Colombia por unos 158 millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "Makro Cúcuta my 2021",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no se fue",
+        "158 millones"
+      ],
+      "fecha": "JUN. 2026",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$158M",
+          "etiqueta": "por Makro Colombia",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Son 21 tiendas en 16 ciudades. La SIC está revisando la compra.",
+      "imagenes": [
+        {
+          "busqueda": "wholesale warehouse store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "21 tiendas",
+        "SIC"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "21",
+          "etiqueta": "tiendas en 16 ciudades",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Perdió en las tiendas pequeñas. Ahora va por los que les venden a las tiendas.",
+      "imagenes": [
+        {
+          "busqueda": "Makro Cúcuta my 2021",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "les venden a las tiendas"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Ahora va por [[los mayoristas]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú compras en Makro o en D1?",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Jumbo Btá N",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Jumbo, Metro y Easy son del grupo chileno Cencosud. En 2021 trajo a Colombia las tiendas Spid, de formato pequeño y compras rápidas, que dejaron de operar en 2025 mientras D1 y Ara crecían rápido, según Portafolio.\n\nEn junio de 2026, Cencosud acordó comprar el 100 % de Makro Colombia (21 tiendas en 16 ciudades, más de 25 años en el país) por unos 158 millones de dólares. La operación depende de la aprobación de la Superintendencia de Industria y Comercio, que la está revisando.\n\nFuentes: Portafolio (ago. 2026), Forbes Colombia (26 jun. 2026), La República.\n\n¿Tú compras en Makro o en D1?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Jumbo",
+    "#Makro",
+    "#Cencosud",
+    "#D1",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Cencosud tiene en Colombia Jumbo, Metro, Easy y Cenco Malls; Spid dejó de operar en agosto de 2025",
+      "url": "https://www.portafolio.co/negocios/empresas/cencosud-duena-de-jumbo-y-metro-entra-a-competir-con-d1-y-ara-con-su-nueva-apuesta-de-tiendas-de-bajo-precio-500636"
+    },
+    {
+      "afirmacion": "Spid llegó a Colombia en 2021; su formato sufrió mientras D1 y Ara se expandían",
+      "url": "https://www.portafolio.co/negocios/empresas/cencosud-confirma-cierre-de-todas-las-tiendas-spid-en-colombia-y-reorganiza-su-operacion-local-496182"
+    },
+    {
+      "afirmacion": "Cencosud compra el 100 % de Makro Colombia por unos 158 millones de dólares; 21 tiendas en 16 ciudades; sujeto a aprobación de la SIC",
+      "url": "https://forbes.co/2026/06/26/negocios/cencosud-compra-makro-colombia-por-us158-millones-y-fortalece-su-negocio-mayorista/"
+    },
+    {
+      "afirmacion": "La compra de Makro por Cencosud está bajo revisión de competencia",
+      "url": "https://www.larepublica.co/empresas/compra-de-makro-por-cencosud-entra-bajo-la-lupa-tras-defensa-sobre-la-competencia-4449742"
+    }
+  ]
+}

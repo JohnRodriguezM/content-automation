@@ -1,0 +1,229 @@
+{
+  "id": "2026-11-29-bancolombia-sura",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿De quién es [[Bancolombia]]?",
+    "dato": "Tiene dos capas",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Bancolombia tiene como casa matriz a Grupo Cibest (con Nequi, Wompi, Banistmo y Bam), que cotiza en Colombia y Nueva York; su mayor accionista es Grupo Sura",
+  "pregunta_principal": "Mándaselo a quien cree que Bancolombia es del Gobierno.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] ¿De quién es Bancolombia? La respuesta tiene dos capas.",
+      "imagenes": [
+        {
+          "busqueda": "Edificio Bancolombia Medellín",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Edificio Bancolombia - luces",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "dos capas"
+      ],
+      "titulo": "¿De quién es [[Bancolombia]]?",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Desde 2025, Bancolombia tiene casa matriz: Grupo Cibest.",
+      "imagenes": [
+        {
+          "busqueda": "Bancolombia headquarters",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Grupo Cibest"
+      ],
+      "fecha": "2025",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Capa 1: [[Grupo Cibest]]",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Cibest también es dueña de Nequi, Wompi y de bancos en Centroamérica como Banistmo y Bam.",
+      "imagenes": [
+        {
+          "busqueda": "Edificio Bancolombia - entorno",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Nequi",
+        "Centroamérica"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "celular",
+              "texto": "Nequi"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Wompi"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Banistmo · Bam"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Sus acciones se mueven en las bolsas de Colombia y Nueva York.",
+      "imagenes": [
+        {
+          "busqueda": "Bolsa de Valores de Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Nueva York"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": false,
+          "puntos": [
+            {
+              "lugar": "medellin",
+              "etiqueta": "Grupo Cibest"
+            },
+            {
+              "lugar": "nuevayork",
+              "etiqueta": "Bolsa de Nueva York"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Pero hay un accionista más grande que todos.",
+      "imagenes": [
+        {
+          "busqueda": "Medellín skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "más grande"
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 2023 ya tenía casi la mitad de las acciones ordinarias del banco.",
+      "imagenes": [
+        {
+          "busqueda": "stock exchange board",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "la mitad"
+      ],
+      "segun": "según La República",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "46%",
+          "etiqueta": "de las acciones ordinarias (2023)",
+          "progreso": 0.462
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Es Grupo Sura, el grupo antioqueño de seguros.",
+      "imagenes": [
+        {
+          "busqueda": "Medellín",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Grupo Sura"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Capa 2: [[Grupo Sura]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mándaselo a quien cree que Bancolombia es del Gobierno.",
+      "imagenes": [
+        {
+          "busqueda": "Edificio Bancolombia Medellín",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Desde 2025, la casa matriz de Bancolombia es Grupo Cibest, que también agrupa a Nequi, Wompi, Renting Colombia y los bancos centroamericanos Banistmo, Banco Agrícola y Bam. Sus acciones cotizan en la Bolsa de Colombia y en Nueva York. Su mayor accionista es Grupo Sura, que en 2023 tenía el 46,2 % de las acciones ordinarias de Bancolombia.\n\nFuentes: La República (24 abr. 2025 y jun. 2023), Valora Analitik (16 may. 2025).\n\nMándaselo a quien cree que Bancolombia es del Gobierno.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Bancolombia",
+    "#GrupoSura",
+    "#Cibest",
+    "#Bancos",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Grupo Cibest es la holding de Bancolombia, Banistmo, Bancoagrícola, Bam, Wompi, Renting Colombia, Wenia y Nequi; las acciones se listan en las bolsas de Colombia y Nueva York",
+      "url": "https://www.larepublica.co/finanzas/estructura-del-grupo-cibest-4117640"
+    },
+    {
+      "afirmacion": "Grupo Sura es el mayor accionista de Bancolombia; creación de la holding Cibest",
+      "url": "https://www.valoraanalitik.com/?p=466994"
+    },
+    {
+      "afirmacion": "Grupo Sura tenía el 46,2 % de las acciones ordinarias de Bancolombia (2023)",
+      "url": "https://www.larepublica.co/finanzas/con-mas-de-24-de-dividendos-sura-es-el-accionista-que-mas-gana-en-bancolombia-3634638"
+    }
+  ]
+}

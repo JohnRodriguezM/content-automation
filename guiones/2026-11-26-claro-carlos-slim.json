@@ -1,0 +1,224 @@
+{
+  "id": "2026-11-26-claro-carlos-slim",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿De quién es [[Claro]]?",
+    "dato": "Le pagas a un hombre",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Claro nació en Colombia en 2012 al unir Comcel y Telmex, que ya eran de América Móvil, cuyo accionista mayoritario es Carlos Slim",
+  "pregunta_principal": "¿Tú eres de Claro, Movistar o Tigo?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Cada vez que pagas Claro, le pagas a un hombre. ¿Sabes a quién?",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Claro Restrepo Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Tienda Claro Cúcuta my 2021",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "un hombre"
+      ],
+      "titulo": "Le pagas a [[un hombre]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Claro nació en Colombia en junio de 2012, al unir dos empresas: Comcel y Telmex.",
+      "imagenes": [
+        {
+          "busqueda": "cell phone tower",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2012",
+        "Comcel",
+        "Telmex"
+      ],
+      "fecha": "JUN. 2012",
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "celular",
+              "texto": "Comcel"
+            },
+            {
+              "icono": "tv",
+              "texto": "Telmex"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Claro"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Comcel había nacido en 1994, y fue de los primeros operadores de celular del país.",
+      "imagenes": [
+        {
+          "busqueda": "mobile phone 1990s",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1994"
+      ],
+      "fecha": "1994",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Comcel: de los [[primeros]] celulares",
+          "icono": "celular"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Telmex era la filial de una telefónica mexicana.",
+      "imagenes": [
+        {
+          "busqueda": "Mexico City skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mexicana"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "cdmx",
+              "etiqueta": "México"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] El giro: las dos ya tenían el mismo dueño, América Móvil.",
+      "imagenes": [
+        {
+          "busqueda": "Plaza Carso",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mismo dueño"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Las dos eran [[del mismo dueño]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y América Móvil tiene un accionista mayoritario.",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Claro Cúcuta my 2021",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "accionista mayoritario"
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Carlos Slim, con una fortuna casi diez veces la del colombiano más rico.",
+      "imagenes": [
+        {
+          "busqueda": "Carlos Slim",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Carlos Slim",
+        "diez veces"
+      ],
+      "segun": "según Pulzo, con datos de Forbes",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "10x",
+          "etiqueta": "la fortuna del colombiano más rico",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú eres de Claro, Movistar o Tigo?",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Claro Restrepo Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Claro llegó oficialmente a Colombia el 26 de junio de 2012, cuando se unieron Comcel (fundada en 1994, uno de los primeros operadores móviles del país) y Telmex Colombia, filial de la mexicana Telmex. Las dos ya eran de América Móvil, cuyo accionista mayoritario es el mexicano Carlos Slim. Según Pulzo, con datos de Forbes de 2024, su fortuna es casi diez veces la de David Vélez, el colombiano más rico.\n\nFuentes: Pulzo (sep. 2024), Vanguardia (28 jun. 2012).\n\n¿Tú eres de Claro, Movistar o Tigo?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Claro",
+    "#CarlosSlim",
+    "#Telecomunicaciones",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "El principal dueño de Claro es América Móvil, cuyo accionista mayoritario es Carlos Slim; Claro llegó el 26 de junio de 2012 al unir Comcel y Telmex Colombia, ambas de América Móvil; Comcel fundada en 1994, de los primeros operadores móviles; Slim tiene casi 10 veces la fortuna de David Vélez (Forbes 2024)",
+      "url": "https://www.pulzo.com/economia/quien-es-dueno-claro-carlos-slim-cuanto-tiene-frente-rico-colombia-PP3908902"
+    },
+    {
+      "afirmacion": "Comcel y Telmex se convierten en Claro (junio de 2012)",
+      "url": "https://www.vanguardia.com/tecnologia/2012/06/28/comcel-y-telmex-se-convierten-en-claro/"
+    }
+  ]
+}

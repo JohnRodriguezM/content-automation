@@ -1,0 +1,230 @@
+{
+  "id": "2026-11-28-avianca-abra",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿De quién es [[Avianca]]?",
+    "dato": "Registrado en Londres",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Avianca es de Abra Group, holding registrada en Reino Unido creada en 2022 por Kingsland, Castlelake y los controladores de GOL tras la reorganización de Avianca",
+  "pregunta_principal": "¿Tú vuelas Avianca o Latam?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Avianca es colombiana. Pero su dueño está registrado en otro país. ¿Cuál?",
+      "imagenes": [
+        {
+          "busqueda": "Avianca Airbus A320",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Avianca Bogotá El Dorado",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "otro país"
+      ],
+      "titulo": "Su dueño está [[afuera]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 2021, Avianca salió de un proceso de quiebra.",
+      "imagenes": [
+        {
+          "busqueda": "El Dorado airport Bogotá terminal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "quiebra"
+      ],
+      "fecha": "2021",
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Los que lideraron su rescate fueron dos fondos: Kingsland y Castlelake.",
+      "imagenes": [
+        {
+          "busqueda": "Avianca aircraft",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Kingsland",
+        "Castlelake"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "dinero",
+              "texto": "Kingsland"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Castlelake"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2022 crearon una casa matriz para unirla con GOL, la aerolínea brasileña.",
+      "imagenes": [
+        {
+          "busqueda": "GOL Boeing 737",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2022",
+        "GOL"
+      ],
+      "fecha": "2022",
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Avianca · Colombia"
+            },
+            {
+              "icono": "edificio",
+              "texto": "GOL · Brasil"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Hoy ese grupo suma unos 350 aviones y está comprando Sky, de Chile.",
+      "imagenes": [
+        {
+          "busqueda": "Sky Airline Airbus A320neo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "350 aviones",
+        "Sky"
+      ],
+      "segun": "según Bloomberg",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "350",
+          "etiqueta": "aviones en el grupo",
+          "icono": "reloj"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Quería salir a la bolsa en Estados Unidos, pero lo aplazó por el precio del combustible.",
+      "imagenes": [
+        {
+          "busqueda": "New York Stock Exchange",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "aplazó"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "La bolsa [[puede esperar]]",
+          "icono": "grafica_baja"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Se llama Abra Group, y está registrada en el Reino Unido.",
+      "imagenes": [
+        {
+          "busqueda": "London skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Abra Group",
+        "Reino Unido"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "londres",
+              "etiqueta": "Reino Unido · Abra Group"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú vuelas Avianca o Latam?",
+      "imagenes": [
+        {
+          "busqueda": "Avianca Airbus A320",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Avianca salió de su proceso de quiebra en 2021, en una reorganización liderada por Kingsland Holdings y Castlelake. En 2022 se creó Abra Group, entidad registrada en Reino Unido, para unir Avianca y la brasileña GOL. Según Bloomberg, el grupo suma unos 350 aviones y está cerrando la compra de la chilena Sky Airline; preparó una salida a la bolsa en Estados Unidos, pero en octubre de 2026 dijo que la aplazaría por la volatilidad del combustible.\n\nFuentes: Bloomberg Línea (16 oct. 2025), La República con Bloomberg (20 oct. 2026).\n\n¿Tú vuelas Avianca o Latam?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Avianca",
+    "#AbraGroup",
+    "#Aerolineas",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Abra Group Limited, registrada en Reino Unido, holding de Avianca y GOL; creada en 2022; fundada por Kingsland Holdings y Castlelake, que lideraron la reorganización de Avianca (salió de quiebra en 2021), con los controladores de GOL; presentó borrador confidencial a la SEC para una posible OPI",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/dueno-de-avianca-prepara-su-salto-a-wall-street-con-una-oferta-publica-inicial/"
+    },
+    {
+      "afirmacion": "Abra aplaza su salida a bolsa por la volatilidad del combustible; unos 350 aviones; compra de Sky Airline con aprobaciones regulatorias",
+      "url": "https://www.larepublica.co/globoeconomia/matriz-de-avianca-y-gol-ve-muy-dificil-salir-a-bolsa-en-2026-por-incertidumbre-4507136"
+    }
+  ]
+}

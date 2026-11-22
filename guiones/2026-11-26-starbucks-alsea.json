@@ -1,0 +1,217 @@
+{
+  "id": "2026-11-26-starbucks-alsea",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "Starbucks Colombia es [[mexicano]]",
+    "dato": "100 % desde 2025",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Starbucks llegó a Colombia en 2014 con Nutresa (30 %) y la mexicana Alsea; en 2025 Nutresa vendió su parte y Alsea quedó con el 100 % del negocio",
+  "pregunta_principal": "¿Tú eres de Starbucks o de Juan Valdez?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] El Starbucks donde compras café en Colombia no es de Starbucks. ¿Sabes de quién es?",
+      "imagenes": [
+        {
+          "busqueda": "Starbucks Coffee, Bogotá, Colombia (20315988750)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Starbucks coffee cup",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no es de Starbucks"
+      ],
+      "titulo": "No es de [[Starbucks]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Starbucks no opera sus tiendas aquí: da la licencia y otro las maneja.",
+      "imagenes": [
+        {
+          "busqueda": "Starbucks store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "licencia"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Starbucks [[presta la marca]]",
+          "icono": "documentos"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2014 llegó a Bogotá con dos socios: Nutresa, la de Jet y Zenú, y una mexicana.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá Parque de la 93",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2014",
+        "Nutresa"
+      ],
+      "fecha": "2014",
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Nutresa · 30 %"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Socio mexicano · 70 %"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "La colombiana tenía el 30 por ciento.",
+      "imagenes": [
+        {
+          "busqueda": "Grupo Nutresa",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "30"
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Pero en 2025 Nutresa vendió su parte.",
+      "imagenes": [
+        {
+          "busqueda": "Starbucks coffee cup",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "vendió"
+      ],
+      "fecha": "2025",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Nutresa [[se sale]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Hoy todo el negocio de Starbucks en Colombia es de esa mexicana.",
+      "imagenes": [
+        {
+          "busqueda": "Starbucks Coffee, Bogotá, Colombia (20315988750)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "todo el negocio"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "100%",
+          "etiqueta": "del negocio en Colombia",
+          "progreso": 1
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Se llama Alsea. La misma que opera Domino's y Burger King.",
+      "imagenes": [
+        {
+          "busqueda": "Mexico City skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Alsea"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "cdmx",
+              "etiqueta": "México · Alsea"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú eres de Starbucks o de Juan Valdez?",
+      "imagenes": [
+        {
+          "busqueda": "Juan Valdez Café Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Starbucks opera en Colombia con tiendas licenciadas. Llegó en 2014, con la primera tienda en Bogotá, mediante una alianza entre Grupo Nutresa y la mexicana Alsea. En mayo de 2025, Nutresa vendió su 30 % de Estrella Andina, la operadora de la franquicia, a una empresa del grupo Alsea, que quedó con el 100 % del negocio en Colombia (72 tiendas licenciadas, según World Coffee Portal). Alsea también opera marcas como Domino's, Burger King, P.F. Chang's y Vips.\n\nFuentes: Valora Analitik (12 may. 2025), World Coffee Portal (22 may. 2025).\n\n¿Tú eres de Starbucks o de Juan Valdez?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Starbucks",
+    "#Alsea",
+    "#Nutresa",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Nutresa vendió su 30 % de Estrella Andina, operadora de Starbucks en Colombia, a Café Sirena (grupo Alsea, México); la primera tienda abrió en Bogotá en 2014 con la alianza Nutresa-Alsea; Alsea opera Domino's, Burger King, P.F. Chang's y Vips",
+      "url": "https://www.valoraanalitik.com/?p=465511"
+    },
+    {
+      "afirmacion": "Alsea adquiere el 100 % del negocio de franquicia de Starbucks en Colombia; 72 tiendas licenciadas; Nutresa tenía el 30 %",
+      "url": "https://www.worldcoffeeportal.com/news/mexicos-alsea-acquires-100-ownership-of-starbucks-colombia-franchise-business/"
+    }
+  ]
+}

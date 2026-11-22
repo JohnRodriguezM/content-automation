@@ -1,0 +1,215 @@
+{
+  "id": "2026-11-28-gilinski-compras",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "Las compras de [[Gilinski]]",
+    "dato": "Yupi, Mimo's, Presto…",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Nutresa, controlada por Jaime Gilinski, tomó el control de la dueña de Yupi (2025), sumó Mimo's y en 2026 compró La Universal (Ecuador), Tío Rico (Venezuela) y Presto",
+  "pregunta_principal": "¿Qué marca crees que compra después?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Yupi, Mimo's y unos helados de Venezuela. ¿Qué tienen en común?",
+      "imagenes": [
+        {
+          "busqueda": "potato chips bag",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "ice cream cones",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "en común"
+      ],
+      "titulo": "¿Qué tienen en [[común]]?",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En octubre de 2025, Nutresa tomó el control de la dueña de Yupi.",
+      "imagenes": [
+        {
+          "busqueda": "potato chips",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Yupi"
+      ],
+      "fecha": "OCT. 2025",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Yupi pasa a [[Nutresa]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y sumó los helados Mimo's.",
+      "imagenes": [
+        {
+          "busqueda": "ice cream shop",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Mimo's"
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En junio compró La Universal, una chocolatera de Ecuador con más de 130 años.",
+      "imagenes": [
+        {
+          "busqueda": "cocoa beans",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Ecuador",
+        "130 años"
+      ],
+      "fecha": "JUN. 2026",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "guayaquil",
+              "etiqueta": "Ecuador · La Universal"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] En julio fue por Tío Rico, una heladera de Caracas.",
+      "imagenes": [
+        {
+          "busqueda": "Caracas skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Tío Rico",
+        "Caracas"
+      ],
+      "fecha": "JUL. 2026",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "caracas",
+              "etiqueta": "Venezuela · Tío Rico"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y en octubre firmó la compra de Presto, que estaba en liquidación.",
+      "imagenes": [
+        {
+          "busqueda": "hamburger and fries",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Presto"
+      ],
+      "fecha": "OCT. 2026",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Y también [[Presto]]",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] El comprador es Nutresa, la de Jet y Zenú, que hoy controla Jaime Gilinski.",
+      "imagenes": [
+        {
+          "busqueda": "Grupo Nutresa",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Gilinski"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Todo es de [[Gilinski]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué marca crees que compra después?",
+      "imagenes": [
+        {
+          "busqueda": "potato chips bag",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Grupo Nutresa, controlado por el Grupo Gilinski, está comprando: en octubre de 2025 tomó el control de Inversionista Alcora, dueña de Productos Yupi; sumó el negocio de helados Mimo's; en junio de 2026 anunció la compra de La Universal (Guayaquil, más de 130 años), en julio la de Industrias Tío Rico (Caracas) y en octubre firmó la compra de Presto, que estaba en liquidación judicial.\n\nFuentes: Portafolio (23 oct. 2026), La República.\n\n¿Qué marca crees que compra después?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Gilinski",
+    "#Nutresa",
+    "#Yupi",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Nutresa: control de Inversionista Alcora (dueña de Productos Yupi) en octubre de 2025; helados Mimo's; La Universal de Guayaquil, más de 130 años (anunciado el 19 de junio de 2026); Industrias Tío Rico de Caracas (21 de julio de 2026); Presto, en liquidación judicial (octubre de 2026)",
+      "url": "https://www.portafolio.co/negocios/empresas/presto-mimo-s-yupi-y-mas-las-ultimas-compras-con-las-que-gilinski-ha-expandido-su-portafolio-a-traves-de-nutresa-504991"
+    },
+    {
+      "afirmacion": "El Grupo Gilinski controla Nutresa, dueña de Jet y Zenú",
+      "url": "https://www.larepublica.co/empresas/gilinski-se-quedo-con-mas-de-60-marcas-de-grupo-nutresa-3800007"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "id": "2026-11-27-davivienda-cortes",
+  "pilar": "biografias",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿De quién es [[Davivienda]]?",
+    "dato": "Empezó con 3 empleados",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Davivienda es del Grupo Bolívar, de la familia Cortés: empezó en 1940 como Seguros Bolívar con tres empleados; Davivienda nació en 1972 y compró Bancafé en 2006",
+  "pregunta_principal": "¿Tú tienes Daviplata o Nequi?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Davivienda no empezó como banco. Empezó con tres empleados.",
+      "imagenes": [
+        {
+          "busqueda": "Torre Central Davivienda, Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Davivienda Cúcuta my 2021",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tres empleados"
+      ],
+      "titulo": "Empezó con [[tres empleados]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 1939, José María y Enrique Cortés fundaron Seguros Bolívar.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá La Candelaria",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1939",
+        "Seguros Bolívar"
+      ],
+      "fecha": "1939",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "bogota",
+              "etiqueta": "Bogotá · Seguros Bolívar"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Abrió en 1940 con tres empleados, vendiendo seguros.",
+      "imagenes": [
+        {
+          "busqueda": "vintage typewriter office",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tres empleados"
+      ],
+      "fecha": "1940",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "3",
+          "etiqueta": "empleados en 1940",
+          "icono": "documentos"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 1972 el grupo creó Davivienda, la de la casita roja, para ahorrar y comprar vivienda.",
+      "imagenes": [
+        {
+          "busqueda": "Banco Davivienda Bmanga ene 2022",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1972",
+        "casita roja"
+      ],
+      "fecha": "1972",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Nace [[la casita roja]]",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] En 2006 compró Bancafé por 2,21 billones de pesos, y saltó a Centroamérica.",
+      "imagenes": [
+        {
+          "busqueda": "Torre Davivienda Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Bancafé",
+        "2,21 billones"
+      ],
+      "fecha": "2006",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$2,21 bill",
+          "etiqueta": "de pesos por Bancafé",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 2011 lanzó Daviplata.",
+      "imagenes": [
+        {
+          "busqueda": "Cajero Davivienda Comuneros",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Daviplata"
+      ],
+      "fecha": "2011",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Llega [[Daviplata]]",
+          "icono": "celular"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Tres generaciones después sigue siendo de los Cortés. Este año anunció una donación de 110.000 millones tras el terremoto.",
+      "imagenes": [
+        {
+          "busqueda": "Torre Central Davivienda, Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "los Cortés",
+        "110.000 millones"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Tres generaciones: [[los Cortés]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú tienes Daviplata o Nequi?",
+      "imagenes": [
+        {
+          "busqueda": "Davivienda Cúcuta my 2021",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Davivienda es del Grupo Bolívar, de la familia Cortés. El 5 de diciembre de 1939, José María y Enrique Cortés fundaron Seguros Bolívar, que empezó a operar el 30 de junio de 1940 con tres empleados. En 1972 el grupo creó Davivienda, la Corporación de Ahorro y Vivienda conocida como \"la casita roja\". En 2006 compró Bancafé por 2,21 billones de pesos y se expandió a Centroamérica y Estados Unidos. En 2011 lanzó Daviplata. Hoy lo dirige Miguel Cortés Kotal, de la tercera generación. En agosto de 2026, Grupo Bolívar y Davivienda anunciaron una donación de 110.000 millones de pesos para la emergencia y reconstrucción tras el terremoto.\n\nFuentes: Portafolio (20 ago. 2026), Forbes Colombia (20 ago. 2026).\n\n¿Tú tienes Daviplata o Nequi?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Davivienda",
+    "#GrupoBolivar",
+    "#Daviplata",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Seguros Bolívar fundada el 5 de diciembre de 1939 por José María y Enrique Cortés; operó desde el 30 de junio de 1940 con tres empleados; Davivienda nació en 1972 ('la casita roja'); compra de Bancafé en 2006 por 2,21 billones; Daviplata en febrero de 2011; familia Cortés, tres generaciones; donación de 110.000 millones tras el terremoto",
+      "url": "https://www.portafolio.co/economia/gobierno/quienes-son-los-cortes-duenos-de-grupo-bolivar-y-davivienda-que-donaron-110-000-millones-tras-el-terremoto-500860"
+    },
+    {
+      "afirmacion": "Grupo Bolívar y Davivienda donan 110.000 millones para la reconstrucción tras el terremoto",
+      "url": "https://forbes.co/2026/08/20/actualidad/grupo-bolivar-davivienda-donacion-reconstruccion-terremoto/"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "id": "2026-11-27-surtimax-carulla",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "Adiós [[Surtimax]]",
+    "dato": "Ahora es Carulla",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "El Grupo Éxito (86,84 % de la familia Calleja) deja solo dos marcas, Éxito y Carulla; Surtimax y Surtimayorista salen y sus tiendas se convierten",
+  "pregunta_principal": "¿Te gusta más Carulla o extrañas tu Surtimax?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] ¿Tu Surtimax amaneció con letrero de Carulla? Esto es lo que pasó.",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Éxito Country Bogotá sep 2018 - 1",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Carulla supermercado Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Carulla"
+      ],
+      "titulo": "Ya no es [[Surtimax]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Surtimax, Super Inter y Carulla son del mismo dueño: el Grupo Éxito.",
+      "imagenes": [
+        {
+          "busqueda": "Supermercado Éxito",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mismo dueño"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Surtimax"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Super Inter"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Carulla"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2024 decidió dejar solo dos marcas: Éxito y Carulla.",
+      "imagenes": [
+        {
+          "busqueda": "Éxito Tunal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "dos marcas"
+      ],
+      "fecha": "2024",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Solo quedan [[Éxito y Carulla]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Surtimax y Surtimayorista salen. Sus tiendas se van convirtiendo.",
+      "imagenes": [
+        {
+          "busqueda": "supermarket shelves",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "salen"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Surtimax [[sale]]",
+          "icono": "grafica_baja"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Solo en 2026 invirtió unos 292.000 millones de pesos en renovar y convertir tiendas.",
+      "imagenes": [
+        {
+          "busqueda": "Carulla supermercado Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "292.000 millones"
+      ],
+      "segun": "según Portafolio",
+      "fecha": "2026",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$292.000M",
+          "etiqueta": "para renovar y convertir tiendas",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Entre julio y septiembre convirtió ocho tiendas más en Carulla, de Barranquilla a Montería.",
+      "imagenes": [
+        {
+          "busqueda": "supermarket shopping cart aisle",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ocho tiendas"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": false,
+          "puntos": [
+            {
+              "lugar": "barranquilla",
+              "etiqueta": "Carulla"
+            },
+            {
+              "lugar": "bogota",
+              "etiqueta": "Carulla"
+            },
+            {
+              "lugar": "cali",
+              "etiqueta": "Carulla"
+            },
+            {
+              "lugar": "armenia",
+              "etiqueta": "Carulla"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] ¿Y quién decide todo esto? La familia Calleja, de El Salvador, dueña del 86 por ciento del Éxito.",
+      "imagenes": [
+        {
+          "busqueda": "Super Selectos El Salvador",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Calleja",
+        "86"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "86%",
+          "etiqueta": "del Grupo Éxito es de los Calleja",
+          "progreso": 0.8684
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Te gusta más Carulla o extrañas tu Surtimax?",
+      "imagenes": [
+        {
+          "busqueda": "Carulla supermercado Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "El Grupo Éxito decidió en 2024 unificar sus supermercados en dos marcas, Éxito y Carulla: Surtimax y Surtimayorista salen del portafolio y sus tiendas se convierten de forma progresiva. En 2026 destina unos 292.000 millones de pesos a renovar y convertir tiendas; entre julio y septiembre pasó a Carulla ocho tiendas que operaban como Éxito, Surtimax o Super Inter, en ciudades como Bogotá, Barranquilla, Cali, Armenia y Montería. La familia Calleja, de El Salvador, tiene el 86,84 % del Grupo Éxito.\n\nFuentes: Portafolio (28 nov. 2024 y 3 sep. 2026), Valora Analitik.\n\n¿Te gusta más Carulla o extrañas tu Surtimax?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Surtimax",
+    "#Carulla",
+    "#Exito",
+    "#Supermercados",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Grupo Éxito unifica sus marcas en Éxito y Carulla; Surtimax y Surtimayorista salen del portafolio; conversión progresiva",
+      "url": "https://www.portafolio.co/negocios/empresas/las-marcas-surtimax-y-surtimayorista-desaparecen-del-mercado-confirma-el-grupo-exito-618475"
+    },
+    {
+      "afirmacion": "En 2026, unos 292.000 millones para renovar y convertir tiendas; entre julio y septiembre, ocho tiendas que operaban como Éxito, Surtimax o Super Inter pasan a Carulla en seis ciudades (Bogotá, Barranquilla, Cali, Armenia, Montería, San Jerónimo)",
+      "url": "https://www.portafolio.co/negocios/empresas/grupo-exito-acelera-reconversion-de-tiendas-y-lleva-carulla-a-seis-ciudades-del-pais-501735"
+    },
+    {
+      "afirmacion": "Calleja queda con el 86,84 % de Grupo Éxito",
+      "url": "https://www.valoraanalitik.com/?p=352155"
+    }
+  ]
+}

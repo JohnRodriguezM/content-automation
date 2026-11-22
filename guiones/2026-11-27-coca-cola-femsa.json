@@ -1,0 +1,213 @@
+{
+  "id": "2026-11-27-coca-cola-femsa",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿De quién es la [[Coca-Cola]]?",
+    "dato": "En Colombia la hace otra",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "La marca Coca-Cola es de The Coca-Cola Company, pero en Colombia la embotella y distribuye la mexicana Coca-Cola FEMSA, que vendió un récord de 104,3 millones de cajas en el tercer trimestre de 2026",
+  "pregunta_principal": "¿Coca-Cola o Postobón?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] La Coca-Cola que tomas en Colombia no la hace Coca-Cola. ¿Sabes quién?",
+      "imagenes": [
+        {
+          "busqueda": "Ayco Motocarro Coca-Cola",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Coca-Cola truck",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no la hace"
+      ],
+      "titulo": "No la hace [[Coca-Cola]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "La marca es de The Coca-Cola Company, de Estados Unidos.",
+      "imagenes": [
+        {
+          "busqueda": "World of Coca-Cola, May 18, 2009",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Estados Unidos"
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Pero embotellarla y llevarla a cada tienda es trabajo de otra empresa.",
+      "imagenes": [
+        {
+          "busqueda": "International 4300 camion repartidor de Coca Cola (16229541429)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "otra empresa"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "La embotella [[otra empresa]]",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y en Colombia le va mejor que nunca: entre julio y septiembre vendió 104 millones de cajas, un récord.",
+      "imagenes": [
+        {
+          "busqueda": "Coca-Cola",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "104 millones",
+        "récord"
+      ],
+      "segun": "según Portafolio",
+      "fecha": "3T 2026",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "104M",
+          "etiqueta": "cajas en un trimestre",
+          "icono": "grafica_baja"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Sus ingresos en el país crecieron 40 por ciento en ese trimestre.",
+      "imagenes": [
+        {
+          "busqueda": "Coca-Cola truck",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "40"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "+40%",
+          "etiqueta": "ingresos en Colombia",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Colombia ya es el 10 por ciento de todo su volumen.",
+      "imagenes": [
+        {
+          "busqueda": "Ayco Motocarro Coca-Cola",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "10"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "10%",
+          "etiqueta": "de todo su volumen",
+          "progreso": 0.1
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Esa empresa es Coca-Cola FEMSA, de México.",
+      "imagenes": [
+        {
+          "busqueda": "Mexico City skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "FEMSA",
+        "México"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "cdmx",
+              "etiqueta": "México · Coca-Cola FEMSA"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Coca-Cola o Postobón?",
+      "imagenes": [
+        {
+          "busqueda": "Coca-Cola",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "La marca es de The Coca-Cola Company, pero en Colombia la embotella y distribuye Coca-Cola FEMSA, la embotelladora mexicana. Entre julio y septiembre de 2026 vendió en el país 104,3 millones de cajas unidad, un récord para un tercer trimestre, y sus ingresos en Colombia crecieron 40,5 %. Colombia fue el 10 % de su volumen consolidado en ese trimestre.\n\nFuentes: Portafolio (29 oct. 2026), Forbes Colombia (3 nov. 2026).\n\n¿Coca-Cola o Postobón?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#CocaCola",
+    "#FEMSA",
+    "#Gaseosas",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Coca-Cola FEMSA en Colombia: 104,3 millones de cajas unidad en el 3T 2026 (récord de tercer trimestre); ingresos +40,5 % en el trimestre; Colombia, 10 % del volumen consolidado",
+      "url": "https://www.portafolio.co/negocios/industrias/coca-cola-femsa-aumento-40-5-sus-ingresos-en-colombia-en-el-tercer-trimestre-y-24-7-a-septiembre-505372"
+    },
+    {
+      "afirmacion": "Coca-Cola FEMSA, embotelladora mexicana, embotella y distribuye Coca-Cola en Colombia",
+      "url": "https://forbes.co/2026/11/03/negocios/colombia-impulsa-el-crecimiento-mundial-de-coca-cola-femsa-aporta-el-26/"
+    }
+  ]
+}

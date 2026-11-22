@@ -1,0 +1,224 @@
+{
+  "id": "2026-11-29-atletico-nacional-ardila",
+  "pilar": "biografias",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿De quién es [[Nacional]]?",
+    "dato": "Desde 1996",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Atlético Nacional es de la Organización Ardila Lülle desde 1996 (unos 8 millones de dólares y cerca del 75 %, según registros de la época), dueña también de RCN, Win Sports y Postobón",
+  "pregunta_principal": "¿Tú eres de Nacional o de Millonarios?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Atlético Nacional fue el primer equipo colombiano con una empresa privada detrás. ¿Sabes cuál?",
+      "imagenes": [
+        {
+          "busqueda": "Atanasio Girardot-Atlético Nacional-Fortaleza",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Estadio Atanasio Girardot-Medellin",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "empresa privada"
+      ],
+      "titulo": "¿De quién es [[Nacional]]?",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Nació en 1947 como Atlético Municipal de Medellín. En 1950 cambió a Nacional.",
+      "imagenes": [
+        {
+          "busqueda": "Estadio Atanasio Girardot-Medellin",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1947",
+        "1950"
+      ],
+      "fecha": "1947",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "medellin",
+              "etiqueta": "Medellín · 1947"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Durante años tuvo las finanzas débiles.",
+      "imagenes": [
+        {
+          "busqueda": "Medellín skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "finanzas débiles"
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El 6 de junio de 1996, una organización anunció que lo compraba.",
+      "imagenes": [
+        {
+          "busqueda": "Nacional Campeón Copa Colombia 2023",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "6 de junio de 1996"
+      ],
+      "fecha": "6 JUN. 1996",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Junio de 1996: [[lo compran]]",
+          "icono": "documentos"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Según registros de la época, pagó unos 8 millones de dólares y quedó con cerca del 75 por ciento.",
+      "imagenes": [
+        {
+          "busqueda": "Atanasio Girardot-Atlético Nacional-Fortaleza",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "8 millones",
+        "75"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "75%",
+          "etiqueta": "del club, según registros de la época",
+          "progreso": 0.75
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Es la misma dueña de RCN, Win Sports y Postobón.",
+      "imagenes": [
+        {
+          "busqueda": "Gaseosas Postobón",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "RCN",
+        "Win Sports",
+        "Postobón"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "tv",
+              "texto": "RCN"
+            },
+            {
+              "icono": "tv",
+              "texto": "Win Sports"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Postobón"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Es la Organización Ardila Lülle.",
+      "imagenes": [
+        {
+          "busqueda": "Nacional Campeón Copa Colombia 2023",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Ardila Lülle"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Nacional es de [[los Ardila]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú eres de Nacional o de Millonarios?",
+      "imagenes": [
+        {
+          "busqueda": "Estadio El Campín Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "El club nació el 7 de marzo de 1947 como Club Atlético Municipal de Medellín y en 1950 pasó a llamarse Atlético Nacional. El 6 de junio de 1996, la Organización Ardila Lülle anunció su compra: fue el primer equipo colombiano respaldado por una empresa privada. Según registros de la época, pagó unos 8 millones de dólares y quedó con cerca del 75 %, aunque no se conoce la cifra oficial. La OAL también es dueña de RCN Televisión, Win Sports y Postobón.\n\nFuentes: Valora Analitik (22 jun. 2023 y 7 dic. 2022).\n\n¿Tú eres de Nacional o de Millonarios?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#AtleticoNacional",
+    "#ArdilaLulle",
+    "#FutbolColombiano",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "La Organización Ardila Lülle anunció la compra de Atlético Nacional el 6 de junio de 1996, primer equipo colombiano respaldado por una empresa privada; registros de la época: unos 8 millones de dólares y cerca del 75 %; fundado en 1947 como Atlético Municipal de Medellín, Nacional desde 1950; finanzas débiles antes de la inversión",
+      "url": "https://www.valoraanalitik.com/2023/06/22/atletico-nacional-esta-es-la-historia-empresarial-y-deportiva-en-el-pais/"
+    },
+    {
+      "afirmacion": "La Organización Ardila Lülle es dueña de RCN Televisión, Win Sports, Postobón y Atlético Nacional",
+      "url": "https://www.valoraanalitik.com/?p=218954"
+    }
+  ]
+}

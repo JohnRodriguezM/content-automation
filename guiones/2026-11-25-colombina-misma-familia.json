@@ -1,0 +1,226 @@
+{
+  "id": "2026-11-25-colombina-misma-familia",
+  "pilar": "biografias",
+  "narrador": "john",
+  "portada": {
+    "texto": "Bon Bon Bum y Nucita: [[misma familia]]",
+    "dato": "Desde 1927",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Bon Bon Bum, Nucita, Chocobreak y Café Buendía son de Colombina, fundada en 1927 por Hernando Caicedo y presidida hoy por su nieto",
+  "pregunta_principal": "¿Qué es más tuyo: Bon Bon Bum o Nucita?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Bon Bon Bum, Nucita y Café Buendía. ¿Qué tienen en común?",
+      "imagenes": [
+        {
+          "busqueda": "lollipop red",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "hard candy",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "en común"
+      ],
+      "titulo": "Un solo [[dueño]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Son de Colombina, fundada por Hernando Caicedo en 1927.",
+      "imagenes": [
+        {
+          "busqueda": "Zarzal Valle del Cauca",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Colombina",
+        "1927"
+      ],
+      "fecha": "1927",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "zarzal",
+              "etiqueta": "La Paila · Valle del Cauca"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Su planta de La Paila es la de dulces más grande de Colombia.",
+      "imagenes": [
+        {
+          "busqueda": "candy factory machine",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "más grande"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "La planta de dulces [[más grande]] del país",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 1970 lanzó el Bon Bon Bum. Hoy produce unos 170 millones al mes.",
+      "imagenes": [
+        {
+          "busqueda": "lollipops colorful",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1970",
+        "170 millones"
+      ],
+      "fecha": "1970",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "170M",
+          "etiqueta": "Bon Bon Bum al mes",
+          "icono": "reloj"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Lo curioso: la mitad de esos Bon Bon Bum se van del país, a unos 90 países.",
+      "imagenes": [
+        {
+          "busqueda": "candy store shelves",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "la mitad",
+        "90 países"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "50%",
+          "etiqueta": "se exporta",
+          "progreso": 0.5
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y compró en España la fábrica de dulces Fiesta, por 16,8 millones de euros.",
+      "imagenes": [
+        {
+          "busqueda": "bubble gum bubble",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "España",
+        "16,8 millones"
+      ],
+      "segun": "según Forbes",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "madrid",
+              "etiqueta": "España · Fiesta"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Casi cien años después, la preside César Caicedo, nieto del fundador.",
+      "imagenes": [
+        {
+          "busqueda": "sugar cane Valle del Cauca",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "nieto"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Tercera generación: [[los Caicedo]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué es más tuyo: Bon Bon Bum o Nucita?",
+      "imagenes": [
+        {
+          "busqueda": "lollipop red",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Bon Bon Bum, Nucita, Chocobreak, Café Buendía y la salsa La Constancia son de Colombina, fundada en 1927 por Hernando Caicedo. Su planta de La Paila (Zarzal, Valle del Cauca) es la mayor planta de dulces de Colombia, según Forbes.\n\nEl Bon Bon Bum salió en 1970; Colombina produce unos 170 millones al mes y exporta más de la mitad, a unos 90 países (Valora Analitik). También compró la confitera española Fiesta por 16,8 millones de euros. Hoy la preside César Caicedo, nieto del fundador.\n\nFuentes: Forbes Colombia (nov. 2022), Valora Analitik.\n\n¿Qué es más tuyo: Bon Bon Bum o Nucita?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Colombina",
+    "#BonBonBum",
+    "#MarcasColombianas",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Colombina fundada en 1927 por Hernando Caicedo; César Caicedo, su nieto, es presidente; la planta de La Paila-Zarzal es la mayor de dulces de Colombia; marcas Bon Bon Bum, Chocobreak, Nucita, Café Buendía; llega a 90 países; compró la española Fiesta por 16,8 millones de euros",
+      "url": "https://forbes.co/negocios/mucho-mas-que-dulces-la-historia-detras-del-exito-de-colombina"
+    },
+    {
+      "afirmacion": "Bon Bon Bum lanzado en 1970; 170 millones de unidades al mes; más de 85 millones exportados al mes",
+      "url": "https://www.valoraanalitik.com/?p=98037"
+    }
+  ]
+}

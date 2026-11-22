@@ -1,0 +1,235 @@
+{
+  "id": "2026-11-25-savital-ego-unilever",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "Savital ya [[no es colombiana]]",
+    "dato": "Desde 2017",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Savital y eGo eran marcas de la colombiana Quala; en 2017 las vendió a Unilever junto con Fortident, Bio-Expert y Aromatel",
+  "pregunta_principal": "Mándaselo a quien todavía cree que Savital es colombiana.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Savital y eGo nacieron colombianas. ¿Sabes de quién son hoy?",
+      "imagenes": [
+        {
+          "busqueda": "shampoo bottles",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "hair shampoo bottle",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "de quién son"
+      ],
+      "titulo": "Nacieron [[colombianas]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Eran de Quala, la misma empresa del Bonice y el Vive 100.",
+      "imagenes": [
+        {
+          "busqueda": "Street Vendor (Bogotá)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Quala"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Quala"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Bonice"
+            },
+            {
+              "icono": "bombilla",
+              "texto": "Vive 100"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Savital llegó a liderar en Colombia, y eGo, en Colombia y México.",
+      "imagenes": [
+        {
+          "busqueda": "shampoo supermarket shelf",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "liderar"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": false,
+          "puntos": [
+            {
+              "lugar": "bogota",
+              "etiqueta": "Savital · eGo"
+            },
+            {
+              "lugar": "cdmx",
+              "etiqueta": "eGo"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Entre todas sus marcas de aseo vendían más de 400 millones de dólares al año.",
+      "imagenes": [
+        {
+          "busqueda": "toothpaste tube",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "400 millones"
+      ],
+      "fecha": "2016",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$400M",
+          "etiqueta": "en ventas al año (2016)",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] En 2017, Quala las vendió todas. Hasta Fortident y Aromatel.",
+      "imagenes": [
+        {
+          "busqueda": "fabric softener bottle",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "las vendió todas"
+      ],
+      "fecha": "2017",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Quala [[vendió todo]] el aseo"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Quala dijo que se iba a concentrar en su negocio principal.",
+      "imagenes": [
+        {
+          "busqueda": "Popcorn bag popped",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "negocio principal"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Se quedó con [[lo de comer]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] ¿Quién las compró? Unilever.",
+      "imagenes": [
+        {
+          "busqueda": "Unilever House, London",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Unilever"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "londres",
+              "etiqueta": "Unilever"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mándaselo a quien todavía cree que Savital es colombiana.",
+      "imagenes": [
+        {
+          "busqueda": "shampoo bottles",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Savital y eGo eran de Quala, la empresa colombiana de Bonice y Vive 100. En 2017, Quala vendió a Unilever su negocio de cuidado personal y hogar: Savital/Savilé, eGo, Bio-Expert, Fortident y Aromatel, que en 2016 sumaban ventas de más de 400 millones de dólares. Savital y eGo eran líderes en Colombia, y eGo también en México, según ESM Magazine. Quala dijo que se concentraría en su negocio principal.\n\nFuentes: ESM Magazine (16 may. 2017), La República.\n\nMándaselo a quien todavía cree que Savital es colombiana.\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Savital",
+    "#eGo",
+    "#Quala",
+    "#Unilever",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Unilever adquirió las marcas de cuidado personal y hogar de Quala: Savital/Savilé, eGo, Bio-Expert, Fortident y Aromatel; ventas combinadas de más de 400 millones de dólares en 2016; posiciones líderes en Colombia (Savital y eGo) y México (eGo); Quala se concentra en su negocio principal",
+      "url": "https://www.esmmagazine.com/a-brands/unilever-acquires-qualas-personal-care-home-care-brands-43192"
+    },
+    {
+      "afirmacion": "Bonice y Vive 100 son marcas de Quala",
+      "url": "https://www.larepublica.co/empresas/las-polemicas-ventas-callejeras-de-quala-2320986"
+    }
+  ]
+}
