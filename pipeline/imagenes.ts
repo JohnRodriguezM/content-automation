@@ -93,6 +93,26 @@ async function pedir(url: string | URL, init: RequestInit = {}, intentos = 5): P
   }
 }
 
+/**
+ * Descarga una foto de Commons. Si la miniatura de 1280 sigue en 429 después de los reintentos, prueba la de 960
+ * (otra caché) y luego el original: con varios renders en paralelo, la de 1280 se quedaba sin bajar y la escena
+ * terminaba con una foto repetida.
+ */
+async function descargar(url: string): Promise<Response> {
+  const variantes = [url];
+  const m = url.match(/^(https:\/\/upload\.wikimedia\.org\/wikipedia\/commons)\/thumb(\/[0-9a-f]\/[0-9a-f]{2}\/[^/]+)\/(\d+)px-[^/]+$/);
+  if (m) {
+    if (m[3] !== "960") variantes.push(url.replace(/\/\d+px-([^/]+)$/, "/960px-$1"));
+    variantes.push(m[1] + m[2]);
+  }
+  let r!: Response;
+  for (const v of variantes) {
+    r = await pedir(v, {}, v === url ? 5 : 3);
+    if (r.ok) return r;
+  }
+  return r;
+}
+
 export async function resolverImagenes(g: Guion, rehacer = false, guardar?: () => Promise<void>): Promise<Guion> {
   const dir = path.join(RAIZ, "public", "img", g.id);
   await mkdir(dir, { recursive: true });
@@ -118,7 +138,7 @@ export async function resolverImagenes(g: Guion, rehacer = false, guardar?: () =
         Object.assign(img, c);
         usadas.add(c.url);
       }
-      const r = await pedir(img.url!);
+      const r = await descargar(img.url!);
       if (!r.ok) { console.warn(`  ⚠ escena ${i + 1}.${j + 1}: descarga ${r.status}`); continue; }
       await writeFile(path.join(RAIZ, "public", rel), Buffer.from(await r.arrayBuffer()));
       img.archivo = rel;
