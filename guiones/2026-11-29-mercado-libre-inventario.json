@@ -26,13 +26,13 @@
       "narracion": "[curious] Mover tu inventario puede vender más que mejorar tu anuncio.",
       "imagenes": [
         {
-          "busqueda": "warehouse shelves",
+          "busqueda": "Shelves stocked with boxes and carts in a spacious warehouse environment during daylight hours",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
         },
         {
-          "busqueda": "Carro do Mercado Livre",
+          "busqueda": "Warehouse distribution-center-1136510",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -189,7 +189,7 @@
       "narracion": "¿Tú compras más cuando te lo entregan el mismo día?",
       "imagenes": [
         {
-          "busqueda": "Carro do Mercado Livre",
+          "busqueda": "Shelves stocked with boxes and carts in a spacious warehouse environment during daylight hours",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
