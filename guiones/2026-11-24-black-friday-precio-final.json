@@ -16,13 +16,13 @@
       "narracion": "[curious] Un 30 % de descuento puede salirte más caro. ¿Cómo?",
       "imagenes": [
         {
-          "busqueda": "flat screen television store",
+          "busqueda": "A Television Store at downtown Taichung",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
         },
         {
-          "busqueda": "shopping cart",
+          "busqueda": "Black Friday Sale sign, Rotterdam-Centrum",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -85,7 +85,7 @@
       "narracion": "Pero la A cobra 150.000 de envío e instalación. La B, nada.",
       "imagenes": [
         {
-          "busqueda": "delivery truck",
+          "busqueda": "delivery van",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"

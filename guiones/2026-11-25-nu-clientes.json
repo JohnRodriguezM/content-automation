@@ -2,6 +2,12 @@
   "id": "2026-11-25-nu-clientes",
   "pilar": "negocios",
   "narrador": "sebas",
+  "logo": {
+    "busqueda": "Nubank logo 2021",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
   "portada": {
     "texto": "6,1 millones de [[clientes]]",
     "dato": "¿Y qué significa?",
@@ -16,13 +22,13 @@
       "narracion": "[curious] Nu ya tiene 6,1 millones de clientes en Colombia. ¿Qué significa?",
       "imagenes": [
         {
-          "busqueda": "Nubank card",
+          "busqueda": "mobile banking app",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
         },
         {
-          "busqueda": "Nubank",
+          "busqueda": "credit cards",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -87,7 +93,7 @@
       "narracion": "Y su cartera de crédito en Colombia creció 80 % en un año.",
       "imagenes": [
         {
-          "busqueda": "Nubank card",
+          "busqueda": "credit card in hand",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -183,7 +189,7 @@
       "narracion": "Mañana: por qué Nu quiere tu plata guardada ahí.",
       "imagenes": [
         {
-          "busqueda": "Nubank card",
+          "busqueda": "mobile banking app",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
