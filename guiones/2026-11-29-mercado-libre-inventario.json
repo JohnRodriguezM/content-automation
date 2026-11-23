@@ -2,6 +2,16 @@
   "id": "2026-11-29-mercado-libre-inventario",
   "pilar": "negocios",
   "narrador": "sebas",
+  "logo": {
+    "busqueda": "MercadoLibre logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MercadoLibre_logo.PNG?width=800",
+    "credito": "Foto: MercadoLibre · Public domain · Wikimedia Commons",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:MercadoLibre_logo.PNG"
+  },
   "portada": {
     "texto": "Mueve el [[inventario]]",
     "dato": "Mercado Libre por dentro",
@@ -22,7 +32,7 @@
           "filtro": "ninguno"
         },
         {
-          "busqueda": "Mercado Libre warehouse",
+          "busqueda": "Carro do Mercado Livre",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -179,7 +189,7 @@
       "narracion": "¿Tú compras más cuando te lo entregan el mismo día?",
       "imagenes": [
         {
-          "busqueda": "Mercado Libre van",
+          "busqueda": "Carro do Mercado Livre",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
