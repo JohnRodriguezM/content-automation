@@ -100,7 +100,7 @@
       "narracion": "[pause] La comisión no sale del precio. Sale de tu ganancia: se llevó casi el 12 %.",
       "imagenes": [
         {
-          "busqueda": "coins",
+          "busqueda": "Colombian peso coins",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -130,7 +130,7 @@
       "narracion": "Si tu margen es más bajo, el golpe es mayor.",
       "imagenes": [
         {
-          "busqueda": "cash",
+          "busqueda": "Colombian peso banknotes",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
