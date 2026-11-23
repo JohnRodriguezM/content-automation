@@ -22,13 +22,13 @@
       "narracion": "[curious] Tu ahorro en Nu también trabaja para Nu.",
       "imagenes": [
         {
-          "busqueda": "piggy bank",
+          "busqueda": "coins in glass jar",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
         },
         {
-          "busqueda": "mobile banking app",
+          "busqueda": "smartphone in hand",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -175,7 +175,7 @@
       "narracion": "¿Tú ahorras en Nu o en un banco tradicional?",
       "imagenes": [
         {
-          "busqueda": "piggy bank",
+          "busqueda": "coins in glass jar",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
