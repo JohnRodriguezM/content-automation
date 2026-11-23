@@ -22,7 +22,7 @@
           "filtro": "ninguno"
         },
         {
-          "busqueda": "avocado packing house",
+          "busqueda": "avocado orchard",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -39,7 +39,7 @@
       "narracion": "Cerca del 76 % de la producción va a la Unión Europea y a Estados Unidos.",
       "imagenes": [
         {
-          "busqueda": "avocado farm",
+          "busqueda": "avocado harvest",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -100,7 +100,7 @@
       "narracion": "[pause] La inspección se hace en origen, en empacadoras y centros de consolidación habilitados.",
       "imagenes": [
         {
-          "busqueda": "fruit packing plant",
+          "busqueda": "fruit packing line",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -123,7 +123,7 @@
       "narracion": "El ICA dice que inspeccionar ahí reduce el riesgo de rechazos en destino.",
       "imagenes": [
         {
-          "busqueda": "avocado packing house",
+          "busqueda": "avocados in crates",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -157,7 +157,7 @@
       "narracion": "[thoughtful] Exportar empieza en la finca, mucho antes del puerto.",
       "imagenes": [
         {
-          "busqueda": "avocado farm",
+          "busqueda": "avocado tree",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
