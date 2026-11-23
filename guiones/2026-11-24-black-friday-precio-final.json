@@ -16,13 +16,13 @@
       "narracion": "[curious] Un 30 % de descuento puede salirte más caro. ¿Cómo?",
       "imagenes": [
         {
-          "busqueda": "A Television Store at downtown Taichung",
+          "busqueda": "Black Friday Sale sign, Rotterdam-Centrum, Rotterdam (2020) 02",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
         },
         {
-          "busqueda": "Black Friday Sale sign, Rotterdam-Centrum",
+          "busqueda": "A flat-screen television",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -39,7 +39,7 @@
       "narracion": "Ejemplo: la tienda A rebaja un televisor de 2 millones a 1,4 millones. 30 % menos.",
       "imagenes": [
         {
-          "busqueda": "flat screen television",
+          "busqueda": "A flat-screen television",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -62,7 +62,7 @@
       "narracion": "La tienda B lo deja en 1,5 millones: 25 % menos.",
       "imagenes": [
         {
-          "busqueda": "flat screen television",
+          "busqueda": "Techwood flat screen television from 2010",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -85,7 +85,7 @@
       "narracion": "Pero la A cobra 150.000 de envío e instalación. La B, nada.",
       "imagenes": [
         {
-          "busqueda": "delivery van",
+          "busqueda": "Warehouse distribution-center-1136510",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -176,7 +176,7 @@
       "narracion": "Mañana: la promoción que vende todo y te deja sin caja.",
       "imagenes": [
         {
-          "busqueda": "shopping bags",
+          "busqueda": "Black Friday Sale sign, Rotterdam-Centrum, Rotterdam (2020) 01",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
