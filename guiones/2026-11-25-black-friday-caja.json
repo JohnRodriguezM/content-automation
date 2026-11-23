@@ -16,7 +16,7 @@
       "narracion": "[serious] Tu promoción puede venderlo todo y dejarte sin plata.",
       "imagenes": [
         {
-          "busqueda": "warehouse boxes",
+          "busqueda": "cardboard boxes stacked",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -109,7 +109,7 @@
       "narracion": "[pause] Y el 30 tiene que pagar arriendo y nómina. Vendió todo, pero no tiene con qué pagar.",
       "imagenes": [
         {
-          "busqueda": "calendar",
+          "busqueda": "wall calendar",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -177,7 +177,7 @@
       "narracion": "¿Tú haces ese calendario antes de una promoción?",
       "imagenes": [
         {
-          "busqueda": "warehouse boxes",
+          "busqueda": "cardboard boxes stacked",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
