@@ -1,0 +1,193 @@
+{
+  "id": "2026-11-27-rappi-vitrina",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "También se compra la [[vitrina]]",
+    "dato": "El otro negocio de Rappi",
+    "foto": "1.1",
+    "serie": "Rappi · 1/2"
+  },
+  "tema": "Rappi también vende visibilidad: el negocio de publicidad dentro de una app de domicilios",
+  "pregunta_principal": "Mañana: cómo saber si esa publicidad te dejó ganancia.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] En una app de domicilios también se compra una vitrina.",
+      "imagenes": [
+        {
+          "busqueda": "Rappi delivery",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Rappi",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "una vitrina"
+      ],
+      "titulo": "Se compra la [[vitrina]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Rappi tiene un negocio de publicidad: Rappi Ads.",
+      "imagenes": [
+        {
+          "busqueda": "Rappi",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Rappi Ads"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Rappi [[Ads]]",
+          "icono": "tv"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2024 tenía más de 620 marcas y 15.000 campañas activas en Colombia.",
+      "imagenes": [
+        {
+          "busqueda": "Rappi delivery bag",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "620 marcas"
+      ],
+      "fecha": "2024",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "15.000",
+          "etiqueta": "campañas activas (2024)",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y que la publicidad equivalía al 6,3 % de las ventas de retail dentro de la app.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone app",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "6,3 %"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "6,3 %",
+          "etiqueta": "de las ventas de retail en Rappi",
+          "progreso": 0.063
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] ¿Por qué pagan? Porque casi nadie entra sabiendo qué pedir.",
+      "imagenes": [
+        {
+          "busqueda": "restaurant food",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "qué pedir"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 2022, Rappi dijo que solo el 3 % compra en el primer restaurante que ve.",
+      "imagenes": [
+        {
+          "busqueda": "Rappi delivery",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "3 %"
+      ],
+      "fecha": "2022",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "3 %",
+          "etiqueta": "compra en el primer restaurante",
+          "icono": "pregunta",
+          "progreso": 0.03
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Si casi todos comparan, aparecer arriba vale plata. Pero pagar por aparecer no garantiza vender.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone app",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no garantiza vender"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mañana: cómo saber si esa publicidad te dejó ganancia.",
+      "imagenes": [
+        {
+          "busqueda": "Rappi",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Rappi Ads es el negocio de publicidad de Rappi. En 2024, su director global, Julián Mayorca, dijo que trabajaban con más de 620 marcas y más de 15.000 campañas activas en Colombia, y que la publicidad representaba el 6,3 % de las ventas de retail dentro de Rappi (La República). En 2022, Alejandro Galvis, de Rappi Ads, dijo que \"solamente en el 3 % de los casos un cliente entra y compra en el primer restaurante que vio, o que tenía planeado\" (Valora Analitik).\n\nNo todos los resultados de la app son anuncios, y pagar exposición no es lo mismo que conseguir una venta.\n\nFuentes: La República (8 jul. 2024), Valora Analitik (29 nov. 2022).\n\nMañana: cómo saber si esa publicidad te dejó ganancia.\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#Rappi",
+    "#Publicidad",
+    "#Negocios",
+    "#Colombia",
+    "#Restaurantes"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "RappiAds: más de 620 marcas, más de 15.000 campañas activas en Colombia, 6,3 % de las ventas de retail dentro de Rappi (2024)",
+      "url": "https://www.larepublica.co/empresas/rappiads-trabaja-en-la-actualidad-con-mas-de-620-marcas-y-lidera-15-000-campanas-3901880"
+    },
+    {
+      "afirmacion": "Solo en el 3 % de los casos un cliente compra en el primer restaurante que vio (2022)",
+      "url": "https://www.valoraanalitik.com/?p=217071"
+    }
+  ]
+}

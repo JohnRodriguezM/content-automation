@@ -1,0 +1,218 @@
+{
+  "id": "2026-11-29-mercado-libre-inversion",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "600 millones de [[dólares]]",
+    "dato": "Mercado Libre en Colombia",
+    "foto": "1.1",
+    "serie": "Mercado Libre · 1/2"
+  },
+  "tema": "Mercado Libre anunció US$600 millones de inversión en Colombia para 2026: dónde está la apuesta",
+  "pregunta_principal": "Esta noche: por qué el lugar donde está tu producto vende más que el anuncio.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Detrás de una entrega rápida hay 600 millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "Mercado Libre truck",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Mercado Libre",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "600 millones"
+      ],
+      "titulo": "600 millones de [[dólares]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Es lo que Mercado Libre anunció para Colombia en 2026: su mayor inversión aquí.",
+      "imagenes": [
+        {
+          "busqueda": "Mercado Libre warehouse",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mayor inversión"
+      ],
+      "fecha": "MAR. 2026",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$600 M",
+          "etiqueta": "inversión anunciada para 2026",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Son 27 % más que en 2025, para logística, tecnología, mercadeo y equipo.",
+      "imagenes": [
+        {
+          "busqueda": "Mercado Libre",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "27 %"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Logística"
+            },
+            {
+              "icono": "celular",
+              "texto": "Tecnología"
+            },
+            {
+              "icono": "tv",
+              "texto": "Mercadeo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Ya reúne más de 30.000 pymes vendiendo.",
+      "imagenes": [
+        {
+          "busqueda": "cardboard boxes packages",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "30.000 pymes"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "30.000",
+          "etiqueta": "pymes que venden en la plataforma",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Aquí el comercio electrónico llega al 8 %. En Latinoamérica, al 14 %.",
+      "imagenes": [
+        {
+          "busqueda": "online shopping laptop",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "8 %",
+        "14 %"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "8 %",
+            "texto": "Colombia",
+            "icono": "celular"
+          },
+          "despues": {
+            "valor": "14 %",
+            "texto": "Latinoamérica",
+            "icono": "celular"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Su gerente lo dijo así: mejor entrega, más ventas.",
+      "imagenes": [
+        {
+          "busqueda": "Mercado Libre van",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "venden más"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Cada vez que mejoramos nuestra promesa de entrega, vendemos más.",
+          "autor": "Doménico Barbato, Mercado Libre"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Es un plan anunciado, no plata ya gastada. Pero dice dónde está la apuesta: en la entrega.",
+      "imagenes": [
+        {
+          "busqueda": "Mercado Libre warehouse",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "en la entrega"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Esta noche: por qué el lugar donde está tu producto vende más que el anuncio.",
+      "imagenes": [
+        {
+          "busqueda": "Mercado Libre truck",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "En marzo de 2026, Mercado Libre anunció que invertirá US$600 millones en Colombia este año, su mayor inversión en el país (Bloomberg Línea), 27 % más que en 2025, para mercadeo, logística, equipo y operación local (Valora Analitik). Su ecosistema reúne 8 millones de compradores y vendedores, con más de 1.000 tiendas oficiales y más de 30.000 pymes. La penetración del comercio electrónico en Colombia ronda el 8 %, frente a 14 % en Latinoamérica. Doménico Barbato, gerente para Colombia y Venezuela: \"Cada vez que mejoramos nuestra promesa de entrega, vendemos más\".\n\nEs un presupuesto anunciado, no una ejecución comprobada.\n\nFuentes: Bloomberg Línea (19 mar. 2026), Valora Analitik (19 mar. 2026).\n\nEsta noche: por qué el lugar donde está tu producto vende más que el anuncio.\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#MercadoLibre",
+    "#Ecommerce",
+    "#Negocios",
+    "#Colombia",
+    "#Logística"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Mercado Libre invertirá US$600 millones en Colombia en 2026, su mayor inversión; 8 millones de compradores y vendedores; 1.000 tiendas oficiales y 30.000 pymes",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/mercado-libre-destinara-us600-millones-en-colombia-su-mayor-inversion-hasta-ahora-en-el-pais/"
+    },
+    {
+      "afirmacion": "27 % más que en 2025; mercadeo, logística, equipo; penetración del e-commerce 8 % vs. 14 % en Latinoamérica; cita de Doménico Barbato",
+      "url": "https://www.valoraanalitik.com/?p=564972"
+    }
+  ]
+}

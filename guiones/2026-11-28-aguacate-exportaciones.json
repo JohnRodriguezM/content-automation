@@ -1,0 +1,207 @@
+{
+  "id": "2026-11-28-aguacate-exportaciones",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "140.000 toneladas de [[aguacate]]",
+    "dato": "Meta de exportación 2026",
+    "foto": "1.1",
+    "serie": "Aguacate Hass · 1/2"
+  },
+  "tema": "Colombia espera exportar 140.000 toneladas de aguacate Hass en 2026: segundo proveedor de Europa y cuarto de Estados Unidos",
+  "pregunta_principal": "Mañana: lo que exige Estados Unidos antes de dejar entrar un aguacate.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Colombia espera exportar 140.000 toneladas de aguacate Hass este año.",
+      "imagenes": [
+        {
+          "busqueda": "Hass avocado",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "avocado farm",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "140.000"
+      ],
+      "titulo": "140.000 [[toneladas]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Lo dijo Corpohass, el gremio del aguacate, a comienzos de noviembre.",
+      "imagenes": [
+        {
+          "busqueda": "avocado tree",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Corpohass"
+      ],
+      "segun": "Corpohass",
+      "fecha": "NOV. 2026"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Solo en el primer semestre salieron 88.194 toneladas, por unos 169 millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "avocado harvest",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "88.194"
+      ],
+      "segun": "DIAN",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "88.194 t",
+          "etiqueta": "exportadas en el primer semestre",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Colombia ya es el segundo proveedor de Hass de Europa y el cuarto de Estados Unidos.",
+      "imagenes": [
+        {
+          "busqueda": "Port of Rotterdam",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "segundo",
+        "cuarto"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "medellin",
+              "etiqueta": "Colombia"
+            },
+            {
+              "lugar": "rotterdam",
+              "etiqueta": "Europa · 2.º"
+            },
+            {
+              "lugar": "nuevayork",
+              "etiqueta": "EE. UU. · 4.º"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Hay 39.474 hectáreas registradas, sobre todo en Antioquia y Caldas.",
+      "imagenes": [
+        {
+          "busqueda": "Antioquia landscape",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "39.474"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "39.474",
+          "etiqueta": "hectáreas registradas",
+          "icono": "edificio"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y más de 82.000 empleos directos en la cadena.",
+      "imagenes": [
+        {
+          "busqueda": "avocado harvest",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "82.000"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "82.000",
+          "etiqueta": "empleos directos",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Pero tener aguacates no basta para venderlos afuera.",
+      "imagenes": [
+        {
+          "busqueda": "Hass avocado",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no basta"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mañana: lo que exige Estados Unidos antes de dejar entrar un aguacate.",
+      "imagenes": [
+        {
+          "busqueda": "avocado tree",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Corpohass espera cerrar 2026 con 140.000 toneladas de aguacate Hass exportadas; Colombia es el segundo proveedor de Hass de Europa y el cuarto de Estados Unidos (Valora Analitik, 4 nov. 2026). En el primer semestre se exportaron 88.194 toneladas por cerca de US$168,9 millones, según la DIAN; hay 39.474 hectáreas registradas ante el ICA, con Antioquia (14.258) y Caldas (9.495) a la cabeza, y más de 82.000 empleos directos (Portafolio).\n\nLa meta de 140.000 toneladas es una proyección del gremio, no un resultado cerrado.\n\nFuentes: Valora Analitik (4 nov. 2026), Portafolio (4 oct. 2026).\n\nMañana: lo que exige Estados Unidos antes de dejar entrar un aguacate.\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#AguacateHass",
+    "#Exportaciones",
+    "#Agro",
+    "#Colombia",
+    "#Negocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Corpohass espera 140.000 toneladas exportadas en 2026; Colombia es 2.º proveedor de Hass de Europa y 4.º de EE. UU.",
+      "url": "https://www.valoraanalitik.com/?p=621155"
+    },
+    {
+      "afirmacion": "Primer semestre 2026: 88.194 toneladas por US$168,9 millones (DIAN); 39.474 hectáreas; Antioquia y Caldas; 82.000 empleos directos",
+      "url": "https://www.portafolio.co/economia/colombia-supera-las-39-000-hectareas-de-aguacate-hass-y-apunta-a-mayor-productividad-en-503861"
+    }
+  ]
+}

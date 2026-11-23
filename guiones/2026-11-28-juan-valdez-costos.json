@@ -1,0 +1,212 @@
+{
+  "id": "2026-11-28-juan-valdez-costos",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "Vendió mucho, [[ganó poco]]",
+    "dato": "Juan Valdez a septiembre",
+    "foto": "1.1",
+    "serie": "Juan Valdez · 2/2"
+  },
+  "tema": "Procafecol (Juan Valdez) vendió 722.592 millones a septiembre de 2026 y su utilidad neta fue de 6.023 millones",
+  "pregunta_principal": "¿Juan Valdez o el tinto de la esquina?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Juan Valdez vendió 722.592 millones. Le quedaron 6.023.",
+      "imagenes": [
+        {
+          "busqueda": "Juan Valdez en el Centro Internacional Tequendama",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "coffee cup",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "6.023"
+      ],
+      "titulo": "Vendió mucho, [[ganó poco]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Son las cifras de Procafecol, la dueña de las tiendas, de enero a septiembre de 2026.",
+      "imagenes": [
+        {
+          "busqueda": "Juan Valdez Café",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Procafecol"
+      ],
+      "segun": "Procafecol",
+      "fecha": "SEP. 2026"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Los ingresos crecieron 13 %. Las ventas fuera del país, 29 % en dólares.",
+      "imagenes": [
+        {
+          "busqueda": "coffee beans",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "13 %",
+        "29 %"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "+13 %",
+          "etiqueta": "ingresos enero-septiembre",
+          "icono": "grafica_baja"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Utilidad operacional: 40.741 millones. Utilidad neta: 6.023.",
+      "imagenes": [
+        {
+          "busqueda": "ground coffee bag",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "6.023"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$722.592 M",
+            "texto": "ingresos",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "$6.023 M",
+            "texto": "utilidad neta",
+            "icono": "dinero"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] De cada 100 pesos que vendió, le quedó menos de un peso.",
+      "imagenes": [
+        {
+          "busqueda": "coffee cup",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "menos de un peso"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "0,8 %",
+          "etiqueta": "margen neto",
+          "progreso": 0.008
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "La empresa lo atribuye al café más caro, al peso más fuerte y al alza del salario mínimo.",
+      "imagenes": [
+        {
+          "busqueda": "coffee plantation Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "café más caro"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "dinero",
+              "texto": "Café más caro"
+            },
+            {
+              "icono": "grafica_baja",
+              "texto": "Peso más fuerte"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Salario mínimo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Vender más no protege la rentabilidad si cada venta cuesta más.",
+      "imagenes": [
+        {
+          "busqueda": "Juan Valdez en el Centro Internacional Tequendama",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cada venta cuesta más"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Juan Valdez o el tinto de la esquina?",
+      "imagenes": [
+        {
+          "busqueda": "coffee cup",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Procafecol, la operadora de las tiendas Juan Valdez, tuvo ingresos operacionales de $722.592 millones entre enero y septiembre de 2026 (+13 %), utilidad operacional de $40.741 millones y utilidad neta de $6.023 millones. Las ventas internacionales crecieron 29 % en dólares, hasta US$40,5 millones. La empresa atribuyó la presión sobre la rentabilidad al mayor costo del café, la apreciación del peso y el aumento del salario mínimo (Portafolio, Valora Analitik).\n\nEl margen neto de 0,8 % es una cuenta nuestra con esas cifras.\n\nFuentes: Portafolio (17 nov. 2026), Valora Analitik (14 nov. 2026).\n\n¿Juan Valdez o el tinto de la esquina?\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#JuanValdez",
+    "#Café",
+    "#Negocios",
+    "#Colombia",
+    "#Finanzas"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Procafecol: ingresos $722.592 millones (+13 %), utilidad operacional $40.741 millones, utilidad neta $6.023 millones; exportaciones US$40,5 millones (+29 %); presiones por café, peso y salario mínimo",
+      "url": "https://www.portafolio.co/negocios/empresas/juan-valdez-cafe-aumento-13-sus-ingresos-a-septiembre-y-alcanzo-ventas-por-722-592-millones-506542"
+    },
+    {
+      "afirmacion": "Mismas cifras de Procafecol a septiembre de 2026",
+      "url": "https://www.valoraanalitik.com/?p=623091"
+    }
+  ]
+}

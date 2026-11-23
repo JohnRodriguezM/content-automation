@@ -1,0 +1,209 @@
+{
+  "id": "2026-11-29-mercado-libre-inventario",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "Mueve el [[inventario]]",
+    "dato": "Mercado Libre por dentro",
+    "foto": "1.1",
+    "serie": "Mercado Libre · 2/2"
+  },
+  "tema": "Por qué la ubicación del inventario puede vender más que el anuncio: entregas el mismo día y centros de distribución de Mercado Libre",
+  "pregunta_principal": "¿Tú compras más cuando te lo entregan el mismo día?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Mover tu inventario puede vender más que mejorar tu anuncio.",
+      "imagenes": [
+        {
+          "busqueda": "warehouse shelves",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Mercado Libre warehouse",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tu inventario"
+      ],
+      "titulo": "Mueve el [[inventario]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En Bogotá, Mercado Libre entrega el mismo día lo que compras antes de las 3 de la tarde.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "el mismo día"
+      ],
+      "fecha": "2026",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "3 p. m.",
+          "etiqueta": "hora límite para recibir hoy en Bogotá",
+          "icono": "reloj"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y está llevando esa entrega a Medellín, Cali y Barranquilla.",
+      "imagenes": [
+        {
+          "busqueda": "Medellín skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Medellín",
+        "Cali"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": false,
+          "puntos": [
+            {
+              "lugar": "bogota",
+              "etiqueta": "Bogotá"
+            },
+            {
+              "lugar": "medellin",
+              "etiqueta": "Medellín"
+            },
+            {
+              "lugar": "cali",
+              "etiqueta": "Cali"
+            },
+            {
+              "lugar": "barranquilla",
+              "etiqueta": "Barranquilla"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Al resto del país llega en 48 horas.",
+      "imagenes": [
+        {
+          "busqueda": "delivery van",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "48 horas"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Eso solo pasa si el producto ya está cerca, en un centro de distribución.",
+      "imagenes": [
+        {
+          "busqueda": "distribution center warehouse",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cerca del comprador"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Cerca del [[comprador]]",
+          "icono": "edificio"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 2024 abrió uno de 52.000 metros cuadrados, para 10 millones de unidades.",
+      "imagenes": [
+        {
+          "busqueda": "warehouse",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "52.000"
+      ],
+      "fecha": "2024",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "52.000 m²",
+          "etiqueta": "centro de distribución (2024)",
+          "icono": "edificio"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Para un vendedor, la pregunta no es solo cómo se ve el anuncio. Es dónde está la caja.",
+      "imagenes": [
+        {
+          "busqueda": "cardboard boxes",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "dónde está la caja"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú compras más cuando te lo entregan el mismo día?",
+      "imagenes": [
+        {
+          "busqueda": "Mercado Libre van",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "En Colombia, Mercado Libre entrega el mismo día en Bogotá los pedidos hechos antes de las 3:00 p. m., está extendiendo esa entrega a Medellín, Cali y Barranquilla, y llega a todo el país en 48 horas; su red ha tenido picos de 150.000 envíos en un día (Valora Analitik, mar. 2026). En 2024 abrió en Colombia un centro de distribución de 52.000 m², con capacidad para unos 10 millones de unidades, disponible para los vendedores del marketplace (The Logistics World).\n\nLa relación entre ubicación del inventario y entrega rápida es análisis de operación, no una promesa para cada pedido.\n\nFuentes: Valora Analitik (19 mar. 2026), The Logistics World (23 feb. 2024).\n\n¿Tú compras más cuando te lo entregan el mismo día?\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#MercadoLibre",
+    "#Logística",
+    "#Ecommerce",
+    "#Emprendimiento",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Entrega el mismo día en Bogotá antes de las 3 p. m.; expansión a Medellín, Cali y Barranquilla; todo el país en 48 horas; picos de 150.000 envíos diarios",
+      "url": "https://www.valoraanalitik.com/?p=564972"
+    },
+    {
+      "afirmacion": "Centro de distribución de 52.000 m² con capacidad para unos 10 millones de unidades, abierto a los vendedores (2024)",
+      "url": "https://thelogisticsworld.com/actualidad-logistica/mercado-libre-pone-en-marcha-un-nuevo-centro-de-distribucion-en-colombia"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "id": "2026-11-29-aguacate-acceso-sanitario",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "No basta con [[tener aguacates]]",
+    "dato": "Lo que pide EE. UU.",
+    "foto": "1.1",
+    "serie": "Aguacate Hass · 2/2"
+  },
+  "tema": "Qué exige Estados Unidos para dejar entrar el aguacate Hass colombiano: plan de trabajo, ICA e inspección en origen",
+  "pregunta_principal": "Mándaselo a alguien que tenga finca.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Tener aguacates no basta para venderlos en Estados Unidos.",
+      "imagenes": [
+        {
+          "busqueda": "Hass avocado",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "avocado packing house",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no basta"
+      ],
+      "titulo": "No basta con [[tenerlos]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Cerca del 76 % de la producción va a la Unión Europea y a Estados Unidos.",
+      "imagenes": [
+        {
+          "busqueda": "avocado farm",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "76 %"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "76 %",
+          "etiqueta": "de la producción va a la UE y EE. UU.",
+          "progreso": 0.76
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Para Estados Unidos, el lugar de producción tiene que postularse a un plan de trabajo con ese país.",
+      "imagenes": [
+        {
+          "busqueda": "avocado tree",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "plan de trabajo"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Postularse al [[plan de trabajo]]",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y cumplir una resolución del ICA de 2022 para mantener la admisibilidad.",
+      "imagenes": [
+        {
+          "busqueda": "avocado orchard",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ICA"
+      ],
+      "segun": "ICA"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] La inspección se hace en origen, en empacadoras y centros de consolidación habilitados.",
+      "imagenes": [
+        {
+          "busqueda": "fruit packing plant",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "en origen"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "33",
+          "etiqueta": "empresas habilitadas con ese modelo",
+          "icono": "edificio"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "El ICA dice que inspeccionar ahí reduce el riesgo de rechazos en destino.",
+      "imagenes": [
+        {
+          "busqueda": "avocado packing house",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "rechazos en destino"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Finca"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Empacadora"
+            },
+            {
+              "icono": "celular",
+              "texto": "Puerto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Exportar empieza en la finca, mucho antes del puerto.",
+      "imagenes": [
+        {
+          "busqueda": "avocado farm",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "en la finca"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mándaselo a alguien que tenga finca.",
+      "imagenes": [
+        {
+          "busqueda": "Hass avocado",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Para exportar aguacate Hass a Estados Unidos, los lugares de producción deben postularse al plan de trabajo operativo con ese país y cumplir la Resolución ICA 824 de 2022 para mantener la admisibilidad. Con el programa de Inspección en Puntos de Origen, las inspecciones fitosanitarias se hacen en empacadoras y centros de consolidación habilitados; a enero de 2026 operaban 33 empresas bajo ese modelo, y el ICA dice que reduce el riesgo de rechazos en destino (Portal Frutícola). Cerca del 76 % de la producción va a la Unión Europea y Estados Unidos (Portafolio).\n\nNo es una guía completa de cumplimiento: el proceso oficial vigente está en el ICA.\n\nFuentes: Portal Frutícola con información del ICA (8 ene. 2026), Portafolio (4 oct. 2026).\n\nMándaselo a alguien que tenga finca.\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#AguacateHass",
+    "#Exportaciones",
+    "#Agro",
+    "#ICA",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Postulación de lugares de producción al plan de trabajo con EE. UU., Resolución ICA 824 de 2022, inspección en origen en empacadoras y centros de consolidación, 33 empresas, menor riesgo de rechazos",
+      "url": "https://www.portalfruticola.com/noticias/2026/01/08/hass-colombia/"
+    },
+    {
+      "afirmacion": "Cerca del 76 % de la producción va a la Unión Europea y Estados Unidos",
+      "url": "https://www.portafolio.co/economia/colombia-supera-las-39-000-hectareas-de-aguacate-hass-y-apunta-a-mayor-productividad-en-503861"
+    }
+  ]
+}

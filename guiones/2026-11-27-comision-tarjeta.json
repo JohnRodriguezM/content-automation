@@ -1,0 +1,197 @@
+{
+  "id": "2026-11-27-comision-tarjeta",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "2 % que se come [[12 %]]",
+    "dato": "De tu ganancia",
+    "foto": "1.1",
+    "serie": "Cobrar · 2/2"
+  },
+  "tema": "Cuánto se lleva de la ganancia una comisión de 1,99 % más IVA por cobrar con tarjeta",
+  "pregunta_principal": "¿Tú cobras más con tarjeta o con QR?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Un 2 % que se come el 12 % de tu ganancia.",
+      "imagenes": [
+        {
+          "busqueda": "card payment terminal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "calculator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "12 %"
+      ],
+      "titulo": "2 % que se come [[12 %]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Ejemplo: vendes algo de 100.000 pesos con tarjeta, con la tarifa de 1,99 % más IVA.",
+      "imagenes": [
+        {
+          "busqueda": "credit card payment",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "100.000"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$100.000",
+          "etiqueta": "venta con tarjeta (ejemplo)",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Comisión: 1.990 pesos. IVA del 19 % sobre esa comisión: 378. Total: 2.368.",
+      "imagenes": [
+        {
+          "busqueda": "calculator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2.368"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$2.368",
+          "etiqueta": "comisión + IVA",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Parece poco. Pero en ese producto tu ganancia era de 20.000 pesos.",
+      "imagenes": [
+        {
+          "busqueda": "small shop Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "20.000"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] La comisión no sale del precio. Sale de tu ganancia: se llevó casi el 12 %.",
+      "imagenes": [
+        {
+          "busqueda": "coins",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "casi el 12 %"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$20.000",
+            "texto": "ganancia antes",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "$17.632",
+            "texto": "ganancia después",
+            "icono": "dinero"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Si tu margen es más bajo, el golpe es mayor.",
+      "imagenes": [
+        {
+          "busqueda": "cash",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "más bajo"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Menos margen, [[más golpe]]",
+          "icono": "grafica_baja"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Por eso vale la pena saber cuánto te cuesta cada medio de pago, no solo cuánto vendes.",
+      "imagenes": [
+        {
+          "busqueda": "QR code payment",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cada medio de pago"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú cobras más con tarjeta o con QR?",
+      "imagenes": [
+        {
+          "busqueda": "card payment terminal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Ejemplo hipotético con la tarifa que Nequi Negocios anunció para cobros con tarjeta en el celular, 1,99 % más IVA por venta (Noticias RCN): en una venta de $100.000, la comisión es $1.990 y el IVA del 19 % sobre ella es $378, en total $2.368. Si la ganancia de ese producto era $20.000, la comisión se lleva cerca del 12 %. La tarifa general del IVA en Colombia es 19 % (Portafolio).\n\nLos números son ilustrativos: verifica la tarifa exacta de tu producto y medio de pago.\n\nFuentes: Noticias RCN (29 sep. 2026), Portafolio (9 oct. 2024).\n\n¿Tú cobras más con tarjeta o con QR?\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#Pagos",
+    "#Emprendimiento",
+    "#Negocios",
+    "#Colombia",
+    "#Finanzas"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Nequi Negocios cobra 1,99 % más IVA por cada venta con tarjeta, sin mensualidad",
+      "url": "https://www.noticiasrcn.com/economia/nequi-asi-puede-recibir-pagos-con-tarjeta-desde-el-celular-1066183"
+    },
+    {
+      "afirmacion": "La tarifa general del IVA en Colombia es 19 %",
+      "url": "https://www.portafolio.co/economia/impuestos/de-cuanto-es-el-porcentaje-del-iva-en-colombia-615099"
+    }
+  ]
+}

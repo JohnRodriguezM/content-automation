@@ -1,0 +1,199 @@
+{
+  "id": "2026-11-26-nu-depositos",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "Tu ahorro [[trabaja]] para Nu",
+    "dato": "Así funciona",
+    "foto": "1.1",
+    "serie": "Nu · 2/2"
+  },
+  "tema": "Por qué una entidad financiera como Nu quiere tus depósitos: fondeo, intereses, costos y riesgo",
+  "pregunta_principal": "¿Tú ahorras en Nu o en un banco tradicional?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Tu ahorro en Nu también trabaja para Nu.",
+      "imagenes": [
+        {
+          "busqueda": "piggy bank",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Nubank card",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "trabaja para Nu"
+      ],
+      "titulo": "Tu ahorro [[trabaja]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Nu Colombia cerró el tercer trimestre con 3.500 millones de dólares en depósitos de personas.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "3.500 millones"
+      ],
+      "segun": "Nu",
+      "fecha": "SEP. 2026",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$3.500 M",
+          "etiqueta": "en depósitos de personas",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Según la compañía, es la cuarta base de ahorro más grande del país.",
+      "imagenes": [
+        {
+          "busqueda": "piggy bank coins",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cuarta"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "La [[cuarta]] base de ahorro",
+          "icono": "edificio"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "¿Para qué quiere tantos depósitos? Para prestar.",
+      "imagenes": [
+        {
+          "busqueda": "credit cards",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "para prestar"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Una entidad le paga intereses al que ahorra y cobra intereses más altos al que pide prestado.",
+      "imagenes": [
+        {
+          "busqueda": "calculator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "más altos"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "dinero",
+              "texto": "Le paga al que ahorra"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Le cobra al que presta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y su cartera en Colombia creció 80 % en un año. Necesita con qué fondearla.",
+      "imagenes": [
+        {
+          "busqueda": "Nubank card",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "80 %"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "+80 %",
+          "etiqueta": "cartera de crédito en un año",
+          "icono": "grafica_baja"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Pero esa diferencia no es ganancia pura. También paga costos y asume el riesgo de los que no pagan.",
+      "imagenes": [
+        {
+          "busqueda": "calculator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "el riesgo"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú ahorras en Nu o en un banco tradicional?",
+      "imagenes": [
+        {
+          "busqueda": "piggy bank",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Nu Colombia cerró el tercer trimestre de 2026 con US$3.500 millones en depósitos de personas naturales, la cuarta base de ahorro del país según la compañía, y una cartera de crédito que creció 80 % en un año (Forbes Colombia). En todo el grupo, la morosidad a más de 90 días subió de 6,9 % a 7,3 %.\n\nLa tasa que se paga al ahorrador, la que se cobra al deudor y la utilidad final son cosas distintas: entre una y otra están los costos y el riesgo de crédito. Esto no es una recomendación financiera.\n\nFuentes: Forbes Colombia (12 nov. 2026), La República (12 nov. 2026).\n\n¿Tú ahorras en Nu o en un banco tradicional?\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#Nu",
+    "#Ahorro",
+    "#Finanzas",
+    "#Colombia",
+    "#Fintech"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Depósitos de personas naturales en Nu Colombia: US$3.500 millones, cuarta base de ahorro del país; cartera +80 %",
+      "url": "https://forbes.co/2026/11/12/economia-y-finanzas/nu-llega-a-61-millones-de-clientes-en-colombia-y-reporta-utilidad-global-de-us1-100-millones/"
+    },
+    {
+      "afirmacion": "Resultados del tercer trimestre de 2026 de Nu Holdings",
+      "url": "https://www.larepublica.co/finanzas/nubank-registro-una-utilidad-neta-record-de-us-1-100-millones-hasta-septiembre-4523767"
+    }
+  ]
+}

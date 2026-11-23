@@ -1,0 +1,199 @@
+{
+  "id": "2026-11-26-celular-datafono",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "Tu celular, [[datáfono]]",
+    "dato": "¿Cuánto cuesta?",
+    "foto": "1.1",
+    "serie": "Cobrar · 1/2"
+  },
+  "tema": "Nequi Negocios convierte el celular en datáfono: cómo funciona y cuánto cuesta cobrar con tarjeta",
+  "pregunta_principal": "Mañana: cuánto se lleva esa comisión de tu ganancia.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Tu celular ya puede ser un datáfono. ¿Cuánto cuesta?",
+      "imagenes": [
+        {
+          "busqueda": "contactless payment smartphone",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "NFC payment",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "datáfono"
+      ],
+      "titulo": "Tu celular, [[datáfono]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Desde finales de septiembre, Nequi Negocios deja cobrar con tarjeta acercándola al celular.",
+      "imagenes": [
+        {
+          "busqueda": "contactless card payment",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Nequi Negocios"
+      ],
+      "fecha": "SEP. 2026"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Funciona en Android con NFC y recibe débito y crédito Visa y Mastercard.",
+      "imagenes": [
+        {
+          "busqueda": "Android smartphone",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Android con NFC"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "celular",
+              "texto": "Android con NFC"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Visa y Mastercard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Sin aparato y sin mensualidad.",
+      "imagenes": [
+        {
+          "busqueda": "card payment terminal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "sin mensualidad"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Sin aparato, [[sin mensualidad]]",
+          "icono": "celular"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Pero no es gratis: cobra 1,99 % más IVA por cada venta con tarjeta.",
+      "imagenes": [
+        {
+          "busqueda": "credit card",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1,99 %"
+      ],
+      "segun": "Noticias RCN",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "1,99 %",
+          "etiqueta": "+ IVA por venta con tarjeta",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Compite con jugadores como Bold, que empezó con datáfonos y hoy procesa unos 20 billones de pesos al año.",
+      "imagenes": [
+        {
+          "busqueda": "card payment terminal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "20 billones"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$20 bill",
+          "etiqueta": "procesa Bold al año",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] El aparato era el costo que se veía. La comisión por venta es la que se queda.",
+      "imagenes": [
+        {
+          "busqueda": "small shop Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "la que se queda"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mañana: cuánto se lleva esa comisión de tu ganancia.",
+      "imagenes": [
+        {
+          "busqueda": "contactless payment smartphone",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Desde finales de septiembre de 2026, Nequi Negocios permite recibir pagos con tarjeta en el celular, sin datáfono físico: funciona en Android con NFC, acepta tarjetas débito y crédito Visa y Mastercard, los pagos los procesa Wompi y cobra 1,99 % más IVA por cada venta con tarjeta, sin cuota mensual. Tiene más de 137.000 comercios registrados (Noticias RCN). Bold, que empezó con datáfonos para pequeños negocios, procesa unos $20 billones al año en pagos (Portafolio).\n\nVerifica las tarifas vigentes antes de elegir: cambian por producto y plan.\n\nFuentes: Noticias RCN (29 sep. 2026), Portafolio (16 oct. 2026).\n\nMañana: cuánto se lleva esa comisión de tu ganancia.\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#Pagos",
+    "#Emprendimiento",
+    "#Negocios",
+    "#Colombia",
+    "#Datáfono"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Nequi Negocios: cobro con tarjeta en el celular Android con NFC, Visa y Mastercard, Wompi, 1,99 % + IVA por venta, sin mensualidad, más de 137.000 comercios",
+      "url": "https://www.noticiasrcn.com/economia/nequi-asi-puede-recibir-pagos-con-tarjeta-desde-el-celular-1066183"
+    },
+    {
+      "afirmacion": "Bold empezó con datáfonos para pequeños negocios y procesa unos $20 billones al año",
+      "url": "https://www.portafolio.co/mis-finanzas/ahorro/bold-entra-a-competir-con-los-bancos-lanza-cuenta-digital-que-paga-10-e-a-y-cdt-de-hasta-12-504590"
+    }
+  ]
+}

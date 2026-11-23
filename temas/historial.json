@@ -1584,5 +1584,155 @@
     "categoria": "negocios-por-dentro",
     "franja": "19:30",
     "serie": "Black Friday · 3/3"
+  },
+  {
+    "id": "2026-11-26-bre-b-llaves",
+    "tema": "Bre-B tiene 116 millones de llaves pero 36 millones de usuarios: cómo leer una métrica",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Bre-B",
+      "Banco de la República"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "07:30",
+    "serie": "Bre-B · 2/2"
+  },
+  {
+    "id": "2026-11-26-nu-depositos",
+    "tema": "Por qué una entidad financiera como Nu quiere tus depósitos: fondeo, intereses, costos y riesgo",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Nu"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "12:30",
+    "serie": "Nu · 2/2"
+  },
+  {
+    "id": "2026-11-26-celular-datafono",
+    "tema": "Nequi Negocios convierte el celular en datáfono: cómo funciona y cuánto cuesta cobrar con tarjeta",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Nequi Negocios",
+      "Bold"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "19:30",
+    "serie": "Cobrar · 1/2"
+  },
+  {
+    "id": "2026-11-27-rappi-vitrina",
+    "tema": "Rappi también vende visibilidad: el negocio de publicidad dentro de una app de domicilios",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Rappi"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "07:30",
+    "serie": "Rappi · 1/2"
+  },
+  {
+    "id": "2026-11-27-juan-valdez-canada",
+    "tema": "Juan Valdez llegó a Canadá por los supermercados y no por cafeterías: producto empacado frente a tienda propia",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Juan Valdez",
+      "Procafecol"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "12:30",
+    "serie": "Juan Valdez · 1/2"
+  },
+  {
+    "id": "2026-11-27-comision-tarjeta",
+    "tema": "Cuánto se lleva de la ganancia una comisión de 1,99 % más IVA por cobrar con tarjeta",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Nequi Negocios"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "19:30",
+    "serie": "Cobrar · 2/2"
+  },
+  {
+    "id": "2026-11-28-juan-valdez-costos",
+    "tema": "Procafecol (Juan Valdez) vendió 722.592 millones a septiembre de 2026 y su utilidad neta fue de 6.023 millones",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Juan Valdez",
+      "Procafecol"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "07:30",
+    "serie": "Juan Valdez · 2/2"
+  },
+  {
+    "id": "2026-11-28-rappi-publicidad-cuenta",
+    "tema": "Cómo calcular si la publicidad en una app de domicilios dejó ganancia: pedidos incrementales y punto de equilibrio",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Rappi"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "12:30",
+    "serie": "Rappi · 2/2"
+  },
+  {
+    "id": "2026-11-28-aguacate-exportaciones",
+    "tema": "Colombia espera exportar 140.000 toneladas de aguacate Hass en 2026: segundo proveedor de Europa y cuarto de Estados Unidos",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Corpohass",
+      "ICA"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "19:30",
+    "serie": "Aguacate Hass · 1/2"
+  },
+  {
+    "id": "2026-11-29-aguacate-acceso-sanitario",
+    "tema": "Qué exige Estados Unidos para dejar entrar el aguacate Hass colombiano: plan de trabajo, ICA e inspección en origen",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Corpohass",
+      "ICA"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "07:30",
+    "serie": "Aguacate Hass · 2/2"
+  },
+  {
+    "id": "2026-11-29-mercado-libre-inversion",
+    "tema": "Mercado Libre anunció US$600 millones de inversión en Colombia para 2026: dónde está la apuesta",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Mercado Libre"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "12:30",
+    "serie": "Mercado Libre · 1/2"
+  },
+  {
+    "id": "2026-11-29-mercado-libre-inventario",
+    "tema": "Por qué la ubicación del inventario puede vender más que el anuncio: entregas el mismo día y centros de distribución de Mercado Libre",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Mercado Libre"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "19:30",
+    "serie": "Mercado Libre · 2/2"
   }
 ]

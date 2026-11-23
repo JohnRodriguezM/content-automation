@@ -1,0 +1,190 @@
+{
+  "id": "2026-11-28-rappi-publicidad-cuenta",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "¿Cuánto [[ganaste]]?",
+    "dato": "Publicidad en apps",
+    "foto": "1.1",
+    "serie": "Rappi · 2/2"
+  },
+  "tema": "Cómo calcular si la publicidad en una app de domicilios dejó ganancia: pedidos incrementales y punto de equilibrio",
+  "pregunta_principal": "¿Tú sabes cuántos pedidos te trae de verdad la publicidad?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Pagar por aparecer no te dice cuánto ganaste.",
+      "imagenes": [
+        {
+          "busqueda": "restaurant kitchen",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "smartphone app",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cuánto ganaste"
+      ],
+      "titulo": "¿Cuánto [[ganaste]]?",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Ejemplo: tu restaurante invierte 300.000 pesos en una semana de publicidad en una app.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone food delivery app",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "300.000"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$300.000",
+          "etiqueta": "una semana de anuncios (ejemplo)",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Cada pedido te deja 6.000 pesos después de costos y comisión.",
+      "imagenes": [
+        {
+          "busqueda": "food delivery",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "6.000"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Para recuperar la inversión necesitas 50 pedidos que no habrías tenido sin el anuncio.",
+      "imagenes": [
+        {
+          "busqueda": "calculator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "50 pedidos"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "50",
+          "etiqueta": "pedidos extra para no perder",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] La campaña trae 80 pedidos. Pero 40 eran clientes que igual iban a pedir.",
+      "imagenes": [
+        {
+          "busqueda": "restaurant",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "igual iban a pedir"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Solo 40 fueron extra: 240.000 pesos. Perdiste 60.000 aunque el anuncio funcionó.",
+      "imagenes": [
+        {
+          "busqueda": "calculator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Perdiste 60.000"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$300.000",
+            "texto": "inversión",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "$240.000",
+            "texto": "lo que recuperaste",
+            "icono": "dinero"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Por eso Rappi dice que mide el retorno con grupos de control elegidos al azar.",
+      "imagenes": [
+        {
+          "busqueda": "Rappi",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "grupos de control"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú sabes cuántos pedidos te trae de verdad la publicidad?",
+      "imagenes": [
+        {
+          "busqueda": "food delivery",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Ejemplo hipotético: un restaurante invierte $300.000 en una semana de anuncios y cada pedido le deja $6.000 de contribución. Necesita 50 pedidos adicionales para recuperar la inversión. Si la campaña trae 80 pedidos pero 40 habrían llegado sin el anuncio, solo 40 son incrementales ($240.000) y la campaña pierde $60.000. No describe a ningún restaurante real.\n\nEn 2022, Rappi dijo que realiza pruebas de control con grupos elegidos al azar para medir el retorno de la inversión de los restaurantes (Valora Analitik). Rappi Ads trabajaba en 2024 con más de 620 marcas en Colombia (La República).\n\nFuentes: Valora Analitik (29 nov. 2022), La República (8 jul. 2024).\n\n¿Tú sabes cuántos pedidos te trae de verdad la publicidad?\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#Rappi",
+    "#Publicidad",
+    "#Restaurantes",
+    "#Emprendimiento",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Rappi realiza pruebas de control con grupos elegidos al azar para medir el retorno de la inversión de los restaurantes",
+      "url": "https://www.valoraanalitik.com/?p=217071"
+    },
+    {
+      "afirmacion": "Rappi Ads: más de 620 marcas activas en Colombia (2024)",
+      "url": "https://www.larepublica.co/empresas/rappiads-trabaja-en-la-actualidad-con-mas-de-620-marcas-y-lidera-15-000-campanas-3901880"
+    }
+  ]
+}

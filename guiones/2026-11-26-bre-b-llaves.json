@@ -1,0 +1,219 @@
+{
+  "id": "2026-11-26-bre-b-llaves",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "116 millones de [[llaves]]",
+    "dato": "No son 116 M de personas",
+    "foto": "1.1",
+    "serie": "Bre-B · 2/2"
+  },
+  "tema": "Bre-B tiene 116 millones de llaves pero 36 millones de usuarios: cómo leer una métrica",
+  "pregunta_principal": "¿Tú cuántas llaves de Bre-B tienes?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Bre-B tiene 116 millones de llaves. Colombia no tiene 116 millones de personas.",
+      "imagenes": [
+        {
+          "busqueda": "QR code payment",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Banco de la República Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "116 millones"
+      ],
+      "titulo": "116 millones de [[llaves]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Una llave reemplaza tu número de cuenta: tu celular, tu cédula o tu correo.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone in hand",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "número de cuenta"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "celular",
+              "texto": "Celular"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Cédula"
+            },
+            {
+              "icono": "pregunta",
+              "texto": "Correo o código"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Detrás de esas llaves hay más de 36 millones de usuarios registrados.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá street",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "36 millones"
+      ],
+      "segun": "Banco de la República",
+      "fecha": "OCT. 2026",
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "116 M",
+            "texto": "llaves registradas",
+            "icono": "celular"
+          },
+          "despues": {
+            "valor": "36 M",
+            "texto": "usuarios",
+            "icono": "celular"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "O sea, cada usuario tiene en promedio unas tres llaves.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tres llaves"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "≈3",
+          "etiqueta": "llaves por usuario",
+          "icono": "celular"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Lo que mide el uso: más de 1.700 millones de transferencias en un año.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone payment",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1.700 millones"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "1.700 M",
+          "etiqueta": "transferencias en un año",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y el 62 % fue por menos de 50.000 pesos: pagos del día a día.",
+      "imagenes": [
+        {
+          "busqueda": "small shop Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "62 %"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "62 %",
+          "etiqueta": "pagos de menos de $50.000",
+          "progreso": 0.62
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Una cifra grande no siempre mide lo que crees. Llaves no son personas, y registrarse no es usar.",
+      "imagenes": [
+        {
+          "busqueda": "QR code payment",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "registrarse no es usar"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú cuántas llaves de Bre-B tienes?",
+      "imagenes": [
+        {
+          "busqueda": "smartphone payment",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "En su primer año, Bre-B superó los 116 millones de llaves registradas y los 36 millones de usuarios, con más de 1.700 millones de transferencias; el 62 % de las operaciones fue por menos de $50.000, una señal de uso en pagos habituales entre personas y pequeños comercios (Banco de la República). Las llaves pueden ser alfanuméricas, número de celular, documento, correo o código de comercio (El País).\n\nLlaves, usuarios y transferencias miden cosas distintas: el promedio de unas tres llaves por usuario es una cuenta nuestra con esas cifras.\n\nFuentes: Banco de la República (6 oct. 2026), El País (6 oct. 2026).\n\n¿Tú cuántas llaves de Bre-B tienes?\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#BreB",
+    "#Pagos",
+    "#Finanzas",
+    "#Colombia",
+    "#Negocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Más de 116 millones de llaves, más de 36 millones de usuarios, más de 1.700 millones de transferencias, 62 % por menos de $50.000",
+      "url": "https://banrep.gov.co/es/noticias/bre-b-cumple-un-anio-en-colombia"
+    },
+    {
+      "afirmacion": "116 millones de llaves vinculadas a 36 millones de clientes; tipos de llave: alfanumérica, celular, documento, correo, código de comercio",
+      "url": "https://www.elpais.com.co/economia/en-su-primer-ano-bre-b-mueve-262-billones-y-alcanza-116-millones-de-llaves-en-colombia-0604.html"
+    }
+  ]
+}

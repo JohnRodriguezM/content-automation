@@ -1,0 +1,227 @@
+{
+  "id": "2026-11-27-juan-valdez-canada",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "Entró por la [[estantería]]",
+    "dato": "Juan Valdez en Canadá",
+    "foto": "1.1",
+    "serie": "Juan Valdez · 1/2"
+  },
+  "tema": "Juan Valdez llegó a Canadá por los supermercados y no por cafeterías: producto empacado frente a tienda propia",
+  "pregunta_principal": "Mañana: por qué vende más y aun así gana tan poco.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Juan Valdez entró a Canadá por la estantería, no por la cafetería.",
+      "imagenes": [
+        {
+          "busqueda": "Juan Valdez en el Centro Internacional Tequendama",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "ground coffee bag",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "la estantería"
+      ],
+      "titulo": "Entró por la [[estantería]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En septiembre empezó a vender en más de 400 puntos de venta en Canadá.",
+      "imagenes": [
+        {
+          "busqueda": "Toronto skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "400 puntos"
+      ],
+      "fecha": "SEP. 2026",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "bogota",
+              "etiqueta": "Colombia"
+            },
+            {
+              "lugar": "toronto",
+              "etiqueta": "Canadá · 400+ puntos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En cadenas de Loblaw y Metro, y en Amazon.",
+      "imagenes": [
+        {
+          "busqueda": "No Frills supermarket",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Loblaw",
+        "Metro"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Loblaw"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Metro"
+            },
+            {
+              "icono": "celular",
+              "texto": "Amazon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Arrancó con café molido y en grano. Las cápsulas vienen después.",
+      "imagenes": [
+        {
+          "busqueda": "coffee beans",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "molido",
+        "en grano"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Una cafetería exige arriendo, empleados y tiempo. Una bolsa en la estantería, no.",
+      "imagenes": [
+        {
+          "busqueda": "coffee bag supermarket shelf",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "una bolsa"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Cafetería: arriendo y equipo"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Bolsa: estantería ajena"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En otros países sí tiene tiendas: a septiembre eran 319 fuera de Colombia.",
+      "imagenes": [
+        {
+          "busqueda": "Juan Valdez en el Centro Internacional Tequendama",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "319"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "371",
+            "texto": "tiendas en Colombia",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "319",
+            "texto": "tiendas afuera",
+            "icono": "edificio"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Para entrar a un país nuevo, a veces es más barato probar con el producto que con el local.",
+      "imagenes": [
+        {
+          "busqueda": "coffee beans",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "el producto"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mañana: por qué vende más y aun así gana tan poco.",
+      "imagenes": [
+        {
+          "busqueda": "Juan Valdez en el Centro Internacional Tequendama",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "En septiembre de 2026, Juan Valdez empezó a vender en Canadá en más de 400 puntos de venta: Maxi y No Frills (Loblaw), Adonis (Metro), tiendas independientes y Amazon.ca, con café molido de tostión media y oscura y café en grano; las cápsulas llegarán después (Valora Analitik). A septiembre, la marca tenía 690 tiendas: 371 en Colombia y 319 en el exterior (Portafolio).\n\nNo todos esos puntos son cafeterías de la marca: en Canadá entró por el canal retail. La comparación entre canales es análisis nuestro.\n\nFuentes: Valora Analitik (22 sep. 2026), Portafolio (17 nov. 2026).\n\nMañana: por qué vende más y aun así gana tan poco.\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#JuanValdez",
+    "#Café",
+    "#Negocios",
+    "#Colombia",
+    "#Exportaciones"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Juan Valdez llegó a Canadá con más de 400 puntos de venta en Maxi, No Frills (Loblaw), Adonis (Metro), independientes y Amazon.ca; café molido y en grano; cápsulas después",
+      "url": "https://www.valoraanalitik.com/?p=613286"
+    },
+    {
+      "afirmacion": "690 tiendas a septiembre de 2026: 371 en Colombia y 319 en el exterior",
+      "url": "https://www.portafolio.co/negocios/empresas/juan-valdez-cafe-aumento-13-sus-ingresos-a-septiembre-y-alcanzo-ventas-por-722-592-millones-506542"
+    }
+  ]
+}
