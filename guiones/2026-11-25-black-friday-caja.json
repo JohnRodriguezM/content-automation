@@ -1,0 +1,207 @@
+{
+  "id": "2026-11-25-black-friday-caja",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "Vendes todo, [[sin caja]]",
+    "dato": "Black Friday · 3 de 3",
+    "foto": "1.1",
+    "serie": "Black Friday · 3/3"
+  },
+  "tema": "Una promoción de Black Friday puede vender todo y dejar al negocio sin caja: la diferencia entre ganancia y flujo de caja",
+  "pregunta_principal": "¿Tú haces ese calendario antes de una promoción?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Tu promoción puede venderlo todo y dejarte sin plata.",
+      "imagenes": [
+        {
+          "busqueda": "warehouse boxes",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "cash register",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "sin plata"
+      ],
+      "titulo": "Vendes todo, [[sin caja]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Ejemplo: una tienda compra 10 millones en inventario para el Black Friday. Lo paga el 20 de noviembre.",
+      "imagenes": [
+        {
+          "busqueda": "warehouse shelves boxes",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "10 millones"
+      ],
+      "fecha": "20 NOV.",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "-$10 M",
+          "etiqueta": "sale el 20 de noviembre",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El viernes 27 lo vende todo. Buen negocio.",
+      "imagenes": [
+        {
+          "busqueda": "Black Friday shopping",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "lo vende todo"
+      ],
+      "fecha": "27 NOV."
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Pero en el ejemplo, la mitad la vendió por una plataforma que le paga en dos semanas.",
+      "imagenes": [
+        {
+          "busqueda": "online shopping laptop",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "dos semanas"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "dinero",
+              "texto": "La mitad entra hoy"
+            },
+            {
+              "icono": "reloj",
+              "texto": "La otra, en 2 semanas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Y el 30 tiene que pagar arriendo y nómina. Vendió todo, pero no tiene con qué pagar.",
+      "imagenes": [
+        {
+          "busqueda": "calendar",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no tiene con qué pagar"
+      ],
+      "fecha": "30 NOV.",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Vendió todo, [[sin caja]]",
+          "icono": "grafica_baja"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "La ganancia dice cuánto ganaste. La caja dice cuánto tienes hoy.",
+      "imagenes": [
+        {
+          "busqueda": "accounting ledger",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cuánto tienes hoy"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "grafica_baja",
+              "texto": "Ganancia: cuánto ganaste"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Caja: cuánto tienes hoy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Antes de una promoción, pon en un calendario cuándo sale la plata y cuándo entra.",
+      "imagenes": [
+        {
+          "busqueda": "calendar planner",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "un calendario"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú haces ese calendario antes de una promoción?",
+      "imagenes": [
+        {
+          "busqueda": "warehouse boxes",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Ejemplo hipotético: una tienda paga $10 millones de inventario el 20 de noviembre, lo vende todo el Black Friday (27 de noviembre), pero la mitad entra en dos semanas porque se vendió por una plataforma. El 30 debe pagar arriendo y nómina. La venta fue buena; la caja, no. No describe a ninguna empresa real.\n\nEl Black Friday 2026 es el 27 de noviembre (Bloomberg Línea) y el 71 % de los compradores en línea todavía no había hecho sus compras de fin de año (Harris X para Amazon, Portafolio): la temporada sigue en diciembre.\n\nFuentes: Bloomberg Línea (19 oct. 2026), Portafolio (19 nov. 2026).\n\n¿Tú haces ese calendario antes de una promoción?\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#BlackFriday",
+    "#FlujoDeCaja",
+    "#Emprendimiento",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Black Friday 2026 en Colombia: viernes 27 de noviembre",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/cuando-es-el-black-friday-2026-en-colombia-cae-el-27-de-noviembre-y-asi-puede-preparar-sus-compras/"
+    },
+    {
+      "afirmacion": "71 % de los compradores en línea no había concretado sus compras de fin de año (Harris X para Amazon)",
+      "url": "https://www.portafolio.co/tecnologia/moda-tecnologia-y-belleza-lideran-las-preferencias-de-compra-de-los-colombianos-para-el-black-friday-506674"
+    }
+  ]
+}

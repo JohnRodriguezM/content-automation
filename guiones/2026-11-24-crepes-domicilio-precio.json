@@ -1,0 +1,189 @@
+{
+  "id": "2026-11-24-crepes-domicilio-precio",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "Mismo crepe, [[otro precio]]",
+    "dato": "Depende de dónde lo pidas",
+    "foto": "1.2",
+    "serie": "Crepes & Waffles · 2/2"
+  },
+  "tema": "Por qué un plato de Crepes & Waffles puede costar distinto en su canal propio y en una plataforma de domicilios",
+  "pregunta_principal": "¿Tú pides por la app o directo al restaurante?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Mismo crepe, otro precio. Depende de dónde lo pidas.",
+      "imagenes": [
+        {
+          "busqueda": "food delivery motorcycle",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "crepe with strawberries",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "otro precio"
+      ],
+      "titulo": "Mismo crepe, [[otro precio]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Crepes & Waffles tiene su propio canal de domicilios, desde su página.",
+      "imagenes": [
+        {
+          "busqueda": "CCI Centro Comercial Iñaquito - walking area - Crepes & Waffles Cadena de restaurantes",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "propio canal"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Canal [[propio]]",
+          "icono": "celular"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y desde 2020 tiene una flota propia de domiciliarias en motos eléctricas.",
+      "imagenes": [
+        {
+          "busqueda": "electric scooter delivery",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "flota propia"
+      ],
+      "fecha": "2020"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Pero también la encuentras en apps de domicilios.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone food delivery app",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "apps"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] En sus preguntas frecuentes lo explica: los precios de su canal son los que cobra la marca.",
+      "imagenes": [
+        {
+          "busqueda": "Ice cream display (Crepes & Waffles, Quito)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "los que cobra la marca"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Los precios que aparecen allí son los que cobra Crepes & Waffles.",
+          "autor": "Preguntas frecuentes de Crepes & Waffles"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En otras plataformas pueden ser más altos, por comisiones que la empresa no controla.",
+      "imagenes": [
+        {
+          "busqueda": "food delivery app",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "comisiones"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "dinero",
+              "texto": "Precio del plato"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Comisión de la app"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Cuando pides por una app, no solo pagas el plato. También pagas al intermediario.",
+      "imagenes": [
+        {
+          "busqueda": "crepe",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "al intermediario"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú pides por la app o directo al restaurante?",
+      "imagenes": [
+        {
+          "busqueda": "waffle with ice cream",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "En sus preguntas frecuentes, Crepes & Waffles explica que los precios de su menú de domicilios son los que cobra la marca y que en plataformas de terceros pueden ser más altos por las comisiones de esas plataformas, que la empresa no controla. Desde 2020 tiene una flota propia de domiciliarias en motos eléctricas y recibe pedidos desde su página (La República).\n\nNo es un cobro oculto ni un incumplimiento: es la diferencia entre el precio del plato y el costo del intermediario.\n\nFuentes: Crepes & Waffles (preguntas frecuentes, consulta nov. 2026), La República (4 jul. 2020).\n\n¿Tú pides por la app o directo al restaurante?\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#CrepesAndWaffles",
+    "#Domicilios",
+    "#Negocios",
+    "#Colombia",
+    "#Emprendimiento"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Los precios del canal de domicilios son los que cobra Crepes & Waffles; en plataformas de terceros pueden ser más altos por comisiones que no controla",
+      "url": "https://www.crepesywaffles.com/preguntas-frecuentes"
+    },
+    {
+      "afirmacion": "Desde 2020 tiene flota propia de domiciliarias en motos eléctricas; pedidos por su página",
+      "url": "https://www.larepublica.co/empresas/crepes-waffles-creo-su-propia-flota-de-domicilios-integrada-solo-por-mujeres-3027028"
+    }
+  ]
+}

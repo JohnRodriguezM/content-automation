@@ -1,0 +1,209 @@
+{
+  "id": "2026-11-23-crepes-sin-franquicias",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "¿Una [[franquicia]] de Crepes?",
+    "dato": "La respuesta sorprende",
+    "foto": "1.1",
+    "serie": "Crepes & Waffles · 1/2"
+  },
+  "tema": "Crepes & Waffles no vende franquicias: todos sus locales son inversión directa de la empresa",
+  "pregunta_principal": "Mañana: por qué tu crepe cuesta distinto si lo pides por app.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] ¿Cuánto cuesta una franquicia de Crepes & Waffles?",
+      "imagenes": [
+        {
+          "busqueda": "CCI Centro Comercial Iñaquito - walking area - Crepes & Waffles Cadena de restaurantes",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "crepe with strawberries",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "franquicia"
+      ],
+      "titulo": "¿Cuánto cuesta la [[franquicia]]?",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Nació en Bogotá en 1980.",
+      "imagenes": [
+        {
+          "busqueda": "crepe",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1980"
+      ],
+      "fecha": "1980",
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": true,
+          "puntos": [
+            {
+              "lugar": "bogota",
+              "etiqueta": "Bogotá · 1980"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2024 ya tenía más de 200 restaurantes, en Colombia, Ecuador, Chile, México y España.",
+      "imagenes": [
+        {
+          "busqueda": "Ice cream display (Crepes & Waffles, Quito)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "200 restaurantes"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "+200",
+          "etiqueta": "restaurantes (datos de 2024)",
+          "icono": "edificio"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Con ese tamaño, lo normal sería vender franquicias: otro pone la plata y la marca cobra.",
+      "imagenes": [
+        {
+          "busqueda": "restaurant kitchen",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "franquicias"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "dinero",
+              "texto": "Otro pone la plata"
+            },
+            {
+              "icono": "documentos",
+              "texto": "La marca cobra"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Pero en su página lo dice claro: Crepes & Waffles no tiene franquicias.",
+      "imagenes": [
+        {
+          "busqueda": "waffle with ice cream",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no tiene franquicias"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Crepes & Waffles no tiene franquicias.",
+          "autor": "Preguntas frecuentes de Crepes & Waffles"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Todos sus locales, aquí y afuera, son inversión directa de la empresa.",
+      "imagenes": [
+        {
+          "busqueda": "CCI Centro Comercial Iñaquito - walking area - Crepes & Waffles Cadena de restaurantes",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "inversión directa"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Todo es [[inversión propia]]",
+          "icono": "edificio"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] ¿Por qué? Dice que es para cuidar su filosofía artesanal y social. El costo es crecer con su propia plata.",
+      "imagenes": [
+        {
+          "busqueda": "crepe cooking",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "su propia plata"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mañana: por qué tu crepe cuesta distinto si lo pides por app.",
+      "imagenes": [
+        {
+          "busqueda": "waffle",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Crepes & Waffles nació en 1980 en Bogotá. En sus preguntas frecuentes responde: \"Crepes & Waffles no tiene franquicias\". Todos sus locales, en Colombia y en el exterior, son inversión directa de la compañía, y explica que no usa el modelo de franquicia para conservar su filosofía artesanal, artística y social. Con datos de 2024, tenía más de 200 restaurantes y 150 heladerías en Colombia, Ecuador, Chile, Venezuela, México y España, entre otros (Valora Analitik).\n\nLas ventajas y costos de no franquiciar son análisis nuestro, no un motivo declarado por la empresa.\n\nFuentes: Crepes & Waffles (preguntas frecuentes, consulta nov. 2026), Valora Analitik (ene. 2024).\n\nMañana: por qué tu crepe cuesta distinto si lo pides por app.\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#Negocios",
+    "#CrepesAndWaffles",
+    "#Franquicias",
+    "#Colombia",
+    "#Emprendimiento"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Crepes & Waffles no tiene franquicias; sus locales son inversión directa; no franquicia para conservar su filosofía artesanal y social",
+      "url": "https://www.crepesywaffles.com/preguntas-frecuentes"
+    },
+    {
+      "afirmacion": "Fundada en 1980 en Bogotá por Beatriz Fernández y su esposo; más de 200 restaurantes y 150 heladerías en Colombia, Ecuador, Chile, Venezuela, México y España (2024)",
+      "url": "https://www.valoraanalitik.com/?p=348345"
+    }
+  ]
+}

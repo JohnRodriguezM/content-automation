@@ -1,0 +1,197 @@
+{
+  "id": "2026-11-25-bre-b-domingo",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "Te pagó un [[domingo]]",
+    "dato": "¿Cuándo tienes la plata?",
+    "foto": "1.1",
+    "serie": "Bre-B · 1/2"
+  },
+  "tema": "Bre-B, el sistema de pagos inmediatos, y por qué importa para la caja de un negocio que la plata llegue al instante",
+  "pregunta_principal": "Mañana: por qué 116 millones de llaves no son 116 millones de personas.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Tu cliente te pagó un domingo. ¿Cuándo tienes la plata?",
+      "imagenes": [
+        {
+          "busqueda": "QR code payment",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "smartphone payment",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "domingo"
+      ],
+      "titulo": "Te pagó un [[domingo]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Con Bre-B, el sistema de pagos inmediatos del Banco de la República, llega al instante.",
+      "imagenes": [
+        {
+          "busqueda": "Banco de la República Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "al instante"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Llega [[al instante]]",
+          "icono": "reloj"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Funciona sin horarios y conecta 245 entidades.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone payment",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "245 entidades"
+      ],
+      "segun": "Banco de la República",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "245",
+          "etiqueta": "entidades conectadas",
+          "icono": "edificio"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En su primer año movió más de 262 billones de pesos.",
+      "imagenes": [
+        {
+          "busqueda": "Banco de la República Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "262 billones"
+      ],
+      "fecha": "OCT. 2026",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$262 bill",
+          "etiqueta": "movidos en el primer año",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Para un negocio cambia la caja: lo que vendes el domingo, lo usas el domingo.",
+      "imagenes": [
+        {
+          "busqueda": "small shop Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "el domingo"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y el 37 % de las operaciones fueron con código QR: escanear, verificar y pagar.",
+      "imagenes": [
+        {
+          "busqueda": "QR code payment",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "37 %"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "37 %",
+          "etiqueta": "de las operaciones, con QR",
+          "icono": "celular",
+          "progreso": 0.37
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Vender no es lo mismo que tener la plata. Lo que importa es cuándo llega.",
+      "imagenes": [
+        {
+          "busqueda": "cash register",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cuándo llega"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mañana: por qué 116 millones de llaves no son 116 millones de personas.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone payment",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Bre-B, el sistema de pagos inmediatos del Banco de la República, mueve la plata \"al instante\" y \"sin horarios\". En su primer año movió más de $262 billones en más de 1.700 millones de transferencias, con 245 entidades conectadas, y el 37 % de las operaciones se hizo con código QR (Banco de la República, 6 oct. 2026).\n\nPara un negocio, la diferencia está en la liquidez: cuándo puede usar la plata que cobró. Los servicios y condiciones dependen de cada entidad.\n\nFuentes: Banco de la República (6 oct. 2026), El País (6 oct. 2026).\n\nMañana: por qué 116 millones de llaves no son 116 millones de personas.\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#BreB",
+    "#Pagos",
+    "#Negocios",
+    "#Colombia",
+    "#Emprendimiento"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Bre-B: dinero al instante, sin horarios; 245 entidades; más de 1.700 millones de transferencias; más de $262 billones; 37 % con QR",
+      "url": "https://www.banrep.gov.co/es/pagos-inmediatos"
+    },
+    {
+      "afirmacion": "Primer año de Bre-B: más de 262 billones, 245 entidades",
+      "url": "https://banrep.gov.co/es/noticias/bre-b-cumple-un-anio-en-colombia"
+    },
+    {
+      "afirmacion": "Bre-B movió más de $262 billones en su primer año",
+      "url": "https://www.elpais.com.co/economia/en-su-primer-ano-bre-b-mueve-262-billones-y-alcanza-116-millones-de-llaves-en-colombia-0604.html"
+    }
+  ]
+}

@@ -96,6 +96,7 @@ export const LUGARES: Record<string, [number, number, string]> = {
   panama: [8.9824, -79.5199, "591"],
   cancun: [21.1619, -86.8515, "484"],
   montreal: [45.5017, -73.5673, "124"],
+  rotterdam: [51.9244, 4.4777, "528"],
   cdmx: [19.4326, -99.1332, "484"],
   sansalvador: [13.6929, -89.2182, "222"],
   lovaina: [50.8798, 4.7005, "056"],

@@ -1,0 +1,252 @@
+{
+  "id": "2026-11-24-motos-octubre",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "Ganó por [[57 motos]]",
+    "dato": "123.214 motos en octubre",
+    "foto": "1.1",
+    "serie": "Carros y motos · 2/2"
+  },
+  "tema": "En octubre de 2026 se matricularon 123.214 motos nuevas y la marca líder ganó por solo 57 unidades",
+  "pregunta_principal": "¿Tú tienes Bajaj, Suzuki u otra?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Una marca de motos ganó octubre por 57 motos. ¿Cuál?",
+      "imagenes": [
+        {
+          "busqueda": "Motociclistas em Bogotá (3326018921)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "motorcycle traffic",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "57 motos"
+      ],
+      "titulo": "Ganó por [[57 motos]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En octubre se matricularon 123.214 motos nuevas en Colombia, 24,7 % más que hace un año.",
+      "imagenes": [
+        {
+          "busqueda": "motorcycles parked",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "123.214"
+      ],
+      "segun": "ANDI y Fenalco",
+      "fecha": "OCT. 2026",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "123.214",
+          "etiqueta": "motos nuevas en octubre",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Son casi 27 motos por cada carro eléctrico del mes.",
+      "imagenes": [
+        {
+          "busqueda": "motorcycle dealership",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "27 motos"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "4.603",
+            "texto": "carros eléctricos",
+            "icono": "documentos"
+          },
+          "despues": {
+            "valor": "123.214",
+            "texto": "motos nuevas",
+            "icono": "documentos"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Casi la mitad, el 44,5 %, son de 101 a 125 centímetros cúbicos.",
+      "imagenes": [
+        {
+          "busqueda": "125cc motorcycle",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "44,5 %"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "44,5 %",
+          "etiqueta": "de 101 a 125 c.c.",
+          "progreso": 0.445
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Y el negocio no termina al venderlas: repuestos, talleres, cascos y seguros.",
+      "imagenes": [
+        {
+          "busqueda": "motorcycle repair shop",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "repuestos",
+        "talleres"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Repuestos"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Talleres"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Seguros"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Cundinamarca, Antioquia y Valle suman el 46 % de las matrículas.",
+      "imagenes": [
+        {
+          "busqueda": "Medellín skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "46 %"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "ruta": false,
+          "puntos": [
+            {
+              "lugar": "bogota",
+              "etiqueta": "Cundinamarca"
+            },
+            {
+              "lugar": "medellin",
+              "etiqueta": "Antioquia"
+            },
+            {
+              "lugar": "cali",
+              "etiqueta": "Valle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] ¿Y la marca que ganó? Bajaj, con 19.227. Suzuki quedó a solo 57 motos.",
+      "imagenes": [
+        {
+          "busqueda": "Bajaj Pulsar",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Bajaj",
+        "57 motos"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "19.227",
+            "texto": "Bajaj",
+            "icono": "documentos"
+          },
+          "despues": {
+            "valor": "19.170",
+            "texto": "Suzuki",
+            "icono": "documentos"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú tienes Bajaj, Suzuki u otra?",
+      "imagenes": [
+        {
+          "busqueda": "Motociclistas em Bogotá (3326018921)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "En octubre de 2026 se matricularon 123.214 motocicletas nuevas en Colombia, 24,72 % más que en octubre de 2025, según ANDI y Fenalco. Bajaj lideró con 19.227 unidades (15,6 %), seguida de Suzuki (19.170), Honda (17.880), AKT (17.385) y Yamaha (16.701). El 44,5 % de las motos fueron de 101 a 125 c.c. y Cundinamarca, Antioquia y Valle del Cauca sumaron el 46 % (La República).\n\nEl liderazgo de un mes no es liderazgo en todos los segmentos ni en utilidad. Repuestos, talleres y seguros son negocios para investigar alrededor de la moto.\n\nFuentes: ANDI (2 nov. 2026), La República (1 nov. 2026).\n\n¿Tú tienes Bajaj, Suzuki u otra?\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#Motos",
+    "#Negocios",
+    "#Colombia",
+    "#Bajaj",
+    "#Emprendimiento"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "123.214 motos nuevas en octubre de 2026, +24,72 % frente a octubre de 2025; Bajaj lideró con 15,6 %",
+      "url": "https://andi.com.co/Home/Noticia/18105-andi-y-fenalco-en-octubre-de-2026-se-re"
+    },
+    {
+      "afirmacion": "Bajaj 19.227, Suzuki 19.170; 44,5 % de 101-125 c.c.; Cundinamarca, Antioquia y Valle 46 %",
+      "url": "https://www.larepublica.co/empresas/en-octubre-se-registraron-123-214-motocicletas-nuevas-24-72-mas-que-hace-un-ano-4516062"
+    },
+    {
+      "afirmacion": "4.603 eléctricos en octubre de 2026",
+      "url": "https://andi.com.co/Home/Noticia/18104-andi-y-fenalco-octubre-registro-32175-v"
+    }
+  ]
+}

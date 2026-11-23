@@ -1,0 +1,213 @@
+{
+  "id": "2026-11-25-nu-clientes",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "6,1 millones de [[clientes]]",
+    "dato": "¿Y qué significa?",
+    "foto": "1.1",
+    "serie": "Nu · 1/2"
+  },
+  "tema": "Nu llegó a 6,1 millones de clientes en Colombia: qué dice y qué no dice esa cifra",
+  "pregunta_principal": "Mañana: por qué Nu quiere tu plata guardada ahí.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Nu ya tiene 6,1 millones de clientes en Colombia. ¿Qué significa?",
+      "imagenes": [
+        {
+          "busqueda": "Nubank card",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Nubank",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "6,1 millones"
+      ],
+      "titulo": "6,1 millones de [[clientes]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Según la compañía, equivale al 15 % de la población adulta.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "15 %"
+      ],
+      "segun": "Nu",
+      "fecha": "SEP. 2026",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "15 %",
+          "etiqueta": "de los adultos de Colombia",
+          "progreso": 0.15
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Tiene 3 millones de tarjetas de crédito activas: el mayor emisor del país por número de usuarios.",
+      "imagenes": [
+        {
+          "busqueda": "credit cards",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "3 millones"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "3 M",
+          "etiqueta": "tarjetas de crédito activas",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y su cartera de crédito en Colombia creció 80 % en un año.",
+      "imagenes": [
+        {
+          "busqueda": "Nubank card",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "80 %"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "+80 %",
+          "etiqueta": "cartera de crédito en un año",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Pero clientes no es lo mismo que ganancias. Su utilidad récord, 1.100 millones de dólares en el trimestre, es de todo el grupo.",
+      "imagenes": [
+        {
+          "busqueda": "São Paulo skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "todo el grupo"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$1.100 M",
+          "etiqueta": "utilidad del grupo en el trimestre",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Ese número junta Brasil, México y Colombia.",
+      "imagenes": [
+        {
+          "busqueda": "São Paulo skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Brasil",
+        "México"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Brasil"
+            },
+            {
+              "icono": "edificio",
+              "texto": "México"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Colombia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Tamaño, uso y ganancia son preguntas distintas. Una cifra grande no las contesta todas.",
+      "imagenes": [
+        {
+          "busqueda": "smartphone banking app",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "preguntas distintas"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mañana: por qué Nu quiere tu plata guardada ahí.",
+      "imagenes": [
+        {
+          "busqueda": "Nubank card",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Nu reportó 6,1 millones de clientes en Colombia al tercer trimestre de 2026, equivalentes al 15 % de la población adulta según la compañía, 3 millones de tarjetas de crédito activas y una cartera local que creció 80 % en un año (Forbes Colombia).\n\nLa utilidad neta récord de US$1.100 millones del tercer trimestre es de Nu Holdings, con Brasil, México y Colombia; no es la utilidad de la operación colombiana (La República).\n\nFuentes: Forbes Colombia (12 nov. 2026), La República (12 nov. 2026).\n\nMañana: por qué Nu quiere tu plata guardada ahí.\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#Nu",
+    "#Fintech",
+    "#Finanzas",
+    "#Colombia",
+    "#Negocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "6,1 millones de clientes en Colombia (15 % de los adultos); 3 millones de tarjetas de crédito activas; cartera +80 %",
+      "url": "https://forbes.co/2026/11/12/economia-y-finanzas/nu-llega-a-61-millones-de-clientes-en-colombia-y-reporta-utilidad-global-de-us1-100-millones/"
+    },
+    {
+      "afirmacion": "Utilidad neta récord de US$1.100 millones en el tercer trimestre de 2026 para Nu Holdings",
+      "url": "https://www.larepublica.co/finanzas/nubank-registro-una-utilidad-neta-record-de-us-1-100-millones-hasta-septiembre-4523767"
+    }
+  ]
+}

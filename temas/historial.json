@@ -1473,5 +1473,116 @@
     ],
     "categoria": "marcas-colombia",
     "franja": "19:30"
+  },
+  {
+    "id": "2026-11-23-electricos-octubre",
+    "tema": "En octubre de 2026 se matricularon 4.603 carros eléctricos, 120 % más que un año antes, y qué negocios se mueven alrededor",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "ANDI",
+      "Fenalco"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "07:30",
+    "serie": "Carros y motos · 1/2"
+  },
+  {
+    "id": "2026-11-23-crepes-sin-franquicias",
+    "tema": "Crepes & Waffles no vende franquicias: todos sus locales son inversión directa de la empresa",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Crepes & Waffles"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "12:30",
+    "serie": "Crepes & Waffles · 1/2"
+  },
+  {
+    "id": "2026-11-23-black-friday-descuento-margen",
+    "tema": "Antes de dar 20 % de descuento en Black Friday: cuánto cae la ganancia por unidad y cuántas unidades más hay que vender",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Black Friday"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "19:30",
+    "serie": "Black Friday · 1/3"
+  },
+  {
+    "id": "2026-11-24-motos-octubre",
+    "tema": "En octubre de 2026 se matricularon 123.214 motos nuevas y la marca líder ganó por solo 57 unidades",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Bajaj",
+      "Suzuki"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "07:30",
+    "serie": "Carros y motos · 2/2"
+  },
+  {
+    "id": "2026-11-24-crepes-domicilio-precio",
+    "tema": "Por qué un plato de Crepes & Waffles puede costar distinto en su canal propio y en una plataforma de domicilios",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Crepes & Waffles"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "12:30",
+    "serie": "Crepes & Waffles · 2/2"
+  },
+  {
+    "id": "2026-11-24-black-friday-precio-final",
+    "tema": "Por qué el descuento más grande del Black Friday puede ser la compra más cara cuando sumas envío y financiación",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Black Friday"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "19:30",
+    "serie": "Black Friday · 2/3"
+  },
+  {
+    "id": "2026-11-25-nu-clientes",
+    "tema": "Nu llegó a 6,1 millones de clientes en Colombia: qué dice y qué no dice esa cifra",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Nu"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "07:30",
+    "serie": "Nu · 1/2"
+  },
+  {
+    "id": "2026-11-25-bre-b-domingo",
+    "tema": "Bre-B, el sistema de pagos inmediatos, y por qué importa para la caja de un negocio que la plata llegue al instante",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Bre-B",
+      "Banco de la República"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "12:30",
+    "serie": "Bre-B · 1/2"
+  },
+  {
+    "id": "2026-11-25-black-friday-caja",
+    "tema": "Una promoción de Black Friday puede vender todo y dejar al negocio sin caja: la diferencia entre ganancia y flujo de caja",
+    "pilar": "negocios",
+    "narrador": "sebas",
+    "protagonistas": [
+      "Black Friday"
+    ],
+    "categoria": "negocios-por-dentro",
+    "franja": "19:30",
+    "serie": "Black Friday · 3/3"
   }
 ]

@@ -1,0 +1,206 @@
+{
+  "id": "2026-11-24-black-friday-precio-final",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "El 30 % que sale [[más caro]]",
+    "dato": "Black Friday · 27 nov.",
+    "foto": "1.1",
+    "serie": "Black Friday · 2/3"
+  },
+  "tema": "Por qué el descuento más grande del Black Friday puede ser la compra más cara cuando sumas envío y financiación",
+  "pregunta_principal": "Mañana: la promoción que vende todo y te deja sin caja.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Un 30 % de descuento puede salirte más caro. ¿Cómo?",
+      "imagenes": [
+        {
+          "busqueda": "flat screen television store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "shopping cart",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "más caro"
+      ],
+      "titulo": "30 % que sale [[más caro]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Ejemplo: la tienda A rebaja un televisor de 2 millones a 1,4 millones. 30 % menos.",
+      "imagenes": [
+        {
+          "busqueda": "flat screen television",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "30 % menos"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "-30 %",
+          "etiqueta": "tienda A: $1,4 millones",
+          "icono": "tv"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "La tienda B lo deja en 1,5 millones: 25 % menos.",
+      "imagenes": [
+        {
+          "busqueda": "television store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "25 %"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "-25 %",
+          "etiqueta": "tienda B: $1,5 millones",
+          "icono": "tv"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Pero la A cobra 150.000 de envío e instalación. La B, nada.",
+      "imagenes": [
+        {
+          "busqueda": "delivery truck",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "150.000"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Total: la A te cuesta 1,55 millones. La B, 1,5. El descuento más grande era la compra más cara.",
+      "imagenes": [
+        {
+          "busqueda": "receipt",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "la compra más cara"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$1.550.000",
+            "texto": "tienda A, con 30 %",
+            "icono": "tv"
+          },
+          "despues": {
+            "valor": "$1.500.000",
+            "texto": "tienda B, con 25 %",
+            "icono": "tv"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y si pagas a cuotas, suma los intereses.",
+      "imagenes": [
+        {
+          "busqueda": "credit card payment",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "intereses"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Cuenta los [[intereses]]",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Por eso tres de cada cuatro compradores en línea comparan más que el año pasado.",
+      "imagenes": [
+        {
+          "busqueda": "online shopping laptop",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tres de cada cuatro"
+      ],
+      "segun": "Harris X para Amazon",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "75 %",
+          "etiqueta": "compara más que el año pasado",
+          "progreso": 0.75
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mañana: la promoción que vende todo y te deja sin caja.",
+      "imagenes": [
+        {
+          "busqueda": "shopping bags",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Ejemplo hipotético: la tienda A vende un televisor de $2.000.000 con 30 % de descuento ($1.400.000) y cobra $150.000 de envío e instalación; la tienda B lo vende con 25 % ($1.500.000) y envío gratis. La A termina costando $1.550.000. No es una comparación de tiendas reales.\n\nBloomberg Línea recomienda revisar el costo total y no solo la cuota: \"los intereses, los plazos y otros cargos pueden modificar el costo final\". El 75 % de los compradores en línea dice que dedica más tiempo que el año pasado a comparar precios (Harris X para Amazon, Portafolio).\n\nFuentes: Bloomberg Línea (19 oct. 2026), Portafolio (19 nov. 2026).\n\nMañana: la promoción que vende todo y te deja sin caja.\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#BlackFriday",
+    "#Finanzas",
+    "#Compras",
+    "#Colombia",
+    "#Negocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Revisar el costo total: intereses, plazos, otros cargos y envío pueden modificar el costo final",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/cuando-es-el-black-friday-2026-en-colombia-cae-el-27-de-noviembre-y-asi-puede-preparar-sus-compras/"
+    },
+    {
+      "afirmacion": "75 % de los compradores en línea dedica más tiempo que el año pasado a comparar precios",
+      "url": "https://www.portafolio.co/tecnologia/moda-tecnologia-y-belleza-lideran-las-preferencias-de-compra-de-los-colombianos-para-el-black-friday-506674"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "id": "2026-11-23-black-friday-descuento-margen",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "Antes del 20 %, [[haz esta cuenta]]",
+    "dato": "Black Friday · 27 nov.",
+    "foto": "1.1",
+    "serie": "Black Friday · 1/3"
+  },
+  "tema": "Antes de dar 20 % de descuento en Black Friday: cuánto cae la ganancia por unidad y cuántas unidades más hay que vender",
+  "pregunta_principal": "Mañana: cómo saber si un 30 % es de verdad la mejor compra.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] ¿Vas a dar 20 % en Black Friday? Haz esta cuenta.",
+      "imagenes": [
+        {
+          "busqueda": "Black Friday sale sign",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "shopping bags",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "20 %"
+      ],
+      "titulo": "Haz [[esta cuenta]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Este año el Black Friday cae el 27 de noviembre.",
+      "imagenes": [
+        {
+          "busqueda": "Black Friday shopping",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "27 de noviembre"
+      ],
+      "fecha": "27 NOV.",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "27 nov.",
+          "etiqueta": "Black Friday 2026 en Colombia",
+          "icono": "reloj"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Ejemplo: vendes algo en 100.000 pesos y te cuesta 60.000. Te quedan 40.000 por unidad.",
+      "imagenes": [
+        {
+          "busqueda": "cash register",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "40.000"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$40.000",
+          "etiqueta": "te quedan por unidad (ejemplo)",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Con el descuento, lo vendes en 80.000. El costo sigue en 60.000.",
+      "imagenes": [
+        {
+          "busqueda": "discount sale",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "80.000",
+        "60.000"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Ahora te quedan 20.000. Bajaste 20 % el precio y tu ganancia cayó a la mitad.",
+      "imagenes": [
+        {
+          "busqueda": "cash register",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "la mitad"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$40.000",
+            "texto": "por unidad sin descuento",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "$20.000",
+            "texto": "por unidad con 20 % menos",
+            "icono": "dinero"
+          }
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Para ganar lo mismo que antes, tienes que vender el doble de unidades.",
+      "imagenes": [
+        {
+          "busqueda": "shopping bags",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "el doble"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "x2",
+          "etiqueta": "unidades para ganar lo mismo",
+          "icono": "grafica_baja"
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] El descuento no sale de tu precio. Sale de tu margen.",
+      "imagenes": [
+        {
+          "busqueda": "store shelves",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tu margen"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Sale de tu [[margen]]",
+          "icono": "dinero"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mañana: cómo saber si un 30 % es de verdad la mejor compra.",
+      "imagenes": [
+        {
+          "busqueda": "Black Friday sale sign",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "El Black Friday 2026 en Colombia es el viernes 27 de noviembre (Bloomberg Línea). Y los compradores llegan con la calculadora en la mano: el 75 % de los compradores en línea dice que dedica más tiempo que el año pasado a comparar precios (encuesta de Harris X para Amazon, Portafolio).\n\nEjemplo hipotético: precio de $100.000, costo variable de $60.000. Con 20 % de descuento, la contribución por unidad cae de $40.000 a $20.000: para igualar la ganancia hay que vender el doble de unidades, con los costos fijos iguales. Los números son ilustrativos.\n\nFuentes: Bloomberg Línea (19 oct. 2026), Portafolio (19 nov. 2026).\n\nMañana: cómo saber si un 30 % es de verdad la mejor compra.\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#BlackFriday",
+    "#Negocios",
+    "#Emprendimiento",
+    "#Colombia",
+    "#Finanzas"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "El Black Friday 2026 en Colombia es el viernes 27 de noviembre",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/cuando-es-el-black-friday-2026-en-colombia-cae-el-27-de-noviembre-y-asi-puede-preparar-sus-compras/"
+    },
+    {
+      "afirmacion": "75 % de los compradores en línea dedica más tiempo que el año pasado a comparar precios (Harris X para Amazon)",
+      "url": "https://www.portafolio.co/tecnologia/moda-tecnologia-y-belleza-lideran-las-preferencias-de-compra-de-los-colombianos-para-el-black-friday-506674"
+    }
+  ]
+}

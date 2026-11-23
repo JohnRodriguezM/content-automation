@@ -1,0 +1,212 @@
+{
+  "id": "2026-11-23-electricos-octubre",
+  "pilar": "negocios",
+  "narrador": "sebas",
+  "portada": {
+    "texto": "4.603 [[eléctricos]] en un mes",
+    "dato": "Octubre de 2026",
+    "foto": "1.1",
+    "serie": "Carros y motos · 1/2"
+  },
+  "tema": "En octubre de 2026 se matricularon 4.603 carros eléctricos, 120 % más que un año antes, y qué negocios se mueven alrededor",
+  "pregunta_principal": "Mañana: el negocio de las 123.214 motos de octubre.",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Colombia matriculó 4.603 carros eléctricos en octubre. Y eso abre otros negocios.",
+      "imagenes": [
+        {
+          "busqueda": "Tesla Model Y",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "electric vehicle charging station",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "4.603"
+      ],
+      "titulo": "4.603 [[eléctricos]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Son 120 % más que en octubre del año pasado, según ANDI y Fenalco.",
+      "imagenes": [
+        {
+          "busqueda": "electric car charging",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "120 %"
+      ],
+      "segun": "ANDI y Fenalco",
+      "fecha": "OCT. 2026",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "+120 %",
+          "etiqueta": "eléctricos vs. octubre de 2025",
+          "icono": "grafica_baja"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En total entraron 32.175 vehículos nuevos. El mejor octubre desde 2014.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá Calle 100 entre 11 y 15",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "32.175",
+        "2014"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "32.175",
+          "etiqueta": "vehículos nuevos en octubre",
+          "icono": "documentos"
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Con los híbridos, casi la mitad de los carros nuevos ya no es solo de gasolina.",
+      "imagenes": [
+        {
+          "busqueda": "hybrid car",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "la mitad"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "47 %",
+          "etiqueta": "eléctricos + híbridos en octubre",
+          "progreso": 0.473
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Pero un carro eléctrico no termina en el concesionario. Necesita dónde cargar.",
+      "imagenes": [
+        {
+          "busqueda": "electric vehicle charging station",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "dónde cargar"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "No termina en el [[concesionario]]"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y talleres que sepan repararlo, y seguros que entiendan su batería.",
+      "imagenes": [
+        {
+          "busqueda": "car mechanic workshop",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "talleres",
+        "seguros"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "bombilla",
+              "texto": "Carga"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Talleres"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Seguros"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Cuando un mercado crece así, el negocio también está en lo que el producto necesita después.",
+      "imagenes": [
+        {
+          "busqueda": "electric car battery",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "lo que necesita después"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "Mañana: el negocio de las 123.214 motos de octubre.",
+      "imagenes": [
+        {
+          "busqueda": "Motociclistas em Bogotá (3326018921)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "En octubre de 2026 se matricularon 4.603 vehículos eléctricos en Colombia, 120,2 % más que en octubre de 2025, y 10.610 híbridos (+53,7 %), según ANDI y Fenalco. En total entraron 32.175 vehículos nuevos, el mejor octubre desde 2014; eléctricos e híbridos sumaron el 47,3 % del mes (Forbes con datos de ANDI y Fenalco).\n\nUn carro eléctrico necesita carga, mantenimiento y seguros: son negocios para investigar, no una garantía de rentabilidad.\n\nFuentes: ANDI (3 nov. 2026), Forbes Colombia (2 nov. 2026).\n\nMañana: el negocio de las 123.214 motos de octubre.\n\nSíguenos: cada día explicamos por dentro un negocio de Colombia.",
+  "hashtags": [
+    "#Negocios",
+    "#CarrosEléctricos",
+    "#Colombia",
+    "#Movilidad",
+    "#Emprendimiento"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "4.603 eléctricos en octubre de 2026 (+120,2 %), 10.610 híbridos (+53,7 %), 32.175 vehículos nuevos, mejor octubre desde 2014",
+      "url": "https://andi.com.co/Home/Noticia/18104-andi-y-fenalco-octubre-registro-32175-v"
+    },
+    {
+      "afirmacion": "Eléctricos e híbridos fueron el 47,3 % de las matrículas de octubre",
+      "url": "https://forbes.co/2026/11/02/empresas/casi-uno-de-cada-dos-carros-nuevos-es-electrico-o-hibrido-su-participacion-llego-al-463/"
+    }
+  ]
+}
