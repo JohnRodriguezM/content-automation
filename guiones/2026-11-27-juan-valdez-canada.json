@@ -22,7 +22,7 @@
           "filtro": "ninguno"
         },
         {
-          "busqueda": "ground coffee bag",
+          "busqueda": "Roasted coffee beans",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -122,7 +122,7 @@
       "narracion": "[pause] Una cafetería exige arriendo, empleados y tiempo. Una bolsa en la estantería, no.",
       "imagenes": [
         {
-          "busqueda": "coffee bag supermarket shelf",
+          "busqueda": "No Frills supermarket",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"

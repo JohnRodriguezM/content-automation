@@ -22,7 +22,7 @@
           "filtro": "ninguno"
         },
         {
-          "busqueda": "avocado farm",
+          "busqueda": "avocado harvest",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -80,7 +80,7 @@
       "narracion": "Colombia ya es el segundo proveedor de Hass de Europa y el cuarto de Estados Unidos.",
       "imagenes": [
         {
-          "busqueda": "Port of Rotterdam",
+          "busqueda": "Rotterdam container terminal",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
