@@ -113,7 +113,7 @@
       "narracion": "Al resto del país llega en 48 horas.",
       "imagenes": [
         {
-          "busqueda": "delivery van",
+          "busqueda": "Bogotá Calle 100 entre 11 y 15",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -128,7 +128,7 @@
       "narracion": "[pause] Eso solo pasa si el producto ya está cerca, en un centro de distribución.",
       "imagenes": [
         {
-          "busqueda": "distribution center warehouse",
+          "busqueda": "Adam Hall Lager",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -174,7 +174,7 @@
       "narracion": "[thoughtful] Para un vendedor, la pregunta no es solo cómo se ve el anuncio. Es dónde está la caja.",
       "imagenes": [
         {
-          "busqueda": "cardboard boxes",
+          "busqueda": "warehouse shelves",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
