@@ -86,7 +86,7 @@
       "narracion": "Con el descuento, lo vendes en 80.000. El costo sigue en 60.000.",
       "imagenes": [
         {
-          "busqueda": "discount sale",
+          "busqueda": "Black Friday sale",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -155,7 +155,7 @@
       "narracion": "[thoughtful] El descuento no sale de tu precio. Sale de tu margen.",
       "imagenes": [
         {
-          "busqueda": "store shelves",
+          "busqueda": "supermarket shelves products",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
