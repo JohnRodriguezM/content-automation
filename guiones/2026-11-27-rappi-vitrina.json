@@ -2,6 +2,12 @@
   "id": "2026-11-27-rappi-vitrina",
   "pilar": "negocios",
   "narrador": "sebas",
+  "logo": {
+    "busqueda": "Rappi logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
   "portada": {
     "texto": "También se compra la [[vitrina]]",
     "dato": "El otro negocio de Rappi",
@@ -16,13 +22,13 @@
       "narracion": "[curious] En una app de domicilios también se compra una vitrina.",
       "imagenes": [
         {
-          "busqueda": "Rappi delivery",
+          "busqueda": "food delivery rider",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
         },
         {
-          "busqueda": "Rappi",
+          "busqueda": "smartphone app",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -39,7 +45,7 @@
       "narracion": "Rappi tiene un negocio de publicidad: Rappi Ads.",
       "imagenes": [
         {
-          "busqueda": "Rappi",
+          "busqueda": "food delivery scooter",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -61,7 +67,7 @@
       "narracion": "En 2024 tenía más de 620 marcas y 15.000 campañas activas en Colombia.",
       "imagenes": [
         {
-          "busqueda": "Rappi delivery bag",
+          "busqueda": "billboard advertising",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -108,7 +114,7 @@
       "narracion": "[pause] ¿Por qué pagan? Porque casi nadie entra sabiendo qué pedir.",
       "imagenes": [
         {
-          "busqueda": "restaurant food",
+          "busqueda": "plate of food restaurant",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -123,7 +129,7 @@
       "narracion": "En 2022, Rappi dijo que solo el 3 % compra en el primer restaurante que ve.",
       "imagenes": [
         {
-          "busqueda": "Rappi delivery",
+          "busqueda": "food delivery rider",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -163,7 +169,7 @@
       "narracion": "Mañana: cómo saber si esa publicidad te dejó ganancia.",
       "imagenes": [
         {
-          "busqueda": "Rappi",
+          "busqueda": "food delivery scooter",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"

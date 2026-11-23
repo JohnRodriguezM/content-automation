@@ -2,6 +2,12 @@
   "id": "2026-11-28-rappi-publicidad-cuenta",
   "pilar": "negocios",
   "narrador": "sebas",
+  "logo": {
+    "busqueda": "Rappi logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
   "portada": {
     "texto": "¿Cuánto [[ganaste]]?",
     "dato": "Publicidad en apps",
@@ -39,7 +45,7 @@
       "narracion": "Ejemplo: tu restaurante invierte 300.000 pesos en una semana de publicidad en una app.",
       "imagenes": [
         {
-          "busqueda": "smartphone food delivery app",
+          "busqueda": "food delivery rider",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -62,7 +68,7 @@
       "narracion": "Cada pedido te deja 6.000 pesos después de costos y comisión.",
       "imagenes": [
         {
-          "busqueda": "food delivery",
+          "busqueda": "food delivery scooter",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -145,7 +151,7 @@
       "narracion": "[thoughtful] Por eso Rappi dice que mide el retorno con grupos de control elegidos al azar.",
       "imagenes": [
         {
-          "busqueda": "Rappi",
+          "busqueda": "smartphone app",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
