@@ -16,7 +16,7 @@
       "narracion": "[serious] Tu promoción puede venderlo todo y dejarte sin plata.",
       "imagenes": [
         {
-          "busqueda": "cardboard boxes stacked",
+          "busqueda": "Shelves stocked with boxes and carts in a spacious warehouse environment during daylight hours",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -39,7 +39,7 @@
       "narracion": "Ejemplo: una tienda compra 10 millones en inventario para el Black Friday. Lo paga el 20 de noviembre.",
       "imagenes": [
         {
-          "busqueda": "warehouse shelves boxes",
+          "busqueda": "warehouse shelves",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -177,7 +177,7 @@
       "narracion": "¿Tú haces ese calendario antes de una promoción?",
       "imagenes": [
         {
-          "busqueda": "cardboard boxes stacked",
+          "busqueda": "Shelves stocked with boxes and carts in a spacious warehouse environment during daylight hours",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
