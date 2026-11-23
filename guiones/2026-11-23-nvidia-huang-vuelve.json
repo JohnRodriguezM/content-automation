@@ -1,0 +1,256 @@
+{
+  "id": "2026-11-23-nvidia-huang-vuelve",
+  "pilar": "negocios",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "NVIDIA logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "Se fue y [[volvió]]",
+    "dato": "11 días fuera de Nvidia",
+    "foto": "1.1",
+    "serie": "Nvidia"
+  },
+  "tema": "Jensen Huang renunció como CEO de Nvidia el 12 de noviembre de 2026; el 17 la junta dijo que no lo reintegraría; el 23 lo reintegró por unanimidad con nuevos controles",
+  "pregunta_principal": "¿Hizo bien la junta en devolverle el cargo?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Renunció a Nvidia y 11 días después volvió.",
+      "imagenes": [
+        {
+          "busqueda": "NVIDIA Headquarters",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Nvidia campus aerial",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "11 días"
+      ],
+      "titulo": "Se fue y [[volvió]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Jensen Huang, cofundador y CEO por 33 años, renunció el 12 de noviembre.",
+      "imagenes": [
+        {
+          "busqueda": "Nvidiaheadquarters",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "33 años"
+      ],
+      "fecha": "12 NOV. 2026",
+      "orden": "fp",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "33 años",
+          "etiqueta": "como CEO de la empresa que cofundó",
+          "icono": "edificio"
+        }
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Admitió una conducta contraria al código, y la junta investiga si fue blanco de inteligencia extranjera.",
+      "imagenes": [
+        {
+          "busqueda": "Nvidia DGX-B200-HGX",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "inteligencia extranjera"
+      ],
+      "orden": "fp",
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Falta al código de conducta"
+            },
+            {
+              "icono": "pregunta",
+              "texto": "Investigación de la junta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El 17, la junta dijo que no volvería. La acción ya había perdido más del 16 %.",
+      "imagenes": [
+        {
+          "busqueda": "Nvidia campus aerial",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no volvería",
+        "16 %"
+      ],
+      "fecha": "17 NOV. 2026",
+      "orden": "fp",
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "NPR",
+          "fecha": "17 nov. 2026",
+          "titular": "Nvidia board says it does not intend to reinstate Jensen Huang as CEO",
+          "resaltar": "does not intend to reinstate"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] El 23 lo reintegró por unanimidad, y la acción llegó a subir más de 30 %.",
+      "imagenes": [
+        {
+          "busqueda": "NVIDIA Headquarters",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "por unanimidad",
+        "30 %"
+      ],
+      "fecha": "23 NOV. 2026",
+      "orden": "fp",
+      "motion": [
+        {
+          "tipo": "recorte",
+          "medio": "NVIDIA",
+          "fecha": "23 nov. 2026",
+          "titular": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director",
+          "resaltar": "Reinstates Jensen Huang"
+        },
+        {
+          "tipo": "dato",
+          "valor": "+30 %",
+          "etiqueta": "llegó a subir la acción el 23 de noviembre",
+          "icono": "grafica_baja"
+        }
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Pero vuelve con más controles, y la investigación sigue.",
+      "imagenes": [
+        {
+          "busqueda": "Nvidia DGX Spark oblique view dllu",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "más controles"
+      ],
+      "orden": "fp",
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "pregunta",
+              "texto": "La investigación sigue"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Comité de seguridad nacional"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Jefe de cumplimiento"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Cuando el valor de una empresa depende de una persona, la junta también.",
+      "imagenes": [
+        {
+          "busqueda": "Nvidia@12nm@Turing@TU106@GeForce RTX 2060@S TAIWAN 1844A1 PM4F79.000 TU106-200A-KA-A1 DSC07437-DSC07591 - ZS-DMap (50914099198)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "una persona"
+      ],
+      "orden": "fp",
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Depender de [[una persona]]"
+        }
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Hizo bien la junta en devolverle el cargo?",
+      "imagenes": [
+        {
+          "busqueda": "NVIDIA Headquarters",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "Jensen Huang, cofundador de Nvidia, renunció como presidente, CEO y miembro de la junta el 12 de noviembre de 2026, tras revelar una conducta personal contraria al código de la empresa; la CFO Colette Kress quedó como CEO interina. El 17 de noviembre, en la llamada de resultados (ventas trimestrales récord de 115.800 millones de dólares), el presidente de la junta, Harvey Jones, dijo que no tenían intención de reintegrarlo. El 23 de noviembre la junta lo reintegró por unanimidad: dijo que escuchó a altos funcionarios del gobierno de EE. UU. y concluyó que su regreso no representa un riesgo de seguridad nacional. La investigación de directores independientes sobre si fue blanco de una operación de inteligencia extranjera sigue, y Nvidia creó un comité de seguridad nacional y controles de exportación y busca un director de cumplimiento. Ese día la acción llegó a subir más de 30 % durante la sesión.\n\nFuentes: NVIDIA (12 y 23 nov. 2026), NPR (17 nov. 2026), Yahoo Finance (23 nov. 2026).\n\n¿Hizo bien la junta en devolverle el cargo?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Nvidia",
+    "#JensenHuang",
+    "#Negocios",
+    "#Empresas",
+    "#Tecnologia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Huang renunció como presidente, CEO y miembro de la junta el 12 de noviembre de 2026; Colette Kress CEO interina; 33 años de Huang en la empresa",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+    },
+    {
+      "afirmacion": "Renunció tras revelar 'personal behavior inconsistent with the company's code of conduct'; el 17 de noviembre Harvey Jones dijo que la junta no tenía intención de reintegrarlo; ventas trimestrales récord de 115.800 millones de dólares; la acción había caído más de 16 % desde la admisión",
+      "url": "https://www.kuow.org/npr-news/2026-11-17/nvidia-board-says-it-does-not-intend-to-reinstate-jensen-huang-as-ceo"
+    },
+    {
+      "afirmacion": "El 23 de noviembre de 2026 la junta lo reintegró por unanimidad; recibió aportes de altos funcionarios de EE. UU. y concluyó que no hay riesgo de seguridad nacional; sigue la investigación sobre la operación de inteligencia extranjera; comité de seguridad nacional y controles de exportación; búsqueda de Chief Compliance Officer",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+    },
+    {
+      "afirmacion": "La acción de Nvidia subía 30,11 % a las 12:49 p. m. (hora del Este) del 23 de noviembre de 2026",
+      "url": "https://finance.yahoo.com/markets/stocks/live/nvidia-live-updates-jensen-huang-reinstated-as-ceo-trump-says-he-convinced-board-165423793.html"
+    }
+  ]
+}

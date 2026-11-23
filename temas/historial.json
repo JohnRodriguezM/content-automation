@@ -1734,5 +1734,17 @@
     "categoria": "negocios-por-dentro",
     "franja": "19:30",
     "serie": "Mercado Libre · 2/2"
+  },
+  {
+    "id": "2026-11-23-nvidia-huang-vuelve",
+    "tema": "Jensen Huang renunció como CEO de Nvidia el 12 de noviembre de 2026; el 17 la junta dijo que no lo reintegraría; el 23 lo reintegró por unanimidad con nuevos controles",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Nvidia",
+      "Jensen Huang"
+    ],
+    "categoria": "actualidad",
+    "franja": "19:30"
   }
 ]
