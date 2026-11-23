@@ -5,7 +5,7 @@
   "portada": {
     "texto": "Mismo crepe, [[otro precio]]",
     "dato": "Depende de dónde lo pidas",
-    "foto": "1.2",
+    "foto": "2.1",
     "serie": "Crepes & Waffles · 2/2"
   },
   "tema": "Por qué un plato de Crepes & Waffles puede costar distinto en su canal propio y en una plataforma de domicilios",
@@ -16,13 +16,13 @@
       "narracion": "[curious] Mismo crepe, otro precio. Depende de dónde lo pidas.",
       "imagenes": [
         {
-          "busqueda": "food delivery motorcycle",
+          "busqueda": "Food delivery by scooter in France (1)",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
         },
         {
-          "busqueda": "crepe with strawberries",
+          "busqueda": "Cooking crepes",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -61,7 +61,7 @@
       "narracion": "Y desde 2020 tiene una flota propia de domiciliarias en motos eléctricas.",
       "imagenes": [
         {
-          "busqueda": "electric scooter delivery",
+          "busqueda": "Govecs Electric Scooter Delivery Box",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -77,7 +77,7 @@
       "narracion": "Pero también la encuentras en apps de domicilios.",
       "imagenes": [
         {
-          "busqueda": "food delivery rider",
+          "busqueda": "Black smartphone in hand (Unsplash)",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -114,7 +114,7 @@
       "narracion": "En otras plataformas pueden ser más altos, por comisiones que la empresa no controla.",
       "imagenes": [
         {
-          "busqueda": "food delivery motorcycle",
+          "busqueda": "Food delivery by scooter in France (1)",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -144,7 +144,7 @@
       "narracion": "[thoughtful] Cuando pides por una app, no solo pagas el plato. También pagas al intermediario.",
       "imagenes": [
         {
-          "busqueda": "crepe",
+          "busqueda": "Crepes dsc07085",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
@@ -159,7 +159,7 @@
       "narracion": "¿Tú pides por la app o directo al restaurante?",
       "imagenes": [
         {
-          "busqueda": "waffle with ice cream",
+          "busqueda": "Banana, ice cream and toffee sauce on waffle at The Queen's Head, Boreham, Essex, England",
           "fuente": "commons",
           "modo": "relleno",
           "filtro": "ninguno"
