@@ -74,6 +74,14 @@ async function buscarPexels(q: string, usadas: Set<string>): Promise<Candidato |
   return null;
 }
 
+/** ¿La búsqueda es el nombre del archivo de Commons (sin "File:" ni extensión)? */
+const esTituloExacto = (busqueda: string, pagina?: string) => {
+  const m = pagina?.match(/\/wiki\/File:(.+)$/);
+  if (!m) return false;
+  const titulo = decodeURIComponent(m[1]).replace(/_/g, " ").replace(/\.[a-z0-9]+$/i, "");
+  return titulo.toLowerCase() === busqueda.trim().toLowerCase();
+};
+
 const existe = (f: string) => access(f).then(() => true, () => false);
 const esperar = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
@@ -126,6 +134,14 @@ export async function resolverImagenes(g: Guion, rehacer = false, guardar?: () =
       if (!rehacer && img.archivo && (await existe(path.join(RAIZ, "public", img.archivo)))) continue;
       try {
       if (rehacer || !img.url) {
+        // Si la búsqueda es el título exacto de un archivo que ya salió en otra escena, se reusa ese archivo:
+        // buscar "el siguiente resultado" de un título exacto trae fotos vecinas que no tienen nada que ver.
+        const exacta = yaResueltas.get(img.busqueda);
+        if (exacta?.archivo && esTituloExacto(img.busqueda, exacta.pagina)) {
+          Object.assign(img, { url: exacta.url, credito: exacta.credito, licencia: exacta.licencia, pagina: exacta.pagina, archivo: exacta.archivo });
+          console.log(`  ${i + 1}.${j + 1} ${img.busqueda} → misma foto (título exacto)`);
+          continue;
+        }
         const c = img.fuente === "pexels"
           ? (await buscarPexels(img.busqueda, usadas)) ?? (await buscarCommons(img.busqueda, usadas))
           : (await buscarCommons(img.busqueda, usadas)) ?? (await buscarPexels(img.busqueda, usadas));

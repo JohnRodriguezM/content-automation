@@ -125,6 +125,9 @@ Fórmula del guion: **gancho** con el dato que nadie cuenta (cifra concreta de u
 Piezas (`motion`) además de `dato`, `contraste` (barras), `titulo` e `iconos`:
 - `mapa`: `{"tipo":"mapa","puntos":[{"lugar":"medellin","etiqueta":"Medellín · Éxito"}],"ruta":true}`. Lugares válidos en `src/lugares.ts` (agregar ahí los que falten).
 - `recorte`: `{"tipo":"recorte","medio":"Portafolio","fecha":"25 feb 2026","titular":"…","resaltar":"…"}`. **Solo titulares reales, copiados de la fuente**, con medio y fecha. Nunca inventados.
+- `globo` (3D): `{"tipo":"globo","desde":"santiago","etiqueta":"Cruz Verde · Chile"}`. La Tierra gira desde el país del dueño y dibuja un arco hasta `hasta` (por defecto `bogota`). Claves de `src/lugares.ts`; etiqueta ≤28. Úsalo cuando el dueño es extranjero, normalmente una vez por video.
+- `barras3d` (3D): `{"tipo":"barras3d","titulo":"Droguerías · participación","items":[{"texto":"Cruz Verde","valor":39.9,"etiqueta":"39,9 %"}, …]}`. 2-4 columnas; `valor` numérico (altura), `etiqueta` el texto encima (≤9), `texto` ≤14. Para participaciones o conteos comparables de la misma fuente.
+- Las piezas 3D pesan el doble de tiempo en la escena (giran y crecen); máximo 2 por video: el render 3D es lento.
 
 `orden` (por escena): secuencia de `f` (foto) y `p` (pieza), ej. `"pfpp"`. `rotulo`: lugar y fecha a máquina en la esquina.
 

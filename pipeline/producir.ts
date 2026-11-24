@@ -170,10 +170,12 @@ function acelerar(audio: string | null, timing: Timing): { audio: string | null;
 async function render(props: VideoProps, salida: string, id: "Video" | "Motion" | "Mixto" | "Tablero" | "Documental") {
   const serveUrl = await bundle({ entryPoint: path.join(RAIZ, "src/Root.tsx"), publicDir: PUBLIC });
   const browserExecutable = process.env.REMOTION_BROWSER || null;
-  const composition = await selectComposition({ serveUrl, id, inputProps: props, browserExecutable });
+  // WebGL por software (SwiftShader vía ANGLE) para las piezas 3D de src/Tres.tsx: funciona sin GPU en el runner
+  const chromiumOptions = { gl: "swangle" as const };
+  const composition = await selectComposition({ serveUrl, id, inputProps: props, browserExecutable, chromiumOptions });
   await renderMedia({
     composition, serveUrl, codec: "h264", crf: id === "Tablero" || id === "Documental" ? 24 : 20, outputLocation: salida, inputProps: props,
-    browserExecutable, audioBitrate: "192k",
+    browserExecutable, chromiumOptions, audioBitrate: "192k",
     onProgress: ({ progress }) => process.stdout.write(`\rRender ${Math.round(progress * 100)}%`),
   });
   process.stdout.write("\n");

@@ -43,6 +43,14 @@ export const motionSchema = z.discriminatedUnion("tipo", [
     puntos: z.array(z.object({ lugar: z.string(), etiqueta: z.string().max(32) })).min(1).max(4),
     ruta: z.boolean().default(true),
   }),
+  // 3D: globo que gira desde el país del dueño (`desde`, clave de src/lugares.ts) hasta `hasta` (por defecto Bogotá)
+  z.object({ tipo: z.literal("globo"), desde: z.string(), hasta: z.string().optional(), etiqueta: z.string().max(28) }),
+  // 3D: participaciones como columnas que suben; `valor` numérico para la altura, `etiqueta` es el texto encima ("43 %")
+  z.object({
+    tipo: z.literal("barras3d"),
+    titulo: z.string().max(40).optional(),
+    items: z.array(z.object({ texto: z.string().max(14), valor: z.number().min(0), etiqueta: z.string().max(9) })).min(2).max(4),
+  }),
   // Estilo documental: cita textual con su autor y dónde la dijo (solo citas reales, copiadas de la fuente)
   z.object({
     tipo: z.literal("cita"),
@@ -105,7 +113,7 @@ export const guionSchema = z.object({
   }).optional(),
   tema: z.string(),
   pregunta_principal: z.string(),
-  escenas: z.array(escenaSchema).min(5).max(12),
+  escenas: z.array(escenaSchema).min(5).max(16), // John (videos de más de 1 min): 12-16 escenas
   caption: z.string().max(1800), // + crédito + hashtags debe quedar bajo 2.200 (Instagram)
   hashtags: z.array(z.string().regex(/^#\S+$/)).min(3).max(10),
   fuentes: z.array(z.object({ afirmacion: z.string(), url: z.string().url() })),

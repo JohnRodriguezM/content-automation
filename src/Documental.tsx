@@ -12,6 +12,7 @@ import { feature } from "topojson-client";
 import type { Feature, FeatureCollection } from "geojson";
 import mundo from "world-atlas/countries-50m.json";
 import { LUGARES } from "./lugares";
+import { Barras3D, Globo } from "./Tres";
 import { Credito, Textura, norm } from "./Video";
 import { Destello, FiltrosMovimiento, Grade, Salida, barrido, desenfoqueX, velocidad, volumenMusica } from "./Efectos";
 import { COLA_TARJETA, type Escena, type Imagen, type Motion, type Palabra, type VideoProps } from "./schema";
@@ -374,7 +375,8 @@ const sonidoDe = (p: Plano): [string, number] | null => {
     case "recorte": return ["papel", 0.55];
     case "cita": return ["maquina", 0.22];
     case "dato": case "contraste": return ["impacto", 0.4];
-    case "mapa": return ["whoosh", 0.3];
+    case "mapa": case "globo": return ["whoosh", 0.3];
+    case "barras3d": return ["impacto", 0.35];
     default: return ["swish", 0.25];
   }
 };
@@ -409,6 +411,8 @@ const Pieza: React.FC<{ v: Motion; dur: number; seed: string; efectos?: boolean 
     case "titulo": return <Frase texto={v.texto} />;
     case "iconos": return <Lista items={v.items} dur={dur} />;
     case "cita": return <Cita texto={v.texto} autor={v.autor} />;
+    case "globo": return <Globo desde={v.desde} hasta={v.hasta} etiqueta={v.etiqueta} dur={dur} />;
+    case "barras3d": return <Barras3D titulo={v.titulo} items={v.items} dur={dur} />;
   }
 };
 
@@ -593,14 +597,17 @@ const Logo: React.FC<{ archivo: string; dur: number }> = ({ archivo, dur }) => {
 
 const EscenaDoc: React.FC<{ e: Escena; dur: number; idx: number; efectos?: boolean; logo?: string; linea?: Linea; ultima?: boolean }> = ({ e, dur, idx, efectos, logo, linea, ultima }) => {
   const ps = planos(e);
-  const base = Math.floor(dur / ps.length);
+  // Las piezas 3D (globo, barras) necesitan más tiempo para girar y crecer: pesan el doble que una foto
+  const pesos = ps.map((p) => (p.tipo === "pieza" && (p.v.tipo === "globo" || p.v.tipo === "barras3d") ? 2 : 1));
+  const totalPeso = pesos.reduce((x, y) => x + y, 0);
+  const inicios = pesos.map((_, j) => Math.floor((dur * pesos.slice(0, j).reduce((x, y) => x + y, 0)) / totalPeso));
   const conContador = idx === 0 && Boolean(e.contador);
   const conLogo = idx === 0 && Boolean(logo) && !conContador;
   return (
     <AbsoluteFill>
       {ps.map((p, j) => {
-        const from = j * base;
-        const d = j === ps.length - 1 ? dur - from : base;
+        const from = inicios[j];
+        const d = (j === ps.length - 1 ? dur : inicios[j + 1]) - from;
         const son = sonidoDe(p);
         const seed = `${idx}-${j}`;
         // Cambio de escena: siempre barrido; dentro de la escena se alterna barrido y zoom
