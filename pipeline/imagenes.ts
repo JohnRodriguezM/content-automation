@@ -136,8 +136,9 @@ export async function resolverImagenes(g: Guion, rehacer = false, guardar?: () =
       if (rehacer || !img.url) {
         // Si la búsqueda es el título exacto de un archivo que ya salió en otra escena, se reusa ese archivo:
         // buscar "el siguiente resultado" de un título exacto trae fotos vecinas que no tienen nada que ver.
-        const exacta = yaResueltas.get(img.busqueda);
-        if (exacta?.archivo && esTituloExacto(img.busqueda, exacta.pagina)) {
+        // (vale también si ese archivo salió antes con otra búsqueda: "Banco Caja Social" → "Banco CS cc Rosetta Btá")
+        const exacta = [...yaResueltas.values()].find((r) => r.archivo && esTituloExacto(img.busqueda, r.pagina));
+        if (exacta) {
           Object.assign(img, { url: exacta.url, credito: exacta.credito, licencia: exacta.licencia, pagina: exacta.pagina, archivo: exacta.archivo });
           console.log(`  ${i + 1}.${j + 1} ${img.busqueda} → misma foto (título exacto)`);
           continue;
@@ -164,6 +165,7 @@ export async function resolverImagenes(g: Guion, rehacer = false, guardar?: () =
       await writeFile(path.join(RAIZ, "public", rel), Buffer.from(await r.arrayBuffer()));
       img.archivo = rel;
       yaResueltas.set(img.busqueda, img);
+      if (img.pagina) yaResueltas.set(`pagina:${img.pagina}`, img); // para encontrarla por título exacto aunque otra búsqueda pise la clave
       console.log(`  ${i + 1}.${j + 1} ${img.busqueda} → ${img.pagina}`);
       await guardar?.();
       await esperar(900);
