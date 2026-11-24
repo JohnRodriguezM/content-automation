@@ -2,7 +2,7 @@
  * Piezas 3D (Three.js vía @remotion/three) para el estilo documental. Sin marcas: solo datos y geografía.
  * - Globo: la Tierra gira desde el país del dueño hasta Colombia y dibuja un arco entre los dos puntos.
  * - Barras3D: participaciones de mercado que suben como columnas mientras la cámara gira.
- * El render necesita WebGL: en pipeline/producir.ts va con chromiumOptions.gl = "swangle".
+ * El render necesita WebGL: Chrome sin GPU lo da con SwiftShader por defecto (no forzar gl="swangle": hace todo 3 veces más lento).
  */
 import React from "react";
 import { continueRender, delayRender, interpolate, useCurrentFrame, Easing } from "remotion";

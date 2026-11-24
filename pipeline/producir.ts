@@ -171,7 +171,9 @@ async function render(props: VideoProps, salida: string, id: "Video" | "Motion" 
   const serveUrl = await bundle({ entryPoint: path.join(RAIZ, "src/Root.tsx"), publicDir: PUBLIC });
   const browserExecutable = process.env.REMOTION_BROWSER || null;
   // WebGL por software (SwiftShader vía ANGLE) para las piezas 3D de src/Tres.tsx: funciona sin GPU en el runner
-  const chromiumOptions = { gl: "swangle" as const };
+  // Sin gl forzado: Chrome usa SwiftShader solo para WebGL (piezas 3D). Con gl="swangle" TODO el video se componía
+  // por software (los blur de fondo, etc.) y el render tardaba 3 veces más (24-nov: los jobs pasaban de 40 min).
+  const chromiumOptions = {};
   const composition = await selectComposition({ serveUrl, id, inputProps: props, browserExecutable, chromiumOptions });
   await renderMedia({
     composition, serveUrl, codec: "h264", crf: id === "Tablero" || id === "Documental" ? 24 : 20, outputLocation: salida, inputProps: props,

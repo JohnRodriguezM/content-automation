@@ -74,12 +74,16 @@ jobs:
           echo "id=$id" >> "$GITHUB_OUTPUT"
           echo "hash=$h" >> "$GITHUB_OUTPUT"
 
-      - uses: actions/cache@v4
+      # restore + save por separado: la voz se guarda aunque el render falle o se pase del tiempo
+      # (con actions/cache a secas solo se guardaba si el job terminaba bien y un timeout volvía a gastar créditos).
+      - uses: actions/cache/restore@v4
+        id: voz
         with:
           path: public/audio/${{ steps.clave.outputs.id }}-*
           key: voz-${{ steps.clave.outputs.id }}-${{ steps.clave.outputs.hash }}
 
       - name: Imágenes, voz y render
+        timeout-minutes: 50
         env:
           ELEVENLABS_API_KEY_SEBAS: ${{ secrets.ELEVENLABS_API_KEY_SEBAS }}
           ELEVENLABS_VOICE_ID_SEBAS: ${{ secrets.ELEVENLABS_VOICE_ID_SEBAS }}
@@ -89,6 +93,17 @@ jobs:
           ESTILO: ${{ inputs.estilo || 'documental' }}
           SOLO_PORTADA: ${{ inputs.solo_portada || '0' }}
         run: npx tsx pipeline/producir.ts "${{ matrix.guion }}"
+
+      - name: ¿Hay voz para guardar?
+        id: hayvoz
+        if: always() && steps.voz.outputs.cache-hit != 'true'
+        run: ls public/audio/${{ steps.clave.outputs.id }}-* >/dev/null 2>&1 && echo "si=1" >> "$GITHUB_OUTPUT" || true
+
+      - uses: actions/cache/save@v4
+        if: always() && steps.hayvoz.outputs.si == '1'
+        with:
+          path: public/audio/${{ steps.clave.outputs.id }}-*
+          key: voz-${{ steps.clave.outputs.id }}-${{ steps.clave.outputs.hash }}
 
       - name: Subir a Google Drive
         env:
