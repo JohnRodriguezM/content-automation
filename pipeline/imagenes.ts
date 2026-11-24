@@ -174,22 +174,26 @@ export async function resolverImagenes(g: Guion, rehacer = false, guardar?: () =
       }
     }
   }
-  // Segunda pasada para las fotos que no bajaron (429 de Commons): tras una pausa se reintenta la misma; si sigue
-  // fallando, se prueba el siguiente resultado de la misma búsqueda. Así la escena no se queda con una foto prestada
-  // de otra escena (y la portada, que suele ser la 1.1, no sale con una foto cualquiera).
+  // Segunda pasada para las fotos que no bajaron (429 de Commons): tras una pausa se reintenta LA MISMA foto, dos veces.
+  // Si sigue fallando, la escena reusa una foto ya bajada de la misma búsqueda (o queda para el reemplazo con otra foto
+  // del guion). Antes se probaba "el siguiente resultado" y con nombres como "El Corral" traía un pueblo de España
+  // o una carnicería de México (24-nov): una foto repetida es mejor que una equivocada.
   if (pendientes.length) {
     await esperar(30_000);
     for (const { i, j, img, rel } of pendientes) {
       try {
         let r = await descargar(img.url!);
-        for (let k = 0; !r.ok && img.fuente !== "pexels" && k < 2; k++) {
-          const c = await buscarCommons(img.busqueda, usadas);
-          if (!c) break;
-          Object.assign(img, c);
-          usadas.add(c.url);
-          r = await descargar(c.url);
+        if (!r.ok) { await esperar(45_000); r = await descargar(img.url!); }
+        if (!r.ok) {
+          const previa = yaResueltas.get(img.busqueda);
+          if (previa?.archivo) {
+            Object.assign(img, { url: previa.url, credito: previa.credito, licencia: previa.licencia, pagina: previa.pagina, archivo: previa.archivo });
+            console.log(`  ${i + 1}.${j + 1} ${img.busqueda} → misma foto que antes (no bajó la suya)`);
+            continue;
+          }
+          console.warn(`  ⚠ escena ${i + 1}.${j + 1}: descarga ${r.status} también en el reintento`);
+          continue;
         }
-        if (!r.ok) { console.warn(`  ⚠ escena ${i + 1}.${j + 1}: descarga ${r.status} también en el reintento`); continue; }
         await writeFile(path.join(RAIZ, "public", rel), Buffer.from(await r.arrayBuffer()));
         img.archivo = rel;
         console.log(`  ${i + 1}.${j + 1} ${img.busqueda} → ${img.pagina} (reintento)`);
