@@ -1,0 +1,347 @@
+{
+  "id": "2026-12-04-jenos-pizza-dueno",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿Quién es el dueño de [[Jeno's Pizza]]?",
+    "dato": "Iba a desaparecer y no",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Jeno's Pizza (1973) la compró Telepizza en 2010; en 2018 se anunció que pasaría a Pizza Hut, pero en 2024 Yum transfirió las marcas Jeno's y Telepizza en Colombia y Chile a Food Delivery Brands, hoy de fondos",
+  "pregunta_principal": "¿De qué marca quieres saber el dueño?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Jeno's Pizza iba a desaparecer. Y no desapareció.",
+      "imagenes": [
+        {
+          "busqueda": "Pizza margherita",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no desapareció"
+      ],
+      "titulo": "Iba a [[desaparecer]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Nació en 1973. Y en 2010 la compró la española Telepizza.",
+      "imagenes": [
+        {
+          "busqueda": "Pizza margherita",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1973",
+        "Telepizza"
+      ],
+      "fecha": "1973",
+      "motion": [
+        {
+          "tipo": "globo",
+          "desde": "madrid",
+          "etiqueta": "Telepizza · España"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 2018 tenía 70 locales en Colombia.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá Calle 100 entre 11 y 15",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "70 locales"
+      ],
+      "fecha": "2018",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "70",
+          "etiqueta": "locales de Jeno's en 2018",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Según Portafolio, en 2017 las 18 cadenas de pizza más grandes del país vendieron 337.430 millones de pesos.",
+      "imagenes": [
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "337.430 millones"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Ese año, Telepizza se alió con Pizza Hut en varios países.",
+      "imagenes": [
+        {
+          "busqueda": "Pizza margherita",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Pizza Hut"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y el plan era convertir poco a poco los Jeno's y los Telepizza en Pizza Hut.",
+      "imagenes": [
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Pizza Hut"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "Jeno's",
+            "texto": "la marca colombiana",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "Pizza Hut",
+            "texto": "el plan de 2018",
+            "icono": "pregunta"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Portafolio lo tituló así: Jeno's desaparecería del mercado colombiano.",
+      "imagenes": [
+        {
+          "busqueda": "Pizza margherita",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "desaparecería"
+      ],
+      "segun": "según Portafolio"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[pause] Pero en 2024, la historia se devolvió.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá Calle 100 entre 11 y 15",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "se devolvió"
+      ],
+      "fecha": "2024"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Yum, la dueña de Pizza Hut, le pasó las marcas Jeno's y Telepizza en Colombia y Chile a Food Delivery Brands.",
+      "imagenes": [
+        {
+          "busqueda": "Pizza margherita",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Food Delivery Brands"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Unos 120 restaurantes Jeno's y Telepizza salieron de la cuenta de Pizza Hut.",
+      "imagenes": [
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "120 restaurantes"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "120",
+          "etiqueta": "restaurantes Jeno's y Telepizza",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Food Delivery Brands opera más de 1.500 restaurantes, sobre todo en España y Portugal.",
+      "imagenes": [
+        {
+          "busqueda": "Pizza margherita",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1.500 restaurantes"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y su director financiero dijo que la empresa tiene una larga historia manejando Jeno's y Telepizza.",
+      "imagenes": [
+        {
+          "busqueda": "Pizza margherita",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "larga historia"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 2022 perdió 29,6 millones de euros en nueve meses, y reestructuró su deuda.",
+      "imagenes": [
+        {
+          "busqueda": "Citizen SLD-100NR calculator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "29,6 millones"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Desde entonces, sus dueños son fondos: Oak Hill, Fortress, Blantyre y HIG.",
+      "imagenes": [
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "fondos"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "dinero",
+              "texto": "Oak Hill"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Fortress · Blantyre"
+            },
+            {
+              "icono": "dinero",
+              "texto": "HIG"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Una marca local puede valer más viva que convertida.",
+      "imagenes": [
+        {
+          "busqueda": "Pizza margherita",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "más viva"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿De qué marca quieres saber el dueño?",
+      "imagenes": [
+        {
+          "busqueda": "Pizza margherita",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Quién es el dueño de Jeno's Pizza? Jeno's nació en 1973 y en 2010 la compró la española Telepizza. En 2018, cuando tenía 70 locales en Colombia, Telepizza y Pizza Hut anunciaron una alianza y el plan era convertir gradualmente los Jeno's y los Telepizza en Pizza Hut (Portafolio).\n\nEn julio de 2024, Pizza Hut (Yum) transfirió las marcas Jeno's y Telepizza en Colombia y Chile a Food Delivery Brands; unos 120 restaurantes salieron de la cuenta global de Pizza Hut. Food Delivery Brands opera o subfranquicia más de 1.500 restaurantes, sobre todo en España y Portugal; perdió 29,6 millones de euros en los primeros nueve meses de 2022 y, tras reestructurar su deuda, quedó en manos de Oak Hill, Fortress, Blantyre y HIG (Nation's Restaurant News).\n\nFuentes: Portafolio (6 sep. 2018), Nation's Restaurant News (24 jul. 2024).\n\n¿De qué marca quieres saber el dueño?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#JenosPizza",
+    "#Pizza",
+    "#MarcasColombianas",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Jeno's fundada en 1973; adquirida por Telepizza en 2010; alianza Telepizza-Pizza Hut (mayo 2018); los Jeno's y Telepizza se convertirían gradualmente a Pizza Hut; 70 establecimientos Jeno's",
+      "url": "https://www.portafolio.co/negocios/jeno-s-pizza-desaparecera-del-mercado-colombiano-520860"
+    },
+    {
+      "afirmacion": "Pizza Hut transfirió las marcas Jeno's y Telepizza en Colombia y Chile a Food Delivery Brands (julio 2024); ~120 restaurantes; FDB opera más de 1.500 restaurantes, sobre todo en España y Portugal; pérdida de 29,6 millones de euros en nueve meses de 2022; dueños Oak Hill, Fortress, Blantyre y HIG tras la reestructuración",
+      "url": "https://nrn.com/restaurant-franchising/pizza-hut-unloads-its-jeno-s-and-telepizza-brands-in-latin-america"
+    }
+  ]
+}

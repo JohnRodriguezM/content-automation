@@ -1,0 +1,279 @@
+{
+  "id": "2026-12-04-enel-bogota-duena",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿Quién es el dueño de [[Enel]]?",
+    "dato": "Bogotá tiene un pedazo",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Enel Colombia nació en 2021 de la fusión de Emgesa y Codensa: Enel tiene 57,3 % y el Grupo Energía Bogotá 42,515 % de los votos; el Distrito de Bogotá tiene 65,7 % del GEB",
+  "pregunta_principal": "¿Qué marca investigo la próxima?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Si pagas la luz a Enel, Bogotá es socia de tu factura. Aunque la marca sea italiana.",
+      "imagenes": [
+        {
+          "busqueda": "Electricity pylon",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "socia"
+      ],
+      "titulo": "Bogotá, [[socia]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Enel es una multinacional italiana de energía.",
+      "imagenes": [
+        {
+          "busqueda": "Electricity pylon",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "italiana"
+      ],
+      "motion": [
+        {
+          "tipo": "globo",
+          "desde": "roma",
+          "etiqueta": "Enel · Italia"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Pero Enel Colombia nació en 2021: Emgesa absorbió a Codensa, a Enel Green Power y a una empresa chilena.",
+      "imagenes": [
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2021",
+        "Codensa"
+      ],
+      "fecha": "2021"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En esa empresa nueva, Enel quedó con el 57,3 %.",
+      "imagenes": [
+        {
+          "busqueda": "Electricity pylon",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "57,3 %"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[pause] Y el Grupo Energía Bogotá, con el 42,5 % de los votos.",
+      "imagenes": [
+        {
+          "busqueda": "Panorama del Centro Internacional de Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "42,5 %"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "57,3 %",
+            "texto": "Enel",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "42,5 %",
+            "texto": "Grupo Energía Bogotá",
+            "icono": "edificio"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "¿Y de quién es el Grupo Energía Bogotá? En su mayoría, del Distrito: 65,7 %.",
+      "imagenes": [
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "65,7 %"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "65,7 %",
+          "etiqueta": "del GEB es del Distrito de Bogotá",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "O sea, por esa vía, cerca del 28 % de Enel Colombia es plata de Bogotá. Es un cálculo propio: 65,7 % del 42,5 %.",
+      "imagenes": [
+        {
+          "busqueda": "Panorama del Centro Internacional de Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "28 %"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "El acuerdo le daba al Grupo dividendos adicionales por 185.000 millones de pesos al año. Cuando Enel reparte ganancias, una parte termina en el Distrito.",
+      "imagenes": [
+        {
+          "busqueda": "Citizen SLD-100NR calculator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "185.000 millones"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "No fue fácil: 21 concejales de Bogotá se opusieron al negocio.",
+      "imagenes": [
+        {
+          "busqueda": "Panorama del Centro Internacional de Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "21 concejales"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y desde 2018, las dos partes habían peleado en un tribunal de arbitramento. La fusión cerró esa pelea.",
+      "imagenes": [
+        {
+          "busqueda": "Electricity pylon",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "arbitramento"
+      ],
+      "fecha": "2018"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "El Grupo Energía Bogotá también tiene el 25 % de Vanti, la del gas.",
+      "imagenes": [
+        {
+          "busqueda": "Gas stove burner",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "25 %",
+        "Vanti"
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Los servicios parecen de multinacionales. Pero muchas veces el Estado está adentro.",
+      "imagenes": [
+        {
+          "busqueda": "Electricity pylon",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "el Estado"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "El Estado está [[adentro]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué marca investigo la próxima?",
+      "imagenes": [
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Quién es el dueño de Enel Colombia? Nació en 2021 de la fusión por absorción en la que Emgesa absorbió a Codensa, Enel Green Power y Essa Chile. Enel quedó con el 57,3 % de las acciones y el Grupo Energía Bogotá (GEB) con el 42,515 % de los derechos de voto. El Distrito de Bogotá es el accionista mayoritario del GEB, con 65,7 % (La República, 2021). Multiplicando ambas participaciones, cerca del 28 % de Enel Colombia corresponde indirectamente al Distrito (cálculo propio).\n\nSegún La República, el acuerdo le daría al GEB dividendos adicionales por $185.000 millones al año, cerró disputas que habían llegado a un tribunal de arbitramento en 2018, y 21 concejales de Bogotá se opusieron. El GEB también tiene el 25 % de Vanti (La República, 2026).\n\nFuentes: La República (22 jun. 2021; 26 oct. 2026).\n\n¿Qué marca investigo la próxima?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Enel",
+    "#Bogota",
+    "#Energia",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Enel Colombia: Emgesa absorbe a Codensa, Enel Green Power y Essa Chile; GEB 42,515 % de los derechos de voto; Enel 57,3 %; Distrito 65,7 % del GEB; dividendo adicional anual de $185.000 millones para el GEB; arbitraje desde 2018; 21 concejales en contra",
+      "url": "https://www.larepublica.co/empresas/geb-sera-dueno-de-42-515-de-la-nueva-enel-colombia-tras-acuerdo-con-enel-americas-3188726"
+    },
+    {
+      "afirmacion": "Grupo Energía Bogotá tiene el 25 % de Vanti",
+      "url": "https://www.larepublica.co/empresas/brookfield-busca-salir-de-la-participacion-accionaria-que-hoy-posee-en-vanti-4509198"
+    }
+  ]
+}

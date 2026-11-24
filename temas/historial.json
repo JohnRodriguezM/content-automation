@@ -1746,5 +1746,274 @@
     ],
     "categoria": "actualidad",
     "franja": "19:30"
+  },
+  {
+    "id": "2026-11-30-fruco-garaje-cali",
+    "tema": "Fruco nació en 1948 en un garaje de Cali (Frutera Colombiana, de Leo Feldsberg); Best Foods la compró en 1962, Unilever en 2000, y en 2026 Unilever acordó integrar su negocio de alimentos con McCormick",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Fruco",
+      "Unilever",
+      "McCormick"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "07:30"
+  },
+  {
+    "id": "2026-11-30-kokoriko-kko",
+    "tema": "Kokoriko, cofundada por Eduardo Robayo, pasó nueve años en el Grupo IGA (vinculado a Andrés Carne de Res) y en 2026 la compró el fondo colombiano KKO",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Kokoriko",
+      "KKO",
+      "Andrés Carne de Res"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "12:30"
+  },
+  {
+    "id": "2026-11-30-bavaria-contra-chicha",
+    "tema": "La chicha era la bebida popular de Bogotá (más de 800 chicherías a finales del siglo XIX); Bavaria (1889) la atacó en su publicidad y, tras el 9 de abril de 1948, la Ley 34 exigió bebidas fermentadas pasteurizadas en envase de vidrio",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Bavaria",
+      "chicha"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "19:30"
+  },
+  {
+    "id": "2026-12-01-cruz-verde-femsa",
+    "tema": "Cruz Verde, la cadena de droguerías con más participación en Colombia, nació en Chile en 1984 y es de FEMSA, la misma dueña de OXXO",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Cruz Verde",
+      "FEMSA"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "07:30"
+  },
+  {
+    "id": "2026-12-01-caja-social-jesuita",
+    "tema": "El Banco Caja Social nació en 1911 como la caja de ahorros del Círculo de Obreros que fundó el jesuita español José María Campoamor; su dueña es la Fundación Grupo Social",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Banco Caja Social",
+      "Fundación Grupo Social"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "12:30"
+  },
+  {
+    "id": "2026-12-01-rappi-contra-ifood",
+    "tema": "iFood, la app de domicilios más grande de Brasil, llegó a Colombia en 2018, se fusionó con Domicilios.com en 2021, perdió la exclusividad de McDonald's y cerró su operación en noviembre de 2022",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Rappi",
+      "iFood",
+      "Domicilios.com"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "19:30"
+  },
+  {
+    "id": "2026-12-02-margarita-pepsico",
+    "tema": "Las papas Margarita son de PepsiCo, que tiene más del 60 % del mercado de papas fritas de paquete en Colombia y procesa 90.000 toneladas de papa al año en Funza y Guarne",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Margarita",
+      "PepsiCo"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "07:30"
+  },
+  {
+    "id": "2026-12-02-vanti-brookfield",
+    "tema": "Vanti (antes Gas Natural Fenosa) es en 74,95 % del fondo canadiense Brookfield y en 25 % del Grupo Energía Bogotá; Brookfield estaría evaluando vender",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Vanti",
+      "Brookfield",
+      "Grupo Energía Bogotá"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "12:30"
+  },
+  {
+    "id": "2026-12-02-andina-contra-bavaria",
+    "tema": "En 2014 Bavaria tenía el 99 % de la cerveza en Colombia; Postobón y la chilena CCU crearon Central Cervecera, invirtieron US$500 millones en Sesquilé, ganaron un caso de competencia desleal en la SIC (2021) y hoy tienen cerca del 7,2 %",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Bavaria",
+      "Central Cervecera",
+      "Postobón",
+      "CCU"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "19:30"
+  },
+  {
+    "id": "2026-12-03-alqueria-mesoamerica",
+    "tema": "En 2019 el fondo centroamericano Mesoamérica (el mismo que tuvo Presto) compró el 35 % de Alquería al IFC; la familia Cavelier mantuvo el 65 %; antes Alquería se quedó con el negocio de yogur de Danone",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Alquería",
+      "Mesoamérica",
+      "Danone"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "07:30"
+  },
+  {
+    "id": "2026-12-03-primax-uno-corp",
+    "tema": "Primax (Grupo Romero, Perú) llegó a Colombia en 2018 comprando 740 estaciones Esso y Mobil; en 2025 tenía 1.000 y facturó $11,06 billones; Uno Corp, de origen hondureño, compró el 100 % de Primax Colombia y la SIC autorizó la integración",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Primax",
+      "Uno Corp",
+      "Grupo Romero",
+      "Biomax"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "12:30"
+  },
+  {
+    "id": "2026-12-03-tostao-contra-juan-valdez",
+    "tema": "Tostao' (2015) apostó por el tinto barato y llegó a tener más tiendas que Juan Valdez en Colombia (511 vs 361 en 2022, Euromonitor), aunque Juan Valdez seguía arriba en ventas",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Tostao'",
+      "Juan Valdez",
+      "Starbucks"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "19:30"
+  },
+  {
+    "id": "2026-12-04-jenos-pizza-dueno",
+    "tema": "Jeno's Pizza (1973) la compró Telepizza en 2010; en 2018 se anunció que pasaría a Pizza Hut, pero en 2024 Yum transfirió las marcas Jeno's y Telepizza en Colombia y Chile a Food Delivery Brands, hoy de fondos",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Jeno's Pizza",
+      "Telepizza",
+      "Pizza Hut",
+      "Food Delivery Brands"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "07:30"
+  },
+  {
+    "id": "2026-12-04-enel-bogota-duena",
+    "tema": "Enel Colombia nació en 2021 de la fusión de Emgesa y Codensa: Enel tiene 57,3 % y el Grupo Energía Bogotá 42,515 % de los votos; el Distrito de Bogotá tiene 65,7 % del GEB",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Enel",
+      "Grupo Energía Bogotá"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "12:30"
+  },
+  {
+    "id": "2026-12-04-el-corral-contra-mcdonalds",
+    "tema": "En Colombia, El Corral (Nutresa) tiene casi el triple de puntos de venta de hamburguesas que McDonald's (43,2 % vs 15 % en 2024, GIG Latam); con Presto, Nutresa concentraría más de la mitad de los puntos",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "El Corral",
+      "McDonald's",
+      "Presto",
+      "Nutresa"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "19:30"
+  },
+  {
+    "id": "2026-12-05-pricesmart-sol-price",
+    "tema": "PriceSmart, fundada en 1994 por Sol Price (creador de Price Club, que se fusionó con Costco), llegó a Colombia hacia 2010 por Barranquilla; hoy Colombia es su país con más clubes (10)",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "PriceSmart",
+      "Costco"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "07:30"
+  },
+  {
+    "id": "2026-12-05-falabella-compra-corona",
+    "tema": "En enero de 2026, Falabella compró por US$159 millones las participaciones de Organización Corona en Falabella Retail (35 %), Banco Falabella (31 %) y Seguros Falabella (35 %); en Sodimac/Homecenter Corona sigue con 51 %",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Falabella",
+      "Organización Corona",
+      "Homecenter"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "12:30"
+  },
+  {
+    "id": "2026-12-05-carrefour-contra-exito",
+    "tema": "Carrefour llegó a Colombia en 1998 a competir con el Éxito; en 2012 vendió sus 92 tiendas a Cencosud por unos US$2.600 millones para concentrarse en países donde era líder; el Éxito siguió primero",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Carrefour",
+      "Éxito",
+      "Cencosud"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "19:30"
+  },
+  {
+    "id": "2026-12-06-cine-colombia-dueno",
+    "tema": "Cine Colombia la fundaron en 1927 veinte empresarios de Medellín; abrió el primer autocine del país (Cali, 1972); el Grupo Mayagüez tuvo la mayoría desde 1988 y luego la compró el Grupo Santo Domingo",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Cine Colombia",
+      "Grupo Santo Domingo",
+      "Grupo Mayagüez"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "07:30"
+  },
+  {
+    "id": "2026-12-06-drogas-la-rebaja-estado",
+    "tema": "Drogas La Rebaja nació en los ochenta ligada a los Rodríguez Orejuela; en 1995 la tomaron sus empleados (Copservir); en 2022 se confirmó la extinción de dominio a favor del Estado y en 2026 el Gobierno anunció que es propiedad estatal",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Drogas La Rebaja",
+      "Copservir"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "12:30"
+  },
+  {
+    "id": "2026-12-06-smart-fit-contra-bodytech",
+    "tema": "Smart Fit (Brasil) cumple 10 años en Colombia y pasó de 130 sedes en 2021 a 236 en 2026; Bodytech, colombiana con 28 años, opera más de 150 sedes en Colombia y Chile con sus marcas y tiene una de menor precio, Athletic",
+    "pilar": "negocios",
+    "narrador": "john",
+    "protagonistas": [
+      "Smart Fit",
+      "Bodytech"
+    ],
+    "categoria": "marcas-colombia",
+    "franja": "19:30"
   }
 ]

@@ -1,0 +1,308 @@
+{
+  "id": "2026-12-01-caja-social-jesuita",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿Quién es el dueño del [[Banco Caja Social]]?",
+    "dato": "Lo fundó un cura jesuita",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "El Banco Caja Social nació en 1911 como la caja de ahorros del Círculo de Obreros que fundó el jesuita español José María Campoamor; su dueña es la Fundación Grupo Social",
+  "pregunta_principal": "¿Qué marca investigo la próxima?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Un banco colombiano lo fundó un cura jesuita.",
+      "imagenes": [
+        {
+          "busqueda": "Banco Caja Social",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Iglesia de San Ignacio (Bogotá)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cura jesuita"
+      ],
+      "titulo": "El banco del [[cura]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "El español José María Campoamor llegó a Bogotá el 30 de agosto de 1910.",
+      "imagenes": [
+        {
+          "busqueda": "Iglesia de San Ignacio (Bogotá)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1910"
+      ],
+      "fecha": "1910",
+      "motion": [
+        {
+          "tipo": "globo",
+          "desde": "madrid",
+          "etiqueta": "España → Bogotá"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "El 14 de enero de 1911 fundó el Círculo de Obreros y su caja de ahorros.",
+      "imagenes": [
+        {
+          "busqueda": "Panorama del Centro Internacional de Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1911"
+      ],
+      "fecha": "1911"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "La idea: que los obreros ahorraran y pudieran pedir crédito.",
+      "imagenes": [
+        {
+          "busqueda": "Moneda 200 pesos colombianos 2016",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ahorraran"
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Según Semana, al comienzo el ahorro lo manejaban mujeres a las que llamaban \"marías\". Y la plata se guardaba en latas de galletas.",
+      "imagenes": [
+        {
+          "busqueda": "Biscuit tin",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "latas de galletas"
+      ],
+      "segun": "según Semana"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 1972 se volvió la Caja Social de Ahorros. En 1991 la autorizaron para ser banco.",
+      "imagenes": [
+        {
+          "busqueda": "Banco Caja Social",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1991"
+      ],
+      "fecha": "1972"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y en 1996 tomó el nombre de Banco Caja Social.",
+      "imagenes": [
+        {
+          "busqueda": "Panorama del Centro Internacional de Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1996"
+      ],
+      "fecha": "1996"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Lo curioso es quién es el dueño: la Fundación Grupo Social.",
+      "imagenes": [
+        {
+          "busqueda": "Banco Caja Social",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Fundación Grupo Social"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Dueño: una [[fundación]]",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 1993, Semana contaba que las ganancias de la Caja no se repartían entre personas: iban al bien común.",
+      "imagenes": [
+        {
+          "busqueda": "Moneda 200 pesos colombianos 2016",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "bien común"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y que la orden jesuita, por estatutos, no recibía beneficios del negocio.",
+      "imagenes": [
+        {
+          "busqueda": "Iglesia de San Ignacio (Bogotá)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no recibía beneficios"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "De ese mismo grupo salieron Colmena, Compensar y Seguros Colmena.",
+      "imagenes": [
+        {
+          "busqueda": "Panorama del Centro Internacional de Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Compensar"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Colmena"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Compensar"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Seguros Colmena"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 2005, la Caja Social y el Banco Colmena se fusionaron.",
+      "imagenes": [
+        {
+          "busqueda": "Banco Caja Social",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2005"
+      ],
+      "fecha": "2005"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y en 2011 volvió a llamarse Banco Caja Social.",
+      "imagenes": [
+        {
+          "busqueda": "Panorama del Centro Internacional de Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2011"
+      ],
+      "fecha": "2011"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Es un banco cuyo dueño no es una familia ni un fondo, sino una fundación.",
+      "imagenes": [
+        {
+          "busqueda": "Iglesia de San Ignacio (Bogotá)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "una fundación"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué marca investigo la próxima?",
+      "imagenes": [
+        {
+          "busqueda": "Banco Caja Social",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Quién es el dueño del Banco Caja Social? La Fundación Grupo Social. Su origen está en el Círculo de Obreros y su caja de ahorros, que el jesuita español José María Campoamor fundó en Bogotá el 14 de enero de 1911, tras llegar el 30 de agosto de 1910 (Semana). El objetivo era promover el ahorro de los obreros y facilitarles el crédito (Banco Caja Social).\n\nSegún Semana (1993), al comienzo el ahorro lo manejaban mujeres llamadas \"marías\" y la plata se guardaba en latas de galletas. La fundación es guiada por jesuitas pero manejada por ejecutivos laicos; las utilidades no se repartían entre personas y, por estatutos, la orden no recibía beneficios del negocio.\n\nEn 1972 pasó a llamarse Caja Social de Ahorros; en 1991 fue autorizada para ser banco y en 1996 recibió el nombre de Banco Caja Social. Del grupo salieron también Colmena, Compensar y Seguros Colmena. En 2005 se fusionó con el Banco Colmena (Banco Caja Social).\n\nFuentes: Banco Caja Social (historia oficial), Semana (30 abr. 1993).\n\n¿Qué marca investigo la próxima?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#BancoCajaSocial",
+    "#Bancos",
+    "#Historia",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "1911: Caja Social de Ahorros del Círculo de Obreros, impulsada por el jesuita español José María Campoamor; 1972 Caja Social de Ahorros; 1991 autorizada como banco; 1996 Banco Caja Social; 2005 fusión con Banco Colmena; es una de las empresas de Fundación Grupo Social",
+      "url": "https://www.bancocajasocial.com/informacion-corporativa/acerca-de-nosotros/nosotros/historia-del-banco-caja-social/"
+    },
+    {
+      "afirmacion": "Campoamor llegó a Bogotá el 30 de agosto de 1910 y fundó el Círculo de Obreros y su Caja el 14 de enero de 1911; 'marías' y latas de galletas; utilidades al bien común; la orden jesuita no recibe beneficios por estatutos; afiliadas como Colmena, Compensar y Seguros Colmena",
+      "url": "https://www.semana.com/los-banqueros-dios/21152/"
+    }
+  ]
+}

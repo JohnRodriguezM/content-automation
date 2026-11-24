@@ -1,0 +1,326 @@
+{
+  "id": "2026-12-02-andina-contra-bavaria",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "La guerra de la [[cerveza]]",
+    "dato": "99 % contra 1 %",
+    "foto": "1.1",
+    "serie": "Guerra de marcas"
+  },
+  "tema": "En 2014 Bavaria tenía el 99 % de la cerveza en Colombia; Postobón y la chilena CCU crearon Central Cervecera, invirtieron US$500 millones en Sesquilé, ganaron un caso de competencia desleal en la SIC (2021) y hoy tienen cerca del 7,2 %",
+  "pregunta_principal": "¿Águila o Andina?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] En 2014, Bavaria tenía el 99 % de la cerveza del país.",
+      "imagenes": [
+        {
+          "busqueda": "Cerveza el aguila 2019",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "CONJUNTO BAVARIA",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "99 %"
+      ],
+      "titulo": "99 % contra [[1 %]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Así lo cuenta el gerente de su rival, Central Cervecera.",
+      "imagenes": [
+        {
+          "busqueda": "Gaseosas Postobón",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Central Cervecera"
+      ],
+      "segun": "según Portafolio"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Años antes, Bavaria había comprado a Leona, una de sus competidoras.",
+      "imagenes": [
+        {
+          "busqueda": "Cerveza Poker",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Leona"
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Ese rival nació a finales de 2014: Postobón, de los Ardila Lülle, se unió con la chilena CCU.",
+      "imagenes": [
+        {
+          "busqueda": "Postobón Cúcuta",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Postobón",
+        "CCU"
+      ],
+      "fecha": "2014",
+      "motion": [
+        {
+          "tipo": "globo",
+          "desde": "santiago",
+          "etiqueta": "CCU · Chile"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Y CCU es socia de Heineken.",
+      "imagenes": [
+        {
+          "busqueda": "Gaseosas Postobón",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Heineken"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Primero solo importaban cerveza. Luego metieron 500 millones de dólares en una planta en Sesquilé.",
+      "imagenes": [
+        {
+          "busqueda": "Sesquilé",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "500 millones"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$500M",
+          "etiqueta": "planta de Central Cervecera en Sesquilé",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "La planta abrió hacia 2019, y su primera marca fue Andina.",
+      "imagenes": [
+        {
+          "busqueda": "Sesquilé",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Andina"
+      ],
+      "fecha": "2019"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[pause] Pero la pelea de verdad fue en las tiendas.",
+      "imagenes": [
+        {
+          "busqueda": "2017 Bogota comidas rápidas arepas boyacenses Autopista Norta con calle 85",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "las tiendas"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Central Cervecera demandó a Bavaria por sus contratos de exclusividad con los negocios.",
+      "imagenes": [
+        {
+          "busqueda": "Cerveza Poker",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "exclusividad"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Según la demanda, esos contratos pasaron de 136 a 13.535 en un año.",
+      "imagenes": [
+        {
+          "busqueda": "2017 Bogota comidas rápidas arepas boyacenses Autopista Norta con calle 85",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "13.535"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "136",
+            "texto": "contratos, fines de 2016",
+            "icono": "documentos"
+          },
+          "despues": {
+            "valor": "13.535",
+            "texto": "contratos, fines de 2017",
+            "icono": "documentos"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 2021, la Superintendencia de Industria y Comercio le dio la razón: Bavaria no podía firmar nuevas exclusividades. Eso sí: pudo quedarse con los contratos que ya tenía.",
+      "imagenes": [
+        {
+          "busqueda": "CONJUNTO BAVARIA",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2021"
+      ],
+      "fecha": "2021"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Hoy Central Cervecera tiene cerca del 7,2 % del mercado. Bavaria, más del 90 %.",
+      "imagenes": [
+        {
+          "busqueda": "Cerveza el aguila 2019",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "7,2 %"
+      ],
+      "motion": [
+        {
+          "tipo": "barras3d",
+          "titulo": "Cerveza en Colombia · 2026",
+          "items": [
+            {
+              "texto": "Bavaria",
+              "valor": 90,
+              "etiqueta": "+90 %"
+            },
+            {
+              "texto": "Central Cerv.",
+              "valor": 7.2,
+              "etiqueta": "7,2 %"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y en 2025 Bavaria facturó 9,3 billones de pesos.",
+      "imagenes": [
+        {
+          "busqueda": "Parque Central Bavaria",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "9,3 billones"
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] En doce años, el retador llegó al 7 %. Contra un gigante, eso ya es pelea.",
+      "imagenes": [
+        {
+          "busqueda": "Sesquilé",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "7 %"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Águila o Andina?",
+      "imagenes": [
+        {
+          "busqueda": "Cerveza el aguila 2019",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Quién le compite a Bavaria? En 2014 Bavaria tenía el 99 % de la cerveza en Colombia, según Felipe Mejía, gerente de Central Cervecera, la empresa que crearon a finales de 2014 Postobón (Organización Ardila Lülle) y la chilena CCU (Portafolio). CCU es un joint venture entre el grupo Quiñenco y Heineken (Valora Analitik).\n\nCentral Cervecera empezó importando cerveza y luego invirtió US$500 millones en su planta de Sesquilé, que abrió hacia 2019 con Andina (Valora Analitik). En 2021 la Superintendencia de Industria y Comercio concluyó que Bavaria incurrió en pactos desleales de exclusividad y le ordenó no firmar nuevos contratos con esas cláusulas; según la demanda, pasaron de 136 a 13.535 entre finales de 2016 y finales de 2017 (Diario Financiero).\n\nHoy Central Cervecera tiene cerca del 7,2 % del mercado y Bavaria más del 90 %; Bavaria reportó ingresos operacionales de $9,3 billones en 2025 (Portafolio).\n\nFuentes: Portafolio (11 oct. 2026), Valora Analitik (18 ago. 2024), Diario Financiero (2 may. 2021).\n\n¿Águila o Andina?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Cerveza",
+    "#Bavaria",
+    "#Andina",
+    "#GuerraDeMarcas",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Bavaria 99 % en 2014 (Felipe Mejía); Central Cervecera surge a finales de 2014 (Postobón y CCU); primero importaba; hoy ~7,2 % del mercado y Bavaria más del 90 %; Bavaria ingresos operacionales $9,3 billones en 2025",
+      "url": "https://www.portafolio.co/negocios/empresas/bavaria-supera-el-90-del-mercado-cervecero-colombiano-y-central-cervecera-busca-ganar-espacio-504278"
+    },
+    {
+      "afirmacion": "Planta de Sesquilé: US$500 millones, abrió cinco años antes de agosto de 2024, primera cerveza Andina; CCU es joint venture de Quiñenco y Heineken",
+      "url": "https://www.valoraanalitik.com/cinco-anos-de-central-cervecera-compitiendo-con-bavaria/"
+    },
+    {
+      "afirmacion": "SIC: Bavaria incurrió en pactos desleales de exclusividad; no puede firmar nuevas exclusividades; contratos de 136 (oct.-dic. 2016) a 13.535 (dic. 2017)",
+      "url": "https://www.df.cl/empresas/construccion/ccu-y-socios-demandan-a-filial-de-ab-inbev-en-colombia-por-competencia"
+    }
+  ]
+}

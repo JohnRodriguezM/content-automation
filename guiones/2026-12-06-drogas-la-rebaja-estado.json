@@ -1,0 +1,334 @@
+{
+  "id": "2026-12-06-drogas-la-rebaja-estado",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿Quién es el dueño de [[Drogas La Rebaja]]?",
+    "dato": "Hoy es del Estado",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Drogas La Rebaja nació en los ochenta ligada a los Rodríguez Orejuela; en 1995 la tomaron sus empleados (Copservir); en 2022 se confirmó la extinción de dominio a favor del Estado y en 2026 el Gobierno anunció que es propiedad estatal",
+  "pregunta_principal": "¿Qué marca investigo la próxima?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Drogas La Rebaja hoy es del Estado.",
+      "imagenes": [
+        {
+          "busqueda": "Casa de Nariño",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Blister pack",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "del Estado"
+      ],
+      "titulo": "Del Estado",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Nació en los años ochenta, ligada a los hermanos Rodríguez Orejuela.",
+      "imagenes": [
+        {
+          "busqueda": "Drogueria Boter",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "años ochenta"
+      ],
+      "segun": "según Semana"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Y estuvo en la Lista Clinton.",
+      "imagenes": [
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Lista Clinton"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El 25 de septiembre de 1995, sus empleados se unieron en una cooperativa, Copservir, para quedarse con las droguerías.",
+      "imagenes": [
+        {
+          "busqueda": "Drogueria Boter",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Copservir"
+      ],
+      "fecha": "1995"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2005, la Superintendencia de Economía Solidaria intervino la cooperativa.",
+      "imagenes": [
+        {
+          "busqueda": "Panorama del Centro Internacional de Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2005"
+      ],
+      "fecha": "2005"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 2013, los Rodríguez Orejuela reconocieron ante una corte de Estados Unidos que lavaron más de 2.000 millones de dólares a través de las droguerías.",
+      "imagenes": [
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2.000 millones"
+      ],
+      "fecha": "2013",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$2.000M+",
+          "etiqueta": "lavados a través de las droguerías",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 2020, quince años después, se levantó la intervención. La cadena tenía 945 puntos y 6.700 empleos directos.",
+      "imagenes": [
+        {
+          "busqueda": "Drogueria Boter",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "945 puntos"
+      ],
+      "fecha": "2020",
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "461",
+            "texto": "puntos al intervenirla",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "945",
+            "texto": "puntos en 2020",
+            "icono": "edificio"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y vendía 1,11 billones de pesos al año.",
+      "imagenes": [
+        {
+          "busqueda": "Citizen SLD-100NR calculator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1,11 billones"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Según Euromonitor, era la tercera cadena de droguerías del país, con el 11,6 %.",
+      "imagenes": [
+        {
+          "busqueda": "Pharmacy shelves",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "11,6 %"
+      ],
+      "segun": "según Euromonitor"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[pause] Pero el 11 de julio de 2022, una sentencia confirmó la extinción de dominio a favor del Estado.",
+      "imagenes": [
+        {
+          "busqueda": "Casa de Nariño",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "extinción de dominio"
+      ],
+      "fecha": "JUL. 2022"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En abril de 2024, la Superintendencia volvió a intervenir a Copservir.",
+      "imagenes": [
+        {
+          "busqueda": "Panorama del Centro Internacional de Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2024"
+      ],
+      "fecha": "ABR. 2024"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y en abril de 2026, el presidente anunció: \"Drogas La Rebaja ahora es propiedad del Estado\".",
+      "imagenes": [
+        {
+          "busqueda": "Casa de Nariño",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "propiedad del Estado"
+      ],
+      "fecha": "ABR. 2026",
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Drogas La Rebaja ahora es propiedad del Estado",
+          "autor": "Gustavo Petro, en redes sociales (abr. 2026)"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "El plan: convertir varias tiendas en puntos de entrega de medicamentos.",
+      "imagenes": [
+        {
+          "busqueda": "Drogueria Boter",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "entrega de medicamentos"
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] La marca ha tenido tres dueños muy distintos: la mafia, sus trabajadores y ahora el Estado.",
+      "imagenes": [
+        {
+          "busqueda": "Drogueria Boter",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tres dueños"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "pregunta",
+              "texto": "Años 80 · Rodríguez Orejuela"
+            },
+            {
+              "icono": "documentos",
+              "texto": "1995 · Sus trabajadores"
+            },
+            {
+              "icono": "edificio",
+              "texto": "2026 · El Estado"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué marca investigo la próxima?",
+      "imagenes": [
+        {
+          "busqueda": "Drogueria Boter",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Quién es el dueño de Drogas La Rebaja? Hoy, el Estado. La cadena se creó en los años ochenta, ligada a Miguel y Gilberto Rodríguez Orejuela, y estuvo en la Lista Clinton. El 25 de septiembre de 1995 sus empleados, asociados en la cooperativa Copservir, adquirieron las farmacias; la Supersolidaria intervino la cooperativa el 2 de mayo de 2005 y levantó la intervención en noviembre de 2020, cuando tenía 945 puntos, 6.700 empleos directos y ventas de $1,11 billones en 2019. En 2013, los Rodríguez Orejuela reconocieron ante una corte de Estados Unidos que lavaron más de US$2.000 millones a través de las droguerías (Semana).\n\nLa sentencia del 11 de julio de 2022 confirmó la extinción de dominio a favor del Estado; en abril de 2024 la Supersolidaria intervino de nuevo a Copservir. El 7 de abril de 2026, el presidente Gustavo Petro anunció que \"Drogas La Rebaja ahora es propiedad del Estado\"; varios puntos se convertirán en puntos de entrega de medicamentos (La República).\n\nSegún Euromonitor (citado por La República en 2023), era la tercera cadena de droguerías, con 11,6 %.\n\nFuentes: Semana (14 nov. 2020), El Espectador (28 nov. 2020), La República (7 abr. 2026; 22 mar. 2023).\n\n¿Qué marca investigo la próxima?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#DrogasLaRebaja",
+    "#Droguerias",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Creada en los años ochenta, ligada a los Rodríguez Orejuela; Lista Clinton; empleados en Copservir adquieren las farmacias el 25 de septiembre de 1995; intervención el 2 de mayo de 2005, levantada en noviembre de 2020; de 461 a 945 puntos; 6.700 empleos directos; ventas $1,11 billones en 2019; en 2013 reconocieron haber lavado más de US$2.000 millones a través de las droguerías",
+      "url": "https://www.semana.com/economia/articulo/la-batalla-final-de-drogas-la-rebaja/202044/"
+    },
+    {
+      "afirmacion": "Copservir creada por los empleados en 1995; intervenida en 2005",
+      "url": "https://www.elespectador.com/investigacion/drogas-la-rebaja-el-negocio-que-sobrevivio-a-la-mafia-article/"
+    },
+    {
+      "afirmacion": "Euromonitor: Drogas La Rebaja 11,6 %, tercera después de Cruz Verde y Coopidrogas",
+      "url": "https://www.larepublica.co/empresas/con-63-3-cruz-verde-y-coopidrogas-dominan-el-mercado-de-droguerias-en-el-pais-3573463"
+    },
+    {
+      "afirmacion": "Petro: 'Drogas La Rebaja ahora es propiedad del Estado' (abril 2026); puntos de entrega de medicamentos; intervención de Copservir el 17 de abril de 2024; sentencia de extinción de dominio del 11 de julio de 2022",
+      "url": "https://www.larepublica.co/empresas/la-rebaja-pasa-a-manos-del-estado-y-entrara-a-apoyar-la-entrega-de-medicamentos-4365790"
+    }
+  ]
+}

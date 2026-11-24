@@ -1,0 +1,300 @@
+{
+  "id": "2026-12-01-rappi-contra-ifood",
+  "pilar": "negocios",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Rappi logo",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "Rappi contra [[iFood]]",
+    "dato": "Llegó a 100 ciudades y se fue",
+    "foto": "1.1",
+    "serie": "Guerra de marcas"
+  },
+  "tema": "iFood, la app de domicilios más grande de Brasil, llegó a Colombia en 2018, se fusionó con Domicilios.com en 2021, perdió la exclusividad de McDonald's y cerró su operación en noviembre de 2022",
+  "pregunta_principal": "¿Tú pides por app o directo al restaurante?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] iFood llegó a más de 100 ciudades de Colombia. Y se fue.",
+      "imagenes": [
+        {
+          "busqueda": "Food delivery by scooter in France (1)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Black smartphone in hand (Unsplash)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "se fue"
+      ],
+      "titulo": "Llegó y se [[fue]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "iFood es la app de domicilios más grande de Brasil: allá tiene cerca del 80 % del mercado.",
+      "imagenes": [
+        {
+          "busqueda": "Black smartphone in hand (Unsplash)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "80 %"
+      ],
+      "segun": "según Portafolio",
+      "motion": [
+        {
+          "tipo": "globo",
+          "desde": "saopaulo",
+          "etiqueta": "iFood · Brasil"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Llegó a Colombia en 2018, a pelearle a Rappi en su propia casa.",
+      "imagenes": [
+        {
+          "busqueda": "Rappi logo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2018"
+      ],
+      "fecha": "2018"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En junio de 2021 se fusionó con Domicilios.com, y sumó 44 % más restaurantes.",
+      "imagenes": [
+        {
+          "busqueda": "Food delivery by scooter in France (1)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Domicilios.com",
+        "44 %"
+      ],
+      "fecha": "JUN. 2021"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "A finales de 2021 ya estaba en más de 100 ciudades: la primera app de domicilios en lograrlo aquí.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá Calle 100 entre 11 y 15",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "100 ciudades"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "100+",
+          "etiqueta": "ciudades a finales de 2021",
+          "icono": "celular"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[pause] Pero en 2022 perdió algo clave: la exclusividad con McDonald's volvió a Rappi.",
+      "imagenes": [
+        {
+          "busqueda": "Hamburger (black bg)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "McDonald's"
+      ],
+      "fecha": "2022"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Sus domiciliarios pasaron de 44.000 a 9.100 en un año.",
+      "imagenes": [
+        {
+          "busqueda": "Food delivery by scooter in France (1)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "9.100"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "44.000",
+            "texto": "domiciliarios en 2021",
+            "icono": "celular"
+          },
+          "despues": {
+            "valor": "9.100",
+            "texto": "domiciliarios en 2022",
+            "icono": "grafica_baja"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "El 21 de octubre de 2022 anunció su salida.",
+      "imagenes": [
+        {
+          "busqueda": "Black smartphone in hand (Unsplash)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "21 de octubre"
+      ],
+      "fecha": "OCT. 2022"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Dijo: \"El contexto global actual nos lleva a tomar la difícil decisión de cerrar nuestra operación local\".",
+      "imagenes": [
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cerrar"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "El contexto global actual nos lleva a tomar la difícil decisión de cerrar nuestra operación local",
+          "autor": "iFood, a Portafolio (oct. 2022)"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y apagó la app el 21 de noviembre. Según Forbes, salieron más de 210 empleados entre Colombia y Brasil.",
+      "imagenes": [
+        {
+          "busqueda": "Black smartphone in hand (Unsplash)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "21 de noviembre"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Rappi ya tenía la delantera: en 2021, según un informe citado por La República, tenía el 44,1 % de las ventas de domicilios.",
+      "imagenes": [
+        {
+          "busqueda": "Rappi logo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "44,1 %"
+      ],
+      "segun": "según La República"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Ser el número uno en tu país no te asegura ganar en el del vecino.",
+      "imagenes": [
+        {
+          "busqueda": "Food delivery by scooter in France (1)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "número uno"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Local [[gana]] en casa"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú pides por app o directo al restaurante?",
+      "imagenes": [
+        {
+          "busqueda": "Hamburger (black bg)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Por qué iFood se fue de Colombia? La app de domicilios más grande de Brasil, con cerca del 80 % del mercado allá, llegó a Colombia en 2018. En junio de 2021 se fusionó con Domicilios.com, lo que aumentó su base de restaurantes en 44 %, y a finales de 2021 llegó a más de 100 ciudades, la primera app de domicilios en lograrlo en el país (Portafolio).\n\nEn 2022 no renovó la exclusividad con McDonald's, que volvió a Rappi, y sus domiciliarios pasaron de 44.000 a 9.100 (Forbes). El 21 de octubre de 2022 anunció que cerraba su operación y la app dejó de funcionar el 21 de noviembre: \"El contexto global actual nos lleva a tomar la difícil decisión de cerrar nuestra operación local\".\n\nEn mayo de 2022, La República citaba un informe según el cual Rappi tenía el 44,1 % de las ventas del sector de domicilios, y el delivery propio de los restaurantes, 43,1 %.\n\nFuentes: Portafolio (21 oct. 2022), Forbes Colombia (21 oct. 2022), La República (21 may. 2022).\n\n¿Tú pides por app o directo al restaurante?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Rappi",
+    "#iFood",
+    "#Domicilios",
+    "#GuerraDeMarcas",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "iFood cierra su operación en Colombia desde el 21 de noviembre de 2022; llegó en 2018; más de 100 ciudades a finales de 2021; fusión con Domicilios.com en junio de 2021 (+44 % restaurantes); cerca del 80 % del mercado en Brasil; cita oficial",
+      "url": "https://www.portafolio.co/negocios/empresas/ifood-anuncio-su-salida-de-colombia-aplicaciones-de-domicilios-572919"
+    },
+    {
+      "afirmacion": "No renovó la exclusividad con McDonald's a mediados de 2022 (volvió a Rappi); domiciliarios de 44.000 a 9.100; anuncio el 21 de octubre de 2022",
+      "url": "https://forbes.co/2022/10/21/negocios/ifood-se-va-de-colombia-despidiendo-a-todos-sus-empleados/"
+    },
+    {
+      "afirmacion": "Rappi 44,1 % de las ventas del sector delivery; delivery propio 43,1 % (informe citado)",
+      "url": "https://www.larepublica.co/empresas/rappi-lidera-el-sector-delivery-con-44-1-de-tenencia-enparticipacion-de-mercado-3367970"
+    }
+  ]
+}

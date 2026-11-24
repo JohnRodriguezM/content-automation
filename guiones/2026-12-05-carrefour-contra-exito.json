@@ -1,0 +1,337 @@
+{
+  "id": "2026-12-05-carrefour-contra-exito",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "Carrefour contra el [[Éxito]]",
+    "dato": "Llegó, peleó y se fue",
+    "foto": "1.1",
+    "serie": "Guerra de marcas"
+  },
+  "tema": "Carrefour llegó a Colombia en 1998 a competir con el Éxito; en 2012 vendió sus 92 tiendas a Cencosud por unos US$2.600 millones para concentrarse en países donde era líder; el Éxito siguió primero",
+  "pregunta_principal": "¿Éxito o Jumbo?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Carrefour vino a pelearle al Éxito. Catorce años después, se fue. Y le dejó el camino a otro extranjero.",
+      "imagenes": [
+        {
+          "busqueda": "Éxito Tunal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "supermarket shopping cart aisle",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "se fue"
+      ],
+      "titulo": "Vino y se [[fue]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "La francesa Carrefour llegó a Colombia en 1998.",
+      "imagenes": [
+        {
+          "busqueda": "supermarket shopping cart aisle",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1998"
+      ],
+      "fecha": "1998",
+      "motion": [
+        {
+          "tipo": "globo",
+          "desde": "paris",
+          "etiqueta": "Carrefour · Francia"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Abrió hipermercados para competirle al Éxito, a Carulla y a Olímpica.",
+      "imagenes": [
+        {
+          "busqueda": "Éxito Tunal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "hipermercados"
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Para 2012 tenía 92 tiendas: 72 hipermercados, 16 de conveniencia y 4 mayoristas.",
+      "imagenes": [
+        {
+          "busqueda": "supermarket shopping cart aisle",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "92 tiendas"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "72 hipermercados"
+            },
+            {
+              "icono": "edificio",
+              "texto": "16 de conveniencia"
+            },
+            {
+              "icono": "edificio",
+              "texto": "4 mayoristas"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Y vendía unos 1.500 millones de euros al año en el país: no era un negocio pequeño.",
+      "imagenes": [
+        {
+          "busqueda": "Citizen SLD-100NR calculator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1.500 millones"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[pause] Pero en 2012, Carrefour decidió concentrarse en los países donde era líder.",
+      "imagenes": [
+        {
+          "busqueda": "Éxito Tunal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "donde era líder"
+      ],
+      "fecha": "2012"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y en Colombia no lo era.",
+      "imagenes": [
+        {
+          "busqueda": "supermarket shopping cart aisle",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no lo era"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En octubre de 2012 anunció la venta.",
+      "imagenes": [
+        {
+          "busqueda": "supermarket shopping cart aisle",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "octubre de 2012"
+      ],
+      "fecha": "OCT. 2012"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Le vendió las 92 tiendas a la chilena Cencosud por unos 2.600 millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Jumbo Btá N",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2.600 millones"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$2.600M",
+          "etiqueta": "pagó Cencosud por Carrefour Colombia",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Casi todo se pagó con plata prestada: un crédito de 2.500 millones de dólares de JPMorgan.",
+      "imagenes": [
+        {
+          "busqueda": "Citizen SLD-100NR calculator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "JPMorgan"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Con eso, Cencosud quedó segunda en supermercados. El primero seguía siendo el Éxito, con 418 puntos de venta.",
+      "imagenes": [
+        {
+          "busqueda": "Éxito Tunal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "418 puntos"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "92",
+            "texto": "tiendas de Carrefour",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "418",
+            "texto": "puntos del Éxito",
+            "icono": "edificio"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "El Éxito tenía más de cuatro veces las tiendas de Carrefour.",
+      "imagenes": [
+        {
+          "busqueda": "Éxito Tunal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cuatro veces"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Hoy, Cencosud opera en Colombia Jumbo, Metro y Easy.",
+      "imagenes": [
+        {
+          "busqueda": "Tienda Jumbo Btá N",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Jumbo",
+        "Metro"
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Ser gigante en el mundo no alcanza si en el barrio no eres el primero. Aquí, el local ganó la pelea.",
+      "imagenes": [
+        {
+          "busqueda": "supermarket shopping cart aisle",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "el primero"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Gigante, pero no [[primero]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Éxito o Jumbo?",
+      "imagenes": [
+        {
+          "busqueda": "Éxito Tunal",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Por qué se fue Carrefour de Colombia? La francesa llegó al país en 1998. En octubre de 2012 anunció la venta de su operación colombiana a la chilena Cencosud, en línea con su estrategia de concentrarse en países donde tenía posición de liderazgo (ESM Magazine). Tenía 92 tiendas: 72 hipermercados, 16 de conveniencia y 4 cash & carry; sus ventas netas al cierre de junio de 2012 sumaban 1.500 millones de euros.\n\nCencosud pagó cerca de US$2.600 millones (Cooperativa: US$2.625 millones; Portal Frutícola: US$2.613 millones) con un crédito de US$2.500 millones de JPMorgan, y quedó como segundo operador de supermercados del país, detrás del Éxito, que tenía 418 puntos de venta (Portal Frutícola). Hoy Cencosud opera en Colombia Jumbo y Metro, entre otros (Portafolio).\n\nFuentes: ESM Magazine (19 oct. 2012), Cooperativa.cl (18 oct. 2012), Portal Frutícola (19 oct. 2012), Portafolio (2025).\n\n¿Éxito o Jumbo?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Carrefour",
+    "#Exito",
+    "#Supermercados",
+    "#GuerraDeMarcas",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Carrefour entró a Colombia en 1998; vende a Cencosud (oct. 2012); 72 hipermercados, 16 de conveniencia y 4 cash & carry; ventas netas de 1.500 millones de euros; estrategia de concentrarse en países donde es líder",
+      "url": "https://www.esmmagazine.com/carrefour-exits-colombia-with-2-billion-sale/922"
+    },
+    {
+      "afirmacion": "Precio US$2.625 millones; crédito de US$2.500 millones con JPMorgan; 92 tiendas",
+      "url": "https://cooperativa.cl/noticias/economia/retail/supermercados/cencosud-oficializo-compra-de-hipermercados-carrefour-en-colombia/2012-10-18/210943.html"
+    },
+    {
+      "afirmacion": "Cencosud sería el segundo operador de supermercados; Éxito primero con 418 puntos de venta; precio US$2.613 millones",
+      "url": "https://www.portalfruticola.com/?p=22330"
+    },
+    {
+      "afirmacion": "Cencosud tiene en Colombia Jumbo, Metro, Easy y Cenco Malls",
+      "url": "https://www.portafolio.co/negocios/empresas/cencosud-duena-de-jumbo-y-metro-entra-a-competir-con-d1-y-ara-con-su-nueva-apuesta-de-tiendas-de-bajo-precio-500636"
+    }
+  ]
+}

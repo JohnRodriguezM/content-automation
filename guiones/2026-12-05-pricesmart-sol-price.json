@@ -1,0 +1,300 @@
+{
+  "id": "2026-12-05-pricesmart-sol-price",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿Quién es el dueño de [[PriceSmart]]?",
+    "dato": "El jefe del fundador de Costco",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "PriceSmart, fundada en 1994 por Sol Price (creador de Price Club, que se fusionó con Costco), llegó a Colombia hacia 2010 por Barranquilla; hoy Colombia es su país con más clubes (10)",
+  "pregunta_principal": "¿De qué marca quieres saber el dueño?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] PriceSmart la fundó el antiguo jefe del fundador de Costco. Y Colombia es su país número uno.",
+      "imagenes": [
+        {
+          "busqueda": "PriceSmart",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Shelves stocked with boxes and carts in a spacious warehouse environment during daylight hours",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Costco"
+      ],
+      "titulo": "El jefe de [[Costco]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Sol Price creó Price Club en 1976, en Estados Unidos.",
+      "imagenes": [
+        {
+          "busqueda": "Shelves stocked with boxes and carts in a spacious warehouse environment during daylight hours",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1976"
+      ],
+      "fecha": "1976"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Uno de sus antiguos empleados, Jim Sinegal, fundó Costco en 1983.",
+      "imagenes": [
+        {
+          "busqueda": "Warehouse distribution-center-1136510",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Jim Sinegal"
+      ],
+      "fecha": "1983"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Y en 1993, Price Club y Costco se fusionaron.",
+      "imagenes": [
+        {
+          "busqueda": "Shelves stocked with boxes and carts in a spacious warehouse environment during daylight hours",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1993"
+      ],
+      "fecha": "1993"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[pause] Un año después, Sol Price y su hijo Robert fundaron PriceSmart, en San Diego, California.",
+      "imagenes": [
+        {
+          "busqueda": "PriceSmart",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1994",
+        "San Diego"
+      ],
+      "fecha": "1994",
+      "motion": [
+        {
+          "tipo": "globo",
+          "desde": "sandiego",
+          "etiqueta": "PriceSmart · San Diego",
+          "hasta": "barranquilla"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Llegó a Colombia hacia 2010, con su primer club en Barranquilla, no en Bogotá.",
+      "imagenes": [
+        {
+          "busqueda": "PriceSmart",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Barranquilla"
+      ],
+      "fecha": "2010"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El modelo: pagas una membresía al año para poder entrar a comprar.",
+      "imagenes": [
+        {
+          "busqueda": "Shelves stocked with boxes and carts in a spacious warehouse environment during daylight hours",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "membresía"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 2019 ya vendía cerca de 1,2 billones de pesos en el país, según Forbes.",
+      "imagenes": [
+        {
+          "busqueda": "Citizen SLD-100NR calculator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1,2 billones"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$1,2 bill.",
+          "etiqueta": "ventas en Colombia (2019)",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Más del 80 % de sus socios renovaba la membresía, según la empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Shelves stocked with boxes and carts in a spacious warehouse environment during daylight hours",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "80 %"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y hoy Colombia es el país con más clubes de toda la cadena: 10.",
+      "imagenes": [
+        {
+          "busqueda": "PriceSmart",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "10"
+      ],
+      "motion": [
+        {
+          "tipo": "barras3d",
+          "titulo": "Clubes PriceSmart · 2026",
+          "items": [
+            {
+              "texto": "Colombia",
+              "valor": 10,
+              "etiqueta": "10"
+            },
+            {
+              "texto": "Costa Rica",
+              "valor": 9,
+              "etiqueta": "9"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Más que Costa Rica, que tiene nueve.",
+      "imagenes": [
+        {
+          "busqueda": "Warehouse distribution-center-1136510",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "nueve"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En total opera 56 clubes en 12 países y un territorio de Estados Unidos. Y según Valora Analitik, tiene en la mira cinco almacenes nuevos.",
+      "imagenes": [
+        {
+          "busqueda": "Shelves stocked with boxes and carts in a spacious warehouse environment during daylight hours",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "56 clubes"
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] PriceSmart y Costco tienen el mismo abuelo, pero hoy son empresas distintas. Y las dos cobran por entrar.",
+      "imagenes": [
+        {
+          "busqueda": "PriceSmart",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "vuelve"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Pagar para [[comprar]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿De qué marca quieres saber el dueño?",
+      "imagenes": [
+        {
+          "busqueda": "PriceSmart",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Quién creó PriceSmart? Sol Price y su hijo Robert la fundaron en 1994 en San Diego. Sol Price había creado Price Club en 1976; Jim Sinegal, antiguo empleado suyo, fundó Costco en 1983, y Costco y Price Club se fusionaron en 1993 (Forbes Colombia).\n\nPriceSmart llegó a Colombia hacia 2010 con su primer club en Barranquilla; en 2019 sus ventas en el país rondaron $1,2 billones, y la empresa reportaba renovaciones de membresía superiores al 80 % (Forbes Colombia, 2020). En abril de 2026, Colombia era el país con más clubes de la cadena, con 10, por encima de Costa Rica (9); en total operaba 56 clubes en 12 países y un territorio de Estados Unidos (Valora Analitik).\n\nFuentes: Forbes Colombia (19 oct. 2020), Valora Analitik (10 abr. 2026).\n\n¿De qué marca quieres saber el dueño?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#PriceSmart",
+    "#Costco",
+    "#Retail",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "PriceSmart fundada en 1994 en San Diego por Sol Price y su hijo Robert; Price Club desde 1976; Jim Sinegal (exempleado) fundó Costco en 1983; fusión Costco-Price Club en 1993; primer club en Colombia en Barranquilla hace unos diez años (2020); ventas de ~$1,2 billones; renovación superior al 80 %",
+      "url": "https://forbes.co/2020/10/19/editors-picks/de-boca-en-boca-como-pricesmart-se-volvio-una-compania-billonaria-en-colombia/"
+    },
+    {
+      "afirmacion": "10 clubes en Colombia, el país con más; Costa Rica nueve; 56 clubes en 12 países y un territorio estadounidense (abril 2026)",
+      "url": "https://www.valoraanalitik.com/pricesmart-tiene-en-la-mira-la-apertura-de-cinco-nuevos-almacenes/"
+    }
+  ]
+}

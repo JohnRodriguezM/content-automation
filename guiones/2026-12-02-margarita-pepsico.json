@@ -1,0 +1,319 @@
+{
+  "id": "2026-12-02-margarita-pepsico",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿Quién es el dueño de [[Margarita]]?",
+    "dato": "60 % de las papas de paquete",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Las papas Margarita son de PepsiCo, que tiene más del 60 % del mercado de papas fritas de paquete en Colombia y procesa 90.000 toneladas de papa al año en Funza y Guarne",
+  "pregunta_principal": "¿De qué marca quieres saber el dueño?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Las papas Margarita son de una empresa gringa. La papa sí es colombiana.",
+      "imagenes": [
+        {
+          "busqueda": "potato chips",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Traditionelle kartoffelchips",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "gringa"
+      ],
+      "titulo": "Papas [[gringas]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Son de PepsiCo, la misma de Pepsi y Doritos.",
+      "imagenes": [
+        {
+          "busqueda": "potato chips",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "PepsiCo"
+      ],
+      "motion": [
+        {
+          "tipo": "globo",
+          "desde": "nuevayork",
+          "etiqueta": "PepsiCo · EE. UU."
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Según La República, en Colombia tiene más del 60 % del mercado de papas fritas de paquete.",
+      "imagenes": [
+        {
+          "busqueda": "Traditionelle kartoffelchips",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "60 %"
+      ],
+      "segun": "según La República",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "60 %+",
+          "etiqueta": "del mercado de papas de paquete",
+          "icono": "grafica_baja"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "O sea: de cada diez paquetes de papas que se venden, más de seis son de la misma empresa.",
+      "imagenes": [
+        {
+          "busqueda": "potato chips",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "más de seis"
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Y es el mayor comprador industrial de papa del país: procesa 90.000 toneladas al año.",
+      "imagenes": [
+        {
+          "busqueda": "Papa criolla",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "90.000 toneladas"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "90.000 t",
+          "etiqueta": "de papa procesada al año",
+          "icono": "documentos"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 2018 eran 65.000 toneladas, compradas a cerca de mil agricultores.",
+      "imagenes": [
+        {
+          "busqueda": "Papa criolla",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mil agricultores"
+      ],
+      "fecha": "2018"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[pause] La papa es de aquí. Las plantas, también: una en Funza y otra en Guarne.",
+      "imagenes": [
+        {
+          "busqueda": "Guarne Antioquia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Funza",
+        "Guarne"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "La de Guarne la empezó a construir en 2020, con unos 98 millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "Guarne Antioquia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "98 millones"
+      ],
+      "fecha": "2020",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$98M",
+          "etiqueta": "inversión en la planta de Guarne",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Arrancó en 2022 y saca unos 2,5 millones de paquetes al día. Solo esa planta procesa unas 500 toneladas de papa al mes.",
+      "imagenes": [
+        {
+          "busqueda": "potato chips",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2,5 millones"
+      ],
+      "fecha": "2022"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "De ahí salen Margarita, Doritos, Natuchips y Chokis.",
+      "imagenes": [
+        {
+          "busqueda": "Traditionelle kartoffelchips",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Natuchips"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Margarita"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Doritos · Natuchips"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Chokis"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Hasta mandó Natuchips a España.",
+      "imagenes": [
+        {
+          "busqueda": "Papa criolla",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "España"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y anunció inversiones por unos 1.000 millones de dólares en Colombia, sobre todo para crecer lo que ya tiene.",
+      "imagenes": [
+        {
+          "busqueda": "Guarne Antioquia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1.000 millones"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$1.000M",
+          "etiqueta": "inversión anunciada en Colombia",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] La papa la siembra un campesino colombiano. La marca y la plata grande se mueven desde afuera.",
+      "imagenes": [
+        {
+          "busqueda": "Papa criolla",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "desde afuera"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿De qué marca quieres saber el dueño?",
+      "imagenes": [
+        {
+          "busqueda": "potato chips",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Quién es el dueño de las papas Margarita? PepsiCo, la multinacional estadounidense de Pepsi y Doritos. Según La República (octubre de 2026), tiene más del 60 % del mercado de papas fritas de paquete en Colombia y es el mayor comprador industrial de papa del país: procesa 90.000 toneladas al año en sus plantas de Funza y Guarne.\n\nLa planta de Guarne (Antioquia) empezó a construirse en 2020 con unos US$98 millones, opera desde 2022 y produce cerca de 2,5 millones de unidades al día, entre ellas Margarita, Doritos, Natuchips y Chokis; Natuchips incluso se ha exportado a España. La compañía anunció inversiones por cerca de US$1.000 millones, principalmente para ampliar su capacidad.\n\nEn 2018, PepsiCo trabajaba con cerca de mil agricultores colombianos y compraba unas 65.000 toneladas de papa al año (Portafolio).\n\nFuentes: La República (1 oct. 2026), Portafolio (27 jul. 2018).\n\n¿De qué marca quieres saber el dueño?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Margarita",
+    "#PepsiCo",
+    "#Papas",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "PepsiCo: más del 60 % del mercado de papas fritas de paquete (marca Margarita); mayor comprador industrial de papa (90.000 t/año) en Guarne y Funza; planta de Guarne: obra desde 2020 con ~US$98 millones, opera desde 2022, ~2,5 millones de unidades al día; Margarita, Doritos, Natuchips, Chokis; Natuchips a España; inversión anunciada ~US$1.000 millones",
+      "url": "https://www.larepublica.co/empresas/desde-su-planta-de-guarne-pepsico-produce-2-5-millones-de-snacks-al-dia-4493867"
+    },
+    {
+      "afirmacion": "PepsiCo compra papa a cerca de mil agricultores; 65.000 toneladas de papa al año (2018)",
+      "url": "https://www.portafolio.co/negocios/empresas/las-papas-que-se-utilizan-para-fabricar-la-marca-margarita-y-de-todito-519460"
+    }
+  ]
+}

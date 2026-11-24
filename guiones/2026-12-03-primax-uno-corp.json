@@ -1,0 +1,352 @@
+{
+  "id": "2026-12-03-primax-uno-corp",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿Quién es el dueño de [[Primax]]?",
+    "dato": "Pasa a manos hondureñas",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Primax (Grupo Romero, Perú) llegó a Colombia en 2018 comprando 740 estaciones Esso y Mobil; en 2025 tenía 1.000 y facturó $11,06 billones; Uno Corp, de origen hondureño, compró el 100 % de Primax Colombia y la SIC autorizó la integración",
+  "pregunta_principal": "¿Qué marca investigo la próxima?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Las bombas Primax de Colombia pasan a manos hondureñas.",
+      "imagenes": [
+        {
+          "busqueda": "Primax Petrol Station, Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Bogotá Calle 100 entre 11 y 15",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "hondureñas"
+      ],
+      "titulo": "Gasolina [[hondureña]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Primax es del Grupo Romero, el conglomerado más grande de Perú.",
+      "imagenes": [
+        {
+          "busqueda": "Primax Petrol Station, Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Grupo Romero"
+      ],
+      "motion": [
+        {
+          "tipo": "mapa",
+          "puntos": [
+            {
+              "lugar": "lima",
+              "etiqueta": "Grupo Romero · Perú"
+            },
+            {
+              "lugar": "bogota",
+              "etiqueta": "Primax Colombia"
+            }
+          ],
+          "ruta": true
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Llegó a Colombia en 2018: compró 740 bombas Esso y Mobil por unos 232 millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "Primax Petrol Station, Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "740 bombas"
+      ],
+      "fecha": "2018",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "740",
+          "etiqueta": "bombas Esso y Mobil compradas",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Esas bombas salieron a la venta por orden de la Superintendencia, cuando Terpel compró el negocio de ExxonMobil.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá Calle 100 entre 11 y 15",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Terpel"
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 2025 ya tenía 1.000 estaciones. Y facturó 11,06 billones de pesos.",
+      "imagenes": [
+        {
+          "busqueda": "Primax Petrol Station, Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1.000 estaciones",
+        "11,06 billones"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[pause] En marzo de 2025 se supo que Aramco, la petrolera saudí, quería comprar Primax.",
+      "imagenes": [
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Aramco"
+      ],
+      "fecha": "MAR. 2025"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Por toda la compañía se habló de 3.500 millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "Citizen SLD-100NR calculator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "3.500 millones"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Pero en agosto, el que firmó en Colombia fue Uno Corp, un grupo de origen hondureño.",
+      "imagenes": [
+        {
+          "busqueda": "Primax Petrol Station, Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Uno Corp"
+      ],
+      "fecha": "AGO. 2025",
+      "motion": [
+        {
+          "tipo": "globo",
+          "desde": "tegucigalpa",
+          "etiqueta": "Uno Corp · Honduras"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Uno tiene más de 1.800 estaciones en siete países.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá Calle 100 entre 11 y 15",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1.800 estaciones"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Compró el 100 % de Primax Colombia. El precio no se reveló.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá Calle 100 entre 11 y 15",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "100 %"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Uno ya tenía aquí las bombas Biomax, y unas 60 Shell.",
+      "imagenes": [
+        {
+          "busqueda": "Primax Petrol Station, Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Biomax"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 2026 la Superintendencia de Industria y Comercio autorizó la integración.",
+      "imagenes": [
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "autorizó"
+      ],
+      "fecha": "2026"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Primax suma 1.000 estaciones; Biomax, 850; Texaco, unas 550. Terpel, la más grande, pasa de 2.000.",
+      "imagenes": [
+        {
+          "busqueda": "Primax Petrol Station, Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2.000"
+      ],
+      "motion": [
+        {
+          "tipo": "barras3d",
+          "titulo": "Estaciones de servicio",
+          "items": [
+            {
+              "texto": "Terpel",
+              "valor": 2000,
+              "etiqueta": "2.000+"
+            },
+            {
+              "texto": "Primax",
+              "valor": 1000,
+              "etiqueta": "1.000"
+            },
+            {
+              "texto": "Biomax",
+              "valor": 850,
+              "etiqueta": "850"
+            },
+            {
+              "texto": "Texaco",
+              "valor": 550,
+              "etiqueta": "550"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Juntas, Primax y Biomax suman 1.850: se acercan a Terpel.",
+      "imagenes": [
+        {
+          "busqueda": "Primax Petrol Station, Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1.850"
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] El letrero de la bomba puede seguir igual. El dueño, no.",
+      "imagenes": [
+        {
+          "busqueda": "Primax Petrol Station, Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "el dueño"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué marca investigo la próxima?",
+      "imagenes": [
+        {
+          "busqueda": "Primax Petrol Station, Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Quién es el dueño de Primax en Colombia? Primax, del Grupo Romero (el conglomerado más grande de Perú), llegó en 2018 al comprar Distribuidora Andina de Combustibles, con 740 estaciones Esso y Mobil, por cerca de US$231,9 millones; esas estaciones se vendieron por orden de la SIC tras la compra del negocio de ExxonMobil por parte de Terpel (Semana).\n\nEn marzo de 2025 se conoció el plan de Aramco para comprar Primax, valorado en US$3.500 millones. En agosto de 2025, Uno Corp, grupo de origen hondureño con más de 1.800 estaciones en siete países y dueño de Biomax en Colombia, compró la totalidad de las acciones de Primax Colombia, sin revelar el precio (La República). En 2026, Primax informó que la SIC autorizó la integración; Primax llegó a 1.000 estaciones en 2025 y facturó $11,06 billones. Uno tiene unas 850 estaciones Biomax, y Terpel supera los 2.000 puntos (La República).\n\nFuentes: Semana (25 may. 2019), La República (14 ago. 2025; 16 jun. 2026).\n\n¿Qué marca investigo la próxima?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Primax",
+    "#Gasolina",
+    "#UnoCorp",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Primax (Grupo Romero, Perú) compró Distribuidora Andina de Combustibles por ~US$231,9 millones: 740 estaciones Esso y Mobil, control desde el 30 de noviembre de 2018; venta ordenada por la SIC tras la compra de Terpel",
+      "url": "https://www.semana.com/100-empresas/articulo/primax-compro-a-esso-y-mobil-por-232-millones-de-dolares/616768"
+    },
+    {
+      "afirmacion": "Uno Corp compró la totalidad de las acciones de Primax Colombia (1.000 estaciones); precio no revelado; plan previo de Aramco valorado en US$3.500 millones (marzo 2025); Uno Corp, de origen hondureño, más de 1.800 estaciones en siete países",
+      "url": "https://www.larepublica.co/empresas/el-grupo-hondureno-uno-corp-se-quedo-con-las-1-000-estaciones-de-primax-4202436"
+    },
+    {
+      "afirmacion": "La SIC autorizó la integración Primax-Uno Corp; Primax 1.000 estaciones en 2025 y facturó $11,06 billones; Uno Corp 850 estaciones Biomax; Terpel más de 2.000 puntos",
+      "url": "https://www.larepublica.co/empresas/integracion-entre-primax-y-uno-corp-4415850"
+    }
+  ]
+}

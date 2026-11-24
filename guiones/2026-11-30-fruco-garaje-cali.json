@@ -1,0 +1,332 @@
+{
+  "id": "2026-11-30-fruco-garaje-cali",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿Quién es el dueño de [[Fruco]]?",
+    "dato": "Nació en un garaje de Cali",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Fruco nació en 1948 en un garaje de Cali (Frutera Colombiana, de Leo Feldsberg); Best Foods la compró en 1962, Unilever en 2000, y en 2026 Unilever acordó integrar su negocio de alimentos con McCormick",
+  "pregunta_principal": "¿De qué marca quieres saber el dueño?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Fruco nació en un garaje de Cali. Y va camino a su cuarto dueño.",
+      "imagenes": [
+        {
+          "busqueda": "Tomate natural triturado",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Untado Tomate",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "garaje"
+      ],
+      "titulo": "Nació en un [[garaje]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 1948, el austriaco Leo Feldsberg fundó Frutera Colombiana, en el barrio Santander.",
+      "imagenes": [
+        {
+          "busqueda": "Tomato je",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1948"
+      ],
+      "fecha": "1948",
+      "motion": [
+        {
+          "tipo": "globo",
+          "desde": "viena",
+          "etiqueta": "Austria → Cali",
+          "hasta": "cali"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Empezó con mermeladas y vinagres.",
+      "imagenes": [
+        {
+          "busqueda": "Tomate",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "mermeladas"
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 1950 llegó su socio, Félix Zweig, el que creó las fórmulas de la mayonesa y la salsa de tomate.",
+      "imagenes": [
+        {
+          "busqueda": "Sauce tomate au Togo 01",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Félix Zweig"
+      ],
+      "fecha": "1950"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[pause] Pero Fruco no siguió siendo de ellos. En 1962 la compró Best Foods, y abrió planta en Malambo.",
+      "imagenes": [
+        {
+          "busqueda": "Tomate natural triturado",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1962",
+        "Best Foods"
+      ],
+      "fecha": "1962",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "1962",
+          "etiqueta": "Best Foods compra Fruco",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En el año 2000 llegó Unilever, la de Knorr y Maizena.",
+      "imagenes": [
+        {
+          "busqueda": "Untado Tomate",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Unilever"
+      ],
+      "fecha": "2000"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Según Portafolio, es su segunda marca más grande en Colombia.",
+      "imagenes": [
+        {
+          "busqueda": "Tomato je",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "segunda marca"
+      ],
+      "segun": "según Portafolio"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y según Nielsen, se queda con el 40 % de la plata que se mueve en salsa de tomate.",
+      "imagenes": [
+        {
+          "busqueda": "Sauce tomate au Togo 02",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "40 %"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "40 %",
+          "etiqueta": "del valor en salsa de tomate (Nielsen, 2025)",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Está en seis de cada diez hogares del país.",
+      "imagenes": [
+        {
+          "busqueda": "Tomate",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "seis de cada diez"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[serious] Lo que nadie cuenta: en marzo de 2026, Unilever acordó juntar su negocio de comida con McCormick, la de las especias.",
+      "imagenes": [
+        {
+          "busqueda": "Sauce tomate au Togo 03",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "McCormick"
+      ],
+      "fecha": "MAR. 2026"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Un negocio valorado en 44.800 millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "Tomate natural triturado",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "44.800 millones"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$44.800M",
+          "etiqueta": "valor de la operación Unilever-McCormick",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Fruco, Knorr, Maizena y Hellmann's pasarían a una empresa nueva, donde los accionistas de Unilever tendrían el 65 %.",
+      "imagenes": [
+        {
+          "busqueda": "Untado Tomate",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "65 %"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Fruco · Knorr · Maizena"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Empresa nueva con McCormick"
+            },
+            {
+              "icono": "pregunta",
+              "texto": "Cierre: mediados de 2027"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La Superintendencia ya revisa el caso, y el cierre se espera para mediados de 2027.",
+      "imagenes": [
+        {
+          "busqueda": "Tomato je",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2027"
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] La receta nació en Cali. La marca ha cambiado de casa tres veces.",
+      "imagenes": [
+        {
+          "busqueda": "Tomate",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tres veces"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿De qué marca quieres saber el dueño?",
+      "imagenes": [
+        {
+          "busqueda": "Tomate natural triturado",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Quién es el dueño de Fruco? Hoy, Unilever. Pero la historia empezó en 1948 en un garaje del barrio Santander de Cali, donde el austriaco Leo Feldsberg fundó Frutera Colombiana para hacer mermeladas y vinagres. En 1950 se le unió Félix Zweig, que desarrolló las fórmulas de la mayonesa y la salsa de tomate (Portafolio).\n\nEn 1962 la compró Best Foods, que abrió planta en Malambo, y en 2000 llegó Unilever. Según Portafolio, es la segunda marca más grande de Unilever en Colombia; según Nielsen, tenía el 40 % del valor de la categoría de salsa de tomate a septiembre de 2025, y Kantar la ubica en seis de cada diez hogares (Publimetro).\n\nEl 31 de marzo de 2026, Unilever anunció la integración de su negocio global de alimentos con McCormick, en una operación valorada en 44.800 millones de dólares. Los accionistas de Unilever tendrían el 55,1 % de la empresa combinada y Unilever el 9,9 %. La operación ya está en la Superintendencia de Industria y Comercio y el cierre se espera para mediados de 2027 (Portafolio).\n\nFuentes: Portafolio (8 may. 2019; 13 oct. 2026), Publimetro (24 nov. 2025).\n\n¿De qué marca quieres saber el dueño?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Fruco",
+    "#Unilever",
+    "#MarcasColombianas",
+    "#Cali",
+    "#Negocios"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Frutera Colombiana fundada en 1948 en un garaje del barrio Santander de Cali por Leo Feldsberg; Félix Zweig (1950) desarrolló las fórmulas; Best Foods compró en 1962 y abrió planta en Malambo; Unilever en 2000; segunda marca más grande de Unilever en Colombia",
+      "url": "https://www.portafolio.co/negocios/empresas/fruco-la-marca-local-que-pesa-en-el-portafolio-de-unilever-529371"
+    },
+    {
+      "afirmacion": "40 % del valor de la categoría de salsa de tomate (Nielsen, sept. 2025); presente en seis de cada diez hogares (Kantar)",
+      "url": "https://www.publimetro.co/gourmetro/2025/11/24/de-frutera-colombiana-a-fruco-un-pais-en-una-salsa-de-tomate/"
+    },
+    {
+      "afirmacion": "Unilever integra su negocio de alimentos con McCormick (anunciado el 31 de marzo de 2026, US$44.800 millones); accionistas de Unilever 55,1 % y Unilever 9,9 %; Fruco, Knorr, Maizena y Hellmann's; revisión de la SIC; cierre a mediados de 2027",
+      "url": "https://www.portafolio.co/negocios/empresas/fruco-knorr-maizena-y-otras-marcas-de-unilever-pasaran-al-negocio-de-mccormick-con-su-integracion-504394"
+    }
+  ]
+}

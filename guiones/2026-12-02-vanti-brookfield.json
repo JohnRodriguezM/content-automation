@@ -1,0 +1,320 @@
+{
+  "id": "2026-12-02-vanti-brookfield",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿Quién es el dueño de [[Vanti]]?",
+    "dato": "Un fondo de Canadá",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Vanti (antes Gas Natural Fenosa) es en 74,95 % del fondo canadiense Brookfield y en 25 % del Grupo Energía Bogotá; Brookfield estaría evaluando vender",
+  "pregunta_principal": "¿Qué marca investigo la próxima?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Si pagas Vanti, le pagas a un fondo canadiense. Y podría cambiar de dueño.",
+      "imagenes": [
+        {
+          "busqueda": "Gas stove burner",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "canadiense"
+      ],
+      "titulo": "Gas [[canadiense]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Vanti antes se llamaba Gas Natural Fenosa.",
+      "imagenes": [
+        {
+          "busqueda": "Gas stove burner",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Gas Natural Fenosa"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2018 cambió de nombre porque cambió de dueño: Brookfield, de Canadá, ya tenía el 54,7 %.",
+      "imagenes": [
+        {
+          "busqueda": "Sunset Toronto Skyline Panorama Crop from Snake Island",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Brookfield",
+        "54,7 %"
+      ],
+      "fecha": "2018",
+      "motion": [
+        {
+          "tipo": "globo",
+          "desde": "toronto",
+          "etiqueta": "Brookfield · Canadá"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Hoy Brookfield tiene el 74,95 %.",
+      "imagenes": [
+        {
+          "busqueda": "Sunset Toronto Skyline Panorama Crop from Snake Island",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "74,95 %"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "74,95 %",
+          "etiqueta": "de Vanti es de Brookfield",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Y el otro 25 % es del Grupo Energía Bogotá. O sea: una cuarta parte de lo que reparta Vanti le toca al Grupo.",
+      "imagenes": [
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "25 %"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Que a su vez es, en su mayoría, del Distrito de Bogotá: 65,7 %. El mismo Grupo que es socio de Enel, la de la luz.",
+      "imagenes": [
+        {
+          "busqueda": "Panorama del Centro Internacional de Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "65,7 %"
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Vanti atiende 2,63 millones de clientes en 96 municipios de ocho departamentos.",
+      "imagenes": [
+        {
+          "busqueda": "Gas stove burner",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2,63 millones"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "2,63M",
+          "etiqueta": "clientes en 96 municipios",
+          "icono": "documentos"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 2025 facturó 4,69 billones de pesos y ganó 544.390 millones.",
+      "imagenes": [
+        {
+          "busqueda": "Citizen SLD-100NR calculator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "544.390 millones"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$460.408M",
+            "texto": "utilidad 2024",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "$544.390M",
+            "texto": "utilidad 2025",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Un 18 % más de ganancia que el año anterior.",
+      "imagenes": [
+        {
+          "busqueda": "Citizen SLD-100NR calculator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "18 %"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[serious] Pero según La República, Brookfield estaría pensando en vender su parte.",
+      "imagenes": [
+        {
+          "busqueda": "Sunset Toronto Skyline Panorama Crop from Snake Island",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "vender"
+      ],
+      "segun": "según La República",
+      "fecha": "OCT. 2026"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Habría tres interesados: Grupo Argos y dos fondos de Estados Unidos.",
+      "imagenes": [
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Grupo Argos"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Grupo Argos"
+            },
+            {
+              "icono": "dinero",
+              "texto": "Grupo Attia (EE. UU.)"
+            },
+            {
+              "icono": "dinero",
+              "texto": "I Squared (EE. UU.)"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "La traba es el precio: entre 700 y 1.000 millones de dólares, según quién haga la cuenta.",
+      "imagenes": [
+        {
+          "busqueda": "Citizen SLD-100NR calculator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "el precio"
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] El gas te llega por el mismo tubo. El dueño puede cambiar sin que lo notes.",
+      "imagenes": [
+        {
+          "busqueda": "Gas stove burner",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "el dueño"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué marca investigo la próxima?",
+      "imagenes": [
+        {
+          "busqueda": "Gas stove burner",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Quién es el dueño de Vanti? El fondo canadiense Brookfield, con el 74,95 %; el Grupo Energía Bogotá tiene el 25 % (La República, octubre de 2026). El Distrito de Bogotá, a su vez, es el accionista mayoritario del Grupo Energía Bogotá, con 65,7 % (La República, 2021).\n\nLa empresa se llamaba Gas Natural Fenosa y cambió de nombre e imagen en noviembre de 2018 tras el cambio de dueño, cuando Brookfield tenía el 54,7 % (La República, 2018). Hoy atiende 2,63 millones de clientes en 96 municipios de ocho departamentos. En 2025 tuvo ingresos por $4,69 billones y utilidades por $544.390 millones, 18,2 % más que en 2024.\n\nSegún La República, Brookfield estaría considerando vender su participación; habría tres interesados (Grupo Argos y los fondos estadounidenses Grupo Attia e I Squared) y una diferencia de valoración entre US$700 y US$1.000 millones.\n\nFuentes: La República (26 oct. 2026; 22 nov. 2018; 22 jun. 2021).\n\n¿Qué marca investigo la próxima?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Vanti",
+    "#Brookfield",
+    "#Gas",
+    "#Negocios",
+    "#Bogota"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Brookfield 74,95 %, Grupo Energía Bogotá 25 %; 2,63 millones de clientes en 96 municipios de ocho departamentos; ingresos 2025 $4,69 billones; utilidad $544.390 millones (+18,2 % vs $460.408 millones); Brookfield considera desinvertir; interesados Grupo Argos, Grupo Attia e I Squared; valoración US$700-1.000 millones",
+      "url": "https://www.larepublica.co/empresas/brookfield-busca-salir-de-la-participacion-accionaria-que-hoy-posee-en-vanti-4509198"
+    },
+    {
+      "afirmacion": "Gas Natural Fenosa cambia de nombre e imagen tras el cambio de dueño; Brookfield posee 54,7 % (nov. 2018)",
+      "url": "https://www.larepublica.co/empresas/los-retos-de-la-empresa-de-gas-que-nace-de-la-mano-de-la-canadiense-brookfield-2796491"
+    },
+    {
+      "afirmacion": "El Distrito de Bogotá es accionista mayoritario del GEB con 65,7 %",
+      "url": "https://www.larepublica.co/empresas/geb-sera-dueno-de-42-515-de-la-nueva-enel-colombia-tras-acuerdo-con-enel-americas-3188726"
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "id": "2026-12-06-cine-colombia-dueno",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿Quién es el dueño de [[Cine Colombia]]?",
+    "dato": "Fundada por 20 paisas en 1927",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Cine Colombia la fundaron en 1927 veinte empresarios de Medellín; abrió el primer autocine del país (Cali, 1972); el Grupo Mayagüez tuvo la mayoría desde 1988 y luego la compró el Grupo Santo Domingo",
+  "pregunta_principal": "¿De qué marca quieres saber el dueño?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Cine Colombia la fundaron veinte empresarios paisas hace casi cien años.",
+      "imagenes": [
+        {
+          "busqueda": "Valley of Medellín- skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Teatro San Jorge Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "veinte empresarios"
+      ],
+      "titulo": "Cine [[paisa]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Fue el 7 de junio de 1927, en Medellín.",
+      "imagenes": [
+        {
+          "busqueda": "Valley of Medellín- skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1927"
+      ],
+      "fecha": "1927",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "1927",
+          "etiqueta": "Medellín: nace Cine Colombia",
+          "icono": "rollo"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "La idea: construir teatros, y comprar, alquilar y vender películas.",
+      "imagenes": [
+        {
+          "busqueda": "Teatro San Jorge Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "películas"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 1972 abrió el primer autocine del país: El Limonar, en Cali.",
+      "imagenes": [
+        {
+          "busqueda": "Teatro Faenza Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "autocine"
+      ],
+      "fecha": "1972"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[pause] Lo curioso es quién la tuvo después.",
+      "imagenes": [
+        {
+          "busqueda": "Teatro San Jorge Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "quién la tuvo"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Desde 1988, la mayoría fue del Grupo Mayagüez.",
+      "imagenes": [
+        {
+          "busqueda": "Valley of Medellín- skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Mayagüez"
+      ],
+      "fecha": "1988"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y desde 2010 empezó a pasar al Grupo Santo Domingo.",
+      "imagenes": [
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Santo Domingo"
+      ],
+      "fecha": "2010"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 2013, según Semana, tenía 248 de las 750 pantallas del país: una de cada tres. Y 37 complejos en diez ciudades.",
+      "imagenes": [
+        {
+          "busqueda": "Teatro Faenza Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "una de cada tres"
+      ],
+      "segun": "según Semana",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "248",
+          "etiqueta": "de 750 pantallas del país (2013)",
+          "icono": "tv"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Para 2016 llegó a 280 pantallas en 42 complejos.",
+      "imagenes": [
+        {
+          "busqueda": "Teatro San Jorge Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "280 pantallas"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Ese 2013, todas sus salas pasaron de rollo de 35 milímetros a digital.",
+      "imagenes": [
+        {
+          "busqueda": "Teatro Faenza Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "digital"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "35 mm",
+            "texto": "rollo de película",
+            "icono": "rollo"
+          },
+          "despues": {
+            "valor": "Digital",
+            "texto": "todas sus salas, 2013",
+            "icono": "tv"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y más de 900.000 personas tenían su tarjeta Cineco.",
+      "imagenes": [
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "900.000"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y en Cali, donde abrió el primer autocine, anunció en 2026 su quinta sala IMAX.",
+      "imagenes": [
+        {
+          "busqueda": "Teatro Faenza Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "IMAX"
+      ],
+      "fecha": "ENE. 2026"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Pero el cine no ha vuelto a lo de antes: en 2025 hubo 49,5 millones de espectadores en Colombia.",
+      "imagenes": [
+        {
+          "busqueda": "Teatro San Jorge Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "49,5 millones"
+      ],
+      "segun": "según La República"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Unos 23 millones menos que en 2019, antes de la pandemia.",
+      "imagenes": [
+        {
+          "busqueda": "Teatro Faenza Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "23 millones menos"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "-23M",
+          "etiqueta": "espectadores en 2025 frente a 2019",
+          "icono": "grafica_baja"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] La empresa cambió de dueño varias veces. El reto ahora es volver a llenar las salas.",
+      "imagenes": [
+        {
+          "busqueda": "Teatro San Jorge Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "llenar las salas"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿De qué marca quieres saber el dueño?",
+      "imagenes": [
+        {
+          "busqueda": "Teatro San Jorge Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Quién es el dueño de Cine Colombia? El Grupo Santo Domingo (Semana; Wikipedia). La empresa fue fundada el 7 de junio de 1927 en Medellín por veinte empresarios para construir teatros y comprar, alquilar y vender películas. En 1972 abrió en Cali el primer autocine del país, El Limonar. El Grupo Mayagüez tuvo la mayoría desde 1988, hasta que el Grupo Santo Domingo la compró, en negociaciones que empezaron en 2010 (Wikipedia).\n\nEn 2013 tenía 37 complejos en 10 ciudades y 248 de las 750 pantallas del país; ese año pasó todos sus proyectores de 35 mm a digital y más de 900.000 personas usaban la tarjeta Cineco (Semana). En 2016 tenía 42 multiplex y 280 pantallas (Wikipedia). En enero de 2026 anunció en Cali su quinta sala IMAX (La República).\n\nSegún Proimágenes (citado por La República), en 2025 hubo 49,55 millones de espectadores de cine en Colombia, unos 23 millones por debajo del récord de 2019.\n\nFuentes: Semana (21 sep. 2013), Wikipedia (Cine Colombia), La República (16 ene. 2026; 28 may. 2026).\n\n¿De qué marca quieres saber el dueño?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#CineColombia",
+    "#Cine",
+    "#MarcasColombianas",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Fundada el 7 de junio de 1927 en Medellín por veinte empresarios; primer autocine (El Limonar, Cali, 13 de junio de 1972); Grupo Mayagüez mayoritario desde 1988 hasta la compra del Grupo Santo Domingo (negociaciones desde 2010); 42 multiplex y 280 pantallas (2016)",
+      "url": "https://en.wikipedia.org/wiki/Cine_Colombia"
+    },
+    {
+      "afirmacion": "Propiedad del Grupo Santo Domingo; fundada en Medellín en 1927; 37 complejos en 10 ciudades; 248 de 750 pantallas; conversión total a digital en 2013; más de 900.000 tarjetas Cineco",
+      "url": "https://www.semana.com/empresas/articulo/cine-colombia-crecimiento-colombia/184730"
+    },
+    {
+      "afirmacion": "Quinta sala IMAX de Cine Colombia, en Cali (enero 2026)",
+      "url": "https://www.larepublica.co/empresas/cine-colombia-anuncio-la-llegada-de-su-quinta-sala-imax-with-laser-dentro-del-pais-4306436"
+    },
+    {
+      "afirmacion": "49,55 millones de espectadores en 2025 (Proimágenes); 23 millones por debajo del récord prepandemia de 2019",
+      "url": "https://www.larepublica.co/ocio/colombia-tuvo-en-2025-mas-estrenos-pero-menos-espectadores-en-las-diferentes-salas-4402176"
+    }
+  ]
+}

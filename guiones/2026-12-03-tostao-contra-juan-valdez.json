@@ -1,0 +1,330 @@
+{
+  "id": "2026-12-03-tostao-contra-juan-valdez",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "Tostao' contra [[Juan Valdez]]",
+    "dato": "511 tiendas contra 361",
+    "foto": "1.1",
+    "serie": "Guerra de marcas"
+  },
+  "tema": "Tostao' (2015) apostó por el tinto barato y llegó a tener más tiendas que Juan Valdez en Colombia (511 vs 361 en 2022, Euromonitor), aunque Juan Valdez seguía arriba en ventas",
+  "pregunta_principal": "¿Tinto de Tostao' o café de Juan Valdez?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] Tostao' llegó a tener más tiendas que Juan Valdez en Colombia. Con tinto barato.",
+      "imagenes": [
+        {
+          "busqueda": "A small cup of coffee",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Juan Valdez 140 E 57th St jeh",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "más tiendas"
+      ],
+      "titulo": "Tinto contra [[latte]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Nació a finales de 2015. Su dueña es Bakery Business International, una empresa panameña.",
+      "imagenes": [
+        {
+          "busqueda": "A small cup of coffee",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2015"
+      ],
+      "fecha": "2015",
+      "motion": [
+        {
+          "tipo": "globo",
+          "desde": "panama",
+          "etiqueta": "BBI · Panamá"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Uno de sus fundadores, el alemán Michael Olmi, también fundó las tiendas D1.",
+      "imagenes": [
+        {
+          "busqueda": "Tiendas D1",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "D1"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "La apuesta: un tinto de 1.500 pesos, cuando en cadenas parecidas costaba 4.300.",
+      "imagenes": [
+        {
+          "busqueda": "A small cup of coffee",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1.500 pesos"
+      ],
+      "fecha": "2017",
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$4.300",
+            "texto": "tinto en cadenas similares",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "$1.500",
+            "texto": "tinto en Tostao'",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Tiendas pequeñas, sin sillas, sin wifi y sin supervisores. El café, en bolsa de papel.",
+      "imagenes": [
+        {
+          "busqueda": "Roasted coffee beans",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "sin wifi"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "El café, cien por ciento colombiano, tostado en Manizales.",
+      "imagenes": [
+        {
+          "busqueda": "Coffee tree in Hacienda Guayabal, Colombia",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Manizales"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 2017 ya tenía 188 locales en Bogotá y Medellín. En cinco años, casi los triplicó.",
+      "imagenes": [
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "188 locales"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "[pause] Y para 2022, según Euromonitor, Tostao' tenía 511 tiendas. Juan Valdez, 361. Dunkin', 205.",
+      "imagenes": [
+        {
+          "busqueda": "Interior of a Juan Valdez café in a Bucaramanga outlet",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "511",
+        "361"
+      ],
+      "segun": "según Euromonitor",
+      "motion": [
+        {
+          "tipo": "barras3d",
+          "titulo": "Tiendas en Colombia · 2022",
+          "items": [
+            {
+              "texto": "Tostao'",
+              "valor": 511,
+              "etiqueta": "511"
+            },
+            {
+              "texto": "Juan Valdez",
+              "valor": 361,
+              "etiqueta": "361"
+            },
+            {
+              "texto": "Dunkin'",
+              "valor": 205,
+              "etiqueta": "205"
+            },
+            {
+              "texto": "Starbucks",
+              "valor": 50,
+              "etiqueta": "50"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Pero en plata, Juan Valdez seguía arriba: 271.000 millones contra 232.000.",
+      "imagenes": [
+        {
+          "busqueda": "Juan Valdez 140 E 57th St jeh",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "271.000 millones"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "$232.000M",
+            "texto": "ventas de Tostao' (2022)",
+            "icono": "dinero"
+          },
+          "despues": {
+            "valor": "$271.000M",
+            "texto": "ventas de Juan Valdez (2022)",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y en participación del mercado: 22 % contra cerca del 20 %.",
+      "imagenes": [
+        {
+          "busqueda": "A small cup of coffee",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "22 %"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Starbucks, con 50 tiendas, apenas tenía el 6 %: la gringa quedó lejos.",
+      "imagenes": [
+        {
+          "busqueda": "Interior of a Juan Valdez café in a Bucaramanga outlet",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "6 %"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Haciendo la cuenta, cada Juan Valdez vendía en promedio unos 750 millones al año. Cada Tostao', unos 450.",
+      "imagenes": [
+        {
+          "busqueda": "Juan Valdez 140 E 57th St jeh",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "750 millones"
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Uno ganó en número de tiendas con el tinto barato. El otro, en lo que se gana cada una.",
+      "imagenes": [
+        {
+          "busqueda": "Roasted coffee beans",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "tinto barato"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Más tiendas ≠ más [[plata]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tinto de Tostao' o café de Juan Valdez?",
+      "imagenes": [
+        {
+          "busqueda": "A small cup of coffee",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Tostao' o Juan Valdez? Tostao' empezó a finales de 2015; su dueña es Bakery Business International, empresa panameña dirigida por Pedro Gasca, y uno de sus cofundadores, el alemán Michael Olmi, también fundó D1. Su apuesta fue un tinto de 12 onzas a $1.500 cuando en sitios similares costaba $4.300, en tiendas sin sillas ni wifi y con café 100 % colombiano tostado en Manizales. En 2017 tenía 188 locales en Bogotá y Medellín (El Espectador).\n\nSegún Euromonitor (citado por La República en abril de 2023), en 2022 Tostao' tenía 511 tiendas en Colombia y Juan Valdez 361; Starbucks, 50. En ventas, Juan Valdez seguía arriba: $271.000 millones frente a $232.000 millones de Tostao'. En participación, Juan Valdez tenía 22 % y Tostao' alrededor de 20 % (el informe da 19 % y 21 %); Starbucks, 6 %. Dividiendo ventas entre tiendas, cada Juan Valdez vendía en promedio unos $750 millones al año y cada Tostao' unos $450 millones (cálculo propio).\n\nFuentes: El Espectador (25 sep. 2017), La República (24 abr. 2023).\n\n¿Tinto de Tostao' o café de Juan Valdez?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Tostao",
+    "#JuanValdez",
+    "#Cafe",
+    "#GuerraDeMarcas",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Tostao': Bakery Business International (Panamá), Pedro Gasca; Michael Olmi cofundador y fundador de D1; inicio a finales de 2015; tinto a $1.500 vs $4.300; tiendas sin sillas ni wifi, café en bolsa de papel; café 100 % colombiano tostado en Manizales; 188 locales en Bogotá y Medellín (2017)",
+      "url": "https://www.elespectador.com/economia/la-historia-detras-del-exito-de-tostao-article-714960/"
+    },
+    {
+      "afirmacion": "Euromonitor 2022: tiendas Tostao' 511, Juan Valdez 361, Starbucks 50; ventas Juan Valdez $271.000 millones vs Tostao' $232.000 millones; participación Juan Valdez 22 %, Tostao' 19-21 %, Starbucks 6 %",
+      "url": "https://www.larepublica.co/empresas/las-marcas-juan-valdez-y-tostao-lideran-el-mercado-de-cafe-preparado-en-tiendas-3598418"
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "id": "2026-12-03-alqueria-mesoamerica",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿Quién es el dueño de [[Alquería]]?",
+    "dato": "35 % a un fondo de Costa Rica",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "En 2019 el fondo centroamericano Mesoamérica (el mismo que tuvo Presto) compró el 35 % de Alquería al IFC; la familia Cavelier mantuvo el 65 %; antes Alquería se quedó con el negocio de yogur de Danone",
+  "pregunta_principal": "¿De qué marca quieres saber el dueño?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] En 2019, Alquería le vendió un tercio a un fondo centroamericano. La familia siguió mandando.",
+      "imagenes": [
+        {
+          "busqueda": "Glass of milk",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Cajicá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "un tercio"
+      ],
+      "titulo": "Leche con [[socio]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Es Mesoamérica, un fondo de origen costarricense. El mismo que en 2012 compró Presto.",
+      "imagenes": [
+        {
+          "busqueda": "Cajicá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Mesoamérica"
+      ],
+      "motion": [
+        {
+          "tipo": "globo",
+          "desde": "sanjose",
+          "etiqueta": "Mesoamérica · Costa Rica"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Compró el 35 %. La familia Cavelier se quedó con el 65 %.",
+      "imagenes": [
+        {
+          "busqueda": "Glass of milk",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "35 %",
+        "65 %"
+      ],
+      "fecha": "2019",
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "65 %",
+            "texto": "familia Cavelier",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "35 %",
+            "texto": "fondo Mesoamérica",
+            "icono": "dinero"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Esa parte se la compró al IFC, el brazo financiero del Banco Mundial, que se salió.",
+      "imagenes": [
+        {
+          "busqueda": "Cajicá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "IFC"
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Alquería era el segundo mayor comprador privado de leche del país: más de 13.000 lecheros.",
+      "imagenes": [
+        {
+          "busqueda": "Holstein cows",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "13.000 lecheros"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "13.000+",
+          "etiqueta": "productores de leche",
+          "icono": "documentos"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Y tenía capacidad para procesar un millón de litros diarios.",
+      "imagenes": [
+        {
+          "busqueda": "Glass of milk",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "un millón de litros"
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Su leche llegaba a unas 150.000 tiendas.",
+      "imagenes": [
+        {
+          "busqueda": "Holstein cows",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "150.000 tiendas"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[pause] Antes había tenido otro socio famoso: Danone.",
+      "imagenes": [
+        {
+          "busqueda": "Holstein cows",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Danone"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Montaron juntos una planta de yogures.",
+      "imagenes": [
+        {
+          "busqueda": "Glass of milk",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "yogures"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Pero Danone decidió salir de tres países de América Latina, entre ellos Colombia. Y Alquería se quedó con esa empresa.",
+      "imagenes": [
+        {
+          "busqueda": "Cajicá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "se quedó"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 2018 vendió 928.817 millones de pesos.",
+      "imagenes": [
+        {
+          "busqueda": "Citizen SLD-100NR calculator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "928.817 millones"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$928.817M",
+          "etiqueta": "ventas de Alquería en 2018",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y según Semana, tenía el 22 % de la leche en valor y el 24 % en volumen, peleando con Colanta.",
+      "imagenes": [
+        {
+          "busqueda": "Glass of milk",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "22 %"
+      ],
+      "segun": "según Semana"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "La meta del nuevo socio: más que duplicar las ventas en cinco años.",
+      "imagenes": [
+        {
+          "busqueda": "Holstein cows",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "duplicar"
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Vender una parte no siempre es perder la empresa. A veces es la forma de crecerla.",
+      "imagenes": [
+        {
+          "busqueda": "Glass of milk",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "crecerla"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Vender para [[crecer]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿De qué marca quieres saber el dueño?",
+      "imagenes": [
+        {
+          "busqueda": "Glass of milk",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Quién es el dueño de Alquería? En junio de 2019, el fondo centroamericano Mesoamérica compró el 35 % de la empresa, que le compró al IFC, el brazo financiero del Banco Mundial; la familia Cavelier mantuvo el 65 % (Semana, Portafolio, E&N). Mesoamérica, de origen costarricense, es el mismo fondo que compró Presto en 2012.\n\nSegún Semana, Alquería compra leche a 13.000 lecheros, tenía capacidad para un millón de litros diarios, y una participación de 22 % en valor del mercado de leche, compitiendo con Colanta. Tuvo un joint venture con Danone para una planta de yogures; cuando Danone decidió salir de tres países de América Latina, entre ellos Colombia, Alquería se quedó con esa empresa.\n\nSegún Portafolio, en 2018 vendió $928.817 millones, y la meta de Mesoamérica era más que duplicar las ventas en cinco años.\n\nE&N la describía como el segundo mayor comprador privado de leche del país; según Portafolio, llegaba a 150.000 tenderos.\n\nFuentes: Semana (24 jun. 2019), Portafolio (4 jun. 2019), E&N (1 jul. 2019).\n\n¿De qué marca quieres saber el dueño?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Alqueria",
+    "#Leche",
+    "#MarcasColombianas",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Mesoamérica, conglomerado de origen costarricense, compró el 35 %; la familia Cavelier mantiene el 65 %; Alquería, segundo mayor comprador privado de leche del país, 13.000 ganaderos",
+      "url": "https://www.revistaeyn.com/lasclavesdeldia/mesoamerica-ingresa-al-negocio-lacteo-compra-35-de-la-colombiana-alqueria-NQEN1298104"
+    },
+    {
+      "afirmacion": "Mesoamérica (fondo centroamericano, nacido en 1998) compró el 35 %; la familia mantiene el 65 %; salió el IFC; joint venture con Danone para yogures; Danone salió de tres países y Alquería se quedó con esa empresa; capacidad de un millón de litros diarios; 13.000 lecheros; 7 plantas; 22 % en valor del mercado de leche frente a Colanta",
+      "url": "https://www.semana.com/empresas/articulo/quien-es-el-nuevo-socio-de-alqueria/273175"
+    },
+    {
+      "afirmacion": "Mesoamérica accionista con 35 % tras la salida del IFC; ventas de $928.817 millones el año anterior; más de 13.000 productores; meta de más que duplicar ventas en cinco años",
+      "url": "https://www.portafolio.co/negocios/empresas/con-su-nuevo-socio-alqueria-quiere-duplicar-las-ventas-530276"
+    },
+    {
+      "afirmacion": "Mesoamérica Investment compró Presto en 2012",
+      "url": "https://larepublica.co/empresas/gilinski-se-queda-con-presto-y-amplia-su-ventaja-en-el-negocio-de-las-hamburguesas-4509266"
+    }
+  ]
+}

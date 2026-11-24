@@ -1,0 +1,318 @@
+{
+  "id": "2026-12-04-el-corral-contra-mcdonalds",
+  "pilar": "negocios",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Logotipos Hamburgesas El Corral.png",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "El Corral contra [[McDonald's]]",
+    "dato": "Casi el triple de puntos",
+    "foto": "1.1",
+    "serie": "Guerra de marcas"
+  },
+  "tema": "En Colombia, El Corral (Nutresa) tiene casi el triple de puntos de venta de hamburguesas que McDonald's (43,2 % vs 15 % en 2024, GIG Latam); con Presto, Nutresa concentraría más de la mitad de los puntos",
+  "pregunta_principal": "¿El Corral o McDonald's?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] En Colombia, McDonald's no es el rey de la hamburguesa.",
+      "imagenes": [
+        {
+          "busqueda": "El Corral",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Hamburger (black bg)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no es el rey"
+      ],
+      "titulo": "El rey es [[local]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "El rey es El Corral.",
+      "imagenes": [
+        {
+          "busqueda": "Hamburguesas el corral",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "El Corral"
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Según GIG Latam, en 2024 El Corral tenía el 43,2 % de los puntos de venta de hamburguesas del país.",
+      "imagenes": [
+        {
+          "busqueda": "El Corral",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "43,2 %"
+      ],
+      "segun": "según GIG Latam"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "McDonald's, el 15 %. Casi tres veces menos. Burger King, el 8,8 %. Y Home Burgers, el 6,8 %.",
+      "imagenes": [
+        {
+          "busqueda": "Hamburger (black bg)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "15 %"
+      ],
+      "motion": [
+        {
+          "tipo": "barras3d",
+          "titulo": "Puntos de venta · 2024",
+          "items": [
+            {
+              "texto": "El Corral",
+              "valor": 43.2,
+              "etiqueta": "43,2 %"
+            },
+            {
+              "texto": "Presto",
+              "valor": 24.4,
+              "etiqueta": "24,4 %"
+            },
+            {
+              "texto": "McDonald's",
+              "valor": 15,
+              "etiqueta": "15 %"
+            },
+            {
+              "texto": "Burger King",
+              "valor": 8.8,
+              "etiqueta": "8,8 %"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "El Corral cumplió 40 años en 2023, y es de Nutresa, el grupo que hoy controlan los Gilinski.",
+      "imagenes": [
+        {
+          "busqueda": "Hamburguesas el corral",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "40 años",
+        "Nutresa"
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "McDonald's aquí lo maneja Arcos Dorados, su mayor franquiciado en el mundo.",
+      "imagenes": [
+        {
+          "busqueda": "Homemade hamburger with french fries in Argentina",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Arcos Dorados"
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 2023 tenía 74 restaurantes, 11 McCafés y más de 220 puntos de postres.",
+      "imagenes": [
+        {
+          "busqueda": "Hamburger (black bg)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "74 restaurantes"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "74",
+          "etiqueta": "restaurantes McDonald's en 2023",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[pause] Y en 2026, Nutresa sumó otra pieza: firmó la compra de Presto.",
+      "imagenes": [
+        {
+          "busqueda": "El Corral",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Presto"
+      ],
+      "fecha": "2026"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Presto tenía casi una cuarta parte de los puntos de venta.",
+      "imagenes": [
+        {
+          "busqueda": "Homemade hamburger with french fries in Argentina",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "una cuarta parte"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Sumadas, las dos marcas tenían en 2024 dos de cada tres puntos de hamburguesa.",
+      "imagenes": [
+        {
+          "busqueda": "Hamburguesas el corral",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "dos de cada tres"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "67,6 %",
+          "etiqueta": "puntos de venta El Corral + Presto (2024)",
+          "icono": "grafica_baja"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En ventas la pelea es más pareja: Euromonitor puso a El Corral con 16,4 % y a McDonald's con 15,3 % en 2023.",
+      "imagenes": [
+        {
+          "busqueda": "Hamburger (black bg)",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "16,4 %",
+        "15,3 %"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En plata, la diferencia es de apenas un punto. En número de locales, no hay pelea.",
+      "imagenes": [
+        {
+          "busqueda": "El Corral",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "un punto"
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] La marca global llegó con todo. Pero en la calle ganó la local.",
+      "imagenes": [
+        {
+          "busqueda": "El Corral",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ganó la local"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "En la calle gana la [[local]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿El Corral o McDonald's?",
+      "imagenes": [
+        {
+          "busqueda": "Hamburguesas el corral",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Quién lidera las hamburguesas en Colombia? Según GIG Latam (citado por La República en enero de 2025), El Corral tenía en 2024 el 43,2 % de los puntos de venta de hamburguesas, Presto el 24,4 %, McDonald's el 15 % y Burger King el 8,8 %. En ventas, Euromonitor ubicó en 2023 a El Corral con 16,4 % y a McDonald's con 15,3 %.\n\nEl Corral, de Grupo Nutresa, cumplió 40 años en 2023. McDonald's opera en Colombia a través de Arcos Dorados, su mayor franquiciado independiente en el mundo; en 2023 tenía 74 restaurantes y más de 220 centros de postres (La República, 2023). En 2026, Nutresa firmó la compra de la unidad operativa de Presto (La República). Sumando los datos de 2024, El Corral y Presto tenían el 67,6 % de los puntos de venta (cálculo propio).\n\nFuentes: La República (19 abr. 2023; 20 ene. 2025; 2026).\n\n¿El Corral o McDonald's?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#ElCorral",
+    "#McDonalds",
+    "#Hamburguesas",
+    "#GuerraDeMarcas",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Puntos de venta 2024 (GIG Latam): El Corral 43,2 %, Presto 24,4 %, McDonald's 15 %, Burger King 8,8 %; ventas 2023 (Euromonitor): El Corral 16,4 %, McDonald's 15,3 %",
+      "url": "https://www.larepublica.co/empresas/las-cinco-cadenas-que-mas-venden-hamburguesas-4039922"
+    },
+    {
+      "afirmacion": "El Corral (Grupo Nutresa) cumplió 40 años en 2023; McDonald's operado por Arcos Dorados, su mayor franquiciado independiente; 74 restaurantes y más de 220 centros de postres",
+      "url": "https://www.larepublica.co/empresas/el-corral-mcdonald-s-y-presto-son-los-lideres-del-mercado-de-hamburguesas-en-el-pais-3595328"
+    },
+    {
+      "afirmacion": "Nutresa (Gilinski) firma la compra de la unidad operativa de Presto en 2026",
+      "url": "https://larepublica.co/empresas/gilinski-se-queda-con-presto-y-amplia-su-ventaja-en-el-negocio-de-las-hamburguesas-4509266"
+    }
+  ]
+}

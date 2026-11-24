@@ -1,0 +1,320 @@
+{
+  "id": "2026-12-05-falabella-compra-corona",
+  "pilar": "negocios",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Falabella.svg",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "¿Quién es el dueño de [[Falabella]] en Colombia?",
+    "dato": "Corona se salió por US$159M",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "En enero de 2026, Falabella compró por US$159 millones las participaciones de Organización Corona en Falabella Retail (35 %), Banco Falabella (31 %) y Seguros Falabella (35 %); en Sodimac/Homecenter Corona sigue con 51 %",
+  "pregunta_principal": "¿Qué marca investigo la próxima?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Falabella le compró a Corona su parte en Colombia. Pero no toda.",
+      "imagenes": [
+        {
+          "busqueda": "Sede Banco Falabella Bogotá agst 2018",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Falabella Mallplaza Vespucio, La Florida, Santiago 20240604",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no toda"
+      ],
+      "titulo": "Divorcio a [[medias]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Falabella es chilena. Y en Colombia tenía de socia a la Organización Corona, un grupo colombiano.",
+      "imagenes": [
+        {
+          "busqueda": "Falabella Mallplaza Vespucio, La Florida, Santiago 20240604",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Corona"
+      ],
+      "motion": [
+        {
+          "tipo": "globo",
+          "desde": "santiago",
+          "etiqueta": "Falabella · Chile"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En junio de 2025, Corona notificó que quería salir de la sociedad, por decisión propia.",
+      "imagenes": [
+        {
+          "busqueda": "Sede Banco Falabella Bogotá agst 2018",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "junio de 2025"
+      ],
+      "fecha": "JUN. 2025"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En enero de 2026 se cerró el negocio: unos 159 millones de dólares.",
+      "imagenes": [
+        {
+          "busqueda": "Citizen SLD-100NR calculator",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "159 millones"
+      ],
+      "fecha": "ENE. 2026",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "US$159M",
+          "etiqueta": "pagó Falabella a Corona",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Falabella se quedó con el 35 % que le faltaba de sus tiendas.",
+      "imagenes": [
+        {
+          "busqueda": "Falabella Mallplaza Vespucio, La Florida, Santiago 20240604",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "35 %"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Con el 31 % de Banco Falabella. Y con el 35 % de Seguros Falabella.",
+      "imagenes": [
+        {
+          "busqueda": "Sede Banco Falabella Bogotá N",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "31 %"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "35 % · Falabella Retail"
+            },
+            {
+              "icono": "dinero",
+              "texto": "31 % · Banco Falabella"
+            },
+            {
+              "icono": "documentos",
+              "texto": "35 % · Seguros Falabella"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y con el 35 % de ABC de Servicios, otra de sus empresas.",
+      "imagenes": [
+        {
+          "busqueda": "Sede Banco Falabella Bogotá agst 2018",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "ABC de Servicios"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Desde entonces, Falabella manda sola en sus tiendas, su banco y sus seguros en Colombia.",
+      "imagenes": [
+        {
+          "busqueda": "Falabella Mallplaza Vespucio, La Florida, Santiago 20240604",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "manda sola"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[pause] Pero hay un negocio que no cambió de manos: Homecenter.",
+      "imagenes": [
+        {
+          "busqueda": "Homecenter in Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Homecenter"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Sodimac Colombia, la de Homecenter y Constructor, sigue siendo 51 % de Corona y 49 % de Falabella.",
+      "imagenes": [
+        {
+          "busqueda": "Sodimac Homecenter",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "51 %",
+        "49 %"
+      ],
+      "motion": [
+        {
+          "tipo": "contraste",
+          "antes": {
+            "valor": "51 %",
+            "texto": "Corona en Homecenter",
+            "icono": "edificio"
+          },
+          "despues": {
+            "valor": "49 %",
+            "texto": "Falabella en Homecenter",
+            "icono": "edificio"
+          }
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Si compras en Homecenter, más de la mitad de esa empresa sigue siendo de Corona.",
+      "imagenes": [
+        {
+          "busqueda": "Homecenter in Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Corona"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "El gerente general del grupo, Alejandro González, dijo: \"Esta adquisición refleja nuestra confianza en Colombia\".",
+      "imagenes": [
+        {
+          "busqueda": "Sede Banco Falabella Bogotá agst 2018",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "confianza"
+      ],
+      "motion": [
+        {
+          "tipo": "cita",
+          "texto": "Esta adquisición refleja nuestra confianza en Colombia",
+          "autor": "Alejandro González, gerente general de Grupo Falabella"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Una sociedad se puede terminar en un negocio y seguir en otro. Aquí siguió en el de la construcción.",
+      "imagenes": [
+        {
+          "busqueda": "Sodimac Homecenter",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "seguir en otro"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué marca investigo la próxima?",
+      "imagenes": [
+        {
+          "busqueda": "Sede Banco Falabella Bogotá agst 2018",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Quién es el dueño de Falabella en Colombia? Desde enero de 2026, el chileno Grupo Falabella tiene el control total de su negocio en el país: compró a Organización Corona, por cerca de US$159 millones, el 35 % restante de Falabella Retail, el 31 % de Banco Falabella, el 35 % de Seguros Falabella y el 35 % de ABC de Servicios. El proceso empezó en junio de 2025, cuando Corona presentó una notificación de salida voluntaria (Bloomberg Línea, Portafolio).\n\nSodimac Colombia (Homecenter y Constructor) no cambió: sigue siendo 51 % de Corona y 49 % de Falabella. \"Esta adquisición refleja nuestra confianza en Colombia\", dijo Alejandro González, gerente general de Grupo Falabella.\n\nFuentes: Bloomberg Línea (16 ene. 2026), Portafolio (15 ene. 2026).\n\n¿Qué marca investigo la próxima?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Falabella",
+    "#Homecenter",
+    "#Corona",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Falabella compra la participación de Corona por US$159 millones: 35 % de Falabella Retail, 31 % de Banco Falabella, 35 % de Seguros Falabella y ABC de Servicios; proceso desde junio de 2025; Sodimac Colombia sigue 51 % Corona y 49 % Falabella; cita de Alejandro González",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/que-pasara-con-falabella-en-colombia-gigante-chileno-compra-la-parte-de-corona-por-us159-millones/"
+    },
+    {
+      "afirmacion": "Mismos porcentajes y precio; Sodimac sigue siendo joint venture 51/49",
+      "url": "https://www.portafolio.co/negocios/empresas/falabella-compro-participacion-de-corona-en-colombia-por-159-millones-de-dolares-486365"
+    }
+  ]
+}

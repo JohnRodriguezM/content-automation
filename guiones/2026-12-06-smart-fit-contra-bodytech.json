@@ -1,0 +1,331 @@
+{
+  "id": "2026-12-06-smart-fit-contra-bodytech",
+  "pilar": "negocios",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Smart Fit logo.svg",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "Smart Fit contra [[Bodytech]]",
+    "dato": "236 sedes en 10 años",
+    "foto": "1.1",
+    "serie": "Guerra de marcas"
+  },
+  "tema": "Smart Fit (Brasil) cumple 10 años en Colombia y pasó de 130 sedes en 2021 a 236 en 2026; Bodytech, colombiana con 28 años, opera más de 150 sedes en Colombia y Chile con sus marcas y tiene una de menor precio, Athletic",
+  "pregunta_principal": "¿Tú entrenas en Smart Fit o en Bodytech?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] El gimnasio con más sedes en Colombia no es colombiano. Y le lleva ventaja al local.",
+      "imagenes": [
+        {
+          "busqueda": "Smartfit",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Gym Free-weights Area",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no es colombiano"
+      ],
+      "titulo": "Gimnasio [[brasileño]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Es Smart Fit, que nació en Brasil y lleva diez años aquí.",
+      "imagenes": [
+        {
+          "busqueda": "Smart Fit do Negrão de Lima, Goiânia, junho de 2024",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Smart Fit"
+      ],
+      "motion": [
+        {
+          "tipo": "globo",
+          "desde": "saopaulo",
+          "etiqueta": "Smart Fit · Brasil"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 2026 ya pasa de 236 sedes en 63 ciudades y 24 departamentos.",
+      "imagenes": [
+        {
+          "busqueda": "Smartfit",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "236 sedes"
+      ],
+      "motion": [
+        {
+          "tipo": "barras3d",
+          "titulo": "Sedes de Smart Fit en Colombia",
+          "items": [
+            {
+              "texto": "2021",
+              "valor": 130,
+              "etiqueta": "130"
+            },
+            {
+              "texto": "2023",
+              "valor": 143,
+              "etiqueta": "143"
+            },
+            {
+              "texto": "2024",
+              "valor": 174,
+              "etiqueta": "174"
+            },
+            {
+              "texto": "2026",
+              "valor": 236,
+              "etiqueta": "236"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 2021 tenía 130: casi duplicó sus sedes en cinco años. Solo en 2025 abrió 30.",
+      "imagenes": [
+        {
+          "busqueda": "Gym Free-weights Area",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "30 gimnasios"
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Y pasa del medio millón de afiliados en Colombia, con más de 2.000 empleados.",
+      "imagenes": [
+        {
+          "busqueda": "Gym Free-weights Area",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "medio millón"
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En América Latina suma más de 2.100 sedes y 5,5 millones de usuarios.",
+      "imagenes": [
+        {
+          "busqueda": "Smart Fit do Negrão de Lima, Goiânia, junho de 2024",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "5,5 millones"
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "[pause] Su rival es colombiano: Bodytech, con 28 años de historia. La cofundó Gigliola Aycardi.",
+      "imagenes": [
+        {
+          "busqueda": "SPCF gym",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Bodytech"
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Opera más de 150 sedes entre Colombia y Chile, con tres marcas: Bodytech, Athletic y Sportlife.",
+      "imagenes": [
+        {
+          "busqueda": "JCM Gym",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "150 sedes"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Bodytech"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Athletic · menor precio"
+            },
+            {
+              "icono": "edificio",
+              "texto": "Sportlife"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y para pelear por precio, tiene una marca más barata: Athletic.",
+      "imagenes": [
+        {
+          "busqueda": "Gym Free-weights Area",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Athletic"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En enero de 2026 anunció 16.000 millones de pesos para tres sedes nuevas en Bogotá y Medellín.",
+      "imagenes": [
+        {
+          "busqueda": "SPCF gym",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "16.000 millones"
+      ],
+      "fecha": "ENE. 2026",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$16.000M",
+          "etiqueta": "para tres sedes nuevas de Bodytech",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Dos Bodytech, en Usaquén y Laureles. La otra, un Athletic.",
+      "imagenes": [
+        {
+          "busqueda": "JCM Gym",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Usaquén",
+        "Laureles"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y ya no pelean solos: también están Spinning Center, Stark y Action Black.",
+      "imagenes": [
+        {
+          "busqueda": "Gym Free-weights Area",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Stark"
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] Uno apuesta por estar en todas partes. El otro, por la experiencia. Y los dos siguen abriendo.",
+      "imagenes": [
+        {
+          "busqueda": "Smartfit",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "la experiencia"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Cantidad vs. [[experiencia]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú entrenas en Smart Fit o en Bodytech?",
+      "imagenes": [
+        {
+          "busqueda": "Gym Free-weights Area",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Cuál es el gimnasio más grande de Colombia? Smart Fit, la cadena brasileña, cumplió 10 años en el país en 2026 con 236 sedes en 63 ciudades y 24 departamentos, la mayor presencia nacional; tenía 130 en 2021, 143 en 2023, 174 en 2024 y 224 al cierre de 2025, tras abrir 30 gimnasios ese año. En América Latina suma más de 2.100 centros y 5,5 millones de usuarios activos, y en Colombia tiene más de 2.000 colaboradores directos (Portafolio).\n\nBodytech, colombiana con 28 años de trayectoria, opera más de 150 sedes en Colombia y Chile con sus marcas Bodytech, Athletic (de menor precio) y Sportlife. En enero de 2026 anunció una inversión cercana a $16.000 millones para tres sedes: Bodytech Usaquén (Bogotá), Bodytech Laureles (Medellín) y un nuevo Athletic en Bogotá. Entre sus competidores menciona a Smart Fit, Spinning Center, Stark y Action Black (Forbes Colombia).\n\nFuentes: Portafolio (13 oct. 2026), Forbes Colombia (20 ene. 2026).\n\n¿Tú entrenas en Smart Fit o en Bodytech?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#SmartFit",
+    "#Bodytech",
+    "#Gimnasio",
+    "#GuerraDeMarcas",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Smart Fit cumple 10 años en Colombia con 236 sedes en 63 ciudades y 24 departamentos; 130 (2021), 143 (2023), 174 (2024), 224 al cierre de 2025 con 30 aperturas; más de 2.000 colaboradores; más de 2.100 centros y 5,5 millones de usuarios en América Latina; mayor presencia nacional",
+      "url": "https://www.portafolio.co/negocios/comercio/smart-fit-cumple-10-anos-en-colombia-y-supera-el-medio-millon-de-afiliados-en-63-ciudades-504366"
+    },
+    {
+      "afirmacion": "Bodytech: 28 años de trayectoria, más de 150 sedes en la región (Bodytech, Athletic, Sportlife), Colombia y Chile; inversión cercana a $16.000 millones en tres sedes (Usaquén, Laureles y un Athletic en Bogotá); competidores Smart Fit, Spinning Center, Stark y Action Black",
+      "url": "https://forbes.co/2026/01/20/negocios/bodytech-invertira-16-000-millones-en-tres-nuevas-sedes-en-bogota-y-medellin/"
+    }
+  ]
+}

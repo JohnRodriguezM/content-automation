@@ -1,0 +1,324 @@
+{
+  "id": "2026-12-01-cruz-verde-femsa",
+  "pilar": "negocios",
+  "narrador": "john",
+  "logo": {
+    "busqueda": "Logotipo Cruz Verde.svg",
+    "fuente": "commons",
+    "modo": "relleno",
+    "filtro": "ninguno"
+  },
+  "portada": {
+    "texto": "¿Quién es el dueño de [[Cruz Verde]]?",
+    "dato": "El mismo del OXXO",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Cruz Verde, la cadena de droguerías con más participación en Colombia, nació en Chile en 1984 y es de FEMSA, la misma dueña de OXXO",
+  "pregunta_principal": "¿De qué marca quieres saber el dueño?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Cruz Verde tiene el mismo dueño que OXXO. Y es la droguería más grande del país.",
+      "imagenes": [
+        {
+          "busqueda": "Droguería cruz verde Usaquén Btá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "OXXO store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "OXXO"
+      ],
+      "titulo": "El dueño del [[OXXO]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Es FEMSA, la mexicana que también maneja la embotelladora de Coca-Cola más grande de Latinoamérica.",
+      "imagenes": [
+        {
+          "busqueda": "Mexico City skyline",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "FEMSA"
+      ],
+      "motion": [
+        {
+          "tipo": "globo",
+          "desde": "monterrey",
+          "etiqueta": "FEMSA · México"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Cruz Verde nació en Chile en 1984.",
+      "imagenes": [
+        {
+          "busqueda": "Farmacia Cruz Verde Ñuñoa",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Chile",
+        "1984"
+      ],
+      "fecha": "1984"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2012, Farmasánitas buscaba socio. Y en 2013 abrió el primer Cruz Verde de Colombia, en el Centro Internacional de Bogotá.",
+      "imagenes": [
+        {
+          "busqueda": "Panorama del Centro Internacional de Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2013"
+      ],
+      "fecha": "2013"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2015, FEMSA compró la matriz de Cruz Verde en Chile. Y en 2020 se quedó con el control total.",
+      "imagenes": [
+        {
+          "busqueda": "Farmacia Cruz Verde Ñuñoa",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "FEMSA",
+        "2015"
+      ],
+      "fecha": "2015"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[pause] Y en Colombia salió de compras.",
+      "imagenes": [
+        {
+          "busqueda": "Droguería cruz verde Usaquén Btá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "de compras"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Puntos de Cencosud en 2015, Punto Farma en 2018 y Multidrogas en 2022.",
+      "imagenes": [
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Punto Farma",
+        "Multidrogas"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "2015 · Puntos de Cencosud"
+            },
+            {
+              "icono": "edificio",
+              "texto": "2018 · Punto Farma"
+            },
+            {
+              "icono": "edificio",
+              "texto": "2022 · Multidrogas"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En 2023 llegó a 650 puntos en 26 departamentos del país.",
+      "imagenes": [
+        {
+          "busqueda": "Droguería cruz verde Usaquén Btá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "650 puntos"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Según Supersociedades, era la empresa farmacéutica con más ingresos del país: 3,3 billones de pesos.",
+      "imagenes": [
+        {
+          "busqueda": "Panorama del Centro Internacional de Bogotá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "3,3 billones"
+      ],
+      "segun": "según Supersociedades"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y según Euromonitor, tiene casi el 40 % del mercado de droguerías.",
+      "imagenes": [
+        {
+          "busqueda": "Farmacia Cruz Verde Ñuñoa",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "40 %"
+      ],
+      "motion": [
+        {
+          "tipo": "barras3d",
+          "titulo": "Droguerías · participación",
+          "items": [
+            {
+              "texto": "Cruz Verde",
+              "valor": 39.9,
+              "etiqueta": "39,9 %"
+            },
+            {
+              "texto": "Coopidrogas",
+              "valor": 23.4,
+              "etiqueta": "23,4 %"
+            },
+            {
+              "texto": "La Rebaja",
+              "valor": 11.6,
+              "etiqueta": "11,6 %"
+            },
+            {
+              "texto": "Cafam",
+              "valor": 7,
+              "etiqueta": "7 %"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Sumadas, Cruz Verde y Coopidrogas se quedaban con el 63 % del mercado.",
+      "imagenes": [
+        {
+          "busqueda": "Droguería cruz verde Usaquén Btá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "63 %"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Colsubsidio tenía el 8,5 %, y Farmatodo, apenas el 5,9 %.",
+      "imagenes": [
+        {
+          "busqueda": "Farmacia Cruz Verde Ñuñoa",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "5,9 %"
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] La pastilla, la gaseosa y la tienda de la esquina pueden terminar en la misma caja registradora: la de FEMSA.",
+      "imagenes": [
+        {
+          "busqueda": "OXXO store",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "FEMSA"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿De qué marca quieres saber el dueño?",
+      "imagenes": [
+        {
+          "busqueda": "Droguería cruz verde Usaquén Btá",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Quién es el dueño de Cruz Verde? FEMSA, el grupo mexicano que también es dueño de OXXO y maneja la embotelladora de Coca-Cola más grande de Latinoamérica (Pulzo). Cruz Verde nació en Chile en 1984; FEMSA compró la matriz en 2015 y luego adquirió todas las acciones del grupo Socofar (El Tiempo).\n\nEn Colombia, Farmasánitas buscó socio en 2012 y el primer punto Cruz Verde abrió en 2013 en el Centro Internacional de Bogotá. Luego compró puntos de Cencosud (2015), Punto Farma (2018) y Multidrogas (2022). En 2023 tenía 650 puntos en 26 departamentos y, según datos de Supersociedades citados por El Tiempo, era la farmacéutica con más ingresos operacionales: $3,3 billones.\n\nSegún Euromonitor (citado por La República en marzo de 2023), Cruz Verde tenía el 39,9 % del mercado de droguerías, seguida de Coopidrogas (23,4 %), Drogas La Rebaja (11,6 %), Colsubsidio (8,5 %), Cafam (7 %) y Farmatodo (5,9 %). Sumadas, Cruz Verde y Coopidrogas tenían el 63,3 %.\n\nFuentes: El Tiempo (29 mar. 2023), La República (22 mar. 2023), Pulzo (23 jul. 2023).\n\n¿De qué marca quieres saber el dueño?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#CruzVerde",
+    "#FEMSA",
+    "#Droguerias",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "FEMSA, dueña de Cruz Verde (control total en 2020), también es dueña de OXXO y maneja la embotelladora de Coca-Cola más grande de Latinoamérica",
+      "url": "https://www.pulzo.com/economia/droguerias-cruz-verde-colombia-quien-es-duena-esa-empresa-PP2915906"
+    },
+    {
+      "afirmacion": "FEMSA 60 % y Socofar 40 % al lanzar la marca; FEMSA compró la matriz de Cruz Verde en 2015 (Chile, desde 1984) y luego todas las acciones de Socofar; Farmasánitas (2012); primer punto en 2013 en el Centro Internacional de Bogotá; compras de puntos de Cencosud (2015), Punto Farma (2018), Multidrogas (2022); 650 puntos en 26 departamentos; ingresos operacionales de $3,3 billones según Supersociedades",
+      "url": "https://www.eltiempo.com/economia/quienes-son-los-duenos-de-la-farmacia-cruz-verde-754631"
+    },
+    {
+      "afirmacion": "Euromonitor: Cruz Verde 39,9 %, Coopidrogas 23,4 %, Drogas La Rebaja 11,6 %, Colsubsidio 8,5 %, Cafam 7 %, Farmatodo 5,9 %",
+      "url": "https://www.larepublica.co/empresas/con-63-3-cruz-verde-y-coopidrogas-dominan-el-mercado-de-droguerias-en-el-pais-3573463"
+    }
+  ]
+}

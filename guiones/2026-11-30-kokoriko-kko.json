@@ -1,0 +1,316 @@
+{
+  "id": "2026-11-30-kokoriko-kko",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "¿Quién es el dueño de [[Kokoriko]]?",
+    "dato": "9 años con Andrés Carne de Res",
+    "foto": "1.1",
+    "serie": "¿De quién es?"
+  },
+  "tema": "Kokoriko, cofundada por Eduardo Robayo, pasó nueve años en el Grupo IGA (vinculado a Andrés Carne de Res) y en 2026 la compró el fondo colombiano KKO",
+  "pregunta_principal": "¿Qué marca investigo la próxima?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[curious] Kokoriko compartió dueño con Andrés Carne de Res. Hasta este año.",
+      "imagenes": [
+        {
+          "busqueda": "Pollo a la brasa",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "Andrés Carne de Res",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Andrés Carne de Res"
+      ],
+      "titulo": "Pollo con [[socio]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Kokoriko tiene más de medio siglo. La cofundó Eduardo Robayo.",
+      "imagenes": [
+        {
+          "busqueda": "Pollo a la brasa",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "medio siglo"
+      ],
+      "segun": "según Valora Analitik"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "Según Valora Analitik, fue uno de los que volvió masivo el pollo asado en Colombia.",
+      "imagenes": [
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "pollo asado"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2016, la familia Robayo se unió con Andrés Jaramillo, el fundador de Andrés Carne de Res.",
+      "imagenes": [
+        {
+          "busqueda": "Andrés Carne de Res",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2016"
+      ],
+      "fecha": "2016"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "En 2017, su grupo, IGA, se fusionó con Conboca, la empresa que manejaba Kokoriko y los helados Mimo's.",
+      "imagenes": [
+        {
+          "busqueda": "Pollo a la brasa",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "2017",
+        "Mimo's"
+      ],
+      "fecha": "2017",
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "edificio",
+              "texto": "Grupo IGA"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Andrés Carne de Res"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Kokoriko · Mimo's"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "A comienzos de 2025, Kokoriko tenía 79 restaurantes en 18 ciudades.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá Calle 100 entre 11 y 15",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "79 restaurantes"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "79",
+          "etiqueta": "restaurantes en 18 ciudades (2025)",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Proyectaba ingresos cercanos a 170.000 millones de pesos.",
+      "imagenes": [
+        {
+          "busqueda": "Pollo a la brasa",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "170.000 millones"
+      ],
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "$170.000M",
+          "etiqueta": "ingresos proyectados en 2025",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Y su presidente decía que vendían más de 1,3 millones de pollos al año.",
+      "imagenes": [
+        {
+          "busqueda": "Roast chicken",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1,3 millones"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[pause] El 21 de marzo de 2026 murió Eduardo Robayo, a los 91 años.",
+      "imagenes": [
+        {
+          "busqueda": "Skyline downtown Bogota",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "91 años"
+      ],
+      "fecha": "MAR. 2026"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Pocas semanas después, en abril, se conoció la venta.",
+      "imagenes": [
+        {
+          "busqueda": "Pollo a la brasa",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "la venta"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Kokoriko llevaba casi nueve años en el mismo grupo de Andrés Carne de Res.",
+      "imagenes": [
+        {
+          "busqueda": "Andrés Carne de Res",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "nueve años"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "El comprador es KKO, un fondo de inversión colombiano armado por empresarios del país.",
+      "imagenes": [
+        {
+          "busqueda": "Bogotá Calle 100 entre 11 y 15",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "KKO"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "Nuevo dueño: [[KKO]]",
+          "icono": "dinero"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "El precio no se reveló. Y Kokoriko deja de estar ligado al grupo de Andrés Carne de Res.",
+      "imagenes": [
+        {
+          "busqueda": "Andrés Carne de Res",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "no se reveló"
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] El fundador ya no manejaba la cadena hacía años. Pero su salida cerró un ciclo.",
+      "imagenes": [
+        {
+          "busqueda": "Pollo a la brasa",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "cerró un ciclo"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Qué marca investigo la próxima?",
+      "imagenes": [
+        {
+          "busqueda": "Pollo a la brasa",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Quién es el dueño de Kokoriko? Desde abril de 2026, KKO, un fondo de inversión colombiano integrado por empresarios del país, según La República y Valora Analitik. El precio no se reveló.\n\nLa cadena, con más de medio siglo, fue cofundada por Eduardo Robayo Ferro, a quien Valora Analitik señala como uno de los responsables de masificar el pollo asado en Colombia. Murió el 21 de marzo de 2026, a los 91 años; hacía años no dirigía la cadena.\n\nEn 2016 la familia Robayo se unió con Andrés Jaramillo, fundador de Andrés Carne de Res, y en 2017 el Grupo IGA se fusionó con Conboca, que manejaba Kokoriko y Helados Mimo's. A comienzos de 2025, Kokoriko tenía 79 puntos en 18 ciudades y proyectaba ingresos cercanos a $170.000 millones. Su presidente, Eliseo Herrera, decía que vendían más de 1,3 millones de pollos al año.\n\nFuentes: La República (20 abr. 2026), Valora Analitik (20 abr. 2026).\n\n¿Qué marca investigo la próxima?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#DeQuienEs",
+    "#Kokoriko",
+    "#Pollo",
+    "#MarcasColombianas",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "KKO, fondo colombiano integrado por empresarios del país, compró Kokoriko; deja de estar vinculada al grupo de Andrés Carne de Res tras cerca de nueve años; Eduardo Robayo, cofundador; más de 1,3 millones de pollos al año (Eliseo Herrera)",
+      "url": "https://www.larepublica.co/empresas/kokoriko-cambia-de-dueno-y-pasa-a-kko-tras-nueve-anos-en-manos-de-grupo-iga-4375290"
+    },
+    {
+      "afirmacion": "2016: familia Robayo y Andrés Jaramillo; 2017: IGA se fusiona con Conboca (Kokoriko y Mimo's); Robayo murió el 21 de marzo de 2026 a los 91 años; 79 puntos en 18 ciudades e ingresos proyectados cercanos a $170.000 millones a comienzos de 2025; más de medio siglo",
+      "url": "https://www.valoraanalitik.com/kokoriko-cambia-de-dueno-la-cadena-pasa-a-manos-del-fondo-colombiano-kko/"
+    }
+  ]
+}

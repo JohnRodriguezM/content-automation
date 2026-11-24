@@ -1,0 +1,312 @@
+{
+  "id": "2026-11-30-bavaria-contra-chicha",
+  "pilar": "negocios",
+  "narrador": "john",
+  "portada": {
+    "texto": "Bavaria contra la [[chicha]]",
+    "dato": "La ley que la sacó del mercado",
+    "foto": "1.1",
+    "serie": "Guerra de marcas"
+  },
+  "tema": "La chicha era la bebida popular de Bogotá (más de 800 chicherías a finales del siglo XIX); Bavaria (1889) la atacó en su publicidad y, tras el 9 de abril de 1948, la Ley 34 exigió bebidas fermentadas pasteurizadas en envase de vidrio",
+  "pregunta_principal": "¿Tú eres de chicha o de cerveza?",
+  "escenas": [
+    {
+      "bloque": "gancho",
+      "narracion": "[serious] La cerveza le ganó a la chicha con ayuda de una ley.",
+      "imagenes": [
+        {
+          "busqueda": "Chorro quevedo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        },
+        {
+          "busqueda": "CONJUNTO BAVARIA",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "una ley"
+      ],
+      "titulo": "Cerveza vs. [[chicha]]",
+      "orden": "ff"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "La chicha es una bebida de maíz fermentado. Y en Bogotá era la más popular.",
+      "imagenes": [
+        {
+          "busqueda": "Chorro quevedo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "maíz fermentado"
+      ]
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "A finales del siglo diecinueve, Bogotá tenía más de 800 chicherías.",
+      "imagenes": [
+        {
+          "busqueda": "Plaza Chorro de Quevedo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "800 chicherías"
+      ],
+      "segun": "según la Alcaldía de Bogotá",
+      "motion": [
+        {
+          "tipo": "dato",
+          "valor": "800+",
+          "etiqueta": "chicherías en Bogotá, fines del siglo XIX",
+          "icono": "edificio"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "contexto",
+      "narracion": "En 1889, el alemán Leo Kopp fundó Bavaria.",
+      "imagenes": [
+        {
+          "busqueda": "Casa Leo Kopp Castello",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "1889",
+        "Leo Kopp"
+      ],
+      "fecha": "1889"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Según Atlas Obscura, Bavaria tenía cervezas con nombres como \"No más chicha\".",
+      "imagenes": [
+        {
+          "busqueda": "Cerveza el aguila 2019",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "No más chicha"
+      ],
+      "segun": "según Atlas Obscura"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y el gobierno hacía su propia campaña: carteles que decían que la chicha llevaba al crimen.",
+      "imagenes": [
+        {
+          "busqueda": "Plaza del Chorro de Quevedo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "al crimen"
+      ]
+    },
+    {
+      "bloque": "decision",
+      "narracion": "[pause] El 9 de abril de 1948 mataron a Gaitán y Bogotá ardió.",
+      "imagenes": [
+        {
+          "busqueda": "Chorro quevedo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "9 de abril"
+      ],
+      "fecha": "9 ABR. 1948"
+    },
+    {
+      "bloque": "decision",
+      "narracion": "Y a la chicha le echaron parte de la culpa del caos.",
+      "imagenes": [
+        {
+          "busqueda": "Plaza Chorro de Quevedo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "la culpa"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "En noviembre de ese año salió la Ley 34.",
+      "imagenes": [
+        {
+          "busqueda": "CONJUNTO BAVARIA",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "Ley 34"
+      ],
+      "fecha": "NOV. 1948"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Desde enero de 1949, las bebidas fermentadas solo se podían vender pasteurizadas, en envase de vidrio cerrado e individual.",
+      "imagenes": [
+        {
+          "busqueda": "Cerveza Poker",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "pasteurizadas",
+        "vidrio"
+      ],
+      "motion": [
+        {
+          "tipo": "iconos",
+          "items": [
+            {
+              "icono": "documentos",
+              "texto": "Pasteurizada"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Envase de vidrio cerrado"
+            },
+            {
+              "icono": "documentos",
+              "texto": "Máximo 4 % de alcohol"
+            }
+          ]
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Para la chicha artesanal, eso fue en la práctica una prohibición.",
+      "imagenes": [
+        {
+          "busqueda": "Plaza del Chorro de Quevedo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "prohibición"
+      ]
+    },
+    {
+      "bloque": "consecuencia",
+      "narracion": "Bavaria terminó con casi toda la cerveza del país. Hoy es de AB InBev.",
+      "imagenes": [
+        {
+          "busqueda": "Parque Central Bavaria",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "AB InBev"
+      ]
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "[thoughtful] No se sabe si Bavaria empujó esa ley. Pero fue la que más ganó con ella.",
+      "imagenes": [
+        {
+          "busqueda": "Casa Leo Kopp Castello",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "más ganó"
+      ],
+      "motion": [
+        {
+          "tipo": "titulo",
+          "texto": "La ley también [[compite]]"
+        }
+      ],
+      "orden": "fp"
+    },
+    {
+      "bloque": "aprendizaje",
+      "narracion": "La chicha sobrevivió: en el Chorro de Quevedo todavía hay unas veinte chicherías. Y desde 1988 tiene su propio festival.",
+      "imagenes": [
+        {
+          "busqueda": "Chorro quevedo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": [
+        "veinte chicherías"
+      ]
+    },
+    {
+      "bloque": "cierre",
+      "narracion": "¿Tú eres de chicha o de cerveza?",
+      "imagenes": [
+        {
+          "busqueda": "Plaza Chorro de Quevedo",
+          "fuente": "commons",
+          "modo": "relleno",
+          "filtro": "ninguno"
+        }
+      ],
+      "destacar": []
+    }
+  ],
+  "caption": "¿Por qué se prohibió la chicha en Colombia? A finales del siglo XIX, Bogotá tenía más de 800 chicherías (Alcaldía de Bogotá). En 1889, el alemán Leo Kopp fundó Bavaria. Según Atlas Obscura, sus cervezas llevaban nombres como \"No más chicha\" y el gobierno hacía campañas que asociaban la chicha con el crimen; el mismo artículo dice que no está claro si Kopp coordinó con el gobierno.\n\nTras el asesinato de Jorge Eliécer Gaitán el 9 de abril de 1948, a la chicha se le atribuyó parte del caos (Alcaldía de Bogotá). La Ley 34 de 1948, sancionada el 5 de noviembre, estableció que desde el 19 de enero de 1949 las bebidas fermentadas solo podían venderse pasteurizadas, en envase cerrado, individual y de vidrio, con máximo 4 % de alcohol.\n\nBavaria terminó dominando el mercado; se fusionó con SABMiller en 2005, que pasó a AB InBev en 2016 (Atlas Obscura). La chicha sigue viva: en 2019 había unas 20 chicherías en el Chorro de Quevedo (Alcaldía de Bogotá).\n\nFuentes: Ley 34 de 1948, Atlas Obscura, Alcaldía de Bogotá (bogota.gov.co).\n\n¿Tú eres de chicha o de cerveza?\n\nSíguenos: cada día contamos una decisión que cambió una empresa.",
+  "hashtags": [
+    "#Chicha",
+    "#Bavaria",
+    "#Historia",
+    "#Bogota",
+    "#Negocios",
+    "#Colombia"
+  ],
+  "fuentes": [
+    {
+      "afirmacion": "Ley 34 de 1948 (sancionada el 5 de noviembre): desde el 19 de enero de 1949, bebidas fermentadas solo pasteurizadas, en envase cerrado, individual, de vidrio y con hasta 4 % de alcohol",
+      "url": "https://sidn.ramajudicial.gov.co/SIDN/NORMATIVA/TEXTOS_COMPLETOS/7_LEYES/LEYES 1948/Ley 34 de 1948.pdf"
+    },
+    {
+      "afirmacion": "Leo Kopp fundó Bavaria en 1889; cervezas llamadas 'No Mas Chicha'; carteles oficiales 'Chicha begets crime'; la ley de 1948 prohibió en la práctica la chicha; no está claro si Kopp coordinó con el gobierno; Bavaria se fusionó con SABMiller (2005), absorbida por AB InBev (2016)",
+      "url": "https://atlasobscura.com/articles/chicha-colombia-government-conspiracy-spit-drink-beer"
+    },
+    {
+      "afirmacion": "Más de 800 chicherías en Bogotá a finales del siglo XIX; tras el 9 de abril de 1948 se culpó a la chicha del caos; hoy unas 20 en el Chorro de Quevedo",
+      "url": "https://bogota.gov.co/en/node/174"
+    }
+  ]
+}
