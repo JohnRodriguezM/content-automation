@@ -1,0 +1,40 @@
+name: Organizar Drive
+
+# Mueve (no copia) los archivos de varios guiones desde sus carpetas por fecha a una sola carpeta.
+# Ej.: juntar la semana de John en "John - 30 nov a 6 dic 2026". Las carpetas de fecha quedan vacías, no se borran.
+on:
+  workflow_dispatch:
+    inputs:
+      destino:
+        description: "Nombre de la carpeta destino (dentro de la carpeta raíz de Drive)"
+        required: true
+      guiones:
+        description: "IDs de guion separados por espacio (sin .json)"
+        required: true
+
+jobs:
+  mover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Instalar rclone
+        run: curl -fsSL https://rclone.org/install.sh | sudo bash
+
+      - name: Mover
+        env:
+          RCLONE_CONFIG_DRIVE_TYPE: drive
+          RCLONE_CONFIG_DRIVE_SCOPE: drive
+          RCLONE_CONFIG_DRIVE_TOKEN: ${{ secrets.RCLONE_DRIVE_TOKEN }}
+          RCLONE_CONFIG_DRIVE_ROOT_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID }}
+          DESTINO: ${{ inputs.destino }}
+          GUIONES: ${{ inputs.guiones }}
+        run: |
+          set -e
+          for id in $GUIONES; do
+            fecha=${id:0:10}
+            echo "== $id ($fecha → $DESTINO)"
+            rclone move "drive:$fecha/" "drive:$DESTINO/" --include "$id-*" -v 2>&1 | grep -viE "token|bearer" || true
+          done
+          echo "== Contenido de $DESTINO"
+          rclone lsf "drive:$DESTINO/" | sort
+          echo "Archivos: $(rclone lsf "drive:$DESTINO/" | wc -l)"
