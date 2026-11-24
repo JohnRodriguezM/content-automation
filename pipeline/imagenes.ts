@@ -206,7 +206,8 @@ export async function resolverImagenes(g: Guion, rehacer = false, guardar?: () =
         if (c) Object.assign(g.logo, c);
       }
       if (g.logo.url) {
-        const r = await pedir(g.logo.url);
+        let r = await pedir(g.logo.url);
+        if (!r.ok) { await esperar(20_000); r = await descargar(g.logo.url); } // 429 de Commons: pausa y otra variante
         if (r.ok) {
           const rel = `img/${g.id}/logo.png`;
           await writeFile(path.join(RAIZ, "public", rel), Buffer.from(await r.arrayBuffer()));
@@ -216,6 +217,12 @@ export async function resolverImagenes(g: Guion, rehacer = false, guardar?: () =
         } else console.warn(`  ⚠ logo: descarga ${r.status}`);
       } else console.warn(`  ⚠ logo: sin resultados para "${g.logo.busqueda}"`);
     } catch (err) { console.warn(`  ⚠ logo: ${(err as Error).message}`); }
+    // Sin archivo local, el render pediría el logo a Commons en vivo y un 429 tumba todo el video (El Corral, 24-nov):
+    // mejor sin logo que sin video.
+    if (!g.logo.archivo || !(await existe(path.join(RAIZ, "public", g.logo.archivo)))) {
+      console.warn("  ⚠ logo: se omite (no se pudo descargar)");
+      g.logo = undefined;
+    }
   }
   return g;
 }
