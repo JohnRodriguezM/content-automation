@@ -217,7 +217,8 @@ const useFuentes = () => {
   const [lista, setLista] = React.useState(false);
   const [h] = React.useState(() => delayRender("fuentes para las barras 3D"));
   React.useEffect(() => {
-    fuentes ??= Promise.all([document.fonts.load(`700 120px ${GRUESA}`), document.fonts.load(`500 60px ${MONO}`)]).catch(() => null);
+    // Las dos pesas de Oswald que usan las texturas: si la 500 no está cargada, el canvas dibuja los nombres con la fuente de respaldo
+    fuentes ??= Promise.all([document.fonts.load(`700 170px ${GRUESA}`, "0123456789,% "), document.fonts.load(`500 128px ${GRUESA}`, "ABCDEFGHIJKLMNOPQRSTUVWXYZÁÉÍÓÚÑ'"), document.fonts.load(`500 60px ${MONO}`)]).catch(() => null);
     fuentes.then(() => { setLista(true); continueRender(h); });
   }, [h]);
   return lista;
@@ -245,7 +246,7 @@ const COLORES = [AMARILLO, "#5b8def", "#e5372b", "#9aa3ad"];
 const EscenaBarras: React.FC<{ items: ItemBarra[]; dur: number }> = ({ items, dur }) => {
   const f = useCurrentFrame();
   const max = Math.max(...items.map((i) => i.valor), 1);
-  const sep = 1.15;
+  const sep = 1.3; // los nombres (hasta 14 letras) no se montan con la columna vecina
   const x0 = -((items.length - 1) * sep) / 2;
   const mats = React.useMemo(
     () => items.map((it) => ({
@@ -255,7 +256,7 @@ const EscenaBarras: React.FC<{ items: ItemBarra[]; dur: number }> = ({ items, du
     [items],
   );
   const angulo = interpolate(f, [0, dur], [-0.3, 0.24], clamp);
-  const r = 3.0 + items.length * 0.85; // más columnas, cámara más lejos para que quepan las etiquetas
+  const r = 3.2 + items.length * 0.9; // más columnas, cámara más lejos para que quepan las etiquetas
   const cam = new THREE.Vector3(Math.sin(angulo) * r, 2.1, Math.cos(angulo) * r);
   return (
     <>
