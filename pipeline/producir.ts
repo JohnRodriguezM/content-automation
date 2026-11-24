@@ -316,6 +316,7 @@ async function main() {
   if (doc) console.log(`  tarjeta final: ${conPerfil ? usuario : "no (falta public/" + fotoPerfil + ")"}`);
   const total = timing.duracion + (perfil ? 2.8 : 0.6); // mismo cálculo que src/Root.tsx
   if (total > 90) console.log(`  ⚠ dura ${total.toFixed(1)} s con la tarjeta final: pasa de 1:30`);
+  if (guion.narrador === "john" && guion.id >= "2026-11-30" && total < 61) console.log(`  ⚠ dura ${total.toFixed(1)} s: John publica videos de más de 1:00 (alarga el guion)`);
   const comp = ({ mixto: "Mixto", documental: "Documental", clasico: "Video", motion: "Motion", tablero: "Tablero" } as const)[estilo];
   await render({ guion, timing, audio, musica, efectos, perfil, usuario }, video, comp);
   await normalizarVolumen(video);

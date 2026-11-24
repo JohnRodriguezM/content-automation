@@ -13,6 +13,20 @@ Antes de escribir, lee [`personalidad.md`](personalidad.md) completo (línea edi
 - **Noticia del día (opcional, máx. 1):** si en las últimas 24-36 h salió una noticia fuerte de una marca colombiana (cambio de dueño, quiebra, multa, precio, lanzamiento) con 2 fuentes serias, se escribe ese mismo día con la fecha de hoy y slug que termine en `-noticia`. Va a las 12:30 pm y el video de las 12:30 pasa a las 4:30 pm. La inmediatez manda: mejor un video correcto hoy que uno perfecto mañana.
 - En `temas/historial.json` cada entrada de esta categoría lleva `"categoria": "marcas-colombia"`, `"franja"` (`"07:30"`, `"12:30"` o `"19:30"`; la noticia va en `"12:30"` y el video que tenía esa franja pasa a `"16:30"`) y `"tipo": "noticia"` si aplica. El tema más fuerte del día va a las 19:30.
 
+## Lineamientos de John (acordados el 24-nov; aplican desde los videos del 30-nov)
+
+Salen de la revisión de TikTok Studio del 24-nov (90 videos del 6 al 24 de nov.): los 3 fijados (Éxito, Arturo Calle, Alpina) hacen el 78 % de las vistas; la mediana es 489 vistas; marcas colombianas tienen mediana 594 y noticias de resultados 196; entran ~2,6 seguidores por cada 1.000 vistas; la mayoría se va en el segundo 2. Mandan sobre el resto de esta guía para los videos de John.
+
+1. **Un solo nicho:** quién es el dueño de las marcas que usa el colombiano y cómo gana plata. Nada de GTA, noticias de resultados (Tecnoglass, Braskem, eToro…) ni empresas globales sin ángulo colombiano.
+2. **Gancho = el dato sorpresa como afirmación, en voz y en texto, desde el primer segundo**, dejando una pregunta abierta. No una pregunta genérica ("¿De quién es Davivienda?"); sí el giro concreto ("Alpina tiene una lechera en California"). "¿De quién es?" queda como sello en `portada.serie`, no como gancho.
+3. **Más de 1 minuto:** 185-205 palabras (≈62-75 s con la tarjeta final; tope 1:30). El validador exige 175-210 para John y el render avisa si queda por debajo de 1:00. Más largo es más difícil de retener: 12-16 escenas cortas, un dato nuevo cada 3-4 s, **un giro cada ~15 s** ("Pero…", "Lo que nadie cuenta:", una cifra que contradice la anterior) y la respuesta completa del gancho en el último 20 %.
+4. **Cierre: pedir la próxima marca** en los videos de dueños ("¿De qué marca quieres saber el dueño?"), máx. 15 palabras y una sola llamada; en los demás, pregunta con bando. Cuando alguien pida una marca en los comentarios, se anota en `temas/pedidos.json` (`marca`, `fecha`, `comentario`, `video`) y ese video arranca diciendo que la pidieron ("Me preguntaron quién es el dueño de…"). Solo si el pedido es real.
+5. **Rivalidades y venganzas de marcas colombianas, mínimo 1 de cada 3 videos:** quién le quitó el mercado a quién, quién se burló y perdió. El de Lamborghini sacó 286 seguidores de 5.500 vistas (5,2 %), contra el 0,19 % del Éxito. Ideas para investigar (verificar antes): Postobón contra Coca-Cola, Bavaria y la chicha, Rappi contra los domicilios de siempre.
+6. **Títulos que la gente busca:** el texto en pantalla (portada o título del gancho) y la primera línea del `caption` usan la frase de búsqueda: "¿Quién es el dueño de X?", "¿De dónde es X?". Búsquedas que ya llegan: "tiendas d1 quiebra", "por qué dicen que Bancolombia quita la plata".
+
+- **Sin cara por ahora:** John no sale en cámara. La tarjeta final usa `public/marca/john.jpg` (primer plano de cara y hombros, cuadrada, ≥1080 px).
+- **Métrica para decidir** (revisar cada semana en TikTok Studio): seguidores por cada 1.000 vistas (base 2,6) y % promedio visto (base 24-48 %), por encima de las vistas.
+
 ## Cómo elegir un tema
 
 **Regla #1: marcas que la gente usa.** El tema tiene que tocar algo con lo que el espectador tiene contacto: lo que come, compra, paga, usa en el celular o en la calle (apps, comida, bebidas, ropa, supermercados, bancos y billeteras, telefonía, aerolíneas, carros, plataformas, deportes). Una cementera, una petroquímica o una minera no le importan a la mayoría, aunque la noticia sea grande.
@@ -33,17 +47,17 @@ Un buen tema tiene: una **decisión concreta** de una persona o empresa real, un
 ## Estructura y longitud
 
 - Escenas en orden: gancho → contexto → decisión → consecuencia → aprendizaje → cierre (puede haber 2 escenas del mismo bloque seguidas).
-- **80 a 100 palabras** de narración (≈35-40 s); el validador avisa desde 106. **Tope duro: 1:30 con la tarjeta final** → máximo 210 palabras.
+- **80 a 100 palabras** de narración (≈35-40 s) para Sebastián; el validador avisa desde 106. **John: 185-205 palabras (más de 1:00)**, ver lineamientos arriba. **Tope duro: 1:30 con la tarjeta final** → máximo 210 palabras.
 - **Narración dinámica:** frases cortas (idealmente ≤12 palabras), un dato concreto por escena (cifra, fecha, nombre), nada de relleno. Cada frase debe aportar información nueva para que la gente siga pendiente.
 - **Gancho:** la primera frase tiene máximo 10 palabras, con un número o un contraste concreto, y deja una pregunta abierta. Nada de arrancar con contexto ("Una empresa peruana acaba de..."). Ej.: "Vendió 45% más. Y la bolsa lo castigó."
 - **Título del gancho:** sale arriba de la foto en el arranque, debajo del logo: 2-5 palabras, idealmente con el número ("De $140 a $9", "1.000 tiendas por $53M"). Obligatorio.
-- **Cierre (corto, ≈3 s, máx. 15 palabras): UNA sola llamada, nunca dos.** O una **pregunta con bando** que se contesta en una palabra y divide opiniones ("¿Tú le habrías vendido a Gilinski o a los Calleja?", "¿Equipo Adidas o equipo Puma?"), o un **envío dirigido** a una persona concreta ("Mándaselo a quien todavía cree que Totto es italiana"). Los envíos por DM son la señal que más alcance da. Prohibido "Te leo en los comentarios" (relleno) y "comenta SÍ si…" (cebo de interacción, lo castigan). Nada de "síguenos" en la voz: el `caption` termina con la pregunta y la línea "Síguenos: cada día contamos una decisión que cambió una empresa." La tarjeta final (foto + @ del narrador) la pone el render solo si existe `public/marca/<narrador>.jpg`.
+- **Cierre (corto, ≈3 s, máx. 15 palabras): UNA sola llamada, nunca dos.** En la serie de dueños de John, la pregunta por la próxima marca (ver lineamientos). Si no, una **pregunta con bando** que se contesta en una palabra y divide opiniones ("¿Tú le habrías vendido a Gilinski o a los Calleja?", "¿Equipo Adidas o equipo Puma?"), o un **envío dirigido** a una persona concreta ("Mándaselo a quien todavía cree que Totto es italiana"). Los envíos por DM son la señal que más alcance da. Prohibido "Te leo en los comentarios" (relleno) y "comenta SÍ si…" (cebo de interacción, lo castigan). Nada de "síguenos" en la voz: el `caption` termina con la pregunta y la línea "Síguenos: cada día contamos una decisión que cambió una empresa." La tarjeta final (foto + @ del narrador) la pone el render solo si existe `public/marca/<narrador>.jpg`.
 - **No uses frases fijas.** Prohibido "La lección es esta". Varía cómo llegas a la lección: una pregunta ("¿Qué falló?"), un contraste ("No fue el producto. Fue el precio."), una regla corta ("Volumen sin margen es frágil."). Varía también el arranque de cada bloque entre videos.
 
 ## Retención (meta: ≥30 % ve el video completo)
 
 En la cuenta, lo que más predice el alcance es el porcentaje que ve el video completo (los que pegaron estuvieron en 22-24 %, la mediana en 12 %). Casi todos pierden gente en los segundos 1-2. Reglas:
-1. **Corto:** 80-100 palabras, 7-9 escenas de 1-2 frases. Nada de contexto antes de la tensión: el contexto cabe en una frase.
+1. **Corto:** 80-100 palabras, 7-9 escenas de 1-2 frases (Sebastián; John va a más de 1:00 con un giro cada ~15 s). Nada de contexto antes de la tensión: el contexto cabe en una frase.
 2. **Gancho que promete y no paga todavía:** la primera frase (≤10 palabras) plantea el dato o la pregunta; **la respuesta completa llega en el último 20 % del video**. Ej.: no "Ara no es colombiana. Es portuguesa." sino "Ara no es colombiana. Y su dueño manda en Polonia." … y "portuguesa" se revela al final.
 3. **Un dato nuevo cada 3-4 s:** cifra, nombre, fecha o giro. Si una frase no aporta nada nuevo, se borra.
 4. **Giro a la mitad** ("Pero…", "Lo curioso:") para retener el bajón del segundo 15-20.
@@ -89,7 +103,7 @@ En el formato mixto, cada escena abre con la foto y luego entra el gráfico sobr
 
 ## Texto para publicar
 
-- `caption`: ≤1.800 caracteres. **Mini-artículo** (estilo documental): 3-5 párrafos cortos con las cifras, fechas y citas del video, cada dato con su fuente ("según Forbes"), una línea final `Fuentes: medio (fecha), …` y termina con la pregunta del cierre. Si es una serie, primera línea "Parte N de M · …". El pipeline agrega solo el crédito de fotos y los hashtags.
+- `caption`: ≤1.800 caracteres. **Mini-artículo** (estilo documental): 3-5 párrafos cortos con las cifras, fechas y citas del video, cada dato con su fuente ("según Forbes"), una línea final `Fuentes: medio (fecha), …` y termina con la pregunta del cierre. Si es una serie, primera línea "Parte N de M · …". En John, la primera línea es la frase de búsqueda ("¿Quién es el dueño de X?"). El pipeline agrega solo el crédito de fotos y los hashtags.
 - `hashtags`: 5-8, mezcla de amplios (#negocios #emprendimiento) y específicos del tema.
 - `destacar`: 1-3 palabras por escena que salen en serif dorada en los subtítulos (números, la palabra clave).
 
@@ -106,7 +120,7 @@ Ejemplo completo: `guiones/2026-11-05-kodak-camara-digital.json`.
 
 Es el estilo por defecto desde el 14-nov (push o workflow_dispatch). Cada escena alterna fotos y piezas; un cambio de plano cada 1,5-2 s.
 
-Fórmula del guion: **gancho** con el dato que nadie cuenta (cifra concreta de una marca que la gente usa) → **desarrollo** como thriller (quién decidió, qué se jugó, qué salió mal) → **cierre** de bolsillo (cómo le toca a quien lo ve) + pregunta. 45-60 s.
+Fórmula del guion: **gancho** con el dato que nadie cuenta (cifra concreta de una marca que la gente usa) → **desarrollo** como thriller (quién decidió, qué se jugó, qué salió mal) → **cierre** de bolsillo (cómo le toca a quien lo ve) + pregunta. 45-60 s (John: más de 1:00).
 
 Piezas (`motion`) además de `dato`, `contraste` (barras), `titulo` e `iconos`:
 - `mapa`: `{"tipo":"mapa","puntos":[{"lugar":"medellin","etiqueta":"Medellín · Éxito"}],"ruta":true}`. Lugares válidos en `src/lugares.ts` (agregar ahí los que falten).

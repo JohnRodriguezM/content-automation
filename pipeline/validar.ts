@@ -30,7 +30,11 @@ async function main() {
       const malas = etiquetas.filter((t) => !/^\[[a-z ]{2,30}\]$/.test(t));
       if (malas.length) errores.push(`etiquetas de voz mal escritas (deben ir en inglés, minúsculas, entre corchetes): ${malas.join(" ")}`);
       // Tope: 1:30. Según el ritmo del narrador salen entre 2,3 y 3,3 palabras por segundo, así que 210 palabras es el máximo seguro.
-      if (palabras < 70 || palabras > 210) errores.push(`${palabras} palabras de narración (objetivo 80-100, ≈35-40 s; máx. 210 para no pasar de 1:30)`);
+      if (g.narrador === "john" && g.id >= "2026-11-30") {
+        // Desde la tanda del 30-nov, John publica videos de más de 1 minuto: con 2,8-3,2 palabras/s hacen falta ~185 palabras para pasar de 1:00.
+        if (palabras < 175 || palabras > 210) errores.push(`${palabras} palabras de narración (John: 185-205 para pasar de 1:00 sin llegar a 1:30)`);
+        else if (palabras < 185) avisos.push(`${palabras} palabras: puede quedar por debajo de 1:00; apunta a 185-205`);
+      } else if (palabras < 70 || palabras > 210) errores.push(`${palabras} palabras de narración (objetivo 80-100, ≈35-40 s; máx. 210 para no pasar de 1:30)`);
       else if (palabras > 105) avisos.push(`${palabras} palabras: para retención (meta ≥30 % lo ve completo) apunta a 80-100 (≈35-40 s)`);
       // Gancho: frase corta y título obligatorio
       const gancho = g.escenas.find((e) => e.bloque === "gancho");
