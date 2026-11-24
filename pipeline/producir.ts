@@ -24,7 +24,7 @@ import { execFileSync, spawnSync } from "node:child_process";
 import { rename } from "node:fs/promises";
 import { bundle } from "@remotion/bundler";
 import { renderMedia, renderStill, selectComposition } from "@remotion/renderer";
-import { guionSchema, type Guion, type Timing, type VideoProps } from "../src/schema";
+import { COLA_TARJETA, guionSchema, type Guion, type Timing, type VideoProps } from "../src/schema";
 import { resolverImagenes } from "./imagenes";
 import { estimarTiming, sinEtiquetas, textoNarracion, timingDesdeAlineacion, type Alineacion } from "../src/timing";
 
@@ -310,11 +310,10 @@ async function main() {
   // Tarjeta final de "sígueme" (solo estilo documental): foto en public/marca/<narrador>.jpg + su @
   const PERFILES: Record<string, string> = { john: "@johnjrodriguez_" };
   const fotoPerfil = `marca/${guion.narrador}.jpg`;
-  const conPerfil = doc && Boolean(PERFILES[guion.narrador ?? ""]) && (await existe(path.join(PUBLIC, fotoPerfil)));
-  const perfil = conPerfil ? fotoPerfil : null;
-  const usuario = conPerfil ? PERFILES[guion.narrador!] : null;
-  if (doc) console.log(`  tarjeta final: ${conPerfil ? usuario : "no (falta public/" + fotoPerfil + ")"}`);
-  const total = timing.duracion + (perfil ? 2.8 : 0.6); // mismo cálculo que src/Root.tsx
+  const usuario = doc ? PERFILES[guion.narrador ?? ""] ?? null : null;
+  const perfil = usuario && (await existe(path.join(PUBLIC, fotoPerfil))) ? fotoPerfil : null;
+  if (doc) console.log(`  tarjeta final: ${usuario ? usuario + (perfil ? " con foto" : " sin foto (botón Seguir animado)") : "no"}`);
+  const total = timing.duracion + (usuario ? COLA_TARJETA : 0.6); // mismo cálculo que src/Root.tsx
   if (total > 90) console.log(`  ⚠ dura ${total.toFixed(1)} s con la tarjeta final: pasa de 1:30`);
   if (guion.narrador === "john" && guion.id >= "2026-11-30" && total < 61) console.log(`  ⚠ dura ${total.toFixed(1)} s: John publica videos de más de 1:00 (alarga el guion)`);
   const comp = ({ mixto: "Mixto", documental: "Documental", clasico: "Video", motion: "Motion", tablero: "Tablero" } as const)[estilo];

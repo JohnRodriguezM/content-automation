@@ -125,5 +125,7 @@ export type Timing = {
 };
 
 // efectos: hay librería de sonidos en public/sonidos/ (estilo documental)
-// perfil/usuario: foto y @ del narrador para la tarjeta final de "sígueme" (estilo documental)
+// Segundos que dura la tarjeta final de "sígueme" (estilo documental) al final del video
+export const COLA_TARJETA = 3;
+// perfil/usuario: foto (opcional) y @ del narrador para la tarjeta final de "sígueme" (estilo documental)
 export type VideoProps = { guion: Guion; timing: Timing; audio: string | null; musica: string | null; efectos?: boolean; perfil?: string | null; usuario?: string | null };

@@ -6,7 +6,7 @@ import { MixtoVideo } from "./Mixto";
 import { TableroVideo } from "./Tablero";
 import { DocumentalVideo } from "./Documental";
 import { Portada } from "./Portada";
-import { guionSchema, type VideoProps } from "./schema";
+import { COLA_TARJETA, guionSchema, type VideoProps } from "./schema";
 import ejemplo from "../guiones/2026-11-05-kodak-camara-digital.json";
 import { estimarTiming } from "./timing";
 
@@ -21,7 +21,7 @@ const Root: React.FC = () => {
     durationInFrames: FPS * 10,
     defaultProps: { guion, timing: estimarTiming(guion), audio: null, musica: null } satisfies VideoProps,
     calculateMetadata: ({ props }: { props: VideoProps }) => ({
-      durationInFrames: Math.ceil((props.timing.duracion + (props.perfil ? 2.8 : 0.6)) * FPS), // con tarjeta final, 2,8 s más
+      durationInFrames: Math.ceil((props.timing.duracion + (props.usuario ? COLA_TARJETA : 0.6)) * FPS), // con tarjeta final, COLA_TARJETA s más
     }),
   };
   return (

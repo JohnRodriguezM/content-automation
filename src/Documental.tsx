@@ -14,7 +14,7 @@ import mundo from "world-atlas/countries-50m.json";
 import { LUGARES } from "./lugares";
 import { Credito, Textura, norm } from "./Video";
 import { Destello, FiltrosMovimiento, Grade, Salida, barrido, desenfoqueX, velocidad, volumenMusica } from "./Efectos";
-import type { Escena, Imagen, Motion, Palabra, VideoProps } from "./schema";
+import { COLA_TARJETA, type Escena, type Imagen, type Motion, type Palabra, type VideoProps } from "./schema";
 
 /**
  * Estilo documental "premium": cambios de plano cada 1,5-2 s alternando fotos de archivo con
@@ -502,24 +502,64 @@ const Persona: React.FC<{ nombre: string; cargo: string }> = ({ nombre, cargo })
 };
 
 /** Tarjeta final: foto y @ del narrador para que lo sigan. */
-const TarjetaFinal: React.FC<{ foto: string; usuario: string }> = ({ foto, usuario }) => {
+/** Tarjeta final de "sígueme". Con foto del narrador: foto + @. Sin foto: botón "Seguir" que se toca y pasa a "Siguiendo". */
+const TarjetaFinal: React.FC<{ foto: string | null; usuario: string; efectos?: boolean }> = ({ foto, usuario, efectos }) => {
   const f = useCurrentFrame();
   const e = salida(f / 10);
-  const pulso = 1 + 0.06 * Math.max(0, Math.sin((f - 14) / 5));
-  return (
-    <AbsoluteFill style={{ background: "rgba(8,10,14,0.78)", backdropFilter: "blur(16px)", justifyContent: "center", alignItems: "center", opacity: Math.min(1, f / 6) }}>
-      <div style={{ transform: `scale(${interpolate(e, [0, 1], [0.88, 1])})`, width: 600, padding: "56px 40px 60px", borderRadius: 40, background: "#15171c", border: "2px solid rgba(255,255,255,0.08)", display: "flex", flexDirection: "column", alignItems: "center", boxShadow: "0 30px 80px rgba(0,0,0,0.5)" }}>
-        <div style={{ fontFamily: GRUESA, fontWeight: 500, fontSize: 56, color: "#fff", marginBottom: 36 }}>{usuario}</div>
-        <div style={{ position: "relative", width: 300, height: 300 }}>
-          <div style={{ width: 300, height: 300, borderRadius: 150, overflow: "hidden", border: `8px solid ${AMARILLO}` }}>
-            <Img src={src(foto)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+  if (foto) {
+    const pulso = 1 + 0.06 * Math.max(0, Math.sin((f - 14) / 5));
+    return (
+      <AbsoluteFill style={{ background: "rgba(8,10,14,0.78)", backdropFilter: "blur(16px)", justifyContent: "center", alignItems: "center", opacity: Math.min(1, f / 6) }}>
+        <div style={{ transform: `scale(${interpolate(e, [0, 1], [0.88, 1])})`, width: 600, padding: "56px 40px 60px", borderRadius: 40, background: "#15171c", border: "2px solid rgba(255,255,255,0.08)", display: "flex", flexDirection: "column", alignItems: "center", boxShadow: "0 30px 80px rgba(0,0,0,0.5)" }}>
+          <div style={{ fontFamily: GRUESA, fontWeight: 500, fontSize: 56, color: "#fff", marginBottom: 36 }}>{usuario}</div>
+          <div style={{ position: "relative", width: 300, height: 300 }}>
+            <div style={{ width: 300, height: 300, borderRadius: 150, overflow: "hidden", border: `8px solid ${AMARILLO}` }}>
+              <Img src={src(foto)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+            </div>
+            <div style={{ position: "absolute", left: 108, bottom: -38, width: 84, height: 84, borderRadius: 42, background: ROJO, border: "6px solid #15171c", display: "flex", alignItems: "center", justifyContent: "center", transform: `scale(${pulso})` }}>
+              <div style={{ fontFamily: GRUESA, fontWeight: 700, fontSize: 64, color: "#fff", lineHeight: 1, marginTop: -6 }}>+</div>
+            </div>
           </div>
-          <div style={{ position: "absolute", left: 108, bottom: -38, width: 84, height: 84, borderRadius: 42, background: ROJO, border: "6px solid #15171c", display: "flex", alignItems: "center", justifyContent: "center", transform: `scale(${pulso})` }}>
-            <div style={{ fontFamily: GRUESA, fontWeight: 700, fontSize: 64, color: "#fff", lineHeight: 1, marginTop: -6 }}>+</div>
-          </div>
+          <div style={{ fontFamily: MONO, fontWeight: 500, fontSize: 28, color: "rgba(255,255,255,0.75)", marginTop: 66, textAlign: "center", lineHeight: 1.35 }}>Una historia de negocios<br />cada día</div>
         </div>
-        <div style={{ fontFamily: MONO, fontWeight: 500, fontSize: 28, color: "rgba(255,255,255,0.75)", marginTop: 66, textAlign: "center", lineHeight: 1.35 }}>Una historia de negocios<br />cada día</div>
+      </AbsoluteFill>
+    );
+  }
+  // Sin foto: el dedo entra, toca "Seguir" (cuadro TOQUE) y el botón pasa a "Siguiendo ✓"
+  const TOQUE = 40;
+  const tocado = f >= TOQUE;
+  const marca = salida((f - 4) / 12); // la "?" de la serie entra girando
+  const dedoX = interpolate(f, [12, TOQUE - 6], [300, 40], { ...clamp, easing: Easing.out(Easing.cubic) });
+  const dedoY = interpolate(f, [12, TOQUE - 6], [260, 34], { ...clamp, easing: Easing.out(Easing.cubic) });
+  const presion = f >= TOQUE - 4 && f < TOQUE + 4 ? 0.82 : 1;
+  const dedoO = interpolate(f, [12, 18, TOQUE + 10, TOQUE + 18], [0, 1, 1, 0], clamp);
+  const onda = salida((f - TOQUE) / 14);
+  const rebote = tocado ? 1 + 0.12 * Math.sin(Math.min(1, (f - TOQUE) / 10) * Math.PI) : 1 + 0.035 * Math.sin(f / 4);
+  const linea2 = salida((f - TOQUE - 6) / 12);
+  return (
+    <AbsoluteFill style={{ background: "rgba(8,10,14,0.8)", backdropFilter: "blur(18px)", justifyContent: "center", alignItems: "center", opacity: Math.min(1, f / 6) }}>
+      <div style={{ transform: `scale(${interpolate(e, [0, 1], [0.86, 1])}) translateY(${interpolate(e, [0, 1], [40, 0])}px)`, width: 760, padding: "64px 48px 70px", borderRadius: 44, background: "#15171c", border: "2px solid rgba(255,255,255,0.08)", display: "flex", flexDirection: "column", alignItems: "center", boxShadow: "0 30px 80px rgba(0,0,0,0.5)" }}>
+        <div style={{ width: 210, height: 210, borderRadius: 105, background: AMARILLO, display: "flex", alignItems: "center", justifyContent: "center", transform: `scale(${marca}) rotate(${interpolate(marca, [0, 1], [-90, 0])}deg)`, boxShadow: "0 0 0 10px rgba(255,212,59,0.18)" }}>
+          <div style={{ fontFamily: GRUESA, fontWeight: 700, fontSize: 150, color: "#111", lineHeight: 1, marginTop: -8 }}>?</div>
+        </div>
+        <div style={{ fontFamily: GRUESA, fontWeight: 500, fontSize: 62, color: "#fff", marginTop: 40 }}>{usuario}</div>
+        <div style={{ fontFamily: MONO, fontWeight: 500, fontSize: 30, color: "rgba(255,255,255,0.78)", marginTop: 14, textAlign: "center", lineHeight: 1.35 }}>
+          Quién es el dueño de<br />las marcas que usas
+        </div>
+        <div style={{ position: "relative", marginTop: 48 }}>
+          {tocado && (
+            <div style={{ position: "absolute", left: "50%", top: "50%", width: 440, height: 440, marginLeft: -220, marginTop: -220, borderRadius: 220, border: `6px solid ${AMARILLO}`, opacity: 1 - onda, transform: `scale(${interpolate(onda, [0, 1], [0.3, 1.25])})` }} />
+          )}
+          <div style={{ minWidth: 440, padding: "26px 56px", borderRadius: 22, background: tocado ? "#2a2d35" : ROJO, display: "flex", alignItems: "center", justifyContent: "center", gap: 18, transform: `scale(${rebote})`, boxShadow: tocado ? "none" : "0 12px 40px rgba(229,55,43,0.45)" }}>
+            <div style={{ fontFamily: GRUESA, fontWeight: 700, fontSize: 64, color: "#fff", lineHeight: 1 }}>{tocado ? "✓" : "+"}</div>
+            <div style={{ fontFamily: GRUESA, fontWeight: 600, fontSize: 58, color: "#fff", lineHeight: 1, letterSpacing: 1 }}>{tocado ? "Siguiendo" : "Seguir"}</div>
+          </div>
+          {/* dedo: círculo de toque */}
+          <div style={{ position: "absolute", left: "50%", top: "50%", width: 96, height: 96, marginLeft: -48 + dedoX, marginTop: -48 + dedoY, borderRadius: 48, background: "rgba(255,255,255,0.85)", border: "6px solid rgba(255,255,255,0.35)", opacity: dedoO, transform: `scale(${presion})`, boxShadow: "0 8px 30px rgba(0,0,0,0.45)" }} />
+        </div>
+        <div style={{ fontFamily: MONO, fontWeight: 500, fontSize: 30, color: AMARILLO, marginTop: 40, opacity: linea2, transform: `translateY(${interpolate(linea2, [0, 1], [16, 0])}px)` }}>Una marca nueva cada día</div>
       </div>
+      <Sfx n="ping" v={0.35} on={efectos} desde={TOQUE} />
     </AbsoluteFill>
   );
 };
@@ -699,7 +739,7 @@ export const DocumentalVideo: React.FC<VideoProps> = ({ guion, timing, audio, mu
     return { x0: k > 0 ? xDe(k - 1) : xDe(0) - 60, x1: xDe(k), texto: guion.escenas[i].fecha! };
   };
   const tituloHasta = guion.escenas[0].titulo ? Math.min(TITULO_CUADROS, rango(0).dur) - 4 : 0;
-  const cola = perfil && usuario ? Math.round(2.8 * fps) : 0;
+  const cola = usuario ? Math.round(COLA_TARJETA * fps) : 0;
   const volumen = React.useMemo(() => volumenMusica(timing.palabras, fps, durationInFrames), [timing.palabras, fps, durationInFrames]);
   // Subida de tensión que termina justo en la revelación (primer bloque "aprendizaje")
   const revela = guion.escenas.findIndex((e) => e.bloque === "aprendizaje");
@@ -724,7 +764,7 @@ export const DocumentalVideo: React.FC<VideoProps> = ({ guion, timing, audio, mu
       <Subs palabras={timing.palabras} destacar={destacar} desde={tituloHasta} />
       {cola > 0 && (
         <Sequence from={durationInFrames - cola}>
-          <TarjetaFinal foto={perfil!} usuario={usuario!} />
+          <TarjetaFinal foto={perfil ?? null} usuario={usuario!} efectos={efectos} />
           <Sfx n="swish" v={0.3} on={efectos} />
         </Sequence>
       )}
